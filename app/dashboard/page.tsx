@@ -1,20 +1,25 @@
+import Link from "next/link";
 import { logout } from "@/actions/auth";
 import { startSession } from "@/actions/session";
 import { countActive, countDue, countNew } from "@/lib/cards";
 import { get7DayStats } from "@/lib/sessions";
+import { getDrillTopics } from "@/lib/drill";
 
 export const metadata = { title: "Dashboard" };
 export const dynamic = "force-dynamic";
 
 export default async function DashboardPage() {
-  const [due, fresh, active, stats] = await Promise.all([
+  const [due, fresh, active, stats, drillTopics] = await Promise.all([
     countDue(),
     countNew(),
     countActive(),
     get7DayStats(),
+    getDrillTopics(),
   ]);
 
   const hasContent = active > 0;
+  const canDrill = drillTopics.length > 0;
+  const drillAvailable = drillTopics.reduce((s, t) => s + t.introduced, 0);
   const accuracy =
     stats.cards_gradeable > 0
       ? Math.round((stats.cards_correct / stats.cards_gradeable) * 100)
@@ -45,18 +50,33 @@ export default async function DashboardPage() {
             <span className="ml-1.5 text-xs text-zinc-500">nouvelles</span>
           </div>
         </div>
-        <form action={startSession} className="mt-6">
-          <button
-            type="submit"
-            disabled={!hasContent}
-            className="inline-flex items-center justify-center rounded-xl bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-200"
-          >
-            Commencer (2 min)
-          </button>
-        </form>
+        <div className="mt-6 flex flex-wrap gap-3">
+          <form action={startSession}>
+            <button
+              type="submit"
+              disabled={!hasContent}
+              className="inline-flex items-center justify-center rounded-xl bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-200"
+            >
+              Session d&apos;apprentissage
+            </button>
+          </form>
+          {canDrill && (
+            <Link
+              href="/drill"
+              className="inline-flex items-center justify-center rounded-xl border border-zinc-300 bg-white px-5 py-2.5 text-sm font-medium text-zinc-800 transition hover:border-zinc-500 hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-200 dark:hover:border-zinc-500 dark:hover:bg-zinc-900"
+            >
+              Entraînement <span className="ml-1 text-zinc-400">({drillAvailable} dispo)</span>
+            </Link>
+          )}
+        </div>
         {!hasContent && (
           <p className="mt-3 text-xs text-zinc-500 dark:text-zinc-400">
             Aucune carte active. Lance <code className="font-mono">npm run db:seed</code>.
+          </p>
+        )}
+        {hasContent && !canDrill && (
+          <p className="mt-3 text-xs text-zinc-500 dark:text-zinc-400">
+            Entraînement disponible après ta première session d&apos;apprentissage.
           </p>
         )}
       </section>
