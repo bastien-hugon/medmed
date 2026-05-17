@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
     "version": "2012 updated 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Pain_distribution_primary_headache_types.png/960px-Pain_distribution_primary_headache_types.png",
+      "alt": "Trois silhouettes de tête montrant la topographie de la douleur des trois céphalées primaires : tension (bandeau bilatéral), migraine (hémicrânie), algie vasculaire (péri-orbitaire unilatérale).",
+      "caption": "Topographie typique des trois céphalées primaires : tension en casque bilatéral, migraine hémicrânienne, AVF péri-orbitaire stricte.",
+      "attribution": "Image: Wikimedia Commons — Jairo Hernandez et al., CC BY 4.0."
+    }
+  ]
 }

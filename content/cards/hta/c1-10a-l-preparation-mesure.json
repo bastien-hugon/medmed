@@ -14,5 +14,14 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
     "version": "2016 - mise à jour 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "   Checklist avant de mesurer la PA\n\n   [ ]  Assis, dos calé, jambes décroisées       (≥ 3-5 min)\n   [ ]  Vessie vide\n   [ ]  Pas de café, pas de tabac                (30 min avant)\n   [ ]  Pièce calme, température normale\n   [ ]  On ne parle pas pendant la mesure\n   [ ]  Bras nu, posé à hauteur du cœur\n   [ ]  Manchette adaptée à la circonférence du bras\n\n   Sinon → PA faussement haute (+10 à +20 mmHg)\n          → risque de fausse étiquette « hypertendu »",
+      "alt": "Checklist ASCII des conditions à respecter avant la mesure de la pression artérielle.",
+      "caption": "Sept conditions à respecter. Une oubliée = +10 à +20 mmHg pour rien.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
 }

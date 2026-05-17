@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://fr.wikipedia.org/wiki/Gardasil",
     "version": "consulté en 2026-05"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  SCHÉMA VACCINAL HPV (Gardasil 9, France)\n\n  Âge à la 1ère dose      Doses    Calendrier\n  ──────────────────────  ───────  ────────────────────\n  11 à 14 ans inclus      2        M0 ──── M6\n  15 ans et plus          3        M0 ── M2 ──── M6\n  ──────────────────────  ───────  ────────────────────\n  Rattrapage : jusqu'à 19 ans (tous)\n              jusqu'à 26 ans (HSH)\n\n  Concerne FILLES ET GARÇONS depuis 2021.\n  Le vaccin ne dispense PAS du frottis / test HPV.",
+      "alt": "Schéma vaccinal HPV ASCII : 2 doses à M0 et M6 entre 11 et 14 ans ; 3 doses à M0, M2 et M6 à partir de 15 ans. Rattrapage jusqu'à 19 ans (26 pour HSH). Concerne filles et garçons.",
+      "caption": "Avant 15 ans : 2 doses suffisent. À partir de 15 ans : 3 doses. Filles ET garçons.",
+      "attribution": "ASCII: medmed, schéma original (calendrier vaccinal français)"
+    }
+  ]
 }

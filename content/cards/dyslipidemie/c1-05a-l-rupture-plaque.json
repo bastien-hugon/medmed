@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
     "version": "2023"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Blausen_0463_HeartAttack.png",
+      "alt": "Schéma d'un infarctus du myocarde : plaque rompue dans une coronaire, caillot occlusif, zone de muscle cardiaque nécrosée en aval",
+      "caption": "Plaque qui se rompt dans une coronaire : un caillot se forme, l'artère se bouche, le muscle cardiaque en aval meurt = infarctus.",
+      "attribution": "Image: Wikimedia Commons — Blausen Medical Communications, CC BY 3.0."
+    }
+  ]
 }

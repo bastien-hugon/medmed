@@ -1,5 +1,5 @@
 import { db } from "./db";
-import type { Card } from "./schemas";
+import type { Card, Media } from "./schemas";
 
 export type CardRow = {
   id: string;
@@ -12,6 +12,7 @@ export type CardRow = {
   source: Card["source"];
   illness_script_id: string | null;
   extra: Record<string, unknown> | null;
+  media: Media[] | null;
   status: "active" | "pending-review" | "retired";
   due: number | null;
   last_reviewed: number | null;

@@ -14,5 +14,14 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
     "version": "2016 - mise à jour 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "   AU BRAS  (recommandé)         AU POIGNET  (à éviter)\n\n      épaule                            épaule\n        │                                 │\n        │ ┌────────┐                      │\n        │═│ ▓▓▓▓▓▓ │═  ← manchette        │\n        │ └────────┘    (biceps,          │\n        │                artère           │\n        │                humérale)        │\n       coude                             coude\n        │                                 │\n       avant-bras                        avant-bras\n        │                                 │\n       poignet                       ═══[▓▓▓]═══  ← bracelet\n                                      (artère radiale,\n                                       petite, mobile)\n\n   → préférer le BRAS : artère plus grosse, mesure plus stable",
+      "alt": "Schéma ASCII comparant le placement d'une manchette sur le bras (au niveau du biceps) et d'un bracelet de tensiomètre au poignet.",
+      "caption": "Au bras : artère humérale large, mesure fiable. Au poignet : petite artère, sensible à la position, mesures moins fiables.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
 }

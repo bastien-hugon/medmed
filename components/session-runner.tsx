@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { completeSession, submitReview } from "@/actions/session";
 import type { CardRow } from "@/lib/cards";
+import type { Media } from "@/lib/schemas";
 
 type Step = "prompt" | "answer" | "reveal";
 
@@ -277,6 +278,13 @@ function LessonView({
             <p key={i}>{p}</p>
           ))}
         </div>
+        {card.media && card.media.length > 0 && (
+          <div className="mt-5 space-y-4">
+            {card.media.map((m, i) => (
+              <MediaBlock key={i} media={m} />
+            ))}
+          </div>
+        )}
         {card.rationale && card.rationale.trim().length > 0 && (
           <div className="mt-5 rounded-lg bg-zinc-50 p-4 text-sm leading-6 text-zinc-700 dark:bg-zinc-900 dark:text-zinc-300">
             <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-zinc-500">
@@ -317,6 +325,46 @@ function LessonView({
         </button>
       </div>
     </>
+  );
+}
+
+function MediaBlock({ media }: { media: Media }) {
+  if (media.kind === "ascii") {
+    return (
+      <figure className="overflow-x-auto rounded-lg border border-zinc-200 bg-zinc-50 p-4 dark:border-zinc-800 dark:bg-zinc-900">
+        <pre className="whitespace-pre font-mono text-[12px] leading-snug text-zinc-700 dark:text-zinc-200">
+          {media.src}
+        </pre>
+        {(media.caption || media.attribution) && (
+          <figcaption className="mt-3 space-y-1 text-xs text-zinc-500 dark:text-zinc-400">
+            {media.caption && <p>{media.caption}</p>}
+            {media.attribution && (
+              <p className="italic opacity-75">{media.attribution}</p>
+            )}
+          </figcaption>
+        )}
+      </figure>
+    );
+  }
+  // image or diagram
+  return (
+    <figure className="overflow-hidden rounded-lg border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-950">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={media.src}
+        alt={media.alt}
+        className="mx-auto max-h-96 w-full bg-white object-contain p-2 dark:bg-zinc-50"
+        loading="lazy"
+      />
+      {(media.caption || media.attribution) && (
+        <figcaption className="space-y-1 border-t border-zinc-100 px-3 py-2 text-xs text-zinc-500 dark:border-zinc-800 dark:text-zinc-400">
+          {media.caption && <p>{media.caption}</p>}
+          {media.attribution && (
+            <p className="italic opacity-75">{media.attribution}</p>
+          )}
+        </figcaption>
+      )}
+    </figure>
   );
 }
 

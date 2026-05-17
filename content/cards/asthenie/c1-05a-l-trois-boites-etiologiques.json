@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "                       FATIGUE PATHOLOGIQUE\n                              |\n          +-------------------+-------------------+\n          v                   v                   v\n  +---------------+   +---------------+   +-----------------+\n  | 1. ORGANIQUE  |   | 2. PSYCHIQUE  |   | 3. FONCTIONNELLE|\n  +---------------+   +---------------+   +-----------------+\n  | anemie        |   | depression    |   | SFC             |\n  | hypothyroidie |   | anxiete       |   | fibromyalgie    |\n  | diabete       |   | burn-out      |   | fatigue         |\n  | cancer        |   | stress chron. |   |   idiopathique  |\n  | insuff renale |   |               |   |                 |\n  | medicament    |   | anhedonie +++ |   | dx par defaut   |\n  +---------------+   +---------------+   +-----------------+\n        ^                   ^                    ^\n     chercher           chercher            elimine 1 et 2\n      d'abord            ensuite              en dernier",
+      "alt": "Schéma à trois boîtes organisant les étiologies de fatigue (organique, psychique, fonctionnelle) avec exemples et ordre d'investigation.",
+      "caption": "Trois boîtes pour ranger les causes. On explore dans l'ordre : organique, psychique, puis fonctionnelle.",
+      "attribution": "ASCII : medmed, schéma original"
+    }
+  ]
 }

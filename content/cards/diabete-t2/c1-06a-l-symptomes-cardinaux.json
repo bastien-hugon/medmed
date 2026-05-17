@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Main_symptoms_of_diabetes.png",
+      "alt": "Schéma anatomique listant les principaux symptômes du diabète sur une silhouette humaine.",
+      "caption": "Les principaux symptômes du diabète — repère bien les '3 P' : polyurie, polydipsie, perte de poids.",
+      "attribution": "Image : Wikimedia Commons — Mikael Häggström, domaine public."
+    }
+  ]
 }

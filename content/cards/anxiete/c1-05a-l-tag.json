@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
     "version": "2011 partial updates"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "TAG : l'anxiete 'meteo' (fond gris permanent, >= 6 mois)\n\nInquietude\n   ^\n   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   |  bruit de fond continu, multiples sujets\n   |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n   +--|----|----|----|----|----|----|----|----|----->\n      M1   M2   M3   M4   M5   M6   M7   M8     Mois\n      |________________________|\n              >= 6 mois requis\n\nSujets : sante, travail, famille, argent, enfants,\n         meteo, examens, voiture... (multiples)\n\n+ symptomes chroniques : fatigue, tensions musculaires,\n  sommeil pourri, irritabilite, concentration difficile",
+      "alt": "Schema ASCII d'une ligne horizontale ondulee representant un niveau d'anxiete continu sur 6 mois, avec liste des sujets multiples qui inquietent et des symptomes physiques chroniques associes au TAG.",
+      "caption": "TAG = bruit de fond d'inquietude, sur des sujets multiples, pendant >= 6 mois.",
+      "attribution": "ASCII : medmed, schema original"
+    }
+  ]
 }

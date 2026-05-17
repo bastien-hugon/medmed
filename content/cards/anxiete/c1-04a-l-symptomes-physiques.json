@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
     "version": "2011 partial updates"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "Le corps en anxiete (tout vient de l'accelerateur sympathique)\n\n         .-\"\"\"-.      <- tete qui tourne, fourmillements\n        |  o o  |     <- pupilles dilatees, bouche seche\n         '--->-'\n      ___|     |___\n     /  COEUR++   \\   <- tachycardie, palpitations,\n    |  POUMONS++   |     oppression, dyspnee\n    |             |\n     \\  ESTOMAC- /   <- nausees, noeud, diarrhees\n      |  noue   |\n       \\_______/\n       /       \\     <- sueurs, mains moites,\n      / tremble \\        tremblements, tensions\n     /  sueurs   \\       (dos/epaules/machoire)",
+      "alt": "Schema ASCII d'une silhouette humaine de profil avec annotations indiquant les symptomes physiques de l'anxiete : pupilles dilatees, bouche seche, oppression thoracique, tachycardie, dyspnee, sueurs, nausees, tremblements.",
+      "caption": "Les symptomes physiques de l'anxiete : tous causes par l'accelerateur sympathique.",
+      "attribution": "ASCII : medmed, schema original"
+    }
+  ]
 }

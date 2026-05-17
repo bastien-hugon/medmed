@@ -14,5 +14,14 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
     "version": "2016 - mise à jour 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "   Seuil HTA au cabinet : ≥ 140 / 90 mmHg\n\n              Diastolique  < 90        ≥ 90\n   Systolique\n   ─────────────────────────────────────────────\n   < 140                 │  normal  │  HTA\n   ─────────────────────────────────────────────\n   ≥ 140                 │  HTA     │  HTA\n\n   Règle : il SUFFIT qu'UNE des deux dépasse.\n\n   Exemples :\n     130 / 80   → normal\n     145 / 85   → HTA (sys dépasse)\n     130 / 95   → HTA (dia dépasse)\n     160 / 100  → HTA franche",
+      "alt": "Tableau ASCII 2x2 systolique x diastolique montrant qu'un dépassement d'un seul des deux seuils suffit à parler d'HTA.",
+      "caption": "HTA dès qu'UNE valeur dépasse son seuil. Trois cases sur quatre = HTA.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
 }

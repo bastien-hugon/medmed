@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/Kondom.jpg",
+      "alt": "Preservatif masculin deroule, fine barriere de latex destinee a empecher le passage des fluides (sperme, sang, secretions) entre les deux partenaires.",
+      "caption": "Le preservatif : une barriere physique. Si rien ne passe, le microbe ne passe pas. Seul outil 'multi-cibles' (IST + grossesse).",
+      "attribution": "Image: Wikimedia Commons — Flegmus, CC BY-SA 3.0"
+    }
+  ]
 }

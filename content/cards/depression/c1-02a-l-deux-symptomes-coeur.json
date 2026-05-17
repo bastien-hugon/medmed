@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
     "version": "2022"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "             LES 2 SYMPTOMES \"COEUR\" DE L'EDC\n             (au moins UN obligatoire pour parler de depression)\n\n                  +-------------------------+\n                  |                         |\n     HUMEUR       |   EDC                   |   ANHEDONIE\n     TRISTE  -->  |   au moins              | <--  perte du\n     persistante  |   1 sur 2               |      plaisir\n                  |                         |\n                  +-------------------------+\n                              |\n                              v\n               + 4 autres symptomes (sommeil,\n                 appetit, fatigue, concentration,\n                 culpabilite, ralentissement, mort)\n                 = 5/9 total sur >= 2 semaines",
+      "alt": "Diagramme : humeur triste et anhedonie comme noyau du diagnostic, dont au moins un est requis",
+      "caption": "Sans humeur triste OU anhedonie, pas de diagnostic d'EDC",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

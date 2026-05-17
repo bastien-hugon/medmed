@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
     "version": "2012 updated 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/95/Scintillating_scotoma_interpretation.gif",
+      "alt": "Animation reproduisant un scotome scintillant : tache aveugle bordée de lignes en zigzag lumineuses qui s'agrandit progressivement dans le champ visuel.",
+      "caption": "Aura visuelle typique : scotome scintillant en arc de zigzag qui s'étend graduellement (5–60 min), entièrement réversible.",
+      "attribution": "Image: Wikimedia Commons — Mikael Häggström, CC0."
+    }
+  ]
 }

@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  % grossesses à 1 an     PERFECT USE   TYPICAL USE   ÉCART\n  ─────────────────────   ───────────   ───────────   ─────────\n  Implant                     0,05 %        0,05 %    aucun\n  DIU hormonal                 0,2 %         0,2 %    aucun\n  DIU au cuivre                0,6 %         0,8 %    quasi nul\n  Pilule combinée              0,3 %         9 %      × 30\n  Préservatif (externe)         2 %         18 %      × 9\n  Retrait                       4 %         22 %      × 5\n  ─────────────────────   ───────────   ───────────   ─────────\n  Règle : action quotidienne = écart énorme ; LARC = écart nul.",
+      "alt": "Tableau ASCII comparant le pourcentage de grossesses la 1ère année en perfect use vs typical use pour 6 méthodes contraceptives. Les LARC (implant, DIU) ont un écart nul ; la pilule passe de 0,3% à 9%.",
+      "caption": "Plus la méthode demande une action quotidienne, plus l'écart perfect/typical explose.",
+      "attribution": "ASCII: medmed, schéma original (chiffres : Trussell / CDC)"
+    }
+  ]
 }

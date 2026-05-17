@@ -14,5 +14,12 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
     "version": "2019"
-  }
+  },
+  "media": [{
+    "kind": "ascii",
+    "src": "  DISQUE INTERVERTÉBRAL\n\n  Vue de dessus (coupe) :         Annulus fibrosus\n                                  (anneau fibreux solide)\n         ___________                   |\n        ////////////\\\\\\                v\n       //// _______ \\\\\\\\         <-- couche externe\n      ////  ///////  \\\\\\\\\n      |||  | NUCLEUS |  |||      <-- Nucleus pulposus\n      |||  |  (gel)  |  |||          (noyau gélatineux)\n      \\\\\\\\  ¯¯¯¯¯¯¯  ////\n        \\\\\\\\\\\\\\\\\\\\\\\\\\////\n         ¯¯¯¯¯¯¯¯¯¯¯\n\n  Vue latérale entre 2 vertèbres :\n      [ VERTÈBRE ]\n      [~~ disque ~~]   <-- amortisseur (encaisse les chocs)\n      [ VERTÈBRE ]",
+    "alt": "Schéma ASCII d'un disque intervertébral en coupe horizontale (anneau fibreux entourant noyau pulpeux) et en coupe latérale entre deux vertèbres",
+    "caption": "Le disque : un noyau mou (nucleus) retenu par un anneau fibreux solide, coincé entre deux vertèbres comme un amortisseur.",
+    "attribution": "ASCII : medmed, schéma original."
+  }]
 }

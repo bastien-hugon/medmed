@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.fedecardio.org/je-m-informe/le-coeur/",
     "version": "généralités"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/2102_Comparison_of_Artery_and_Vein.jpg",
+      "alt": "Coupe transversale comparée d'une artère et d'une veine montrant l'épaisseur de la paroi musculaire bien plus marquée dans l'artère.",
+      "caption": "Artère (à gauche) : paroi épaisse et musclée pour encaisser la pression du cœur. Veine (à droite) : paroi fine, basse pression.",
+      "attribution": "Wikimedia Commons — OpenStax Anatomy & Physiology, CC BY 4.0"
+    }
+  ]
 }

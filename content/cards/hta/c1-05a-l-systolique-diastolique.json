@@ -14,5 +14,14 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
     "version": "2016 - mise à jour 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  mmHg\n   140 ┤\n   120 ┤   ╭╮         ╭╮         ╭╮     ← SYSTOLIQUE (max)\n   100 ┤  ╱  ╲       ╱  ╲       ╱  ╲       cœur se contracte\n    80 ┤─╯    ╲─────╯    ╲─────╯    ╲──  ← DIASTOLIQUE (min)\n    60 ┤                                   cœur se relâche\n       └──────────────────────────────► temps\n         contraction  relâche  contraction\n\n         PA = 120 / 80 mmHg\n              ↑     ↑\n              haut  bas\n              (sys) (dia)",
+      "alt": "Courbe ASCII de la pression artérielle dans le temps, montrant les pics systoliques et les creux diastoliques.",
+      "caption": "La PA oscille à chaque battement : pic = systolique (cœur pousse), creux = diastolique (cœur se remplit).",
+      "attribution": "medmed, schéma original"
+    }
+  ]
 }

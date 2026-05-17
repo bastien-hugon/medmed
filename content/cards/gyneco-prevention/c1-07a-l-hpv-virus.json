@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://fr.wikipedia.org/wiki/Papillomavirus_humain",
     "version": "consulté en 2026-05"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Hpv16b.gif",
+      "alt": "Reconstitution 3D d'un virion de papillomavirus humain de type 16 (HPV 16), montrant sa capside icosaédrique en forme de balle de golf.",
+      "caption": "Le virion HPV 16 : à lui seul, ce type est responsable d'environ 50 % des cancers du col.",
+      "attribution": "Image: Wikimedia Commons — auteur anonyme, CC BY-SA 3.0"
+    }
+  ]
 }

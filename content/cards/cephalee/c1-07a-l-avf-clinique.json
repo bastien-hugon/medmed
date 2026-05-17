@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
     "version": "2012 updated 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Cluster_headache_svg_hariadhi.svg/960px-Cluster_headache_svg_hariadhi.svg.png",
+      "alt": "Schéma d'un visage montrant les symptômes de l'algie vasculaire de la face : douleur péri-orbitaire unilatérale, œil rouge larmoyant, ptosis et myosis homolatéraux, rhinorrhée et sueur du front du même côté.",
+      "caption": "AVF : douleur péri-orbitaire strictement unilatérale + signes autonomiques homolatéraux (œil rouge, larmoiement, ptosis/myosis, nez bouché).",
+      "attribution": "Image: Wikimedia Commons — Hariadhi, CC BY-SA 4.0."
+    }
+  ]
 }

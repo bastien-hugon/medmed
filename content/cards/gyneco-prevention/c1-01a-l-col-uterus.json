@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "diagram",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Cervix_checkup_%28no_description%29.svg",
+      "alt": "Schéma en coupe sagittale du petit bassin féminin montrant l'utérus en forme de poire, le col de l'utérus (cylindre étroit en bas de l'utérus) et le vagin.",
+      "caption": "L'utérus = la poire ; le col = le cylindre qui fait la jonction avec le vagin.",
+      "attribution": "Image: Wikimedia Commons — auteur anonyme, CC BY-SA 3.0"
+    }
+  ]
 }

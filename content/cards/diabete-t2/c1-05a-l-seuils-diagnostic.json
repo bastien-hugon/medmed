@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  +------------------------+----------+-------------+----------------+\n  | Examen                 | Normal   | Predibete   | Diabete        |\n  +------------------------+----------+-------------+----------------+\n  | Glycemie a jeun (g/L)  | < 1,10   | 1,10 - 1,25 | >= 1,26  (x2)  |\n  | HbA1c (%)              | < 5,7    | 5,7  - 6,4  | >= 6,5   (x2)  |\n  | Glycemie aleatoire     |   -      |     -       | >= 2,0 + sympt |\n  +------------------------+----------+-------------+----------------+\n\n  Une seule porte suffit. Confirmer par 2e mesure SAUF si symptomes + 2 g/L.",
+      "alt": "Tableau ASCII des trois seuils diagnostiques du diabète : glycémie à jeun, HbA1c et glycémie aléatoire.",
+      "caption": "Trois portes d'entrée vers le diagnostic — 1,26 g/L à jeun, 6,5 % d'HbA1c, ou 2,0 g/L avec symptômes.",
+      "attribution": "medmed, schéma original — seuils OMS / HAS 2024"
+    }
+  ]
 }

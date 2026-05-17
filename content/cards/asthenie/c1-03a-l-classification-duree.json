@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  DEPUIS QUAND ?\n\n  0 --------- 1 mois --------- 6 mois ---------> temps\n  |              |                |\n  | [ RECENTE  ] | [ PROLONGEE  ] | [   CHRONIQUE   ]\n  |   < 1 mois   |   1 - 6 mois   |     > 6 mois\n  |              |                |\n  v              v                v\n  Plutot :       Plutot :         Plutot :\n   - infection    - cause          - depression\n   - medicament    organique        - tr. sommeil\n     recent        en cours          chronique\n   - stress      - bilan a          - SFC, fibro\n     aigu          completer\n\n  La duree NE DONNE PAS le diagnostic : elle AIGUILLE l'enquete.",
+      "alt": "Timeline ASCII des trois catégories de fatigue selon la durée (récente, prolongée, chronique) avec causes typiques associées.",
+      "caption": "Trois cases temporelles : < 1 mois, 1-6 mois, > 6 mois — un panneau d'aiguillage.",
+      "attribution": "ASCII : medmed, schéma original"
+    }
+  ]
 }

@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "                IST                   |   MST\n                (Infection)           |   (Maladie)\n  --------------------------------------+----------------------\n  Microbe present dans le corps        |  Symptomes ou\n                                       |  complications visibles\n  Souvent silencieux                   |  Maladie declaree\n  Detecte par depistage                |  Diagnostique sur\n  (prise de sang, NAAT)                |  signes cliniques\n  --------------------------------------+----------------------\n  Ex: chlamydia portee sans symptome   |  Ex: chlamydia ->\n                                       |  douleur pelvienne +\n                                       |  fievre (salpingite)\n\n  Terme actuel (depuis ~2015) : IST. On insiste sur le\n  silencieux pour justifier le depistage systematique.",
+      "alt": "Tableau comparatif IST (infection portee, souvent silencieuse, detectee par depistage) vs MST (maladie declaree avec symptomes ou complications).",
+      "caption": "IST = microbe present. MST = maladie declaree. On dit aujourd'hui IST pour rappeler que la majorite est silencieuse.",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

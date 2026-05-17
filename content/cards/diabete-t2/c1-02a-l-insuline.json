@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "        glucose  o                       glucose  o\n                  \\                              |\n   INSULINE       o\\                             v\n   (la cle)        o\\          ====>     +----[ porte ]----+\n                    o\\                   |                 |\n                  +--==--+                |   CELLULE       |\n     +============| RECEPT|=======+        |   (le glucose   |\n     |  CELLULE   +-------+      |        |   peut entrer)  |\n     +============================+        +-----------------+\n        porte FERMEE                          porte OUVERTE\n\n   Pas d'insuline ou recepteur sourd => glucose reste dehors = DIABETE",
+      "alt": "Schéma ASCII clé-serrure : l'insuline ouvre le récepteur de la cellule pour laisser entrer le glucose.",
+      "caption": "L'insuline (la clé) ouvre la serrure de la cellule pour laisser entrer le glucose.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
 }

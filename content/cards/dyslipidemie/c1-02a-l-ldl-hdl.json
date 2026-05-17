@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
     "version": "2023"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  LDL  -- le camion qui DEPOSE (mauvais si trop)\n  ____________\n  |  *  *  * |___\n  |__LDL_____|   \\         drop  drop  drop\n   (O)----(O)     >  ===>   v     v     v\n  ============================================  artere\n                                             \\\n                                              plaque qui grossit\n\n  HDL  -- le camion-poubelle qui RAMASSE (bon)\n                       pick  pick  pick\n                        ^     ^     ^\n  ============================================  artere\n   (O)----(O)     <  ===\n  |__HDL_____|   /\n  |   [ ]    |__/\n  ------------         retour vers le foie",
+      "alt": "Schéma ASCII : LDL = camion qui dépose du cholestérol dans l'artère, HDL = camion-poubelle qui le ramasse",
+      "caption": "LDL dépose (mauvais) - HDL ramasse (bon). Mémoriser le sens des flèches.",
+      "attribution": "ASCII: medmed, schéma original."
+    }
+  ]
 }

@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
     "version": "2023"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Triglyceride_Structural_Formulae_V.1.png/960px-Triglyceride_Structural_Formulae_V.1.png",
+      "alt": "Formule structurelle d'un triglycéride : un glycérol relié à trois acides gras",
+      "caption": "Un triglycéride = un glycérol (gauche) + trois acides gras (droite). La forme de stockage de l'énergie.",
+      "attribution": "Image: Wikimedia Commons — Jü, domaine public."
+    }
+  ]
 }

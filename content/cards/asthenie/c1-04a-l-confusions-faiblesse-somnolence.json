@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  \"JE SUIS FATIGUE\" -> 4 sens possibles, 4 pistes differentes :\n\n  +------------------+--------------------------+-----------------------+\n  | Ce qu'il dit     | Ce qu'il ressent         | Piste a explorer      |\n  +------------------+--------------------------+-----------------------+\n  | Fatigue (vraie)  | \"J'ai envie de rien\"     | Asthenie : 3 boites   |\n  | Faiblesse        | \"Mes jambes lachent\"     | Neuro / musculaire    |\n  | Somnolence       | \"Je m'endors en journee\" | Sommeil (apnees +++)  |\n  | Dyspnee d'effort | \"Essouffle a 2 etages\"   | Coeur / poumon        |\n  +------------------+--------------------------+-----------------------+\n\n  Reflexe : \"Quand vous dites fatigue, qu'est-ce qui vous arrive\n            PRECISEMENT au quotidien ?\"  -> exemples concrets.",
+      "alt": "Tableau ASCII des 4 sens possibles du mot fatigue (asthénie, faiblesse, somnolence, dyspnée) avec les pistes diagnostiques associées.",
+      "caption": "Quatre mots cachés derrière \"fatigué\" — chacun ouvre une enquête différente.",
+      "attribution": "ASCII : medmed, schéma original"
+    }
+  ]
 }

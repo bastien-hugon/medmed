@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "    SANG (autoroute)             CELLULES (usines)\n  ============================       +----------+\n   o   o   o   o   o   o    ----->  |  muscle  |\n      o   o   o   o   o     ----->  |  cerveau |\n   o   o   o   o   o   o    ----->  |  coeur   |\n  ============================       +----------+\n   o = glucose (carburant)         (consomment le glucose)\n\n  Pain, pates, fruits ---digestion---> glucose dans le sang",
+      "alt": "Schéma ASCII : le sang transporte le glucose vers les cellules qui le consomment comme carburant.",
+      "caption": "Le glucose circule dans le sang et alimente toutes les cellules — comme l'essence livrée aux usines.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
 }

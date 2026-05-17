@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
     "version": "2023"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  FACTEURS DE RISQUE CARDIOVASCULAIRE  (ils se MULTIPLIENT)\n\n  +-- NON modifiables ----------------+\n  |  [age]    Age (H>=50, F>=60)      |\n  |  [H/F]    Sexe masculin           |\n  |  [ADN]    Antecedents familiaux   |\n  +-----------------------------------+\n\n  +-- MODIFIABLES (cibles d'action) --+\n  |  [tabac]  Tabagisme               |\n  |  [PA]     HTA  >= 140/90          |\n  |  [sucre]  Diabete                 |\n  |  [LDL]    LDL eleve / HDL bas     |\n  |  [IMC]    Obesite, sedentarite    |\n  |  [OH]     Alcool excessif, stress |\n  +-----------------------------------+\n\n        1 + 1 + 1   !=   3        ->   x x x   (multiplicatif)",
+      "alt": "Liste ASCII des facteurs de risque cardiovasculaire séparés en non modifiables (âge, sexe, antécédents familiaux) et modifiables (tabac, HTA, diabète, LDL, obésité, alcool/stress)",
+      "caption": "FdR CV : non modifiables vs modifiables — ils se MULTIPLIENT, ne s'additionnent pas.",
+      "attribution": "ASCII: medmed, schéma original."
+    }
+  ]
 }

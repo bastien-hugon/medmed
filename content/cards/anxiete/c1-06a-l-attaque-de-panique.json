@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
     "version": "2011 partial updates"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "Attaque de panique : l'anxiete 'orage' (pic bref et violent)\n\nIntensite\n   ^                 /|\n   |  PEUR DE       / |\n   |  MOURIR ----> /  |\n   |              /   |\\\n   |             /    | \\___\n   |            /     |     \\___\n   |___________/      |         \\__________\n   +----------|-------|---------|--------->\n              0    ~10 min   ~20-30 min  Temps\n            debut    PIC       retour calme\n            brutal             + epuisement\n\nTrouble panique = attaques RECURRENTES\n  + peur d'avoir une nouvelle attaque\n    (anxiete anticipatoire)",
+      "alt": "Schema ASCII d'une courbe en pic aigu : montee brutale en quelques minutes jusqu'au pic d'intensite vers 10 minutes, puis descente vers le calme en 20 a 30 minutes, illustrant le profil temporel d'une attaque de panique.",
+      "caption": "Attaque de panique : montee brutale, pic ~10 min, retombee en 20-30 min.",
+      "attribution": "ASCII : medmed, schema original"
+    }
+  ]
 }

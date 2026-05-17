@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.fedecardio.org/je-m-informe/le-coeur/",
     "version": "généralités"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/Anatomy_Heart_English_Tiesworks.jpg",
+      "alt": "Schéma anatomique d'un cœur humain en coupe avec ses quatre cavités (deux oreillettes en haut, deux ventricules en bas) et les gros vaisseaux qui en partent.",
+      "caption": "Le cœur, une pompe à 4 cavités : oreillettes (en haut) reçoivent le sang, ventricules (en bas) le propulsent.",
+      "attribution": "Wikimedia Commons — Tiesworks, domaine public"
+    }
+  ]
 }

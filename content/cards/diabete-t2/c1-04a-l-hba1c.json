@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Glycemie au fil des jours (oscille en permanence)\n     /\\    /\\      /\\  /\\\\    /\\    /\\\n    /  \\  /  \\ /\\ /  \\/  \\/\\ /  \\  /  \\\n   /    \\/    \\/ \\/         /    \\/    \\\n  --------------------------------------->  3 mois\n\n  Globule rouge = eponge qui se sucre lentement (vit ~3 mois)\n  HbA1c (%) = moyenne de l'exposition au sucre sur 3 mois\n\n   < 5,7 %  ........ normal\n   5,7 - 6,4 %  .... predibete\n   >= 6,5 %  ....... diabete",
+      "alt": "Schéma ASCII : la glycémie oscille mais l'HbA1c en garde la moyenne sur 3 mois, avec les seuils diagnostiques.",
+      "caption": "La glycémie change toutes les heures ; l'HbA1c en garde la trace moyenne sur 3 mois — comme une éponge qui absorbe lentement le sucre.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
 }

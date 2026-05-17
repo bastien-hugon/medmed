@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
     "version": "2022"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "   POSER LA QUESTION DU SUICIDE -- arbre de decision\n\n        Suspicion d'EDC en consultation\n                       |\n                       v\n        DEMANDER DIRECTEMENT, CALMEMENT\n        \"Pensez-vous parfois a mettre fin a vos jours ?\"\n                       |\n             +---------+---------+\n             |                   |\n             v                   v\n            NON                 OUI\n             |                   |\n             v                   v\n        On passe a       Creuser : passives/actives ?\n        autre chose      scenario ? moyens ? date ?\n                         -> plan de securite, suivi\n                            rapproche, +/- hospitalisation",
+      "alt": "Arbre de decision pour poser la question des idees suicidaires en consultation",
+      "caption": "Poser la question ne provoque PAS le passage a l'acte -- ne pas poser laisse seul",
+      "attribution": "ASCII: medmed, schema original (NICE 2022, rec 1.2.8)"
+    }
+  ]
 }

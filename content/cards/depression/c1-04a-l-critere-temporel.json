@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
     "version": "2022"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "   CRITERE TEMPOREL DE L'EDC -- les 3 conditions doivent etre reunies\n\n   Semaines :   S1               S2               S3 ...\n                |----------------|----------------|--->\n                <-------- >= 2 semaines consecutives ---->\n\n   Chaque jour :  L  M  M  J  V  S  D\n                  X  X  X  .  X  X  X    -> \"presque tous les jours\"\n\n   Chaque jour :   matin     midi      soir      nuit\n                  [#####################################]\n                   <- \"la plus grande partie de la journee\" ->\n\n   Tristesse normale (fluctue)   :  /\\___/\\__/\\___/\\__\n   EDC (plate, ne remonte pas)   :  __________________\n\n   Piege : 5 jours triste != EDC. Revoir dans 2-3 semaines.",
+      "alt": "Schema des 3 sous-criteres temporels : >= 2 semaines, presque tous les jours, grande partie de la journee",
+      "caption": "Les 3 conditions temporelles doivent etre simultanees pour parler d'EDC",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

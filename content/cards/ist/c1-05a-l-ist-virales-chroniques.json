@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  IST virales chroniques : on contrele, on ne guerit (presque) pas\n\n  Virus      | Ce qu'il fait              | Vaccin | Traitement\n  -----------+----------------------------+--------+-------------------\n  HPV        | verrues genitales,         |  OUI   | (eliminat. spont.\n             | cancers (col, anus, gorge) |        |  ou ttt lesions)\n  -----------+----------------------------+--------+-------------------\n  HSV        | vesicules douloureuses     |  non   | antiviraux pdt\n  (herpes)   | par poussees               |        | les poussees\n  -----------+----------------------------+--------+-------------------\n  VIH        | detruit l'immunite (CD4)   |  non   | ARV a vie\n             | I = I si traite            |        | (I = I)\n  -----------+----------------------------+--------+-------------------\n  Hep. B     | hepatite chronique, cirr., |  OUI   | antiviraux\n             | CHC                        |        | (souvent a vie)\n  Hep. C     | idem                       |  non   | AAD : curatif !",
+      "alt": "Tableau des IST virales chroniques (HPV, HSV, VIH, hepatites B et C) avec effets cliniques, disponibilite d'un vaccin et traitement.",
+      "caption": "4 familles virales chroniques. Vaccin disponible pour HPV et hepatite B uniquement. Hepatite C : pas de vaccin mais traitement curatif.",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

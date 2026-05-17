@@ -14,5 +14,14 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
     "version": "2016 - mise à jour 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "   PA systolique (mmHg) sur 24 h\n\n   160 ┤            ╭─╮\n   140 ┤   ╭────────╯ ╰───╮         pic matinal\n   120 ┤──╯               ╰──╮     ╭──── journée\n   100 ┤                     ╰─────╯\n    80 ┤        ↓ dipping nocturne (-10 à -20 %)\n    60 ┤  ╲___________________╱\n        └──┬───┬───┬───┬───┬───┬──► heures\n           0h  6h  9h  12h 18h 24h\n             ↑       ↑\n           sommeil  réveil + activité\n\n   Effort intense : sys ↑ 180-200 (normal)\n   Stress / émotion : sys ↑ en quelques secondes",
+      "alt": "Courbe ASCII de la pression artérielle sur 24 heures montrant la baisse nocturne (dipping) et le pic matinal au réveil.",
+      "caption": "La PA suit un cycle jour/nuit : -10 à -20 % la nuit (dipping), pic au petit matin. C'est physiologique.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
 }

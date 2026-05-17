@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
     "version": "2012 updated 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "      CEPHALEE DE TENSION -- bandeau bilateral qui serre\n\n            >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n          >>                                          <<\n         >>     _.--~~~~~~~~~~~~~~~~~~~~~--._          <<\n        >>   .-~                              ~-.       <<\n       >>   /        ====================        \\       <<\n       >>  |     === BANDEAU QUI SERRE ===        |      <<\n       >>  |     ===  (les 2 cotes)    ===        |      <<\n        >>  \\        ====================        /       <<\n         >>  `-.        o          o          .-'       <<\n          >>    `~-..__       .       __..-~'         <<\n            >>          `~~~~~~~~~~~~~~'           <<\n              >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n\n   Pas pulsatile  -  Legere a moderee  -  Pas de nausees\n   Effort de routine  -->  pas aggrave",
+      "alt": "Schéma ASCII d'une tête vue de face entourée d'un bandeau symbolisé par des chevrons des deux côtés, illustrant la céphalée de tension en casque bilatéral.",
+      "caption": "Céphalée de tension : un bandeau qui serre des deux côtés, pression non pulsatile, sans nausée.",
+      "attribution": "ASCII: medmed, schéma original."
+    }
+  ]
 }

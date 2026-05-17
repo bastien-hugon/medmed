@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Energie\n   ^\n100|***.        ***.        ***.        ***.            <- physio\n   |    \\      /    \\      /    \\      /    \\\n   |     \\    /      \\    /      \\    /      \\\n 50|      \\  /        \\  /        \\  /        \\___\n   |       \\/          \\/          \\/             \\___   <- patho\n   |       repos        repos       repos             \\__\n  0+-------------------------------------------------------> temps\n      effort       effort       effort       effort\n\n   PHYSIO : chute apres effort -> remonte avec le repos (recuperation).\n   PATHO  : ne remonte pas, ou tres peu, malgre un repos suffisant.\n            Souvent disproportionnee a l'effort + retentit sur la vie.",
+      "alt": "Courbe ASCII opposant la fatigue physiologique (récupère avec le repos) à la fatigue pathologique (reste basse malgré le repos).",
+      "caption": "Physio = la batterie remonte au repos. Patho = elle reste basse.",
+      "attribution": "ASCII : medmed, schéma original"
+    }
+  ]
 }

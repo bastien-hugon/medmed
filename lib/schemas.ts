@@ -25,6 +25,19 @@ export const QcmChoiceSchema = z.object({
   correct: z.boolean(),
 });
 
+// Schéma visuel optionnel attaché à une carte (typiquement une lesson).
+// - "image" : URL externe (Wikipedia Commons recommandé, hotlink OK pour usage perso).
+// - "ascii" : représentation textuelle inline, rendue en <pre>.
+// - "diagram" : URL externe d'un schéma/diagramme didactique (mêmes contraintes que image).
+export const MediaSchema = z.object({
+  kind: z.enum(["image", "ascii", "diagram"]),
+  src: z.string().min(1),
+  alt: z.string().min(1),
+  caption: z.string().optional(),
+  attribution: z.string().optional(),
+});
+export type Media = z.infer<typeof MediaSchema>;
+
 const CardCommon = {
   id: z.string().min(1),
   prompt: z.string().min(1),
@@ -33,6 +46,7 @@ const CardCommon = {
   difficulty: z.union([z.literal(1), z.literal(2), z.literal(3)]),
   source: SourceSchema,
   illness_script_id: z.string().nullable().optional(),
+  media: z.array(MediaSchema).optional(),
   status: z.enum(["active", "pending-review", "retired"]).default("active"),
 };
 

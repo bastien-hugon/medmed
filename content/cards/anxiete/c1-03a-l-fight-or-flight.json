@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
     "version": "2011 partial updates"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/1501_Connections_of_the_Sympathetic_Nervous_System.jpg",
+      "alt": "Schema anatomique des connexions du systeme nerveux sympathique, montrant la chaine ganglionnaire le long de la moelle epiniere et ses innervations vers le coeur, les poumons, le tube digestif, les glandes surrenales (adrenaline) et autres organes.",
+      "caption": "Le systeme sympathique : l'accelerateur du corps, qui declenche la reaction 'fight or flight'.",
+      "attribution": "Image : Wikimedia Commons — OpenStax College / Anatomy & Physiology, CC BY 3.0"
+    }
+  ]
 }

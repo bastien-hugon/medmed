@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Suckale08_fig3_glucose_insulin_day.png",
+      "alt": "Courbe de la glycémie et de l'insuline sur 24 heures chez un sujet sain.",
+      "caption": "Glycémie et insuline oscillent ensemble sur 24 h : chaque repas fait monter la glycémie, l'insuline répond en miroir, le tout reste dans une fourchette étroite.",
+      "attribution": "Image : Wikimedia Commons — Jakob Suckale & Michele Solimena, CC BY 3.0."
+    }
+  ]
 }

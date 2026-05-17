@@ -14,5 +14,12 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
     "version": "2019"
-  }
+  },
+  "media": [{
+    "kind": "ascii",
+    "src": "  CLASSIFICATION DES LOMBALGIES PAR DURÉE (HAS)\n\n   début                4-6 sem            3 mois\n     |                     |                  |\n     v                     v                  v\n   --+---------------------+------------------+----------->  temps\n     |                     |                  |\n     |<----- AIGUË ------->|                  |\n     |       (< 4-6 sem)   |                  |\n     |                     |<--- SUBAIGUË --->|\n     |                     |   (6 sem - 3 mois)\n     |                     |                  |<-- CHRONIQUE\n     |                     |                  |   (> 3 mois)\n\n   90 % guérissent ici         seuil de chronicisation\n   sans rien faire             -> agir AVANT ce seuil",
+    "alt": "Frise chronologique ASCII montrant les trois stades de la lombalgie : aiguë avant 4-6 semaines, subaiguë de 6 semaines à 3 mois, chronique au-delà de 3 mois",
+    "caption": "Le seuil clé : 3 mois. Au-delà, la douleur change de nature — d'où l'importance d'agir avant.",
+    "attribution": "ASCII : medmed, schéma original d'après HAS 2019."
+  }]
 }

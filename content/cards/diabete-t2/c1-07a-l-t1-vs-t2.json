@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  +-----------------+--------------------------+--------------------------+\n  |                 |   TYPE 1                 |   TYPE 2                 |\n  +-----------------+--------------------------+--------------------------+\n  | Mecanisme       | pompe CASSEE             | serrures ROUILLEES       |\n  |                 | (plus d'insuline)        | (insulinoresistance)     |\n  | Age typique     | enfant / ado / < 30 ans  | adulte > 40 ans          |\n  | Morphologie     | souvent mince            | surpoids / obesite       |\n  | Debut           | brutal, francs (3 P)     | progressif, silencieux   |\n  | Traitement      | insuline A VIE           | hygiene -> metformine    |\n  | Frequence       | ~5 %                     | > 95 %                   |\n  +-----------------+--------------------------+--------------------------+",
+      "alt": "Tableau ASCII comparatif entre diabète de type 1 et de type 2 sur six critères.",
+      "caption": "T1 = pompe à insuline cassée. T2 = pompe OK mais serrures rouillées. Tout le reste découle de là.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
 }

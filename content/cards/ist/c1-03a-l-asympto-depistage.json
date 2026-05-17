@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  L'iceberg des IST\n\n             ___/\\___        <-- symptomatiques\n            /  /\\   \\           (ce qu'on voit en\n           /__/  \\___\\           consultation)\n  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ligne de flottaison\n          /            \\\n         /              \\\n        /                \\\n       /  ASYMPTOMATIQUES \\    <-- la majorite des cas\n      /   (ne consultent   \\      (chlamydia, VIH,\n     /     pas, transmettent\\      gonocoque...)\n    /      en silence)       \\\n   /__________________________\\\n\n  -> Attendre les symptomes = rater la majorite.\n  -> D'ou le DEPISTAGE : on cherche chez des gens qui n'ont rien.",
+      "alt": "Schema iceberg : la pointe emergee represente les IST symptomatiques (minorite), la partie immergee represente les IST asymptomatiques (majorite).",
+      "caption": "La majorite des IST sont silencieuses. Le depistage cible la partie immergee de l'iceberg.",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

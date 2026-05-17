@@ -14,5 +14,14 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
     "version": "2016 - mise à jour 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "   mm                                              Repères\n  200 ┤ │                                          HTA sévère\n  180 ┤ │\n  160 ┤ │                                          HTA franche\n  140 ┤ │█ ← colonne pousse jusqu'à 140 mm         seuil HTA\n  120 ┤ │█  (sang pousse contre la colonne          PA normale\n  100 ┤ │█   de mercure verticale)\n   80 ┤ │█                                          diastolique\n   60 ┤ │█\n   40 ┤ │█\n   20 ┤ │█\n    0 └─┴█████████ (réservoir de mercure Hg)",
+      "alt": "Schéma ASCII d'une colonne verticale graduée en millimètres, montrant le mercure qui monte sous la pression du sang.",
+      "caption": "Le sang pousse → le mercure monte. 120 mm de hauteur = 120 mmHg. L'unité est restée même après le retrait du mercure des appareils.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
 }

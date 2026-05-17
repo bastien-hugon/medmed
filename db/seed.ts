@@ -52,13 +52,14 @@ async function upsertCard(card: Card): Promise<"inserted" | "updated"> {
   const now = Date.now();
   const extra = extraFor(card);
   const expected = expectedFor(card);
+  const media = card.media && card.media.length > 0 ? card.media : null;
 
   const existing = (await sql`SELECT id FROM cards WHERE id = ${card.id}`) as Array<{ id: string }>;
 
   await sql`
     INSERT INTO cards (
       id, kind, prompt, expected, rationale, tags, difficulty, source,
-      illness_script_id, extra, status, created_at, updated_at
+      illness_script_id, extra, media, status, created_at, updated_at
     )
     VALUES (
       ${card.id}, ${card.kind}, ${card.prompt},
@@ -67,6 +68,7 @@ async function upsertCard(card: Card): Promise<"inserted" | "updated"> {
       ${JSON.stringify(card.source)}::jsonb,
       ${card.illness_script_id ?? null},
       ${extra ? JSON.stringify(extra) : null}::jsonb,
+      ${media ? JSON.stringify(media) : null}::jsonb,
       ${card.status ?? "active"}, ${now}, ${now}
     )
     ON CONFLICT (id) DO UPDATE SET
@@ -79,6 +81,7 @@ async function upsertCard(card: Card): Promise<"inserted" | "updated"> {
       source = EXCLUDED.source,
       illness_script_id = EXCLUDED.illness_script_id,
       extra = EXCLUDED.extra,
+      media = EXCLUDED.media,
       status = EXCLUDED.status,
       updated_at = EXCLUDED.updated_at
   `;

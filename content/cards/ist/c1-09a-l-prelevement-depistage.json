@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
     "version": "2021"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  3 types de prelevement pour le bilan IST\n\n  Prelevement | Sites          | IST cherchees           | Methode\n  ------------+----------------+-------------------------+-----------\n  SANG        | pli du coude   | VIH, syphilis,          | serologie\n              |                | hepatites B et C        | (Ag/Ac)\n  ------------+----------------+-------------------------+-----------\n  URINES      | 1er jet uniqt  | chlamydia, gonocoque    | NAAT\n              | (pas d'urine   | (homme surtout)         | (ADN)\n              | depuis 1-2 h)  |                         |\n  ------------+----------------+-------------------------+-----------\n  ECOUVILLON  | vagin (auto+), | chlamydia, gonocoque    | NAAT\n  (muqueux)   | col, uretre,   | (femme, sites extra-    | (ADN)\n              | rectum, gorge  | genitaux chez HSH)      |\n\n  Piege classique : 'prise de sang IST' ne couvre PAS\n  chlamydia ni gonocoque -> il faut urines ou ecouvillon.",
+      "alt": "Tableau des 3 types de prelevements pour depistage IST (sang, urines, ecouvillon) avec sites, IST cherchees et methode (serologie ou NAAT).",
+      "caption": "3 prelevements selon la cible. Prise de sang = VIH/syphilis/hepatites. Urines ou ecouvillon = chlamydia/gonocoque.",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

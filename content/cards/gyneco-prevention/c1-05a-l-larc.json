@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "diagram",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Mirena_in_optimal_place_-_schematic.png",
+      "alt": "Schéma en coupe sagittale de l'utérus avec un DIU (stérilet en T) positionné dans la cavité utérine, ses fils dépassant par le col vers le vagin.",
+      "caption": "Le DIU en place dans l'utérus : posé une fois, oublié pendant 3 à 10 ans.",
+      "attribution": "Image: Wikimedia Commons — Mikael Häggström / BruceBlaus, CC BY 3.0"
+    }
+  ]
 }

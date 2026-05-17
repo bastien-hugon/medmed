@@ -14,5 +14,14 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
     "version": "2016 - mise à jour 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Cœur                  Artère (tuyau)\n  ┌────┐    pousse →  ═══════════════════════\n  │ ♥  │ ══════════>  ↑ pression contre paroi\n  └────┘              ═══════════════════════\n\n  PA normale :  ═══════════════════════   (paroi détendue)\n\n  PA haute   :  ═══█████████████████████   (paroi forcée)\n                        ↑ risque de fissure / bouchage",
+      "alt": "Schéma ASCII : le cœur pousse le sang dans une artère, comparant une pression normale et une pression élevée qui force la paroi.",
+      "caption": "La PA = la force avec laquelle le sang pousse contre la paroi de l'artère. Trop fort, trop longtemps : la paroi souffre.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
 }

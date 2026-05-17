@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  MÉTHODE              GROSSESSE     IST\n  ───────────────────  ──────────    ──────────\n  Pilule / patch /     OUI           NON\n   anneau\n  DIU (cuivre / horm.) OUI           NON\n  Implant              OUI           NON\n  Préservatif          OUI           OUI  ← le seul\n  ───────────────────  ──────────    ──────────\n  Double protection = pilule + préservatif",
+      "alt": "Tableau ASCII comparant 5 méthodes (pilule, DIU, implant, préservatif) selon leur protection contre la grossesse et contre les IST. Seul le préservatif protège des deux.",
+      "caption": "Le préservatif est le seul moyen qui couvre les deux risques à la fois.",
+      "attribution": "ASCII: medmed, schéma original"
+    }
+  ]
 }

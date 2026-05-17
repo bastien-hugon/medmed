@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  La fenetre serologique : pourquoi un test peut etre faussement NEG\n\n  Exposition                Anticorps detectables\n      v                              v\n  ----X==========FENETRE==========Y---------------> temps\n      |          (test NEG         |\n      |           mais infecte)    |\n      |                            |\n  contamination               test devient POSITIF\n\n  Ordres de grandeur (a recontroler apres ces delais) :\n    VIH (Ag/Ac 4G)  : ~6 semaines\n    Syphilis        : ~3-6 semaines\n    Hepatite C      : ~3 mois\n\n  Exception : tests par antigene/ADN (NAAT chlamydia,\n              charge virale VIH) -> fenetre tres courte\n              car ils detectent le microbe directement.",
+      "alt": "Schema chronologique : axe du temps avec l'exposition a gauche, une zone 'fenetre' pendant laquelle le test est faussement negatif, puis le moment ou les anticorps apparaissent et le test devient positif.",
+      "caption": "Entre l'exposition et l'apparition des anticorps, le test peut etre negatif alors que l'infection est presente. D'ou la necessite de recontroler.",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

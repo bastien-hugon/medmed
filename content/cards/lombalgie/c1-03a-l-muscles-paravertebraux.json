@@ -14,5 +14,12 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
     "version": "2019"
-  }
+  },
+  "media": [{
+    "kind": "ascii",
+    "src": "  MUSCLES PARAVERTÉBRAUX — vue postérieure schématique\n\n              [ tête ]\n                ||\n         M  ===[][]=== M\n         |  ===[][]=== |\n         |  ===[][]=== |        Légende :\n         |  ===[][]=== |        [][] = vertèbres lombaires\n         M  ===[][]=== M        ||   = colonne (le mât)\n         |  ===[][]=== |        M, | = muscles paravertébraux\n         |  ===[][]=== |              (les haubans, des 2 côtés)\n         M  ===[L1]=== M\n         |  ===[L2]=== |\n         |  ===[L3]=== |\n         M  ===[L4]=== M\n         |  ===[L5]=== |\n             [bassin]",
+    "alt": "Schéma ASCII vue postérieure d'une colonne vertébrale (mât) avec les muscles paravertébraux qui la stabilisent de part et d'autre comme des haubans",
+    "caption": "Les muscles paravertébraux : les haubans du mât. Pas de haubans solides, le mât tombe.",
+    "attribution": "ASCII : medmed, schéma original."
+  }]
 }

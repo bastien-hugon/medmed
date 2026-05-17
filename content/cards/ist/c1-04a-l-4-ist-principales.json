@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Les 4 IST du quotidien en medecine generale\n\n  IST         | Microbe   | Frequence/clinique  | Prelevement | TT\n  ------------+-----------+---------------------+-------------+-----\n  Chlamydia   | bacterie  | la + freq. < 25 ans | NAAT urines | doxy\n              | C. trach. | souvent silencieuse | / vagin     |\n  ------------+-----------+---------------------+-------------+-----\n  Gonocoque   | bacterie  | ecoult. purulent ou | NAAT urines | ceftri\n              | N. gono.  | silencieuse / R+    | / vagin     | +azithro\n  ------------+-----------+---------------------+-------------+-----\n  Syphilis    | bacterie  | chancre indolore -> | serologie   | peni-\n              | T. pall.  | eruption -> neuro   | (sang)      | cilline\n  ------------+-----------+---------------------+-------------+-----\n  VIH         | virus     | chronique, ARV vie  | serologie   | ARV\n              |           | I = I si traite     | (sang)      | a vie\n\n  Chlam + gono : meme prelevement (NAAT combine).\n  Syphilis + VIH : prise de sang.",
+      "alt": "Tableau comparatif des 4 IST principales (chlamydia, gonocoque, syphilis, VIH) avec microbe, clinique, prelevement et traitement.",
+      "caption": "Les 4 IST a connaitre en MG : chlamydia + gonocoque (prelevement local), syphilis + VIH (prise de sang).",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

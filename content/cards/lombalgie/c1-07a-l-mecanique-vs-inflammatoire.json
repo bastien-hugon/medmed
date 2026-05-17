@@ -14,5 +14,12 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
     "version": "2019"
-  }
+  },
+  "media": [{
+    "kind": "ascii",
+    "src": "  DOULEUR MÉCANIQUE vs INFLAMMATOIRE\n\n  +---------------------+----------------+----------------+\n  |                     |   MÉCANIQUE    | INFLAMMATOIRE  |\n  +---------------------+----------------+----------------+\n  | Mouvement           |  AGGRAVE       |  soulage (!)   |\n  | Repos               |  soulage       |  AGGRAVE       |\n  | Réveil nocturne     |  non / rare    |  OUI (2e moitié)|\n  | Raideur matinale    |  < 30 min      |  > 30 min      |\n  | Profil typique      |  lombalgie     |  spondylo-     |\n  |                     |  commune       |  arthrite...   |\n  +---------------------+----------------+----------------+\n\n  Mnémo : mécanique aime le repos, inflammatoire aime le mouvement.",
+    "alt": "Tableau ASCII comparant les caractéristiques cliniques d'une douleur mécanique et d'une douleur inflammatoire selon le mouvement, le repos, le réveil nocturne et la raideur matinale",
+    "caption": "Le tri grossier mais utile : mécanique = banal, inflammatoire = à creuser.",
+    "attribution": "ASCII : medmed, schéma original d'après HAS 2019."
+  }]
 }

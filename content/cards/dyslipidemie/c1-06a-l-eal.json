@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
     "version": "2023"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  +----------------------------------------------------------+\n  |  EAL  -- Exploration d'une Anomalie Lipidique            |\n  |          (a jeun 12h, eau autorisee)                     |\n  +----------------------------------------------------------+\n  |  [ ]  Cholesterol TOTAL ............ ____  g/L  / mmol/L |\n  |  [ ]  HDL  (bon) ................... ____  g/L  / mmol/L |\n  |  [ ]  LDL  (mauvais, calcule) ...... ____  g/L  / mmol/L |\n  |  [ ]  Triglycerides (TG) ........... ____  g/L  / mmol/L |\n  +----------------------------------------------------------+\n  |  Conversion :   g/L  x 2,58  ~=  mmol/L  (cholesterol)   |\n  |                 g/L  x 1,13  ~=  mmol/L  (TG)            |\n  +----------------------------------------------------------+",
+      "alt": "Schéma ASCII du bilan EAL : cases à cocher pour cholestérol total, HDL, LDL et triglycérides, avec rappel des unités et des facteurs de conversion",
+      "caption": "Les 4 lignes du bilan lipidique français (EAL), à jeun 12h.",
+      "attribution": "ASCII: medmed, schéma original."
+    }
+  ]
 }

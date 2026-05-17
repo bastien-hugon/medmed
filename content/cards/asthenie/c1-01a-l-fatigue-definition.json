@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "    BATTERIE PLEINE              BATTERIE FAIBLE (= fatigue)\n   +----------------+            +----------------+\n   | ##############|            | ###            |\n   | ##############|            | ###            |\n   | ##############|            | ###            |\n   +----------------+            +----------------+\n          100%                          15%\n\n   Demarrer ? Facile.             Demarrer ? Effort.\n   Tenir ?   Facile.             Tenir ?   Se vide vite.\n\n   --> Le patient le RESSENT. Pas de jauge externe : c'est SUBJECTIF.\n       Mission #1 du medecin : faire preciser ce qu'il met derriere\n       le mot \"fatigue\" (force ? sommeil ? souffle ? envie ?).",
+      "alt": "Schéma ASCII de deux batteries (pleine vs faible) illustrant le manque d'énergie ressenti et le caractère subjectif du symptôme.",
+      "caption": "La fatigue = batterie interne basse. Subjective : seul le patient peut la décrire.",
+      "attribution": "ASCII : medmed, schéma original"
+    }
+  ]
 }

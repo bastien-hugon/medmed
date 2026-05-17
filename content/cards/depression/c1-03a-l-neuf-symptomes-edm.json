@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
     "version": "2022"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "   LES 9 SYMPTOMES DE L'EDC -- il en faut 5/9, dont >=1 coeur, >=2 sem\n\n   COEUR (>= 1 obligatoire)\n     [1] Humeur triste persistante\n     [2] Anhedonie (perte du plaisir)\n\n   AUTRES (completer jusqu'a 5)\n     [3] Sommeil       (insomnie ou hypersomnie)\n     [4] Appetit/poids (perte ou gain)\n     [5] Fatigue / perte d'energie\n     [6] Concentration alteree\n     [7] Agitation ou ralentissement psychomoteur\n     [8] Culpabilite excessive / devalorisation\n     [9] Idees de Mort ou de suicide\n\n   Mnemo FR : SAFE-CCAM  ->  Sommeil Appetit Fatigue Energie\n                              Concentration Culpabilite\n                              Agitation Mort",
+      "alt": "Liste numerotee des 9 symptomes DSM-5 de l'EDC avec separation coeur / autres et mnemo SAFE-CCAM",
+      "caption": "Grille DSM-5 : 5/9 dont >= 1 coeur, presque tous les jours, >= 2 semaines",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

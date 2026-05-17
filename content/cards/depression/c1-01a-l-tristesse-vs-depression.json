@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
     "version": "2022"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "                TRISTESSE NORMALE    vs    DEPRESSION (EDC)\n               ----------------------     -----------------------\n  DUREE        heures - quelques jours     >= 2 semaines, continu\n  INTENSITE    on goute encore aux         tout devient fade,\n               choses                      noir et blanc\n  RETENT.      on travaille, on mange,     on n'arrive plus a\n               on voit ses proches         fonctionner\n\n  Humeur :\n     normal  ___/\\____/\\__/\\___/\\___    fluctue avec les evenements\n     EDC     _________________________   plate, ne remonte pas\n                  |<--- >= 2 sem --->|",
+      "alt": "Tableau comparatif tristesse normale vs depression sur duree, intensite, retentissement",
+      "caption": "Trois axes qui distinguent la tristesse normale de l'EDC",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

@@ -14,5 +14,12 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
     "version": "2019"
-  }
+  },
+  "media": [{
+    "kind": "ascii",
+    "src": "  ÉVOLUTION SPONTANÉE D'UNE LOMBALGIE COMMUNE AIGUË\n\n  douleur\n   100% |***\n        |   ***\n    75% |      ***\n        |         ****\n    50% |             ****\n        |                 *****\n    25% |                      *****\n        |                           ********\n    10% |                                   ***********\n     0% +----+----+----+----+----+----+----+----+----->\n          J0   S1   S2   S3   S4   S5   S6        temps\n         |<------ 90 % résolus en 4-6 sem ----->|\n\n  -> message-clé : RASSURER + REMETTRE EN MOUVEMENT",
+    "alt": "Courbe ASCII de décroissance de la douleur lombaire aiguë : 90 pour cent des cas se résolvent spontanément en 4 à 6 semaines",
+    "caption": "90 % des lombalgies aiguës évoluent favorablement en 4 à 6 semaines. La réassurance est un acte thérapeutique.",
+    "attribution": "ASCII : medmed, schéma original d'après HAS 2019 / NICE NG59."
+  }]
 }

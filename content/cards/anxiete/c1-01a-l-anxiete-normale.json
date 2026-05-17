@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
     "version": "2011 partial updates"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "Anxiete NORMALE : proportionnee au danger, transitoire, utile\n\nIntensite\n   ^\n   |        ___\n   |       /   \\\n   |      /     \\\n   |     /       \\___\n   |    /            \\___\n   |___/                 \\______________\n   +-----|----|----|----|----|----|---->  Temps\n      DANGER   action     calme retabli\n        |\n   alarme ON : coeur s'accelere,\n   muscles tendus, fuite/defense",
+      "alt": "Schema ASCII : courbe en pic montrant une reaction d'anxiete normale qui monte face au danger puis redescend rapidement vers le calme.",
+      "caption": "L'alarme sonne face au danger, puis se coupe : c'est sain.",
+      "attribution": "ASCII : medmed, schema original"
+    }
+  ]
 }

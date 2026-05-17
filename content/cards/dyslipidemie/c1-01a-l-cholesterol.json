@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
     "version": "2023"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Cholesterol.svg/960px-Cholesterol.svg.png",
+      "alt": "Formule chimique du cholestérol : 4 cycles carbonés fusionnés, une chaîne latérale et un groupe hydroxyle",
+      "caption": "Structure moléculaire du cholestérol — un lipide essentiel à nos cellules.",
+      "attribution": "Image: Wikimedia Commons — BorisTM, domaine public."
+    }
+  ]
 }

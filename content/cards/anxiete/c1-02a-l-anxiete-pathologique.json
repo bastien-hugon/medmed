@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
     "version": "2011 partial updates"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "NORMALE                  |  PATHOLOGIQUE\n                         |\nIntensite                |  Intensite\n   ^                     |     ^\n   |    _                |     |  ___________________\n   |   / \\               |     | /                   \\__\n   |__/   \\___________   |     |/                       \\\n   +--|----|--------->   |     +----------------------------->\n      danger calme       |       en permanence, sans raison\n                         |\nProportionnee            |  DISPROPORTIONNEE\nTransitoire              |  PERSISTANTE (semaines+)\nUtile                    |  ENVAHISSANTE (vie pourrie)",
+      "alt": "Schema ASCII comparant en deux colonnes la courbe d'anxiete normale (pic bref) et pathologique (plateau eleve et durable) avec les trois criteres : disproportionnee, persistante, envahissante.",
+      "caption": "Le trepied du trouble anxieux : disproportion, persistance, retentissement.",
+      "attribution": "ASCII : medmed, schema original"
+    }
+  ]
 }

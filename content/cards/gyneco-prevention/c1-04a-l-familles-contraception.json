@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  FAMILLE              HORMONES         FORMES               POINT-CLÉ\n  ───────────────────  ───────────────  ───────────────────  ──────────────\n  1. Œstro-progestatif œstro + progest. pilule, patch,       efficace mais\n     (combinés)                         anneau               CI thrombose\n  2. Progestatifs      progestérone     micro-pilule,        si œstro CI\n     seuls             seule            implant, inject.,    (tabac, all.)\n                                        DIU hormonal\n  3. DIU cuivre        AUCUNE           DIU au cuivre        zéro hormone\n  4. Barrière          AUCUNE           préservatif,         + protège IST\n                                        diaphragme, cape     (préservatif)",
+      "alt": "Tableau ASCII des 4 familles de contraception : œstro-progestatifs, progestatifs seuls, DIU cuivre, méthodes barrière — avec hormones, formes disponibles et point-clé pour chacune.",
+      "caption": "Les 4 familles : 2 hormonales (combinés vs progestatif seul) + 2 non hormonales (DIU cuivre, barrière).",
+      "attribution": "ASCII: medmed, schéma original"
+    }
+  ]
 }

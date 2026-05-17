@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
     "version": "2022"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "   EVOLUTION DE L'EDC -- avec vs sans traitement\n\n   Fonctionnement\n   100% |##                                       ###  guerison\n        |  ##                                  ###     (TT)\n        |    ##                            ####\n        |      ##                       ###\n        |        ##                  ###\n     50%|          ##.            ###\n        |            ` ` .       /\n        |                 ` .   /      sans TT : evolution\n        |                    ` * - - - longue, rechutes, chronicite\n        |\n      0%+----+----+----+----+----+----+----+----+--->  temps\n            S2  M1   M2   M3   M4   M5   M6   M9\n\n   70-80 % des EDC traites s'ameliorent franchement.\n   Maladie du cerveau, comme le diabete du pancreas : ca se SOIGNE.",
+      "alt": "Courbe d'evolution du fonctionnement avec traitement (remontee) vs sans traitement (chronicite)",
+      "caption": "Pronostic : 70-80 % de guerison ou amelioration franche avec traitement",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

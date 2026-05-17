@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Les 3 vaccins IST disponibles : tous commencent par H\n\n  Vaccin       | Cible/protege contre        | Public en France\n  -------------+-----------------------------+-----------------------\n  HPV          | verrues genitales,          | filles ET garcons,\n  (Papilloma)  | cancers (col, anus, gorge)  | ~11-14 ans (5eme)\n  -------------+-----------------------------+-----------------------\n  HBV          | hepatite B (chronicite,     | OBLIGATOIRE chez le\n  (Hep. B)     | cirrhose, CHC)              | nourrisson (FR, 2018)\n  -------------+-----------------------------+-----------------------\n  HAV          | hepatite A                  | groupes a risque\n  (Hep. A)     | (transmission aussi fecale) | (HSH, voyageurs...)\n\n  Pas de vaccin pour : chlamydia, gonocoque, syphilis,\n                       HSV (herpes), HIV (VIH), Hep. C.\n\n  Mnemo : 'HBV, HPV, HAV' - les 3 H qui se vaccinent.\n          'HSV, HIV' - les 2 H qui ne se vaccinent pas.",
+      "alt": "Tableau des 3 vaccins disponibles contre des IST (HPV, hepatite B, hepatite A) avec public cible en France, et rappel des IST sans vaccin.",
+      "caption": "3 vaccins IST = HBV, HPV, HAV (tous en H). Les autres H (HSV, HIV) et les bacteries n'ont pas de vaccin.",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

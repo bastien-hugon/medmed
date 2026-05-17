@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
     "version": "2011 partial updates"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "Le spectre des troubles anxieux (panorama C1)\n\n+----------------------+--------------------------------+\n| Entite               | Mot-cle / declencheur          |\n+----------------------+--------------------------------+\n| TAG                  | inquietude diffuse, >= 6 mois  |\n| Trouble panique      | attaques recurrentes + peur    |\n|                      | d'avoir une nouvelle attaque   |\n| Phobie specifique    | objet/situation precis         |\n|                      | (araignee, avion, sang...)     |\n| Phobie sociale       | regard, jugement des autres    |\n| Agoraphobie          | foules, transports, sortir     |\n+----------------------+--------------------------------+\n| TOC *                | obsessions + compulsions       |\n| ESPT *               | trauma + reviviscences         |\n+----------------------+--------------------------------+\n  * DSM-5 : sortis des 'troubles anxieux' stricto sensu,\n    mais cliniquement tres proches.",
+      "alt": "Tableau ASCII en deux colonnes recensant les troubles anxieux : TAG, trouble panique, phobie specifique, phobie sociale, agoraphobie, TOC, ESPT avec leur declencheur ou caracteristique cle.",
+      "caption": "Le spectre anxieux : a reconnaitre de loin en C1, a approfondir en C2+.",
+      "attribution": "ASCII : medmed, schema original"
+    }
+  ]
 }

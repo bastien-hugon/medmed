@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
     "version": "2012 updated 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "      MIGRAINE  -- hemicranie pulsatile  (vue de face)\n\n                    _.-~~~~~~~~~~~~~~~-._\n                 .-~                     ~-.\n         (((   /                           \\\n         )))  /   ZONE                       \\\n         (((  |   TOUCHEE         |                |\n         )))  |   bat avec        |   cote NON     |\n         (((  |   le pouls        |   touche       |\n         )))   \\                  |               /\n                \\      o    .    o              /\n                 \\         \\__/                /\n                  `-.                       .-'\n                     `~-..___________..-~'\n\n   ((( = pulsation\n   + photophobie + phonophobie + nausees\n   Effort aggrave  -->  s'allonger dans le noir.",
+      "alt": "Schéma ASCII d'une tête vue de face, douleur pulsatile unilatérale gauche représentée par des arcs, indiquant l'hémicrânie migraineuse, avec mention photophobie, phonophobie et nausées.",
+      "caption": "Migraine : douleur d'un seul côté qui bat au rythme du pouls, aggravée par l'effort, avec photo/phonophobie et nausées.",
+      "attribution": "ASCII: medmed, schéma original."
+    }
+  ]
 }

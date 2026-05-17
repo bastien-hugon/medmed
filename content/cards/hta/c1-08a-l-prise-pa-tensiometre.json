@@ -14,5 +14,14 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
     "version": "2016 - mise à jour 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sphygmomanometer%26Cuff.JPG",
+      "alt": "Tensiomètre manuel (sphygmomanomètre) avec sa manchette gonflable, son poire de gonflage et son cadran à aiguille.",
+      "caption": "Un tensiomètre et sa manchette. C'est la manchette qu'on serre autour du bras nu, à mi-hauteur entre l'épaule et le coude, à la hauteur du cœur.",
+      "attribution": "Wikimedia Commons — domaine public"
+    }
+  ]
 }

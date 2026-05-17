@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "diagram",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Menstrual_cycle_diagram.png",
+      "alt": "Schéma du cycle menstruel sur 28 jours montrant les phases (folliculaire, ovulation, lutéale), les courbes hormonales (œstrogène, progestérone, LH, FSH) et l'évolution de la muqueuse utérine.",
+      "caption": "Cycle de ~28 j : phase folliculaire (œstrogène monte) → ovulation J14 → phase lutéale (progestérone) → règles.",
+      "attribution": "Image: Wikimedia Commons — Npatchett, CC BY-SA 3.0"
+    }
+  ]
 }

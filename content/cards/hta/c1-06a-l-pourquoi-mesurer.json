@@ -14,5 +14,14 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
     "version": "2016 - mise à jour 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "   Les 4 organes cibles de l'HTA\n\n     ┌──────────┐\n     │ CERVEAU  │ ─→  AVC (artère bouchée ou rompue)\n     ├──────────┤\n     │   YEUX   │ ─→  rétinopathie, baisse de vue\n     ├──────────┤\n     │   CŒUR   │ ─→  infarctus, insuffisance cardiaque\n     ├──────────┤\n     │  REINS   │ ─→  insuffisance rénale chronique\n     └──────────┘\n\n   Mémo : « CCRY » → Cerveau, Cœur, Reins, Yeux",
+      "alt": "Schéma ASCII listant les 4 organes cibles de l'HTA (cerveau, yeux, cœur, reins) et leurs complications respectives.",
+      "caption": "L'HTA abîme silencieusement 4 organes. Chacun donne une complication caractéristique.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
 }

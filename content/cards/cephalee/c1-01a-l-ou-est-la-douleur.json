@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
     "version": "2012 updated 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Meninges-en.svg/960px-Meninges-en.svg.png",
+      "alt": "Coupe schématique du crâne montrant les trois couches méningées (dure-mère, arachnoïde, pie-mère) entre l'os et le cerveau.",
+      "caption": "Le cerveau est emballé dans trois enveloppes (les méninges) — c'est là (et dans les vaisseaux qu'elles contiennent) que la douleur naît.",
+      "attribution": "Image: Wikimedia Commons — Mysid (d'après SEER Development Team), CC BY-SA 3.0."
+    }
+  ]
 }

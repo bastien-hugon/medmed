@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
     "version": "2022"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "   LE RETENTISSEMENT -- 4 spheres a explorer en consultation\n\n      +------------+               +------------+\n      |  FAMILLE   |\\           /|   TRAVAIL  |\n      |  enfants,  | \\         / |  retards,  |\n      |  conjoint  |  \\       /  |  erreurs   |\n      +------------+   v     v   +------------+\n                     +---------+\n                     | PATIENT |  la MALADIE\n                     +---------+  empeche de vivre\n                       ^     ^\n      +------------+  /       \\  +------------+\n      | QUOTIDIEN  | /         \\ |   SOCIAL   |\n      |  hygiene,  |/           \\|   amis,    |\n      |  courses   |              |  sorties  |\n      +------------+              +------------+\n\n   Cle : \"Qu'arriviez-vous a faire avant que vous ne faites plus ?\"",
+      "alt": "Schema des 4 spheres de retentissement : famille, travail, quotidien, social",
+      "caption": "Le retentissement est un critere diagnostique a part entiere (critere C DSM-5)",
+      "attribution": "ASCII: medmed, schema original"
+    }
+  ]
 }

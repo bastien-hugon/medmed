@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
     "version": "2012 updated 2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  CEPHALEE\n  +-------------------------------------+-------------------------------+\n  | PRIMAIRE  (>90 % en med. gen.)      | SECONDAIRE  (<10 %, a ne PAS  |\n  |                                     |              rater)           |\n  +-------------------------------------+-------------------------------+\n  | la douleur EST la maladie           | la douleur SIGNALE une autre  |\n  | imagerie / bio normales             |   maladie organique           |\n  +-------------------------------------+-------------------------------+\n  | - migraine                          | - meningite (infection)       |\n  | - cephalee de tension               | - hemorragie meningee         |\n  | - algie vasculaire de la face       | - Horton (arterite gigantoc.) |\n  |                                     | - tumeur, glaucome aigu,      |\n  |                                     |    sinusite, abus medicament. |\n  +-------------------------------------+-------------------------------+\n  Reflexe C1 : eliminer la SECONDAIRE (red flags)\n               AVANT de classer la primaire.",
+      "alt": "Tableau comparatif céphalée primaire vs secondaire : la primaire est la maladie elle-même, la secondaire est le symptôme d'une autre maladie organique.",
+      "caption": "La dichotomie primaire / secondaire structure tout le raisonnement face à un mal de tête.",
+      "attribution": "ASCII: medmed, schéma original."
+    }
+  ]
 }

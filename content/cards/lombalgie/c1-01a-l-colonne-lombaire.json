@@ -14,5 +14,12 @@
     "kind": "HAS",
     "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
     "version": "2019"
-  }
+  },
+  "media": [{
+    "kind": "image",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Gray_111_-_Vertebral_column-coloured.png",
+    "alt": "Schéma de la colonne vertébrale humaine avec les régions cervicale, thoracique, lombaire (L1-L5), sacrée et coccygienne colorées",
+    "caption": "La colonne vertébrale : la zone lombaire (L1-L5) en bas du dos.",
+    "attribution": "Image : Wikimedia Commons — Gray's Anatomy (Henry Gray, 1918), domaine public."
+  }]
 }

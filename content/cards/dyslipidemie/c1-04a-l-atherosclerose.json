@@ -14,5 +14,14 @@
     "kind": "NICE",
     "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
     "version": "2023"
-  }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Atheroma.jpg/960px-Atheroma.jpg",
+      "alt": "Coupe d'une artère normale comparée à une artère atteinte d'athérosclérose avec plaque d'athérome",
+      "caption": "Coupe d'artère : à gauche normale, à droite rétrécie par une plaque d'athérome.",
+      "attribution": "Image: Wikimedia Commons — Manu5, CC BY-SA 4.0."
+    }
+  ]
 }

@@ -14,5 +14,14 @@
     "kind": "other",
     "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
     "version": "2024"
-  }
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Energie\n    ^   ORGANIQUE                       PSYCHIQUE (depression)\n    |                                  matin\n 100|***.        ,***.        ,***   .--___       __    ___\n    |    \\      /     \\      /        |    \\__   /  \\__/\n    |     \\    /       \\    /         |       \\_/  (parfois bouffees)\n  50|      \\  /         \\  /         50|----------------------------\n    |       \\/   repos   \\/            |  ressenti BAS en continu\n    |     effort         effort        |  (matin >>> soir)\n   0+--------------------------->     0+--------------------------->\n        Aggravee effort,                  Constante meme au repos,\n        soulagee par le repos.            +/- bouffees d'energie.\n\n  Heuristique simple, gratuite, et tres rentable en consultation.",
+      "alt": "Deux courbes ASCII opposant le pattern organique (creux à l'effort, remontée au repos) et le pattern psychique (énergie basse constante avec bouffées).",
+      "caption": "Activité/repos : courbe en dents de scie = organique ; ligne basse continue = psychique.",
+      "attribution": "ASCII : medmed, schéma original"
+    }
+  ]
 }
