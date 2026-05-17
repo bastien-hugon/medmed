@@ -23,4 +23,16 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* PWA iOS : respecter le notch / dynamic island / barre du bas */
+  padding-top: env(safe-area-inset-top);
+  padding-right: env(safe-area-inset-right);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  /* Empêcher le bounce overscroll iOS (utile pour le pull-to-refresh custom) */
+  overscroll-behavior-y: contain;
+}
+
+/* Header sticky : tient compte du notch quand on scroll en mode PWA. */
+.safe-sticky-top {
+  top: env(safe-area-inset-top, 0px);
 }

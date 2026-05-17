@@ -24,8 +24,8 @@ export default function LessonReader({ lesson }: { lesson: LibraryLessonRow }) {
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col gap-6 px-5 py-6 sm:px-6">
-      {/* Header sticky : retour + topic + titre */}
-      <header className="sticky top-0 -mx-5 sm:-mx-6 z-10 border-b border-zinc-200/60 bg-white/85 px-5 sm:px-6 py-3 backdrop-blur dark:border-zinc-800/60 dark:bg-zinc-950/85">
+      {/* Header sticky : retour + topic + titre. `safe-sticky-top` gère le notch en PWA iOS. */}
+      <header className="sticky safe-sticky-top -mx-5 sm:-mx-6 z-10 border-b border-zinc-200/60 bg-white/85 px-5 sm:px-6 py-3 backdrop-blur dark:border-zinc-800/60 dark:bg-zinc-950/85">
         <div className="flex items-center gap-3">
           <Link
             href={`/library/${encodeURIComponent(topic)}`}
