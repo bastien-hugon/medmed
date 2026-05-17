@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q08e-depistage-arret",
+  "kind": "qcm-vignette",
+  "prompt": "Une femme de 67 ans, dépistée régulièrement avec résultats toujours normaux, vous demande si elle doit continuer le dépistage du col. Que lui répondez-vous ?",
+  "choices": [
+    { "id": "a", "text": "Oui, à vie.", "correct": false },
+    { "id": "b", "text": "Non : on peut ARRÊTER le dépistage après 65 ans si l'historique de dépistage est régulier et négatif.", "correct": true },
+    { "id": "c", "text": "Oui, mais seulement tous les 10 ans.", "correct": false },
+    { "id": "d", "text": "Il faut faire un dernier dépistage tous les ans à partir de 65 ans.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Recommandation HAS : arrêt du dépistage après 65 ans, sous CONDITION d'un dépistage antérieur régulier et négatif. La logique : après 65 ans, le risque de découvrir une nouvelle infection HPV transformante est faible chez une femme régulièrement suivie. À l'inverse, une femme JAMAIS dépistée à 67 ans devrait être incluse dans le programme (pas d'âge limite strict pour démarrer).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Cancer_du_col_de_l%27ut%C3%A9rus",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

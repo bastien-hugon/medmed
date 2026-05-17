@@ -1,0 +1,20 @@
+{
+  "id": "irc-c2-cz03-seuil-pa",
+  "kind": "cloze",
+  "prompt": "Complète : « Chez un patient MRC avec ACR ≥ ___ mg/mmol, la cible tensionnelle au cabinet est PA < ___ / ___ mmHg. »",
+  "expected": ["70 ; 130 ; 80", "70 - 130 - 80", "70, 130, 80", "70/130/80"],
+  "rationale": "Mémo : '70 mg/mmol = passer à 130/80'. C'est la règle de bascule à connaître par cœur. En deçà de 70, on garde la cible standard 140/90 (sauf adaptation individuelle).",
+  "tags": {
+    "system": ["nephrologie", "cardiovasculaire"],
+    "sdd": ["irc", "mrc", "hta"],
+    "item_edn": [224, 261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

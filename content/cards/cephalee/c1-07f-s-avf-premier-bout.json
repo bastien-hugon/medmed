@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c1-s07f-avf-premier-bout",
+  "kind": "sct",
+  "prompt": "Homme de 34 ans, vu pour ce qui ressemble à une AVF en salve : crises stéréotypées péri-orbitaires gauches, ultra-sévères, avec œil rouge larmoyant. C'est son PREMIER épisode dans sa vie. Vous évoquez une AVF primaire et préparez l'ordonnance d'oxygène + sumatriptan SC. Comment cette nouvelle information modifie-t-elle votre conduite ?",
+  "hypothesis": "Il s'agit d'une AVF primaire et le traitement symptomatique seul suffit.",
+  "new_info": "Vous lisez la recommandation NICE qui précise : 'pour un premier bout d'AVF, discuter d'une imagerie cérébrale avec un neurologue ou un GP avec intérêt spécifique en céphalées'.",
+  "expected": "affaiblit",
+  "rationale": "Un premier bout d'AVF doit faire éliminer une cause secondaire (anévrysme, dissection carotidienne, lésion hypophysaire/parasellaire, malformation vasculaire) — une AVF 'symptomatique' (secondaire) peut mimer exactement une AVF primaire. NICE recommande de discuter une imagerie pour ce premier épisode. L'information affaiblit la conduite 'traitement symptomatique seul' : il faut imager (IRM cérébrale avec injection + ARM). Ne pas confondre AVF récurrente connue (traitement direct) et AVF inaugurale (à imager).",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "avf"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

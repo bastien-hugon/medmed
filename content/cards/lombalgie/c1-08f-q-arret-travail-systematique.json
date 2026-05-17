@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q08-arret-travail-systematique",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient lombalgique aigu (sans drapeau rouge) demande un arrêt de travail prolongé. Que recommande la HAS 2019 ?",
+  "choices": [
+    { "id": "a", "text": "Arrêter systématiquement le patient pendant au moins 3 semaines", "correct": false },
+    { "id": "b", "text": "Promouvoir la reprise du travail dès que possible, même partielle ou en aménagement, car l'inactivité prolongée favorise la chronicisation", "correct": true },
+    { "id": "c", "text": "Refuser tout arrêt de travail quelle que soit la situation", "correct": false },
+    { "id": "d", "text": "Arrêter le patient jusqu'à la disparition complète de toute douleur", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La HAS 2019 promeut le maintien dans l'emploi : reprise dès que possible, éventuellement aménagée (poste adapté, mi-temps), orientation vers le médecin du travail si arrêt > 4 semaines. L'arrêt long systématique est délétère (déconditionnement, perte de lien social, croyance d'incapacité). Mais refuser tout arrêt est aussi inadapté — il faut le faire au cas par cas, à la dose minimale utile.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

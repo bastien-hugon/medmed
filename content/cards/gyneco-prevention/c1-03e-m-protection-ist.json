@@ -1,0 +1,28 @@
+{
+  "id": "gyneco-prevention-c1-m03e-protection-ist",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les méthodes contraceptives qui protègent ÉGALEMENT contre la transmission des IST.",
+  "choices": [
+    { "id": "a", "text": "Préservatif externe (masculin)", "correct": true },
+    { "id": "b", "text": "Préservatif interne (féminin)", "correct": true },
+    { "id": "c", "text": "Pilule œstro-progestative", "correct": false },
+    { "id": "d", "text": "DIU au cuivre", "correct": false },
+    { "id": "e", "text": "DIU hormonal", "correct": false },
+    { "id": "f", "text": "Implant sous-cutané", "correct": false }
+  ],
+  "expected": ["a", "b"],
+  "rationale": "Seules les méthodes BARRIÈRE (préservatif externe ou interne) bloquent à la fois spermatozoïdes ET agents d'IST. Toutes les autres options (pilule, DIU, implant) agissent uniquement sur la fécondation ou la nidation : zéro effet sur la transmission des microbes. À noter : le diaphragme et la cape cervicale ne sont PAS classés 'anti-IST' fiables (couvrent imparfaitement le col, n'arrêtent pas le contact pénis-vagin).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

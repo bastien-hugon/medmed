@@ -1,0 +1,26 @@
+{
+  "id": "saos-c1-03f-q-pourquoi-additionner-iah",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi additionne-t-on les apnées ET les hypopnées dans le calcul de l'IAH plutôt que de ne compter que les apnées ?",
+  "choices": [
+    {"id": "a", "text": "Parce qu'elles ont la même durée légale (> 10 s) et que c'est arbitraire", "correct": false},
+    {"id": "b", "text": "Parce qu'elles ont des conséquences physiologiques (désaturation, microéveils) comparables", "correct": true},
+    {"id": "c", "text": "Parce que les hypopnées sont en réalité des apnées non détectées", "correct": false},
+    {"id": "d", "text": "Parce qu'elles concernent les mêmes muscles respiratoires", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le cerveau et le cœur 'voient' surtout la baisse d'oxygène et le microéveil — peu importe que la mécanique sous-jacente soit un arrêt total (apnée) ou un rétrécissement partiel (hypopnée). Les conséquences cardiovasculaires et cognitives sont équivalentes. C'est pour cela qu'on additionne les deux dans un même indice (IAH) — qui reflète mieux la charge physiopathologique globale qu'un comptage d'apnées seules.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

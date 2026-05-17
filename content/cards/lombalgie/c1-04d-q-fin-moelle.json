@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q04-fin-moelle",
+  "kind": "qcm-vignette",
+  "prompt": "À quel niveau vertébral s'arrête approximativement la moelle épinière chez l'adulte ?",
+  "choices": [
+    { "id": "a", "text": "T6", "correct": false },
+    { "id": "b", "text": "T12", "correct": false },
+    { "id": "c", "text": "L1-L2", "correct": true },
+    { "id": "d", "text": "L5", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Chez l'adulte, la moelle épinière se termine vers L1-L2. En dessous, le canal vertébral contient un faisceau de racines nerveuses lombo-sacrées : la queue de cheval. C'est ce qui rend possible la ponction lombaire en dessous de L2 sans risque de blesser la moelle, et c'est ce qui explique pourquoi une compression sous L1-L2 donne un syndrome de la queue de cheval (et non un syndrome médullaire).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

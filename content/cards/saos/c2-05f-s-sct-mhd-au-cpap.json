@@ -1,0 +1,22 @@
+{
+  "id": "saos-c2-05f-s-sct-mhd-au-cpap",
+  "kind": "sct",
+  "prompt": "M. B., 60 ans, IMC 36, SAOS sévère (IAH 45) bien équilibré sous CPAP depuis 1 an (Epworth descendu de 18 à 6). Vous envisagez d'arrêter d'insister sur la perte de poids puisqu'il est appareillé.",
+  "hypothesis": "Puisqu'il est bien équilibré sous CPAP, il n'est plus utile d'insister sur la perte de poids.",
+  "new_info": "Vous apprenez que la perte de poids reste recommandée à toute sévérité de SAOS, y compris sous CPAP, et qu'une perte significative (10 %) peut réduire l'IAH de 25 à 50 % avec à terme une possible diminution de pression voire un sevrage de l'appareil.",
+  "expected": "affaiblit",
+  "rationale": "La CPAP est un traitement SYMPTOMATIQUE (elle 'tient' les VAS ouvertes mais ne corrige pas le terrain). La perte de poids agit sur la CAUSE (rétrécissement péripharyngé par graisse). Les deux sont COMPLÉMENTAIRES — pas substituables. AFFAIBLIR l'idée de relâcher les MHD : la CPAP doit être vue comme un soutien pendant la perte de poids, pas comme une solution qui dispense des MHD. Bonus : la perte de poids améliore aussi HTA, diabète, profil cardiovasculaire global.",
+  "tags": {
+    "system": ["pneumologie", "endocrinologie"],
+    "sdd": ["saos", "obesite"],
+    "item_edn": [108, 253],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ist-c2-m01d-fdr-femme-25ans",
+  "kind": "qcm-multi",
+  "prompt": "Chez une femme ≥ 25 ans, coche les facteurs de risque qui justifient un dépistage chlamydia.",
+  "choices": [
+    { "id": "a", "text": "Nouveau partenaire sexuel récent", "correct": true },
+    { "id": "b", "text": "Partenaires sexuels multiples", "correct": true },
+    { "id": "c", "text": "Partenaire ayant lui-même plusieurs partenaires concomitants", "correct": true },
+    { "id": "d", "text": "Partenaire avec une IST connue ou récente", "correct": true },
+    { "id": "e", "text": "Avoir un emploi à temps plein", "correct": false },
+    { "id": "f", "text": "Être végétarienne", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Les facteurs de risque (CDC 2021) qui font dépister une femme ≥ 25 ans : nouveau partenaire récent, partenaires multiples, partenaire avec partenaires concomitants, partenaire avec IST. Si aucun de ces facteurs, le dépistage n'est pas systématique. Sous 25 ans, le dépistage est annuel SANS condition de facteur de risque (prévalence élevée + enjeu de fertilité tubaire).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

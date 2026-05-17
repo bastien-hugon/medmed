@@ -1,0 +1,30 @@
+{
+  "id": "arret-tabac-c2-m02d-stades-prochaska",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les stades du modèle de Prochaska du changement.",
+  "choices": [
+    {"id": "a", "text": "Pré-contemplation (n'envisage pas le changement)", "correct": true},
+    {"id": "b", "text": "Contemplation (ambivalence, pèse pour et contre)", "correct": true},
+    {"id": "c", "text": "Préparation (décide, planifie un arrêt dans le mois)", "correct": true},
+    {"id": "d", "text": "Action (a arrêté, 0-6 mois d'abstinence)", "correct": true},
+    {"id": "e", "text": "Maintien (≥ 6 mois d'abstinence, prévention de la rechute)", "correct": true},
+    {"id": "f", "text": "Conviction (le patient croit fermement aux risques)", "correct": false},
+    {"id": "g", "text": "Sublimation (transfère son envie vers une autre activité)", "correct": false},
+    {"id": "h", "text": "Repentance (regret moral du tabagisme passé)", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Les CINQ stades : pré-contemplation, contemplation, préparation, action, maintien. C'est un CYCLE (rechute possible à chaque étape, renvoie typiquement à 'préparation'). Les autres termes (conviction, sublimation, repentance) ne font PAS partie du modèle.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

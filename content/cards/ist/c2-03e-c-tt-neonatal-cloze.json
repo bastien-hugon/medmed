@@ -1,0 +1,20 @@
+{
+  "id": "ist-c2-c03e-tt-neonatal-cloze",
+  "kind": "cloze",
+  "prompt": "Traitement d'une chlamydia néonatale (conjonctivite ou pneumopathie) : ___ (antibiotique de la famille des macrolides) PO pendant ___ jours. La doxycycline est ___ (CI/recommandée) chez le nouveau-né.",
+  "expected": ["érythromycine", "14", "contre-indiquée"],
+  "rationale": "Traitement chlamydia néonatale : érythromycine base 50 mg/kg/j PO en 4 doses pendant 14 jours (alternative pour pneumopathie : azithromycine 20 mg/kg/j × 3 j). La doxycycline est CONTRE-INDIQUÉE chez le nouveau-né et l'enfant (< 8 ans) car elle se fixe sur l'os et les dents en formation. Surveillance importante après érythromycine < 6 semaines de vie : risque de sténose hypertrophique du pylore.",
+  "tags": {
+    "system": ["infectieux", "pediatrie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

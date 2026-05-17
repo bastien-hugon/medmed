@@ -1,0 +1,20 @@
+{
+  "id": "irc-c1-cz03-dfg-unite",
+  "kind": "cloze",
+  "prompt": "Complète : « Le DFG estimé (eGFR) s'exprime en ___, et un DFG < ___ confirmé pendant plus de 3 mois définit la maladie rénale chronique. »",
+  "expected": ["mL/min/1.73 m² ; 60", "mL/min ; 60", "ml/min/1.73m2 - 60", "mL/min/1.73 m² et 60", "ml/min ; 60"],
+  "rationale": "Deux faits à retenir : (1) unité standard du DFG estimé = mL/min/1.73 m² (normalisé à une surface corporelle moyenne pour comparer entre patients) ; (2) seuil de MRC = DFG < 60 SI durée > 3 mois. Un DFG ponctuel bas (déshydratation, infection, IRA) ne suffit pas — il faut la chronicité.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

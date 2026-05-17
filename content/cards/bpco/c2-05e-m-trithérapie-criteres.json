@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c2-m05e-tritherapie-criteres",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les critères qui peuvent justifier l'introduction d'une TRITHÉRAPIE LAMA + LABA + ICS chez un patient BPCO.",
+  "choices": [
+    { "id": "a", "text": "Persistance d'exacerbations modérées (≥ 2/an) malgré bithérapie LAMA + LABA bien conduite", "correct": true },
+    { "id": "b", "text": "Au moins une exacerbation ayant nécessité une hospitalisation, malgré bithérapie", "correct": true },
+    { "id": "c", "text": "Traits asthmatiques (antécédent d'asthme, éosinophilie sanguine) chez un patient symptomatique sous LAMA + LABA", "correct": true },
+    { "id": "d", "text": "BPCO légère asymptomatique de découverte récente, sans exacerbation", "correct": false },
+    { "id": "e", "text": "Demande du patient sans argument clinique", "correct": false },
+    { "id": "f", "text": "Patient qui refuse complètement les autres traitements", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "La trithérapie LAMA + LABA + ICS est réservée aux patients qui restent EXACERBATEURS malgré la bithérapie, ou aux phénotypes asthmatiques/éosinophiles. Pas de trithérapie d'emblée en BPCO légère asymptomatique : l'ICS expose à plus de pneumopathies sans bénéfice. Le traitement n'est pas une réponse à une demande non argumentée — c'est une indication clinique.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

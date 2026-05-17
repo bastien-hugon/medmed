@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c2-s06-secondaire-ldl-normal",
+  "kind": "sct",
+  "prompt": "Un patient post-AVC ischémique présente un LDL initial à 1,7 mmol/L, ce qui est déjà sous la cible NICE de 2,0 mmol/L. Vous envisagez de ne pas mettre de statine.",
+  "hypothesis": "Comme la cible est déjà atteinte spontanément, la statine n'est pas indispensable.",
+  "new_info": "Le bénéfice des statines en prévention secondaire n'est pas seulement lié à la baisse du LDL : il vient aussi de la stabilisation des plaques (effet pléiotrope).",
+  "expected": "affaiblit",
+  "rationale": "Cette information AFFAIBLIT l'hypothèse. En prévention secondaire, NICE et toute la littérature (PROVE-IT, IMPROVE-IT, MIRACL) recommandent atorvastatine 80 mg D'EMBLÉE, QUEL QUE SOIT le LDL initial. Le LDL bas naturel n'est pas une raison de s'abstenir : la statine stabilise les plaques athéromateuses, réduit l'inflammation pariétale, prévient la rupture. Piège classique à éviter — beaucoup de patients post-événement avec LDL 'normal' sont sous-traités.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

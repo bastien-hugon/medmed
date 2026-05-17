@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q04e-vitesse-installation",
+  "kind": "free-recall",
+  "prompt": "Quel est le critère d'ALARME le plus important devant une céphalée 'brutale' : l'intensité maximale atteinte OU la vitesse d'installation jusqu'au pic ? Justifiez.",
+  "expected": ["vitesse", "installation", "5 minutes", "HSA"],
+  "rationale": "La VITESSE D'INSTALLATION est plus discriminante que l'intensité brute. Une céphalée modérée qui atteint son pic en 30 secondes est plus suspecte d'HSA qu'une céphalée intense qui s'installe en 1 h. Définition opérationnelle : maximum atteint en < 5 min. Beaucoup de migraines sont 'intenses' mais leur cinétique est plus lente. C'est pourquoi l'interrogatoire doit insister sur 'combien de temps a-t-il fallu pour atteindre le pic ?' (et pas seulement 'sur 10, comment était la douleur ?').",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "hsa"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

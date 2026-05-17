@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m08d-bb-ci",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les contre-indications/conditions PROHIBITIVES à l'introduction d'un béta-bloquant chez un patient IC (NICE NG106).",
+  "choices": [
+    { "id": "a", "text": "BAV de 2e ou 3e degré SANS pacemaker", "correct": true },
+    { "id": "b", "text": "Fréquence cardiaque < 50/min", "correct": true },
+    { "id": "c", "text": "Asthme aigu non stabilisé / asthme sévère mal contrôlé", "correct": true },
+    { "id": "d", "text": "BPCO stable (n'est PAS une contre-indication absolue)", "correct": false },
+    { "id": "e", "text": "Diabète bien équilibré", "correct": false },
+    { "id": "f", "text": "Décompensation cardiaque aiguë non stabilisée", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "f"],
+  "rationale": "CI NICE NG106 pour BB en IC : BAV 2/3 sans pace, FC < 50/min, asthme aigu/sévère, décompensation aiguë (introduire APRÈS stabilisation). La BPCO stable n'est PAS une CI (utiliser un BB cardio-sélectif type bisoprolol/nébivolol avec prudence). Le diabète n'est PAS une CI (mais surveiller l'hypoglycémie masquée). ECG 12 dérivations recommandé AVANT toute introduction.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

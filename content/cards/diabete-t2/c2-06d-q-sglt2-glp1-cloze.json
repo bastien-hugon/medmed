@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q18-sglt2-glp1-cloze",
+  "kind": "cloze",
+  "prompt": "Les inhibiteurs du SGLT2 augmentent l'élimination du glucose dans les ___.",
+  "expected": ["urines", "urine"],
+  "rationale": "SGLT2-i = 'fuite' de glucose dans les urines (glucosurie thérapeutique). C'est l'opposé du fonctionnement rénal normal qui réabsorbe tout le glucose filtré. Conséquences : glycémie baisse, perte calorique → perte de poids modeste, effet diurétique osmotique → petite baisse PA. Effet secondaire : infections génitales (mycoses) favorisées par le sucre dans l'urine.",
+  "tags": {
+    "system": ["endocrinologie", "néphrologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Antidiab%C3%A9tique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

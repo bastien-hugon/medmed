@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c2-q10-grossesse-ci",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente de 34 ans sous atorvastatine 20 mg en prévention primaire vous annonce qu'elle envisage une grossesse dans les mois qui viennent. Que faites-vous ?",
+  "choices": [
+    { "id": "a", "text": "On poursuit la statine en grossesse, c'est sans danger.", "correct": false },
+    { "id": "b", "text": "On STOPPE la statine au moins 3 mois AVANT la conception, et on ne reprend pas avant la fin de l'allaitement.", "correct": true },
+    { "id": "c", "text": "On change pour une statine à plus faible dose, mais on poursuit.", "correct": false },
+    { "id": "d", "text": "On arrête la statine pendant le premier trimestre seulement.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les statines sont CONTRE-INDIQUÉES en grossesse et en allaitement (passent dans le lait). NICE : arrêt AU MOINS 3 MOIS avant la conception (élimination de la statine et de ses métabolites). Reprise possible APRÈS le sevrage. Pendant la pause : renforcer les RHD, surveiller le bilan. Le cholestérol est INDISPENSABLE au développement fœtal (membranes, hormones, SNC) : bloquer sa synthèse est délétère.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

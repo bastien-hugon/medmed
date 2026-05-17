@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c1-q05-proportion-communes",
+  "kind": "cloze",
+  "prompt": "Parmi tous les patients qui consultent pour une lombalgie, environ ___ % relèvent d'une lombalgie COMMUNE (sans cause grave identifiable).",
+  "expected": ["90"],
+  "rationale": "≥ 90 % des lombalgies sont 'communes' (sans drapeau rouge identifiable). Ce chiffre est fondamental : il justifie de ne PAS faire d'examens en première intention, et il guide la posture clinique vers la réassurance plutôt que vers la traque diagnostique.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q01e-bronchioles",
+  "kind": "qcm-vignette",
+  "prompt": "À quel niveau de l'arbre respiratoire la fumée de tabac inhalée commence-t-elle à AGRESSER la paroi pour déclencher l'inflammation chronique de la BPCO ?",
+  "choices": [
+    { "id": "a", "text": "Uniquement dans la trachée, qui filtre tout le reste", "correct": false },
+    { "id": "b", "text": "Dans les bronches et les bronchioles, sur tout le trajet de la fumée", "correct": true },
+    { "id": "c", "text": "Uniquement dans les alvéoles, à la fin du trajet", "correct": false },
+    { "id": "d", "text": "Au niveau de l'œsophage, en aval de la déglutition", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La fumée parcourt tout l'arbre respiratoire et agresse à chaque étage la paroi bronchique et bronchiolaire — d'où une inflammation diffuse. Les alvéoles, en bout de chaîne, subissent en plus une destruction (emphysème). L'œsophage n'est pas concerné (sauf reflux/exposition orale). La trachée seule ne filtre pas tout : la finesse des particules de fumée leur permet d'atteindre les alvéoles.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

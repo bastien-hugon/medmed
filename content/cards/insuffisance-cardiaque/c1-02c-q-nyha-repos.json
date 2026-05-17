@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q02c-nyha-repos",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente IC dit qu'elle est essoufflée même assise dans son fauteuil, sans bouger. À quelle classe NYHA correspond-elle ?",
+  "choices": [
+    { "id": "a", "text": "NYHA I", "correct": false },
+    { "id": "b", "text": "NYHA II", "correct": false },
+    { "id": "c", "text": "NYHA III", "correct": false },
+    { "id": "d", "text": "NYHA IV", "correct": true }
+  ],
+  "expected": ["d"],
+  "rationale": "Dyspnée AU REPOS = NYHA IV, la classe la plus sévère. C'est souvent un critère d'orientation vers une équipe MDT spécialisée et de discussion de prise en charge avancée (transplantation, soins palliatifs selon contexte).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

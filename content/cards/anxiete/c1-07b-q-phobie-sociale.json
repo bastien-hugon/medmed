@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q07b-phobie-sociale",
+  "kind": "qcm-vignette",
+  "prompt": "Un jeune homme de 24 ans évite systématiquement de prendre la parole en réunion, ne mange jamais en public, rougit dès qu'on le regarde, et a refusé deux promotions exigeant des présentations. Quel diagnostic évoquer ?",
+  "choices": [
+    { "id": "a", "text": "Trouble anxieux généralisé", "correct": false },
+    { "id": "b", "text": "Phobie sociale (anxiété sociale) : peur centrale du regard et du jugement d'autrui", "correct": true },
+    { "id": "c", "text": "Agoraphobie", "correct": false },
+    { "id": "d", "text": "Personnalité timide normale, sans pathologie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Tableau typique de phobie sociale (= trouble d'anxiété sociale) : peur intense du jugement, évitement de situations sociales spécifiques, retentissement professionnel marqué (refus de promotions). Différent du TAG (soucis MULTIPLES diffus) et de l'agoraphobie (peur des situations dont on ne peut s'échapper, transports, foules). Trouble fréquent, SOUS-DIAGNOSTIQUÉ (les patients attribuent à un trait de caractère), accessible à la CBT avec exposition graduée et SSRI si nécessaire.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

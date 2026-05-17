@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c2-s08-rituximab-fenetre",
+  "kind": "sct",
+  "prompt": "Un patient va débuter du rituximab (anti-CD20) dans 10 jours. Vous envisagez de vacciner à ce moment-là, après la première perfusion.",
+  "hypothesis": "Mon hypothèse : la fenêtre de vaccination optimale est juste après la première dose de rituximab.",
+  "new_info": "Vous rappelez que le rituximab déplète les lymphocytes B pour 6 à 12 mois (parfois plus), rendant impossible la production d'anticorps spécifiques.",
+  "expected": "affaiblit",
+  "rationale": "Anti-CD20 (rituximab, ocrelizumab...) détruit les lymphocytes B → effondrement de la réponse vaccinale humorale pendant 6-12 mois après chaque cure. Idéalement : vacciner AVANT la première perfusion (au moins 2-4 semaines). Si déjà sous traitement : la fenêtre vaccinale efficace est restreinte, voire impossible avant la reconstitution B. L'info AFFAIBLIT le timing « juste après ». Conduite : tout faire avant la première perfusion ; si trop tard, surveillance et sérologies après reconstitution.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "immunodepression"],
+    "item_edn": [143, 187],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

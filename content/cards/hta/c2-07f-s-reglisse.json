@@ -1,0 +1,22 @@
+{
+  "id": "hta-c2-s07-reglisse",
+  "kind": "sct",
+  "prompt": "Une patiente hypertendue te dit qu'elle consomme tous les jours de la réglisse (bonbons, infusions) pour aider sa digestion.",
+  "hypothesis": "Mon hypothèse : la réglisse peut aggraver son HTA et il faut lui conseiller d'arrêter.",
+  "new_info": "Tu te rappelles que la réglisse contient de l'acide glycyrrhizique, qui inhibe la dégradation du cortisol, lequel se comporte alors comme un minéralocorticoïde (effet aldostérone-like).",
+  "expected": "renforce",
+  "rationale": "La réglisse → acide glycyrrhizique → blocage de la 11β-HSD2 → cortisol non dégradé → action aldostérone-like → rétention Na/eau + perte K → ↑ PA + hypokaliémie. Effet documenté, parfois sévère (rapports d'HTA et de pseudohyperaldostéronisme). La HAS la cite parmi les facteurs aggravants à rechercher dans l'HTA résistante. L'info renforce nettement l'hypothèse : arrêt conseillé.",
+  "tags": {
+    "system": ["cardiovasculaire", "endocrinologie", "nutrition"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

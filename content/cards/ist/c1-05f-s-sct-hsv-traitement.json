@@ -1,0 +1,22 @@
+{
+  "id": "ist-c1-s05f-sct-hsv-traitement",
+  "kind": "sct",
+  "prompt": "Un patient de 30 ans, herpès génital récurrent (3 poussées/an), vous demande s'il existe un traitement qui éliminera définitivement le virus.",
+  "hypothesis": "Il existe un traitement curatif éliminant définitivement HSV.",
+  "new_info": "Vous consultez les recommandations actuelles : seuls des antiviraux (valaciclovir, aciclovir) peuvent raccourcir les poussées ou les espacer en traitement suppressif.",
+  "expected": "affaiblit",
+  "rationale": "L'HSV reste à vie dans les ganglions sensitifs après la primo-infection. Les antiviraux RACCOURCISSENT les poussées (traitement épisodique) ou les ESPACENT (traitement suppressif continu si > 6 poussées/an), mais N'ÉLIMINENT PAS le virus. La nouvelle information AFFAIBLIT donc l'hypothèse d'un traitement curatif. C'est typique des IST virales chroniques (HSV, VIH, HPV, hépatite B) : on contrôle, on ne guérit pas.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

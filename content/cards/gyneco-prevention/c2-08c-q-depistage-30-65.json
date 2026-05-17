@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q08c-depistage-30-65",
+  "kind": "qcm-vignette",
+  "prompt": "Pour une femme entre 30 et 65 ans, quel est le test de DÉPISTAGE de 1ère intention du cancer du col (recommandations HAS 2019, déployées en 2020) ?",
+  "choices": [
+    { "id": "a", "text": "Examen cytologique tous les 3 ans.", "correct": false },
+    { "id": "b", "text": "Test HPV-HR tous les 5 ans si négatif.", "correct": true },
+    { "id": "c", "text": "Colposcopie tous les 5 ans.", "correct": false },
+    { "id": "d", "text": "Test HPV tous les 6 mois.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Changement majeur HAS 2019/2020 : à partir de 30 ans, le TEST HPV remplace la cytologie en 1ère intention. Fréquence : tous les 5 ans si négatif. Logique : après 30 ans, une positivité HPV reflète plus souvent une infection PERSISTANTE (les transitoires sont éliminées) — donc le test est plus pertinent et précoce que la cytologie. Si HPV positif → cytologie réflexe automatique sur le même prélèvement, puis colposcopie selon résultats.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Cancer_du_col_de_l%27ut%C3%A9rus",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

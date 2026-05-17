@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c2-q08-suivi-calendrier",
+  "kind": "cloze",
+  "prompt": "Calendrier de suivi NICE après initiation d'une statine : contrôle biologique à ___ mois, puis à ___ mois, puis ___.",
+  "expected": ["3", "12", "annuel"],
+  "rationale": "Mémo simple : 3 / 12 / annuel. À 2-3 mois : profil lipidique + transaminases (efficacité + tolérance). À 12 mois : transaminases + profil lipidique (OBLIGATOIRE en secondaire, à considérer en primaire). Ensuite ANNUEL : revue médicamenteuse, profil lipidique (annuel en secondaire), observance, RHD, FdR. Considérer une intensification vers haute intensité chez patients stables encore sous intensité moyenne/faible.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

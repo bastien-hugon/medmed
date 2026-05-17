@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c1-q03e-femme-45-ans-mammo",
+  "kind": "qcm-vignette",
+  "prompt": "Madame G., 45 ans, sans antécédent familial particulier, vous demande s'il faut qu'elle commence à faire une mammographie de dépistage 'pour anticiper'. Que lui répondez-vous ?",
+  "choices": [
+    { "id": "a", "text": "Oui, on peut commencer dès 40 ans, c'est mieux d'être prudent", "correct": false },
+    { "id": "b", "text": "Le dépistage organisé démarre à 50 ans en France ; avant cet âge, sans facteur de risque particulier, le rapport bénéfice/risque n'est pas favorable en population générale", "correct": true },
+    { "id": "c", "text": "Une mammographie tous les 5 ans suffit dès 40 ans", "correct": false },
+    { "id": "d", "text": "Une IRM annuelle à partir de 40 ans est la bonne solution", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "À 45 ans, sans facteur de risque (pas d'ATCD familial de sein/ovaire dense, pas de BRCA suspecté, pas d'irradiation thoracique...), la patiente reste dans le scénario population générale : pas de mammographie de dépistage organisé avant 50 ans. Pourquoi ? Deux raisons : (1) les seins jeunes sont plus denses, la sensibilité de la mammographie chute, (2) l'incidence du cancer est plus faible avant 50 ans → faire le test produit plus de faux positifs que de cancers réellement attrapés (mauvais ratio). L'IRM (d) n'est jamais un outil de dépistage en population générale (trop chère, trop sensible — faux positifs +++). On peut en revanche rappeler l'examen clinique annuel par le médecin traitant et la vigilance aux symptômes.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

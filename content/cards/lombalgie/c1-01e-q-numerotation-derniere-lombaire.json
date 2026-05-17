@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c1-q01-numerotation-derniere-lombaire",
+  "kind": "free-recall",
+  "prompt": "Dans la nomenclature anatomique, comment s'appelle la dernière (la plus basse) des vertèbres lombaires ?",
+  "expected": ["L5", "l5"],
+  "rationale": "L5 : la 5e et dernière vertèbre lombaire, juste au-dessus du sacrum. C'est aussi l'étage le plus sollicité mécaniquement, et un des sites les plus fréquents de hernie discale et de discopathie. L'articulation L5-S1 est appelée la 'charnière lombo-sacrée'.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

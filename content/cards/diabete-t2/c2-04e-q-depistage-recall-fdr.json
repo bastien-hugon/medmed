@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q14-depistage-recall-fdr",
+  "kind": "free-recall",
+  "prompt": "Cite 4 facteurs de risque de diabète de type 2 qui justifient un dépistage par glycémie à jeun.",
+  "expected": ["surpoids", "obésité", "obesite", "IMC", "tour de taille", "sédentarité", "sedentarite", "antécédent familial", "antecedent familial", "famille", "âge", "age", "45 ans", "HTA", "hypertension", "dyslipidémie", "dyslipidemie", "diabète gestationnel", "diabete gestationnel", "prédiabète", "predibete", "origine non-caucasienne", "ethnie"],
+  "rationale": "Liste HAS — facteurs majeurs : surpoids/obésité (surtout abdominale), sédentarité, antécédent familial 1er degré, origine non-caucasienne, HTA, dyslipidémie, antécédent de DG, antécédent de prédiabète, âge ≥ 45 ans. 4 sur la liste = bonne réponse. Plus le patient en cumule, plus le dépistage est précoce et rapproché.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

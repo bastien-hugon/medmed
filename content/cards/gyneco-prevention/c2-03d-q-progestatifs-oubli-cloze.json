@@ -1,0 +1,20 @@
+{
+  "id": "gyneco-prevention-c2-q03d-progestatifs-oubli-cloze",
+  "kind": "cloze",
+  "prompt": "Pour les pilules micro-dosées progestatives (SAUF désogestrel), la fenêtre d'oubli tolérée est très étroite — environ ___ heures seulement.",
+  "expected": ["3"],
+  "rationale": "Pilule micro-dosée classique : tolérance de retard ~3 heures (parfois jusqu'à 12 h pour le désogestrel, dont l'effet anti-ovulatoire est plus marqué). C'est la fenêtre la plus étroite de toute la contraception — un retard de 4-12 h sur une micro-pilule classique peut faire perdre l'efficacité. Implication pratique : si la patiente a du mal avec la rigueur horaire, préférer le désogestrel OU mieux : une LARC (implant, DIU LNG) qui élimine le problème d'observance.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "asthenie-c1-q01c-asthenie-jargon",
+  "kind": "cloze",
+  "prompt": "Le terme médical (jargon) qui désigne la fatigue est l'___.",
+  "expected": ["asthénie", "asthenie"],
+  "rationale": "Asthénie = mot savant pour fatigue (du grec a- = privatif et sthenos = force). Le terme apparaît dans les SDD (Situations de Départ) de l'EDN. Dans le langage médical courant, on utilise indifféremment fatigue et asthénie.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

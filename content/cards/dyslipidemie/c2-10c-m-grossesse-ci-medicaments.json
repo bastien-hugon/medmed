@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c2-m10-grossesse-ci-medicaments",
+  "kind": "qcm-multi",
+  "prompt": "Cochez tous les hypolipémiants CONTRE-INDIQUÉS ou NON RECOMMANDÉS pendant la grossesse et l'allaitement.",
+  "choices": [
+    { "id": "a", "text": "Atorvastatine.", "correct": true },
+    { "id": "b", "text": "Rosuvastatine.", "correct": true },
+    { "id": "c", "text": "Simvastatine.", "correct": true },
+    { "id": "d", "text": "Ézétimibe (peu de données).", "correct": true },
+    { "id": "e", "text": "Anti-PCSK9 (alirocumab, evolocumab, inclisiran).", "correct": true },
+    { "id": "f", "text": "Acide folique 5 mg/jour.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "TOUTES les statines sont contre-indiquées (par classe). L'ézétimibe et les anti-PCSK9 ne sont pas recommandés (données limitées, anticorps monoclonaux traversant probablement le placenta). En revanche, l'acide folique est au contraire RECOMMANDÉ en pré-conception et en début de grossesse (prévention des anomalies de fermeture du tube neural) — pas du tout dans la même catégorie.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

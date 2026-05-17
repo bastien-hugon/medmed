@@ -1,0 +1,22 @@
+{
+  "id": "ist-c2-s05f-sct-grossesse-toc",
+  "kind": "sct",
+  "prompt": "Une femme enceinte de 22 SA vient d'être traitée par azithromycine 1g dose unique pour une chlamydia génitale. Vous envisagez de la revoir.",
+  "hypothesis": "Indication d'un test de guérison (TOC) par NAAT chlamydia.",
+  "new_info": "Vous regardez les recommandations CDC 2021 : 'TOC à 4 semaines en grossesse'.",
+  "expected": "renforce",
+  "rationale": "La grossesse est une EXCEPTION à la règle 'pas de TOC systématique'. La nouvelle info RENFORCE l'indication : on planifie un retest NAAT chlamydia à 4 semaines post-TT. Justifications : (1) enjeu de transmission néonatale (conjonctivite J5-J12, pneumopathie 1-3 mois) ; (2) azithro dose unique étant un peu moins efficace que doxy 7 j, on confirme la guérison. Plus le retest classique à 3 mois pour réinfection.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

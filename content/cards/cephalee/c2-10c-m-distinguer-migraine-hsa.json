@@ -1,0 +1,28 @@
+{
+  "id": "cephalee-c2-m10c-distinguer-migraine-hsa",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les éléments qui orientent vers une HÉMORRAGIE SOUS-ARACHNOÏDIENNE plutôt que vers une crise de migraine chez un patient migraineux connu.",
+  "choices": [
+    { "id": "a", "text": "Céphalée atteignant son maximum en quelques secondes / < 5 min", "correct": true },
+    { "id": "b", "text": "Céphalée 'différente, pas comme d'habitude'", "correct": true },
+    { "id": "c", "text": "Survenue pendant un effort ou un Valsalva", "correct": true },
+    { "id": "d", "text": "Trouble de la conscience associé", "correct": true },
+    { "id": "e", "text": "Raideur de nuque associée (irritation méningée)", "correct": true },
+    { "id": "f", "text": "Céphalée installée progressivement sur 30 min, pulsatile, avec nausée, identique aux crises habituelles", "correct": false },
+    { "id": "g", "text": "Photophobie et phonophobie habituelles à toutes ses crises", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Critères discriminants en faveur d'une HSA : cinétique brutale (max < 5 min), changement (pas comme d'habitude), déclencheur Valsalva/effort, troubles de conscience, raideur méningée. À l'inverse, une crise IDENTIQUE aux précédentes, installée en 30 min, sans drapeau rouge, est rassurante. Piège : la photophobie/phonophobie n'est PAS spécifique — elle peut accompagner une HSA (irritation méningée) comme une migraine.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "hsa"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

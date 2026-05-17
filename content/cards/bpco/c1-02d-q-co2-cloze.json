@@ -1,0 +1,20 @@
+{
+  "id": "bpco-c1-q02d-co2-cloze",
+  "kind": "cloze",
+  "prompt": "Au niveau des alvéoles, l'oxygène passe du gaz vers le sang ; le déchet gazeux qui fait le chemin INVERSE (du sang vers l'air expiré) est le ___.",
+  "expected": ["CO2", "dioxyde de carbone"],
+  "rationale": "L'échange alvéolaire est BIDIRECTIONNEL : O2 entre dans le sang, CO2 sort. Le CO2 (dioxyde de carbone) est le déchet du métabolisme cellulaire, transporté par le sang veineux jusqu'aux poumons puis expiré. Dans la BPCO sévère, l'accumulation de CO2 (hypercapnie) signe l'insuffisance respiratoire avancée.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

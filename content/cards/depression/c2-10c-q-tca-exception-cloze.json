@@ -1,0 +1,20 @@
+{
+  "id": "depression-c2-q10c-tca-exception-cloze",
+  "kind": "cloze",
+  "prompt": "NICE 2022 (Rec 1.4.20) déconseille les TCA en routine en raison du risque létal en overdose, à L'EXCEPTION d'un TCA particulier au meilleur profil de sécurité : la ___.",
+  "expected": ["lofépramine", "lofepramine"],
+  "rationale": "La lofépramine est l'unique TCA explicitement exclu de la mise en garde NICE Rec 1.4.20. Profil de sécurité en overdose nettement supérieur aux autres TCA (amitriptyline, clomipramine, imipramine, dosulépine). En pratique française, rarement prescrite mais à connaître. En France, ISRS et ISRSNA dominent largement la prescription d'AD.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

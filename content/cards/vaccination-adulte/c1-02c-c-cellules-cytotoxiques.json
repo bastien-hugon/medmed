@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c1-c02-cellules-cytotoxiques",
+  "kind": "cloze",
+  "prompt": "Les lymphocytes T ___ détruisent directement les cellules de l'organisme déjà infectées par un microbe. C'est l'immunité dite ___.",
+  "expected": ["cytotoxiques", "cellulaire"],
+  "rationale": "Deux versants de la réponse immunitaire : HUMORALE (anticorps produits par les lymphocytes B, circulent dans les liquides) et CELLULAIRE (lymphocytes T qui agissent directement, soit en tuant — T cytotoxiques ou « killer » — soit en coordonnant — T auxiliaires/helper). Les T cytotoxiques portent le marqueur CD8 ; les T auxiliaires portent le CD4 (ceux que le VIH détruit).",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Immunit%C3%A9_acquise",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

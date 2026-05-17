@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c2-q05-primaire-cible",
+  "kind": "cloze",
+  "prompt": "En prévention primaire, NICE recommande comme cible biologique à 2-3 mois une réduction de plus de ___ % du ___-HDL cholestérol par rapport à la valeur initiale.",
+  "expected": ["40", "non"],
+  "rationale": "La cible NICE en prévention PRIMAIRE est exprimée comme une RÉDUCTION RELATIVE : >40 % de baisse du NON-HDL cholestérol à 2-3 mois après l'initiation de la statine. Le 'non-HDL' = cholestérol total − HDL (plus simple à interpréter que le LDL quand les TG sont élevés). En prévention SECONDAIRE, la cible est plutôt absolue (LDL ≤ 2,0 mmol/L ou non-HDL ≤ 2,6 mmol/L).",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

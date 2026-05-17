@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c1-q01f-expiration-difficile",
+  "kind": "cloze",
+  "prompt": "Dans la crise d'asthme, l'air a surtout du mal à ___ (entrer / sortir) des poumons : c'est ce qui explique le sifflement entendu à l'expiration.",
+  "expected": ["sortir"],
+  "rationale": "À l'expiration, la pression interne thoracique tend à comprimer les petites bronches : si elles sont déjà rétrécies (muscle, œdème, mucus), elles se collabent et sifflent. À l'inspiration, le thorax tire activement les bronches ouvertes, l'air entre plus facilement. C'est pour ça que les sibilants asthmatiques sont surtout EXPIRATOIRES et que les patients en crise ont une expiration prolongée.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

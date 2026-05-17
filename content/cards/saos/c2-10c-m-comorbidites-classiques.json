@@ -1,0 +1,29 @@
+{
+  "id": "saos-c2-10c-m-comorbidites-classiques",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les comorbidités à RECHERCHER systématiquement chez un patient SAOS nouvellement diagnostiqué.",
+  "choices": [
+    {"id": "a", "text": "HTA, en particulier HTA résistante", "correct": true},
+    {"id": "b", "text": "Fibrillation auriculaire", "correct": true},
+    {"id": "c", "text": "Diabète de type 2 / syndrome métabolique", "correct": true},
+    {"id": "d", "text": "ATCD ou FdR d'AVC", "correct": true},
+    {"id": "e", "text": "Dépression / troubles cognitifs", "correct": true},
+    {"id": "f", "text": "Maladie cœliaque", "correct": false},
+    {"id": "g", "text": "Sclérose en plaques", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Comorbidités classiques du SAOS (toutes liées au stress cardiovasculaire / inflammation / fragmentation du sommeil) : HTA (surtout RÉSISTANTE), FA (prévalence très élevée, favorise récidive), diabète T2 et syndrome métabolique (lien bidirectionnel via obésité, inflammation, insulinorésistance), AVC, dépression et troubles cognitifs (liés à l'hypoxie et à la fragmentation). Pas de lien avec maladie cœliaque ni SEP.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire", "neurologie", "endocrinologie", "psychiatrie"],
+    "sdd": ["saos"],
+    "item_edn": [108, 224, 232, 245],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

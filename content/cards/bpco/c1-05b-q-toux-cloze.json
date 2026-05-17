@@ -1,0 +1,20 @@
+{
+  "id": "bpco-c1-q05b-toux-cloze",
+  "kind": "cloze",
+  "prompt": "On parle de toux 'chronique' au-delà de ___ mois par an, depuis au moins ___ années consécutives.",
+  "expected": ["3", "2"],
+  "rationale": "Définition classique de la toux chronique BPCO : ≥ 3 mois par an, ≥ 2 ans de suite. C'est la définition historique de la bronchite chronique. Au-delà, on évoque toute toux > 8 semaines chez un fumeur > 35 ans comme signal d'alerte qui doit faire pratiquer une spirométrie.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

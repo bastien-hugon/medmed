@@ -1,0 +1,22 @@
+{
+  "id": "hta-c1-s11-asymetrie-bras",
+  "kind": "sct",
+  "prompt": "Lors d'une 1ère consultation, tu mesures la PA aux deux bras : bras droit 138/82, bras gauche 162/95.",
+  "hypothesis": "Mon hypothèse : il existe une atteinte vasculaire (par exemple sténose sous-clavière) à explorer en complément.",
+  "new_info": "L'écart entre les deux bras est de 24 mmHg de systolique, soit nettement > 15 mmHg.",
+  "expected": "renforce",
+  "rationale": "Écart de PA systolique > 15-20 mmHg entre les 2 bras = drapeau rouge à explorer (sténose sous-clavière, athérosclérose marquée, coarctation de l'aorte, exceptionnellement dissection aortique). L'info renforce nettement l'hypothèse d'atteinte vasculaire. Conduite : refaire la mesure proprement (vérifier qu'il ne s'agit pas d'un artéfact), puis discuter d'un écho-doppler des troncs supra-aortiques ou d'un avis spé selon le contexte.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

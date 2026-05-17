@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q04e-naat-combinee",
+  "kind": "qcm-vignette",
+  "prompt": "Sur un même prélèvement urinaire (1er jet) ou vaginal (auto-prélèvement), quelles 2 IST recherche-t-on typiquement par NAAT combinée ?",
+  "choices": [
+    { "id": "a", "text": "VIH et syphilis", "correct": false },
+    { "id": "b", "text": "Chlamydia et gonocoque", "correct": true },
+    { "id": "c", "text": "Hépatite B et hépatite C", "correct": false },
+    { "id": "d", "text": "HPV et herpès", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les NAAT 'duplex' chlamydia/gonocoque sont la norme : un seul prélèvement (1er jet d'urine OU auto-prélèvement vaginal) permet de chercher les deux bactéries en une analyse. VIH et syphilis sont, eux, recherchés par sérologie sanguine. HPV se cherche par frottis cervico-vaginal (femmes), HSV par diagnostic clinique des lésions.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

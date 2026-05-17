@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c1-q03b-mortalite-evitable",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la place du tabac dans la mortalité française ?",
+  "choices": [
+    { "id": "a", "text": "1ère cause de mortalité ÉVITABLE (~75 000 morts/an)", "correct": true },
+    { "id": "b", "text": "Cause marginale de mortalité, surtout impliquée dans les accidents domestiques", "correct": false },
+    { "id": "c", "text": "1ère cause de mortalité globale toutes causes confondues, devant le cancer et les maladies cardio-vasculaires en général", "correct": false },
+    { "id": "d", "text": "Cause exclusivement liée au cancer du poumon, sans impact sur d'autres pathologies", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Le tabac est la 1ère cause de mortalité ÉVITABLE en France (~75 000 décès/an). 'Évitable' parce que sevrer = supprimer cette cause. Il n'est pas la 1ère cause de mortalité TOUTE CAUSE (qui sont les maladies cardio-vasculaires globalement, puis les cancers, où le tabac contribue mais n'est pas la seule étiologie). Son impact dépasse largement le seul cancer du poumon (BPCO, infarctus, AVC, autres cancers...).",
+  "tags": {
+    "system": ["pneumologie", "prevention", "sante-publique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

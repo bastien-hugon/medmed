@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c2-q06-secondaire-timing",
+  "kind": "free-recall",
+  "prompt": "Après un infarctus du myocarde, quand initier la statine en prévention secondaire ?",
+  "expected": [
+    "le plus tôt possible",
+    "dès l'hospitalisation",
+    "sans délai",
+    "à l'admission",
+    "pendant l'hospitalisation"
+  ],
+  "rationale": "Initiation LE PLUS TÔT POSSIBLE, dès l'hospitalisation (idéalement dans les 24-48 h après l'événement). On NE retarde PAS : profil lipidique à l'admission (en sachant qu'il sera artéfactuellement bas pendant la phase aiguë), atorvastatine 80 mg d'emblée. Recontrôle du bilan lipidique à 2-3 mois pour évaluer l'efficacité et la tolérance hépatique. Initier tôt = bénéfice CV démontré dès les premiers mois.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

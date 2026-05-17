@@ -1,0 +1,22 @@
+{
+  "id": "irc-c2-s07-metformine-gastro",
+  "kind": "sct",
+  "prompt": "M. D., 78 ans, MRC G3b stable (DFG 35) sous metformine 850 mg x 2/j. Il consulte aux urgences pour gastro-entérite sévère avec déshydratation. Vous évaluez le risque d'acidose lactique comme faible et continuez la metformine.",
+  "hypothesis": "Le risque d'acidose lactique est faible, on peut maintenir la metformine pendant l'épisode aigu.",
+  "new_info": "Le bilan d'entrée montre une créatinine à 280 µmol/L (versus 145 habituellement), un DFG estimé à 18, et un pH à 7,28 avec lactates à 5,2 mmol/L. Le patient est dans un état confusionnel.",
+  "expected": "affaiblit",
+  "rationale": "Tableau d'ACIDOSE LACTIQUE SOUS METFORMINE (MALA) : déshydratation aiguë → chute du DFG (35 → 18) → accumulation de metformine → blocage de la néoglucogenèse hépatique → acidose lactique. Le patient bascule en G4 fonctionnel, la metformine s'accumule, et l'acidose s'installe. Conduite : arrêt immédiat de metformine, réhydratation IV, surveillance lactates, parfois hémodialyse en urgence. L'information affaiblit FRANCHEMENT l'évaluation 'risque faible'. Leçon : chez tout MRC avec événement aigu, suspendre metformine (et autres SADMANS).",
+  "tags": {
+    "system": ["nephrologie", "endocrinologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "diabete", "iatrogenie"],
+    "item_edn": [261, 264, 245, 326, 343],
+    "cnge_family": ["chroniques", "urgences"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

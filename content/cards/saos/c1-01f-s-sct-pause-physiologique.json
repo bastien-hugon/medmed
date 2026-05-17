@@ -1,0 +1,22 @@
+{
+  "id": "saos-c1-01f-s-sct-pause-physiologique",
+  "kind": "sct",
+  "prompt": "Un patient s'inquiète : son conjoint l'a vu 'faire une pause' respiratoire de 6 secondes pendant son sommeil. Vous suspectez d'abord une pause physiologique, fréquente notamment en sommeil paradoxal.",
+  "hypothesis": "Il s'agit d'une pause respiratoire physiologique.",
+  "new_info": "Le conjoint précise que ces pauses durent en réalité 15 à 20 secondes et se répètent une dizaine de fois par heure d'observation.",
+  "expected": "affaiblit",
+  "rationale": "Le seuil consensuel pour parler d'apnée pathologique = 10 secondes. Une pause de 6 s peut être physiologique. Apprendre que les pauses durent en réalité 15-20 s, à raison de 10/h, AFFAIBLIT fortement l'hypothèse de pauses physiologiques et oriente vers un SAOS qui mériterait exploration. L'information renverse la lecture initiale.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

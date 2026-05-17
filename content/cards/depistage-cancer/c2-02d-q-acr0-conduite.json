@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q02d-acr0-conduite",
+  "kind": "qcm-vignette",
+  "prompt": "Le compte-rendu de mammographie de Madame B., 57 ans, conclut : 'classification ACR 0'. Que signifie ce classement et que faut-il faire ?",
+  "choices": [
+    { "id": "a", "text": "C'est rassurant : ACR 0 = pas de lésion, retour à 2 ans", "correct": false },
+    { "id": "b", "text": "C'est un classement INCOMPLET : le radiologue a besoin d'examens supplémentaires (clichés ciblés, échographie) avant de pouvoir classer définitivement la lésion", "correct": true },
+    { "id": "c", "text": "C'est très inquiétant : ACR 0 = cancer déjà prouvé", "correct": false },
+    { "id": "d", "text": "Il faut une biopsie immédiate", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "ACR 0 = 'classement provisoire, on ne sait pas encore'. Le radiologue voit quelque chose qu'il ne peut pas trancher avec les seules incidences standard. Conduite : clichés complémentaires (compression localisée, agrandissement) et/ou échographie ciblée. Une fois ces examens faits, on reclasse en ACR 1, 2, 3, 4 ou 5 — c'est ce reclassement qui décide de la suite. Pièges fréquents : croire qu'ACR 0 = normal (a, faux), ou qu'ACR 0 = cancer (c, faux : c'est ACR 6 = cancer déjà prouvé par biopsie). Biopsier sans avoir fini le bilan d'imagerie (d) serait prématuré.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

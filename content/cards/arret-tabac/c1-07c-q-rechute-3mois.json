@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c1-q07c-rechute-3mois",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient revient en consultation, désolé : 'J'ai tenu 3 mois sans fumer. Et là, samedi soir à un mariage, j'ai craqué pour 3 cigarettes. Depuis, je refume 5 par jour. Je suis nul.' Quelle est la réponse la plus appropriée ?",
+  "choices": [
+    { "id": "a", "text": "'Effectivement, c'est dommage. Si vous n'arrivez pas, peut-être que ce n'est pas pour vous.'", "correct": false },
+    { "id": "b", "text": "'Vous avez tenu 3 mois — c'est un acquis et une compétence. Une rechute n'efface pas ce que vous avez appris. On réajuste : qu'est-ce qui s'est passé samedi ? Comment on se prépare pour la prochaine fois ?'", "correct": true },
+    { "id": "c", "text": "'Il faut tout de suite passer à la varénicline puisque les NRT n'ont pas marché.'", "correct": false },
+    { "id": "d", "text": "'C'est un manque de volonté, il faut être plus déterminé la prochaine fois.'", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Posture clé en sevrage : la RECHUTE = ÉTAPE D'APPRENTISSAGE, pas échec moral. Le patient a tenu 3 mois → c'est un acquis durable. La rechute, dans le modèle de Prochaska, ramène à PRÉPARATION, pas à zéro. Conduite à tenir : analyser le déclencheur (alcool + fête = situation à anticiper différemment), réajuster (renforcer NRT, prévoir un plan B pour les soirées), encourager. Culpabiliser fait fuir le patient (option A, D). Escalader vers la varénicline sans avoir analysé la rechute est prématuré (option C).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "irc-c2-m05-hyperkaliemie-facteurs",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les facteurs qui PEUVENT contribuer à une hyperkaliémie chez un patient sous IEC/ARA2 et MRC.",
+  "choices": [
+    { "id": "a", "text": "AINS associé", "correct": true },
+    { "id": "b", "text": "Spironolactone ou autre antagoniste minéralocorticoïde", "correct": true },
+    { "id": "c", "text": "Supplémentation en potassium (sels de régime, ampoules)", "correct": true },
+    { "id": "d", "text": "Régime très riche en fruits secs / bananes / chocolat", "correct": true },
+    { "id": "e", "text": "Bêta-bloquant non sélectif (à dose élevée)", "correct": true },
+    { "id": "f", "text": "Paracétamol seul", "correct": false },
+    { "id": "g", "text": "Hémolyse au prélèvement (fausse hyperkaliémie)", "correct": true },
+    { "id": "h", "text": "Déshydratation associée", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "g", "h"],
+  "rationale": "Avant d'arrêter l'IEC sur une hyperkaliémie, on chasse toutes les causes additives : médicaments (AINS, antialdostérones, bêta-bloquants à fortes doses, héparines), supplémentations (sels diététiques de potassium = KCl), régime, déshydratation, et toujours penser à la fausse hyperkaliémie par hémolyse du tube de prélèvement (refaire le bilan dans le doute). Le paracétamol seul n'a pas d'effet sur la kaliémie.",
+  "tags": {
+    "system": ["nephrologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "iatrogenie"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

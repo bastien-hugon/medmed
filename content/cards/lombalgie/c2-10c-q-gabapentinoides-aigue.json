@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q10-gabapentinoides-aigue",
+  "kind": "qcm-vignette",
+  "prompt": "Que recommande la HAS 2019 concernant la prescription de gabapentinoïdes (prégabaline, gabapentine) en POUSSÉE AIGUË de lombalgie commune ?",
+  "choices": [
+    { "id": "a", "text": "Indiqués en 1ère intention", "correct": false },
+    { "id": "b", "text": "CONTRE-INDIQUÉS (Grade A) en poussée aiguë de lombalgie commune", "correct": true },
+    { "id": "c", "text": "Indiqués si la douleur dépasse 4/10 sur l'EVA", "correct": false },
+    { "id": "d", "text": "Indiqués chez la personne âgée uniquement", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "HAS 2019 : gabapentinoïdes CONTRE-INDIQUÉS en poussée aiguë (Grade A). NICE NG59 : 'do not offer gabapentinoids or antiepileptics for managing low back pain'. Pas d'efficacité, risque de sédation, abus et mésusage. Indication possible uniquement dans la radiculalgie CHRONIQUE à composante neuropathique avérée (DN4+).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

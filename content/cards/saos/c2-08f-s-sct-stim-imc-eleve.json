@@ -1,0 +1,22 @@
+{
+  "id": "saos-c2-08f-s-sct-stim-imc-eleve",
+  "kind": "sct",
+  "prompt": "Mme V., 55 ans, IMC 40, SAOS sévère (IAH 50), n'a jamais supporté la CPAP malgré 3 essais de masques différents. Elle demande une stimulation du nerf hypoglosse.",
+  "hypothesis": "La stimulation du nerf hypoglosse est une option thérapeutique pertinente pour Mme V.",
+  "new_info": "Vous rappelez que les critères d'éligibilité incluent un IMC < 35 (au-delà, l'efficacité est nettement diminuée).",
+  "expected": "affaiblit",
+  "rationale": "L'IMC > 35 est un critère d'exclusion classique de la stimulation du nerf hypoglosse : au-delà, l'obstruction est davantage liée à la masse graisseuse péripharyngée qu'au tonus du génioglosse, et la stimulation perd en efficacité. L'information AFFAIBLIT l'indication. Stratégie alternative : insister sur la perte de poids (chirurgie bariatrique éventuelle pour IMC 40), essayer encore l'OAM, ou retenter la CPAP avec accompagnement renforcé après amaigrissement.",
+  "tags": {
+    "system": ["pneumologie", "endocrinologie"],
+    "sdd": ["saos", "obesite"],
+    "item_edn": [108, 253],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

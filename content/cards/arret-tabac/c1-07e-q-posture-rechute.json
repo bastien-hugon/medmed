@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c1-q07e-posture-rechute",
+  "kind": "qcm-vignette",
+  "prompt": "Selon les approches recommandées (Prochaska, entretien motivationnel), quelle est la POSTURE thérapeutique adéquate face à la rechute d'un patient en sevrage tabagique ?",
+  "choices": [
+    { "id": "a", "text": "Considérer la rechute comme un échec définitif et orienter vers un spécialiste", "correct": false },
+    { "id": "b", "text": "Considérer la rechute comme une étape d'apprentissage normale ; le patient revient en stade de PRÉPARATION (pas à zéro), on analyse le déclencheur et on réajuste", "correct": true },
+    { "id": "c", "text": "Faire culpabiliser le patient pour qu'il prenne mieux ses traitements la prochaine fois", "correct": false },
+    { "id": "d", "text": "Imposer un sevrage forcé en milieu hospitalier", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La RECHUTE est INTÉGRÉE dans le modèle de Prochaska : elle ne fait pas sortir du cycle, elle renvoie vers la 'préparation' avec un nouvel acquis (le patient sait maintenant ce qui l'a fait rechuter). Posture du médecin : SOUTENIR + ANALYSER + RÉAJUSTER, jamais culpabiliser. Un patient culpabilisé arrête de consulter et ne réessaie pas. Un patient encouragé revient et apprend.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "saos-c1-03b-q-difference-apnee-hypopnee",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la différence FONDAMENTALE entre une apnée et une hypopnée obstructives du sommeil ?",
+  "choices": [
+    {"id": "a", "text": "L'apnée concerne le jour, l'hypopnée la nuit", "correct": false},
+    {"id": "b", "text": "L'apnée est un arrêt complet du flux d'air, l'hypopnée est une réduction partielle (≥ 30-50 %)", "correct": true},
+    {"id": "c", "text": "L'apnée dure > 10 s, l'hypopnée < 10 s", "correct": false},
+    {"id": "d", "text": "L'apnée est centrale, l'hypopnée est obstructive", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Apnée = arrêt COMPLET du flux d'air > 10 s (pharynx totalement fermé). Hypopnée = RÉDUCTION partielle (au moins 30-50 % du flux normal) > 10 s, avec une désaturation OU un microéveil (pharynx rétréci mais pas totalement obstrué). Les deux durent > 10 s. Les deux peuvent être obstructives. On les comptabilise ENSEMBLE dans l'IAH parce que leurs conséquences sont équivalentes (désaturation, microéveils).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

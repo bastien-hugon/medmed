@@ -1,0 +1,20 @@
+{
+  "id": "hta-c2-c01-equation-pa",
+  "kind": "cloze",
+  "prompt": "L'équation fondamentale de la pression artérielle est PA = ___ × ___.",
+  "expected": ["Q", "R"],
+  "rationale": "PA = Q × R. Q = débit cardiaque (= FC × volume éjecté). R = résistances vasculaires périphériques. Toute la pharmaco de l'HTA agit sur ces deux variables : bêtabloquants ↓ FC → ↓ Q. Diurétiques ↓ volume sanguin → ↓ Q. Inhibiteurs calciques relâchent les artérioles → ↓ R. IEC/ARA2 bloquent l'angiotensine II vasoconstrictrice → ↓ R et ↓ Q.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q05d-hpv-cancers",
+  "kind": "qcm-vignette",
+  "prompt": "Quel cancer est très majoritairement causé par certaines souches oncogènes de HPV ?",
+  "choices": [
+    { "id": "a", "text": "Cancer du sein", "correct": false },
+    { "id": "b", "text": "Cancer du col de l'utérus", "correct": true },
+    { "id": "c", "text": "Cancer de l'ovaire", "correct": false },
+    { "id": "d", "text": "Cancer de la prostate", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le cancer du col de l'utérus est causé à ~99 % par des HPV oncogènes (souches 16 et 18 surtout). C'est la principale justification du vaccin HPV (filles ET garçons depuis 2019, idéalement 11-14 ans, programme scolaire en 5ème depuis 2023). HPV cause aussi : cancers anal, oropharyngé, vulvaire, vaginal, pénien, plus les verrues génitales (condylomes, souches non oncogènes 6 et 11).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

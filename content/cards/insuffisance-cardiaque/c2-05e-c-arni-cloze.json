@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c2-c05e-arni-cloze",
+  "kind": "cloze",
+  "prompt": "Avant la 1ère prise d'ARNI, il faut respecter un délai de ___ heures après l'arrêt de l'IEC pour éviter le risque d'___ -œdème.",
+  "expected": ["36", "angio"],
+  "rationale": "Wash-out 36 h IEC → ARNI = règle de sécurité ABSOLUE (risque d'angio-œdème par cumul des effets sur la bradykinine et la neprilysine). Jamais d'association IEC + ARNI. Si antécédent d'angio-œdème sous IEC → contre-indication à l'ARNI aussi.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

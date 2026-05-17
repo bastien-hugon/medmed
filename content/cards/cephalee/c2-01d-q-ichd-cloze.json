@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q01d-ichd-cloze",
+  "kind": "cloze",
+  "prompt": "Critères ICHD-3 de migraine sans aura : au moins ___ crises, durée ___ à ___ heures, au moins ___ caractéristiques de douleur sur 4 (UPMA), et au moins ___ symptômes associés sur 2 (nausée/vomi OU photo+phono).",
+  "expected": ["5", "4", "72", "2", "1"],
+  "rationale": "Mnémo des nombres : 5-4-72-2-1. 5 crises (stéréotypie), 4 à 72 h (durée), 2 sur 4 caractéristiques douleur (UPMA), 1 sur 2 associés. Le 5ᵉ critère implicite E : non mieux expliqué par un autre diagnostic ICHD-3.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

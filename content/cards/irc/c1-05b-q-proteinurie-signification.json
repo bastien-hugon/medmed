@@ -1,0 +1,26 @@
+{
+  "id": "irc-c1-q05-proteinurie-signification",
+  "kind": "qcm-vignette",
+  "prompt": "Que signifie la présence de protéines (albumine) dans les urines d'un patient adulte ?",
+  "choices": [
+    { "id": "a", "text": "C'est normal après un repas riche en protéines", "correct": false },
+    { "id": "b", "text": "C'est un signal d'alarme : le tamis glomérulaire fuit, marqueur d'atteinte rénale", "correct": true },
+    { "id": "c", "text": "Cela traduit toujours une infection urinaire basse", "correct": false },
+    { "id": "d", "text": "Cela signifie que le patient mange trop de viande", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le glomérule sain retient les protéines de grande taille (albumine notamment) dans le sang : leur passage dans l'urine signe une atteinte du filtre. C'est un marqueur PRÉCOCE de MRC, qui peut précéder la chute du DFG. L'alimentation n'a quasi pas d'effet sur la protéinurie. L'infection urinaire basse donne plutôt leucocytes/nitrites positifs, pas de la protéinurie significative.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

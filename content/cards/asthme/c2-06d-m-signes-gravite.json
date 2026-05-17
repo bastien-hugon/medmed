@@ -1,0 +1,29 @@
+{
+  "id": "asthme-c2-m06d-signes-gravite",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les signes qui doivent faire envoyer un asthmatique en exacerbation aux urgences (signes de GRAVITÉ).",
+  "choices": [
+    {"id": "a", "text": "Difficulté à parler en phrases complètes", "correct": true},
+    {"id": "b", "text": "FC > 120/min", "correct": true},
+    {"id": "c", "text": "SpO2 < 92 % en air ambiant", "correct": true},
+    {"id": "d", "text": "DEP < 50 % de la meilleure valeur personnelle", "correct": true},
+    {"id": "e", "text": "Pas d'amélioration après plusieurs prises de reliever", "correct": true},
+    {"id": "f", "text": "Silence auscultatoire ou cyanose", "correct": true},
+    {"id": "g", "text": "Le patient présente une seule quinte de toux qui cède à 1 bouffée de salbutamol", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Signes de gravité = drapeaux rouges du plan d'action. Mémo : « parler/pouls/SpO2/peak flow/réponse au reliever/auscultation ». Silence auscultatoire = signe TRÈS sévère (asthme aigu grave). Cyanose = hypoxémie majeure. À l'inverse, une crise qui cède sur 1 bouffée n'est pas grave et fait partie du quotidien d'un asthmatique.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188, 359],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q02f-disproportion",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient explique : 'Quand mon voisin a eu une grippe, j'ai été persuadé pendant un mois que j'allais mourir d'un cancer. J'ai consulté trois médecins, fait quatre prises de sang.' À quel critère du trépied anxieux ce comportement correspond-il PRIORITAIREMENT ?",
+  "choices": [
+    { "id": "a", "text": "Disproportion : la peur dépasse de loin le risque réel", "correct": true },
+    { "id": "b", "text": "Persistance : durée > 6 mois", "correct": false },
+    { "id": "c", "text": "Anxiété normale et adaptative", "correct": false },
+    { "id": "d", "text": "Attaque de panique typique", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "C'est l'archétype de la DISPROPORTION : un signal mineur (grippe d'un voisin) déclenche une peur démesurée (cancer) et un comportement excessif (consultations multiples, examens en cascade). La durée d'un mois n'est PAS suffisante pour cocher la persistance (seuil ≥ 6 mois pour TAG). Pas d'anxiété normale (la peur ne suit pas le danger). Pas d'attaque de panique (pas de crise paroxystique brève). À noter : le comportement de quête de rassurance médicale (doctor shopping) est un drapeau classique d'anxiété pathologique.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

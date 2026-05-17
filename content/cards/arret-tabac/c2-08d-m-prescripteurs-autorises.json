@@ -1,0 +1,30 @@
+{
+  "id": "arret-tabac-c2-m08d-prescripteurs-autorises",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les professionnels de santé autorisés en France à prescrire des substituts nicotiniques (NRT) remboursés.",
+  "choices": [
+    {"id": "a", "text": "Médecin généraliste", "correct": true},
+    {"id": "b", "text": "Médecin spécialiste (cardiologue, pneumologue, etc.)", "correct": true},
+    {"id": "c", "text": "Sage-femme", "correct": true},
+    {"id": "d", "text": "Chirurgien-dentiste", "correct": true},
+    {"id": "e", "text": "Masseur-kinésithérapeute", "correct": true},
+    {"id": "f", "text": "Infirmier diplômé d'État", "correct": true},
+    {"id": "g", "text": "Pharmacien d'officine sans intervention d'un autre prescripteur", "correct": false},
+    {"id": "h", "text": "Diététicien-nutritionniste", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Cercle des prescripteurs élargi progressivement : médecins (toutes spé), sages-femmes (2011), dentistes / kinés / infirmiers (2016). À noter : depuis 2022, les pharmaciens peuvent DÉLIVRER des NRT remboursés sans ordonnance dans certaines conditions, mais la PRESCRIPTION initiale (avec remboursement) reste l'apanage des 6 catégories ci-dessus. Le diététicien n'est pas prescripteur.",
+  "tags": {
+    "system": ["addictologie", "prevention", "sante-publique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

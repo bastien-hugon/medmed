@@ -1,0 +1,26 @@
+{
+  "id": "depression-c2-q10e-quantite-limitee-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Vous prescrivez un ISRS à un patient avec idées suicidaires actives sans plan, en suivi rapproché. Quelle bonne pratique adoptez-vous concernant la quantité de médicament délivrée ?",
+  "choices": [
+    { "id": "a", "text": "Délivrer 3 mois de traitement d'un coup pour éviter de revenir", "correct": false },
+    { "id": "b", "text": "LIMITER la quantité prescrite à 1-2 semaines à chaque ordonnance, le temps que le risque baisse. Demander à l'entourage de garder les boîtes ou de gérer la prise. Retirer les autres médicaments potentiellement létaux du domicile (paracétamol en stock, benzodiazépines, etc.).", "correct": true },
+    { "id": "c", "text": "Lui donner aussi 30 jours de zolpidem \"pour bien dormir\"", "correct": false },
+    { "id": "d", "text": "Lui donner du Laroxyl à la place pour qu'il dorme mieux", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Bonne pratique en prévention du suicide : restreindre l'accès aux moyens létaux (cf. \"means restriction\" — l'une des interventions de prévention les mieux validées). Quantité limitée (1-2 sem), gestion par entourage, retrait des stocks à risque. Pas de zolpidem ni de TCA chez un patient à risque (toxicité en overdose). Le suivi rapproché est l'occasion de revoir le risque et d'ajuster.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74, 351],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

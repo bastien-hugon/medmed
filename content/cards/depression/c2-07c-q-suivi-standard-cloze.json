@@ -1,0 +1,20 @@
+{
+  "id": "depression-c2-q07c-suivi-standard-cloze",
+  "kind": "cloze",
+  "prompt": "Selon NICE 2022, après l'initiation d'un antidépresseur chez l'adulte > 25 ans sans risque suicidaire particulier, le premier suivi est à environ ___ semaines.",
+  "expected": ["2"],
+  "rationale": "Suivi standard à 2 semaines pour la majorité (> 25 ans, sans risque suicidaire majeur). Suivi rapproché à 1 semaine pour 18-25 ans ou patient à risque suicidaire (Rec 1.4.22). Justification : surveiller les effets indésirables précoces, l'observance, la majoration transitoire possible d'agitation/anxiété/idées suicidaires en début de traitement.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

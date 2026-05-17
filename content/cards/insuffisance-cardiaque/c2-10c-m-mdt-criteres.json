@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m10c-mdt-criteres",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les critères qui doivent faire envisager l'orientation d'un patient IC vers une équipe pluridisciplinaire (MDT) spécialisée (NICE NG106).",
+  "choices": [
+    { "id": "a", "text": "NYHA III ou IV", "correct": true },
+    { "id": "b", "text": "ICFEr nouvellement diagnostiquée (au moins une évaluation spécialisée)", "correct": true },
+    { "id": "c", "text": "Décompensation récente / hospitalisation pour IC", "correct": true },
+    { "id": "d", "text": "Insuffisance rénale avec DFG < 30 mL/min", "correct": true },
+    { "id": "e", "text": "Patient asymptomatique, FEVG > 50 %, stable depuis 5 ans", "correct": false },
+    { "id": "f", "text": "Comorbidités complexes ou intolérance médicamenteuse rendant la titration difficile", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "Orientation MDT (cardio + équipe IC) à considérer si : NYHA III-IV, ICFEr nouvelle, décompensation, IRC avancée (DFG < 30 = lien avec néphro), comorbidités complexes, intolérance médicamenteuse. Un patient stable et asymptomatique en suivi régulier MG ne justifie PAS la MDT.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

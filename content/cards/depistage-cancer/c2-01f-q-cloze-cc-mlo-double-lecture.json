@@ -1,0 +1,20 @@
+{
+  "id": "depistage-cancer-c2-q01f-cloze-cc-mlo-double-lecture",
+  "kind": "cloze",
+  "prompt": "Une mammographie de dépistage comporte au minimum 2 incidences par sein : ___ (vue de dessus) et ___ (en biais, étend vers l'aisselle). Si le cliché est classé ___ ou ___ par le 1er radiologue, il bénéficie d'une seconde lecture en aveugle par un autre radiologue.",
+  "expected": ["cranio-caudale", "oblique externe", "ACR 1", "ACR 2"],
+  "rationale": "CC + MLO = 2 incidences obligatoires (avec leurs noms officiels). La double lecture est réservée aux clichés classés NORMAUX (ACR 1) ou BÉNINS CERTAINS (ACR 2) — les seules catégories où on a 'décidé de ne rien faire' et où on veut un second œil pour s'assurer qu'on n'est pas en train de rater une lésion. À partir d'ACR 3 (probablement bénin, surveillance 6 mois) ou plus suspect, la décision sort déjà du circuit 'dépistage normal' et n'attend pas la double lecture. Note : l'oblique externe est souvent abrégée MLO (Médio-Latérale Oblique).",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

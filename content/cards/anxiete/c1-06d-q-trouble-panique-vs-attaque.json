@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q06d-trouble-panique-vs-attaque",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la différence essentielle entre une ATTAQUE de panique et un TROUBLE panique ?",
+  "choices": [
+    { "id": "a", "text": "L'attaque est plus intense que le trouble", "correct": false },
+    { "id": "b", "text": "Le trouble panique = attaques RÉCURRENTES + anxiété anticipatoire (peur d'avoir une nouvelle attaque)", "correct": true },
+    { "id": "c", "text": "Le trouble panique ne survient qu'aux urgences", "correct": false },
+    { "id": "d", "text": "Il n'y a aucune différence, ce sont des synonymes", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Distinction CRUCIALE : une attaque isolée (ÉVÉNEMENT) peut survenir chez n'importe qui dans un contexte de stress aigu (deuil, intoxication caféinée, sevrage) sans constituer une maladie. Le TROUBLE panique (SYNDROME chronique) suppose des attaques RÉCURRENTES + une PEUR D'AVOIR PEUR (anxiété anticipatoire) qui change le comportement (évitements, vigilance corporelle excessive). C'est cette 'peur d'avoir peur' qui transforme des attaques isolées en pathologie chronique, parfois compliquée d'agoraphobie.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

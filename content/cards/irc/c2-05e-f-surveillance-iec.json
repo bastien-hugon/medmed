@@ -1,0 +1,27 @@
+{
+  "id": "irc-c2-f05-surveillance-iec",
+  "kind": "free-recall",
+  "prompt": "Après initiation ou augmentation de dose d'un IEC/ARA2 chez un patient MRC, quels paramètres faut-il contrôler, à quel délai, et quels sont les seuils de tolérance ?",
+  "expected": [
+    "paramètres : kaliémie (K+) et créatininémie / DFG",
+    "délai : 1 à 2 semaines après chaque changement de dose",
+    "tolérance créat : hausse ≤ 30 % (ou baisse DFG ≤ 25 %) = ATTENDUE, on continue",
+    "créat 25-30 % : recontrôler 1-2 sem, chercher déshydratation/AINS",
+    "créat > 30 % : réduire ou arrêter, évoquer sténose artère rénale",
+    "tolérance K+ : < 5,0 → on continue ; 5,0-5,9 → corriger facteurs ; ≥ 6,0 → arrêter (après éliminer autres causes)"
+  ],
+  "rationale": "Le protocole de sécurité à connaître par cœur : 'IEC neuf → bio à 2 semaines, hausse créat < 30 % OK, K+ < 5 OK'. C'est la base pour ne pas arrêter à tort un médicament protecteur, ni laisser passer une hyperkaliémie potentiellement mortelle. Erreur fréquente : arrêter sur une hausse de créat de 10-20 % à tort.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

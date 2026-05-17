@@ -1,0 +1,20 @@
+{
+  "id": "asthenie-c2-q06d-epworth",
+  "kind": "cloze",
+  "prompt": "L'échelle d'___ est utilisée pour quantifier la somnolence diurne ; un score ≥ 11 est anormal.",
+  "expected": ["Epworth", "epworth"],
+  "rationale": "Échelle d'EPWORTH : 8 situations du quotidien, score de 0 à 24, mesure la probabilité de s'endormir. Seuil ≥ 11 = somnolence diurne EXCESSIVE. Très utile en consultation pour objectiver la plainte d'un patient (\"je m'endors devant la télé / au volant\"). Une somnolence ≥ 11 oriente l'enquête vers une polygraphie ventilatoire ou polysomnographie (SAOS ? narcolepsie ? hypersomnie ?).",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie", "trouble-sommeil"],
+    "item_edn": [246, 110],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

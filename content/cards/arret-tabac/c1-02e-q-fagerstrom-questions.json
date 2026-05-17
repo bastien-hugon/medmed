@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c1-q02e-fagerstrom-questions",
+  "kind": "cloze",
+  "prompt": "Le test de Fagerström comprend ___ questions standardisées sur les habitudes de consommation tabagique, et donne un score de 0 à 10.",
+  "expected": ["6", "six"],
+  "rationale": "Six questions courtes (≈ 2 minutes en consultation) : délai 1ère cig après réveil, nombre/jour, difficulté à s'abstenir en lieux interdits, cigarette préférée, intensité matinale, fumer malade. Outil RAPIDE, validé, indispensable au cabinet pour orienter le dosage des substituts.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

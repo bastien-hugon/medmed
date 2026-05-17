@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c2-q07-marche-talons-l5",
+  "kind": "cloze",
+  "prompt": "À l'examen clinique d'une lombalgie : la marche sur les TALONS teste la racine L___ (releveurs du pied), et la marche sur la POINTE DES PIEDS teste la racine S___ (triceps sural).",
+  "expected": ["5", "1"],
+  "rationale": "Repères neurologiques classiques : marche sur les TALONS = L5 (tibial antérieur, releveurs du pied) ; marche sur la POINTE = S1 (triceps sural). Une asymétrie ou une impossibilité d'effectuer ces marches = drapeau rouge neurologique évoquant une atteinte radiculaire significative. À tester systématiquement.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

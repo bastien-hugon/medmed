@@ -1,0 +1,28 @@
+{
+  "id": "hta-c2-m10-verifications-resistance",
+  "kind": "qcm-multi",
+  "prompt": "Avant d'étiqueter 'HTA résistante' et d'ajouter un 4e médicament, coche TOUTES les vérifications à effectuer obligatoirement.",
+  "choices": [
+    {"id": "a", "text": "Vérifier l'observance du traitement", "correct": true},
+    {"id": "b", "text": "Évaluer l'apport en sel (natriurèse des 24 h)", "correct": true},
+    {"id": "c", "text": "Rechercher des facteurs aggravants (AINS, alcool, SAHOS, corticoïdes, cocaïne…)", "correct": true},
+    {"id": "d", "text": "Rechercher une HTA secondaire (hyperaldostéronisme primaire, sténose artère rénale…)", "correct": true},
+    {"id": "e", "text": "Ajouter directement la spironolactone sans aucune vérification", "correct": false},
+    {"id": "f", "text": "Doubler la dose de tous les antihypertenseurs sans réfléchir", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "4 vérifications HAS AVANT d'étiqueter résistante : OBSERVANCE (cause n°1 de pseudo-résistance), APPORT SODÉ (natriurèse > 200 mmol/j = sel excessif), FACTEURS AGGRAVANTS (AINS, alcool, corticoïdes, vasoconstricteurs nasaux, SAHOS, réglisse, cocaïne…), HTA SECONDAIRE à éliminer. Mnémo 'OSEFS' : Observance, Sel, Facteurs aggravants, Secondaire. Pas d'ajout aveugle de médicaments.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

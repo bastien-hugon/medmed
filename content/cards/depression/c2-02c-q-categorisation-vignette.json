@@ -1,0 +1,26 @@
+{
+  "id": "depression-c2-q02c-categorisation-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Vous évaluez 4 patients consécutifs avec EDC. Lequel relève d'une dépression \"more severe\" selon NICE 2022 ?",
+  "choices": [
+    { "id": "a", "text": "M. A : PHQ-9 = 9, fonctionnement préservé, pas d'idées suicidaires", "correct": false },
+    { "id": "b", "text": "Mme B : PHQ-9 = 14, légère gêne au travail, pas d'idées suicidaires", "correct": false },
+    { "id": "c", "text": "M. C : PHQ-9 = 18, arrêt de travail depuis 3 sem, idées suicidaires passives", "correct": true },
+    { "id": "d", "text": "Mme D : PHQ-9 = 7, fatigue isolée", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Seuil NICE 2022 : ≥ 16 = more severe. M. C avec PHQ-9 à 18 et retentissement marqué bascule en more severe → 1ère ligne au choix : combinaison TCC + AD, ou TCC seule, ou AD seul. Mme B à 14 = less severe (psychothérapie en 1ère intention). Le score n'est pas le seul critère : un patient à 14 avec idées suicidaires actives serait traité comme more severe.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

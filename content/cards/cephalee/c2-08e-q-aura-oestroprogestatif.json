@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q08e-aura-oestroprogestatif",
+  "kind": "free-recall",
+  "prompt": "Quelle association contraceptive est À ÉVITER chez une femme migraineuse AVEC AURA, et pourquoi ?",
+  "expected": ["œstroprogestatif", "AVC", "stroke"],
+  "rationale": "La contraception ŒSTROPROGESTATIVE (pilule combinée, patch, anneau vaginal) est à éviter chez la migraineuse AVEC AURA : risque augmenté d'AVC ischémique (l'aura est déjà un facteur de risque vasculaire, et les œstrogènes ajoutent un risque thrombotique). Alternatives : contraception PROGESTATIVE seule (pilule micro-dosée, implant, DIU au lévonorgestrel) ou DIU au cuivre. C'est un des messages NICE de sécurité les plus importants. La migraine SANS aura ne contre-indique pas formellement les œstroprogestatifs, mais demande prudence.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

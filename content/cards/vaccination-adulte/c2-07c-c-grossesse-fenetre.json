@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-c07-grossesse-fenetre",
+  "kind": "cloze",
+  "prompt": "Le vaccin ___ (avec composante coqueluche, dose adulte réduite) est recommandé à chaque grossesse, idéalement entre ___ SA et ___ SA, pour protéger le futur nouveau-né.",
+  "expected": ["dTcaP", "20", "36"],
+  "rationale": "Fenêtre 20-36 SA → permet le pic d'anticorps maternels en fin de grossesse, transfert placentaire optimal, et protection du nouveau-né dans ses 2 premiers mois (avant qu'il puisse être vacciné lui-même contre la coqueluche). À refaire à CHAQUE grossesse, indépendamment du statut vaccinal antérieur. La coqueluche du nourrisson peut être mortelle (apnées, encéphalopathie).",
+  "tags": {
+    "system": ["infectieux", "prevention", "gynecologie"],
+    "sdd": ["vaccination", "grossesse", "coqueluche"],
+    "item_edn": [143, 26],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

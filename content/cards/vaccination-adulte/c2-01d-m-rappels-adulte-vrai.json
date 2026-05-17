@@ -1,0 +1,28 @@
+{
+  "id": "vaccination-adulte-c2-m01-rappels-adulte-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant le calendrier de rappels DTP/coqueluche chez l'adulte en France.",
+  "choices": [
+    {"id": "a", "text": "Le rappel à 25 ans inclut la coqueluche (dTcaP).", "correct": true},
+    {"id": "b", "text": "Entre 25 et 65 ans, l'intervalle entre deux rappels DTP est de 20 ans.", "correct": true},
+    {"id": "c", "text": "À partir de 65 ans, les rappels DTP sont espacés de 10 ans.", "correct": true},
+    {"id": "d", "text": "Le rappel à 45 ans est un dTcaP (avec coqueluche).", "correct": false},
+    {"id": "e", "text": "Les minuscules d et ca signifient des doses réduites adaptées à l'adulte.", "correct": true},
+    {"id": "f", "text": "Après 65 ans, plus aucun rappel DTP n'est nécessaire.", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Calendrier 25-45-65 puis tous les 10 ans : 25 ans = dTcaP (coqueluche), 45 et 65 = dTP, puis 75-85-95 = dTP. Les minuscules indiquent une dose RÉDUITE adulte (dT et ca), majuscules = dose standard (T tétanos, P polio). La coqueluche est généralement reproposée uniquement au rappel 25 ans (sauf cas particuliers : entourage nourrisson, soignants → rappels coqueluche supplémentaires possibles).",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q09b-toc-non-recommande",
+  "kind": "qcm-vignette",
+  "prompt": "Après traitement d'une chlamydia chez une patiente NON enceinte, asymptomatique post-TT, doit-on refaire un test de guérison (TOC) par NAAT 2 semaines plus tard ?",
+  "choices": [
+    { "id": "a", "text": "Oui, systématiquement chez tous les patients", "correct": false },
+    { "id": "b", "text": "Non, sauf doute d'observance, symptômes persistants ou suspicion de réinfection — le TOC précoce peut donner des FAUX POSITIFS (organismes non viables détectés jusqu'à ~4 semaines)", "correct": true },
+    { "id": "c", "text": "Oui, à 7 jours post-traitement", "correct": false },
+    { "id": "d", "text": "Non, on ne refait jamais aucun test, même à distance", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "TOC précoce = piège : des fragments d'ADN bactériens NON VIABLES peuvent être détectés par NAAT jusqu'à ~4 semaines post-TT, donnant des faux positifs anxiogènes et conduisant à des traitements inutiles. CDC 2021 : pas de TOC systématique chez les non-enceintes, sauf observance douteuse, symptômes persistants, suspicion de réinfection. Exception majeure : femme enceinte (TOC à 4 semaines par NAAT).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

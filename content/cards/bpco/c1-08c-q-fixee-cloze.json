@@ -1,0 +1,20 @@
+{
+  "id": "bpco-c1-q08c-fixee-cloze",
+  "kind": "cloze",
+  "prompt": "L'obstruction bronchique de la BPCO est dite ___ : elle ne se lève pas (ou très peu) après administration d'un bronchodilatateur.",
+  "expected": ["fixée", "irréversible"],
+  "rationale": "Obstruction FIXÉE (ou irréversible) = ne se réverse pas significativement sous bronchodilatateur. C'est LA signature spirométrique de la BPCO, ce qui la distingue de l'asthme (obstruction variable et réversible). 'Fixée' a un sens technique précis : Tiffeneau reste < 0,70 même après bronchodilatateur.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

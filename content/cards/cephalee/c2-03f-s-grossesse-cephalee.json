@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c2-s03f-grossesse-cephalee",
+  "kind": "sct",
+  "prompt": "Patiente de 32 ans à 30 semaines d'aménorrhée, vous consulte pour une céphalée pulsatile bilatérale apparue ce matin, intensité 5/10, sans déficit, sans fièvre. Vous évoquez une céphalée de tension banale liée à la fatigue de fin de grossesse. Comment cette nouvelle information modifie-t-elle votre hypothèse ?",
+  "hypothesis": "Il s'agit d'une céphalée de tension banale de fin de grossesse.",
+  "new_info": "Sa TA est mesurée à 158/102 mmHg (vs 110/70 habituellement). Bandelette urinaire : protéinurie +++.",
+  "expected": "affaiblit",
+  "rationale": "Céphalée + HTA + protéinurie chez une femme enceinte au 3ᵉ trimestre = PRÉ-ÉCLAMPSIE jusqu'à preuve du contraire. Urgence absolue (risque éclampsie, HELLP, AVC, HRP). C'est un drapeau rouge majeur (la grossesse fait partie du SNNOOP10 — 'Pregnancy'). Conduite : hospitalisation immédiate en obstétrique, bilan biologique complet (BU + protéinurie sur 24h, NFS, plaquettes, ASAT/ALAT, créat, bilan hépatique, frottis), surveillance fœtale. NE PAS donner de simple paracétamol et renvoyer chez elle. L'information affaiblit fortement l'hypothèse 'tension banale'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "grossesse"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

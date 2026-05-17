@@ -1,0 +1,20 @@
+{
+  "id": "hta-c1-c06-tueur-silencieux",
+  "kind": "cloze",
+  "prompt": "L'HTA est appelée le 'tueur ___' car elle abîme silencieusement les organes pendant des années sans donner de symptômes.",
+  "expected": ["silencieux"],
+  "rationale": "Tueur SILENCIEUX = expression consacrée pour souligner qu'on ne sent rien. Le piège : on attend les symptômes pour consulter, mais quand ils arrivent (AVC, infarctus), il est trop tard. C'est pourquoi le dépistage SYSTÉMATIQUE par mesure de PA à chaque consultation médicale chez l'adulte est recommandé par la HAS.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

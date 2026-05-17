@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q04e-sevrage-aide",
+  "kind": "qcm-vignette",
+  "prompt": "M. K., BPCO, fumeur, dit 'je veux bien arrêter, mais à chaque fois je rechute'. Quelle est l'attitude la PLUS conforme à NICE NG115 ?",
+  "choices": [
+    { "id": "a", "text": "Lui demander de réessayer seul, en lui souhaitant bon courage", "correct": false },
+    { "id": "b", "text": "Lui proposer une combinaison CONSEIL + AIDE PHARMACOLOGIQUE (substituts nicotiniques, varénicline ou bupropion), et le référer si besoin", "correct": true },
+    { "id": "c", "text": "Lui dire que l'arrêt n'est plus utile, vu que sa BPCO est installée", "correct": false },
+    { "id": "d", "text": "Refuser de le revoir tant qu'il fume", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE NG115 : à chaque opportunité, conseiller ET offrir une aide à toute personne BPCO fumeuse. La combinaison conseil + pharmacothérapie (substituts, varénicline, bupropion) double les taux de réussite par rapport à l'arrêt sans aide. L'arrêt EST UTILE à tout âge et tout stade : il freine la chute du VEMS. Refuser de revoir le patient ou le minimiser est contraire à l'éthique et à l'efficacité.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

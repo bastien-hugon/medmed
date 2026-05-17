@@ -1,0 +1,20 @@
+{
+  "id": "depression-c1-q06d-numero-3114-cloze",
+  "kind": "cloze",
+  "prompt": "En France, le numéro national de prévention du suicide, gratuit et accessible 24h/24, est le ___.",
+  "expected": ["3114"],
+  "rationale": "Le 3114 a été mis en place en 2021 (déploiement progressif). Numéro à 4 chiffres, gratuit, anonyme, disponible 24h/24, avec des soignants formés à l'écoute et à l'évaluation du risque suicidaire. À donner systématiquement à tout patient avec idéation suicidaire et à son entourage.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 351],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

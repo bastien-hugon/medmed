@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q03b-precontemplation",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient fumeur depuis 20 ans, en pré-contemplation, te dit : 'Je n'ai pas envie d'arrêter, ça me détend, j'ai pas envie qu'on me fasse la morale.' Quelle est la réponse la plus conforme à l'ENTRETIEN MOTIVATIONNEL ?",
+  "choices": [
+    { "id": "a", "text": "'Vous risquez le cancer du poumon, l'infarctus et la BPCO, vous devez arrêter rapidement.'", "correct": false },
+    { "id": "b", "text": "'D'accord, je comprends. Vous pouvez me dire ce qui vous plaît dans la cigarette ? Et y a-t-il quand même des choses qui vous dérangent ?'", "correct": true },
+    { "id": "c", "text": "'Je vais vous prescrire des patchs, vous me direz dans 1 mois si ça marche.'", "correct": false },
+    { "id": "d", "text": "'Si vous ne voulez pas arrêter, je ne peux rien pour vous, on en reparle si vous changez d'avis.'", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "En pré-contemplation, le patient se braque face aux discours moralisateurs (option A) ou aux prescriptions imposées (C). Le rejet pur (D) ferme la porte. L'entretien motivationnel (EM, Miller & Rollnick) : EMPATHIE + faire émerger l'AMBIVALENCE avec des questions ouvertes ('ce qui vous plaît / ce qui vous dérange'). Le patient verbalise lui-même les deux côtés, c'est ainsi qu'on prépare une bascule vers contemplation. Quelques minutes répétées valent mieux qu'un sermon.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "saos-c2-08c-m-hypoglosse-indications",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les conditions requises pour proposer une stimulation du nerf hypoglosse dans le SAOS.",
+  "choices": [
+    {"id": "a", "text": "SAOS modéré à sévère (IAH typiquement 15-65)", "correct": true},
+    {"id": "b", "text": "Échec ou intolérance avérée de la CPAP malgré bonne prise en charge", "correct": true},
+    {"id": "c", "text": "IMC < 35", "correct": true},
+    {"id": "d", "text": "Anatomie compatible (pas de collapsus concentrique du voile)", "correct": true},
+    {"id": "e", "text": "SAOS léger asymptomatique en première intention", "correct": false},
+    {"id": "f", "text": "Refus de toute intervention chirurgicale", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Indications ciblées de la stimulation du nerf hypoglosse : (1) SAOS modéré-sévère (IAH 15-65), (2) ÉCHEC documenté de la CPAP, (3) IMC < 35 (au-delà, moindre efficacité), (4) anatomie compatible (évaluation pré-implantatoire : pas de collapsus concentrique du voile). C'est un traitement de RECOURS, pas de 1ère intention. Il nécessite obligatoirement une intervention chirurgicale d'implantation (sous-claviculaire + cervicale).",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "irc-c2-s02-kdigo-pronostic",
+  "kind": "sct",
+  "prompt": "Deux patients consultent. Patient A : eGFR 50, ACR 2 mg/mmol. Patient B : eGFR 50, ACR 85 mg/mmol. Vous pensez que leur pronostic rénal/cardiovasculaire est équivalent puisque leur DFG est identique.",
+  "hypothesis": "À DFG identique, les patients A et B ont le même pronostic rénal et cardiovasculaire.",
+  "new_info": "Les courbes pronostiques KDIGO/NICE montrent que pour un même DFG (~50), le risque d'IRT à 5 ans et le risque cardiovasculaire sont plusieurs fois plus élevés en A3 (ACR > 30) qu'en A1 (ACR < 3).",
+  "expected": "affaiblit",
+  "rationale": "À DFG égal, l'ACR multiplie le risque. Le patient B (G3a A3) est dans une catégorie nettement plus à risque que le patient A (G3a A1). C'est exactement pour ça que KDIGO classe sur deux axes : éviter cette équivalence trompeuse. En pratique : A surveillance + facteurs de risque ; B → IEC/ARA2 indiqué + cible PA plus serrée + suivi rapproché + envisager SGLT2-i si diabétique. L'information affaiblit fortement l'hypothèse d'équivalence.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

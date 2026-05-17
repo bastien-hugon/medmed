@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c1-q04-cruralgie-racines",
+  "kind": "cloze",
+  "prompt": "Une douleur qui descend dans la face ANTÉRIEURE de la cuisse (sans aller au pied) correspond à une atteinte des racines L___ ou L___ : on parle alors de cruralgie.",
+  "expected": ["3", "4"],
+  "rationale": "Cruralgie : atteinte de L3 ou L4 (territoires antérieurs de la cuisse, faiblesse du quadriceps possible). À l'inverse, la sciatique = L5 ou S1 (territoires postérieurs et latéraux, douleur descend jusqu'au pied). Discriminer ces deux topographies est l'objectif clé de l'examen neurologique en lombalgie.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gyneco-prevention-c2-s04f-sct-diu-cuivre-menorragies",
+  "kind": "sct",
+  "prompt": "Une femme de 32 ans, ATCD de TVP sous pilule, ne veut pas d'hormone et souhaite une contraception efficace de longue durée. Vous envisagez la pose d'un DIU au cuivre.",
+  "hypothesis": "Le DIU au cuivre est l'option idéale pour elle.",
+  "new_info": "Elle vous précise spontanément que ses règles sont déjà très ABONDANTES (changements de protections toutes les 1-2 h, durée 7 jours) avec une anémie ferriprive récente nécessitant une supplémentation.",
+  "expected": "affaiblit",
+  "rationale": "Le DIU cuivre AUGMENTE typiquement l'abondance et la durée des règles. Chez une patiente déjà en hyperménorragie + anémie, c'est un argument SOLIDE contre. L'hypothèse 'DIU cuivre idéal' est donc affaiblie. Alternative : DIU au LÉVONORGESTREL (DIU hormonal) qui, lui, réduit fortement les règles (parfois jusqu'à l'aménorrhée) — c'est même un traitement reconnu des ménorragies fonctionnelles. Et comme c'est un progestatif local sans œstrogène, il reste compatible avec son ATCD de TVP.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 226],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

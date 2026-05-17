@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c2-s07f-3e-trimestre",
+  "kind": "sct",
+  "hypothesis": "Le bénéfice d'un arrêt du tabac est négligeable chez une femme enceinte au 3e trimestre (à 32 SA) qui n'a pas arrêté jusqu'à présent.",
+  "new_info": "Vous lui présentez les risques persistants au 3e trimestre : retard de croissance intra-utérin (RCIU), prématurité, mort fœtale in utero, mort subite du nourrisson après naissance.",
+  "expected": "affaiblit",
+  "prompt": "Ces informations modifient-elles l'idée qu'arrêter au 3e trimestre serait 'trop tard' ?",
+  "rationale": "Arrêter au 3e trimestre RESTE BÉNÉFIQUE — l'idée que 'c'est trop tard' est FAUSSE. Les bénéfices à arrêter même tardivement : amélioration de l'oxygénation fœtale (moins de CO), réduction du RCIU et de la prématurité, baisse du risque de mort fœtale in utero et de mort subite du nourrisson post-natale. L'hypothèse 'inutile au 3e trimestre' est AFFAIBLIE. Conduite à tenir : proposer l'aide au sevrage à TOUT âge gestationnel, sans culpabiliser pour les semaines passées, en insistant sur le bénéfice immédiat dès l'arrêt (CO normalisé en 24 h → meilleure oxygénation fœtale dès le 1er jour).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "gynecologie", "obstetrique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

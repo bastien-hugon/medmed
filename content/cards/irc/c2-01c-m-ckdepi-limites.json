@@ -1,0 +1,29 @@
+{
+  "id": "irc-c2-m01-ckdepi-limites",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations dans lesquelles l'eGFR calculé par CKD-EPI peut être MOINS FIABLE.",
+  "choices": [
+    { "id": "a", "text": "Patient amputé d'un membre ou sarcopénique sévère", "correct": true },
+    { "id": "b", "text": "Body-builder avec masse musculaire très élevée", "correct": true },
+    { "id": "c", "text": "Variations rapides de la créatinine (insuffisance rénale aiguë)", "correct": true },
+    { "id": "d", "text": "Adaptation très précise d'une chimiothérapie à élimination rénale", "correct": true },
+    { "id": "e", "text": "Suivi chronique d'un patient hypertendu stable", "correct": false },
+    { "id": "f", "text": "Grossesse (modification physiologique du DFG, formule non validée)", "correct": true },
+    { "id": "g", "text": "Surveillance courante de la fonction rénale en MG", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "CKD-EPI est fiable en chronique stable chez l'adulte non sarcopénique non hypermusclé. Elle perd en précision aux extrêmes de masse musculaire, en aigu (la créat met du temps à équilibrer), pendant la grossesse (pharmacocinétique modifiée), et quand la précision compte vraiment (chimiothérapies à index thérapeutique étroit, où on peut préférer Cockcroft ou un DFG mesuré).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "hta-c1-s13-mesure-apres-dispute",
+  "kind": "sct",
+  "prompt": "Un patient arrive en consultation très énervé, après une dispute violente avec un autre automobiliste 10 minutes auparavant. Tu mesures sa PA : 165/98 mmHg.",
+  "hypothesis": "Mon hypothèse : ce chiffre reflète une HTA permanente nécessitant un traitement.",
+  "new_info": "Le patient te confirme qu'il est encore tendu, sentant son cœur battre fort dans sa poitrine.",
+  "expected": "affaiblit",
+  "rationale": "Un état d'excitation/stress aigu active le système sympathique → ↑ FC + vasoconstriction → ↑ PA transitoire (parfois 20-30 mmHg). Un chiffre élevé pris dans ces conditions n'est PAS interprétable comme HTA permanente. L'info affaiblit l'hypothèse : il faut le faire patienter 10-15 min au calme et reprendre la mesure. Si elle redescend nettement, on n'a probablement pas d'HTA. Si elle reste haute, on confirmera ailleurs (AMT).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q07-rot-achilleen",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient présente un déficit du réflexe achilléen unilatéral droit. À quelle racine nerveuse correspond ce réflexe ?",
+  "choices": [
+    { "id": "a", "text": "L3", "correct": false },
+    { "id": "b", "text": "L4", "correct": false },
+    { "id": "c", "text": "L5", "correct": false },
+    { "id": "d", "text": "S1", "correct": true }
+  ],
+  "expected": ["d"],
+  "rationale": "Réflexe achilléen = S1. Réflexe rotulien = L4. Un déficit unilatéral du réflexe achilléen évoque une compression S1 (hernie L5-S1, par exemple). Un déficit bilatéral doit alerter sur une queue de cheval. À noter que L5 n'a pas de réflexe propre testable simplement (on teste la force, pas un réflexe).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

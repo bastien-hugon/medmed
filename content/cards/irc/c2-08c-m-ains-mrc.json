@@ -1,0 +1,29 @@
+{
+  "id": "irc-c2-m08-ains-mrc",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant les AINS chez le patient avec MRC.",
+  "choices": [
+    { "id": "a", "text": "Les AINS bloquent les prostaglandines qui maintiennent dilatée l'artériole AFFÉRENTE du glomérule", "correct": true },
+    { "id": "b", "text": "L'association IEC/ARA2 + diurétique + AINS forme la 'triple whammy' particulièrement néphrotoxique", "correct": true },
+    { "id": "c", "text": "L'usage CHRONIQUE des AINS peut entraîner une progression irréversible de la MRC", "correct": true },
+    { "id": "d", "text": "Les AINS topiques (gels) ont un passage systémique nul donc sans risque", "correct": false },
+    { "id": "e", "text": "L'ibuprofène en vente libre est souvent pris sans que le patient en parle au médecin", "correct": true },
+    { "id": "f", "text": "Les inhibiteurs de COX-2 sélectifs (coxibs) sont sans risque rénal contrairement aux AINS classiques", "correct": false },
+    { "id": "g", "text": "L'usage aigu (2-3 jours) chez un patient bien hydraté reste possible en pesant la balance bénéfice/risque", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "e", "g"],
+  "rationale": "AINS = vasoconstriction afférente par blocage des prostaglandines. Triple whammy (IEC + diurétique + AINS) = source classique d'IRA. Usage chronique = progression accélérée. Topiques : passage limité mais non nul, prudence chez MRC sévère. Coxibs : même profil rénal que AINS classiques (le bénéfice digestif ne compense pas le risque rénal). Question systématique à poser : 'achetez-vous des anti-douleurs sans ordonnance ?' (souvent omis sinon).",
+  "tags": {
+    "system": ["nephrologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "iatrogenie"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

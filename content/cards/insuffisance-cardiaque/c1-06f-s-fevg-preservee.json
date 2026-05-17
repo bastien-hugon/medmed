@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c1-s06f-fevg-preservee",
+  "kind": "sct",
+  "prompt": "Hypothèse : insuffisance cardiaque chez une femme de 78 ans, hypertendue, diabétique, avec dyspnée d'effort + orthopnée. Information nouvelle : son écho cardiaque rapporte une FEVG à 60 % (normale) avec oreillette gauche dilatée et hypertrophie VG. Comment cette info modifie-t-elle la suspicion ?",
+  "hypothesis": "Insuffisance cardiaque chez une femme de 78 ans hypertendue et diabétique",
+  "new_info": "Échographie : FEVG 60 % (normale) MAIS oreillette gauche dilatée + hypertrophie VG",
+  "expected": "renforce",
+  "rationale": "FEVG normale n'élimine PAS une IC. Ici la clinique est évocatrice (dyspnée, orthopnée) ET l'écho montre des anomalies STRUCTURELLES (OG dilatée, HVG) = profil typique d'ICFEp (IC à fraction d'éjection préservée). Très fréquent chez la femme âgée, HTA, diabète. La suspicion d'IC est donc RENFORCÉE, mais de sous-type ICFEp.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

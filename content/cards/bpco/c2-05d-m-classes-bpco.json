@@ -1,0 +1,29 @@
+{
+  "id": "bpco-c2-m05d-classes-bpco",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les classes d'inhalés qui ONT une place dans le traitement de fond ou de secours de la BPCO.",
+  "choices": [
+    { "id": "a", "text": "SABA (short-acting beta-agonist, ex. salbutamol)", "correct": true },
+    { "id": "b", "text": "SAMA (short-acting muscarinic antagonist, ex. ipratropium)", "correct": true },
+    { "id": "c", "text": "LABA (long-acting beta-agonist, ex. formotérol, salmétérol)", "correct": true },
+    { "id": "d", "text": "LAMA (long-acting muscarinic antagonist, ex. tiotropium)", "correct": true },
+    { "id": "e", "text": "ICS (inhaled corticosteroid, ex. budésonide)", "correct": true },
+    { "id": "f", "text": "Anti-VEGF inhalé (ex. bévacizumab)", "correct": false },
+    { "id": "g", "text": "Insuline inhalée", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Les 5 classes d'inhalés à connaître en BPCO : SABA, SAMA (court-action, à la demande), LABA, LAMA (long-action, fond), ICS (corticoïdes inhalés, ajoutés selon indication). Les anti-VEGF et l'insuline n'ont aucune place ici. Mnémo des suffixes : -térol = beta-agoniste, -tropium/-ronium = muscarinique, -asone/-sonide = corticoïde.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

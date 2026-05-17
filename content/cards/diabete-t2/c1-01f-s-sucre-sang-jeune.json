@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c1-s01-sucre-sang-jeune",
+  "kind": "sct",
+  "hypothesis": "Un patient à jeun depuis 12 h a encore du glucose dans le sang.",
+  "new_info": "Vous apprenez que le foie peut fabriquer du glucose à partir d'autres molécules (néoglucogenèse).",
+  "prompt": "L'information nouvelle modifie-t-elle l'hypothèse selon laquelle on trouve du glucose dans le sang même à jeun ?",
+  "expected": "renforce",
+  "rationale": "La néoglucogenèse hépatique est précisément le mécanisme qui maintient une glycémie de base ~ 0,9 g/L même après un jeûne prolongé. Le foie fabrique du glucose à partir de lactate, glycérol et acides aminés. Donc oui, l'info renforce l'hypothèse : pas besoin de manger pour avoir du glucose dans le sang.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c2-s04f-piliers-introduction",
+  "kind": "sct",
+  "prompt": "Hypothèse : ICFEr nouvellement diagnostiquée (FEVG 30 %) chez un patient stable. Information nouvelle : son médecin lui prescrit UNIQUEMENT un IEC et prévoit d'introduire les autres piliers (BB, MRA, SGLT2-i) dans 6 à 12 mois selon la tolérance. Cette stratégie est-elle optimale pour la survie ?",
+  "hypothesis": "Stratégie thérapeutique optimale pour l'ICFEr nouvellement diagnostiquée",
+  "new_info": "Introduction séquentielle, pilier après pilier, sur 6-12 mois",
+  "expected": "affaiblit",
+  "rationale": "Les recommandations actuelles (ESC 2021, NICE updated) ont ABANDONNÉ l'introduction séquentielle lente au profit d'une introduction RAPIDE des 4 piliers (en quelques semaines). Chaque mois sans traitement complet = perte de chance (survie + hospitalisations). L'idée 'monothérapie titrée puis ajout' était la pratique avant 2021. La suspicion d'optimalité est donc AFFAIBLIE. Bon réflexe MG : pousser pour l'introduction rapide des 4 piliers.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

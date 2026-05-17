@@ -1,0 +1,22 @@
+{
+  "id": "hta-c1-s10-discussion-pendant-mesure",
+  "kind": "sct",
+  "prompt": "Pendant la mesure de PA, tu en profites pour discuter du motif de consultation avec le patient (gain de temps).",
+  "hypothesis": "Mon hypothèse : cette pratique est sans conséquence sur la fiabilité du chiffre obtenu.",
+  "new_info": "Tu te rappelles qu'une étude a montré que parler pendant la mesure augmente la PA d'environ 10 mmHg en moyenne.",
+  "expected": "affaiblit",
+  "rationale": "Parler pendant la mesure → activation sympathique → PA artificiellement élevée (~+10 mmHg systolique). La HAS recommande explicitement la mesure 'dans le calme et sans parler'. L'info affaiblit l'hypothèse d'innocuité : ce gain de temps risque de fausser le diagnostic.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

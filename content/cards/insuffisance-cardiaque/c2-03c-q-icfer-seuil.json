@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q03c-icfer-seuil",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle FEVG définit une IC à fraction d'éjection RÉDUITE (ICFEr) ?",
+  "choices": [
+    { "id": "a", "text": "FEVG ≤ 40 %", "correct": true },
+    { "id": "b", "text": "FEVG entre 41 et 49 %", "correct": false },
+    { "id": "c", "text": "FEVG ≥ 50 %", "correct": false },
+    { "id": "d", "text": "FEVG < 60 %", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Seuils : ICFEr = FEVG ≤ 40 % ; ICFEmr = 41-49 % ; ICFEp = ≥ 50 % (+ anomalie structurelle). Frontières à retenir : 40 et 50.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

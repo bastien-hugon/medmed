@@ -1,0 +1,22 @@
+{
+  "id": "asthme-c2-s04-saba-seul-precedent",
+  "kind": "sct",
+  "prompt": "Vous prenez en charge un nouveau patient asthmatique de 29 ans, qui a longtemps été traité « à l'ancienne » par salbutamol seul à la demande, sans corticoïde inhalé.",
+  "hypothesis": "Mon hypothèse : ce schéma SABA seul est une mauvaise pratique, à modifier dès maintenant.",
+  "new_info": "Une méta-analyse récente confirme qu'un usage de SABA seul (> 2 inhalateurs/an, sans ICS concomitant) est associé à une SURMORTALITÉ par asthme.",
+  "expected": "renforce",
+  "rationale": "Données solides : SABA seul masque l'inflammation, le patient se soulage mais ses bronches restent enflammées → risque d'exacerbation grave et de décès. C'est précisément ce qui a justifié la révolution NG245 : « JAMAIS de SABA sans ICS concomitant ». La méta-analyse renforce nettement l'hypothèse → switch vers AIR therapy (low-dose ICS/formotérol à la demande) en première intention.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

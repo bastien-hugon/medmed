@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c2-q07-ei-cpk-cloze",
+  "kind": "cloze",
+  "prompt": "Sous statine, on dose les CPK uniquement en cas de symptômes musculaires ___. Si les CPK sont >___ × la limite supérieure de la normale, on arrête la statine.",
+  "expected": ["inexpliqués", "5"],
+  "rationale": "Règle NICE / pratique : NE PAS doser les CPK chez un patient ASYMPTOMATIQUE. Le dosage est réservé aux symptômes musculaires INEXPLIQUÉS persistants. Seuil de décision : CPK >5× la normale → arrêt de la statine, recontrôle à 7 jours ; si toujours élevées, ne pas réintroduire. CPK <5× normale + symptômes : chercher d'autres causes, baisser intensité ou changer de molécule, mais pas d'arrêt automatique.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

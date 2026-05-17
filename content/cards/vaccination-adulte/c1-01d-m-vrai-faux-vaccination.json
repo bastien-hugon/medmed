@@ -1,0 +1,28 @@
+{
+  "id": "vaccination-adulte-c1-m01-vrai-faux-vaccination",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant le principe de la vaccination.",
+  "choices": [
+    {"id": "a", "text": "Le vaccin entraîne le système immunitaire avant la rencontre avec le vrai microbe.", "correct": true},
+    {"id": "b", "text": "Le vaccin renforce globalement le système immunitaire contre tous les microbes.", "correct": false},
+    {"id": "c", "text": "La vaccination repose sur la création d'une mémoire immunitaire spécifique.", "correct": true},
+    {"id": "d", "text": "La vaccination est considérée par l'OMS comme l'une des interventions de santé publique les plus efficaces.", "correct": true},
+    {"id": "e", "text": "Le vaccin agit en tuant les microbes déjà présents dans l'organisme.", "correct": false},
+    {"id": "f", "text": "La variole a été éradiquée grâce à la vaccination.", "correct": true}
+  ],
+  "expected": ["a", "c", "d", "f"],
+  "rationale": "La vaccination est SPÉCIFIQUE (pas de renforcement global, c'est un mythe) et PRÉVENTIVE (pas curative — n'agit pas sur une infection déjà installée, sauf cas thérapeutiques rares). Bénéfices historiques : variole éradiquée (1980), polio quasi-disparue, rougeole/diphtérie effondrées. L'OMS classe la vaccination dans le top 3 des interventions de santé publique avec l'eau potable.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

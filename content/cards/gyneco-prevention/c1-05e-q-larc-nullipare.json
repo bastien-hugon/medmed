@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q05e-larc-nullipare",
+  "kind": "qcm-vignette",
+  "prompt": "Une adolescente nullipare (qui n'a jamais eu d'enfant) demande une contraception qu'elle 'puisse oublier'. Peut-on lui proposer un DIU ?",
+  "choices": [
+    { "id": "a", "text": "Non, le DIU est réservé aux multipares.", "correct": false },
+    { "id": "b", "text": "Non, le DIU rend stérile à long terme.", "correct": false },
+    { "id": "c", "text": "Oui, les recommandations actuelles ne contre-indiquent pas le DIU chez la nullipare, y compris l'adolescente — c'est même une option de 1ère intention.", "correct": true },
+    { "id": "d", "text": "Uniquement le DIU hormonal, jamais le DIU au cuivre.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Les anciennes restrictions ('DIU réservé à la femme ayant déjà eu un enfant') sont OBSOLÈTES. Les recommandations internationales (CDC, OMS) et françaises encouragent les LARC y compris chez l'adolescente nullipare, justement pour leur efficacité 'typical use' supérieure. Le DIU ne stérilise pas (le terme 'stérilet' est trompeur : aucun effet sur la fertilité après retrait). Pour l'adolescente : DIU cuivre OU hormonal, selon profil de règles, sont tous deux valables.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

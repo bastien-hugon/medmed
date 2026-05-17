@@ -1,0 +1,26 @@
+{
+  "id": "hta-c1-q12b-symptomes-rares",
+  "kind": "qcm-vignette",
+  "prompt": "Quel symptôme peut PARFOIS être associé à une HTA TRÈS SÉVÈRE (par ex. PAS > 180 mmHg), mais reste rare et tardif ?",
+  "choices": [
+    {"id": "a", "text": "Une douleur articulaire chronique aux genoux", "correct": false},
+    {"id": "b", "text": "Des céphalées matinales, acouphènes, phosphènes, épistaxis", "correct": true},
+    {"id": "c", "text": "Une éruption cutanée", "correct": false},
+    {"id": "d", "text": "Une perte d'appétit progressive", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Symptômes possibles en cas d'HTA sévère ou de poussée : céphalées (typiquement matinales, occipitales), acouphènes, phosphènes (mouches devant les yeux), épistaxis (saignement de nez). Mais ces signes sont RARES et TARDIFS. Dans l'immense majorité des HTA, le patient ne sent rien — d'où l'intérêt du dépistage systématique.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "irc-c1-m02-nephron-anatomie",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES sur le néphron.",
+  "choices": [
+    { "id": "a", "text": "Le glomérule est un mini-tamis où l'eau et les petites molécules quittent le sang", "correct": true },
+    { "id": "b", "text": "Le tubule récupère ce qui est utile (eau, sel, sucre) avant la sortie de l'urine", "correct": true },
+    { "id": "c", "text": "Un néphron détruit peut se régénérer en quelques mois", "correct": false },
+    { "id": "d", "text": "Le rein filtre environ 180 litres de plasma par jour", "correct": true },
+    { "id": "e", "text": "Les protéines passent normalement librement à travers le glomérule sain", "correct": false },
+    { "id": "f", "text": "On urine seulement ~1,5 L/j car les tubules récupèrent l'essentiel du filtrat", "correct": true }
+  ],
+  "expected": ["a", "b", "d", "f"],
+  "rationale": "Un néphron = tamis (glomérule) + tube de réabsorption (tubule). Il filtre 180 L/j de plasma, mais seuls 1,5 L sortent en urine car ~99 % du filtrat est récupéré. Les protéines (albumine surtout) restent normalement dans le sang : leur présence dans les urines = tamis qui fuit (protéinurie). Et surtout : les néphrons NE se régénèrent PAS — chaque perte est définitive, d'où la nature progressive de la MRC.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

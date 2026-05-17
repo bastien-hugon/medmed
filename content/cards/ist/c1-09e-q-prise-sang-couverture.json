@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q09e-prise-sang-couverture",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente vient avec une 'prise de sang IST complète' qui revient négative. Elle pense être 'totalement couverte'. Quelle est l'erreur dans son raisonnement ?",
+  "choices": [
+    { "id": "a", "text": "Aucune erreur : une prise de sang IST suffit", "correct": false },
+    { "id": "b", "text": "La prise de sang couvre VIH, syphilis et hépatites mais PAS chlamydia ni gonocoque, qui nécessitent un prélèvement urinaire ou muqueux (NAAT)", "correct": true },
+    { "id": "c", "text": "Les prises de sang ne sont jamais fiables pour les IST", "correct": false },
+    { "id": "d", "text": "Il fallait faire une biopsie hépatique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Erreur classique chez le patient et parfois le soignant. La prise de sang dépiste : VIH, syphilis, hépatite B, hépatite C. Elle ne couvre PAS chlamydia ni gonocoque, qui sont les 2 IST bactériennes les plus fréquentes. Pour ces deux-là, il faut absolument un prélèvement urinaire (1er jet) ou muqueux (auto-écouvillon vaginal). Un bilan IST 'complet' combine donc systématiquement : prise de sang + urines/écouvillon.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

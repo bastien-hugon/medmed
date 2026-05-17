@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q09f-sel-substitution",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient IC sous ramipril + spironolactone vous dit qu'il utilise \"un sel sans sodium\" (sel de substitution potassique) pour respecter le conseil de manger moins salé. Quelle réponse lui faire ?",
+  "choices": [
+    { "id": "a", "text": "Excellent, à continuer", "correct": false },
+    { "id": "b", "text": "À ÉVITER : ces sels contiennent du potassium et peuvent provoquer une hyperkaliémie en association avec IEC + spironolactone", "correct": true },
+    { "id": "c", "text": "Indifférent, ces sels ne contiennent rien d'actif", "correct": false },
+    { "id": "d", "text": "À doubler", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Sels de substitution = chlorure de POTASSIUM remplaçant le sodium. Sous IEC (rétention K+) + spironolactone (épargneur K+), c'est un cocktail d'hyperkaliémie potentiellement mortelle (troubles du rythme). NICE NG106 recommande explicitement de les ÉVITER en IC sous IEC/MRA. Conseiller plutôt de modérer les sources de sel (charcuterie, plats préparés, fromages) sans substitution potassique.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

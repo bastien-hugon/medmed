@@ -1,0 +1,20 @@
+{
+  "id": "asthenie-c1-q03d-fatigue-recente",
+  "kind": "cloze",
+  "prompt": "On parle de fatigue RÉCENTE quand sa durée est inférieure à ___ mois.",
+  "expected": ["1", "un"],
+  "rationale": "Fatigue récente = < 1 mois. C'est la catégorie qui évoque le plus souvent un effet médicamenteux récemment introduit, une anémie aiguë (hémorragie, carence rapide), un stress aigu, ou une infection virale en cours.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

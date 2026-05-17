@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q03b-groupe-e",
+  "kind": "qcm-vignette",
+  "prompt": "Mme P., BPCO, MRC 2 (modérément essoufflée), a fait 3 exacerbations modérées dans la dernière année (dont 1 hospitalisée). Dans quel groupe GOLD (2023+) la classez-vous ?",
+  "choices": [
+    { "id": "a", "text": "Groupe A", "correct": false },
+    { "id": "b", "text": "Groupe B", "correct": false },
+    { "id": "c", "text": "Groupe E (Exacerbations)", "correct": true },
+    { "id": "d", "text": "Groupe C (cette classification existe encore)", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "≥ 2 exacerbations modérées/an OU ≥ 1 hospitalisation pour exacerbation = groupe E, peu importe les symptômes. Ici les deux critères sont remplis. Depuis 2023, les anciens groupes C et D ont fusionné en E (Exacerbations). C'est ce groupe qui doit faire envisager une bithérapie d'emblée et une trithérapie en cas de récidive.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

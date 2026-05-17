@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-05e-q-alcool-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi recommande-t-on l'arrêt de l'alcool en soirée chez un patient SAOS ?",
+  "choices": [
+    {"id": "a", "text": "Parce que l'alcool augmente directement la pression artérielle nocturne", "correct": false},
+    {"id": "b", "text": "Parce que l'alcool a un effet myorelaxant qui aggrave le collapsus pharyngé", "correct": true},
+    {"id": "c", "text": "Parce que l'alcool provoque des apnées centrales", "correct": false},
+    {"id": "d", "text": "Parce que l'alcool est un dépresseur du diaphragme", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "L'alcool (et les sédatifs / benzodiazépines / Z-drugs) a un effet MYORELAXANT sur les muscles dilatateurs du pharynx. Sur un pharynx déjà fragile, cette relaxation supplémentaire favorise le collapsus pendant le sommeil. Conséquences : ronflement plus bruyant, apnées plus longues et plus fréquentes, désaturations plus profondes. Recommandation pratique : pas d'alcool dans les 3 heures précédant le coucher (idéalement réduction globale).",
+  "tags": {
+    "system": ["pneumologie", "addictologie"],
+    "sdd": ["saos"],
+    "item_edn": [108, 75],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

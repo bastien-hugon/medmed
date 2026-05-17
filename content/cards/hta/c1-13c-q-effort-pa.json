@@ -1,0 +1,26 @@
+{
+  "id": "hta-c1-q13b-effort-pa",
+  "kind": "qcm-vignette",
+  "prompt": "À l'effort physique intense, qu'arrive-t-il NORMALEMENT à la pression artérielle ?",
+  "choices": [
+    {"id": "a", "text": "Elle ne varie pas, elle reste à 120/80", "correct": false},
+    {"id": "b", "text": "La systolique peut grimper à 180-200 mmHg ; la diastolique varie peu", "correct": true},
+    {"id": "c", "text": "Elle s'effondre sous l'effort", "correct": false},
+    {"id": "d", "text": "Seule la diastolique grimpe à l'effort", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "À l'effort : ↑ débit cardiaque (FC et volume éjecté) → ↑ systolique (jusqu'à 180-200 mmHg de PAS chez l'adulte sain, plus encore chez le sportif). La diastolique varie peu car les artérioles des muscles se DILATENT pour amener plus de sang aux muscles actifs (l'effet vasodilatateur compense la hausse du débit). Cette physiologie explique pourquoi on ne diagnostique JAMAIS d'HTA sur une mesure prise juste après l'effort.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

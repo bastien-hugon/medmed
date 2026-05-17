@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, useTransition } from "react";
+import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import Link from "next/link";
 import { startDrill, submitDrillAttempt, getDrillRecap } from "@/actions/drill";
 import type { CardRow } from "@/lib/cards";
@@ -14,6 +14,25 @@ type Verdict = { correct: boolean; feedback: string } | null;
 type RunResult = { cardId: string; topic: string; correct: 0 | 1 };
 
 const DRILL_LIMIT = 15;
+
+// Mélange déterministe basé sur l'id de la carte : à chaque ouverture, la même
+// carte présente ses choix dans un ordre stable (évite la "mémoire de position")
+// mais qui peut différer d'un device/session à l'autre.
+function seededShuffle<T>(arr: T[], seed: string): T[] {
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) | 0;
+  // Random pseudo-déterministe (LCG)
+  function rng() {
+    h = (h * 1664525 + 1013904223) | 0;
+    return ((h >>> 0) % 1000) / 1000;
+  }
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
 const TOPIC_LABELS: Record<string, string> = {
   HTA: "HTA",
@@ -201,6 +220,7 @@ function RunPhase({
   const [step, setStep] = useState<Step>("prompt");
   const [userAnswer, setUserAnswer] = useState("");
   const [pickedChoiceId, setPickedChoiceId] = useState<string | null>(null);
+  const [pickedMultiIds, setPickedMultiIds] = useState<string[]>([]);
   const [pickedSctValue, setPickedSctValue] = useState<string | null>(null);
   const [verdict, setVerdict] = useState<Verdict>(null);
   const [grading, setGrading] = useState(false);
@@ -216,9 +236,27 @@ function RunPhase({
   const expectedArr = (Array.isArray(card.expected) ? card.expected : []) as string[];
   const progress = ((idx + (step === "reveal" ? 0.5 : 0)) / cards.length) * 100;
 
+  // Randomisation stable de l'ordre des choices QCM (par carte).
+  // Ne pas re-mélanger à chaque render → useMemo sur card.id.
+  const shuffledChoices = useMemo(() => {
+    if (card.kind !== "qcm-vignette" && card.kind !== "qcm-multi") return null;
+    const ch = ((card.extra as { choices?: { id: string; text: string }[] } | null)?.choices ??
+      []) as { id: string; text: string }[];
+    return seededShuffle(ch, card.id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [card.id]);
+
   function computeCorrect(): 0 | 1 | null {
     if (card.kind === "qcm-vignette")
       return pickedChoiceId && expectedArr.includes(pickedChoiceId) ? 1 : 0;
+    if (card.kind === "qcm-multi") {
+      // Strict : exactement les bonnes, aucune mauvaise
+      const exp = new Set(expectedArr);
+      const got = new Set(pickedMultiIds);
+      if (exp.size !== got.size) return 0;
+      for (const id of exp) if (!got.has(id)) return 0;
+      return 1;
+    }
     if (card.kind === "sct")
       return pickedSctValue && expectedArr.includes(pickedSctValue) ? 1 : 0;
     if (card.kind === "cloze" || card.kind === "free-recall")
@@ -228,6 +266,7 @@ function RunPhase({
 
   function canReveal() {
     if (card.kind === "qcm-vignette") return pickedChoiceId !== null;
+    if (card.kind === "qcm-multi") return pickedMultiIds.length > 0;
     if (card.kind === "sct") return pickedSctValue !== null;
     return userAnswer.trim().length > 0;
   }
@@ -283,6 +322,7 @@ function RunPhase({
         setStep("prompt");
         setUserAnswer("");
         setPickedChoiceId(null);
+        setPickedMultiIds([]);
         setPickedSctValue(null);
         setVerdict(null);
       }
@@ -338,9 +378,12 @@ function RunPhase({
             setUserAnswer={setUserAnswer}
             pickedChoiceId={pickedChoiceId}
             setPickedChoiceId={setPickedChoiceId}
+            pickedMultiIds={pickedMultiIds}
+            setPickedMultiIds={setPickedMultiIds}
             pickedSctValue={pickedSctValue}
             setPickedSctValue={setPickedSctValue}
             expectedArr={expectedArr}
+            shuffledChoices={shuffledChoices}
           />
         </div>
 
@@ -385,9 +428,12 @@ function AnswerArea({
   setUserAnswer,
   pickedChoiceId,
   setPickedChoiceId,
+  pickedMultiIds,
+  setPickedMultiIds,
   pickedSctValue,
   setPickedSctValue,
   expectedArr,
+  shuffledChoices,
 }: {
   card: CardRow;
   locked: boolean;
@@ -395,16 +441,15 @@ function AnswerArea({
   setUserAnswer: (v: string) => void;
   pickedChoiceId: string | null;
   setPickedChoiceId: (v: string) => void;
+  pickedMultiIds: string[];
+  setPickedMultiIds: (v: string[]) => void;
   pickedSctValue: string | null;
   setPickedSctValue: (v: string) => void;
   expectedArr: string[];
+  shuffledChoices: { id: string; text: string }[] | null;
 }) {
   if (card.kind === "qcm-vignette") {
-    const choices =
-      ((card.extra as { choices?: { id: string; text: string }[] } | null)?.choices ?? []) as {
-        id: string;
-        text: string;
-      }[];
+    const choices = shuffledChoices ?? [];
     return (
       <div className="space-y-2">
         {choices.map((c) => {
@@ -428,6 +473,58 @@ function AnswerArea({
               className={`flex w-full items-start gap-3 rounded-lg border px-4 py-3 text-left text-sm transition ${color}`}
             >
               <span className="font-mono text-xs text-zinc-400">{c.id.toUpperCase()}</span>
+              <span>{c.text}</span>
+            </button>
+          );
+        })}
+      </div>
+    );
+  }
+  if (card.kind === "qcm-multi") {
+    const choices = shuffledChoices ?? [];
+    const picked = new Set(pickedMultiIds);
+    const toggle = (id: string) => {
+      const next = new Set(picked);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      setPickedMultiIds([...next]);
+    };
+    return (
+      <div className="space-y-2">
+        <p className="text-xs text-zinc-500 dark:text-zinc-400">
+          ☐ Coche toutes les bonnes réponses (plusieurs possibles)
+        </p>
+        {choices.map((c) => {
+          const isPicked = picked.has(c.id);
+          const isCorrect = expectedArr.includes(c.id);
+          let color: string;
+          if (locked) {
+            if (isCorrect && isPicked) color = "border-emerald-500 bg-emerald-50 dark:bg-emerald-950";
+            else if (isCorrect && !isPicked) color = "border-emerald-300 bg-emerald-50/40 dark:bg-emerald-950/40";
+            else if (!isCorrect && isPicked) color = "border-red-500 bg-red-50 dark:bg-red-950";
+            else color = "border-zinc-200 dark:border-zinc-800";
+          } else {
+            color = isPicked
+              ? "border-zinc-900 bg-zinc-50 dark:border-zinc-50 dark:bg-zinc-900"
+              : "border-zinc-200 hover:border-zinc-400 dark:border-zinc-800 dark:hover:border-zinc-600";
+          }
+          return (
+            <button
+              key={c.id}
+              type="button"
+              disabled={locked}
+              onClick={() => toggle(c.id)}
+              className={`flex w-full items-start gap-3 rounded-lg border px-4 py-3 text-left text-sm transition ${color}`}
+            >
+              <span
+                className={`mt-0.5 inline-flex h-4 w-4 shrink-0 items-center justify-center rounded border-2 ${
+                  isPicked
+                    ? "border-zinc-900 bg-zinc-900 text-white dark:border-zinc-50 dark:bg-zinc-50 dark:text-zinc-900"
+                    : "border-zinc-300 dark:border-zinc-600"
+                }`}
+              >
+                {isPicked && <span className="text-[10px] leading-none">✓</span>}
+              </span>
               <span>{c.text}</span>
             </button>
           );
@@ -545,17 +642,23 @@ function RevealBlock({
           </div>
         </>
       )}
-      {(card.kind === "qcm-vignette" || card.kind === "sct") && correct !== null && (
-        <p
-          className={
-            correct === 1
-              ? "text-sm font-semibold text-emerald-700 dark:text-emerald-300"
-              : "text-sm font-semibold text-red-700 dark:text-red-300"
-          }
-        >
-          {correct === 1 ? "✓ Correct" : "✗ Incorrect"}
-        </p>
-      )}
+      {(card.kind === "qcm-vignette" || card.kind === "qcm-multi" || card.kind === "sct") &&
+        correct !== null && (
+          <p
+            className={
+              correct === 1
+                ? "text-sm font-semibold text-emerald-700 dark:text-emerald-300"
+                : "text-sm font-semibold text-red-700 dark:text-red-300"
+            }
+          >
+            {correct === 1 ? "✓ Correct" : "✗ Incorrect"}
+            {card.kind === "qcm-multi" && correct === 0 && (
+              <span className="ml-2 text-xs font-normal text-zinc-500">
+                (note : exact match strict — toutes les bonnes ET aucune mauvaise)
+              </span>
+            )}
+          </p>
+        )}
       <div className="rounded-lg bg-zinc-50 p-3 text-sm leading-6 text-zinc-700 dark:bg-zinc-900 dark:text-zinc-300">
         <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Pourquoi</p>
         <p>{card.rationale}</p>

@@ -1,0 +1,20 @@
+{
+  "id": "bpco-c1-q03c-bpco-acronyme",
+  "kind": "cloze",
+  "prompt": "BPCO est l'acronyme de : Broncho-Pneumopathie ___ Obstructive.",
+  "expected": ["chronique"],
+  "rationale": "BPCO = Broncho-Pneumopathie CHRONIQUE Obstructive. 'Chronique' = qui dure dans le temps (pas une crise aiguë), 'obstructive' = qui obstrue les bronches (l'air passe mal). C'est ce duo (chronicité + obstruction fixée) qui définit la maladie et qui la distingue d'un asthme (intermittent et réversible).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

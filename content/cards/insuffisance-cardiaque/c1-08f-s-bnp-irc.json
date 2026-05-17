@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c1-s08f-bnp-irc",
+  "kind": "sct",
+  "prompt": "Hypothèse : insuffisance cardiaque chez un homme de 75 ans dyspnéique. Information nouvelle : son NT-proBNP est élevé à 1800 ng/L MAIS il a une insuffisance rénale chronique sévère (DFG 22 mL/min). Comment cette info modifie-t-elle la suspicion ?",
+  "hypothesis": "Insuffisance cardiaque chez un homme de 75 ans dyspnéique",
+  "new_info": "NT-proBNP 1800 ng/L mais DFG à 22 mL/min (IRC sévère)",
+  "expected": "neutre",
+  "rationale": "L'IRC AUGMENTE le NT-proBNP (faux positif) — la rénalisation diminue la clairance des peptides natriurétiques. Donc à 1800 ng/L chez un patient avec DFG 22, on ne peut PAS conclure de manière sûre : la valeur est possiblement gonflée par l'IRC. L'effet est ambigu (effet renforce de l'élévation × effet affaiblit du contexte) → suspicion ni clairement renforcée ni affaiblie. L'écho cardiaque devient indispensable pour trancher.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

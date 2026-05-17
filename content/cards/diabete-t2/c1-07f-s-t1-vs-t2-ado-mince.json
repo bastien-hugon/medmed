@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c1-s07-t1-vs-t2-ado-mince",
+  "kind": "sct",
+  "hypothesis": "Léa, 14 ans, mince, amaigrie de 4 kg en 1 mois avec polyurie et polydipsie franches, est diabétique de type 2.",
+  "new_info": "La glycémie capillaire en consultation revient à 3,8 g/L et la bandelette urinaire montre une cétonurie marquée.",
+  "prompt": "Comment cette nouvelle information modifie-t-elle l'hypothèse de diabète de type 2 ?",
+  "expected": "affaiblit",
+  "rationale": "Tableau clinique typique de T1 inaugural : enfant/ado, mince, début brutal, 3 P francs, hyperglycémie majeure, cétonurie qui signe la carence absolue en insuline (lipolyse non freinée → corps cétoniques). Le T2 ne donne jamais ce tableau aigu avec acidocétose à 14 ans. C'est une URGENCE hospitalière. Hypothèse T2 fortement affaiblie.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

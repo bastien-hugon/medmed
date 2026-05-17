@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q07d-signes-alarme",
+  "kind": "qcm-vignette",
+  "prompt": "Vous donnez à Mme L., BPCO, un plan d'action écrit avec corticoïde et antibiotique. Vous lui listez les signes d'alarme qui imposent de CONSULTER en urgence et NE PAS rester en auto-gestion. Lequel n'est PAS un signe d'alarme ?",
+  "choices": [
+    { "id": "a", "text": "Fièvre élevée (> 38,5°C) persistante", "correct": false },
+    { "id": "b", "text": "Dyspnée AU REPOS, qui s'aggrave en quelques heures", "correct": false },
+    { "id": "c", "text": "Confusion, somnolence inhabituelle", "correct": false },
+    { "id": "d", "text": "Crachats matinaux blancs habituels, sans aucune autre nouveauté", "correct": true }
+  ],
+  "expected": ["d"],
+  "rationale": "Crachats matinaux blancs habituels = état de base de la patiente, pas une alarme. Signes d'alarme = fièvre élevée, dyspnée AU REPOS, confusion/troubles de conscience, cyanose, sang dans les crachats, douleur thoracique, palpitations, oedèmes nouveaux. Ces signes doivent amener à appeler le 15 ou consulter rapidement, en plus de l'auto-gestion.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

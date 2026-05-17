@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c1-q06c-pic-sevrage",
+  "kind": "cloze",
+  "prompt": "Le syndrome de sevrage tabagique culmine en intensité (pic) vers le ___e jour après l'arrêt (J3 à J5), et le manque physique s'atténue largement en environ 4 semaines.",
+  "expected": ["3", "troisième"],
+  "rationale": "Pic à J3-J5 (avec variations interindividuelles). Connaître ce calendrier permet de PRÉVENIR le patient : 'Les 3-5 premiers jours seront les pires, après ça s'allège.' Le manque physique (irritabilité, troubles du sommeil, envies brèves) est largement résorbé à 4 semaines. Ce qui dure plus longtemps relève des composantes psy et comportementale.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

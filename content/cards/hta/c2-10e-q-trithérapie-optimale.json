@@ -1,0 +1,26 @@
+{
+  "id": "hta-c2-q10b-tritherapie-optimale",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la TRITHÉRAPIE de référence (composition optimale) recommandée par la HAS dans l'HTA non contrôlée par bithérapie ?",
+  "choices": [
+    {"id": "a", "text": "Bêtabloquant + alpha-bloquant + diurétique", "correct": false},
+    {"id": "b", "text": "Bloqueur SRAA (IEC ou ARA2) + inhibiteur calcique + diurétique thiazidique", "correct": true},
+    {"id": "c", "text": "3 IEC à doses différentes", "correct": false},
+    {"id": "d", "text": "Spironolactone + bêtabloquant + clonidine", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Trithérapie HAS idéale = IEC/ARA2 + IC + diurétique thiazidique, à dose optimale. Synergie des 3 mécanismes : blocage SRAA + vasodilatation directe + déplétion volémique. C'est cette trithérapie qui définit l'HTA résistante en cas d'échec. Si toujours non contrôlée à dose optimale (et après vérifs : observance, sel, facteurs aggravants, HTA secondaire) → ajout spironolactone 12,5-50 mg/j en 4e ligne (sauf DFG < 30).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

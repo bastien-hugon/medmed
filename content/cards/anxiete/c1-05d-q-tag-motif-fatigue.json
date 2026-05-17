@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q05d-tag-motif-fatigue",
+  "kind": "qcm-vignette",
+  "prompt": "Mme S., 47 ans, vient pour une fatigue chronique. À l'interrogatoire systématique, elle reconnaît dormir mal, se faire du souci en permanence pour ses enfants, son budget, son travail. Ces préoccupations existent depuis plus d'un an. Quel diagnostic devez-vous évoquer en priorité ?",
+  "choices": [
+    { "id": "a", "text": "Trouble anxieux généralisé sous-jacent", "correct": true },
+    { "id": "b", "text": "Hypothyroïdie isolée", "correct": false },
+    { "id": "c", "text": "Trouble panique avec attaques récurrentes", "correct": false },
+    { "id": "d", "text": "Simple surmenage à conseiller du repos", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Tableau typique de TAG sous-couvert d'une plainte 'fatigue chronique' : soucis MULTIPLES (enfants, budget, travail), CHRONIQUES (> 1 an), avec retentissement sur le sommeil. Le motif de consultation est souvent SOMATIQUE (fatigue, sommeil, douleurs) parce que le patient n'identifie pas d'emblée son anxiété — d'où l'importance d'un interrogatoire systématique. L'hypothyroïdie est un diagnostic différentiel À RECHERCHER (TSH systématique) mais le tableau ne se résume pas à cela. Pas de crises paroxystiques (pas de trouble panique). 'Simple surmenage' = banalisation = passage à côté du diagnostic.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q05b-arni-washout",
+  "kind": "qcm-vignette",
+  "prompt": "Vous prévoyez de remplacer l'IEC par un ARNI (sacubitril/valsartan) chez un patient ICFEr toujours symptomatique. Quel délai d'attente (wash-out) entre l'arrêt de l'IEC et la 1ère prise d'ARNI ?",
+  "choices": [
+    { "id": "a", "text": "Aucun, on peut switcher le même jour", "correct": false },
+    { "id": "b", "text": "12 heures", "correct": false },
+    { "id": "c", "text": "36 heures", "correct": true },
+    { "id": "d", "text": "7 jours", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Wash-out IEC → ARNI : 36 HEURES minimum. La prise concomitante IEC + sacubitril augmente fortement le risque d'angio-œdème (urgence ORL pouvant obstruer les voies aériennes). Règle de sécurité ABSOLUE, non négociable.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

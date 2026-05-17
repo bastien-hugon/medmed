@@ -1,0 +1,28 @@
+{
+  "id": "irc-c2-f11-acr-consequences-therapeutiques",
+  "kind": "free-recall",
+  "prompt": "Cite au moins quatre conséquences THÉRAPEUTIQUES concrètes de la confirmation d'un ACR augmenté chez un adulte.",
+  "expected": [
+    "indication d'IEC ou d'ARA2 selon le profil (diabète ≥ 3, HTA + ACR > 30, ou ACR ≥ 70 sans HTA/diabète)",
+    "cible tensionnelle plus serrée (< 130/80) si ACR ≥ 70 mg/mmol",
+    "ajout d'un SGLT2-i si DFG dans la fourchette d'AMM et risque élevé (diabète T2 + ACR augmenté, ou MRC évolutive)",
+    "intensification du dépistage et de la surveillance cardiovasculaire (statine, anti-agrégant selon SCORE2/risque global)",
+    "éducation thérapeutique : éviction des AINS, hygiène de vie, sick-day rules",
+    "orientation néphrologue selon valeur (≥ 70 souvent, ou > 30 si hématurie associée)",
+    "fréquence de surveillance rapprochée (ACR + eGFR + K+ tous les 6 mois à 1 an selon classification KDIGO)"
+  ],
+  "rationale": "La protéinurie/albuminurie est un POINT PIVOT qui change la prise en charge à plusieurs niveaux : médicaments (IEC, SGLT2), cibles (PA serrée), suivi (rapproché), éducation (AINS, sick day). C'est pour ça que la mesurer systématiquement chez les patients à risque change réellement la trajectoire des patients.",
+  "tags": {
+    "system": ["nephrologie", "cardiovasculaire"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

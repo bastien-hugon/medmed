@@ -1,0 +1,26 @@
+{
+  "id": "hta-c2-q07c-alcool-seuil",
+  "kind": "qcm-vignette",
+  "prompt": "Selon la HAS, au-dessus de quelle consommation d'alcool considère-t-on l'apport comme pathologique chez l'homme hypertendu ?",
+  "choices": [
+    {"id": "a", "text": "> 1 verre/jour", "correct": false},
+    {"id": "b", "text": "> 3 verres/jour", "correct": true},
+    {"id": "c", "text": "> 5 verres/jour", "correct": false},
+    {"id": "d", "text": "> 10 verres/jour", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Seuils HAS pour l'HTA : > 3 verres/jour chez l'homme, > 2 verres/jour chez la femme = consommation excessive favorisant l'HTA. À noter : les seuils de prévention en population générale (Santé Publique France) sont aujourd'hui plus stricts : pas plus de 10 verres/semaine ET pas plus de 2/jour ET des jours sans alcool. L'alcool est aussi un facteur d'HTA résistante à dépister.",
+  "tags": {
+    "system": ["cardiovasculaire", "nutrition"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

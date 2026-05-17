@@ -1,0 +1,29 @@
+{
+  "id": "lombalgie-c2-m07-examen-neurologique-elements",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les gestes qui font partie de l'examen clinique de base d'une lombalgie (selon HAS 2019).",
+  "choices": [
+    { "id": "a", "text": "Manœuvre de Lasègue", "correct": true },
+    { "id": "b", "text": "Test de la force musculaire (marche talons / pointes)", "correct": true },
+    { "id": "c", "text": "Recherche des réflexes ostéo-tendineux (rotulien = L4, achilléen = S1)", "correct": true },
+    { "id": "d", "text": "Évaluation de la sensibilité des membres inférieurs et du périnée", "correct": true },
+    { "id": "e", "text": "Inspection statique et dynamique du rachis", "correct": true },
+    { "id": "f", "text": "Auscultation cardiaque obligatoire pour tous les lombalgiques", "correct": false },
+    { "id": "g", "text": "Échographie abdominale systématique", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Examen de base : Lasègue + force (talons/pointes) + ROT (rotulien L4, achilléen S1) + sensibilité (avec périnée pour la queue de cheval !) + inspection. L'auscultation cardiaque et l'échographie ne font pas partie de l'examen standard du lombalgique (distracteurs).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

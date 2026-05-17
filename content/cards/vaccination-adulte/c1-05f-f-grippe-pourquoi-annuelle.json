@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c1-f05-grippe-pourquoi-annuelle",
+  "kind": "free-recall",
+  "prompt": "En une phrase : pourquoi la vaccination antigrippale doit-elle être REFAITE chaque année (différence avec la plupart des autres vaccins) ?",
+  "expected": ["mutation", "virus", "souches", "annuelle", "dérive antigénique"],
+  "rationale": "Le virus influenza a une DÉRIVE ANTIGÉNIQUE permanente (mutations de l'hémagglutinine et de la neuraminidase) : les souches qui circulent en 2026 ne sont plus exactement les mêmes qu'en 2025. L'OMS recommande chaque année une composition vaccinale adaptée aux souches anticipées pour l'hémisphère nord. Ce n'est pas l'immunité du patient qui s'effondre, c'est la cible qui se déplace.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

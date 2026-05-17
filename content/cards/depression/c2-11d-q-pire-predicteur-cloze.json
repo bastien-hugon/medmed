@@ -1,0 +1,20 @@
+{
+  "id": "depression-c2-q11d-pire-predicteur-cloze",
+  "kind": "cloze",
+  "prompt": "Le meilleur prédicteur du risque de passage à l'acte suicidaire est l'existence de ___ antérieures.",
+  "expected": ["tentatives"],
+  "rationale": "Antécédents de tentatives de suicide (TS) = le facteur prédictif le plus robuste, validé par décennies de littérature. Une personne qui a déjà fait une TS a un risque 30-40 fois supérieur à la population générale de récidiver, surtout dans l'année qui suit. À toujours rechercher activement (\"avez-vous déjà fait une tentative de suicide ?\"), sans euphémismes. Conséquence pratique : tout antécédent de TS impose un suivi structuré et un seuil bas pour intensifier la prise en charge.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 351],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

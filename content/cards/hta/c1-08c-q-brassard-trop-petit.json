@@ -1,0 +1,26 @@
+{
+  "id": "hta-c1-q08b-brassard-trop-petit",
+  "kind": "qcm-vignette",
+  "prompt": "Tu mesures la PA d'un patient obèse avec un brassard standard alors qu'il aurait besoin d'un brassard grande taille. Quel effet attendre sur la mesure ?",
+  "choices": [
+    {"id": "a", "text": "La mesure sera correcte, l'appareil s'adapte automatiquement", "correct": false},
+    {"id": "b", "text": "La PA sera FAUSSEMENT SURESTIMÉE (plus haute que la réalité)", "correct": true},
+    {"id": "c", "text": "La PA sera faussement sous-estimée", "correct": false},
+    {"id": "d", "text": "Seule la fréquence cardiaque sera faussée", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Brassard trop petit pour la circonférence du bras → il faut le gonfler plus fort pour comprimer l'artère → PA FAUSSEMENT HAUTE (peut atteindre +10 à +30 mmHg). La HAS insiste sur 'brassard adapté à la circonférence du bras'. Symétriquement, brassard trop grand sur un bras maigre → PA sous-estimée. Conséquence pratique : un faux diagnostic d'HTA chez l'obèse mal mesuré, et une mise sous traitement injustifiée.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

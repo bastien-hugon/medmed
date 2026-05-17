@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c2-q05f-controle-cloze",
+  "kind": "cloze",
+  "prompt": "Un seuil opérationnel utile : un patient se réveille ≥ ___ fois par semaine la nuit à cause de son asthme suffit, à lui seul, à parler d'asthme non contrôlé selon NICE NG245.",
+  "expected": ["1"],
+  "rationale": "Seuil NG245 : 1 réveil nocturne PAR SEMAINE suffit (l'autre critère symptômes : reliever ≥ 3 j/sem). Les réveils nocturnes sont un excellent marqueur de non-contrôle parce qu'ils sont objectifs et rares chez le sujet sain. Question à poser systématiquement : « Combien de fois le mois dernier vous êtes-vous réveillé la nuit à cause de votre asthme ? ».",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

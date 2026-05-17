@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q08b-60-jours",
+  "kind": "qcm-vignette",
+  "prompt": "Devant une chlamydia diagnostiquée chez un patient, sur quelle période de référence faut-il évaluer et traiter les partenaires sexuels ?",
+  "choices": [
+    { "id": "a", "text": "Les 7 derniers jours uniquement", "correct": false },
+    { "id": "b", "text": "Les 60 derniers jours avant les symptômes ou le diagnostic (ou le partenaire le plus récent si pas de partenaire dans les 60 jours)", "correct": true },
+    { "id": "c", "text": "Les 2 dernières années obligatoirement", "correct": false },
+    { "id": "d", "text": "Tous les partenaires sans limite de temps", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Règle CDC 2021 : notifier et traiter les partenaires sexuels des 60 DERNIERS JOURS avant les symptômes ou le diagnostic. Si pas de partenaire dans cette fenêtre, traiter au moins le PARTENAIRE LE PLUS RÉCENT (même si > 60 jours). Limite arbitraire mais pratique : attrape la majorité des contaminations sans imposer une remontée impossible.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

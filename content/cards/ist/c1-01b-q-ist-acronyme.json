@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q01b-ist-acronyme",
+  "kind": "qcm-vignette",
+  "prompt": "Que signifie l'acronyme IST ?",
+  "choices": [
+    { "id": "a", "text": "Infection Subite Transmissible", "correct": false },
+    { "id": "b", "text": "Infection Sexuellement Transmissible", "correct": true },
+    { "id": "c", "text": "Inflammation Septique Tubaire", "correct": false },
+    { "id": "d", "text": "Immunodéficience Sexuellement Transmise", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "IST = Infection Sexuellement Transmissible. Un microbe (bactérie, virus, parasite) passe d'une personne à une autre pendant un rapport sexuel. Terme privilégié depuis ~2015 à la place de 'MST' pour insister sur le fait que beaucoup sont silencieuses (infection portée sans maladie).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

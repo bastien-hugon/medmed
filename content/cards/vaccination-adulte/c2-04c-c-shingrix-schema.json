@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-c04-shingrix-schema",
+  "kind": "cloze",
+  "prompt": "Le vaccin Shingrix se fait en ___ doses espacées de ___ mois (schéma M0-___).",
+  "expected": ["2", "2", "M2"],
+  "rationale": "Schéma 2 doses M0-M2 (deux mois d'intervalle). Type : recombinant adjuvanté (gE de VZV + adjuvant AS01B). Efficacité ~90 % sur la prévention du zona et des algies post-zostériennes, supérieure à l'ancien Zostavax vivant. Effets indésirables fréquents (douleur, fatigue, fébricule 24-48h) → prévenir le patient pour ne pas perdre la 2e dose.",
+  "tags": {
+    "system": ["infectieux", "prevention", "dermatologie"],
+    "sdd": ["vaccination", "zona"],
+    "item_edn": [143, 167],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/Zona",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

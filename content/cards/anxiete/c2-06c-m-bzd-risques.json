@@ -1,0 +1,29 @@
+{
+  "id": "anxiete-c2-m06c-bzd-risques",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les risques associés à une prescription PROLONGÉE de benzodiazépines.",
+  "choices": [
+    { "id": "a", "text": "Dépendance physique et psychique installée en quelques semaines", "correct": true },
+    { "id": "b", "text": "Troubles cognitifs : mémoire, attention, réflexes", "correct": true },
+    { "id": "c", "text": "Chutes et fractures (col du fémur) chez le sujet âgé", "correct": true },
+    { "id": "d", "text": "Risque accru d'accidents de la route", "correct": true },
+    { "id": "e", "text": "Risque de dépression respiratoire si association à l'alcool ou aux opioïdes", "correct": true },
+    { "id": "f", "text": "Amélioration durable du trouble anxieux de fond", "correct": false },
+    { "id": "g", "text": "Effet protecteur cardiovasculaire", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Les BZD au long cours cumulent les risques : dépendance rapide, troubles cognitifs (mémoire-attention), chutes/fractures (sujet âgé +++), accidents de la route (somnolence, baisse des réflexes), risque létal en cas d'association alcool/opioïdes (dépression respiratoire). Aucun effet protecteur cardiovasculaire. Pire : aggravation du trouble anxieux à long terme (masque les symptômes sans traiter, empêche l'apprentissage de stratégies de gestion). NICE : 'Do not offer a benzodiazepine for the treatment of GAD... except as a short-term measure during crises'.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

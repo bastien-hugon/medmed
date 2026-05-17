@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c1-s07-fdr-jeune-femme",
+  "kind": "sct",
+  "prompt": "Une femme de 32 ans demande un dépistage du cholestérol parce que son père a fait un infarctus à 48 ans. Vous suspectez un risque CV à prendre au sérieux.",
+  "hypothesis": "Cette patiente justifie un dépistage lipidique précoce et une vigilance accrue.",
+  "new_info": "Vous apprenez qu'elle est non-fumeuse, normo-tendue, IMC à 22, et n'a pas d'autre antécédent personnel.",
+  "expected": "neutre",
+  "rationale": "Les autres FdR négatifs sont rassurants, MAIS l'antécédent familial d'événement CV PRÉCOCE (père <55 ans) reste un FdR fort et NON MODIFIABLE qui justifie à lui seul un dépistage précoce et une éventuelle évaluation pour hypercholestérolémie familiale. Les autres facteurs ne 'compensent' pas un antécédent familial significatif. L'information est NEUTRE : elle ne change pas la décision de dépister.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

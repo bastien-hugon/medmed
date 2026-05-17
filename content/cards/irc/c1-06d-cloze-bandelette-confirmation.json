@@ -1,0 +1,20 @@
+{
+  "id": "irc-c1-cz06-bandelette-confirmation",
+  "kind": "cloze",
+  "prompt": "Complète : « La bandelette urinaire est un test de ___ ; une protéinurie positive doit ensuite être quantifiée par un ___ au laboratoire. »",
+  "expected": ["dépistage ; ACR", "dépistage et ACR", "dépistage - ACR", "depistage ; ACR"],
+  "rationale": "Dépistage (bandelette, rapide, au cabinet) → confirmation et quantification (ACR, en laboratoire). Le résultat de l'ACR détermine le stade A (A1 < 3, A2 = 3-30, A3 > 30 mg/mmol), élément central de la classification KDIGO et des décisions thérapeutiques.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

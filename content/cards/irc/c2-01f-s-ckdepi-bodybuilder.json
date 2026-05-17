@@ -1,0 +1,22 @@
+{
+  "id": "irc-c2-s01-ckdepi-bodybuilder",
+  "kind": "sct",
+  "prompt": "M. B., 32 ans, body-builder professionnel, 110 kg pour 1,80 m, prend de la créatine pour son entraînement. Sa créatinine sérique est à 130 µmol/L, ce qui donne un eGFR (CKD-EPI) à 58 mL/min. Vous lui annoncez qu'il a une MRC stade G3a.",
+  "hypothesis": "M. B. a une MRC stade G3a à explorer en néphrologie.",
+  "new_info": "Le contrôle 4 mois plus tard, sans changement de masse musculaire ni d'entraînement, montre les mêmes valeurs. L'ACR est à 0,8 mg/mmol, la bandelette est négative à tout, l'écho rénale est normale. Un test à la cystatine C / un DFG mesuré par clairance iohexol revient à 110 mL/min/1,73 m².",
+  "expected": "affaiblit",
+  "rationale": "Cas typique de FAUX positif de l'eGFR CKD-EPI : un sportif hyper-musclé produit plus de créatinine, ce qui fait monter artificiellement la créat sérique sans qu'il y ait d'insuffisance rénale. La supplémentation en créatine accentue le phénomène. L'absence de tout autre marqueur d'atteinte (ACR normal, écho normale, bandelette normale) et la confirmation par cystatine/iohexol affaiblissent franchement l'hypothèse MRC. Leçon : devant un eGFR isolément abaissé sans autre anomalie chez un patient atypique, penser à confirmer par un autre marqueur (cystatine C) ou un DFG mesuré.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

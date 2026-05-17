@@ -1,0 +1,22 @@
+{
+  "id": "hta-c1-s09-poignet-obese",
+  "kind": "sct",
+  "prompt": "Tu vois en consultation un patient avec une obésité morbide pour lequel aucune manchette de bras disponible n'arrive à entourer correctement le biceps.",
+  "hypothesis": "Mon hypothèse : il faut quand même mesurer la PA au bras, c'est la seule méthode recommandée.",
+  "new_info": "Tu te rappelles qu'en cas d'impossibilité technique d'utiliser une manchette adaptée au bras, le tensiomètre au poignet (avec technique stricte) est une alternative acceptable.",
+  "expected": "affaiblit",
+  "rationale": "La règle 'tensiomètre au bras' a une EXCEPTION : si aucun brassard ne convient à la circonférence du bras, le tensiomètre au poignet (avec une technique rigoureuse : poignet à hauteur du cœur, bras en soutien) devient une option pour ne pas renoncer à la mesure. L'info affaiblit donc l'hypothèse de 'toujours au bras quelles que soient les conditions'. En pratique, la HAS recommande de privilégier un brassard XL avant d'envisager le poignet.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

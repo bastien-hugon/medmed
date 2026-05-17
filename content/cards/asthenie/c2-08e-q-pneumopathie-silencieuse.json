@@ -1,0 +1,20 @@
+{
+  "id": "asthenie-c2-q08e-pneumopathie-silencieuse",
+  "kind": "cloze",
+  "prompt": "Chez le sujet âgé, une pneumopathie peut se présenter par une simple asthénie avec confusion, SANS fièvre ni toux. On parle d'infection ___.",
+  "expected": ["silencieuse", "pauci-symptomatique", "atypique"],
+  "rationale": "Chez le sujet âgé, l'immunosénescence et la moindre réactivité inflammatoire expliquent que beaucoup d'infections (pneumopathie, infection urinaire, endocardite) se présentent de façon SILENCIEUSE ou PAUCI-SYMPTOMATIQUE : peu ou pas de fièvre, peu ou pas de toux, mais altération de l'état général, confusion, chute, asthénie isolée. D'où le besoin de chercher activement (auscultation, ECBU, hémocultures, radio de thorax, scanner si doute).",
+  "tags": {
+    "system": ["general", "infectiologie"],
+    "sdd": ["asthenie"],
+    "item_edn": [246, 154],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

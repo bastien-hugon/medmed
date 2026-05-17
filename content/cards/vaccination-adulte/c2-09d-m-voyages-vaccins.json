@@ -1,0 +1,30 @@
+{
+  "id": "vaccination-adulte-c2-m09-voyages-vaccins",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les associations correctes destination ↔ vaccination à envisager.",
+  "choices": [
+    {"id": "a", "text": "Afrique sub-saharienne (zone d'endémie) → fièvre jaune", "correct": true},
+    {"id": "b", "text": "Pèlerinage à La Mecque → méningocoque ACWY (obligatoire visa saoudien)", "correct": true},
+    {"id": "c", "text": "Asie du Sud-Est, conditions d'hygiène limitées → hépatite A", "correct": true},
+    {"id": "d", "text": "Voyage organisé tout-confort à Lisbonne pour 5 jours → fièvre jaune", "correct": false},
+    {"id": "e", "text": "Trekking en zone rurale, exposition possible animaux errants → rage en pré-exposition", "correct": true},
+    {"id": "f", "text": "Voyage en Amérique du Sud tropicale (Amazonie...) → fièvre jaune", "correct": true},
+    {"id": "g", "text": "Séjour court à Tokyo (zone urbaine) → encéphalite japonaise systématique", "correct": false},
+    {"id": "h", "text": "Voyage forêts d'Europe centrale (Tchéquie, Slovaquie) → encéphalite à tiques selon activités", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "e", "f", "h"],
+  "rationale": "Vaccins du voyageur à connaître : (1) FIÈVRE JAUNE → Afrique sub-saharienne et Amérique du Sud tropicale, en zone d'endémie ; (2) MÉNINGO ACWY → Mecque (obligatoire), ceinture africaine ; (3) HÉPATITE A → zones d'endémie, hygiène limitée (Afrique, Asie, Amérique latine) ; (4) TYPHOÏDE → séjour long, conditions précaires ; (5) RAGE → trekking, zones rurales, animaux errants ; (6) ENCÉPHALITE JAPONAISE → ruralité prolongée Asie ; (7) ENCÉPHALITE À TIQUES → forêts Europe centrale/Est, activités plein air. Pas de fièvre jaune pour le Portugal ; encéphalite japonaise non systématique pour Tokyo urbain.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "voyage"],
+    "item_edn": [143, 174],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

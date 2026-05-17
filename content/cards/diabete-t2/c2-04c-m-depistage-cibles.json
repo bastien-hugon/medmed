@@ -1,0 +1,28 @@
+{
+  "id": "diabete-t2-c2-m04-depistage-cibles",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations qui justifient un dépistage du diabète de type 2 par glycémie à jeun chez l'adulte (HAS).",
+  "choices": [
+    { "id": "a", "text": "Personne ≥ 45 ans en surpoids", "correct": true },
+    { "id": "b", "text": "Antécédent familial de diabète au 1er degré", "correct": true },
+    { "id": "c", "text": "Antécédent personnel de diabète gestationnel", "correct": true },
+    { "id": "d", "text": "Hypertension artérielle ou dyslipidémie connue", "correct": true },
+    { "id": "e", "text": "Adulte jeune (25 ans) mince, sportif, sans aucun antécédent", "correct": false },
+    { "id": "f", "text": "Antécédent personnel de prédiabète", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "HAS — dépistage ciblé sur le risque : âge ≥ 45 + facteurs de risque (a), antécédent familial (b), DG (c), comorbidités CV (d), prédiabète antérieur (f). Le jeune sans risque (e) n'a pas d'indication au dépistage de masse — sauf circonstance particulière. Plus on accumule de facteurs, plus on dépiste tôt et souvent.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

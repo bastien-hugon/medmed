@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c2-s02f-echo-fevg-basse",
+  "kind": "sct",
+  "prompt": "Hypothèse : insuffisance cardiaque chez un patient de 68 ans avec dyspnée NYHA II et œdèmes des chevilles. Information nouvelle : son écho cardiaque rapporte FEVG = 28 %. Comment cette info modifie-t-elle la suspicion ?",
+  "hypothesis": "Insuffisance cardiaque chez un patient de 68 ans dyspnéique avec œdèmes",
+  "new_info": "Échographie cardiaque : FEVG mesurée à 28 %",
+  "expected": "renforce",
+  "rationale": "FEVG à 28 % = nettement < 40 % = ICFEr franche. Couplée à une clinique évocatrice, c'est la confirmation diagnostique. Renforce très fortement la suspicion et bascule en mode 'traitement à introduire' : les 4 piliers ICFEr (IEC/ARNI + BB + MRA + SGLT2-i), surveillance créat/K+, éducation.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

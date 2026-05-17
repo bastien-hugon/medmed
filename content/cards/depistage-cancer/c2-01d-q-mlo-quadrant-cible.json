@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q01d-mlo-quadrant-cible",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi l'incidence OBLIQUE EXTERNE (MLO) est-elle systématiquement réalisée en mammographie de dépistage, en plus de l'incidence cranio-caudale ?",
+  "choices": [
+    { "id": "a", "text": "Parce qu'elle nécessite moins de rayons X que la cranio-caudale", "correct": false },
+    { "id": "b", "text": "Parce qu'elle permet de voir le prolongement axillaire et le quadrant supéro-externe, où siègent statistiquement la majorité des cancers du sein", "correct": true },
+    { "id": "c", "text": "Parce qu'elle est indolore (contrairement à la cranio-caudale)", "correct": false },
+    { "id": "d", "text": "Parce qu'elle remplace l'examen clinique du sein", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le quadrant SUPÉRO-EXTERNE du sein concentre statistiquement ~50 % des cancers du sein (parce qu'il contient la plus grande masse de tissu glandulaire et inclut le prolongement axillaire). Une incidence cranio-caudale seule risquerait de COUPER une partie de ce prolongement vers l'aisselle. L'incidence MLO (médio-latérale oblique), en biais, étend le champ pour englober cette région à haut rendement. Mnémo : 'CC voit en plan, MLO étire vers l'aisselle'. Les items (a, c, d) sont faux : la MLO n'est pas moins irradiante, n'est pas indolore (la compression reste désagréable), et ne remplace pas l'examen clinique.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

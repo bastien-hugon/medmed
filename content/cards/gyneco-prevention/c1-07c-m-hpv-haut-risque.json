@@ -1,0 +1,31 @@
+{
+  "id": "gyneco-prevention-c1-m07c-hpv-haut-risque",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les types de HPV considérés à HAUT RISQUE oncogène (responsables des cancers du col).",
+  "choices": [
+    { "id": "a", "text": "HPV 16", "correct": true },
+    { "id": "b", "text": "HPV 18", "correct": true },
+    { "id": "c", "text": "HPV 31", "correct": true },
+    { "id": "d", "text": "HPV 33", "correct": true },
+    { "id": "e", "text": "HPV 45", "correct": true },
+    { "id": "f", "text": "HPV 52", "correct": true },
+    { "id": "g", "text": "HPV 58", "correct": true },
+    { "id": "h", "text": "HPV 6", "correct": false },
+    { "id": "i", "text": "HPV 11", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g"],
+  "rationale": "Les principaux HPV à haut risque oncogène à retenir : 16, 18, 31, 33, 45, 52, 58 (mémo : ce sont les 7 sérotypes oncogènes couverts par Gardasil 9). HPV 16 à lui seul = ~50 % des cancers du col mondial. HPV 16 + 18 = ~70 %. Les HPV 6 et 11 sont à BAS RISQUE oncogène : ils causent les condylomes acuminés (verrues génitales) — gênants mais pas cancérigènes. La classification Wikipedia ajoute aussi 35, 39, 51, 56, 59 dans les HR confirmés.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Papillomavirus_humain",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

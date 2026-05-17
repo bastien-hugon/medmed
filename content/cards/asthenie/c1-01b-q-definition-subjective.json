@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c1-q01b-definition-subjective",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient consulte en disant \"docteur, je suis fatigué\". Quelle est la PREMIÈRE chose à faire avant tout autre raisonnement diagnostique ?",
+  "choices": [
+    { "id": "a", "text": "Prescrire d'emblée un bilan biologique large (NFS, TSH, ferritine, glycémie).", "correct": false },
+    { "id": "b", "text": "Lui faire préciser concrètement ce qu'il met derrière le mot \"fatigue\" (manque d'envie ? somnolence ? essoufflement ? faiblesse musculaire ?).", "correct": true },
+    { "id": "c", "text": "Le rassurer en lui disant que la fatigue est presque toujours sans gravité.", "correct": false },
+    { "id": "d", "text": "Calculer son IMC et mesurer ses constantes hémodynamiques avant tout interrogatoire.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La fatigue est un symptôme SUBJECTIF : on ne la mesure pas avec un appareil. Deux patients qui disent \"fatigué\" peuvent évoquer des réalités très différentes (asthénie vraie, somnolence, faiblesse musculaire, dyspnée d'effort). Faire reformuler avec des situations concrètes du quotidien est l'étape #1 — sans ce tri sémantique, le bilan complémentaire risque d'être hors-sujet.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

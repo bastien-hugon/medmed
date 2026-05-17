@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c1-q04-atherosclerose-recall",
+  "kind": "free-recall",
+  "prompt": "Décris en 3 étapes simples comment se forme une plaque d'athérome dans la paroi d'une artère.",
+  "expected": [
+    "LDL pénètre dans la paroi",
+    "réaction inflammatoire des globules blancs",
+    "accumulation et formation de la plaque",
+    "épaississement et durcissement",
+    "rétrécissement de la lumière"
+  ],
+  "rationale": "Trois étapes-clés : (1) Le LDL en excès PÉNÈTRE dans la paroi artérielle. (2) Le corps réagit comme face à un envahisseur : les globules blancs (macrophages) viennent gober ce cholestérol et s'ACCUMULENT, formant les cellules spumeuses. (3) Avec le temps, ça forme une PLAQUE de bouillie + tissu fibreux qui DURCIT et RÉTRÉCIT progressivement la lumière de l'artère. Toute formulation cohérente avec ces 3 étapes est valide.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c1-s06f-pattern-confirme-organique",
+  "kind": "sct",
+  "prompt": "Une patiente de 28 ans, fatiguée depuis 2 mois, n'a aucun signe d'appel à l'examen. Vous évoquez une cause psychique de type épisode dépressif.",
+  "hypothesis": "L'asthénie est de cause psychique (épisode dépressif débutant).",
+  "new_info": "Elle vous dit : \"le matin je me sens à peu près bien, mais dès que je marche un peu ou que je monte un étage, je suis lessivée pour 2 heures.\"",
+  "expected": "affaiblit",
+  "rationale": "Le pattern décrit (aggravée par l'effort, état matinal correct) est typique d'une cause ORGANIQUE, pas d'une dépression (où la fatigue est dès le matin, constante, non soulagée par le repos). Cette information AFFAIBLIT l'hypothèse psychique et redirige vers le bilan biologique de 1ère intention : NFS, ferritine (carence martiale chez femme jeune ++), TSH, glycémie.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

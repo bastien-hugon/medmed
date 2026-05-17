@@ -1,0 +1,28 @@
+{
+  "id": "gyneco-prevention-c2-m07b-cu-methodes",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les méthodes utilisables en CONTRACEPTION D'URGENCE (CU) après un rapport non protégé.",
+  "choices": [
+    { "id": "a", "text": "Lévonorgestrel (LNG, Norlevo) 1,5 mg en prise unique, jusqu'à 72 h", "correct": true },
+    { "id": "b", "text": "Ulipristal acétate (UPA, EllaOne) 30 mg en prise unique, jusqu'à 120 h", "correct": true },
+    { "id": "c", "text": "DIU au cuivre, posé dans les 120 h", "correct": true },
+    { "id": "d", "text": "Une plaquette de pilule combinée en 'doublée' pendant 7 jours", "correct": false },
+    { "id": "e", "text": "Implant sous-cutané (pose en urgence après le rapport)", "correct": false },
+    { "id": "f", "text": "Mifépristone (RU-486)", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "3 méthodes de contraception d'urgence : LNG (72 h), UPA (120 h), DIU cuivre (120 h, la plus efficace). Ce sont les seules à connaître. La mifépristone (RU-486) est utilisée pour l'IVG médicamenteuse, PAS en CU. L'implant n'est pas une méthode d'urgence (il faut quelques jours pour atteindre son efficacité). 'Doubler' la pilule combinée n'est pas une méthode de CU recommandée.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention", "urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Contraception_d%27urgence",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

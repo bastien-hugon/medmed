@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c2-q07f-pro-cloze",
+  "kind": "cloze",
+  "prompt": "Devant tout asthmatique en âge de travailler, NICE NG245 recommande de poser ___ questions de screening pour rechercher une composante professionnelle, basées sur la comparaison entre jours de travail et jours de repos.",
+  "expected": ["2"],
+  "rationale": "Les 2 questions NG245 (« Symptômes meilleurs/identiques/pires les jours sans travail ? » + « Meilleurs/identiques/pires en vacances ou entre shifts ? ») suffisent pour le screening initial. Si réponse positive → adresser en pneumo + médecin du travail. Délai d'intégration au repas de consultation < 30 secondes — aucune raison de ne pas le faire systématiquement.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

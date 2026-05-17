@@ -1,0 +1,20 @@
+{
+  "id": "anxiete-c2-q06d-bzd-crise-duree",
+  "kind": "cloze",
+  "prompt": "Quand on prescrit une benzodiazépine pour gérer une crise anxieuse aiguë, NICE recommande de limiter la durée idéalement à moins de ___ semaines, avec une sortie planifiée d'emblée.",
+  "expected": ["4", "2-4", "quatre"],
+  "rationale": "La règle pratique : si BZD nécessaire en crise → court terme idéalement < 2-4 semaines, à la PLUS PETITE dose efficace, AVEC sortie planifiée dès la prescription (date d'arrêt notée, décroissance progressive). Au-delà : risque de dépendance physique installée. En France, l'AMM des BZD anxiolytiques limite à 12 semaines au maximum (avec ré-évaluation régulière), mais NICE est plus strict. Réflexe : si tu sors une ordonnance de BZD, tu rédiges en même temps le plan de sortie.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

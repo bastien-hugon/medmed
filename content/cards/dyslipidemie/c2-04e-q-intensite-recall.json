@@ -1,0 +1,25 @@
+{
+  "id": "dyslipidemie-c2-q04-intensite-recall",
+  "kind": "free-recall",
+  "prompt": "Quelles sont les TROIS catégories d'intensité des statines selon NICE / ESC, et leur baisse moyenne de LDL ?",
+  "expected": [
+    "haute intensité ≥ 40 %",
+    "intensité moyenne 30-40 %",
+    "intensité faible < 30 %",
+    "haute moyenne faible"
+  ],
+  "rationale": "Trois niveaux : HAUTE intensité (LDL −≥40 %, ex. atorvastatine 20-80 mg, rosuvastatine 10-40 mg) ; MOYENNE intensité (LDL −30-40 %, ex. atorvastatine 10 mg, rosuvastatine 5 mg, simvastatine 20-40 mg) ; FAIBLE intensité (LDL −<30 %, ex. simvastatine 10 mg, pravastatine 5-40 mg, fluvastatine 20-40 mg). Mémo : haute / moyenne / faible avec leur seuil 40 % / 30 %.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

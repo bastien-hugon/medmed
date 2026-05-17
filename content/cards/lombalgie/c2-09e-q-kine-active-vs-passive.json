@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q09-kine-active-vs-passive",
+  "kind": "qcm-vignette",
+  "prompt": "Quel type de kinésithérapie est recommandé en lombalgie commune ?",
+  "choices": [
+    { "id": "a", "text": "Kinésithérapie passive isolée (massages, ultrasons, électrothérapie)", "correct": false },
+    { "id": "b", "text": "Kinésithérapie ACTIVE (exercices supervisés, à poursuivre en autonomie au domicile)", "correct": true },
+    { "id": "c", "text": "Aucune kinésithérapie, jamais", "correct": false },
+    { "id": "d", "text": "Tractions vertébrales mécaniques exclusives", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Kiné ACTIVE = exercices, renforcement, mobilisation que LE PATIENT fait lui-même (avec supervision initiale). C'est ce qui marche : appropriation, auto-rééducation à domicile. Les thérapies PASSIVES isolées (massages, ultrasons, tractions, électrothérapie seules) n'ont pas d'efficacité prouvée — la kiné moderne sort de cette logique.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

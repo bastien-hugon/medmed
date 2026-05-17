@@ -1,0 +1,20 @@
+{
+  "id": "irc-c1-cz05-proteinurie-tamis",
+  "kind": "cloze",
+  "prompt": "Complète : « Normalement, l'urine ne contient pas (ou quasi pas) de protéines car le ___ retient les grosses molécules dans le sang. La présence d'albumine dans l'urine signe donc un ___ qui fuit. »",
+  "expected": ["glomérule ; tamis", "glomerule - tamis", "glomérule, tamis", "glomérule et tamis"],
+  "rationale": "Image centrale : le glomérule est le tamis filtreur. Quand il s'abîme (diabète, HTA, glomérulonéphrite, etc.), il laisse passer l'albumine — d'où la protéinurie. Cette image simple est très utile pour expliquer au patient pourquoi on dose l'ACR et pourquoi c'est un voyant rouge.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

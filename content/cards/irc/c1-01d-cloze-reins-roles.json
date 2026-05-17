@@ -1,0 +1,20 @@
+{
+  "id": "irc-c1-cz01-reins-roles",
+  "kind": "cloze",
+  "prompt": "Complète : « Les reins reçoivent environ ___ du sang sortant du cœur pour le filtrer. »",
+  "expected": ["20 %", "20%", "un cinquième", "1/5", "20 pour cent"],
+  "rationale": "À chaque minute, environ 20 % du débit cardiaque traverse les reins. C'est énorme pour deux organes qui pèsent ~300 g au total : preuve qu'ils sont l'un des organes les plus richement vascularisés du corps. C'est aussi ce qui explique pourquoi tout ce qui touche la perfusion (déshydratation, choc, médicaments vasoactifs) impacte vite la fonction rénale.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

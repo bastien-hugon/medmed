@@ -1,0 +1,22 @@
+{
+  "id": "ist-c1-s02f-sct-bilan-systematique",
+  "kind": "sct",
+  "prompt": "Un patient sans plainte demande un 'bilan IST' complet. Vous envisagez de lui proposer.",
+  "hypothesis": "Indication d'un bilan IST.",
+  "new_info": "Il vous précise : 'Je n'ai aucun symptôme, donc je suis sûrement en bonne santé.'",
+  "expected": "neutre",
+  "rationale": "L'argument 'pas de symptôme = pas d'IST' est précisément ce que la logique IST (par opposition à MST) cherche à corriger. L'absence de symptômes ne diminue ni n'augmente l'indication de dépistage chez un patient qui le demande dans un contexte à risque : le dépistage est conçu pour repérer ces porteurs asymptomatiques. La nouvelle info est NEUTRE sur l'indication du bilan, mais elle est une occasion pédagogique d'expliquer pourquoi le dépistage existe.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c1-q05f-reversibilite-cloze",
+  "kind": "cloze",
+  "prompt": "La caractéristique fondamentale qui distingue l'asthme de la BPCO est la ___ de l'obstruction bronchique (les bronches peuvent se rouvrir sous traitement).",
+  "expected": ["réversibilité"],
+  "rationale": "Réversibilité = retour partiel ou total à la normale après bronchodilatateur (et/ou corticoïdes inhalés). C'est le PIVOT du diagnostic d'asthme et c'est ce que NICE NG245 cherche à objectiver par la spirométrie (ΔVEMS ≥ 12 % et ≥ 200 mL chez l'adulte) ou la variabilité du DEP (≥ 20 % sur 2 semaines).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

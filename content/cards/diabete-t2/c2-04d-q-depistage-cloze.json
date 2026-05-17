@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q13-depistage-cloze",
+  "kind": "cloze",
+  "prompt": "En France, à partir de ___ ans, on dépiste activement le diabète de type 2 chez toute personne présentant au moins un facteur de risque associé (surpoids, sédentarité, antécédent familial, HTA, etc.).",
+  "expected": ["45"],
+  "rationale": "45 ans = âge seuil HAS pour le dépistage du T2 en présence d'AU MOINS un facteur de risque. Plus jeune si plusieurs facteurs cumulés. C'est un dépistage CIBLÉ (pas universel) : on ne dépiste pas tout le monde, mais on dépiste tôt et souvent ceux qui en ont besoin. Rythme : 1 à 3 ans selon le profil.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q03-fievre-manque",
+  "kind": "qcm-vignette",
+  "prompt": "Concernant la spondylodiscite, quelle affirmation est VRAIE ?",
+  "choices": [
+    { "id": "a", "text": "La fièvre est toujours présente, son absence permet d'éliminer le diagnostic", "correct": false },
+    { "id": "b", "text": "La fièvre manque dans environ la moitié des cas — il faut donc se fier aussi à l'altération de l'état général et au caractère inflammatoire de la douleur", "correct": true },
+    { "id": "c", "text": "L'antibiothérapie probabiliste doit être débutée par le généraliste sans bilan", "correct": false },
+    { "id": "d", "text": "La radiographie standard suffit au diagnostic", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "PIÈGE classique : la fièvre manque dans ~50 % des spondylodiscites au diagnostic. Il faut donc se fier à un faisceau d'arguments : altération de l'état général, douleur inflammatoire (nocturne, ne cède pas au repos), terrain à risque (drogues IV, immunodépression, infection récente), CRP élevée. Le diagnostic est confirmé par IRM (1ère intention) + hémocultures + biopsie. L'antibiothérapie n'est jamais probabiliste en ville : il faut documenter le germe.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "infectiologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

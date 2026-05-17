@@ -1,0 +1,22 @@
+{
+  "id": "asthme-c1-s04-rhume-virus",
+  "kind": "sct",
+  "prompt": "Un enfant de 8 ans, asthmatique connu et habituellement bien contrôlé, revient consulter pour une recrudescence de toux nocturne et de sibilants depuis 4 jours.",
+  "hypothesis": "Mon hypothèse : il s'agit d'une exacerbation déclenchée par une infection virale respiratoire.",
+  "new_info": "L'interrogatoire retrouve une rhinorrhée claire, un mal de gorge et une fébricule à 38 °C apparus 24 h avant la dégradation respiratoire ; deux camarades de classe sont enrhumés.",
+  "expected": "renforce",
+  "rationale": "Tableau ORL viral typique + chronologie (rhume → exacerbation asthme dans les 24-72 h) = scénario archi-classique chez l'enfant asthmatique. Les virus (rhinovirus surtout) déclenchent la majorité des crises chez l'enfant. L'info renforce nettement l'hypothèse et oriente la prise en charge : intensifier le traitement de fond temporairement (plan d'action), bien hydrater, surveiller signes de gravité.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c2-q07b-pem-signature",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la SIGNATURE clinique centrale du syndrome de fatigue chronique (ME/CFS), qui le distingue des autres fatigues chroniques ?",
+  "choices": [
+    { "id": "a", "text": "Une asthénie matinale isolée, soulagée par les activités sociales.", "correct": false },
+    { "id": "b", "text": "Le malaise post-effort (PEM) : aggravation marquée et prolongée des symptômes après un effort même modéré, parfois avec un délai différé de 24-48 h.", "correct": true },
+    { "id": "c", "text": "Une amélioration nette après une activité physique intense bien conduite (\"graded exercise\").", "correct": false },
+    { "id": "d", "text": "Une fièvre vespérale > 38,5 °C présente quotidiennement.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La signature du ME/CFS est le MALAISE POST-EFFORT (PEM = post-exertional malaise) : aggravation très marquée et prolongée des symptômes après effort minime (physique, cognitif ou émotionnel), avec délai parfois différé (24-48 h) et durée souvent > 24 h. C'est ce qui le distingue de la dépression (où l'activité tend à améliorer l'humeur) ou de la fatigue physiologique. À cause du PEM, le \"graded exercise therapy\" (réactivation forcée) est désormais controversé et peut aggraver les symptômes.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

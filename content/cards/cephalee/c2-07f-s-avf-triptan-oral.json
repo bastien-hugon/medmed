@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c2-s07f-avf-triptan-oral",
+  "kind": "sct",
+  "prompt": "Patient connu pour AVF en salve, vous demande conseil pour ses crises ultra-sévères. Vous lui prescrivez du sumatriptan oral et du paracétamol. Comment cette nouvelle information modifie-t-elle votre prescription ?",
+  "hypothesis": "Sumatriptan oral + paracétamol pour les crises d'AVF.",
+  "new_info": "Vous relisez NICE CG150 sur le traitement de crise de l'AVF : 'Offer oxygen and/or subcutaneous OR nasal triptan. Do not offer paracetamol, NSAIDs, opioids, ergots or ORAL triptans.'",
+  "expected": "affaiblit",
+  "rationale": "L'AVF a un traitement de crise très SPÉCIFIQUE et différent de la migraine : OXYGÈNE pur 100 % à haut débit (≥ 12 L/min, masque non-rebreathing) et/ou triptan en SOUS-CUTANÉ (sumatriptan SC 6 mg) ou NASAL — pas oral car la crise est trop brève (< 3 h) pour attendre l'effet d'un comprimé. Paracétamol/AINS/opioïdes/ergots/triptans oraux : explicitement NON recommandés. L'information affaiblit la prescription proposée. Conduite : oxygène + sumatriptan SC. Prophylaxie : vérapamil (avis spécialisé, ECG).",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "avf"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

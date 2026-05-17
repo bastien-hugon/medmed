@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c2-c09e-pesee-cloze",
+  "kind": "cloze",
+  "prompt": "La pesée doit être faite : même balance, même ___ (matin), à ___ (avant petit-déjeuner). Une prise > 2 kg en 3 jours = alerte.",
+  "expected": ["heure", "jeun"],
+  "rationale": "Conditions standardisées : même balance, même heure du matin, à jeun, après pipi. Sinon variations ininterprétables. La pesée quotidienne est l'outil n°1 d'auto-surveillance — c'est aussi puissant qu'un médicament pour prévenir l'hospitalisation.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

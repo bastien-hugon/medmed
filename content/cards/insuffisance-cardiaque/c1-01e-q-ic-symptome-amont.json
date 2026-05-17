@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q01e-ic-symptome-amont",
+  "kind": "qcm-vignette",
+  "prompt": "Quand la pompe cardiaque faiblit, le sang stagne en AMONT du cœur. Qu'est-ce qui en découle directement comme symptôme ?",
+  "choices": [
+    { "id": "a", "text": "Hypertension artérielle aiguë", "correct": false },
+    { "id": "b", "text": "Œdème pulmonaire et/ou œdèmes des membres inférieurs", "correct": true },
+    { "id": "c", "text": "Anémie sévère", "correct": false },
+    { "id": "d", "text": "Hyperthyroïdie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Stagnation du sang en amont du cœur défaillant → liquide qui sort des vaisseaux et imbibe les tissus : poumons (œdème pulmonaire si VG) ou jambes/foie (œdèmes systémiques si VD). C'est la base physiopathologique de TOUS les signes congestifs de l'IC.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

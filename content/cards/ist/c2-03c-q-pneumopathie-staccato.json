@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q03c-pneumopathie-staccato",
+  "kind": "qcm-vignette",
+  "prompt": "Un nourrisson de 6 semaines présente une toux sèche répétitive type 'staccato', une polypnée, sans fièvre. Quelle IST néonatale faut-il évoquer ?",
+  "choices": [
+    { "id": "a", "text": "Bronchiolite à VRS", "correct": false },
+    { "id": "b", "text": "Pneumopathie à chlamydia (transmission néonatale)", "correct": true },
+    { "id": "c", "text": "Coqueluche à Bordetella pertussis", "correct": false },
+    { "id": "d", "text": "Asthme du nourrisson", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Triade évocatrice de pneumopathie à chlamydia néonatale : nourrisson 1-3 mois, toux 'STACCATO' (sèche, répétitive, en mitraillette), AFÉBRILE, polypnée. Radio : infiltrats bilatéraux, hyperinflation. Bio : éosinophilie ≥ 400/mm³. Diagnostic : NAAT sur prélèvement nasopharyngé. Traitement : érythromycine 50 mg/kg/j en 4 doses × 14 j OU azithromycine 20 mg/kg/j × 3 j. La coqueluche reste un diagnostic différentiel (toux quinteuse, parfois apnées).",
+  "tags": {
+    "system": ["infectieux", "pediatrie", "pneumologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

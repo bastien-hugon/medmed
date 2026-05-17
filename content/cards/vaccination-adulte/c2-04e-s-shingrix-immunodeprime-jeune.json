@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c2-s04-shingrix-immunodeprime-jeune",
+  "kind": "sct",
+  "prompt": "Un patient de 28 ans, sous immunosuppresseurs après greffe rénale, vous interroge sur la vaccination zona. Vous envisagez d'attendre ses 65 ans pour proposer le vaccin.",
+  "hypothesis": "Mon hypothèse : il est trop jeune (28 ans) pour bénéficier d'un vaccin zona.",
+  "new_info": "Vous vérifiez les recommandations 2025 : le Shingrix est indiqué chez les immunodéprimés à partir de 18 ans, indépendamment du seuil 65+ de la population générale.",
+  "expected": "affaiblit",
+  "rationale": "Chez l'immunodéprimé, le risque de zona augmente précocement (greffe, biothérapie anti-CD20, chimio…) et le zona peut être plus grave (formes disséminées, ophtalmiques, viscérales). Le seuil d'indication Shingrix est donc abaissé à 18 ans pour cette population. L'info AFFAIBLIT l'attente jusqu'à 65 ans : on vaccine MAINTENANT.",
+  "tags": {
+    "system": ["infectieux", "prevention", "dermatologie"],
+    "sdd": ["vaccination", "zona", "immunodepression"],
+    "item_edn": [143, 167],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/Zona",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

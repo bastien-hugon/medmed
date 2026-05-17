@@ -1,0 +1,22 @@
+{
+  "id": "hta-c2-s05-echo-cardiaque",
+  "kind": "sct",
+  "prompt": "Tu es au cabinet de MG, tu confirmes une HTA stade 1 chez un patient de 50 ans sans aucune comorbidité ni atteinte d'organe à l'examen.",
+  "hypothesis": "Mon hypothèse : il faut absolument demander une échographie cardiaque dans le bilan initial.",
+  "new_info": "L'ECG de repos du patient est normal (pas d'HVG, pas de trouble de la conduction, pas de signes d'ischémie).",
+  "expected": "affaiblit",
+  "rationale": "L'échographie cardiaque n'est PAS systématique dans le bilan initial OMS d'une HTA non compliquée (HAS). Elle se justifie si : HVG sur ECG, insuffisance cardiaque suspectée, haut risque CV, ou HTA résistante. Avec un ECG normal et pas de signe clinique d'atteinte cardiaque, l'écho cardiaque n'a pas d'indication. L'info affaiblit l'hypothèse de demande systématique.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

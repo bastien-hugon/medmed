@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c1-q16-hba1c-cloze-normal",
+  "kind": "cloze",
+  "prompt": "Chez un sujet non diabétique, l'HbA1c est habituellement < ___ %.",
+  "expected": ["5,7", "5.7"],
+  "rationale": "< 5,7 % = HbA1c normale. Entre 5,7 et 6,4 % = prédiabète. ≥ 6,5 % = diabète. Ces seuils sont harmonisés entre l'OMS et l'ADA. Note : chez certaines populations (anémies, hémoglobinopathies), l'HbA1c peut être faussée — il faut alors se rabattre sur la glycémie à jeun.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/H%C3%A9moglobine_glyqu%C3%A9e",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

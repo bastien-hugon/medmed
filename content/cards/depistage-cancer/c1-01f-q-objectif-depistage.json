@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c1-q01f-objectif-depistage",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est l'objectif PRINCIPAL d'un programme de dépistage organisé de cancer en population générale ?",
+  "choices": [
+    { "id": "a", "text": "Diagnostiquer rapidement les cancers chez les patients qui ont des symptômes", "correct": false },
+    { "id": "b", "text": "Réduire la mortalité spécifique liée au cancer ciblé, en le détectant à un stade précoce et plus curable", "correct": true },
+    { "id": "c", "text": "Confirmer un diagnostic suspecté par le médecin traitant", "correct": false },
+    { "id": "d", "text": "Trouver tous les cancers existant chez le patient, quelle que soit leur localisation", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'objectif d'un dépistage organisé n'est PAS de diagnostiquer (a, c : ça relève du parcours symptomatique), ni de chasser tous les cancers possibles (d : irréaliste, et générerait des dépistages non validés). C'est, très précisément, de RÉDUIRE LA MORTALITÉ liée à UN cancer ciblé, en le détectant à un stade plus précoce, donc plus curable. C'est un critère DUR : avant d'autoriser un dépistage de masse, on attend la preuve d'un bénéfice de mortalité dans des essais randomisés ou des études comparatives. C'est pour ça que le poumon, la prostate, l'ovaire n'ont pas de programme organisé en France : la preuve d'un bénéfice de mortalité en population générale manque encore.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [287, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

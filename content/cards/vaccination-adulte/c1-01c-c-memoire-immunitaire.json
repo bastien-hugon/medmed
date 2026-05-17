@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c1-c01-memoire-immunitaire",
+  "kind": "cloze",
+  "prompt": "Le mécanisme central qui rend un vaccin protecteur dans la durée est la ___ ___ : à la prochaine rencontre avec le microbe, l'organisme le reconnaît instantanément.",
+  "expected": ["mémoire", "immunitaire"],
+  "rationale": "RECONNAÎTRE → RÉPONDRE → RETENIR. Le 3e R (retenir = mémoire) est ce qui distingue la vaccination d'un traitement ponctuel. Sans cellules B et T mémoire, pas de protection durable. C'est aussi pourquoi certains vaccins nécessitent des rappels : la mémoire s'érode avec le temps pour certains pathogènes.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

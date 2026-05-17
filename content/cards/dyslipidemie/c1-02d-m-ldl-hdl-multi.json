@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c1-m02-ldl-hdl-affirmations",
+  "kind": "qcm-multi",
+  "prompt": "Cochez toutes les affirmations VRAIES concernant le LDL et le HDL.",
+  "choices": [
+    { "id": "a", "text": "Un LDL élevé favorise la formation de plaques d'athérome.", "correct": true },
+    { "id": "b", "text": "Le HDL ramène le cholestérol en excès vers le foie pour élimination.", "correct": true },
+    { "id": "c", "text": "Les statines visent principalement à baisser le LDL.", "correct": true },
+    { "id": "d", "text": "Le HDL élevé est un facteur de risque cardiovasculaire majeur.", "correct": false },
+    { "id": "e", "text": "Un HDL bas est défavorable sur le plan cardiovasculaire.", "correct": true },
+    { "id": "f", "text": "Le LDL est le 'bon cholestérol' à augmenter en priorité.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "LDL = mauvais (dépose → plaque), HDL = bon (ramasse). Les statines ciblent essentiellement le LDL. Un HDL ÉLEVÉ est plutôt protecteur ; un HDL BAS est un FdR. Piège classique : confondre 'cholestérol total élevé' (FdR) et 'HDL élevé' (protecteur). Les médicaments qui montent le HDL n'ont jamais montré de bénéfice CV — on cible la baisse du LDL.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

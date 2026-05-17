@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c2-q03d-variabilite-calcul",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient mesure son DEP. Sur une journée, DEP du matin = 320 L/min, DEP du soir = 480 L/min. Quelle est la variabilité quotidienne, et est-elle en faveur d'un asthme selon NG245 ?",
+  "choices": [
+    { "id": "a", "text": "33 % — au-dessus du seuil de 20 %, en faveur d'un asthme.", "correct": true },
+    { "id": "b", "text": "50 % — au-dessus du seuil de 20 %, en faveur d'un asthme.", "correct": false },
+    { "id": "c", "text": "10 % — en-dessous du seuil de 20 %, contre un asthme.", "correct": false },
+    { "id": "d", "text": "On ne peut pas calculer la variabilité sur un seul jour.", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Calcul NG245 : (DEP_max - DEP_min) / DEP_max × 100 = (480 - 320) / 480 × 100 = 160 / 480 ≈ 33 %. Au-dessus du seuil de 20 % → en faveur d'asthme. NB : 50 % serait obtenu en divisant par le min (160/320), mais NG245 divise par le MAX. Et la variabilité se calcule jour par jour puis se moyenne sur les 14 jours, pas sur une seule journée pour conclure.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

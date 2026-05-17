@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c1-s01f-tcc-comportementale",
+  "kind": "sct",
+  "hypothesis": "Un patient sous patchs 21 mg/24 h (axe physiologique couvert) qui rechute à chaque pause-café avec ses collègues bénéficierait d'une approche complémentaire ciblée sur la composante COMPORTEMENTALE (TCC, identification des déclencheurs, modification des routines).",
+  "new_info": "Le patient déclare aussi qu'il fume à chaque fois qu'il se sent stressé ou anxieux au travail (charge mentale forte).",
+  "expected": "neutre",
+  "prompt": "Cette nouvelle information modifie-t-elle l'intérêt d'une approche ciblée sur l'axe COMPORTEMENTAL (identification des déclencheurs externes : pause-café, lieux, gestes) ?",
+  "rationale": "L'information ajoute une composante PSYCHOLOGIQUE (gestion du stress) au tableau, mais n'enlève rien à la composante COMPORTEMENTALE (déclencheurs externes 'pause-café'). L'axe comportemental reste pertinent — il faudra juste y AJOUTER un travail sur la composante psy (gestion du stress, alternatives non-tabagiques). L'indication initiale sur l'axe comportemental est donc neutre, ni renforcée ni affaiblie : on élargit simplement le plan.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

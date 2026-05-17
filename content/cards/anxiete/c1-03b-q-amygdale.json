@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q03b-amygdale",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle structure cérébrale joue un rôle CENTRAL dans la détection des menaces et le déclenchement de la réaction d'anxiété ?",
+  "choices": [
+    { "id": "a", "text": "Le cervelet", "correct": false },
+    { "id": "b", "text": "L'amygdale (au fond du lobe temporal)", "correct": true },
+    { "id": "c", "text": "L'hypophyse antérieure", "correct": false },
+    { "id": "d", "text": "Le corps calleux", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'amygdale (corps amygdaloïde) est le 'détecteur de menaces' du cerveau : elle évalue très vite les stimuli pour leur valeur de danger et déclenche la cascade sympathique. Le cervelet sert à la coordination motrice, l'hypophyse à la régulation hormonale (mais pas le déclencheur initial), le corps calleux relie les hémisphères. Mnémo : amygdale = alarme, sympathique = accélérateur, surrénales = essence (adrénaline).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

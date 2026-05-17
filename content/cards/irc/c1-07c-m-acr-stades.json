@@ -1,0 +1,29 @@
+{
+  "id": "irc-c1-m07-acr-stades",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les associations stade A × valeur d'ACR (mg/mmol) CORRECTES.",
+  "choices": [
+    { "id": "a", "text": "A1 : ACR < 3 mg/mmol (normal)", "correct": true },
+    { "id": "b", "text": "A2 : ACR 3 à 30 mg/mmol (microalbuminurie / modérément augmenté)", "correct": true },
+    { "id": "c", "text": "A3 : ACR > 30 mg/mmol (protéinurie franche / sévèrement augmenté)", "correct": true },
+    { "id": "d", "text": "A2 : ACR 30 à 300 mg/mmol", "correct": false },
+    { "id": "e", "text": "Un ACR ≥ 70 mg/mmol justifie une cible PA plus serrée (< 130/80)", "correct": true },
+    { "id": "f", "text": "Un ACR < 3 chez un diabétique signe l'absence de MRC quel que soit le DFG", "correct": false },
+    { "id": "g", "text": "L'ACR ≥ 3 confirmé est un marqueur d'atteinte rénale même si le DFG est normal", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "e", "g"],
+  "rationale": "Seuils ronds à retenir : 3 et 30. À cela s'ajoute le seuil 'thérapeutique' de 70 mg/mmol qui fait basculer la cible PA à < 130/80. Un ACR < 3 ne signe pas l'absence de MRC s'il y a une autre atteinte (DFG < 60, hématurie, anomalie structurale). Et un ACR ≥ 3 confirmé suffit à parler de MRC, DFG normal ou non.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

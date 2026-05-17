@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q06d-preservatif-typical",
+  "kind": "qcm-vignette",
+  "prompt": "L'efficacité du préservatif externe est d'environ 2 % de grossesses en perfect use. Combien est-elle en TYPICAL USE (vraie vie) ?",
+  "choices": [
+    { "id": "a", "text": "Toujours 2 %, le préservatif est très simple à utiliser.", "correct": false },
+    { "id": "b", "text": "Environ 18 % la 1ère année.", "correct": true },
+    { "id": "c", "text": "Environ 50 % la 1ère année.", "correct": false },
+    { "id": "d", "text": "Environ 0,5 % grâce à l'effet 'double protection'.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Préservatif : 2 % en perfect use → 18 % en typical use. Soit ~9× plus de grossesses en vraie vie (glisse, rupture, oubli, mauvais déroulé, retrait tardif…). C'est pour cela que le préservatif SEUL est rarement la contraception idéale au long cours d'un couple stable. Son intérêt n°1 reste la PRÉVENTION DES IST. Idéalement : préservatif + contraception efficace (pilule, DIU, implant) en double protection.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

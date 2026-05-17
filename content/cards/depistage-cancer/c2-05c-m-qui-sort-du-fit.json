@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c2-m05c-qui-sort-du-fit",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les patients qui doivent SORTIR du dépistage organisé par FIT et bénéficier d'un dépistage INDIVIDUEL (coloscopie ciblée).",
+  "choices": [
+    { "id": "a", "text": "Patient avec antécédent personnel de polype adénomateux réséqué", "correct": true },
+    { "id": "b", "text": "Patient avec antécédent personnel de cancer colorectal", "correct": true },
+    { "id": "c", "text": "Patient dont le père a eu un cancer colorectal à 55 ans", "correct": true },
+    { "id": "d", "text": "Patient avec une rectocolite hémorragique pancolite évoluant depuis 12 ans", "correct": true },
+    { "id": "e", "text": "Patient de 60 ans sans antécédent personnel ni familial", "correct": false },
+    { "id": "f", "text": "Patient porteur d'un syndrome de Lynch confirmé en oncogénétique", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "Sortent du FIT : antécédent personnel de polype (a) ou cancer (b), antécédent familial significatif (c — parent au 1er degré <65 ans), MICI évoluée (d — RCH pancolite >8 ans), syndromes héréditaires Lynch/PAF (f). Ces patients ont besoin d'une COLOSCOPIE de surveillance à intervalles ciblés (1 à 5 ans selon la situation), pas d'un FIT (qui rate trop, et fournit une fausse réassurance). (e) est le cas STANDARD du dépistage organisé : il reste dans le programme FIT. Mnémo : 'qui sort du FIT ?' = les 3 P → Polype/cancer Personnel, Parents atteints (1er degré), Pathologie inflammatoire chronique.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290, 282],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

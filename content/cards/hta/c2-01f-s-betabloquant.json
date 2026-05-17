@@ -1,0 +1,22 @@
+{
+  "id": "hta-c2-s01-betabloquant",
+  "kind": "sct",
+  "prompt": "Tu cherches à comprendre pourquoi un bêtabloquant fait BAISSER la PA.",
+  "hypothesis": "Mon hypothèse : le bêtabloquant baisse la PA principalement en diminuant le débit cardiaque (Q).",
+  "new_info": "Tu te rappelles que les bêtabloquants ralentissent la fréquence cardiaque et diminuent la force de contraction du myocarde.",
+  "expected": "renforce",
+  "rationale": "Bêtabloquants → blocage des récepteurs β1 cardiaques → ↓ FC + ↓ contractilité → ↓ VES → ↓ Q. PA = Q × R : si Q baisse, la PA baisse (R constant ou variant peu). L'info renforce l'hypothèse. À noter : la HAS rappelle que les BB sont MOINS protecteurs vis-à-vis du risque d'AVC que les autres classes, donc pas en 1ère intention dans l'HTA non compliquée.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

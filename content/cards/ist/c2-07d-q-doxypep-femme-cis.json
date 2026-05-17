@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q07d-doxypep-femme-cis",
+  "kind": "qcm-vignette",
+  "prompt": "Une femme cisgenre de 24 ans, multipartenaire, demande la DoxyPEP. Quelle est la réponse exacte à lui faire ?",
+  "choices": [
+    { "id": "a", "text": "Oui, on lui prescrit doxycycline 200 mg post-coïtal en routine", "correct": false },
+    { "id": "b", "text": "La DoxyPEP n'a PAS démontré d'efficacité chez les femmes cisgenres dans les essais publiés ; recommandation actuelle = pas de DoxyPEP en routine dans cette population. Maintenir préservatif et dépistage régulier", "correct": true },
+    { "id": "c", "text": "C'est interdit chez la femme en France", "correct": false },
+    { "id": "d", "text": "On lui propose une trithérapie ARV à la place", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Donnée importante : la DoxyPEP est recommandée chez HSH et femmes trans (efficacité prouvée), mais N'A PAS démontré d'efficacité dans les essais chez les femmes cisgenres (essai DoxyPEP femmes au Kenya négatif). Hypothèses : observance, pharmacocinétique vaginale, microbiote différent. Donc PAS de DoxyPEP en routine chez les femmes cisgenres hors essai clinique. Conseils pratiques : préservatif, dépistage adapté, discussion PrEP VIH si à risque.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

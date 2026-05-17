@@ -1,0 +1,27 @@
+{
+  "id": "diabete-t2-c1-m05-seuils-criteres",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les critères qui permettent (seuls ou après confirmation) de poser un diagnostic de diabète chez l'adulte.",
+  "choices": [
+    { "id": "a", "text": "Glycémie à jeun ≥ 1,26 g/L confirmée sur 2 dosages", "correct": true },
+    { "id": "b", "text": "HbA1c ≥ 6,5 % confirmée sur 2 dosages", "correct": true },
+    { "id": "c", "text": "Glycémie aléatoire ≥ 2,0 g/L avec symptômes typiques (polyurie, polydipsie, amaigrissement)", "correct": true },
+    { "id": "d", "text": "Glycémie à jeun à 1,15 g/L confirmée sur 2 dosages", "correct": false },
+    { "id": "e", "text": "HbA1c à 6,0 % confirmée sur 2 dosages", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Trois portes d'entrée diagnostiques : 1,26 g/L à jeun (a), 6,5 % d'HbA1c (b), 2,0 g/L aléatoire + symptômes (c). Les options d (1,15) et e (6,0) tombent en zone PRÉDIABÈTE — pas diabète. À retenir : une seule porte suffit, et il FAUT confirmer (sauf pour la 3ème où les symptômes font office de confirmation).",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

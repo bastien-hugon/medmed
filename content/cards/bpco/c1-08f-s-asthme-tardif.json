@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c1-s08f-asthme-tardif",
+  "kind": "sct",
+  "prompt": "M. V., 50 ans, ancien fumeur 20 PA arrêté il y a 5 ans, dyspnée variable depuis 6 mois. Tu hésites entre asthme tardif et BPCO.",
+  "hypothesis": "Mon hypothèse : c'est plutôt un ASTHME que une BPCO.",
+  "new_info": "La spirométrie post-bronchodilatateur montre un VEMS qui augmente de 25 % (+ 450 mL) et un Tiffeneau qui repasse à 0,78.",
+  "expected": "renforce",
+  "rationale": "Réversibilité ample (≥ 12 % ET ≥ 200 mL : ici largement les deux) ET retour à un Tiffeneau ≥ 0,70 = obstruction RÉVERSIBLE = asthme. L'information renforce nettement l'hypothèse 'asthme plutôt que BPCO'. Si l'obstruction était fixée (Tiffeneau resté < 0,70), on parlerait de BPCO. Logique SCT.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

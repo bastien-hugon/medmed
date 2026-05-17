@@ -1,0 +1,26 @@
+{
+  "id": "hta-c2-q04b-blouse-blanche",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente a une PA à 148/93 au cabinet, confirmée. Son AMT (règle des 3) donne une moyenne à 128/80. Comment qualifies-tu cette situation ?",
+  "choices": [
+    {"id": "a", "text": "HTA masquée", "correct": false},
+    {"id": "b", "text": "HTA blouse blanche", "correct": true},
+    {"id": "c", "text": "HTA permanente franche, à traiter d'emblée par bithérapie", "correct": false},
+    {"id": "d", "text": "PA normale partout, aucun suivi nécessaire", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "HTA blouse blanche = PA élevée au cabinet (≥ 140/90) MAIS normale en AMT/MAPA diurne (< 135/85). Cause : stress du cabinet. Conduite : pas de traitement médicamenteux en général, mais : RHD + surveillance annuelle (risque de passage à une HTA permanente). À l'inverse, l'HTA masquée = cabinet normal MAIS AMT élevée (= à traiter comme une vraie HTA).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

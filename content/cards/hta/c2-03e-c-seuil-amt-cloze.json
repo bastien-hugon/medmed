@@ -1,0 +1,20 @@
+{
+  "id": "hta-c2-c03-seuil-amt-cloze",
+  "kind": "cloze",
+  "prompt": "Le seuil de définition de l'HTA en automesure tensionnelle (AMT) ou en MAPA diurne est ___ / ___ mmHg, à comparer aux 140/90 du cabinet.",
+  "expected": ["135", "85"],
+  "rationale": "Seuils HAS : cabinet ≥ 140/90 ; AMT et MAPA diurne ≥ 135/85 ; MAPA 24 h ≥ 130/80 ; MAPA nocturne ≥ 120/70. Mnémo : '135/85 à la maison, 140/90 au cabinet' (5 mmHg de moins partout à la maison car moins de stress). Très utile en pratique : un patient à 145/90 au cabinet mais à 130/80 en AMT n'est PAS hypertendu (= blouse blanche).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

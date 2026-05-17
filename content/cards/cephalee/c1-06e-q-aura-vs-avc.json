@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c1-q06e-aura-vs-avc",
+  "kind": "free-recall",
+  "prompt": "Citez les 2 éléments CINÉTIQUES qui distinguent une aura migraineuse d'un AIT/AVC (un sur la rapidité d'installation, un sur la qualité des symptômes).",
+  "expected": ["graduelle", "positifs"],
+  "rationale": "Deux clés : 1) cinétique d'installation GRADUELLE (≥ 5 min) dans l'aura vs BRUTALE (secondes) dans l'AVC, 2) symptômes POSITIFS (ajouts : lumière scintillante, fourmillements) avant les déficits dans l'aura vs symptômes purement NÉGATIFS (perte) dans l'AVC. L'aura migraineuse reflète une vague de dépression corticale envahissante de Leão (~ 3 mm/min), pas une ischémie focale.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

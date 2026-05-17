@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q09-opioides-place",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la place des OPIOÏDES FAIBLES (codéine, tramadol) dans la prise en charge de la lombalgie commune aiguë selon la HAS 2019 ?",
+  "choices": [
+    { "id": "a", "text": "Première intention, à prescrire d'emblée", "correct": false },
+    { "id": "b", "text": "Deuxième intention, uniquement si AINS insuffisants ou contre-indiqués, et pour la durée la plus courte possible avec évaluation du risque de mésusage", "correct": true },
+    { "id": "c", "text": "À prescrire en continu, jamais à l'arrêt", "correct": false },
+    { "id": "d", "text": "Indiqués au long cours en lombalgie chronique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Opioïdes faibles = 2e ligne, après échec / contre-indication des AINS, courte durée, avec évaluation du risque de mésusage (Opioid Risk-Tool, POMI). En lombalgie CHRONIQUE, NICE NG59 et HAS sont très clairs : 'do not offer opioids for managing chronic low back pain'. Pas d'opioïdes au long cours en lombalgie.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

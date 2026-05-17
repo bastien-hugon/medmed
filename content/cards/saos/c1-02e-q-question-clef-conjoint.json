@@ -1,0 +1,26 @@
+{
+  "id": "saos-c1-02e-q-question-clef-conjoint",
+  "kind": "qcm-vignette",
+  "prompt": "Vous interrogez un patient ronfleur en consultation MG. Parmi ces questions, laquelle a la meilleure valeur prédictive pour évoquer un SAOS ?",
+  "choices": [
+    {"id": "a", "text": "« Ronflez-vous fort la nuit ? »", "correct": false},
+    {"id": "b", "text": "« Votre conjoint a-t-il déjà constaté que vous arrêtiez de respirer la nuit ? »", "correct": true},
+    {"id": "c", "text": "« Êtes-vous parfois fatigué dans la journée ? »", "correct": false},
+    {"id": "d", "text": "« Avez-vous déjà eu une crise d'asthme la nuit ? »", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le ronflement seul est très peu spécifique (la moitié des adultes ronflent), la fatigue est trop générale, et l'asthme nocturne évoque une autre pathologie. La question qui discrimine, c'est la PAUSE respiratoire constatée par le conjoint — c'est elle qui transforme un simple ronfleur en suspect de SAOS. C'est une question simple, mémorisable, et à valeur prédictive forte. Le patient ne peut pas y répondre seul (il dort), d'où l'intérêt de l'interroger en présence du conjoint si possible.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

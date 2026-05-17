@@ -1,0 +1,28 @@
+{
+  "id": "anxiete-c2-m01c-criteres-tag",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les critères diagnostiques nécessaires pour porter un diagnostic de TROUBLE ANXIEUX GÉNÉRALISÉ (TAG).",
+  "choices": [
+    { "id": "a", "text": "Soucis excessifs sur de MULTIPLES sujets (pas un seul thème)", "correct": true },
+    { "id": "b", "text": "Durée ≥ 6 mois d'inquiétude excessive", "correct": true },
+    { "id": "c", "text": "Au moins 3 symptômes associés (agitation, fatigabilité, troubles concentration, irritabilité, tension musculaire, troubles du sommeil)", "correct": true },
+    { "id": "d", "text": "Retentissement fonctionnel sur la vie quotidienne", "correct": true },
+    { "id": "e", "text": "Présence d'attaques de panique récurrentes", "correct": false },
+    { "id": "f", "text": "Une crise paroxystique avec peur de mourir dans le mois précédent", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Trilogie diagnostique TAG : (1) soucis MULTIPLES + (2) ≥ 6 MOIS + (3) ≥ 3 SYMPTÔMES associés, avec RETENTISSEMENT. Les attaques de panique et les crises paroxystiques ne font PAS partie des critères du TAG — elles définissent le trouble panique. Les deux peuvent COEXISTER chez le même patient, mais ce sont des diagnostics distincts. NICE insiste : ne pas se contenter de cocher une checklist, faire une évaluation globale (comorbidités, contexte).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "vaccination-adulte-c2-m04-shingrix-cibles",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant les indications du vaccin Shingrix en France (calendrier 2025).",
+  "choices": [
+    {"id": "a", "text": "Indiqué chez tous les adultes ≥ 65 ans.", "correct": true},
+    {"id": "b", "text": "Indiqué chez les adultes immunodéprimés à partir de 18 ans.", "correct": true},
+    {"id": "c", "text": "Schéma 2 doses M0-M2.", "correct": true},
+    {"id": "d", "text": "Vaccin VIVANT atténué, donc CI chez l'immunodéprimé.", "correct": false},
+    {"id": "e", "text": "Vaccin recombinant adjuvanté, utilisable chez l'immunodéprimé.", "correct": true},
+    {"id": "f", "text": "A remplacé Zostavax en France.", "correct": true},
+    {"id": "g", "text": "Une seule dose suffit comme pour le pneumocoque.", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "e", "f"],
+  "rationale": "Shingrix = recombinant adjuvanté (NON vivant) → utilisable chez immunodéprimé. Cibles 2025 : 65+ universellement, immunodéprimés ≥ 18 ans (cancer, greffe, biothérapies, VIH...). Schéma 2 doses M0-M2. Remboursé 65 % depuis le 14 décembre 2024 pour ces deux populations. Zostavax (ancien, vivant) est désormais déconseillé et remplacé. Si patient a déjà eu un zona ou Zostavax, on peut proposer Shingrix après ≥ 1 an.",
+  "tags": {
+    "system": ["infectieux", "prevention", "dermatologie"],
+    "sdd": ["vaccination", "zona"],
+    "item_edn": [143, 167],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/Zona",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

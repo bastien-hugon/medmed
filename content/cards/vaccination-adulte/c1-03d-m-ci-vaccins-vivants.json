@@ -1,0 +1,29 @@
+{
+  "id": "vaccination-adulte-c1-m03-ci-vaccins-vivants",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations qui constituent une contre-indication aux vaccins VIVANTS ATTÉNUÉS.",
+  "choices": [
+    {"id": "a", "text": "Grossesse en cours", "correct": true},
+    {"id": "b", "text": "Chimiothérapie anticancéreuse en cours", "correct": true},
+    {"id": "c", "text": "Antécédent d'anaphylaxie sévère documentée à une dose précédente du même vaccin", "correct": true},
+    {"id": "d", "text": "Diabète de type 2 bien équilibré", "correct": false},
+    {"id": "e", "text": "Corticothérapie systémique au long cours à forte dose (immunosuppressive)", "correct": true},
+    {"id": "f", "text": "Asthme bien contrôlé chez un adulte", "correct": false},
+    {"id": "g", "text": "Greffe d'organe avec immunosuppresseurs", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "e", "g"],
+  "rationale": "CI absolues aux vaccins vivants : grossesse, immunodépression (chimio, biothérapies, corticothérapie immunosuppressive forte dose au long cours, greffe, VIH avancé), antécédent anaphylactique au même vaccin/composant. Le diabète, l'asthme, la BPCO ne sont PAS des CI ; au contraire, ce sont des INDICATIONS supplémentaires pour les vaccins inactivés (grippe, pneumocoque). Piège classique en QCM : confondre comorbidité chronique et immunodépression.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

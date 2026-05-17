@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q07c-hydralazine-indication",
+  "kind": "qcm-vignette",
+  "prompt": "Chez qui considérer l'association hydralazine + dérivés nitrés selon NICE NG106 ?",
+  "choices": [
+    { "id": "a", "text": "Tout patient ICFEr en 1ère intention", "correct": false },
+    { "id": "b", "text": "Patient INTOLÉRANT à IEC/ARNI/ARA2 (ex. après angio-œdème), surtout afro-caribéen NYHA III-IV", "correct": true },
+    { "id": "c", "text": "Patient avec FEVG ≥ 50 % (ICFEp)", "correct": false },
+    { "id": "d", "text": "Patient en fibrillation auriculaire rapide", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Hydralazine (vasodilatateur artériolaire) + dérivés nitrés (vasodilatateurs veineux) = alternative chez le patient qui ne peut pas recevoir d'IEC/ARNI/ARA2. Bénéfice particulièrement démontré dans la population afro-caribéenne en NYHA III-IV. Tolérance souvent médiocre (céphalées, hypoTA, lupus médicamenteux pour l'hydralazine).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

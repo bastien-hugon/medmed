@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c2-m08-suivi-etapes",
+  "kind": "qcm-multi",
+  "prompt": "Quand la cible LDL n'est PAS atteinte à 3 mois sous statine, cochez les étapes RECOMMANDÉES de prise en charge.",
+  "choices": [
+    { "id": "a", "text": "Discuter l'observance (le médicament est-il vraiment pris ?).", "correct": true },
+    { "id": "b", "text": "Vérifier les RHD (alimentation, activité physique).", "correct": true },
+    { "id": "c", "text": "Augmenter l'intensité ou la dose de la statine si pas au max toléré.", "correct": true },
+    { "id": "d", "text": "Ajouter de l'ézétimibe si max statine atteint.", "correct": true },
+    { "id": "e", "text": "Arrêter la statine et passer aux fibrates.", "correct": false },
+    { "id": "f", "text": "Prescrire des compléments en CoQ10 et vitamine D.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Quand la cible n'est pas atteinte : (1) OBSERVANCE d'abord (cause n°1), (2) RHD à renforcer, (3) augmenter la dose de statine si tolérée, (4) ajouter ÉZÉTIMIBE (15-20 % de baisse supplémentaire), (5) si toujours insuffisant en prévention secondaire : anti-PCSK9. Les FIBRATES, NIACINE, CoQ10, vitamine D ne sont PAS recommandés en routine par NICE (pas de bénéfice CV démontré pour cette indication).",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

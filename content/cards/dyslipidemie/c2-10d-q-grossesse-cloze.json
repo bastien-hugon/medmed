@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c2-q10-grossesse-cloze",
+  "kind": "cloze",
+  "prompt": "Selon NICE, la statine doit être arrêtée au moins ___ mois AVANT une grossesse planifiée. On ne reprend pas tant que l'___ se poursuit.",
+  "expected": ["3", "allaitement"],
+  "rationale": "Trois mois avant conception, sans reprise jusqu'à la fin de l'allaitement. Pourquoi 3 mois ? Pour éliminer la statine et ses métabolites avant le développement embryonnaire critique. Allaitement : la statine passe dans le lait maternel, donc CI maintenue. Reprise possible après sevrage. Question à toujours poser à une femme en âge de procréer avant prescription : 'projet de grossesse ?' et 'contraception ?'.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

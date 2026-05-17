@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q03c-pilule-ist",
+  "kind": "qcm-vignette",
+  "prompt": "Une jeune femme sous pilule œstro-progestative depuis 2 ans rencontre un nouveau partenaire. Que lui conseillez-vous concernant les IST ?",
+  "choices": [
+    { "id": "a", "text": "La pilule la protège également des IST, pas de précaution supplémentaire.", "correct": false },
+    { "id": "b", "text": "Utiliser un préservatif en plus de la pilule (double protection), tant que le partenaire n'est pas testé et que la relation n'est pas stable.", "correct": true },
+    { "id": "c", "text": "Arrêter la pilule au profit du préservatif uniquement.", "correct": false },
+    { "id": "d", "text": "Aucun risque puisqu'elle n'a qu'un seul partenaire à la fois.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La pilule protège uniquement de la grossesse. Aucune contraception hormonale (pilule, implant, DIU) ne protège des IST (chlamydia, gonocoque, VIH, HPV, syphilis, herpès…). Avec un nouveau partenaire → 'double protection' : pilule + préservatif systématique jusqu'à dépistage négatif des deux partenaires + relation stable. C'est un message-clé en MG, surtout chez les jeunes.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

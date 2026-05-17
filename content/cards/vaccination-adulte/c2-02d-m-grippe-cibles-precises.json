@@ -1,0 +1,30 @@
+{
+  "id": "vaccination-adulte-c2-m02-grippe-cibles-precises",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les pathologies/situations qui figurent dans la liste précise des cibles de la vaccination antigrippale prise en charge en France.",
+  "choices": [
+    {"id": "a", "text": "Asthme persistant", "correct": true},
+    {"id": "b", "text": "Mucoviscidose", "correct": true},
+    {"id": "c", "text": "Antécédent d'AVC", "correct": true},
+    {"id": "d", "text": "Drépanocytose", "correct": true},
+    {"id": "e", "text": "Syndrome néphrotique", "correct": true},
+    {"id": "f", "text": "Hypertension artérielle isolée bien équilibrée", "correct": false},
+    {"id": "g", "text": "Cirrhose hépatique", "correct": true},
+    {"id": "h", "text": "Migraine chronique", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "g"],
+  "rationale": "Cibles : maladies respiratoires (asthme persistant, BPCO, muco, DDB), cardio-vasculaires (IC, cardiopathies congénitales, ATCD AVC), métaboliques (diabète T1/T2), rénales (IRC, syndrome néphrotique), hématologiques (drépanocytose), immunitaires (VIH, post-greffe, chimio, biothérapies), hépatiques (cirrhose), obésité IMC ≥ 40, grossesse, entourage de fragiles, soignants. L'HTA isolée et la migraine NE SONT PAS des indications spécifiques.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

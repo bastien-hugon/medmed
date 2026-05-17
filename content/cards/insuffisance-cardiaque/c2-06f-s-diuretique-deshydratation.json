@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c2-s06f-diuretique-deshydratation",
+  "kind": "sct",
+  "prompt": "Hypothèse : patient IC stable sous furosémide 80 mg/j depuis 2 ans. Information nouvelle : il consulte en pleine canicule, tension à 92/55 mmHg, créatinine passée de 110 à 175 µmol/L en 5 jours, perte de poids de 2 kg. Faut-il maintenir la même dose de furosémide ?",
+  "hypothesis": "Maintien de la même dose de furosémide chez ce patient",
+  "new_info": "Canicule, hypoTA, IR aiguë (créat 110 → 175), perte de poids",
+  "expected": "affaiblit",
+  "rationale": "Tableau de DÉSHYDRATATION + IR aiguë fonctionnelle. Maintenir le furosémide à pleine dose aggrave la perte hydrique → IR + hypotension. Conduite : 'sick day rules' = SUSPENDRE temporairement le furosémide (et IEC/MRA), réhydrater, surveiller. Recontrôler créat + K+ en 24-48 h. Reprise progressive une fois normalisation. La suspicion de maintien optimal est donc affaiblie.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

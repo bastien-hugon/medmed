@@ -1,0 +1,26 @@
+{
+  "id": "vaccination-adulte-c2-q11-covid-automne-couplee",
+  "kind": "qcm-vignette",
+  "prompt": "En octobre 2025, un patient de 72 ans, BPCO modérée, demande s'il doit faire le vaccin COVID. Que lui répondez-vous ?",
+  "choices": [
+    {"id": "a", "text": "Oui, en campagne automnale couplée à la vaccination antigrippale, dans la même séance si possible (sites d'injection différents).", "correct": true},
+    {"id": "b", "text": "Non, la vaccination COVID n'est plus recommandée chez les > 65 ans depuis 2025.", "correct": false},
+    {"id": "c", "text": "Uniquement s'il a fait une infection COVID prouvée dans les 6 derniers mois.", "correct": false},
+    {"id": "d", "text": "Oui, mais espacer d'au moins 1 mois la grippe et le COVID.", "correct": false}
+  ],
+  "expected": ["a"],
+  "rationale": "Stratégie 2025-2026 : campagne automnale COUPLÉE grippe + COVID, mêmes vaccinateurs, mêmes lieux, possible même jour (sites d'injection différents, par ex. bras G et bras D). Population cible : 65+, FdR (BPCO, diabète, IC, IRC, immunodépression, obésité…), femmes enceintes, soignants, entourage de fragiles. Patient = 72 ans + BPCO → indication double. Vaccin COVID ARNm reste utilisable chez immunodéprimé et femme enceinte.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "covid"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/COVID-19",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

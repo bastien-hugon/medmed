@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q07b-hpv-prevalence",
+  "kind": "qcm-vignette",
+  "prompt": "Concernant l'infection à HPV (papillomavirus humain) dans la population sexuellement active, lequel de ces énoncés est CORRECT ?",
+  "choices": [
+    { "id": "a", "text": "C'est une infection rare, qui ne touche qu'un faible pourcentage des personnes sexuellement actives.", "correct": false },
+    { "id": "b", "text": "La grande majorité des personnes sexuellement actives en attrapent au moins une fois dans leur vie, souvent sans le savoir.", "correct": true },
+    { "id": "c", "text": "L'infection à HPV donne toujours des symptômes visibles.", "correct": false },
+    { "id": "d", "text": "L'infection à HPV ne survient qu'après 40 ans.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le HPV est quasi UNIVERSEL chez les personnes sexuellement actives. La majorité l'attrape, souvent silencieusement, et 80-90 % éliminent spontanément le virus en 1-2 ans (clairance virale). C'est l'INFECTION PERSISTANTE par un HPV à HAUT RISQUE (chez 10 % des infectés) qui peut, sur 10-30 ans, évoluer vers un cancer. Démystifier l'infection HPV aide à dédramatiser le dépistage et la vaccination — ce n'est pas un 'virus honteux'.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Papillomavirus_humain",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

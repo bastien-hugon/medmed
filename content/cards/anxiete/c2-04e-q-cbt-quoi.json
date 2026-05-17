@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q04e-cbt-quoi",
+  "kind": "qcm-vignette",
+  "prompt": "Sur quel double levier la thérapie cognitivo-comportementale (CBT) travaille-t-elle dans le TAG ?",
+  "choices": [
+    { "id": "a", "text": "Sur les conflits inconscients de l'enfance uniquement", "correct": false },
+    { "id": "b", "text": "Sur les PENSÉES (restructuration des schémas anxieux) et les COMPORTEMENTS (exposition, gestion de l'évitement)", "correct": true },
+    { "id": "c", "text": "Sur la respiration uniquement", "correct": false },
+    { "id": "d", "text": "Sur la prescription médicamenteuse uniquement", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Double levier de la CBT : (1) volet COGNITIF — identifier et restructurer les pensées catastrophistes / les schémas anxieux (ex : 'si je fais une erreur, c'est la catastrophe' → 'une erreur est gérable'), (2) volet COMPORTEMENTAL — exposition graduée aux situations évitées, expérimentation, gestion active. Différence avec la psychanalyse classique (centre sur conflits inconscients). Différence avec la sophrologie/relaxation seule (centre sur le corps). C'est cette combinaison pragmatique qui rend la CBT efficace et reproductible.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

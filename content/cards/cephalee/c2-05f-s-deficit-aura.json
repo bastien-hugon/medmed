@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c2-s05f-deficit-aura",
+  "kind": "sct",
+  "prompt": "Patiente de 45 ans migraineuse avec aura visuelle connue. Elle vous consulte pour une aura visuelle un peu inhabituelle, suivie d'une céphalée pulsatile. Vous évoquez une crise migraineuse classique. Comment cette nouvelle information modifie-t-elle votre hypothèse ?",
+  "hypothesis": "Il s'agit d'une crise migraineuse classique avec aura visuelle.",
+  "new_info": "À l'examen, vous notez une hémiparésie droite mineure et un trouble du langage (manque du mot) PERSISTANTS depuis 90 minutes. La patiente est ralentie.",
+  "expected": "affaiblit",
+  "rationale": "Un déficit neurologique focal PERSISTANT au-delà de 60 minutes n'est PLUS une aura migraineuse (qui dure 5-60 min par définition). Cette persistance avec hémiparésie + aphasie chez une femme de 45 ans évoque un AVC ischémique en cours — la migraine avec aura n'exclut pas (et augmente même légèrement) le risque d'AVC. Conduite : appel SAMU/CHU, imagerie en urgence (IRM avec diffusion), sans triptan, évaluer la thrombolyse si délai. L'information affaiblit fortement l'hypothèse migraine.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

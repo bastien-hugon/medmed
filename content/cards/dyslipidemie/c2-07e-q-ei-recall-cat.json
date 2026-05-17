@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c2-q07-ei-recall-cat",
+  "kind": "free-recall",
+  "prompt": "Un patient sous statine se plaint de myalgies modérées sans urines foncées ni faiblesse majeure. Cite au moins TROIS étapes de prise en charge.",
+  "expected": [
+    "chercher autres causes",
+    "doser les CPK",
+    "baisser la dose",
+    "changer de statine",
+    "rassurer effet nocebo",
+    "vérifier observance",
+    "ne pas arrêter automatiquement"
+  ],
+  "rationale": "Conduite à tenir devant myalgies sous statine : (1) chercher des causes alternatives (effort, infection virale, hypothyroïdie) ; (2) doser les CPK SI symptômes inexpliqués/persistants ; (3) si CPK <5× normale, on peut rassurer et baisser la dose OU changer de statine (rosuvastatine bien tolérée) ; (4) discuter l'effet NOCEBO (études en double-aveugle : douleurs aussi sous placebo) ; (5) ne pas arrêter par réflexe — l'arrêt prive du bénéfice CV. Trois bonnes réponses parmi ces options suffisent.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

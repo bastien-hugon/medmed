@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c2-q03c-horton-urgence",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente de 72 ans consulte pour une fatigue depuis 6 semaines. Elle rapporte aussi des céphalées temporales nouvelles, une douleur du cuir chevelu en se peignant, et une difficulté de mastication. Pas de troubles visuels actuels.\n\nQuelle est la conduite à tenir prioritaire ?",
+  "choices": [
+    { "id": "a", "text": "Bilan biologique de 1ère intention à la prochaine consultation dans 15 jours.", "correct": false },
+    { "id": "b", "text": "Doser la VS et la CRP en URGENCE et avis spécialisé : suspicion de maladie de Horton (risque de cécité).", "correct": true },
+    { "id": "c", "text": "Réassurance, paracétamol, contrôle dans 1 mois si persistance.", "correct": false },
+    { "id": "d", "text": "Polygraphie ventilatoire à la recherche d'un SAOS.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Sujet > 50 ans + asthénie + céphalée nouvelle + signe d'appel ARTÉRITE TEMPORALE (douleur cuir chevelu, claudication de la mâchoire) = MALADIE DE HORTON (artérite à cellules géantes) jusqu'à preuve du contraire. C'est une URGENCE diagnostique : risque de cécité brutale par neuropathie optique ischémique antérieure. VS et CRP en urgence (souvent très élevées), avis spécialisé, biopsie de l'artère temporale. Corticothérapie à initier rapidement.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

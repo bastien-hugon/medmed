@@ -1,0 +1,28 @@
+{
+  "id": "anxiete-c2-m04c-cbt-arguments",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les arguments PERTINENTS en faveur de la psychothérapie (CBT) plutôt qu'un SSRI en 1ère intention pour le TAG.",
+  "choices": [
+    { "id": "a", "text": "Efficacité au moins équivalente à un SSRI sur le moyen terme", "correct": true },
+    { "id": "b", "text": "Pas d'effets indésirables médicamenteux (sexuels, sevrage, sédation)", "correct": true },
+    { "id": "c", "text": "Effets PERSISTANTS après l'arrêt (les outils acquis restent disponibles)", "correct": true },
+    { "id": "d", "text": "Préférence souvent exprimée par les patients", "correct": true },
+    { "id": "e", "text": "Effet plus rapide qu'un SSRI sur les premières semaines", "correct": false },
+    { "id": "f", "text": "Plus facile d'accès et moins coûteuse en France", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Arguments NICE en faveur de la CBT au step 3 : efficacité au moins équivalente, absence d'effets indésirables pharmacologiques, durabilité des effets (les outils restent acquis), préférence patient fréquente. Limites en France : accessibilité difficile (délais, peu de psychologues remboursés hors dispositif MonSoutienPsycho, coût) — donc le choix peut être pragmatique. La CBT n'est PAS plus rapide qu'un SSRI sur les premières semaines (au contraire, plusieurs séances avant amélioration significative).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

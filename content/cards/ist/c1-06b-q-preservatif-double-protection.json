@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q06b-preservatif-double-protection",
+  "kind": "qcm-vignette",
+  "prompt": "Le préservatif est aujourd'hui le SEUL moyen qui combine en une seule barrière :",
+  "choices": [
+    { "id": "a", "text": "Prévention IST et confort de rapport", "correct": false },
+    { "id": "b", "text": "Prévention IST et contraception", "correct": true },
+    { "id": "c", "text": "Contraception et prévention de la prostate", "correct": false },
+    { "id": "d", "text": "Prévention IST et vaccin oral", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Spécificité unique du préservatif : il bloque le passage des fluides (sperme = pas de grossesse, sécrétions = pas d'IST). La PrEP protège du VIH mais pas des autres IST ni de la grossesse. La pilule protège de la grossesse mais d'aucune IST. C'est ce 'double rôle' qui justifie sa place en 1ère ligne d'éducation sexuelle, y compris chez les couples sous contraception.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

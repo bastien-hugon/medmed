@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c2-s09f-cam-anti-cgrp",
+  "kind": "sct",
+  "prompt": "Patient avec migraine chronique (20 j/mois) + abus médicamenteux (triptans 12 j/mois depuis 1 an). Vous envisagez d'introduire un anti-CGRP (érenumab) pour réduire la fréquence des crises. Comment cette nouvelle information modifie-t-elle votre plan ?",
+  "hypothesis": "Introduction d'un anti-CGRP comme stratégie immédiate.",
+  "new_info": "Les recommandations NICE et HAS précisent que les anti-CGRP doivent être envisagés après échec d'AU MOINS 3 traitements de fond classiques, et que la céphalée par abus médicamenteux DOIT être prise en charge (sevrage) AVANT ou en parallèle de l'introduction.",
+  "expected": "affaiblit",
+  "rationale": "Conduite correcte : 1) débuter le SEVRAGE des triptans (brutal, ≥ 1 mois), 2) débuter ou optimiser un traitement de fond classique (propranolol, topiramate ou amitriptyline) ; 3) seulement si échec d'au moins 3 prophylactiques bien conduits ET CAM gérée → discuter anti-CGRP. La toxine botulique pour migraine chronique a la même règle : CAM gérée d'abord. Cette séquence évite de masquer le diagnostic de CAM et d'utiliser inutilement des traitements coûteux. L'information affaiblit la conduite 'anti-CGRP d'emblée'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "cam", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

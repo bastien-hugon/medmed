@@ -1,0 +1,29 @@
+{
+  "id": "cephalee-c1-m04c-symptomes-migraine",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les symptômes ASSOCIÉS classiquement à la crise de migraine (en dehors de la douleur elle-même).",
+  "choices": [
+    { "id": "a", "text": "Photophobie (la lumière fait mal)", "correct": true },
+    { "id": "b", "text": "Phonophobie (le bruit fait mal)", "correct": true },
+    { "id": "c", "text": "Nausée", "correct": true },
+    { "id": "d", "text": "Vomissements", "correct": true },
+    { "id": "e", "text": "Œil rouge larmoyant homolatéral", "correct": false },
+    { "id": "f", "text": "Fièvre élevée > 39°C", "correct": false },
+    { "id": "g", "text": "Aggravation par l'effort physique de routine", "correct": true },
+    { "id": "h", "text": "Raideur de nuque méningée", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "g"],
+  "rationale": "Symptômes typiques de la crise migraineuse : photophobie, phonophobie, nausée/vomissements, aggravation par l'effort de routine. L'œil rouge larmoyant homolatéral est un signe autonomique d'AVF, pas de migraine. Fièvre et raideur de nuque évoquent une méningite (red flag). Attention : selon ICHD-3, il faut au moins NAUSÉE/VOMI OU (PHOTO + PHONO ensemble) pour le critère D.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

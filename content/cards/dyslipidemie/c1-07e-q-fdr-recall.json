@@ -1,0 +1,33 @@
+{
+  "id": "dyslipidemie-c1-q07-fdr-recall",
+  "kind": "free-recall",
+  "prompt": "Cite au moins quatre facteurs de risque cardiovasculaire (modifiables ou non).",
+  "expected": [
+    "âge",
+    "sexe masculin",
+    "antécédents familiaux",
+    "tabagisme",
+    "HTA",
+    "diabète",
+    "LDL élevé",
+    "HDL bas",
+    "obésité",
+    "sédentarité",
+    "alcool",
+    "stress"
+  ],
+  "rationale": "Les FdR CV classiques (à savoir énumérer rapidement) : NON modifiables = âge (H≥50, F≥60), sexe masculin, antécédents familiaux d'événement CV précoce (<55 ans H / <65 ans F chez un parent du 1er degré). MODIFIABLES = tabac, HTA, diabète, dyslipidémie (LDL élevé / HDL bas), obésité/sédentarité, alcool excessif, stress chronique. Quatre bonnes réponses parmi cette liste suffisent.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

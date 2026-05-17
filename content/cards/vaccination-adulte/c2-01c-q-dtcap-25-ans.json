@@ -1,0 +1,26 @@
+{
+  "id": "vaccination-adulte-c2-q01b-dtcap-25-ans",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi prescrit-on un vaccin dTcaP (et non dTP) au rappel des 25 ans chez l'adulte ?",
+  "choices": [
+    {"id": "a", "text": "Parce qu'à 25 ans il faut absolument refaire la varicelle.", "correct": false},
+    {"id": "b", "text": "Parce qu'on ajoute la composante coqueluche, notamment pour protéger l'entourage des nourrissons.", "correct": true},
+    {"id": "c", "text": "Parce que la dose adulte de tétanos est trop forte à cet âge.", "correct": false},
+    {"id": "d", "text": "Parce que la poliomyélite n'est plus nécessaire avant 25 ans.", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le « ca » de dTcaP = coqueluche acellulaire à dose adulte (minuscule = dose réduite, adaptée à l'adulte). On l'inclut au rappel 25 ans car la couverture coqueluche chute à l'adolescence, et que les jeunes adultes sont souvent au contact de nourrissons (qui peuvent faire une coqueluche maligne avant d'être vaccinés). Stratégie de COCON : vacciner l'entourage des bébés. Idem pour les femmes enceintes (dTcaP 20-36 SA) et les soignants.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "coqueluche"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

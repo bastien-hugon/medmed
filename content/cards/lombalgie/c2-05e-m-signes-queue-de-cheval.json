@@ -1,0 +1,29 @@
+{
+  "id": "lombalgie-c2-m05-signes-queue-de-cheval",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les signes qui doivent faire évoquer un syndrome de la queue de cheval (et imposer un transfert en urgence neurochirurgicale).",
+  "choices": [
+    { "id": "a", "text": "Anesthésie en selle (périnée, fesses, intérieur des cuisses)", "correct": true },
+    { "id": "b", "text": "Rétention urinaire récente ou incontinence urinaire/fécale", "correct": true },
+    { "id": "c", "text": "Déficit moteur bilatéral des membres inférieurs", "correct": true },
+    { "id": "d", "text": "Sciatique bilatérale simultanée", "correct": true },
+    { "id": "e", "text": "Perte du contrôle sphinctérien", "correct": true },
+    { "id": "f", "text": "Douleur uniquement déclenchée par la flexion antérieure", "correct": false },
+    { "id": "g", "text": "Raideur matinale brève (< 10 min)", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Signes de queue de cheval (HAS) : anesthésie en selle, troubles sphinctériens (rétention urinaire, incontinence), déficit moteur bilatéral, sciatique bilatérale. Un seul de ces signes — surtout l'anesthésie en selle ou les troubles sphinctériens — impose le transfert en urgence neurochirurgicale. Les deux distracteurs sont des éléments mécaniques banals.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

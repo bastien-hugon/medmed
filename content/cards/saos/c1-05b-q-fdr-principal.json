@@ -1,0 +1,26 @@
+{
+  "id": "saos-c1-05b-q-fdr-principal",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi les facteurs de risque du SAOS, lequel est le facteur MAJEUR, présent chez environ 90 % des patients ?",
+  "choices": [
+    {"id": "a", "text": "Le tabagisme actif", "correct": false},
+    {"id": "b", "text": "Le surpoids ou l'obésité", "correct": true},
+    {"id": "c", "text": "L'hypertension artérielle", "correct": false},
+    {"id": "d", "text": "Le diabète de type 2", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "L'obésité (surtout abdominale et 'cervicale' = tour de cou > 43 cm chez l'homme) est le facteur de risque dominant : environ 90 % des SAOS sont en surpoids. Mécanisme : la graisse péripharyngée rétrécit la lumière du tuyau, et la graisse abdominale gêne l'ampliation thoracique en décubitus. C'est aussi le levier thérapeutique le plus efficace (perte de 10 % du poids → IAH -25 à -50 %). HTA, diabète, tabac sont associés mais ne sont pas LE FdR principal.",
+  "tags": {
+    "system": ["pneumologie", "endocrinologie"],
+    "sdd": ["saos", "obesite"],
+    "item_edn": [108, 253],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

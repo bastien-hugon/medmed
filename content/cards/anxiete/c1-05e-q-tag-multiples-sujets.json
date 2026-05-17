@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q05e-tag-multiples-sujets",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente décrit une anxiété intense exclusivement focalisée sur la peur d'être contaminée par des microbes, depuis 8 mois. Elle se lave les mains 30 fois par jour. Ce tableau correspond-il à un TAG ?",
+  "choices": [
+    { "id": "a", "text": "Oui, c'est un TAG typique car la durée dépasse 6 mois", "correct": false },
+    { "id": "b", "text": "Non : le TAG suppose des soucis MULTIPLES ; ici, l'anxiété est focalisée et associée à des rituels (TOC)", "correct": true },
+    { "id": "c", "text": "Oui, c'est un TAG car il y a des symptômes anxieux chroniques", "correct": false },
+    { "id": "d", "text": "Non, c'est une attaque de panique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le TAG suppose des inquiétudes sur de MULTIPLES sujets — pas un thème unique. Ici, l'anxiété est focalisée sur la contamination et associée à des compulsions (lavage des mains 30x/jour) = trouble obsessionnel compulsif (TOC). Le TOC a été sorti du chapitre 'troubles anxieux' dans le DSM-5, mais reste cliniquement très proche. Important pédagogiquement : la durée seule ne suffit pas à porter un diagnostic — il faut vérifier TOUS les critères, ici la diversité des sujets de souci.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c2-s11-covid-immunodeprime",
+  "kind": "sct",
+  "prompt": "Une patiente de 45 ans, sous biothérapie immunosuppressive pour une polyarthrite rhumatoïde, vient en mars pour son suivi. Vous envisagez de lui proposer un rappel COVID.",
+  "hypothesis": "Mon hypothèse : un rappel COVID printemps est indiqué chez elle.",
+  "new_info": "Son dernier rappel COVID date de novembre dernier (donc 4 mois), et son immunodépression est confirmée par son rhumatologue.",
+  "expected": "renforce",
+  "rationale": "Rappel printemps COVID 2025-2026 indiqué chez les immunodéprimés (sans seuil d'âge), avec un intervalle minimum de 3 mois depuis la dernière dose ou infection. Ici 4 mois > 3 → critère respecté. Vaccin ARNm utilisable. L'info RENFORCE l'hypothèse. Penser à proposer aussi : pneumocoque (si non fait), Shingrix (immunodéprimé ≥ 18 ans), grippe en saison.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "covid", "immunodepression"],
+    "item_edn": [143, 187],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/COVID-19",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

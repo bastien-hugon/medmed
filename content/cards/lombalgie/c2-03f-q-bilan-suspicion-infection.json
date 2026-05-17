@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q03-bilan-suspicion-infection",
+  "kind": "qcm-vignette",
+  "prompt": "Devant une suspicion de spondylodiscite, quel bilan paraclinique de PREMIÈRE intention proposez-vous ?",
+  "choices": [
+    { "id": "a", "text": "Radiographie standard du rachis + NFS uniquement", "correct": false },
+    { "id": "b", "text": "NFS, CRP, hémocultures + IRM rachidienne (1ère intention)", "correct": true },
+    { "id": "c", "text": "Antibiothérapie probabiliste immédiate sans bilan", "correct": false },
+    { "id": "d", "text": "Surveillance simple à 1 mois sans imagerie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Suspicion de spondylodiscite = urgence relative : NFS, CRP, hémocultures (avant antibiothérapie !), IRM rachidienne en 1ère intention (très sensible précocement, contrairement à la radio qui se 'positive' tardivement). La biopsie disco-vertébrale viendra confirmer le germe. L'antibiothérapie n'est jamais probabiliste à l'aveugle : on documente d'abord.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "infectiologie", "imagerie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "irc-c2-s03-cibles-pa-sujet-age",
+  "kind": "sct",
+  "prompt": "Mme N., 87 ans, MRC G3b A3 (ACR 85 mg/mmol), vivant seule, déjà chuteuse à deux reprises l'an passé. Sa PA au cabinet est à 142/82. Vous pensez à viser une cible PA serrée < 130/80 selon NICE.",
+  "hypothesis": "Chez Mme N., il faut viser PA < 130/80 et intensifier le traitement antihypertenseur en raison de son ACR ≥ 70.",
+  "new_info": "Une auto-mesure tensionnelle (AMT) sur 7 jours montre 132/76 en moyenne, avec quelques épisodes de PAS à 105 mmHg et un épisode de malaise à la levée brutale.",
+  "expected": "affaiblit",
+  "rationale": "Le seuil 'ACR ≥ 70 → cible serrée' est valable en général, mais NICE rappelle d'INDIVIDUALISER chez le sujet âgé fragile. Mme N. est déjà chuteuse, et son AMT montre déjà des épisodes hypotenseurs et un malaise orthostatique. Intensifier risque d'aggraver les chutes (fracture du col, hématome cérébral) sans bénéfice rénal/CV proportionné à cette espérance de vie. L'information affaiblit franchement l'idée de serrer plus : il vaut mieux tolérer une PA cabinet à ~140/85 et privilégier la sécurité fonctionnelle. Décision partagée avec la patiente.",
+  "tags": {
+    "system": ["nephrologie", "cardiovasculaire", "geriatrie"],
+    "sdd": ["irc", "mrc", "hta"],
+    "item_edn": [224, 261, 264, 126],
+    "cnge_family": ["chroniques", "geriatrie"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

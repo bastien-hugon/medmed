@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c2-q01c-cause-prolongee",
+  "kind": "qcm-vignette",
+  "prompt": "Une femme de 58 ans consulte pour une fatigue qui s'installe depuis 4 mois. Elle a pris 3 kg sans changer son alimentation, se sent frileuse, et a la peau plus sèche que d'habitude. Pas de fièvre, pas d'amaigrissement, pas de douleur.\n\nQuelle cause d'asthénie PROLONGÉE est la plus probable ?",
+  "choices": [
+    { "id": "a", "text": "Anémie ferriprive sur ménométrorragies.", "correct": false },
+    { "id": "b", "text": "Hypothyroïdie.", "correct": true },
+    { "id": "c", "text": "Syndrome de fatigue chronique (ME/CFS).", "correct": false },
+    { "id": "d", "text": "Effet d'un médicament récemment introduit.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Tableau typique d'HYPOTHYROÏDIE : asthénie prolongée + prise de poids inexpliquée + frilosité + peau sèche. La thyroïde tourne au ralenti. Confirmation : dosage de TSH (élevée si hypothyroïdie périphérique). C'est une cause INSIDIEUSE et FRÉQUENTE, surtout chez les femmes après 50 ans, et traitable simplement par lévothyroxine. Le ME/CFS demande > 6 mois et un PEM, pas le cas ici.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

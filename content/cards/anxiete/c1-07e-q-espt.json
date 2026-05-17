@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q07e-espt",
+  "kind": "qcm-vignette",
+  "prompt": "Six mois après un accident de la route grave, un patient décrit des cauchemars répétés de l'événement, des flashbacks intrusifs en pleine journée, un évitement actif des routes où s'est produit l'accident, et une hypervigilance permanente. Quel diagnostic évoquer ?",
+  "choices": [
+    { "id": "a", "text": "Trouble anxieux généralisé", "correct": false },
+    { "id": "b", "text": "État de stress post-traumatique (ESPT)", "correct": true },
+    { "id": "c", "text": "Phobie spécifique de la route", "correct": false },
+    { "id": "d", "text": "Attaques de panique uniquement", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Triade typique de l'ESPT après événement traumatique : (1) REVIVISCENCES (cauchemars, flashbacks intrusifs, sensations corporelles), (2) ÉVITEMENT des stimuli rappelant le trauma, (3) HYPERVIGILANCE (sursauts, troubles du sommeil, irritabilité). Comme le TOC, l'ESPT a été SORTI des 'troubles anxieux' dans le DSM-5 (chapitre 'Trauma- and stressor-related disorders'). Prise en charge spécifique : CBT centrée sur le trauma (TCC-T), EMDR, parfois SSRI. Hors champ de NICE CG113 (qui couvre TAG + trouble panique uniquement).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

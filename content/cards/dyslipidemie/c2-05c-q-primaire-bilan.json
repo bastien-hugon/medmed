@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c2-q05-primaire-bilan",
+  "kind": "qcm-vignette",
+  "prompt": "Avant d'initier une statine en prévention primaire, quel bilan biologique est recommandé par NICE ?",
+  "choices": [
+    { "id": "a", "text": "Profil lipidique, fonction rénale, transaminases, glycémie/HbA1c, TSH si symptômes thyroïdiens.", "correct": true },
+    { "id": "b", "text": "Uniquement le LDL et le HDL.", "correct": false },
+    { "id": "c", "text": "CPK systématique chez tous les patients.", "correct": false },
+    { "id": "d", "text": "Aucun bilan : on peut prescrire directement.", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Avant initiation, NICE recommande : profil lipidique complet (CT, HDL, LDL, TG, non-HDL), fonction rénale (DFG), transaminases (ALT/AST) — pour ne pas démarrer si >3× la normale, glycémie ou HbA1c, TSH SEULEMENT si symptômes évocateurs. Les CPK ne sont PAS systématiques (uniquement si antécédent ou risque musculaire). On évalue aussi : tabac, alcool, PA, IMC.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

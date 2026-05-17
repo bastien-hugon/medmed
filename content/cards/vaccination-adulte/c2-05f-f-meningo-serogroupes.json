@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-f05-meningo-serogroupes",
+  "kind": "free-recall",
+  "prompt": "Cite les sérogroupes principaux de Neisseria meningitidis ciblés par les vaccins disponibles en France, et précise pour chacun les vaccins associés.",
+  "expected": ["A", "C", "W", "Y", "B", "vaccin ACWY tétravalent", "vaccin B"],
+  "rationale": "Sérogroupes principaux : A, B, C, W, Y (et X, sans vaccin actuellement). En pratique en France : (1) ACWY → vaccin tétravalent conjugué (Nimenrix, MenQuadfi) — couvre 4 sérogroupes en une injection ; (2) B → vaccins spécifiques (Bexsero, Trumenba) — schémas séparés. Calendrier 2025 nourrisson : B + ACWY obligatoires. Adulte : indications ciblées (voyage, métier, immunodépression, cas-contact).",
+  "tags": {
+    "system": ["infectieux", "prevention", "neurologie"],
+    "sdd": ["vaccination", "meningocoque"],
+    "item_edn": [143, 151],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-a-prevention-vaccinale/infections-invasives-a-meningocoque",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

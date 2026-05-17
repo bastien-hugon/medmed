@@ -1,0 +1,22 @@
+{
+  "id": "lombalgie-c2-s02-sct-chute-personne-agee",
+  "kind": "sct",
+  "prompt": "Une femme de 78 ans vous consulte pour une lombalgie aiguë intense apparue après une chute de sa hauteur dans son jardin il y a 2 jours. Vous évoquez initialement une LOMBALGIE COMMUNE post-traumatique bénigne. On vous rapporte qu'elle est sous prednisone 10 mg/j depuis 3 ans pour une PPR. Cette information renforce-t-elle, affaiblit-elle ou est-elle neutre vis-à-vis de votre hypothèse ?",
+  "hypothesis": "Lombalgie commune post-traumatique bénigne",
+  "new_info": "Corticothérapie prolongée (prednisone 10 mg/j depuis 3 ans)",
+  "expected": "affaiblit",
+  "rationale": "Femme âgée + chute + corticothérapie prolongée = TOC fortement positif (Trauma + Ostéoporose probable + Corticoïdes). Le risque de fracture vertébrale ostéoporotique est très élevé. Cela disqualifie l'hypothèse 'lombalgie commune bénigne' et impose une imagerie (radio puis IRM/scanner) + bilan d'ostéoporose. Une fracture vertébrale chez une patiente âgée sous corticoïdes au long cours doit toujours être recherchée activement.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

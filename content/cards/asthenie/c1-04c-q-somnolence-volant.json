@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c1-q04c-somnolence-volant",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient de 55 ans, conducteur routier, en surpoids, consulte pour \"fatigue\". Il précise : \"Je m'endors devant la télé tous les soirs vers 20 h, et il m'arrive de piquer du nez au volant le matin. Pourtant je dors 8 h par nuit.\"\n\nQuel terme décrit le MIEUX ce que le patient ressent, et quelle piste prioritaire faut-il explorer ?",
+  "choices": [
+    { "id": "a", "text": "Asthénie vraie — explorer en priorité une hypothyroïdie et une anémie.", "correct": false },
+    { "id": "b", "text": "Faiblesse musculaire — explorer en priorité une myopathie ou une myasthénie.", "correct": false },
+    { "id": "c", "text": "Somnolence diurne excessive — explorer en priorité un syndrome d'apnée du sommeil (SAOS).", "correct": true },
+    { "id": "d", "text": "Dyspnée d'effort — explorer en priorité une insuffisance cardiaque.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Les mots-clés sont \"je m'endors\" et \"piquer du nez au volant\" : c'est de la SOMNOLENCE, pas de l'asthénie. Les facteurs de risque (homme, > 50 ans, surpoids, conducteur professionnel) plus la somnolence diurne pointent vers un SAOS. Confirmation par polygraphie ventilatoire ou polysomnographie. C'est aussi un enjeu de sécurité routière.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

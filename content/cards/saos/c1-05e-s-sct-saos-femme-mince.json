@@ -1,0 +1,22 @@
+{
+  "id": "saos-c1-05e-s-sct-saos-femme-mince",
+  "kind": "sct",
+  "prompt": "Mme L., 62 ans, IMC 23, post-ménopausée depuis 10 ans, consulte pour fatigue, insomnie d'entretien et céphalées matinales. Vous évoquez un syndrome dépressif.",
+  "hypothesis": "Il s'agit probablement d'un syndrome dépressif et NON d'un SAOS (terrain peu typique).",
+  "new_info": "Son mari signale qu'elle ronfle bruyamment depuis 2 ans avec des pauses, et qu'elle s'endort en lecture (Epworth = 14). Sa mère avait été appareillée par CPAP.",
+  "expected": "affaiblit",
+  "rationale": "Le 'profil caricatural' (homme obèse > 50 ans) ne doit pas faire ignorer les présentations atypiques : femme post-ménopausée (perte de la protection œstrogénique → équivalence H/F en polysomno), même mince, surtout avec ATCD familiaux. Les apnées + Epworth élevé + ATCD maternel AFFAIBLISSENT le diagnostic de dépression isolée et imposent une polygraphie. Piège classique : le SAOS chez la femme est longtemps sous-diagnostiqué car traduit en 'fatigue', 'insomnie', 'dépression'.",
+  "tags": {
+    "system": ["pneumologie", "psychiatrie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

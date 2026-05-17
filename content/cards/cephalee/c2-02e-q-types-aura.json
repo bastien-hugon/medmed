@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q02e-types-aura",
+  "kind": "free-recall",
+  "prompt": "Citez les types de symptômes d'aura reconnus par ICHD-3 (au moins 3).",
+  "expected": ["visuel", "sensitif", "parole", "moteur", "tronc", "rétinien"],
+  "rationale": "Les 6 types d'aura ICHD-3 : visuel (le plus fréquent, > 90 %), sensitif (paresthésies en marche), parole/langage (dysphasie transitoire), moteur (migraine hémiplégique, rare, classification à part), tronc cérébral (vertige, diplopie, ataxie), rétinien (atteinte monoculaire stricte — rare, nécessite bilan vasculaire). Pour le score : citer au moins 3 des 6.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

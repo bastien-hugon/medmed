@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c1-q05b-trois-boites-nom",
+  "kind": "free-recall",
+  "prompt": "Citez les 3 grandes \"boîtes\" étiologiques dans lesquelles on range les causes de fatigue pathologique.",
+  "expected": [
+    "organique",
+    "psychique",
+    "fonctionnelle",
+    "mental",
+    "psychiatrique"
+  ],
+  "rationale": "Trois grandes catégories à mémoriser : (1) ORGANIQUE — maladie du corps (anémie, hypothyroïdie, cancer, médicament…) ; (2) PSYCHIQUE — l'esprit pèse sur le corps (dépression, anxiété, burn-out) ; (3) FONCTIONNELLE — dérèglement sans coupable précis (SFC, fibromyalgie, fatigue idiopathique). Ordre d'exploration : 1 → 2 → 3. La 3ème boîte est un diagnostic d'élimination.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

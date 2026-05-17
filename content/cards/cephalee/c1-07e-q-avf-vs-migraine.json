@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c1-q07e-avf-vs-migraine",
+  "kind": "free-recall",
+  "prompt": "Citez le comportement caractéristique du patient PENDANT une crise d'AVF (vs pendant une crise de migraine).",
+  "expected": ["agité", "marche", "ne peut pas rester", "immobile"],
+  "rationale": "Le migraineux s'allonge dans le noir, immobile (l'effort aggrave). L'avféen est AGITÉ, marche, se cogne la tête contre le mur, ne peut pas rester immobile. Ce contraste comportemental est un indice cliniquement très utile : il suffit parfois d'observer le patient à l'arrivée pour orienter le diagnostic. C'est aussi pour cela qu'on parlait autrefois de 'céphalée du suicide'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "avf"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

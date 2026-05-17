@@ -1,0 +1,22 @@
+{
+  "id": "anxiete-c1-s01f-anxiete-pre-examen",
+  "kind": "sct",
+  "prompt": "Un étudiant de 20 ans vous consulte la veille d'un examen majeur, anxieux. Vous évoquez en première hypothèse une ANXIÉTÉ NORMALE (trac).",
+  "hypothesis": "L'anxiété de ce patient est une anxiété normale adaptative",
+  "new_info": "À l'interrogatoire, il vous dit qu'il est en réalité tendu en permanence depuis plus d'un an, qu'il s'inquiète aussi pour sa santé, ses parents, ses finances, et qu'il dort mal toutes les nuits depuis des mois — pas seulement avant l'examen.",
+  "expected": "affaiblit",
+  "rationale": "Le diagnostic d'anxiété normale repose sur 3 critères : proportionnée, transitoire, utile. Ici, l'information nouvelle révèle (1) une durée > 6 mois, (2) des soucis multiples (santé, parents, finances, pas seulement l'examen), (3) un retentissement chronique sur le sommeil. Cela ne 'renforce' pas l'anxiété normale — au contraire, ça oriente vers un TAG sous-jacent que l'examen a juste mis en évidence. Donc l'hypothèse d'anxiété normale est AFFAIBLIE. Leçon : un événement déclencheur identifié n'exclut pas un trouble anxieux de fond.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

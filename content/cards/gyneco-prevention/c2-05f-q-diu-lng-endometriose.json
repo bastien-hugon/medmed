@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q05f-diu-lng-endometriose",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente de 29 ans souffre d'endométriose avec règles très douloureuses et abondantes ; elle souhaite aussi une contraception. Quelle option offre un DOUBLE bénéfice (contraception + symptômes endométriose) ?",
+  "choices": [
+    { "id": "a", "text": "DIU au cuivre", "correct": false },
+    { "id": "b", "text": "DIU hormonal au lévonorgestrel (LNG)", "correct": true },
+    { "id": "c", "text": "Préservatif seul", "correct": false },
+    { "id": "d", "text": "Implant sous-cutané en monothérapie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le DIU au LNG est l'une des options de référence dans l'endométriose : il atrophie l'endomètre, diminue les ménorragies et les dysménorrhées, et fait office de contraception très efficace (LARC, ~0,2 % d'échec). Le DIU cuivre, au contraire, AGGRAVE typiquement les règles. L'implant peut aussi diminuer les règles via le progestatif systémique mais n'a pas l'indication formelle 'endométriose'. Au global : douleur/abondance + endométriose + contraception → DIU LNG.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 38],
+    "cnge_family": ["prevention", "chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hta-c2-m03-mapa-vs-amt",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la MAPA et l'AMT.",
+  "choices": [
+    {"id": "a", "text": "L'AMT est réalisée par le patient à domicile avec son propre tensiomètre", "correct": true},
+    {"id": "b", "text": "La MAPA mesure la PA automatiquement toutes les 15-30 min pendant 24 h", "correct": true},
+    {"id": "c", "text": "La MAPA permet de capturer la PA nocturne", "correct": true},
+    {"id": "d", "text": "Le seuil HTA en AMT/MAPA diurne est de 140/90 mmHg", "correct": false},
+    {"id": "e", "text": "L'AMT est plus adaptée en soins primaires (médecine générale)", "correct": true},
+    {"id": "f", "text": "La MAPA et l'AMT permettent toutes deux de démasquer une HTA blouse blanche", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "e", "f"],
+  "rationale": "AMT = automesure à domicile, technique de la règle des 3 (HAS), simple, adaptée à la MG. MAPA = appareil porté 24 h, mesure automatique régulière, capture le profil nocturne (dipping/non-dipping). Seuil AMT/MAPA diurne = 135/85 (pas 140/90 — c'est le seuil cabinet). Les 2 méthodes confirment le diagnostic et démasquent l'HTA blouse blanche.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "vaccination-adulte-c1-q04-calendrier-trois-axes",
+  "kind": "qcm-vignette",
+  "prompt": "Quels sont les TROIS axes structurants à toujours garder en tête face à un patient adulte en consultation de prévention vaccinale ?",
+  "choices": [
+    {"id": "a", "text": "Rappels DTP à jour ? — Tranche d'âge concernée (65+) ? — Situation particulière (grossesse, immunodépression, voyage, profession) ?", "correct": true},
+    {"id": "b", "text": "Vaccins reçus enfant ? — Pays d'origine ? — Profession actuelle ?", "correct": false},
+    {"id": "c", "text": "Allergies connues ? — Voyages prévus ? — Statut sérologique hépatite B ?", "correct": false},
+    {"id": "d", "text": "BCG fait ? — ROR fait ? — DTP fait ?", "correct": false}
+  ],
+  "expected": ["a"],
+  "rationale": "Grille de lecture pour structurer une consultation vaccinale adulte : (1) socle DTP à jour ? (2) âge (65+ déclenche grippe annuelle, pneumocoque, Shingrix...) ? (3) situation particulière (grossesse → dTcaP 20-36 SA ; immunodépression → CI vivants ; voyage → fièvre jaune, méningo ; profession → hépatite B…). Ces 3 questions couvrent l'essentiel des indications en médecine générale.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

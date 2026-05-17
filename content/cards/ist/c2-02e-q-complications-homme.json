@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q02e-complications-homme",
+  "kind": "qcm-vignette",
+  "prompt": "Chez l'homme, quelle est la principale complication locale d'une chlamydia non traitée ?",
+  "choices": [
+    { "id": "a", "text": "Cancer testiculaire", "correct": false },
+    { "id": "b", "text": "Épididymite (inflammation de l'épididyme avec douleur scrotale)", "correct": true },
+    { "id": "c", "text": "Calculs vésicaux", "correct": false },
+    { "id": "d", "text": "Hernie inguinale", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Chez l'homme, la chlamydia non traitée peut provoquer une épididymite (douleur scrotale, parfois fébrile, douleur soulagée par l'élévation du scrotum = signe de Prehn). Autres complications : arthrite réactionnelle (ancien syndrome de Reiter = triade arthrite + urétrite + conjonctivite), urétrite chronique. Pas de lien avec le cancer testiculaire, les calculs ou la hernie. Devant une douleur scrotale chez un homme jeune, penser épididymite IST (vs torsion testiculaire qui est urgence chirurgicale).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

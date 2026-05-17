@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c1-q01e-nicotine-cerveau",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente te demande POURQUOI les patchs nicotiniques marchent moins vite que la cigarette pour 'calmer' une envie. La meilleure explication physiopathologique est :",
+  "choices": [
+    { "id": "a", "text": "Le patch contient moins de nicotine que la cigarette, donc la dose est insuffisante", "correct": false },
+    { "id": "b", "text": "La nicotine inhalée arrive au cerveau en ~7 secondes (pic rapide, effet 'shoot'), alors que le patch délivre la nicotine lentement sur 24 h (taux stable, pas de pic)", "correct": true },
+    { "id": "c", "text": "Le patch est un placebo, l'effet est psychologique", "correct": false },
+    { "id": "d", "text": "Le patch ne traverse pas la peau et n'arrive donc pas au cerveau", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La rapidité = clé de l'addiction. La nicotine inhalée arrive en ~7 secondes au cerveau et donne un pic court, fort, très récompensant. Le patch diffuse lentement sur 24 h, donne un taux stable sans pic — il COUVRE le manque physique de fond mais ne reproduit pas le 'shoot'. C'est pour ça qu'on combine timbre (fond) + forme rapide (gomme, pastille, spray) pour les envies aiguës.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

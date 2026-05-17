@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q05-delai-decompression",
+  "kind": "qcm-vignette",
+  "prompt": "Devant un syndrome de la queue de cheval avéré, dans quel délai la décompression neurochirurgicale doit-elle idéalement être réalisée ?",
+  "choices": [
+    { "id": "a", "text": "Dans la semaine, après bilan ambulatoire", "correct": false },
+    { "id": "b", "text": "Dans les 24 à 48 heures, en urgence absolue", "correct": true },
+    { "id": "c", "text": "Dans le mois, après IRM programmée", "correct": false },
+    { "id": "d", "text": "Jamais en urgence ; la chirurgie ne se discute qu'après 3 mois d'évolution", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Syndrome de la queue de cheval = URGENCE NEUROCHIRURGICALE (< 24-48h idéalement). Au-delà, le risque de séquelles définitives (paralysie, troubles sphinctériens permanents, impuissance) augmente fortement. Conduite : transfert immédiat en milieu neurochirurgical, IRM en urgence, décompression chirurgicale.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

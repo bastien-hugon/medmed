@@ -1,0 +1,20 @@
+{
+  "id": "irc-c1-cz02-nephron-filtrat",
+  "kind": "cloze",
+  "prompt": "Complète : « Le rein filtre environ ___ litres de plasma par jour, mais on n'urine que ~1,5 L car les ___ récupèrent l'eau et les solutés utiles. »",
+  "expected": ["180 ; tubules", "180 et tubules", "180 - tubules", "180/tubules", "180, tubules"],
+  "rationale": "Deux chiffres clefs à mémoriser : 180 L filtrés/jour vs 1,5 L urinés. Le ratio (~99 %) est l'œuvre des tubules qui réabsorbent l'eau, le sodium, le glucose, etc. Cette logique du 'tri actif' est aussi ce qui explique l'astuce du rapport ACR (corriger par la créat évite l'effet hydratation).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

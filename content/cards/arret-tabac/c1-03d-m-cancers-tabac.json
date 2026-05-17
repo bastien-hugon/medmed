@@ -1,0 +1,32 @@
+{
+  "id": "arret-tabac-c1-m03d-cancers-tabac",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les cancers dont le tabac est reconnu comme facteur de risque majeur.",
+  "choices": [
+    {"id": "a", "text": "Cancer du poumon", "correct": true},
+    {"id": "b", "text": "Cancer du larynx", "correct": true},
+    {"id": "c", "text": "Cancer de la vessie", "correct": true},
+    {"id": "d", "text": "Cancer du pancréas", "correct": true},
+    {"id": "e", "text": "Cancer de l'œsophage", "correct": true},
+    {"id": "f", "text": "Cancer du col de l'utérus", "correct": true},
+    {"id": "g", "text": "Cancer du rein", "correct": true},
+    {"id": "h", "text": "Cancer colorectal", "correct": true},
+    {"id": "i", "text": "Cancer du testicule", "correct": false},
+    {"id": "j", "text": "Cancer de la thyroïde", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g", "h"],
+  "rationale": "Le tabac est reconnu comme facteur de risque pour ~17 localisations cancéreuses. Les principales : voies aéro-digestives supérieures (bouche, larynx, pharynx, œsophage), poumon, vessie, pancréas, rein, col utérin, colorectal, foie, estomac, leucémies myéloïdes. Les cancers du testicule et de la thyroïde ne sont PAS classiquement liés au tabac (étiologies différentes : hormonale, radiations, etc.).",
+  "tags": {
+    "system": ["pneumologie", "cancerologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q07d-bzd-panique",
+  "kind": "qcm-vignette",
+  "prompt": "Pour le TROUBLE PANIQUE spécifiquement (vs TAG), quelle est la position de NICE sur les benzodiazépines ?",
+  "choices": [
+    { "id": "a", "text": "Recommandées en 1ère intention", "correct": false },
+    { "id": "b", "text": "Recommandées en 2ème intention si SSRI inefficaces", "correct": false },
+    { "id": "c", "text": "À NE PAS prescrire : associées à un PIRE pronostic à long terme", "correct": true },
+    { "id": "d", "text": "Recommandées en association avec un SSRI dès le début", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "NICE est encore plus catégorique pour le trouble panique que pour le TAG : 'Benzodiazepines are associated with a less good outcome in the long term and should NOT be prescribed'. La BZD ne se contente pas d'être inefficace ou risquée — elle AGGRAVE ACTIVEMENT le pronostic à long terme du trouble panique. Mécanisme probable : la BZD masque immédiatement les sensations, empêche le patient d'apprendre que les crises sont supportables, renforce la peur d'avoir peur et l'évitement. NICE déconseille aussi les antihistaminiques sédatifs et les antipsychotiques.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

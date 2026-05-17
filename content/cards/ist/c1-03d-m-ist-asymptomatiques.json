@@ -1,0 +1,28 @@
+{
+  "id": "ist-c1-m03d-ist-asymptomatiques",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les IST qui peuvent évoluer de façon majoritairement asymptomatique (silencieuse) pendant des mois ou des années.",
+  "choices": [
+    { "id": "a", "text": "Chlamydia (chez la femme ++)", "correct": true },
+    { "id": "b", "text": "VIH (phase chronique avant SIDA)", "correct": true },
+    { "id": "c", "text": "Gonocoque (formes pharyngées et rectales surtout)", "correct": true },
+    { "id": "d", "text": "Syphilis (phase de latence)", "correct": true },
+    { "id": "e", "text": "Herpès génital (entre les poussées)", "correct": true },
+    { "id": "f", "text": "Aucune IST ne peut être silencieuse : il y a toujours un symptôme", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Le silence est la règle, pas l'exception, en IST. CHLAMYDIA : 70-90 % d'asymptomatique chez la femme. VIH : phase chronique pluri-annuelle silencieuse avant le SIDA. GONOCOQUE : formes pharyngées et rectales souvent muettes. SYPHILIS : phase de latence après le chancre. HERPÈS : portage entre les crises avec excrétion virale possible. C'est cette banalité du silence qui justifie le dépistage systématique.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

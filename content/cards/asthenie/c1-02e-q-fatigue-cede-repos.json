@@ -1,0 +1,20 @@
+{
+  "id": "asthenie-c1-q02e-fatigue-cede-repos",
+  "kind": "cloze",
+  "prompt": "Une fatigue qui CÈDE complètement avec un repos suffisant, après un effort ou un stress identifiable, est qualifiée de fatigue ___.",
+  "expected": ["physiologique", "physio"],
+  "rationale": "Fatigue PHYSIOLOGIQUE = normale, transitoire, cède avec le repos. À distinguer de la fatigue PATHOLOGIQUE qui persiste malgré le repos, retentit sur la vie quotidienne, ou est disproportionnée par rapport à l'effort fourni.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

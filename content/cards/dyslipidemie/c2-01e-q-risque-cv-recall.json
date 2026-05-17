@@ -1,0 +1,30 @@
+{
+  "id": "dyslipidemie-c2-q01-risque-cv-recall",
+  "kind": "free-recall",
+  "prompt": "Cite au moins trois variables prises en compte dans le calcul du risque CV par QRISK3 ou SCORE2.",
+  "expected": [
+    "âge",
+    "sexe",
+    "tabagisme",
+    "pression artérielle",
+    "diabète",
+    "cholestérol",
+    "antécédents familiaux",
+    "IMC",
+    "ethnie"
+  ],
+  "rationale": "Variables principales : âge, sexe, tabagisme, pression artérielle systolique, cholestérol total (ou ratio chol total / HDL), diabète, antécédents familiaux d'événement CV précoce. QRISK3 ajoute ethnie, IMC, traitements (corticoïdes, antipsychotiques), maladies (PR, lupus, IRC, migraine, maladie mentale, DE). Trois bonnes réponses parmi cette liste suffisent.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

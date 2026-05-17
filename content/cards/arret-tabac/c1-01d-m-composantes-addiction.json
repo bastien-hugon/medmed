@@ -1,0 +1,28 @@
+{
+  "id": "arret-tabac-c1-m01d-composantes-addiction",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les composantes reconnues de l'addiction nicotinique selon le modèle tri-dimensionnel.",
+  "choices": [
+    {"id": "a", "text": "Physiologique (manque biologique de nicotine au cerveau)", "correct": true},
+    {"id": "b", "text": "Psychologique (gestion des émotions, du stress, récompense)", "correct": true},
+    {"id": "c", "text": "Comportementale (rituels, déclencheurs lieu / moment / geste)", "correct": true},
+    {"id": "d", "text": "Génétique (prédisposition héréditaire seule, sans autre axe)", "correct": false},
+    {"id": "e", "text": "Spirituelle (perte de sens existentiel liée à la cigarette)", "correct": false},
+    {"id": "f", "text": "Hormonale (déséquilibre thyroïdien lié au tabac)", "correct": false}
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Le modèle classique parle d'addiction TRI-dimensionnelle : physio + psy + comportementale. La génétique peut moduler la vulnérabilité, mais ce n'est pas une 'composante' de l'addiction au même titre que les trois axes thérapeutiques (qu'on peut chacun adresser : NRT, EM/TCC, gestion des déclencheurs). Les axes spirituel ou hormonal ne font pas partie du modèle reconnu.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

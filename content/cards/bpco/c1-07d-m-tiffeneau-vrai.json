@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c1-m07d-tiffeneau-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant le coefficient de Tiffeneau (VEMS/CVF) et le diagnostic de BPCO.",
+  "choices": [
+    { "id": "a", "text": "Le seuil diagnostique de BPCO est VEMS/CVF < 0,70", "correct": true },
+    { "id": "b", "text": "Le rapport doit être mesuré APRÈS administration d'un bronchodilatateur", "correct": true },
+    { "id": "c", "text": "Le ratio peut dépasser 1 chez le sujet sain", "correct": false },
+    { "id": "d", "text": "Un Tiffeneau bas signe une obstruction des voies aériennes", "correct": true },
+    { "id": "e", "text": "Si le Tiffeneau remonte ≥ 0,70 après bronchodilatateur, l'obstruction n'est PAS fixée — penser asthme", "correct": true },
+    { "id": "f", "text": "Le Tiffeneau sert à STADIFIER la sévérité de la BPCO", "correct": false }
+  ],
+  "expected": ["a", "b", "d", "e"],
+  "rationale": "Le Tiffeneau sert à DIAGNOSTIQUER l'obstruction (< 0,70 post-BD = BPCO confirmée), pas à stadifier — la SÉVÉRITÉ se mesure avec le VEMS % prédit (GOLD 1-4). Le ratio est forcément ≤ 1 (le VEMS ne peut pas dépasser le volume total). Test de réversibilité : si le ratio remonte au-dessus de 0,70 post-BD, l'obstruction est réversible → on évoque un asthme et non une BPCO.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

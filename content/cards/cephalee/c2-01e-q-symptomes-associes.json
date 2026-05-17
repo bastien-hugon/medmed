@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q01e-symptomes-associes",
+  "kind": "free-recall",
+  "prompt": "Donnez les 2 'paquets' de symptômes ASSOCIÉS du critère D ICHD-3 pour la migraine sans aura — il faut au moins UN des deux pendant la crise.",
+  "expected": ["nausée", "vomissement", "photophobie", "phonophobie"],
+  "rationale": "Critère D = au moins 1 sur 2 parmi : (1) nausée et/ou vomissements, OU (2) photophobie ET phonophobie ensemble. Subtilité : 'photo OU phono' seule ne suffit pas — il en faut les deux pour valider cette voie. C'est cette distinction fine qui sépare la migraine 'limite' de la tension avec 'photo légère'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

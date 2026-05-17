@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c2-m03-variabilite-dep",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la surveillance du DEP pour le diagnostic d'asthme (NICE NG245).",
+  "choices": [
+    {"id": "a", "text": "Le DEP est mesuré matin ET soir, à heures fixes, pendant 2 semaines", "correct": true},
+    {"id": "b", "text": "Variabilité = (DEP_max - DEP_min) / DEP_max × 100, calculée chaque jour puis moyennée", "correct": true},
+    {"id": "c", "text": "Seuil positif : variabilité moyenne ≥ 20 %", "correct": true},
+    {"id": "d", "text": "Chez un sujet sain, la variabilité dépasse fréquemment 15 %", "correct": false},
+    {"id": "e", "text": "Cette étape est utilisée quand FeNO/éosinos ET spirométrie sont négatifs mais que la clinique reste évocatrice", "correct": true},
+    {"id": "f", "text": "NICE NG245 RECOMMANDE le DEP en monitoring de routine chez tout asthmatique connu", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Sujet sain : variabilité DEP < 10 % typiquement. Et surtout, NG245 dit explicitement « NE PAS utiliser le DEP en monitoring de routine » — c'est un outil de DIAGNOSTIC (étape 3) et de PLAN D'ACTION écrit personnalisé, pas un outil de suivi quotidien.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q01e-col-deux-roles",
+  "kind": "qcm-vignette",
+  "prompt": "Le col de l'utérus joue PHYSIOLOGIQUEMENT deux rôles principaux. Lesquels ?",
+  "choices": [
+    { "id": "a", "text": "Il laisse passer les spermatozoïdes pour féconder l'ovule, et le bébé pour l'accouchement.", "correct": true },
+    { "id": "b", "text": "Il fabrique l'ovule chaque mois.", "correct": false },
+    { "id": "c", "text": "Il sécrète les hormones œstrogène et progestérone.", "correct": false },
+    { "id": "d", "text": "Il transporte le sang menstruel directement vers les ovaires.", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Le col est un PASSAGE : remontée des spermatozoïdes vers l'utérus/trompes (sens 'fertilité') et descente du bébé à l'accouchement (sens 'naissance'). Il ne fabrique pas d'ovule (c'est l'ovaire) ni d'hormones de cycle (œstrogène = follicule ovarien ; progestérone = corps jaune). Lors d'un cycle, sa glaire cervicale change pour favoriser ou bloquer le passage des spermatozoïdes — c'est d'ailleurs ce que la pilule modifie.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

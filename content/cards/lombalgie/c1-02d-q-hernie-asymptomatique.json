@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q02-hernie-asymptomatique",
+  "kind": "qcm-vignette",
+  "prompt": "Une IRM lombaire chez un adulte ASYMPTOMATIQUE (qui n'a aucune douleur de dos) trouve une hernie discale. Que faut-il en conclure ?",
+  "choices": [
+    { "id": "a", "text": "C'est forcément un signe précoce de lombalgie à venir", "correct": false },
+    { "id": "b", "text": "C'est une découverte fréquente, sans signification pathologique en l'absence de symptôme", "correct": true },
+    { "id": "c", "text": "Il faut prescrire un traitement préventif d'AINS au long cours", "correct": false },
+    { "id": "d", "text": "Il faut une chirurgie prophylactique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Environ 30 à 50 % des adultes asymptomatiques ont une 'hernie discale' visible à l'IRM. C'est pour cela qu'on ne fait PAS d'IRM systématique en lombalgie commune : trouver une hernie chez un patient douloureux ne prouve pas qu'elle soit la cause, et risque seulement de l'angoisser et de favoriser la chronicisation par évitement.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "imagerie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

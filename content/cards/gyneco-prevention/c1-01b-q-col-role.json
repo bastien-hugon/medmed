@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q01b-col-role",
+  "kind": "qcm-vignette",
+  "prompt": "Anatomiquement, le COL DE L'UTÉRUS correspond à quelle structure ?",
+  "choices": [
+    { "id": "a", "text": "La partie haute, arrondie, de l'utérus (le fundus)", "correct": false },
+    { "id": "b", "text": "Un petit cylindre qui fait la jonction entre l'utérus (en haut) et le vagin (en bas)", "correct": true },
+    { "id": "c", "text": "Le conduit qui relie l'ovaire à l'utérus", "correct": false },
+    { "id": "d", "text": "L'orifice externe de la vulve", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le col est la portion basse, cylindrique, de l'utérus — il fait la transition avec le vagin. Le conduit ovaire-utérus, c'est la trompe (de Fallope). Visualiser cette anatomie est la clé pour comprendre pourquoi le frottis prélève la SURFACE du col (zone exposée au vagin et aux infections, dont le HPV), et pourquoi c'est aussi par le col que les spermatozoïdes remontent et que le bébé passe à l'accouchement.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col", "contraception"],
+    "item_edn": [33, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

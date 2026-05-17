@@ -1,0 +1,22 @@
+{
+  "id": "depression-c1-s04e-fluctuation-humeur",
+  "kind": "sct",
+  "prompt": "Mme Tran, 50 ans, dit \"je suis déprimée depuis 3 mois\". Vous évoquez initialement un épisode dépressif caractérisé (EDC).",
+  "hypothesis": "Diagnostic d'EDC.",
+  "new_info": "À l'interrogatoire structuré, elle précise que sur ces 3 mois, elle a en réalité des \"jours noirs\" 2-3 fois par semaine, séparés de journées normales où elle profite bien de sa famille et travaille sans difficulté. Pas de période continue de ≥ 2 sem de mal-être constant.",
+  "expected": "affaiblit",
+  "rationale": "Le critère temporel de l'EDC exige des symptômes PRESQUE TOUS LES JOURS pendant ≥ 2 sem consécutives, la plus grande partie de la journée. Ici, des \"jours noirs\" intermittents 2-3 fois/semaine avec fonctionnement normal entre les épisodes ne remplit PAS ce critère. Le tableau évoque plutôt un trouble anxieux, un trouble de l'adaptation, ou un trouble cyclothymique/bipolaire à explorer. L'hypothèse d'EDC est AFFAIBLIE.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

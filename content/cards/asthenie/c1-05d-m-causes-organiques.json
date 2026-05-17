@@ -1,0 +1,29 @@
+{
+  "id": "asthenie-c1-m05d-causes-organiques",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les causes qui appartiennent à la boîte ORGANIQUE des asthénies (maladie du corps).",
+  "choices": [
+    { "id": "a", "text": "Anémie ferriprive.", "correct": true },
+    { "id": "b", "text": "Hypothyroïdie.", "correct": true },
+    { "id": "c", "text": "Diabète mal équilibré.", "correct": true },
+    { "id": "d", "text": "Trouble anxieux généralisé.", "correct": false },
+    { "id": "e", "text": "Insuffisance rénale chronique.", "correct": true },
+    { "id": "f", "text": "Fatigue iatrogène (bêta-bloquant, antihistaminique de 1ère génération…).", "correct": true },
+    { "id": "g", "text": "Syndrome de fatigue chronique (ME/CFS).", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e", "f"],
+  "rationale": "Boîte ORGANIQUE = anémie, hypothyroïdie, diabète, insuffisance rénale/hépatique, cancer, infection chronique, MÉDICAMENT (iatrogène). Le trouble anxieux appartient à la boîte PSYCHIQUE ; le SFC à la boîte FONCTIONNELLE (diagnostic d'élimination). Les médicaments font partie des causes organiques au sens large : c'est une atteinte mesurable et réversible.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q03e-asympto-consequence",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la conséquence la plus problématique du caractère asymptomatique de nombreuses IST ?",
+  "choices": [
+    { "id": "a", "text": "Les microbes deviennent résistants aux antibiotiques", "correct": false },
+    { "id": "b", "text": "Les patients porteurs transmettent à d'autres sans le savoir, et des complications silencieuses peuvent s'installer", "correct": true },
+    { "id": "c", "text": "Les tests sérologiques sont toujours négatifs", "correct": false },
+    { "id": "d", "text": "Les vaccins deviennent inefficaces", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Double conséquence du silence : (1) TRANSMISSION inaperçue (un porteur de chlamydia ou VIH se sent bien et contamine d'autres) ; (2) COMPLICATIONS qui s'installent à bas bruit (PID → infertilité tubaire, VIH → immunodépression progressive, syphilis tertiaire). C'est précisément pour intercepter ces deux risques qu'on dépiste les asymptomatiques.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "depression-c2-q04e-more-severe-refuse-AD-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "M. Nguyen, 38 ans, PHQ-9 à 21 (more severe). Il refuse catégoriquement de prendre un antidépresseur (\"je ne veux pas de médicaments\"). Pas d'idées suicidaires actives, pas de risque imminent. Quelle est la conduite la plus juste selon NICE 2022 ?",
+  "choices": [
+    { "id": "a", "text": "Lui imposer un AD car PHQ-9 ≥ 16", "correct": false },
+    { "id": "b", "text": "Refuser de le soigner s'il refuse l'AD", "correct": false },
+    { "id": "c", "text": "Respecter sa préférence et proposer une PSYCHOTHÉRAPIE SEULE (TCC individuelle 16 séances ou activation comportementale individuelle), qui est une option 1ère ligne ÉQUIVALENTE dans le more severe selon NICE 2022.", "correct": true },
+    { "id": "d", "text": "Le déclarer incapable et l'hospitaliser sans son consentement", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "NICE 2022 propose 3 options 1ère ligne ÉQUIVALENTES en more severe — la psychothérapie seule est l'une d'elles. Pas de hiérarchisation imposée. Le shared decision-making prime : respecter la préférence du patient éclairé. On peut toujours réévaluer plus tard si évolution défavorable. L'hospitalisation sans consentement n'est légalement justifiable qu'en cas de péril imminent (idéation active avec plan + non-consentement aux soins ambulatoires nécessaires).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

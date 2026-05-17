@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q05-mission-1",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la PREMIÈRE mission du médecin devant un patient consultant pour une lombalgie ?",
+  "choices": [
+    { "id": "a", "text": "Trouver à tout prix la cause anatomique exacte de la douleur", "correct": false },
+    { "id": "b", "text": "Éliminer les causes graves (drapeaux rouges)", "correct": true },
+    { "id": "c", "text": "Prescrire systématiquement une IRM pour rassurer", "correct": false },
+    { "id": "d", "text": "Décider d'emblée de l'orientation chirurgicale", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Mission 1 = éliminer les drapeaux rouges. Mission 2 = rassurer et remettre en mouvement. Trouver la 'cause exacte' anatomique est le plus souvent impossible et inutile en lombalgie commune. L'IRM systématique est délétère (sur-diagnostic) ; la chirurgie n'est jamais une décision de première ligne en médecine générale.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

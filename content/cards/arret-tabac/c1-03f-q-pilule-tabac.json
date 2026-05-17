@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c1-q03f-pilule-tabac",
+  "kind": "qcm-vignette",
+  "prompt": "Mme G., 38 ans, fume 10 cigarettes/jour et prend une pilule œstroprogestative depuis 5 ans. Elle vient pour renouvellement. Quel risque MAJEUR doit-on évoquer en consultation et discuter avec elle ?",
+  "choices": [
+    { "id": "a", "text": "Risque accru de cancer du sein lié à la combinaison", "correct": false },
+    { "id": "b", "text": "Risque CARDIO-VASCULAIRE (infarctus, AVC, thrombose veineuse profonde) majoré par l'association tabac + œstroprogestatif, surtout après 35 ans", "correct": true },
+    { "id": "c", "text": "Risque d'allergie à la nicotine", "correct": false },
+    { "id": "d", "text": "Risque de syndrome d'apnée du sommeil aggravé", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Association tabac + œstroprogestatifs après 35 ans = situation CLASSIQUE à connaître. Le tabac AUGMENTE significativement le risque thrombotique veineux ET artériel (AVC, infarctus, embolie pulmonaire) déjà induit par les œstrogènes. Au-delà de 35 ans, le rapport bénéfice/risque de la pilule combinée bascule chez la fumeuse → recommandation d'arrêter le tabac OU de changer pour un contraceptif sans œstrogène (microprogestatif, DIU). À évoquer SYSTÉMATIQUEMENT en consultation gynéco.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire", "gynecologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

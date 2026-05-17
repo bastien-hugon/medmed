@@ -1,0 +1,28 @@
+{
+  "id": "anxiete-c2-m07f-panique-hygiene-de-vie",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les conseils d'HYGIÈNE DE VIE pertinents à donner à un patient présentant un trouble panique.",
+  "choices": [
+    { "id": "a", "text": "Limiter la caféine (café, thé, sodas à la caféine, energy drinks) qui peut DÉCLENCHER des crises", "correct": true },
+    { "id": "b", "text": "Éviter l'alcool comme 'auto-traitement' (effet rebond anxiogène + dépendance)", "correct": true },
+    { "id": "c", "text": "Activité physique régulière (NICE évoque explicitement le bénéfice de l'exercice)", "correct": true },
+    { "id": "d", "text": "Boire 5 cafés serrés par jour pour 'tester' sa résistance", "correct": false },
+    { "id": "e", "text": "Dépister une AGORAPHOBIE associée (très fréquente avec le trouble panique)", "correct": true },
+    { "id": "f", "text": "Augmenter la consommation de tabac pour calmer l'anxiété", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Mesures non pharmaco utiles dans le trouble panique : (1) RÉDUCTION caféine (effet sympathomimétique qui mime/déclenche les crises), (2) éviter l'alcool (auto-traitement classique → dépendance + anxiété rebond), (3) ACTIVITÉ PHYSIQUE (NICE step 2 panique : 'discussion of the benefits of exercise'), (4) DÉPISTER l'agoraphobie associée (souvent comorbide → CBT avec exposition). Le tabac : pas un anxiolytique efficace, addiction nicotinique qui aggrave en sevrage. 'Tester sa résistance' avec 5 cafés = absurde et délétère.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

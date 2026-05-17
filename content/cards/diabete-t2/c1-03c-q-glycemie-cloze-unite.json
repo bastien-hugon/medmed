@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c1-q14-glycemie-cloze-unite",
+  "kind": "cloze",
+  "prompt": "En France, la glycémie est habituellement exprimée en ___ par litre (abréviation g/L).",
+  "expected": ["grammes", "gramme"],
+  "rationale": "France : glycémie en g/L (grammes par litre). Le monde anglo-saxon et la biologie moderne utilisent les mmol/L (millimoles par litre). Conversion : 1 g/L ≈ 5,5 mmol/L. Les deux unités coexistent — il faut savoir convertir.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

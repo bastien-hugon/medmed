@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c1-q03-triglycerides-pancreatite",
+  "kind": "cloze",
+  "prompt": "Au-dessus de ___ mmol/L, des triglycérides très élevés exposent à un risque de ___ aiguë, justifiant un avis spécialisé urgent.",
+  "expected": ["10", "pancréatite"],
+  "rationale": "Au-dessus de ~10 mmol/L de TG, le risque de PANCRÉATITE aiguë devient significatif ; au-dessus de 20 mmol/L, NICE recommande un avis spécialisé urgent. Mécanisme : les chylomicrons en excès libèrent des acides gras libres toxiques pour le pancréas. C'est la complication MÉTABOLIQUE aiguë grave à retenir — distincte du risque cardiovasculaire chronique des dyslipidémies classiques.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

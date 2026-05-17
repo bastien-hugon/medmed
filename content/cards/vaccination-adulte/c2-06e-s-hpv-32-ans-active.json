@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c2-s06-hpv-32-ans-active",
+  "kind": "sct",
+  "prompt": "Une femme de 32 ans, sexuellement active depuis l'adolescence, jamais vaccinée HPV, demande à bénéficier du vaccin.",
+  "hypothesis": "Mon hypothèse : la vaccination HPV à 32 ans aura une efficacité préventive aussi élevée que chez une adolescente naïve.",
+  "new_info": "Vous rappelez que le vaccin est avant tout efficace AVANT l'exposition au virus, et que la plupart des personnes sexuellement actives à 32 ans ont déjà rencontré au moins un sérotype HPV.",
+  "expected": "affaiblit",
+  "rationale": "Efficacité maximale = avant exposition (donc avant les premiers rapports). À 32 ans, une grande partie des HPV oncogènes a déjà été rencontrée ; le bénéfice préventif réel est moindre, voire faible. C'est pour cela que la recommandation s'arrête en population générale à 19 ans (rattrapage). L'info AFFAIBLIT l'efficacité attendue. La vaccination reste possible sur demande mais hors recommandation prise en charge, et il faut être clair sur le bénéfice limité. Le dépistage cervico-utérin reste l'outil principal de prévention chez l'adulte non vaccinée.",
+  "tags": {
+    "system": ["infectieux", "prevention", "gynecologie"],
+    "sdd": ["vaccination", "HPV"],
+    "item_edn": [143, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

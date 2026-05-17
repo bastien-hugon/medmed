@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q08f-sick-day-rules",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient IC sous IEC + spironolactone + furosémide appelle pour gastro-entérite avec vomissements et diarrhées depuis 24 h. Que lui conseiller en priorité (sick day rules) ?",
+  "choices": [
+    { "id": "a", "text": "Maintenir tous les médicaments à dose habituelle pour ne pas décompenser", "correct": false },
+    { "id": "b", "text": "SUSPENDRE temporairement IEC + spironolactone + furosémide, hydrater per os, reprendre quand l'état est rétabli, contrôler créat/K+", "correct": true },
+    { "id": "c", "text": "Doubler les doses de diurétique", "correct": false },
+    { "id": "d", "text": "Hospitaliser systématiquement", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Sick day rules : en cas de gastro / fièvre / canicule, suspendre temporairement IEC/ARNI/ARA2 + MRA + diurétiques + metformine + AINS (risque IR aiguë + hyperK+ + déshydratation). Reprise progressive une fois revenu à l'état de base, avec contrôle bio (créat, K+) à 48-72 h. À EXPLIQUER au patient dès la prescription des piliers IC.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

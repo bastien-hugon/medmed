@@ -1,0 +1,29 @@
+{
+  "id": "arret-tabac-c1-m03e-familles-risques",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les grandes familles de maladies dont l'incidence est fortement augmentée par le tabagisme.",
+  "choices": [
+    {"id": "a", "text": "Cancers (poumon, voies aéro-digestives supérieures, vessie, pancréas...)", "correct": true},
+    {"id": "b", "text": "Maladies cardio-vasculaires (infarctus, artériopathie des membres inférieurs, anévrysme aortique)", "correct": true},
+    {"id": "c", "text": "BPCO (BronchoPneumopathie Chronique Obstructive)", "correct": true},
+    {"id": "d", "text": "Accident Vasculaire Cérébral (AVC)", "correct": true},
+    {"id": "e", "text": "Diabète de type 1", "correct": false},
+    {"id": "f", "text": "Maladie cœliaque", "correct": false},
+    {"id": "g", "text": "Sclérose en plaques", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Quatre grandes familles dominent la mortalité liée au tabac : (1) cancers, (2) maladies cardio-vasculaires, (3) BPCO, (4) AVC. Le tabac est aussi un facteur de risque modeste pour le diabète de type 2 (pas type 1, qui est auto-immun), pour certaines maladies inflammatoires (Crohn favorisé, RCH protégée — relation complexe), pour la dégénérescence maculaire et l'ostéoporose. La maladie cœliaque et la SEP ne sont pas dans la liste classique.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire", "cancerologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

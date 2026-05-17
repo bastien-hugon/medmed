@@ -1,0 +1,38 @@
+{
+  "id": "asthenie-c2-q03d-red-flags-recall",
+  "kind": "free-recall",
+  "prompt": "Citez au moins 5 drapeaux rouges (\"red flags\") à rechercher activement devant une asthénie.",
+  "expected": [
+    "perte de poids involontaire",
+    "amaigrissement",
+    "fièvre prolongée",
+    "fievre prolongee",
+    "sueurs nocturnes",
+    "adénopathies",
+    "adenopathies",
+    "ganglions",
+    "céphalée nouvelle",
+    "cephalee nouvelle",
+    "troubles visuels",
+    "idées suicidaires",
+    "idees suicidaires",
+    "atteinte multi-systèmes",
+    "atteinte plusieurs appareils",
+    "myalgies",
+    "faiblesse musculaire associée"
+  ],
+  "rationale": "Liste mnémo des red flags : (1) perte de poids involontaire ; (2) fièvre prolongée ; (3) sueurs nocturnes ; (4) adénopathies généralisées ; (5) céphalée nouvelle + troubles visuels chez > 50 ans (Horton) ; (6) atteinte de plusieurs systèmes (peau + articulations…) ; (7) idées suicidaires ; (8) myalgies/faiblesse associées. Un seul de ces drapeaux change la conduite : enquête active, parfois en urgence.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

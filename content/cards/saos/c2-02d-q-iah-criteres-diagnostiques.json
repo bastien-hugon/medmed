@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-02d-q-iah-criteres-diagnostiques",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient asymptomatique présente un IAH à 18/h sur sa polygraphie. Doit-on retenir le diagnostic de SAOS ?",
+  "choices": [
+    {"id": "a", "text": "Non, car il est asymptomatique", "correct": false},
+    {"id": "b", "text": "Oui, car IAH ≥ 15 suffit même sans symptôme", "correct": true},
+    {"id": "c", "text": "Non, il faut au moins IAH ≥ 30 pour parler de SAOS", "correct": false},
+    {"id": "d", "text": "Oui mais seulement si HTA associée", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Les critères diagnostiques du SAOS ont DEUX portes d'entrée : (1) IAH ≥ 5 + au moins un symptôme (somnolence, ronflement, apnées rapportées, etc.), ou (2) IAH ≥ 15 SEUL, même chez un patient asymptomatique. La logique de la 2ème porte : un IAH élevé sans symptôme reste associé à un risque cardiovasculaire significatif, et le bénéfice du traitement justifie de retenir le diagnostic.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

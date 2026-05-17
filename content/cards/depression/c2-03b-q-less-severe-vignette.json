@@ -1,0 +1,26 @@
+{
+  "id": "depression-c2-q03b-less-severe-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Mme Yilmaz, 35 ans, PHQ-9 à 11. EDC less severe. Elle vous demande \"vous me prescrivez un antidépresseur ?\". Pas d'antécédents psychiatriques. Quelle est la 1ère intention NICE 2022 ?",
+  "choices": [
+    { "id": "a", "text": "Prescrire un ISRS immédiatement, c'est la demande de la patiente", "correct": false },
+    { "id": "b", "text": "Lui expliquer que pour une dépression less severe, la 1ère intention est la psychothérapie (TCC, activation comportementale, self-help guidé, exercice de groupe). L'AD reste possible si elle le souhaite après information éclairée.", "correct": true },
+    { "id": "c", "text": "Refuser tout traitement, c'est une dépression légère", "correct": false },
+    { "id": "d", "text": "L'adresser en urgence en psychiatrie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE 2022 a explicitement déhiérarchisé l'AD dans le less severe. 1ère intention : self-help guidé, TCC en groupe ou individuelle, activation comportementale, exercice physique en groupe, ou IPT. L'AD reste une option SI le patient le demande après info éclairée (Rec 1.5.3), si la psychothérapie n'est pas accessible/refusée, ou si bonne réponse antérieure à un AD. Décision partagée.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "vaccination-adulte-c2-q06-hpv-rattrapage-19",
+  "kind": "qcm-vignette",
+  "prompt": "Une jeune femme de 19 ans, non vaccinée HPV, vous interroge sur la possibilité de se faire vacciner. Que pouvez-vous lui proposer (calendrier français 2025) ?",
+  "choices": [
+    {"id": "a", "text": "Rien, la vaccination HPV est strictement pédiatrique (11-14 ans).", "correct": false},
+    {"id": "b", "text": "Un rattrapage par Gardasil 9, schéma 3 doses (car commencé après 14 ans).", "correct": true},
+    {"id": "c", "text": "Un dépistage HPV avant toute discussion vaccinale.", "correct": false},
+    {"id": "d", "text": "Attendre 26 ans avant toute vaccination HPV chez la femme.", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Rattrapage possible jusqu'à 19 ans révolus, pour les filles ET les garçons. Schéma 3 doses si commencé après 14 ans (M0, M2, M6). Avant 14 ans, 2 doses suffisent. Vaccin actuel : Gardasil 9 (9 sérotypes dont 16/18 oncogènes et 6/11 condylomes). Pas de sérologie/dépistage HPV préalable nécessaire. Cas particuliers étendant l'âge : HSH (jusqu'à 26 ans), immunodéprimés (jusqu'à 26 ans).",
+  "tags": {
+    "system": ["infectieux", "prevention", "gynecologie"],
+    "sdd": ["vaccination", "HPV"],
+    "item_edn": [143, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

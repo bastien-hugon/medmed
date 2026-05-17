@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c2-q06f-quadruple-cloze",
+  "kind": "cloze",
+  "prompt": "Selon NICE NG245, chez l'adulte ≥ 17 ans, dans le cadre du plan d'action écrit, on peut ___ la dose d'ICS pendant ___ jours quand le contrôle se dégrade.",
+  "expected": ["quadrupler", "7"],
+  "rationale": "Stratégie NG245 : QUADRUPLER l'ICS × 7 JOURS (sans dépasser la dose maximale autorisée), dans le cadre du plan d'action. C'est démontré supérieur au doublage (ancien réflexe). Réservé à l'adulte ≥ 17 ans. À distinguer d'une exacerbation SÉVÈRE qui justifie, elle, une cure de corticoïdes ORAUX (prednisolone 5-7 j).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

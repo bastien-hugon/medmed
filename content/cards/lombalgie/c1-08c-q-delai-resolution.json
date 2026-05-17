@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c1-q08-delai-resolution",
+  "kind": "cloze",
+  "prompt": "90 % des lombalgies communes aiguës évoluent favorablement en ___ à ___ semaines.",
+  "expected": ["4", "6"],
+  "rationale": "Délai standard de résolution : 4 à 6 semaines. Au-delà, on entre dans la lombalgie subaiguë et le risque de chronicisation grimpe — c'est le moment de réintensifier la PEC (kiné, exercice, repérage des drapeaux jaunes).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

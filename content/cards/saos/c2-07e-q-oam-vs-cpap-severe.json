@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-07e-q-oam-vs-cpap-severe",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient présente un SAOS SÉVÈRE (IAH 40, Epworth 16). Quel traitement de PREMIÈRE INTENTION proposez-vous ?",
+  "choices": [
+    {"id": "a", "text": "Orthèse d'avancée mandibulaire", "correct": false},
+    {"id": "b", "text": "CPAP (Pression Positive Continue)", "correct": true},
+    {"id": "c", "text": "Stimulation du nerf hypoglosse", "correct": false},
+    {"id": "d", "text": "Chirurgie d'avancée maxillo-mandibulaire", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Dans un SAOS SÉVÈRE symptomatique, la CPAP est le traitement de RÉFÉRENCE en 1ère intention. L'OAM est moins efficace sur l'IAH (~50 % de répondeurs) et n'est proposée dans le SAOS sévère qu'en cas de REFUS ou d'INTOLÉRANCE à la CPAP. La stimulation du nerf hypoglosse est un traitement de RECOURS pour les échecs de CPAP avec critères très précis (IMC < 35, anatomie compatible). La chirurgie est réservée à des cas très sélectionnés.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

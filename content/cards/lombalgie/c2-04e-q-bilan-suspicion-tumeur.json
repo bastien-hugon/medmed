@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q04-bilan-suspicion-tumeur",
+  "kind": "qcm-vignette",
+  "prompt": "Devant une suspicion de cause tumorale (par exemple, lombalgie nocturne traînante chez patient avec ATCD de cancer du sein), quel bilan paraclinique demander en première intention ?",
+  "choices": [
+    { "id": "a", "text": "Aucun, surveillance simple", "correct": false },
+    { "id": "b", "text": "NFS, CRP, calcémie, électrophorèse des protéines + IRM rachidienne", "correct": true },
+    { "id": "c", "text": "Radiographie standard suffisante", "correct": false },
+    { "id": "d", "text": "Bilan thyroïdien isolé", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Bilan d'orientation : NFS (anémie), CRP (syndrome inflammatoire), calcémie (hypercalcémie maligne), électrophorèse des protéines (myélome), IRM rachidienne (très sensible pour les métastases osseuses). La radio standard est insuffisante (les lésions n'apparaissent que tardivement). Le bilan biologique seul ne remplace pas l'imagerie.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "oncologie", "imagerie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

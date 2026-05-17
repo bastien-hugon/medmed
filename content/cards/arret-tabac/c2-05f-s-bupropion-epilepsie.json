@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c2-s05f-bupropion-epilepsie",
+  "kind": "sct",
+  "hypothesis": "Indication du bupropion (Zyban®) en 2e ligne pour un patient en échec de NRT bien menée et avec antécédents psychiatriques (qui rendent la varénicline délicate).",
+  "new_info": "Le patient déclare un antécédent d'épilepsie partielle dans l'adolescence, sans traitement depuis 12 ans et sans nouvelle crise.",
+  "expected": "affaiblit",
+  "prompt": "Cette nouvelle information modifie-t-elle l'indication de prescrire du bupropion ?",
+  "rationale": "Le bupropion abaisse le seuil ÉPILEPTOGÈNE → l'épilepsie (même ancienne, en rémission) est une CONTRE-INDICATION classique. L'indication s'AFFAIBLIT fortement, voire devient une CI formelle selon les recommandations. Conduite à tenir : ne pas prescrire de bupropion. Options : (1) ré-optimiser la NRT (combo timbre + forme rapide, vérifier la technique d'utilisation), (2) discuter la varénicline en évaluant attentivement le contexte psy (surveillance rapprochée), (3) intensifier l'accompagnement non-médicamenteux (EM, TCC), (4) e-cigarette en harm reduction si patient en demande.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie", "neurologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

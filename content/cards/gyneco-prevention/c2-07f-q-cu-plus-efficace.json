@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q07f-cu-plus-efficace",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi les méthodes de contraception d'urgence, laquelle est la PLUS EFFICACE ?",
+  "choices": [
+    { "id": "a", "text": "Lévonorgestrel (Norlevo) 1,5 mg", "correct": false },
+    { "id": "b", "text": "Ulipristal acétate (EllaOne) 30 mg", "correct": false },
+    { "id": "c", "text": "DIU au cuivre, posé dans les 120 h après le rapport (taux d'échec ~0,14 %)", "correct": true },
+    { "id": "d", "text": "Les 3 ont une efficacité strictement identique.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Hiérarchie d'efficacité de la CU : DIU cuivre (~0,14 % d'échec, soit 1 grossesse sur 700) >> UPA > LNG. Le DIU cuivre est l'unique méthode mécanique de la liste : il bloque la fécondation/nidation indépendamment du moment de l'ovulation, ce qui le rend très robuste. Bonus : il devient ensuite la contraception régulière pour 5-10 ans. Inconvénient : nécessite un médecin disponible et formé à la pose — donc moins accessible en urgence que les comprimés en pharmacie.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention", "urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Contraception_d%27urgence",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

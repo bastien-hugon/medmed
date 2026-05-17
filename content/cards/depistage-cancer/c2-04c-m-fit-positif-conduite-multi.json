@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c2-m04c-fit-positif-conduite-multi",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la CONDUITE À TENIR après un test FIT POSITIF.",
+  "choices": [
+    { "id": "a", "text": "Une coloscopie doit être proposée rapidement (idéalement dans un délai court)", "correct": true },
+    { "id": "b", "text": "La coloscopie est à la fois diagnostique (voir) et thérapeutique (réséquer les polypes)", "correct": true },
+    { "id": "c", "text": "On peut surseoir à la coloscopie si le patient a une cause bénigne plausible de saignement (hémorroïdes, fissure)", "correct": false },
+    { "id": "d", "text": "Refaire un FIT à 3 mois pour confirmer suffit", "correct": false },
+    { "id": "e", "text": "La majorité des coloscopies réalisées après FIT positif sont 'normales' ou retrouvent des polypes bénins, et c'est attendu", "correct": true },
+    { "id": "f", "text": "Le patient doit être informé que le FIT positif ne signifie PAS qu'il a un cancer", "correct": true }
+  ],
+  "expected": ["a", "b", "e", "f"],
+  "rationale": "FIT positif → COLOSCOPIE rapidement (a), examen qui voit ET retire les polypes (b — double rôle, source du bénéfice de mortalité). Beaucoup de coloscopies seront 'rassurantes' (e) — c'est normal, le FIT est un filtre à large maille. Information patient (f) capitale : éviter l'angoisse 'j'ai un cancer'. À l'inverse, (c) est PIÉGEUX : la fissure/hémorroïde n'innocente PAS, les deux peuvent coexister (cf. SCT existante sur la fissure anale). (d) faux : refaire un FIT serait une perte de temps et un risque de faux négatif sur saignement intermittent.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

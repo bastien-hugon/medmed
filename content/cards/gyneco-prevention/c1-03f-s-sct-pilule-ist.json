@@ -1,0 +1,22 @@
+{
+  "id": "gyneco-prevention-c1-s03f-sct-pilule-ist",
+  "kind": "sct",
+  "prompt": "Une jeune femme de 22 ans, sous pilule depuis 1 an, vient en consultation. Elle vous dit avoir eu un rapport non protégé avec un nouveau partenaire la semaine dernière.",
+  "hypothesis": "Étant sous pilule depuis 1 an, elle est protégée contre la grossesse ET contre les IST de ce rapport.",
+  "new_info": "Le partenaire en question n'a jamais été dépisté et a eu plusieurs partenaires récents.",
+  "expected": "affaiblit",
+  "rationale": "L'hypothèse 'protégée contre les IST grâce à la pilule' est FAUSSE par principe — la pilule ne protège QUE de la grossesse. L'information sur les antécédents du partenaire renforce le risque d'IST (chlamydia, gonocoque, VIH, syphilis…) et donc affaiblit complètement l'idée de protection. Conduite : dépistage IST à la patiente (et idéalement au partenaire), avec rappel sur le préservatif pour les rapports futurs jusqu'à dépistage négatif des deux.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "diabete-t2-c1-m07-t1-vs-t2",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les caractéristiques classiquement associées au diabète de type 2 (par opposition au type 1).",
+  "choices": [
+    { "id": "a", "text": "Apparition typique chez l'adulte > 40 ans", "correct": true },
+    { "id": "b", "text": "Surpoids / obésité fréquents", "correct": true },
+    { "id": "c", "text": "Insulinorésistance des tissus périphériques", "correct": true },
+    { "id": "d", "text": "Début brutal avec acidocétose inaugurale fréquente", "correct": false },
+    { "id": "e", "text": "Destruction auto-immune des cellules bêta du pancréas", "correct": false },
+    { "id": "f", "text": "Représente > 90 % de tous les diabètes", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "f"],
+  "rationale": "Le T2 est l'archétype : adulte, surpoids, insulinorésistance, débute progressivement et représente > 95 % des cas. Début brutal + acidocétose (d) et auto-immunité (e) caractérisent le T1. Note : aux marges, ces frontières s'estompent (T2 chez l'ado obèse, LADA chez l'adulte mince) — mais ces 4 critères restent corrects à >95 % en médecine générale.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

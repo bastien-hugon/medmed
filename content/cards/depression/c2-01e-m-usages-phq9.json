@@ -1,0 +1,29 @@
+{
+  "id": "depression-c2-m01e-usages-phq9",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les usages cliniques pertinents du PHQ-9 dans le suivi d'un patient déprimé en médecine générale.",
+  "choices": [
+    { "id": "a", "text": "Estimer la sévérité initiale (less severe < 16 vs more severe ≥ 16)", "correct": true },
+    { "id": "b", "text": "Orienter le choix de 1ère ligne thérapeutique (psychothérapie seule vs combinaison)", "correct": true },
+    { "id": "c", "text": "Suivre l'évolution sous traitement (mesures répétées à 2, 4, 8 semaines)", "correct": true },
+    { "id": "d", "text": "Dépister un signal d'alerte suicidaire via l'item 9", "correct": true },
+    { "id": "e", "text": "Remplacer entièrement la consultation clinique", "correct": false },
+    { "id": "f", "text": "Diagnostiquer un trouble bipolaire", "correct": false },
+    { "id": "g", "text": "Établir un certificat médico-légal d'invalidité", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "PHQ-9 = outil de stratification, suivi, et alerte (item 9). Il ne remplace JAMAIS la consultation : un score n'est pas un diagnostic. Pour les troubles bipolaires, le PHQ-9 ne capte que la phase dépressive ; il faut un MDQ ou une anamnèse spécifique. Le PHQ-9 n'a aucune valeur médico-légale en soi.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

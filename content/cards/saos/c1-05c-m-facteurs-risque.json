@@ -1,0 +1,29 @@
+{
+  "id": "saos-c1-05c-m-facteurs-risque",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les FACTEURS DE RISQUE classiquement associés au SAOS.",
+  "choices": [
+    {"id": "a", "text": "Surpoids / obésité", "correct": true},
+    {"id": "b", "text": "Sexe masculin (avant la ménopause chez la femme)", "correct": true},
+    {"id": "c", "text": "Âge > 50 ans", "correct": true},
+    {"id": "d", "text": "Consommation d'alcool, sédatifs et somnifères le soir", "correct": true},
+    {"id": "e", "text": "Antécédents familiaux de SAOS", "correct": true},
+    {"id": "f", "text": "Activité physique régulière en endurance", "correct": false},
+    {"id": "g", "text": "Régime végétarien", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Les FdR classiques : obésité (FdR majeur, ~90 %), sexe masculin (différence qui s'atténue après ménopause par perte de la protection œstrogénique), âge > 50 (pic 60-70 ans), alcool/sédatifs (myorelaxants qui aggravent le collapsus), ATCD familiaux (anatomie pharyngée héritée). L'activité physique régulière est plutôt PROTECTRICE (perte de poids, tonus). Le régime végétarien n'a pas d'impact démontré.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

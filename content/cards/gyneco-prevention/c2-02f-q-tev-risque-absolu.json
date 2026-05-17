@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q02f-tev-risque-absolu",
+  "kind": "qcm-vignette",
+  "prompt": "Le risque thromboembolique veineux sous œstro-progestatifs est multiplié par ~3 à 6 par rapport à une femme sans pilule. En valeur ABSOLUE, ce risque reste-t-il faible ?",
+  "choices": [
+    { "id": "a", "text": "Non, ~30 % des femmes sous pilule font une TVP la 1ère année.", "correct": false },
+    { "id": "b", "text": "Oui : le risque relatif augmente, mais en absolu il reste de l'ordre de quelques cas pour 10 000 femmes-années chez une jeune femme sans facteur de risque.", "correct": true },
+    { "id": "c", "text": "Oui, c'est même le risque de la grossesse qui est inférieur.", "correct": false },
+    { "id": "d", "text": "Le risque absolu est de 1 femme sur 10 par an.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Repères à connaître : femme sans pilule ≈ 2 cas TEV/10000/an ; sous œstro-progestatif ≈ 6-12/10000/an ; pendant la grossesse / post-partum encore plus (~20/10000/an). Donc oui le risque est augmenté en relatif, mais reste FAIBLE en absolu chez une femme jeune sans autre FdR — d'où l'évaluation individuelle (sans pénaliser les femmes éligibles). Information honnête à donner en counseling : la grossesse fait plus monter le risque que la pilule.",
+  "tags": {
+    "system": ["gynecologie-urologie", "cardiovasculaire"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 226],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

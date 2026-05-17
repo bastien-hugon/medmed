@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q08e-rythme-suivi",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient vient de fixer sa date d'arrêt à lundi prochain. Quel est le rythme de suivi RECOMMANDÉ après l'arrêt ?",
+  "choices": [
+    { "id": "a", "text": "Une seule consultation à 6 mois si tout va bien", "correct": false },
+    { "id": "b", "text": "Suivi RAPPROCHÉ : J7, 1 mois, 3 mois, 6 mois, 1 an — programmé d'avance, sans attendre que le patient appelle 'si besoin'", "correct": true },
+    { "id": "c", "text": "Consultations hebdomadaires pendant 1 an", "correct": false },
+    { "id": "d", "text": "Une consultation à 1 an pour vérifier le succès", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Suivi rapproché aux 3 premiers mois (période la plus à risque de rechute), espacé ensuite : J7, M1, M3, M6, M12. À PROGRAMMER À LA FIN de la consultation actuelle (sinon le patient ne revient pas spontanément). Le suivi rapproché DOUBLE les taux de réussite par rapport à un 'revenez si besoin'. Le rythme hebdomadaire toute l'année (C) est excessif, mais on peut intensifier ponctuellement (1/sem au début si le patient en a besoin).",
+  "tags": {
+    "system": ["addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

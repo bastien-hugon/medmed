@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c1-q02-nucleus-fibrosus",
+  "kind": "free-recall",
+  "prompt": "Comment s'appelle l'anneau fibreux extérieur du disque intervertébral (en latin) ?",
+  "expected": ["annulus fibrosus", "annulus", "anulus fibrosus", "anulus"],
+  "rationale": "Annulus fibrosus : anneau fibreux solide qui retient le nucleus pulposus (noyau gélatineux). Quand l'annulus se fissure et que le noyau s'échappe par cette fissure, on parle de hernie discale.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

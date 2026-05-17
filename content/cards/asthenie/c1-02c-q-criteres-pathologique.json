@@ -1,0 +1,27 @@
+{
+  "id": "asthenie-c1-q02c-criteres-pathologique",
+  "kind": "free-recall",
+  "prompt": "Citez les 3 critères principaux qui transforment une fatigue \"banale\" (physiologique) en fatigue PATHOLOGIQUE à explorer.",
+  "expected": [
+    "disproportionnée par rapport à l'activité",
+    "persistante malgré le repos",
+    "retentit sur la vie quotidienne",
+    "retentissement sur le travail",
+    "non soulagée par le repos",
+    "associée à d'autres symptômes"
+  ],
+  "rationale": "Trois critères à mémoriser : (1) DISPROPORTIONNÉE — fatigue \"je suis crevé alors que je n'ai rien fait\" ; (2) PERSISTANTE malgré un repos suffisant ; (3) RETENTIT sur la vie quotidienne (travail, relations, loisirs). Souvent (4) s'associe à d'autres symptômes (perte de poids, fièvre, douleurs). À l'inverse, une fatigue qui se règle avec une bonne nuit et un week-end de repos n'a pas besoin d'un bilan extensif.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "hta-c1-q07c-seuil-uniquement-systolique",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente a une PA répétée à 145/82 mmHg. Que conclus-tu sur le diagnostic d'HTA ?",
+  "choices": [
+    {"id": "a", "text": "Pas d'HTA, la diastolique est normale", "correct": false},
+    {"id": "b", "text": "HTA confirmée car la systolique dépasse le seuil de 140 mmHg", "correct": true},
+    {"id": "c", "text": "Il faut attendre que la diastolique dépasse aussi 90 pour parler d'HTA", "correct": false},
+    {"id": "d", "text": "PA limite, on revoit dans 6 mois sans rien faire", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Règle HAS : il SUFFIT qu'UNE seule des deux valeurs dépasse son seuil pour parler d'HTA. Ici 145/82 → la systolique (145 ≥ 140) suffit à elle seule, même si la diastolique (82) est normale. C'est une 'HTA systolique isolée', fréquente avec l'âge (rigidité artérielle). Elle DOIT être prise en charge comme une HTA classique, RHD ± traitement médicamenteux selon le risque CV global.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

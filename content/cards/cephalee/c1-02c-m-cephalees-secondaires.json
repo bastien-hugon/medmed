@@ -1,0 +1,29 @@
+{
+  "id": "cephalee-c1-m02c-cephalees-secondaires",
+  "kind": "qcm-multi",
+  "prompt": "Parmi ces diagnostics, cochez TOUTES les céphalées qui sont SECONDAIRES (la douleur signale une autre maladie organique).",
+  "choices": [
+    { "id": "a", "text": "Hémorragie sous-arachnoïdienne", "correct": true },
+    { "id": "b", "text": "Migraine sans aura", "correct": false },
+    { "id": "c", "text": "Méningite bactérienne", "correct": true },
+    { "id": "d", "text": "Céphalée de tension chronique", "correct": false },
+    { "id": "e", "text": "Maladie de Horton (artérite à cellules géantes)", "correct": true },
+    { "id": "f", "text": "Algie vasculaire de la face", "correct": false },
+    { "id": "g", "text": "Glaucome aigu par fermeture de l'angle", "correct": true },
+    { "id": "h", "text": "Céphalée par abus médicamenteux", "correct": true }
+  ],
+  "expected": ["a", "c", "e", "g", "h"],
+  "rationale": "Primaires (la douleur EST la maladie) = migraine, céphalée de tension, AVF (et autres TACs). Secondaires (la douleur est SYMPTÔME) = HSA, méningite, Horton, glaucome aigu, tumeur, sinusite, dissection, et — c'est moins évident — la céphalée par abus médicamenteux (iatrogène, donc secondaire au médicament selon ICHD-3 chapitre 8). C'est une classification rigoureuse, pas un simple synonyme de 'grave / bénin'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

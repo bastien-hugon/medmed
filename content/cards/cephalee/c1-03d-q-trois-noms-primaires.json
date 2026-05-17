@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c1-q03d-trois-noms-primaires",
+  "kind": "free-recall",
+  "prompt": "Citez les trois grandes céphalées primaires à connaître en médecine générale, de la plus fréquente à la plus rare.",
+  "expected": ["tension", "migraine", "algie vasculaire"],
+  "rationale": "Ordre par prévalence vie entière : 1) céphalée de tension (~ 70 %), 2) migraine (~ 15 %), 3) algie vasculaire de la face (~ 0,1 %). Les autres céphalées primaires (hémicrânie paroxystique, SUNCT…) sont rares et regroupées avec l'AVF dans les 'TACs' (Trigeminal Autonomic Cephalalgias).",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

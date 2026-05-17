@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q02f-acr5-jeune-femme",
+  "kind": "qcm-vignette",
+  "prompt": "Madame D., 51 ans, dans le cadre du dépistage organisé : sa mammographie + échographie sont classées ACR 5 sur une masse spiculée de 18 mm du sein droit. Quelle est la conduite immédiate ?",
+  "choices": [
+    { "id": "a", "text": "Retour au dépistage dans 2 ans, l'image est probablement bénigne", "correct": false },
+    { "id": "b", "text": "Surveillance par imagerie à 6 mois", "correct": false },
+    { "id": "c", "text": "Adressage rapide pour biopsie (micro/macrobiopsie sous échographie ou stéréotaxie) afin d'obtenir une preuve histologique avant toute décision thérapeutique", "correct": true },
+    { "id": "d", "text": "Chirurgie d'emblée (tumorectomie large) sans biopsie préalable", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "ACR 5 = très évocateur de cancer (>95 % de probabilité). Mais 'très probable' n'est pas 'certain' — et surtout, la nature exacte du cancer (canalaire, lobulaire, in situ, infiltrant, grade, récepteurs hormonaux, HER2...) va conditionner le TRAITEMENT. La biopsie est donc INDISPENSABLE avant toute chirurgie pour : confirmer le diagnostic ET caractériser la tumeur. Opérer sans biopsie (d) est une erreur majeure : on découpe une lésion qu'on n'a pas caractérisée, et on rate l'opportunité d'éventuels traitements néo-adjuvants (chimio avant chirurgie). (a, b) : impossible avec un ACR 5, ce serait une perte de chance.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

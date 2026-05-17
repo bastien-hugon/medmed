@@ -1,0 +1,26 @@
+{
+  "id": "hta-c2-q01b-debit-formule",
+  "kind": "qcm-vignette",
+  "prompt": "Le DÉBIT CARDIAQUE (Q) est lui-même le produit de deux grandeurs. Lesquelles ?",
+  "choices": [
+    {"id": "a", "text": "Volume sanguin total × viscosité du sang", "correct": false},
+    {"id": "b", "text": "Fréquence cardiaque × volume d'éjection systolique", "correct": true},
+    {"id": "c", "text": "Pression systolique × pression diastolique", "correct": false},
+    {"id": "d", "text": "Résistances périphériques × élasticité aortique", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Q = FC × VES. FC = fréquence cardiaque (~70 bpm au repos). VES = volume d'éjection systolique (~70 mL par battement au repos). Donc Q ≈ 5 L/min au repos. À l'effort, FC et VES augmentent → Q peut atteindre 20-25 L/min chez le sportif. Cette équation gigogne : PA = Q × R = (FC × VES) × R. Trois leviers pharmaco : FC, VES, R.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

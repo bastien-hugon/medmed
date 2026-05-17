@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q05c-fatigue-vs-depression",
+  "kind": "qcm-vignette",
+  "prompt": "Lequel de ces patterns de fatigue oriente le PLUS vers une origine cardiaque (vs dépressive) ?",
+  "choices": [
+    { "id": "a", "text": "Fatigue présente dès le réveil, sans rapport avec l'effort, perte d'intérêt généralisée", "correct": false },
+    { "id": "b", "text": "Fatigue qui apparaît à l'effort, jambes lourdes, soulagée par le repos", "correct": true },
+    { "id": "c", "text": "Fatigue après un repas copieux", "correct": false },
+    { "id": "d", "text": "Fatigue après un long voyage en avion", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Fatigue MUSCULAIRE d'effort soulagée par le repos = mécanisme hémodynamique (typique IC, mais aussi anémie, hypothyroïdie). Fatigue dès le matin + perte d'intérêt = sphère dépressive. Les deux peuvent COEXISTER chez l'IC chronique (dépression fréquente et sous-diagnostiquée).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

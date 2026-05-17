@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-f06-hpv-trois-cibles",
+  "kind": "free-recall",
+  "prompt": "Cite les TROIS populations cibles principales du rattrapage HPV chez le jeune adulte en France (et l'âge limite associé).",
+  "expected": ["filles et garçons jusqu'à 19 ans", "HSH jusqu'à 26 ans", "immunodéprimés jusqu'à 26 ans"],
+  "rationale": "Trois cibles de rattrapage : (1) Filles et garçons en population générale → jusqu'à 19 ans révolus ; (2) HSH (Hommes ayant des rapports Sexuels avec des Hommes) → jusqu'à 26 ans ; (3) Personnes immunodéprimées → jusqu'à 26 ans (et parfois plus selon situation). Schéma 3 doses (M0, M2, M6) si débuté après 14 ans, 2 doses sinon. Mnémo : « 19 général — 26 HSH/immunodéprimés ».",
+  "tags": {
+    "system": ["infectieux", "prevention", "gynecologie"],
+    "sdd": ["vaccination", "HPV"],
+    "item_edn": [143, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

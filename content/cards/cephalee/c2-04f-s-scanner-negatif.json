@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c2-s04f-scanner-negatif",
+  "kind": "sct",
+  "prompt": "Patiente de 50 ans, céphalée en coup de tonnerre il y a 24 h pendant un effort de défécation, max en 30 secondes, persistante intense. Vous suspectez une HSA. Le scanner cérébral non injecté revient normal. Vous envisagez de la renvoyer chez elle. Comment cette information modifie-t-elle votre conduite ?",
+  "hypothesis": "L'HSA peut être exclue puisque le scanner est normal, et la patiente peut rentrer chez elle.",
+  "new_info": "La recommandation NICE et la littérature urgentiste rappellent que la sensibilité du scanner pour l'HSA chute SIGNIFICATIVEMENT au-delà de 6 h après le début des symptômes (de ~95 % à 80-85 % à 24h). Une ponction lombaire à la recherche de xanthochromie ou de globules rouges est indiquée si suspicion forte et scanner > 6 h.",
+  "expected": "affaiblit",
+  "rationale": "À 24 h post-symptômes, le scanner non injecté NE peut PAS exclure une HSA avec certitude. La conduite correcte est la PONCTION LOMBAIRE (recherche de sang frais — globules rouges décroissants entre les tubes — ou de xanthochromie, présente à partir de la 12ᵉ heure et persistante 2 semaines). Renvoyer la patiente avec un scanner négatif à 24 h serait une erreur potentiellement fatale (resaignement). Cette information affaiblit la conduite 'retour à domicile'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "hsa"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

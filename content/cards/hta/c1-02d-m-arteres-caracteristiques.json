@@ -1,0 +1,28 @@
+{
+  "id": "hta-c1-m02-arteres-caracteristiques",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant les ARTÈRES (par opposition aux veines).",
+  "choices": [
+    {"id": "a", "text": "Elles partent du cœur", "correct": true},
+    {"id": "b", "text": "Elles transportent du sang riche en oxygène (sauf l'artère pulmonaire)", "correct": true},
+    {"id": "c", "text": "Elles ont une paroi épaisse et musclée", "correct": true},
+    {"id": "d", "text": "La pression à l'intérieur est basse", "correct": false},
+    {"id": "e", "text": "Ce sont les vaisseaux touchés par l'HTA", "correct": true},
+    {"id": "f", "text": "Elles contiennent des valvules anti-retour", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Artères = sang oxygéné, partent du cœur, paroi épaisse musclée pour encaisser la pression élevée. C'est dans les artères que la PA est haute (>100 mmHg en moyenne). Les VEINES, elles, ont une paroi fine, basse pression, et possèdent des valvules anti-retour (notamment dans les jambes pour lutter contre la gravité). Exception : l'artère pulmonaire transporte du sang pauvre en O2 (vers les poumons).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

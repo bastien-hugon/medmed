@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c2-s02f-introduction-recente",
+  "kind": "sct",
+  "prompt": "Un patient de 60 ans, hypertendu, consulte pour une fatigue installée depuis 3 semaines. Vous penchez vers une cause iatrogène en lien avec son traitement.",
+  "hypothesis": "La fatigue est liée à un médicament récemment introduit.",
+  "new_info": "Le patient précise que son traitement HTA (amlodipine + indapamide) est inchangé depuis 5 ans, et qu'il n'a rien commencé d'autre. Vous lui demandez : aucun médicament en automédication, aucun complément, rien.",
+  "expected": "affaiblit",
+  "rationale": "L'hypothèse iatrogène \"introduction récente\" suppose une corrélation temporelle entre la mise en route d'un médicament et l'apparition de la fatigue. Ici, l'ordonnance est stable depuis 5 ans : peu probable qu'un médicament récemment ajouté soit en cause. La nouvelle information AFFAIBLIT cette hypothèse — mais elle n'élimine pas la cause iatrogène au sens large (un médicament chronique peut induire une hypokaliémie progressive, ou un effet cumulatif). Doser le potassium reste pertinent.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

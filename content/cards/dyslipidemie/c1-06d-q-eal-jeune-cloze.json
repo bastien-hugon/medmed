@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c1-q06-eal-jeune-cloze",
+  "kind": "cloze",
+  "prompt": "Un EAL complet doit idéalement être réalisé à JEUN depuis ___ heures, en particulier pour interpréter correctement les ___.",
+  "expected": ["12", "triglycérides"],
+  "rationale": "Le jeûne classique de 12h (eau autorisée) est nécessaire pour interpréter les TRIGLYCÉRIDES, qui montent fortement après les repas (parfois doublent). Le cholestérol total et le HDL changent peu. À noter : NICE accepte un dépistage initial NON à jeun (chol total + HDL suffisent au départ), mais un bilan complet en France reste à jeun. Loin d'un événement aigu (infection, chirurgie) qui fausse temporairement les valeurs.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

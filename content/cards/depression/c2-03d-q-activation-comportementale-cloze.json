@@ -1,0 +1,20 @@
+{
+  "id": "depression-c2-q03d-activation-comportementale-cloze",
+  "kind": "cloze",
+  "prompt": "L'approche thérapeutique non médicamenteuse qui consiste à programmer des activités plaisantes ou utiles même sans en avoir envie, pour casser le cercle vicieux dépression → inactivité → dépression, s'appelle l'activation ___.",
+  "expected": ["comportementale"],
+  "rationale": "Activation comportementale (BA = Behavioural Activation). Principe : la dépression fait fuir l'activité, l'activité programmée fait reculer la dépression. Format typique : 8 séances. Aussi efficace que la TCC en less severe, parfois plus accessible (moins technique). Distinguer du \"sport\", qui est un cas particulier d'activation comportementale.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

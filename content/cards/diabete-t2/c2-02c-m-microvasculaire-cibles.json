@@ -1,0 +1,28 @@
+{
+  "id": "diabete-t2-c2-m02-microvasculaire-cibles",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les complications MICROvasculaires du diabète.",
+  "choices": [
+    { "id": "a", "text": "Rétinopathie diabétique", "correct": true },
+    { "id": "b", "text": "Néphropathie diabétique", "correct": true },
+    { "id": "c", "text": "Neuropathie périphérique des pieds", "correct": true },
+    { "id": "d", "text": "Infarctus du myocarde", "correct": false },
+    { "id": "e", "text": "AVC ischémique", "correct": false },
+    { "id": "f", "text": "Artérite des membres inférieurs (AOMI)", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Microvasculaire = 3 R (Rétine, Rein, neRfs). Toutes les autres options (d, e, f) relèvent du MACROvasculaire (grosses artères : cœur, cerveau, jambes). C'est la distinction structurante du suivi diabétique : examens annuels ciblent les 3 organes microvasculaires + l'évaluation CV macrovasculaire.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

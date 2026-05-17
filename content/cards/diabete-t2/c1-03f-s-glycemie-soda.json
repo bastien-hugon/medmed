@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c1-s03-glycemie-soda",
+  "kind": "sct",
+  "hypothesis": "Une glycémie de 1,80 g/L mesurée chez Mme R., 60 ans, correspond à un diabète.",
+  "new_info": "Vous apprenez qu'elle a bu un grand verre de jus d'orange 30 min avant la prise de sang.",
+  "prompt": "Comment cette nouvelle information modifie-t-elle l'hypothèse de diabète ?",
+  "expected": "affaiblit",
+  "rationale": "Le test n'est plus 'à jeun' : la glycémie reflète l'apport sucré récent, pas la régulation de base. Une glycémie 'aléatoire' à 1,80 g/L sans symptômes ne suffit pas à diagnostiquer un diabète (seuil aléatoire = ≥ 2 g/L AVEC symptômes). Il faut REFAIRE la mesure dans des conditions correctes de jeûne avant de conclure. L'hypothèse de diabète est donc affaiblie.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

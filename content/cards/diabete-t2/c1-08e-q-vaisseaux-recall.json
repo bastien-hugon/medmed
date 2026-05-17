@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c1-q24-vaisseaux-recall",
+  "kind": "free-recall",
+  "prompt": "Cite 3 organes dont les TRÈS PETITS vaisseaux (microvasculaires) sont particulièrement atteints par le diabète.",
+  "expected": ["œil", "oeil", "rétine", "retine", "yeux", "rein", "reins", "nerfs", "nerf", "pieds", "système nerveux"],
+  "rationale": "Les 3 cibles microvasculaires emblématiques = œil (rétinopathie), rein (néphropathie), nerfs périphériques (neuropathie, surtout pieds). Mnémo : '3 R' — Rétine, Rein, neRfs. C'est sur ces 3 organes que portent les examens annuels de dépistage (fond d'œil, microalbuminurie, monofilament).",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

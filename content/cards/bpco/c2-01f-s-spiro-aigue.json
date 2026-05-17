@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c2-s01f-spiro-aigue",
+  "kind": "sct",
+  "prompt": "M. B., 70 ans, fumeur, hospitalisé pour exacerbation aiguë de bronchite avec dyspnée majeure et crachats purulents. Tu envisages de confirmer une BPCO.",
+  "hypothesis": "Mon hypothèse : faire une spirométrie MAINTENANT pour confirmer le diagnostic de BPCO.",
+  "new_info": "Le patient est encore très dyspnéique, sous oxygène, fébrile, avec sibilants bilatéraux.",
+  "expected": "affaiblit",
+  "rationale": "On NE FAIT PAS de spirométrie pendant une exacerbation aiguë : les valeurs sont faussées (bronchospasme, inflammation, mauvaise coopération du patient), et l'examen peut être pénible. NICE recommande d'attendre la stabilisation clinique (typiquement 4-6 semaines après l'exacerbation) pour mesurer la BPCO de fond. L'information clinique affaiblit donc l'intérêt de la spirométrie immédiate. Logique SCT : renforce / affaiblit / neutre.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

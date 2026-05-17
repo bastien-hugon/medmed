@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c1-q02d-imagerie-rassurance",
+  "kind": "cloze",
+  "prompt": "Selon NICE CG150, on NE doit PAS prescrire de ___ cérébrale 'pour rassurer' un patient avec une céphalée ___ typique (migraine, tension, AVF, abus médicamenteux) en l'absence de ___ ___ .",
+  "expected": ["imagerie", "primaire", "drapeau", "rouge"],
+  "rationale": "Message NICE majeur : l'imagerie n'a aucune place dans une céphalée primaire évidente, sans red flag. Elle expose à des découvertes fortuites anxiogènes (incidentalomes), à du coût et à un sur-suivi inutile. L'imagerie n'intervient que face à un signal d'alarme. Beaucoup de patients chronicisent leur anxiété parce qu'on leur a prescrit un scanner 'pour les rassurer' — l'effet inverse en pratique.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

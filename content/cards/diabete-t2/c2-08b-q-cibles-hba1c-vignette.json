@@ -1,0 +1,26 @@
+{
+  "id": "diabete-t2-c2-q22-cibles-hba1c-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "M. D., 55 ans, diabétique de type 2 récemment diagnostiqué, sans complication, sans antécédent CV, sous metformine seule. Quelle cible d'HbA1c retenir d'après les recommandations HAS ?",
+  "choices": [
+    { "id": "a", "text": "≤ 6,5 %", "correct": true },
+    { "id": "b", "text": "≤ 8 %", "correct": false },
+    { "id": "c", "text": "≤ 9 %", "correct": false },
+    { "id": "d", "text": "Pas de cible — on adapte sur les symptômes uniquement", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Profil 'idéal' (jeune diabétique, sans complication, sans risque d'hypoglycémie sous metformine seule) → cible STRICTE ≤ 6,5 %. Plus on intervient tôt et fort, plus on protège les vaisseaux à long terme (effet 'héritage glycémique', UKPDS). Les cibles ≤ 8 % ou ≤ 9 % sont réservées aux profils fragiles ou à risque d'hypoglycémie.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/H%C3%A9moglobine_glyqu%C3%A9e",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

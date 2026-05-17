@@ -1,0 +1,29 @@
+{
+  "id": "vaccination-adulte-c1-m05-grippe-indications",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations qui constituent une INDICATION au vaccin antigrippal annuel chez l'adulte de moins de 65 ans en France.",
+  "choices": [
+    {"id": "a", "text": "Diabète de type 2", "correct": true},
+    {"id": "b", "text": "BPCO modérée à sévère", "correct": true},
+    {"id": "c", "text": "Grossesse en cours, pendant la saison grippale", "correct": true},
+    {"id": "d", "text": "Professionnel de santé en contact avec patients", "correct": true},
+    {"id": "e", "text": "Adulte de 35 ans en parfaite santé, sans aucune comorbidité", "correct": false},
+    {"id": "f", "text": "Entourage proche d'un nourrisson < 6 mois à risque", "correct": true},
+    {"id": "g", "text": "Insuffisance cardiaque chronique", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "d", "f", "g"],
+  "rationale": "Indications < 65 ans : maladies chroniques (diabète, BPCO, asthme sévère, IC, IRC, immunodépression, obésité IMC ≥ 40, cirrhose), grossesse en saison grippale (à tout terme), professionnels de santé et petite enfance, ENTOURAGE des fragiles (cocon : nourrissons < 6 mois, immunodéprimés). Un adulte en pleine forme sans FdR < 65 ans peut se faire vacciner s'il le souhaite mais ce n'est pas remboursé/ciblé.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

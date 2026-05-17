@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c1-q06b-pattern-organique",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient décrit une fatigue qui s'aggrave nettement à l'effort et qui se soulage après quelques heures de repos. Vers quelle catégorie étiologique cette anamnèse oriente-t-elle EN PRIORITÉ ?",
+  "choices": [
+    { "id": "a", "text": "Cause organique (anémie, hypothyroïdie, insuffisance cardiaque, BPCO…).", "correct": true },
+    { "id": "b", "text": "Dépression typique (cause psychique).", "correct": false },
+    { "id": "c", "text": "Syndrome de fatigue chronique (cause fonctionnelle).", "correct": false },
+    { "id": "d", "text": "Fatigue physiologique du sujet sportif.", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Le pattern \"aggravée par l'effort, soulagée par le repos\" est très évocateur d'une cause ORGANIQUE : le corps a un déficit mécanique (oxygène, hormones, énergie cellulaire), donc l'effort le creuse et le repos le recharge. À l'inverse, une fatigue constante non soulagée par le repos avec parfois des bouffées d'énergie oriente plutôt vers la dépression. C'est une heuristique gratuite et puissante.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

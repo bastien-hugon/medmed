@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c2-c06d-furosemide-cloze",
+  "kind": "cloze",
+  "prompt": "Le diurétique de l'anse le plus utilisé en IC est le ___. Il est SYMPTOMATIQUE — il n'allonge PAS la ___.",
+  "expected": ["furosémide", "survie"],
+  "rationale": "Furosémide = diurétique de l'anse de référence (bumétanide possible aussi). Décongestionne mais ne fait PAS partie des médicaments pronostiques (les 4 piliers, eux, allongent la survie : IEC, BB, MRA, SGLT2-i).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

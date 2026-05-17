@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q01-definition-drapeau-rouge",
+  "kind": "qcm-vignette",
+  "prompt": "Que signifie EXACTEMENT la présence d'un drapeau rouge en lombalgie ?",
+  "choices": [
+    { "id": "a", "text": "Que le patient a forcément une cause grave", "correct": false },
+    { "id": "b", "text": "Que la lombalgie ne peut plus être qualifiée de 'commune' et doit être EXPLORÉE (imagerie, biologie, parfois urgence)", "correct": true },
+    { "id": "c", "text": "Qu'il faut prescrire un AINS plus fort", "correct": false },
+    { "id": "d", "text": "Que le patient doit être opéré rapidement", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Drapeau rouge = ALERTE, pas certitude. Un voyant qui s'allume sur le tableau de bord : il dit 'va voir', pas 'le moteur est cassé'. Sa présence fait passer la lombalgie de 'commune' à 'à explorer' (examens complémentaires) — voire à urgence (queue de cheval).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

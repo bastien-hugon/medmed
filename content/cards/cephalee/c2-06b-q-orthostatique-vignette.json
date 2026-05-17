@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c2-q06b-orthostatique-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Patient de 32 ans, 10 jours après une rachianesthésie pour chirurgie du genou. Il décrit une céphalée occipitale et frontale qui apparaît dès qu'il se lève (en quelques minutes) et qui DISPARAÎT en quelques minutes après le décubitus. Quelle est l'hypothèse principale ?",
+  "choices": [
+    { "id": "a", "text": "Migraine sans aura déclenchée par la chirurgie", "correct": false },
+    { "id": "b", "text": "Céphalée par hypotension du LCR (brèche durale post-ponction)", "correct": true },
+    { "id": "c", "text": "Céphalée de tension liée à la convalescence", "correct": false },
+    { "id": "d", "text": "Méningite post-opératoire", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Tableau de manuel de céphalée ORTHOSTATIQUE par hypotension du LCR : apparition à l'orthostatisme, disparition au décubitus, contexte post-ponction durale (ALR rachidienne). Mécanisme : fuite de LCR par la brèche → traction des structures méningées en orthostatisme. Traitement : décubitus, caféine, hydratation, et si persistance > 48-72 h → blood patch (injection de sang autologue épidural). NICE liste la céphalée orthostatique comme drapeau rouge à explorer même hors contexte post-ponction (causes spontanées : brèche durale spontanée, syndrome d'hypotension du LCR primaire).",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

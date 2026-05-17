@@ -1,0 +1,22 @@
+{
+  "id": "saos-c2-02f-s-sct-iah-versus-temps-lit",
+  "kind": "sct",
+  "prompt": "Un patient suspect de SAOS revient avec un résultat de polygraphie ambulatoire indiquant 'IAH calculé sur temps d'enregistrement = 8/h'. Vous concluez à un SAOS léger.",
+  "hypothesis": "Cet IAH à 8/h reflète bien la sévérité réelle du SAOS du patient.",
+  "new_info": "Le patient précise qu'il était au lit 9 heures mais qu'il a très mal dormi (impression de n'avoir dormi que 4 heures, avec de longues phases d'insomnie).",
+  "expected": "affaiblit",
+  "rationale": "La polygraphie ne mesure pas l'EEG (donc pas le sommeil réel) — elle calcule l'IAH sur le TEMPS D'ENREGISTREMENT (temps au lit). Si le patient passe une grande partie de la nuit éveillé, l'IAH apparent est DILUÉ par les heures d'éveil sans événements respiratoires. Le vrai IAH (sur temps de sommeil) serait probablement plus élevé. C'est l'une des limites de la polygraphie vs polysomnographie, et l'une des indications de la polysomnographie en 2ème intention en cas de discordance clinico-polygraphique.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

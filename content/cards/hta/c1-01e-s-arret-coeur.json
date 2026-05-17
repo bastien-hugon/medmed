@@ -1,0 +1,22 @@
+{
+  "id": "hta-c1-s01-arret-coeur",
+  "kind": "sct",
+  "prompt": "Le médecin urgentiste suspecte que les organes vitaux du patient souffrent d'une mauvaise oxygénation.",
+  "hypothesis": "Mon hypothèse : il s'agit d'un arrêt cardiaque récent (le cœur ne pompe plus).",
+  "new_info": "L'infirmier rapporte que le patient n'a plus aucun pouls palpable depuis 4 minutes.",
+  "expected": "renforce",
+  "rationale": "Absence de pouls = absence de débit cardiaque efficace = le cœur ne pompe plus le sang vers les organes. Au-delà de 3-5 min sans pompe, le cerveau souffre irréversiblement. L'information renforce nettement l'hypothèse d'arrêt cardiaque. Logique du SCT : juge l'effet d'une info sur une hypothèse (renforce / affaiblit / neutre).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

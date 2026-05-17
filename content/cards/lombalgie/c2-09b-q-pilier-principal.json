@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q09-pilier-principal",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le pilier PRINCIPAL du traitement de la lombalgie commune aiguë sans drapeau rouge ?",
+  "choices": [
+    { "id": "a", "text": "Le repos au lit prolongé", "correct": false },
+    { "id": "b", "text": "La réassurance + le maintien d'activité (mouvement thérapeutique)", "correct": true },
+    { "id": "c", "text": "Les opioïdes forts en cure courte", "correct": false },
+    { "id": "d", "text": "L'infiltration épidurale immédiate", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Pilier principal HAS / NICE = RÉASSURANCE + MAINTIEN D'ACTIVITÉ. Les médicaments sont accessoires (AINS courts pour soulager, à dose minimale efficace). Le repos au lit, les opioïdes en 1ère ligne et l'infiltration sont à l'opposé des recommandations actuelles.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "irc-c2-m04-iec-indications",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations dans lesquelles un IEC ou un ARA2 est INDIQUÉ chez un patient avec MRC selon NICE NG203.",
+  "choices": [
+    { "id": "a", "text": "Diabète + ACR ≥ 3 mg/mmol (microalbuminurie ou plus)", "correct": true },
+    { "id": "b", "text": "Pas de diabète + HTA + ACR > 30 mg/mmol", "correct": true },
+    { "id": "c", "text": "Pas de diabète + pas d'HTA + ACR ≥ 70 mg/mmol", "correct": true },
+    { "id": "d", "text": "Patient non diabétique + ACR à 5 mg/mmol + PA normale", "correct": false },
+    { "id": "e", "text": "Associer un IEC ET un ARA2 simultanément pour un double effet protecteur", "correct": false },
+    { "id": "f", "text": "Diabétique + DFG > 90 + ACR à 4 mg/mmol", "correct": true },
+    { "id": "g", "text": "Initier un IEC chez un patient avec kaliémie de base à 5,3 mmol/L", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "f"],
+  "rationale": "Les trois indications NICE sont basées sur ACR + comorbidités : diabète dès ACR ≥ 3 ; non-diabétique + HTA dès ACR > 30 ; non-diabétique sans HTA dès ACR ≥ 70. Le double blocage IEC+ARA2 est CONTRE-INDIQUÉ (essais ONTARGET, ALTITUDE : pas de bénéfice, plus d'effets indésirables). Et on ne débute PAS un IEC si K+ pré-traitement > 5,0 mmol/L (risque d'hyperkaliémie sévère) — il faut corriger d'abord.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

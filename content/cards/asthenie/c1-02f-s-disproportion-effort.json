@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c1-s02f-disproportion-effort",
+  "kind": "sct",
+  "prompt": "Une patiente de 30 ans, en bonne santé apparente, consulte pour une fatigue. Vous penchez en faveur d'une fatigue PHYSIOLOGIQUE liée à un mode de vie chargé.",
+  "hypothesis": "Cette fatigue est physiologique et ne nécessite pas de bilan.",
+  "new_info": "À l'interrogatoire, elle vous dit : \"je suis épuisée alors que je ne fais quasiment rien, et même un week-end entier de repos ne me récupère pas.\"",
+  "expected": "affaiblit",
+  "rationale": "Deux critères pathologiques sont allumés : DISPROPORTION par rapport à l'activité ET PERSISTANCE malgré le repos. Cette nouvelle information affaiblit clairement l'hypothèse \"physiologique\" et oriente vers une exploration de cause organique, psychique, ou fonctionnelle. Un bilan biologique de 1ère intention devient raisonnable.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

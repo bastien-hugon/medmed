@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q06e-patiente-veut-arreter-mammo",
+  "kind": "qcm-vignette",
+  "prompt": "Madame M., 65 ans, sans antécédent personnel, a lu un article sur le surdiagnostic en mammographie et vient vous voir : 'Docteur, je ne veux plus faire ma mammographie de dépistage, ça ne sert à rien.' Quelle est la meilleure attitude ?",
+  "choices": [
+    { "id": "a", "text": "L'envoyer faire la mammographie de force : 'c'est obligatoire dans le programme'", "correct": false },
+    { "id": "b", "text": "Lui dire qu'elle a raison, le dépistage ne marche pas", "correct": false },
+    { "id": "c", "text": "Reconnaître la complexité (oui, surdiagnostic possible), rappeler le bénéfice de mortalité moyen (modeste mais réel), et l'aider à faire un CHOIX ÉCLAIRÉ personnel, sans la culpabiliser", "correct": true },
+    { "id": "d", "text": "Lui proposer une IRM mammaire annuelle à la place, c'est plus précis", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Le dépistage organisé n'est PAS obligatoire (a, faux et infantilisant). Mais il a un bénéfice de mortalité PROUVÉ (b, simplifié à l'excès). Le rôle du généraliste : INFORMER honnêtement, sans minimiser le surdiagnostic ni sur-vendre le dépistage. La patiente est ADULTE et peut décider en connaissance de cause. L'IRM (d) n'est pas un outil de dépistage en population générale (trop sensible, trop chère, beaucoup de faux positifs) — ce serait remplacer un problème par un autre. La bonne posture : 'voilà ce qu'on sait de mieux, voilà ce qui reste incertain, voilà votre marge de manœuvre'.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Surdiagnostic",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

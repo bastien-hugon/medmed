@@ -1,0 +1,26 @@
+{
+  "id": "depression-c1-q04d-duree-trop-courte-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Jean, 32 ans, vient consulter. Depuis 6 jours, il a une humeur triste persistante, ne dort plus, n'a plus d'appétit, ne va plus au travail. Il a appris il y a une semaine qu'il était licencié. Quelle est l'attitude la plus juste ?",
+  "choices": [
+    { "id": "a", "text": "Diagnostic d'EDC et prescription d'un ISRS immédiate", "correct": false },
+    { "id": "b", "text": "Tableau évocateur mais critère temporel non rempli (durée < 2 sem). Trouble de l'adaptation probable. Réévaluer à 2-3 sem, soutien psychologique, suivi.", "correct": true },
+    { "id": "c", "text": "Banaliser : \"vous trouverez un autre travail\"", "correct": false },
+    { "id": "d", "text": "Hospitalisation en urgence", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Critère temporel non rempli (6 jours < 2 semaines). On n'enclenche PAS un EDC sur une réaction aiguë à un événement stressant. C'est plutôt un trouble de l'adaptation avec humeur dépressive. Conduite : soutien, psychoéducation, revoir à 2-3 sem. Si persistance ≥ 2 sem avec critères réunis → bascule vers EDC. Ne pas sur-traiter ni banaliser.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

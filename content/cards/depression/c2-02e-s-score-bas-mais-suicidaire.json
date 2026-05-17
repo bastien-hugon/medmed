@@ -1,0 +1,22 @@
+{
+  "id": "depression-c2-s02e-score-bas-mais-suicidaire",
+  "kind": "sct",
+  "prompt": "M. Lefèvre, 35 ans, a un PHQ-9 à 14 (less severe). Vous envisagez de proposer en 1ère intention un self-help guidé sans antidépresseur, conformément à NICE 2022.",
+  "hypothesis": "Prise en charge type \"less severe\" : self-help guidé en 1ère intention, pas d'antidépresseur.",
+  "new_info": "En consultation, il rapporte des idées suicidaires actives avec plan envisagé (sauter sous le métro) et accès aux moyens. Pas d'antécédent de TS mais désespoir massif.",
+  "expected": "affaiblit",
+  "rationale": "Le score PHQ-9 (14) classe initialement en less severe, mais la présence d'idées suicidaires ACTIVES avec PLAN et MOYENS impose de traiter ce patient comme more severe — voire d'envisager une orientation vers la psychiatrie / urgences. NICE et le jugement clinique convergent : le score n'est PAS la décision finale. L'hypothèse \"self-help suffit\" est AFFAIBLIE. Conduite : évaluation immédiate du risque, mobilisation entourage, retrait des moyens, AD + suivi rapproché (1 sem), avis spécialisé, 3114.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 351],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q07d-hpv-age-cible",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est l'âge cible recommandé en France pour la primo-vaccination HPV (filles ET garçons) ?",
+  "choices": [
+    { "id": "a", "text": "À la naissance", "correct": false },
+    { "id": "b", "text": "Vers 11-14 ans, idéalement avant les premiers rapports", "correct": true },
+    { "id": "c", "text": "À partir de 18 ans uniquement", "correct": false },
+    { "id": "d", "text": "Après le premier rapport sexuel", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Vaccination HPV : recommandée idéalement à 11-14 ans, c'est-à-dire AVANT les premiers rapports sexuels (donc avant l'exposition au virus). Filles ET garçons (recommandation étendue aux garçons depuis 2021). Campagne en milieu scolaire de 5ème depuis 2023 (programme gratuit, à 11-13 ans). Rattrapage possible jusqu'à 19 ans révolus, et jusqu'à 26 ans pour HSH.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie", "pediatrie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

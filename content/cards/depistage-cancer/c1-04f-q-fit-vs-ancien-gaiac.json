@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c1-q04f-fit-vs-ancien-gaiac",
+  "kind": "qcm-vignette",
+  "prompt": "Le test immunologique fécal (FIT) a remplacé en France l'ancien test au gaïac (Hemoccult II) en 2015. Quel est l'AVANTAGE principal du FIT par rapport à l'ancien test ?",
+  "choices": [
+    { "id": "a", "text": "Le FIT donne un résultat immédiatement à domicile, sans envoi au laboratoire", "correct": false },
+    { "id": "b", "text": "Le FIT est spécifique de l'hémoglobine HUMAINE et plus sensible, sans exiger de régime alimentaire préalable", "correct": true },
+    { "id": "c", "text": "Le FIT remplace la coloscopie en cas de résultat positif", "correct": false },
+    { "id": "d", "text": "Le FIT élargit le dépistage à tous les adultes de 18 à 80 ans", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'ancien test au gaïac détectait toute hémoglobine (humaine OU animale, ou même certaines peroxydases végétales — radis, raifort, navet). D'où des restrictions alimentaires contraignantes 3 jours avant (pas de viande rouge, etc.) et beaucoup de faux positifs et faux négatifs. Le FIT, basé sur des anticorps spécifiques de l'hémoglobine humaine, est plus sensible (capte plus de vrais cancers) ET plus simple (aucun régime). C'est pour ces deux raisons combinées qu'il a été préféré en routine. (a) faux : l'envoi au labo est obligatoire. (c) faux : la coloscopie reste l'étape diagnostique après FIT positif. (d) faux : la tranche d'âge cible n'a pas changé (50-74 ans).",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://en.wikipedia.org/wiki/Fecal_immunochemical_test",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

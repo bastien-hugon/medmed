@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c1-s03f-tension-soudain-cluster",
+  "kind": "sct",
+  "prompt": "Patient de 38 ans, suivi pour 'céphalée de tension chronique' depuis 3 ans (douleurs bilatérales en bandeau, légères à modérées). Vous évoquez la poursuite du diagnostic de céphalée de tension. Comment cette nouvelle information modifie-t-elle votre hypothèse ?",
+  "hypothesis": "Il s'agit toujours d'une céphalée de tension chronique chez ce patient connu.",
+  "new_info": "Le patient revient en urgence : depuis 2 semaines il présente, pour la première fois, des accès STRICTEMENT unilatéraux droits péri-orbitaires, durant 1 h, plusieurs par jour, avec œil droit rouge larmoyant et narine droite bouchée. Pendant la crise il est agité, marche.",
+  "expected": "affaiblit",
+  "rationale": "Le nouveau pattern (unilatéral strict, péri-orbitaire, ultra-bref, multi-quotidien, signes autonomiques homolatéraux, agitation) est typique d'une algie vasculaire de la face. Il s'agit probablement d'une CÉPHALÉE PRIMAIRE NOUVELLE (l'AVF) qui s'ajoute à la tension chronique pré-existante — ce n'est PAS une 'tension qui change'. Cette nouvelle céphalée doit aussi déclencher la recherche de red flags (1er bout d'AVF justifie souvent une imagerie). L'information affaiblit l'hypothèse 'tension simple persistante'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "avf"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

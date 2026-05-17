@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c2-s02f-aura-sans-cephalee",
+  "kind": "sct",
+  "prompt": "Femme de 55 ans, migraineuse avec aura visuelle (scotome scintillant typique) depuis 30 ans. Vous suspectez une persistance de ses migraines avec aura. Comment cette nouvelle information modifie-t-elle votre hypothèse ?",
+  "hypothesis": "Il s'agit toujours d'auras migraineuses typiques.",
+  "new_info": "La patiente précise que depuis 2 ans, elle ne fait PLUS de céphalée après l'aura. Le scotome scintillant survient seul, identique à celui qu'elle connaît depuis 30 ans, dure 20 min, totalement réversible, sans aucun autre symptôme.",
+  "expected": "neutre",
+  "rationale": "Il existe une entité ICHD-3 : l'AURA TYPIQUE SANS CÉPHALÉE (ex 'migraine équivalent') — fréquente avec l'âge chez les migraineuses connues. Si la cinétique est strictement identique à l'aura habituelle, c'est rassurant. CEPENDANT : une 'aura sans céphalée' qui apparaît pour la PREMIÈRE FOIS chez un patient non migraineux ou > 40 ans doit faire éliminer un AIT (bilan vasculaire + IRM). Ici, contexte connu et inchangé = neutre, on peut surveiller cliniquement. Si l'aura change ou s'allonge, refaire un bilan.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

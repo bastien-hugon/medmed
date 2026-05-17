@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c2-m02-risque-tres-eleve",
+  "kind": "qcm-multi",
+  "prompt": "Cochez toutes les situations qui placent AUTOMATIQUEMENT un patient en RISQUE CV TRÈS ÉLEVÉ (sans avoir besoin de calculer le score).",
+  "choices": [
+    { "id": "a", "text": "Antécédent d'infarctus du myocarde.", "correct": true },
+    { "id": "b", "text": "Antécédent d'AVC ischémique ou d'AIT.", "correct": true },
+    { "id": "c", "text": "AOMI (artériopathie oblitérante des membres inférieurs).", "correct": true },
+    { "id": "d", "text": "Diabète avec complication d'organe (rétinopathie, néphropathie...).", "correct": true },
+    { "id": "e", "text": "Insuffisance rénale chronique sévère.", "correct": true },
+    { "id": "f", "text": "HTA légère contrôlée par les RHD chez un patient de 50 ans.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Toute maladie CV AVÉRÉE (infarctus, AVC, AIT, AOMI, revascularisation) = prévention SECONDAIRE = RISQUE TRÈS ÉLEVÉ d'emblée, sans calcul. Idem pour le diabète COMPLIQUÉ et l'insuffisance rénale chronique sévère. Inutile de re-calculer SCORE2 : la décision (statine haute intensité, cible LDL ≤ 2,0 mmol/L) est automatique. Une HTA légère contrôlée seule n'atteint pas ce niveau.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

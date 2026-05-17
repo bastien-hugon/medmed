@@ -1,0 +1,20 @@
+{
+  "id": "gyneco-prevention-c1-q03d-double-protection-cloze",
+  "kind": "cloze",
+  "prompt": "La 'double protection' consiste à associer une contraception efficace (ex. pilule, DIU, implant) AVEC un ___ pour couvrir à la fois le risque de grossesse ET le risque d'IST.",
+  "expected": ["préservatif"],
+  "rationale": "Double protection = pilule (ou autre contraception efficace) + préservatif. Recommandée systématiquement avec un nouveau partenaire ou en cas de partenaires multiples, tant que le dépistage IST des deux partenaires n'a pas été fait. Le préservatif est le SEUL moyen contraceptif qui fait barrière à la fois aux spermatozoïdes ET aux microbes.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

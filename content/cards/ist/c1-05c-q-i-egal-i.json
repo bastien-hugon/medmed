@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q05c-i-egal-i",
+  "kind": "qcm-vignette",
+  "prompt": "Le concept 'I=I' (Indétectable = Intransmissible) pour le VIH signifie :",
+  "choices": [
+    { "id": "a", "text": "Un patient VIH+ guéri n'est plus contagieux", "correct": false },
+    { "id": "b", "text": "Un patient VIH+ sous antirétroviraux avec charge virale indétectable depuis ≥ 6 mois ne transmet plus le virus sexuellement", "correct": true },
+    { "id": "c", "text": "Un test VIH indétectable signifie absence d'infection", "correct": false },
+    { "id": "d", "text": "Toutes les IST deviennent indétectables après traitement", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "I = I (Indétectable = Intransmissible) : un patient VIH+ sous antirétroviraux efficaces, avec une charge virale plasmatique indétectable depuis ≥ 6 mois, NE TRANSMET PAS le VIH sexuellement (données 2016+, études PARTNER, Opposites Attract). Révolution majeure : le traitement protège le patient ET la communauté. Attention : indétectable ≠ guéri (le virus reste latent dans les réservoirs), et I=I ne protège pas des autres IST.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

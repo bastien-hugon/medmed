@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c1-s02-vih-reponse-vaccinale",
+  "kind": "sct",
+  "prompt": "Vous suivez un patient VIH+ traité, dont les CD4 récents sont à 180/mm3 (bas). Il doit recevoir une vaccination inactivée importante.",
+  "hypothesis": "Mon hypothèse : sa réponse vaccinale sera robuste, comparable à celle d'un patient immunocompétent.",
+  "new_info": "Vous savez que les CD4 (cellules T auxiliaires) sont effondrés et que ce sont précisément elles qui orchestrent la réponse vaccinale.",
+  "expected": "affaiblit",
+  "rationale": "Les lymphocytes T CD4 (auxiliaires) sont les chefs d'orchestre de la réponse immunitaire : ils activent les lymphocytes B (production d'anticorps) ET les T cytotoxiques. Quand ils sont effondrés (VIH avancé, CD4 < 200), la réponse vaccinale est diminuée — d'où l'intérêt de vacciner précocement, de surveiller les sérologies post-vaccinales et parfois de revacciner. L'information AFFAIBLIT l'hypothèse d'une réponse normale.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "immunodepression"],
+    "item_edn": [143, 187],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Immunit%C3%A9_acquise",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

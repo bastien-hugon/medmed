@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q08d-ept-acronyme",
+  "kind": "qcm-vignette",
+  "prompt": "L'EPT (Expedited Partner Therapy) consiste à :",
+  "choices": [
+    { "id": "a", "text": "Hospitaliser en urgence le partenaire", "correct": false },
+    { "id": "b", "text": "Remettre au patient diagnostiqué l'ordonnance ou les médicaments pour son partenaire, sans consultation préalable du partenaire", "correct": true },
+    { "id": "c", "text": "Un traitement antiviral par voie intraveineuse", "correct": false },
+    { "id": "d", "text": "Une exonération du paiement du dépistage", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "EPT (Expedited Partner Therapy) = traitement présomptif accéléré du partenaire : le patient indexe reçoit une ordonnance (ou directement les médicaments) à remettre au partenaire qui n'est pas vu en consultation. Pratique nord-américaine, encadrée variablement en France. Réduit la réinfection chez les femmes. Plus controversée pour syphilis ou gonocoque où on préfère une évaluation médicale. Solution pragmatique quand le partenaire ne viendrait pas spontanément.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

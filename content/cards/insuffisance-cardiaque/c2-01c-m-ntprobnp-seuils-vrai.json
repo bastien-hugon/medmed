@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m01c-ntprobnp-seuils-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES sur les seuils décisionnels du NT-proBNP (NICE NG106, patient symptomatique non traité).",
+  "choices": [
+    { "id": "a", "text": "> 2000 ng/L → référence urgente pour écho dans les 2 semaines", "correct": true },
+    { "id": "b", "text": "400 – 2000 ng/L → référence pour écho dans les 6 semaines", "correct": true },
+    { "id": "c", "text": "< 400 ng/L → IC peu probable (patient non traité)", "correct": true },
+    { "id": "d", "text": "Le seuil unique d'IC est fixé à 100 ng/L", "correct": false },
+    { "id": "e", "text": "Les seuils s'interprètent indépendamment du contexte clinique", "correct": false },
+    { "id": "f", "text": "Le NT-proBNP remplace l'échographie cardiaque dans le diagnostic", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Trois seuils NICE : > 2000 = URGENT (< 2 sem), 400-2000 = non urgent (< 6 sem), < 400 = peu probable. À TOUJOURS interpréter avec le contexte (obésité, IRC, traitement…). Le NT-proBNP est un TRI, pas un diagnostic — l'écho reste obligatoire pour confirmer.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

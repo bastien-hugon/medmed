@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c2-q09-pcsk9-mecanisme-cloze",
+  "kind": "cloze",
+  "prompt": "La protéine PCSK9 ___ les récepteurs au LDL à la surface des hépatocytes. Les anti-PCSK9 (alirocumab, evolocumab) la ___, ce qui augmente le nombre de récepteurs LDL actifs et fait baisser le LDL sanguin de 50-60 %.",
+  "expected": ["dégrade", "bloquent"],
+  "rationale": "La PCSK9 (proprotein convertase subtilisin/kexin type 9) DÉGRADE les récepteurs LDL hépatiques (moins de récepteurs = plus de LDL en circulation). Les anti-PCSK9 (alirocumab — Praluent®, evolocumab — Repatha®) sont des anticorps monoclonaux qui la BLOQUENT → plus de récepteurs LDL actifs → capture massive du LDL → baisse de 50-60 % EN PLUS de la statine. Injection sous-cutanée 2x/mois. Inclisiran (ARN interférent) = 2 injections/an.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

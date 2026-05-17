@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q02e-cycle-corps-jaune",
+  "kind": "qcm-vignette",
+  "prompt": "Après l'ovulation, le follicule vidé se transforme en CORPS JAUNE. Quelle est sa fonction principale ?",
+  "choices": [
+    { "id": "a", "text": "Il fabrique l'ovule suivant.", "correct": false },
+    { "id": "b", "text": "Il sécrète de la progestérone pendant la phase lutéale ; sa mort (en l'absence de grossesse) provoque la chute hormonale et les règles.", "correct": true },
+    { "id": "c", "text": "Il sécrète des œstrogènes uniquement.", "correct": false },
+    { "id": "d", "text": "Il déclenche directement l'accouchement.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le corps jaune (corpus luteum) est le 'reliquat' du follicule après ovulation. Il sécrète la progestérone qui prépare l'endomètre à une nidation. Si pas de grossesse : il dégénère en ~14 jours, la progestérone chute brutalement, et la muqueuse utérine se détache = règles. Si grossesse : l'embryon sécrète l'hCG qui 'maintient' le corps jaune jusqu'à ce que le placenta prenne le relais (~10e semaine). Bonus : c'est cette hCG que détectent les tests de grossesse.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

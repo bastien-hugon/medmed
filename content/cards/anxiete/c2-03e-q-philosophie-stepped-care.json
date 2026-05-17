@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q03e-philosophie-stepped-care",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la philosophie centrale du modèle 'stepped care' de NICE pour la prise en charge du TAG ?",
+  "choices": [
+    { "id": "a", "text": "Prescrire d'emblée le traitement le plus puissant pour gagner du temps", "correct": false },
+    { "id": "b", "text": "Commencer par l'intervention la MOINS INVASIVE et n'escalader QUE si nécessaire", "correct": true },
+    { "id": "c", "text": "Combiner systématiquement psychothérapie + médicament dès le début", "correct": false },
+    { "id": "d", "text": "Adresser tous les patients à un psychiatre dès l'évaluation initiale", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le stepped care est une PHILOSOPHIE : ne pas sur-traiter, respecter le rythme du patient, privilégier le moins invasif efficace, escalader graduellement si insuffisant. C'est l'inverse du réflexe 'prescrire fort tout de suite' et du réflexe 'orienter spécialiste d'emblée'. Exception : si signaux de gravité (idées suicidaires, retentissement massif, échec de plusieurs interventions) → escalade rapide à l'étape 4 (soins spécialisés). Bénéfice : moins d'effets secondaires médicamenteux, plus d'autonomie patient, prise en charge plus large des formes légères qui sont les plus fréquentes.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

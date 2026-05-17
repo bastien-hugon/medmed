@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q11-3-groupes-stratification",
+  "kind": "qcm-vignette",
+  "prompt": "Combien de groupes de risque le score STarT Back distingue-t-il, et à quoi correspondent-ils ?",
+  "choices": [
+    { "id": "a", "text": "2 groupes : 'risque faible' et 'risque élevé'", "correct": false },
+    { "id": "b", "text": "3 groupes : risque FAIBLE / MOYEN / ÉLEVÉ, avec une intensité de PEC croissante", "correct": true },
+    { "id": "c", "text": "5 groupes selon l'intensité de la douleur (EVA 1 à 5)", "correct": false },
+    { "id": "d", "text": "1 score binaire douleur aiguë / chronique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "STarT Back classe en 3 groupes : faible (PEC simple, réassurance + activité), moyen (ajouter kiné active), élevé (kiné + approche cognitivo-comportementale + suivi rapproché). Idée : adapter l'intensité du traitement au risque, plutôt que de tout faire à tout le monde.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendations",
+    "version": "2016 amended 2020"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "irc-c1-cz04-stade-mrc-duree",
+  "kind": "cloze",
+  "prompt": "Complète : « Un DFG < 60 mL/min/1,73 m² ne définit une MRC que s'il est confirmé pendant plus de ___ mois ; en deçà, il faut envisager une cause aiguë et réversible. »",
+  "expected": ["3", "trois", "3 mois", "trois mois"],
+  "rationale": "Critère KDIGO de chronicité = anomalie rénale (DFG bas OU marqueur d'atteinte rénale comme l'ACR ≥ 3, hématurie, anomalie structurale, etc.) PERSISTANTE au-delà de 3 mois. En deçà : on parle de baisse aiguë du DFG / IRA, et on cherche une cause réversible (déshydratation, infection, médicament néphrotoxique, obstruction).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c2-q04d-ferritine-pourquoi",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi inclut-on systématiquement la FERRITINE dans le bilan de 1ère intention d'une asthénie, alors qu'on a déjà la NFS ?",
+  "choices": [
+    { "id": "a", "text": "Parce qu'elle dose la ferritine, qui est le seul facteur d'érythropoïèse en cas d'anémie.", "correct": false },
+    { "id": "b", "text": "Parce qu'une carence martiale peut donner une asthénie AVANT que l'hémoglobine ne baisse, et la ferritine est le meilleur reflet des réserves en fer.", "correct": true },
+    { "id": "c", "text": "Parce que la ferritine remplace utilement la TSH chez la femme jeune.", "correct": false },
+    { "id": "d", "text": "Parce qu'elle est augmentée dans toutes les anémies, ce qui aide au diagnostic.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La carence martiale peut induire une asthénie AVANT que l'anémie ne s'installe (\"asthénie martiale\"), surtout chez la femme en âge de procréer (règles abondantes), la femme enceinte, l'adolescent en croissance, le sportif d'endurance, le végétalien. La NFS peut être normale alors que les réserves de fer sont vides — d'où l'intérêt de doser la FERRITINE. Une ferritine basse (< 30 ng/mL généralement) authentifie la carence.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

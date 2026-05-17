@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c2-q01d-feno-sous-ics",
+  "kind": "qcm-vignette",
+  "prompt": "Patient de 38 ans, sous budésonide inhalé 200 µg × 2/j depuis 4 ans pour une suspicion d'asthme (jamais confirmée par test objectif). Vous mesurez son FeNO : 18 ppb. Comment interpréter ?",
+  "choices": [
+    { "id": "a", "text": "FeNO < 50 ppb → asthme formellement éliminé, on arrête le traitement.", "correct": false },
+    { "id": "b", "text": "FeNO normal sous ICS au long cours = interprétation NON FIABLE ; ne rassure pas, ne confirme pas l'absence d'asthme.", "correct": true },
+    { "id": "c", "text": "On augmente la dose d'ICS car le FeNO est trop bas.", "correct": false },
+    { "id": "d", "text": "Le FeNO ne dépend pas du traitement, l'interprétation est inchangée.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les ICS éteignent l'inflammation éosinophilique des bronches → FeNO baisse. Donc un FeNO normal CHEZ UN PATIENT SOUS ICS n'élimine pas l'asthme. Conduite NG245 : si on veut vraiment refaire le diag (suspicion d'erreur d'étiquetage), discuter un retrait progressif des ICS sous surveillance + retester FeNO/éosinos après quelques semaines. Surtout ne pas arrêter brutalement.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

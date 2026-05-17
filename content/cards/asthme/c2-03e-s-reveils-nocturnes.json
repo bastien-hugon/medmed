@@ -1,0 +1,22 @@
+{
+  "id": "asthme-c2-s03-reveils-nocturnes",
+  "kind": "sct",
+  "prompt": "Vous suivez une patiente de 26 ans pour suspicion d'asthme depuis 3 mois. Spirométrie normale, FeNO 28 ppb.",
+  "hypothesis": "Mon hypothèse : il s'agit quand même d'un asthme (étapes 1 et 2 négatives mais clinique évocatrice).",
+  "new_info": "Elle vous décrit des réveils nocturnes 2 fois par semaine avec toux et oppression, qui cèdent après salbutamol pris à 3 h du matin.",
+  "expected": "renforce",
+  "rationale": "Les SYMPTÔMES NOCTURNES sont très évocateurs d'asthme (tonus vagal nocturne, exposition aux acariens du lit, drainage muqueux moindre). Leur SOULAGEMENT par salbutamol est un argument supplémentaire de réversibilité indirecte. Cela renforce l'hypothèse et justifie de pousser jusqu'à l'étape 3 (DEP biquotidien × 2 sem) — d'autant que les variations nocturnes/matinales du DEP devraient se manifester clairement.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

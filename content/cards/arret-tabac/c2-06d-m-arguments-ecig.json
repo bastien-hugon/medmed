@@ -1,0 +1,29 @@
+{
+  "id": "arret-tabac-c2-m06d-arguments-ecig",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les arguments CONTRE l'utilisation systématique de la cigarette électronique dans le sevrage tabagique.",
+  "choices": [
+    {"id": "a", "text": "Recul insuffisant sur les effets à long terme (10-20 ans)", "correct": true},
+    {"id": "b", "text": "Risque d'entrée dans la nicotine pour les jeunes non-fumeurs (effet passerelle)", "correct": true},
+    {"id": "c", "text": "Cas d'EVALI (Lipoid pneumonia, États-Unis 2019) liés à des e-liquides frelatés", "correct": true},
+    {"id": "d", "text": "Maintien de l'addiction à la nicotine (substitution sans sevrage final)", "correct": true},
+    {"id": "e", "text": "Risque de double consommation tabac + vape qui cumule les risques", "correct": true},
+    {"id": "f", "text": "Production massive de monoxyde de carbone et de goudrons à la vapotage", "correct": false},
+    {"id": "g", "text": "Equivalence prouvée avec le tabac classique en termes de cancers", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Arguments contre une utilisation systématique : recul scientifique limité, effet passerelle chez les jeunes, accidents (EVALI lié à e-liquides illicites au THC), persistance de l'addiction nicotinique, double consommation. En revanche, la vape NE produit PAS de CO ni de goudrons (avantage majeur), et n'a PAS été montrée équivalente au tabac classique en termes de cancers (probablement très inférieure, sans qu'on ait le recul total). Position française : harm reduction OUI, prescription d'office NON.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-f06-sglt2-suspension",
+  "kind": "free-recall",
+  "prompt": "Cite les situations dans lesquelles il faut SUSPENDRE temporairement un SGLT2-i et explique pourquoi.",
+  "expected": [
+    "chirurgie majeure / anesthésie générale (suspendre la veille ou ≥ 3 jours avant selon la molécule) — risque d'acidocétose péri-opératoire",
+    "jeûne prolongé volontaire (Ramadan strict, jeûne thérapeutique) — risque acidocétose",
+    "infection sévère / sepsis — risque déshydratation et acidocétose",
+    "gastro-entérite avec déshydratation — risque IRA fonctionnelle aggravée",
+    "vomissements ou diarrhée prolongés (sick day rules) — même logique"
+  ],
+  "rationale": "Concept des 'sick day rules' : on suspend les SGLT2-i (et aussi metformine et IEC/ARA2 selon le cas) quand le patient est déshydraté ou risque l'acidocétose. À enseigner au patient à l'initiation : 'Si vous êtes très malade, ne pouvez plus manger ni boire, vomissez : arrêtez votre médicament 24-48 h et consultez'. Mnémo SADMANS (anglais) : Sulfonylureas, ACEi, Diuretics, Metformin, ARB, NSAIDs, SGLT2.",
+  "tags": {
+    "system": ["nephrologie", "endocrinologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "diabete", "iatrogenie"],
+    "item_edn": [261, 264, 245, 326],
+    "cnge_family": ["chroniques", "urgences"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

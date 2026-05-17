@@ -1,0 +1,28 @@
+{
+  "id": "arret-tabac-c2-m01d-paliers-fagerstrom",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les correspondances CORRECTES entre score de Fagerström et niveau de dépendance.",
+  "choices": [
+    {"id": "a", "text": "0-2 → pas de dépendance physique", "correct": true},
+    {"id": "b", "text": "3-4 → dépendance FAIBLE", "correct": true},
+    {"id": "c", "text": "5-6 → dépendance MOYENNE", "correct": true},
+    {"id": "d", "text": "7-10 → dépendance FORTE", "correct": true},
+    {"id": "e", "text": "0-5 → dépendance faible, 6-10 → dépendance forte (deux paliers seulement)", "correct": false},
+    {"id": "f", "text": "0-10 = échelle de motivation à arrêter", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Quatre paliers du Fagerström : 0-2 (rien), 3-4 (faible), 5-6 (moyenne), 7-10 (forte). Chaque palier oriente la conduite à tenir (NRT en option, recommandé, ou obligatoire à dose pleine). Le Fagerström n'est PAS une échelle de motivation (pour ça : Prochaska, Q-MAT).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "gyneco-prevention-c2-m01d-oestro-ci",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les situations qui sont une CONTRE-INDICATION aux œstro-progestatifs (pilule combinée, patch, anneau).",
+  "choices": [
+    { "id": "a", "text": "Tabagisme > 35 ans", "correct": true },
+    { "id": "b", "text": "Migraine AVEC aura", "correct": true },
+    { "id": "c", "text": "Antécédent personnel de thrombose veineuse profonde / embolie pulmonaire", "correct": true },
+    { "id": "d", "text": "HTA sévère mal contrôlée", "correct": true },
+    { "id": "e", "text": "Antécédent de cancer du sein", "correct": true },
+    { "id": "f", "text": "Migraine SANS aura à 20 ans", "correct": false },
+    { "id": "g", "text": "Acné modérée", "correct": false },
+    { "id": "h", "text": "Nulliparité", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "CI MAJEURES aux œstro-progestatifs (à retenir bloc) : tabac > 35 ans (risque thrombotique), migraine AVEC aura (AVC ischémique), ATCD TEV personnel/familial proche, HTA sévère/non contrôlée, cancer du sein ATCD, hépatopathie sévère, post-partum < 6 semaines (surtout si allaitement). Migraine SANS aura n'est PAS une CI absolue (juste une précaution chez la femme jeune sans autre facteur de risque). L'acné est même parfois améliorée par certaines pilules. La nulliparité n'est PAS une CI.",
+  "tags": {
+    "system": ["gynecologie-urologie", "cardiovasculaire"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 224, 226],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

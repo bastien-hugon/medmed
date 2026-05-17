@@ -1,0 +1,22 @@
+{
+  "id": "irc-c1-s08-symptomes-tardifs",
+  "kind": "sct",
+  "prompt": "M. K., 60 ans, diabétique de longue date. Il consulte pour une fatigue invalidante, des démangeaisons diffuses, et la mousse persistante dans ses toilettes le matin. Vous évoquez une MRC avancée.",
+  "hypothesis": "Le tableau clinique de M. K. évoque une MRC arrivée à un stade avancé (G4-G5) avec protéinurie franche.",
+  "new_info": "Le bilan revient : créat 320 µmol/L, eGFR 18 mL/min, ACR 180 mg/mmol, Hb 9,5 g/dL.",
+  "expected": "renforce",
+  "rationale": "Tableau cohérent : fatigue (anémie + urémie), prurit (urémie), mousse urinaire (protéinurie franche). Les valeurs confirment : eGFR 18 = G4 ; ACR 180 = A3 ; anémie probablement par déficit d'EPO. L'information renforce franchement l'hypothèse d'une MRC avancée (G4 A3) — situation qui justifie une orientation néphrologue pour préparer la suppléance, et éventuellement EPO recombinante, vitamine D active, IEC/ARA2 si non encore en place.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

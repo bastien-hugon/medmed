@@ -1,0 +1,20 @@
+{
+  "id": "ist-c2-c08c-abstinence-cloze",
+  "kind": "cloze",
+  "prompt": "Après TT par dose unique d'azithromycine, abstinence sexuelle pendant ___ jours après la prise. Après TT par cure de doxycycline 7 jours, abstinence pendant toute la cure ET ___ jours après la dernière prise. ET tant que les ___ ne sont pas traités.",
+  "expected": ["7", "7", "partenaires"],
+  "rationale": "Règle d'abstinence : 7 jours après dose unique (azithromycine) ; cure complète + 7 jours après la dernière prise (doxycycline). ET tant que les partenaires ne sont pas traités, sinon ping-pong (réinfection mutuelle immédiate). Objectif double : protéger le partenaire en cours de traitement et casser la chaîne de transmission.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

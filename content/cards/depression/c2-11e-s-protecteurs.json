@@ -1,0 +1,22 @@
+{
+  "id": "depression-c2-s11e-protecteurs",
+  "kind": "sct",
+  "prompt": "Mme Roux, 60 ans, EDC sévère avec idées suicidaires passives mais sans plan. Vous envisagez une orientation en URGENCE en psychiatrie pour évaluation hospitalière.",
+  "hypothesis": "Orientation aux urgences psychiatriques pour évaluation et hospitalisation potentielle.",
+  "new_info": "Vous apprenez qu'elle vit avec son mari très présent et son petit-fils de 8 ans qu'elle garde la semaine, qu'elle est très impliquée dans son association de quartier, qu'elle accepte volontiers le suivi ambulatoire rapproché, et qu'elle n'a aucun antécédent de TS ni d'idéation active.",
+  "expected": "affaiblit",
+  "rationale": "Multiples facteurs PROTECTEURS présents : entourage présent (mari, petit-fils), engagement social (association), responsabilités (garde de l'enfant), alliance thérapeutique (accepte le suivi), absence d'ATCD de TS, idéation passive seulement. Le tableau ne justifie PAS une orientation aux urgences psychiatriques. L'hypothèse est AFFAIBLIE. Conduite : prise en charge ambulatoire structurée — suivi rapproché (1-2 sem), initiation AD si indiqué, info entourage, 3114 communiqué, plan de sécurité. Réévaluer si évolution défavorable.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 351],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

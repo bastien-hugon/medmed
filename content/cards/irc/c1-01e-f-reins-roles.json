@@ -1,0 +1,26 @@
+{
+  "id": "irc-c1-f01-reins-roles",
+  "kind": "free-recall",
+  "prompt": "Liste les 5 grandes fonctions du rein qui expliquent pourquoi une maladie rénale chronique touche bien plus que le simple débit d'urine.",
+  "expected": [
+    "filtration du sang / élimination des déchets / production d'urine",
+    "régulation de l'eau et du sel / équilibre hydro-électrolytique",
+    "régulation de la pression artérielle (système rénine-angiotensine)",
+    "production d'EPO / érythropoïétine / globules rouges",
+    "activation de la vitamine D / métabolisme osseux"
+  ],
+  "rationale": "Les 5 fonctions à retenir : (1) filtration/excrétion, (2) homéostasie hydro-sodée, (3) régulation de la PA, (4) EPO, (5) activation vit D. La conséquence pratique : quand le rein s'abîme, on attend anémie (manque d'EPO), troubles osseux (déficit en vit D activée), HTA (régulation perturbée), rétention hydro-sodée (œdèmes), et accumulation de déchets (urémie).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q10e-fer-iv",
+  "kind": "qcm-vignette",
+  "prompt": "Selon NICE NG106, à quel patient IC peut-on proposer du fer IV en addition aux 4 piliers ?",
+  "choices": [
+    { "id": "a", "text": "Tout patient IC, systématiquement", "correct": false },
+    { "id": "b", "text": "Patient avec Hb < 150 g/L et carence martiale (TSAT < 20 % OU ferritine < 100 ng/mL)", "correct": true },
+    { "id": "c", "text": "Uniquement les femmes en âge de procréer", "correct": false },
+    { "id": "d", "text": "Uniquement si transfusion impossible", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Fer IV en IC (NICE NG106) : indication si carence martiale FONCTIONNELLE ou ABSOLUE → Hb < 150 g/L avec TSAT < 20 % OU ferritine < 100 ng/mL. Améliore symptômes, capacité d'effort et réduit les hospitalisations. Formes utilisables : sucrose, carboxymaltose, derisomaltose. Pas systématique chez tout IC, mais à RECHERCHER (bilan martial à chaque suivi).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "depression-c2-m11b-facteurs-risque-suicidaire",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les facteurs de risque MAJEURS de passage à l'acte suicidaire à explorer systématiquement chez un patient déprimé.",
+  "choices": [
+    { "id": "a", "text": "Tentative(s) de suicide antérieure(s) — le meilleur prédicteur", "correct": true },
+    { "id": "b", "text": "Plan suicidaire précis (méthode, lieu, moment)", "correct": true },
+    { "id": "c", "text": "Accès facile à un moyen létal (arme, hauteur, stock de médicaments)", "correct": true },
+    { "id": "d", "text": "Isolement social, perte récente, deuil", "correct": true },
+    { "id": "e", "text": "Désespoir massif, sentiment d'absence d'issue", "correct": true },
+    { "id": "f", "text": "Consommation aiguë d'alcool ou de substances", "correct": true },
+    { "id": "g", "text": "Antécédents familiaux de suicide", "correct": true },
+    { "id": "h", "text": "Goût pour la lecture", "correct": false },
+    { "id": "i", "text": "Pratique régulière d'une activité physique modérée", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g"],
+  "rationale": "Facteurs de risque majeurs à explorer : ATCD TS (le plus prédictif), plan, moyens, isolement, désespoir, intoxication aiguë, ATCD familiaux. Tous compatibles avec une démarche structurée (acronyme anglo : SAD PERSONS ou équivalents). À ne pas confondre avec les facteurs PROTECTEURS : enfants à charge, croyance religieuse forte, alliance thérapeutique, projets concrets, entourage présent.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 351],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

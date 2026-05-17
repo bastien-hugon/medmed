@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c1-s04f-migraine-bilaterale",
+  "kind": "sct",
+  "prompt": "Vous suivez un enfant de 14 ans qui présente des céphalées récurrentes pulsatiles, intenses, avec photophobie et vomissements, durant 6 à 12 h. Vous évoquez une migraine. Comment cette nouvelle information modifie-t-elle votre hypothèse ?",
+  "hypothesis": "Il s'agit d'une migraine sans aura.",
+  "new_info": "L'enfant précise — et sa mère confirme avec un agenda des crises — que la douleur est systématiquement BILATÉRALE (frontale ou temporale des deux côtés), jamais d'un seul côté.",
+  "expected": "neutre",
+  "rationale": "La latéralité unilatérale est UN critère parmi 4 (UPMA), il en suffit de 2 sur 4. Surtout, chez les ENFANTS et ADOLESCENTS, la migraine est très fréquemment BILATÉRALE (frontale ou temporale). C'est explicitement reconnu par ICHD-3 et NICE. L'information ne renforce ni n'affaiblit le diagnostic de migraine — elle est cohérente avec le tableau pédiatrique. Piège fréquent : éliminer une migraine pédiatrique sur le simple critère 'pas unilatérale'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

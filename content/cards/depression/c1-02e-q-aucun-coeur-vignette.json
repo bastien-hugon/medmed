@@ -1,0 +1,26 @@
+{
+  "id": "depression-c1-q02e-aucun-coeur-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "M. Renard, 55 ans, depuis 3 semaines : insomnie, fatigue, perte d'appétit, difficultés de concentration, ralentissement psychomoteur visible. Il rapporte cependant qu'il garde du plaisir à jouer avec ses petits-enfants le week-end et ne se sent \"pas triste, juste épuisé\". Il a une thyroïdite récente. Quelle conclusion est la plus juste ?",
+  "choices": [
+    { "id": "a", "text": "EDC confirmé : 5 symptômes sur 9 sont présents", "correct": false },
+    { "id": "b", "text": "Il manque l'un des deux symptômes cœur (humeur triste OU anhédonie) — le diagnostic d'EDC ne peut PAS être posé. Chercher une cause somatique (hypothyroïdie ?) avant tout.", "correct": true },
+    { "id": "c", "text": "Prescrire un ISRS immédiatement", "correct": false },
+    { "id": "d", "text": "Diagnostiquer une dépression masquée et traiter comme un EDC sévère", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Critère absolu DSM-5 : sans humeur triste OU anhédonie (≥ 1 sur 2), pas d'EDC, même si 5+ autres symptômes sont présents. Ici, ni humeur triste (\"pas triste\") ni anhédonie (garde le plaisir avec ses petits-enfants). Tableau évocateur d'une cause somatique — l'hypothyroïdie peut mimer une dépression (fatigue, ralentissement, troubles de concentration). Vérifier la TSH avant tout.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

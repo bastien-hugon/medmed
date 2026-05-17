@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q05b-fatigue-effort",
+  "kind": "qcm-vignette",
+  "prompt": "Mécanisme principal de la fatigue d'effort chez un patient IC ?",
+  "choices": [
+    { "id": "a", "text": "Anémie systématique par carence martiale", "correct": false },
+    { "id": "b", "text": "Débit cardiaque insuffisant → muscles sous-perfusés en O2 à l'effort", "correct": true },
+    { "id": "c", "text": "Effet secondaire systématique des béta-bloquants", "correct": false },
+    { "id": "d", "text": "Hyperthyroïdie associée", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Fatigue d'effort IC = manifestation de la défaillance de la pompe EN AVAL : les muscles ne reçoivent pas assez de sang oxygéné quand la demande monte → ils 'lâchent' vite, jambes lourdes. L'anémie martiale est fréquente en IC et peut majorer la fatigue (à dépister), mais ce n'est pas le mécanisme premier. Les BB peuvent fatiguer en début de traitement mais ne sont pas l'explication systématique.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

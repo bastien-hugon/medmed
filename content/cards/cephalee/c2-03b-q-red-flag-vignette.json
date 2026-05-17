@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c2-q03b-red-flag-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est l'élément qui, parmi les suivants, doit faire basculer le raisonnement d'une céphalée 'primaire bénigne' vers une RECHERCHE URGENTE de céphalée secondaire ?",
+  "choices": [
+    { "id": "a", "text": "Une céphalée pulsatile aggravée par la lumière chez une femme de 25 ans, comme d'habitude", "correct": false },
+    { "id": "b", "text": "Une céphalée bilatérale en bandeau de fin de journée, modérée", "correct": false },
+    { "id": "c", "text": "Un changement majeur du caractère habituel d'une céphalée connue ('pas comme d'habitude')", "correct": true },
+    { "id": "d", "text": "Une céphalée qui ressemble à toutes les autres crises depuis 10 ans", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Le 'changement majeur du caractère habituel' chez un patient céphalalgique connu est un drapeau rouge NICE explicite. C'est typiquement la situation où le patient migraineux fait son HSA, sa thrombose veineuse ou son AVC : il dit 'celle-ci n'est PAS comme les autres'. La phrase doit toujours alerter et déclencher une imagerie en urgence.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

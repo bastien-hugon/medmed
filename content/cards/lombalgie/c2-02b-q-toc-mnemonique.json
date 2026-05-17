@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c2-q02-toc-mnemonique",
+  "kind": "free-recall",
+  "prompt": "Quel mnémo en 3 lettres regroupe les 3 contextes principaux faisant suspecter une fracture vertébrale devant une lombalgie ?",
+  "expected": ["TOC", "T.O.C.", "toc"],
+  "rationale": "TOC = Traumatisme / Ostéoporose / Corticoïdes. Si une lombalgie aiguë survient dans un de ces 3 contextes, il faut suspecter une fracture vertébrale (souvent un tassement) et imager (radio puis IRM ou scanner selon contexte).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

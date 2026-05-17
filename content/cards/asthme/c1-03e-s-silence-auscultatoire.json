@@ -1,0 +1,22 @@
+{
+  "id": "asthme-c1-s03-silence-auscultatoire",
+  "kind": "sct",
+  "prompt": "Une patiente asthmatique de 24 ans arrive aux urgences en crise sévère : dyspnée intense, FC 130, SpO2 88 % en air ambiant, difficulté à parler.",
+  "hypothesis": "Mon hypothèse : il s'agit d'une exacerbation d'asthme en train de S'AGGRAVER vers l'asthme aigu grave.",
+  "new_info": "À l'auscultation, vous ne percevez quasiment AUCUN sibilant ; le murmure vésiculaire est très diminué (« silence auscultatoire »).",
+  "expected": "renforce",
+  "rationale": "Piège classique : on attend le sibilant comme signe d'asthme. Or, en crise très sévère, le débit d'air devient si faible que les bronches ne sifflent plus — c'est le SILENCE AUSCULTATOIRE, signe de GRAVITÉ MAJEURE. Combiné à SpO2 < 92 %, FC > 120, difficulté à parler, ça renforce l'hypothèse d'asthme aigu grave. Action immédiate : O2, nébulisation salbutamol + ipratropium, corticothérapie IV, transfert réa.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188, 359],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

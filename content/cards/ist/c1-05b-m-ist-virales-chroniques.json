@@ -1,0 +1,29 @@
+{
+  "id": "ist-c1-m05b-ist-virales-chroniques",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les IST virales qui restent à vie dans le corps une fois contractées (sauf cas particulier de guérison spontanée HPV ou curative HCV).",
+  "choices": [
+    { "id": "a", "text": "HPV (papillomavirus)", "correct": true },
+    { "id": "b", "text": "HSV (herpès simplex virus)", "correct": true },
+    { "id": "c", "text": "VIH", "correct": true },
+    { "id": "d", "text": "Hépatite B (HBV)", "correct": true },
+    { "id": "e", "text": "Hépatite C (HCV)", "correct": true },
+    { "id": "f", "text": "Chlamydia trachomatis", "correct": false },
+    { "id": "g", "text": "Neisseria gonorrhoeae", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Les 5 IST virales chroniques : HPV (parfois éliminé spontanément), HSV (poussées à vie), VIH (ARV à vie), HBV (chronicité chez certains), HCV (chronicité dans 70 %, mais désormais guérison par antiviraux à action directe). Chlamydia et gonocoque sont des bactéries : antibiotiques → guérison microbiologique. Pourquoi 'chronique' importe : explique pourquoi on insiste tant sur la PRÉVENTION (préservatif, vaccin HPV/HBV).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

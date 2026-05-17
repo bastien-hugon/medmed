@@ -1,0 +1,30 @@
+{
+  "id": "lombalgie-c2-m10-non-recommandes-lombalgie",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les traitements considérés comme NON recommandés en lombalgie commune (HAS 2019 et/ou NICE NG59).",
+  "choices": [
+    { "id": "a", "text": "Repos au lit prolongé", "correct": true },
+    { "id": "b", "text": "Gabapentinoïdes (prégabaline, gabapentine) en poussée aiguë", "correct": true },
+    { "id": "c", "text": "Antidépresseurs tricycliques en poussée aiguë", "correct": true },
+    { "id": "d", "text": "Opioïdes forts au long cours en lombalgie chronique", "correct": true },
+    { "id": "e", "text": "Paracétamol seul en monothérapie (selon NICE NG59)", "correct": true },
+    { "id": "f", "text": "Ultrasons et tractions vertébrales (en routine)", "correct": true },
+    { "id": "g", "text": "Maintien d'une activité physique adaptée", "correct": false },
+    { "id": "h", "text": "Kinésithérapie active (exercices supervisés)", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "À éviter : repos prolongé, gabapentinoïdes/antidépresseurs en aigu (Grade A), opioïdes en chronique (NICE 'do not offer'), paracétamol seul (NICE 'do not offer paracetamol alone'), ultrasons/tractions (Grade B). Activité physique et kiné active sont au contraire LES traitements recommandés.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

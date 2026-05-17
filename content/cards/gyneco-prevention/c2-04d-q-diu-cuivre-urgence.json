@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q04d-diu-cuivre-urgence",
+  "kind": "qcm-vignette",
+  "prompt": "Le DIU au cuivre peut aussi être utilisé comme contraception D'URGENCE. Quel est le délai maximal après le rapport non protégé ?",
+  "choices": [
+    { "id": "a", "text": "72 heures (3 jours).", "correct": false },
+    { "id": "b", "text": "120 heures (5 jours).", "correct": true },
+    { "id": "c", "text": "30 jours.", "correct": false },
+    { "id": "d", "text": "Le DIU cuivre n'est pas utilisable en urgence.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "DIU cuivre comme contraception d'urgence : pose dans les 120h (5 jours) après le rapport. C'est la méthode la PLUS EFFICACE de contraception d'urgence (taux d'échec ~0,14 %, soit 1 grossesse sur 700) — supérieure au LNG et à l'UPA. AVANTAGE supplémentaire : il devient ensuite la contraception régulière pour 5-10 ans. INCONVÉNIENT : nécessite un médecin formé à la pose, donc moins accessible en urgence que les comprimés en pharmacie.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention", "urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Contraception_d%27urgence",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

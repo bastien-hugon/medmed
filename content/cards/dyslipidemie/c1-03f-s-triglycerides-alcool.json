@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c1-s03-triglycerides-alcool",
+  "kind": "sct",
+  "prompt": "Vous suspectez une cause comportementale aux triglycérides élevés (4,5 mmol/L) d'un patient de 45 ans.",
+  "hypothesis": "Une consommation excessive d'alcool est probable.",
+  "new_info": "Le patient déclare boire 4 à 5 verres de vin par jour, surtout le soir.",
+  "expected": "renforce",
+  "rationale": "Une consommation d'alcool de 4-5 verres/jour est nettement au-dessus des repères de consommation à moindre risque (max 10 verres/semaine, pas plus de 2/jour, et des jours sans). L'alcool est l'une des causes les plus classiques d'hypertriglycéridémie isolée — il stimule la synthèse hépatique de VLDL. Cette information RENFORCE clairement l'hypothèse. Le sevrage permet souvent une normalisation rapide des TG.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

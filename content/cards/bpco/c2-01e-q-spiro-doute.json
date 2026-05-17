@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q01e-spiro-doute",
+  "kind": "qcm-vignette",
+  "prompt": "Mme N., 52 ans, ancienne fumeuse, présente une dyspnée d'effort d'aggravation progressive depuis 1 an. Spirométrie post-BD : VEMS/CVF = 0,71, VEMS 75% prédit. Que conclure ?",
+  "choices": [
+    { "id": "a", "text": "BPCO modérée confirmée (GOLD 2)", "correct": false },
+    { "id": "b", "text": "Pas de critère diagnostique de BPCO (Tiffeneau ≥ 0,70) → rechercher une autre cause de dyspnée et/ou réévaluer", "correct": true },
+    { "id": "c", "text": "BPCO légère, traiter d'emblée par trithérapie LAMA + LABA + ICS", "correct": false },
+    { "id": "d", "text": "Diagnostic de pneumonie aiguë", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le seuil diagnostique est strict : VEMS/CVF < 0,70. À 0,71, on n'est PAS sous le seuil → pas de BPCO selon les critères. Devant une dyspnée inexpliquée, rechercher d'autres causes (insuffisance cardiaque, anémie, déconditionnement, anxiété, asthme tardif). Et reconvoquer pour réévaluation et nouvelle spirométrie à distance si suspicion clinique forte (sur valeur frontière, on tient compte de la LIN si disponible).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

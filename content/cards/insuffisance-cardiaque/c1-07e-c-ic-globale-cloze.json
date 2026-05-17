@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c1-c07e-ic-globale-cloze",
+  "kind": "cloze",
+  "prompt": "Une IC ___ associe les signes pulmonaires (dyspnée, orthopnée) ET les signes systémiques (œdèmes, foie sensible). Elle résulte souvent d'une IC ___ chronique qui finit par fatiguer le ventricule droit.",
+  "expected": ["globale", "gauche"],
+  "rationale": "IC globale = atteinte des 2 ventricules. Histoire naturelle classique : IC gauche → HTAP secondaire → VD pousse contre une pression pulmonaire ↑ → fatigue → IC droite associée → IC globale. C'est le cas le plus fréquent du patient IC chronique en MG.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

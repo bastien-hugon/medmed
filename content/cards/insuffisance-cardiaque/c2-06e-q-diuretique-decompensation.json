@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q06e-diuretique-decompensation",
+  "kind": "qcm-vignette",
+  "prompt": "M. B., 70 ans, IC chronique sous 4 piliers + furosémide 40 mg/j, vous appelle car il a pris 3 kg en 4 jours, ses chevilles gonflent et il a du mal à dormir à plat. Quelle conduite immédiate la plus appropriée en MG ?",
+  "choices": [
+    { "id": "a", "text": "Rassurer, recontrôler dans 1 mois", "correct": false },
+    { "id": "b", "text": "Arrêter le furosémide", "correct": false },
+    { "id": "c", "text": "Augmenter temporairement la dose de furosémide selon protocole d'auto-titration et surveiller iono/créat", "correct": true },
+    { "id": "d", "text": "Hospitalisation systématique en USIC", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Décompensation débutante : signes de surcharge (+ 3 kg en 4 j, œdèmes, orthopnée nouvelle). En ambulatoire : majorer le furosémide (auto-titration encadrée, ex. +1 cp), surveillance créat et K+ rapide (1-2 sem), revoir le patient. Hospitalisation seulement si NYHA IV / instabilité hémodynamique / signes graves. Arrêter le diurétique en plein épisode congestif = erreur.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

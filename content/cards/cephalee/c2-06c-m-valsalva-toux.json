@@ -1,0 +1,27 @@
+{
+  "id": "cephalee-c2-m06c-valsalva-toux",
+  "kind": "qcm-multi",
+  "prompt": "Devant une céphalée DÉCLENCHÉE BRUTALEMENT par la toux, le Valsalva ou la défécation, cochez TOUS les diagnostics qu'il faut envisager et donc imager.",
+  "choices": [
+    { "id": "a", "text": "Masse intracrânienne (tumeur, surtout fosse postérieure)", "correct": true },
+    { "id": "b", "text": "Malformation de Chiari (descente des amygdales cérébelleuses)", "correct": true },
+    { "id": "c", "text": "Anévrysme intracrânien (HSA fissuraire)", "correct": true },
+    { "id": "d", "text": "Céphalée primaire de la toux (diagnostic d'élimination après imagerie normale)", "correct": true },
+    { "id": "e", "text": "Migraine sans aura banale", "correct": false },
+    { "id": "f", "text": "Céphalée de tension légère habituelle", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Toute céphalée brutalement REPRODUCTIBLE par un Valsalva/toux/défécation sonde la pression intracrânienne — ce n'est pas une migraine. Imagerie obligatoire (IRM avec coupes de la jonction crânio-cervicale pour rechercher un Chiari, angio pour rechercher anévrysme). La 'céphalée primaire de la toux' existe mais reste un diagnostic d'élimination — jamais avant l'imagerie. Nuance : la migraine est AGGRAVÉE par l'effort de routine mais pas DÉCLENCHÉE brutalement par un effort isolé.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

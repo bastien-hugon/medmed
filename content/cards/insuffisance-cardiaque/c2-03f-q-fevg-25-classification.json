@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q03f-fevg-25-classification",
+  "kind": "qcm-vignette",
+  "prompt": "M. D., 62 ans, présente une dyspnée NYHA III. Son écho retrouve une FEVG à 25 %. Comment classer son IC et quelle stratégie thérapeutique première ?",
+  "choices": [
+    { "id": "a", "text": "ICFEp → MRA + SGLT2-i en première intention", "correct": false },
+    { "id": "b", "text": "ICFEr → 4 piliers (IEC + BB + MRA + SGLT2-i) à introduire d'emblée", "correct": true },
+    { "id": "c", "text": "ICFEmr → traitement symptomatique uniquement", "correct": false },
+    { "id": "d", "text": "Pas d'IC, FEVG basse normale", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "FEVG 25 % = ICFEr (≤ 40 %). Stratégie ESC/NICE actualisée : 4 PILIERS à introduire d'emblée puis titration rapide (IEC ou ARNI + BB + MRA + SGLT2-i). C'est l'IC la mieux étudiée et celle qui répond le mieux au traitement (réduction prouvée de mortalité et d'hospitalisations).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

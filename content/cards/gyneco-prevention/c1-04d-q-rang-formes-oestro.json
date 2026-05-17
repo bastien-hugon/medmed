@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q04d-rang-formes-oestro",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces formes contraceptives, laquelle appartient à la famille des ŒSTRO-PROGESTATIFS combinés ?",
+  "choices": [
+    { "id": "a", "text": "L'implant sous-cutané", "correct": false },
+    { "id": "b", "text": "Le DIU au cuivre", "correct": false },
+    { "id": "c", "text": "L'anneau vaginal", "correct": true },
+    { "id": "d", "text": "La pilule micro-dosée au désogestrel", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Les œstro-progestatifs combinés existent sous 3 formes : pilule combinée, patch transdermique, ANNEAU VAGINAL — toutes contiennent un œstrogène + un progestatif. L'implant et la micro-pilule au désogestrel sont des progestatifs SEULS. Le DIU au cuivre est sans hormone du tout. Astuce : 'combiné' = 2 hormones (œstro + progestatif) ; 'seul' = progestatif uniquement.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

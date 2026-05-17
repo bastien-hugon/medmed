@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c1-s04f-faiblesse-orientation",
+  "kind": "sct",
+  "prompt": "Une patiente de 45 ans consulte pour \"fatigue\". Vous suspectez d'emblée une asthénie d'origine ORGANIQUE banale (anémie, hypothyroïdie…).",
+  "hypothesis": "Il s'agit d'une asthénie vraie d'origine organique (anémie, hypothyroïdie).",
+  "new_info": "Vous lui demandez de préciser. Elle vous décrit que ses paupières tombent en fin de journée et qu'elle a du mal à mâcher les aliments durs après quelques minutes. Pas d'envie de dormir, pas d'essoufflement.",
+  "expected": "affaiblit",
+  "rationale": "Le tableau évoque une FAIBLESSE MUSCULAIRE avec fatigabilité (ptosis du soir, fatigue masticatoire) — sémiologie typique d'une myasthénie, pas d'une asthénie vraie. Ce nouveau renseignement affaiblit l'hypothèse \"asthénie organique banale\" et oriente vers un trouble neuromusculaire à confirmer (test à la glace, anticorps anti-RACh, EMG, avis neuro). Penser à reformuler le mot \"fatigue\" avant tout bilan biologique.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

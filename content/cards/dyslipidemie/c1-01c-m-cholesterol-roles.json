@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c1-m01-cholesterol-roles",
+  "kind": "qcm-multi",
+  "prompt": "Cochez toutes les FONCTIONS PHYSIOLOGIQUES du cholestérol dans l'organisme.",
+  "choices": [
+    { "id": "a", "text": "Constituer la membrane des cellules.", "correct": true },
+    { "id": "b", "text": "Servir de précurseur aux hormones stéroïdiennes (testostérone, œstrogènes, cortisol).", "correct": true },
+    { "id": "c", "text": "Servir à la synthèse de la vitamine D.", "correct": true },
+    { "id": "d", "text": "Servir à la fabrication des sels biliaires (digestion des graisses).", "correct": true },
+    { "id": "e", "text": "Transporter l'oxygène dans le sang.", "correct": false },
+    { "id": "f", "text": "Servir de matière première à l'hémoglobine.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Le cholestérol est un nutriment INDISPENSABLE : membranes cellulaires, hormones stéroïdiennes, vitamine D, sels biliaires. Il n'a rien à voir avec le transport d'oxygène (rôle de l'hémoglobine, qui contient du fer dans un noyau hème, pas du cholestérol). Cette polyvalence explique pourquoi le foie en fabrique ~70 % : on ne peut pas s'en passer.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c2-q09-ezetimibe-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le mécanisme d'action de l'ÉZÉTIMIBE ?",
+  "choices": [
+    { "id": "a", "text": "Inhibition de l'HMG-CoA réductase (comme les statines).", "correct": false },
+    { "id": "b", "text": "Blocage de l'absorption INTESTINALE du cholestérol au niveau de l'entérocyte.", "correct": true },
+    { "id": "c", "text": "Inhibition de la PCSK9.", "correct": false },
+    { "id": "d", "text": "Stimulation directe de la production de HDL par le foie.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'ÉZÉTIMIBE bloque le transporteur NPC1L1 (Niemann-Pick C1-Like 1) au niveau de l'entérocyte intestinal, empêchant l'absorption du cholestérol alimentaire et biliaire. Mécanisme COMPLÉMENTAIRE de celui des statines (qui agissent sur la synthèse hépatique). Baisse LDL d'environ 15-20 % EN ADDITION à la statine. Bénéfice CV démontré (IMPROVE-IT). Pris en oral, 10 mg/jour, bien toléré.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

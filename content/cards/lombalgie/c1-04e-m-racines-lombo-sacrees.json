@@ -1,0 +1,29 @@
+{
+  "id": "lombalgie-c1-m04-racines-lombo-sacrees",
+  "kind": "qcm-multi",
+  "prompt": "Cochez toutes les racines nerveuses qui peuvent être impliquées dans une sciatique ou une cruralgie d'origine discale lombaire.",
+  "choices": [
+    { "id": "a", "text": "L3", "correct": true },
+    { "id": "b", "text": "L4", "correct": true },
+    { "id": "c", "text": "L5", "correct": true },
+    { "id": "d", "text": "S1", "correct": true },
+    { "id": "e", "text": "C5", "correct": false },
+    { "id": "f", "text": "T4", "correct": false },
+    { "id": "g", "text": "S4", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Cruralgie = L3 ou L4 (face antérieure cuisse). Sciatique = L5 ou S1 (face postérieure jusqu'au pied). C5 est cervicale, T4 est thoracique, S4 est sacrée basse (innervation périnée/sphincter) — ces dernières peuvent être impliquées dans une queue de cheval mais pas dans une 'sciatique ou cruralgie' classique.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

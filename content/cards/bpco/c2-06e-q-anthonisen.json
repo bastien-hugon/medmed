@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q06e-anthonisen",
+  "kind": "qcm-vignette",
+  "prompt": "Les 3 critères d'Anthonisen, utilisés pour caractériser une exacerbation et orienter la décision d'antibiothérapie, comprennent :",
+  "choices": [
+    { "id": "a", "text": "Majoration de la dyspnée + augmentation du volume des crachats + purulence des crachats", "correct": true },
+    { "id": "b", "text": "Fièvre + frissons + sueurs nocturnes", "correct": false },
+    { "id": "c", "text": "Hémoptysie + amaigrissement + douleur thoracique", "correct": false },
+    { "id": "d", "text": "Cyanose + tachycardie + sibilants", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Critères d'Anthonisen historiques (1987) : DYSPNÉE majorée, VOLUME des crachats augmenté, PURULENCE des crachats. Lorsque 2-3 de ces critères sont présents (dont la purulence dans l'idéal), l'antibiothérapie a démontré un bénéfice. NICE NG114 recommande d'ajouter un antibiotique surtout si purulence claire. Les autres triades évoquent d'autres diagnostics (tuberculose, cancer, IRA…).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

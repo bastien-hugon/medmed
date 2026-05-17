@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c1-m02c-cancers-depistes-france",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les cancers qui font l'objet d'un programme de dépistage ORGANISÉ (national, sur invitation, gratuit) en France.",
+  "choices": [
+    { "id": "a", "text": "Cancer du sein", "correct": true },
+    { "id": "b", "text": "Cancer colorectal", "correct": true },
+    { "id": "c", "text": "Cancer du col de l'utérus", "correct": true },
+    { "id": "d", "text": "Cancer de la prostate", "correct": false },
+    { "id": "e", "text": "Cancer du poumon", "correct": false },
+    { "id": "f", "text": "Cancer de la peau (mélanome)", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Trois programmes ORGANISÉS en France : sein (mammo, 50-74 ans), colorectal (FIT, 50-74 ans), col de l'utérus (frottis/HPV, 25-65 ans). La prostate (PSA) n'a PAS de dépistage organisé : la balance bénéfice/risque reste défavorable en population générale (surdiagnostic massif, traitements aux séquelles lourdes). Le poumon : un dépistage par scanner faible dose est discuté chez les gros fumeurs, mais aucun programme national généralisé pour l'instant. Le mélanome : pas de dépistage organisé non plus, mais surveillance individuelle pour les peaux à risque (recommandation INCa).",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [287, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

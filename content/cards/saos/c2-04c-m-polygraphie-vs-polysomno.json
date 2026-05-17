@@ -1,0 +1,28 @@
+{
+  "id": "saos-c2-04c-m-polygraphie-vs-polysomno",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES distinguant POLYGRAPHIE ventilatoire et POLYSOMNOGRAPHIE.",
+  "choices": [
+    {"id": "a", "text": "La polygraphie ne mesure PAS l'EEG, la polysomnographie l'inclut", "correct": true},
+    {"id": "b", "text": "La polygraphie est réalisable en AMBULATOIRE (à domicile)", "correct": true},
+    {"id": "c", "text": "La polysomnographie permet d'analyser les stades de sommeil", "correct": true},
+    {"id": "d", "text": "La polygraphie est plus coûteuse et plus longue à obtenir", "correct": false},
+    {"id": "e", "text": "La polysomnographie est utile en cas de DISCORDANCE clinique/polygraphie", "correct": true},
+    {"id": "f", "text": "La polygraphie est l'examen de 2ème intention en France", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "POLYGRAPHIE = examen de 1ère intention, ambulatoire, moins coûteux, mesure flux + SaO₂ + efforts ± ECG/position. SUFFISANTE si positive chez un patient à forte probabilité clinique. POLYSOMNOGRAPHIE = 2ème intention en laboratoire du sommeil, plus complète (ajoute EEG, EOG, EMG), indispensable pour analyser les STADES de sommeil et pour les cas de discordance clinico-polygraphique ou de suspicion d'autres troubles du sommeil (narcolepsie, jambes sans repos).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "irc-c1-q02-nephron-unite",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le nombre approximatif de néphrons que contient un rein adulte sain ?",
+  "choices": [
+    { "id": "a", "text": "Environ 1 000", "correct": false },
+    { "id": "b", "text": "Environ 10 000", "correct": false },
+    { "id": "c", "text": "Environ 1 000 000 (un million)", "correct": true },
+    { "id": "d", "text": "Environ 1 000 000 000 (un milliard)", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Chaque rein contient environ 1 million de néphrons. C'est cette ÉNORME réserve qui explique pourquoi la MRC reste si longtemps silencieuse : on peut perdre la moitié des néphrons avant que le DFG ne descende sous 60. Conséquence : on ne peut pas attendre les symptômes, il faut dépister.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c2-s05f-arni-angiooedeme",
+  "kind": "sct",
+  "prompt": "Hypothèse : patient ICFEr toujours symptomatique malgré ramipril 10 mg, indication d'un switch vers un ARNI. Information nouvelle : antécédent documenté d'angio-œdème lingual sous IEC il y a 2 ans. La décision de switcher vers un ARNI est-elle indiquée ?",
+  "hypothesis": "Switch IEC vers ARNI optimal pour ce patient",
+  "new_info": "Antécédent d'angio-œdème lingual sous IEC il y a 2 ans",
+  "expected": "affaiblit",
+  "rationale": "Un antécédent d'angio-œdème sous IEC est une CONTRE-INDICATION à l'ARNI (le sacubitril majore le risque d'angio-œdème par effet sur la bradykinine). Le switch est donc DÉCONSEILLÉ. Alternative à discuter avec le cardiologue : ARA2 (valsartan seul), ou hydralazine + nitrés (surtout afro-caribéen NYHA III-IV).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-09e-q-permis-non-pro",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient SAOS modéré (IAH 22, Epworth 11) sans antécédent d'accident d'endormissement, conducteur d'une voiture pour ses déplacements personnels uniquement. Quel est l'impact sur son permis B ?",
+  "choices": [
+    {"id": "a", "text": "Inaptitude automatique à la conduite", "correct": false},
+    {"id": "b", "text": "Pas d'incompatibilité automatique, à apprécier selon le contexte (somnolence, ATCD d'accident)", "correct": true},
+    {"id": "c", "text": "Retrait immédiat du permis", "correct": false},
+    {"id": "d", "text": "Suspension d'1 an obligatoire", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Pour le permis NON-professionnel (B, A...), il N'Y A PAS d'incompatibilité automatique. L'aptitude s'apprécie au cas par cas : inaptitude TEMPORAIRE si SAOS non traité ET somnolence sévère OU ATCD d'accident d'endormissement. Reprise après traitement efficace documenté. Le MG doit informer, conseiller la prudence, et tracer — mais n'a pas à signaler systématiquement. Différence majeure avec le permis professionnel où l'inaptitude temporaire est plus formelle.",
+  "tags": {
+    "system": ["pneumologie", "medecine-du-travail"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

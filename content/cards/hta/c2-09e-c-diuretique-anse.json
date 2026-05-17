@@ -1,0 +1,20 @@
+{
+  "id": "hta-c2-c09-diuretique-anse",
+  "kind": "cloze",
+  "prompt": "Chez un patient en IRC sévère (DFG < ___ ml/min/1,73 m²), on remplace le diurétique thiazidique par un diurétique de l'___, par exemple le furosémide.",
+  "expected": ["30", "anse"],
+  "rationale": "DFG < 30 ml/min/1,73 m² → thiazidiques inefficaces (besoin d'une filtration glomérulaire minimale pour agir). On les remplace par un diurétique de l'ANSE (furosémide, bumétanide, torasémide), efficace même en IRC sévère car il agit sur la branche ascendante large de l'anse de Henle. Autres indications du diurétique de l'anse : syndrome néphrotique, insuffisance cardiaque congestive.",
+  "tags": {
+    "system": ["cardiovasculaire", "rénal"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

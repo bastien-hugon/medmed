@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q03e-red-flag-action",
+  "kind": "free-recall",
+  "prompt": "Devant la PRÉSENCE d'un seul drapeau rouge, quelle est la conduite ? Devant l'ABSENCE TOTALE de drapeau rouge avec un tableau de céphalée primaire typique, quelle est la conduite vis-à-vis de l'imagerie ?",
+  "expected": ["exploration", "imagerie", "pas", "imagerie"],
+  "rationale": "Présence d'un seul red flag = exploration immédiate (imagerie cérébrale en première intention dans la plupart des cas, complétée selon l'orientation : biologie, PL, avis spécialisé). Absence de red flag + céphalée primaire typique = PAS d'imagerie (rappel NICE : ne pas faire d'imagerie 'pour rassurer'). C'est une règle qui demande une certaine confiance pour résister à la pression patient ou collègues — bien gérée, elle réduit le sur-diagnostic et le coût.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

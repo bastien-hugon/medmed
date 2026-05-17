@@ -1,0 +1,29 @@
+{
+  "id": "asthme-c1-m03-symptomes-asthme",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les signes/symptômes qui font partie du tableau clinique évocateur d'asthme selon NICE NG245.",
+  "choices": [
+    {"id": "a", "text": "Sibilants (wheezing) bilatéraux à l'auscultation", "correct": true},
+    {"id": "b", "text": "Dyspnée variable, parfois sifflante", "correct": true},
+    {"id": "c", "text": "Toux, notamment nocturne ou au petit matin", "correct": true},
+    {"id": "d", "text": "Sensation d'oppression thoracique", "correct": true},
+    {"id": "e", "text": "Variabilité des symptômes (jours / saisons / déclencheurs)", "correct": true},
+    {"id": "f", "text": "Hémoptysie abondante quotidienne", "correct": false},
+    {"id": "g", "text": "Douleur thoracique constrictive irradiant dans le bras gauche", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Tableau clinique NG245 = sibilants + dyspnée + toux + oppression, AVEC VARIABILITÉ (clé du diag). L'hémoptysie doit faire chercher autre chose (cancer, embolie, infection, bronchectasie). Une douleur constrictive irradiant dans le bras = syndrome coronarien aigu jusqu'à preuve du contraire — pas asthme. Insiste sur la VARIABILITÉ : un patient qui tousse en permanence sans aucune variation est moins typique d'asthme.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

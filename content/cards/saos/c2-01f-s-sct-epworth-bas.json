@@ -1,0 +1,22 @@
+{
+  "id": "saos-c2-01f-s-sct-epworth-bas",
+  "kind": "sct",
+  "prompt": "M. V., 56 ans, IMC 33, ronfleur très bruyant avec apnées rapportées par sa femme, HTA résistante. Vous suspectez fortement un SAOS et envisagez de demander une polygraphie. Avant la consultation, il a rempli un Epworth qui est à 6/24.",
+  "hypothesis": "La polygraphie reste indiquée chez ce patient.",
+  "new_info": "Vous découvrez que son Epworth est bas, à 6/24, traduisant peu de somnolence diurne ressentie.",
+  "expected": "neutre",
+  "rationale": "L'Epworth NE CORRÈLE PAS avec l'IAH ni avec la sévérité du SAOS. Un patient peut avoir un SAOS sévère sans somnolence ressentie (mécanismes d'adaptation, déni). Les autres critères (ronflement, apnées rapportées, IMC 33, HTA résistante) suffisent à motiver une polygraphie. Apprendre l'Epworth bas n'AFFAIBLIT PAS l'indication d'exploration (effet neutre) — il documente juste un phénotype peu symptomatique mais à fort risque cardiovasculaire qu'il faut quand même traiter.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

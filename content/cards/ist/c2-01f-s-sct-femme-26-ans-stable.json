@@ -1,0 +1,22 @@
+{
+  "id": "ist-c2-s01f-sct-femme-26-ans-stable",
+  "kind": "sct",
+  "prompt": "Une femme de 26 ans, en couple stable depuis 4 ans, sans nouveau partenaire, vous demande un dépistage chlamydia annuel systématique.",
+  "hypothesis": "Indication d'un dépistage chlamydia annuel systématique.",
+  "new_info": "Vous la questionnez : pas de nouveau partenaire, pas de partenaires multiples, partenaire monogame également.",
+  "expected": "affaiblit",
+  "rationale": "À 26 ans (> 25 ans), le dépistage chlamydia n'est plus systématique mais conditionné aux facteurs de risque (nouveau partenaire, partenaires multiples, partenaire à risque). L'absence de FdR AFFAIBLIT l'indication d'un dépistage annuel systématique. Cela n'EXCLUT pas un dépistage ponctuel à sa demande, ou en début de relation, mais sort du cadre 'systématique annuel'. Discussion partagée : ne pas refuser, mais expliquer le rationnel.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

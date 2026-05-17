@@ -1,0 +1,26 @@
+{
+  "id": "depression-c1-q07c-destigmatisation-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "M. Camara, 48 ans, à qui vous venez de diagnostiquer un EDC, vous dit : \"Docteur, prendre des médicaments pour le moral, c'est pour les faibles. Je vais me secouer, ça va passer.\" Quelle est la réponse la plus juste, en s'appuyant sur les recommandations NICE ?",
+  "choices": [
+    { "id": "a", "text": "Vous avez raison, attendez encore 3 mois et on verra", "correct": false },
+    { "id": "b", "text": "Lui rappeler que la dépression est une MALADIE du cerveau, traitable (70-80 % de réponse), au même titre que l'asthme ou le diabète — il ne s'agit pas de faiblesse mais de soin. Proposer psychothérapie et/ou antidépresseur selon sévérité, dans une décision partagée.", "correct": true },
+    { "id": "c", "text": "Lui prescrire immédiatement un ISRS sans en discuter", "correct": false },
+    { "id": "d", "text": "Le renvoyer chez un médecin plus convaincant", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La psychoéducation et la déstigmatisation sont des piliers du traitement (NICE 2022). Comparer à une maladie somatique (\"comme le diabète\") aide souvent. Refuser le traitement par crainte de \"faiblesse\" est aussi piégeux que refuser l'insuline pour \"ne pas devenir dépendant\". La décision finale appartient au patient (shared decision-making), mais l'information éclairée et bienveillante est due.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

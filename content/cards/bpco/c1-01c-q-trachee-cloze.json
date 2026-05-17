@@ -1,0 +1,20 @@
+{
+  "id": "bpco-c1-q01c-trachee-cloze",
+  "kind": "cloze",
+  "prompt": "Le gros tuyau central qui descend de la gorge vers les poumons, avant de se diviser en deux bronches, s'appelle la ___.",
+  "expected": ["trachée"],
+  "rationale": "La TRACHÉE est le conduit unique qui relie le larynx aux deux bronches principales. C'est elle qui se bifurque (au niveau de la carène) en bronche souche droite et gauche. Connaître l'anatomie permet de localiser ensuite où la BPCO frappe : bronches et alvéoles, pas la trachée.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

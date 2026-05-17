@@ -1,0 +1,29 @@
+{
+  "id": "gyneco-prevention-c2-m03c-progestatifs-effets",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les effets indésirables fréquents associés aux contraceptions par progestatif seul.",
+  "choices": [
+    { "id": "a", "text": "Aménorrhée (absence de règles)", "correct": true },
+    { "id": "b", "text": "Saignements irréguliers / spotting", "correct": true },
+    { "id": "c", "text": "Prise de poids modeste", "correct": true },
+    { "id": "d", "text": "Céphalées", "correct": true },
+    { "id": "e", "text": "Changements d'humeur", "correct": true },
+    { "id": "f", "text": "Augmentation marquée du risque de TVP / EP", "correct": false },
+    { "id": "g", "text": "Lactation diminuée", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Effets indésirables classiques des progestatifs seuls (cités par MSD) : aménorrhée, saignements irréguliers / spotting (très fréquents les premiers mois — première cause d'arrêt précoce !), prise de poids modeste, céphalées, changements d'humeur, mastodynies, acné. Le risque thrombotique veineux n'est PAS significativement augmenté (c'est l'œstrogène le coupable). Et au contraire des œstrogènes, les progestatifs seuls ne diminuent pas la lactation — d'où leur indication en post-partum allaitant.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

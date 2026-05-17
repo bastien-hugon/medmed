@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q04f-vih-curable",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi les 4 IST principales (chlamydia, gonocoque, syphilis, VIH), laquelle n'est PAS curable par traitement et nécessite un suivi à vie ?",
+  "choices": [
+    { "id": "a", "text": "Chlamydia", "correct": false },
+    { "id": "b", "text": "Gonocoque", "correct": false },
+    { "id": "c", "text": "Syphilis", "correct": false },
+    { "id": "d", "text": "VIH", "correct": true }
+  ],
+  "expected": ["d"],
+  "rationale": "Chlamydia, gonocoque et syphilis sont des bactéries : antibiothérapie courte → guérison microbiologique complète. Le VIH est un virus : aucun traitement ne l'élimine, mais les antirétroviraux à vie suppriment la réplication virale, rendent la maladie chronique gérable et stoppent la transmission sexuelle (I=I, Indétectable=Intransmissible) si la charge virale est indétectable ≥ 6 mois.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "depression-c1-q06e-question-suicide-free",
+  "kind": "free-recall",
+  "prompt": "Donnez UN exemple de formulation directe et calme pour aborder explicitement la question des idées suicidaires avec un patient déprimé en consultation.",
+  "expected": [
+    "mettre fin à vos jours",
+    "penser au suicide",
+    "ne vaut plus la peine",
+    "idées de mort",
+    "ne vaut plus le coup de vivre",
+    "envie de mourir"
+  ],
+  "rationale": "Formulations validées (à choisir selon le patient) : \"Pensez-vous parfois à mettre fin à vos jours ?\" / \"Avez-vous des idées de mort ?\" / \"Est-ce qu'il vous arrive de penser que ça ne vaut plus le coup de vivre ?\". Poser la question NE PROVOQUE PAS le passage à l'acte — c'est un acte de soin (NICE Rec 1.2.8). Ne pas poser, c'est laisser le patient seul.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 351],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-11b-q-orientation-polygraphie",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient avec forte probabilité clinique de SAOS (ronflement, apnées rapportées, IMC 32, Epworth 14) doit être exploré. Quel est l'examen de PREMIÈRE intention ?",
+  "choices": [
+    {"id": "a", "text": "Polysomnographie en laboratoire", "correct": false},
+    {"id": "b", "text": "Polygraphie ventilatoire ambulatoire", "correct": true},
+    {"id": "c", "text": "Oxymétrie nocturne isolée", "correct": false},
+    {"id": "d", "text": "Endoscopie ORL", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Devant une forte probabilité clinique pré-test, la POLYGRAPHIE VENTILATOIRE ambulatoire est l'examen de 1ère intention : moins coûteuse, plus accessible, suffisante si positive. Si négative chez un patient à forte suspicion, on monte à la polysomnographie (2ème intention) pour lever la discordance. L'oxymétrie isolée est un outil de dépistage limité (pas de mesure du flux ni des efforts). L'endoscopie ORL n'est utile que dans le bilan d'éligibilité aux traitements de recours (stimulation hypoglosse, chirurgie).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

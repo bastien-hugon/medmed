@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c2-q05-anesthesie-selle",
+  "kind": "cloze",
+  "prompt": "On parle d'anesthésie en ___ pour décrire la perte de sensibilité dans le territoire qui touche une selle de vélo : périnée, fesses, intérieur des cuisses — signe cardinal du syndrome de la queue de cheval.",
+  "expected": ["selle"],
+  "rationale": "Anesthésie en selle : la zone insensible correspond exactement à celle qui touche une selle de vélo. Cliniquement : le patient ne sent plus quand il s'essuie, ne perçoit plus le contact des sous-vêtements au périnée. C'est le signe le plus spécifique du syndrome de la queue de cheval — il impose un transfert en urgence neurochirurgicale.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

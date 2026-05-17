@@ -1,0 +1,29 @@
+{
+  "id": "saos-c1-07c-m-facteurs-collapsus",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les facteurs qui favorisent le COLLAPSUS du pharynx pendant le sommeil.",
+  "choices": [
+    {"id": "a", "text": "Obésité avec graisse péripharyngée", "correct": true},
+    {"id": "b", "text": "Décubitus dorsal", "correct": true},
+    {"id": "c", "text": "Consommation d'alcool en soirée", "correct": true},
+    {"id": "d", "text": "Prise de benzodiazépines au coucher", "correct": true},
+    {"id": "e", "text": "Rétrognathie (mâchoire inférieure reculée)", "correct": true},
+    {"id": "f", "text": "Pratique régulière du yoga", "correct": false},
+    {"id": "g", "text": "Sommeil en décubitus latéral", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Facteurs favorisant le collapsus pharyngé : (1) anatomie défavorable (obésité, rétrognathie, hypertrophie amygdalienne, macroglossie), (2) position (DÉCUBITUS DORSAL : la langue retombe par gravité), (3) myorelaxants (alcool, BZD, opiacés : aggravent la chute du tonus). Le décubitus LATÉRAL est PROTECTEUR (d'où l'astuce de la balle de tennis dans le dos du pyjama). Le yoga est neutre/bénéfique (renforcement postural et respiratoire).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

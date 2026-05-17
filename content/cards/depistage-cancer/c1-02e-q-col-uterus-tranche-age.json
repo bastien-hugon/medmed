@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c1-q02e-col-uterus-tranche-age",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la tranche d'âge du dépistage organisé du cancer du COL DE L'UTÉRUS en France ?",
+  "choices": [
+    { "id": "a", "text": "50 à 74 ans (comme le sein et le colorectal)", "correct": false },
+    { "id": "b", "text": "25 à 65 ans", "correct": true },
+    { "id": "c", "text": "À partir de 18 ans, sans limite supérieure", "correct": false },
+    { "id": "d", "text": "30 à 50 ans uniquement", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le col de l'utérus a une tranche d'âge BIEN PLUS JEUNE (25-65 ans) que les deux autres dépistages organisés (sein et colorectal : 50-74 ans). Pourquoi ? Parce que le cancer du col est lié au papillomavirus (HPV) acquis sexuellement, avec un temps de latence long jusqu'au cancer — et son précurseur (lésions intra-épithéliales) est facilement détectable et curable très tôt. Avant 25 ans : trop d'infections HPV transitoires sans danger (faux positifs). Après 65 ans : très peu de cancers nouveaux si les dépistages précédents étaient normaux. Mnémo : 'col 25-65, sein/colon 50-74'.",
+  "tags": {
+    "system": ["oncologie", "prevention", "gynecologie"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

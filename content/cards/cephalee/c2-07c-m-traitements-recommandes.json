@@ -1,0 +1,29 @@
+{
+  "id": "cephalee-c2-m07c-traitements-recommandes",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les traitements recommandés (en 1ʳᵉ intention NICE) pour la CRISE de migraine chez l'adulte sans contre-indication.",
+  "choices": [
+    { "id": "a", "text": "Triptan oral (sumatriptan, zolmitriptan, élétriptan...)", "correct": true },
+    { "id": "b", "text": "AINS (ibuprofène, naproxène, kétoprofène)", "correct": true },
+    { "id": "c", "text": "Aspirine 900 mg", "correct": true },
+    { "id": "d", "text": "Paracétamol", "correct": true },
+    { "id": "e", "text": "Combinaison triptan + AINS ou triptan + paracétamol", "correct": true },
+    { "id": "f", "text": "Antiémétique (métoclopramide, dompéridone) à associer même sans nausée", "correct": true },
+    { "id": "g", "text": "Ergotamine ou dihydroergotamine en monothérapie ambulatoire", "correct": false },
+    { "id": "h", "text": "Codéine, tramadol, morphine", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "NICE 1ʳᵉ intention pour la crise : combinaison triptan + AINS ou triptan + paracétamol ; monothérapie possible avec triptan, AINS, aspirine 900 mg ou paracétamol. Antiémétiques à considérer même sans nausée (améliore l'absorption). À NE PAS DONNER : ergots (vasoconstriction excessive) et opioïdes (inefficacité + risque majeur de céphalée par abus médicamenteux et de dépendance). Message NICE/HAS très ferme sur les opioïdes.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

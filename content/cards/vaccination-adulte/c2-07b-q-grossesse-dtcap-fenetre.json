@@ -1,0 +1,26 @@
+{
+  "id": "vaccination-adulte-c2-q07-grossesse-dtcap-fenetre",
+  "kind": "qcm-vignette",
+  "prompt": "Vous suivez une patiente enceinte à 28 SA. Quelle est l'indication vaccinale prioritaire à proposer pour protéger le futur nouveau-né ?",
+  "choices": [
+    {"id": "a", "text": "Vaccin ROR — pour combler un éventuel défaut d'immunité avant l'accouchement.", "correct": false},
+    {"id": "b", "text": "Vaccin dTcaP (avec coqueluche) — la fenêtre 20-36 SA est idéale.", "correct": true},
+    {"id": "c", "text": "Vaccin varicelle — pour protéger le nouveau-né.", "correct": false},
+    {"id": "d", "text": "Aucune vaccination ne peut être faite en cours de grossesse.", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le dTcaP entre 20-36 SA est devenu un standard : le vaccin stimule la production d'anticorps maternels qui passent la barrière placentaire en fin de grossesse, protégeant le nouveau-né dans ses premiers mois de vie contre la coqueluche (qui peut être mortelle avant 6 mois). À refaire à chaque grossesse. ROR et varicelle = vivants atténués, CI grossesse. La grippe (octobre-janvier) est l'autre vaccination clé en grossesse.",
+  "tags": {
+    "system": ["infectieux", "prevention", "gynecologie"],
+    "sdd": ["vaccination", "grossesse", "coqueluche"],
+    "item_edn": [143, 26],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

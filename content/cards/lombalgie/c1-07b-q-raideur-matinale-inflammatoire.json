@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c1-q07-raideur-matinale-inflammatoire",
+  "kind": "cloze",
+  "prompt": "Une raideur matinale lombaire qui dure plus de ___ minutes oriente vers une douleur INFLAMMATOIRE (spondyloarthrite, par exemple), pas vers une lombalgie commune.",
+  "expected": ["30"],
+  "rationale": "Raideur matinale > 30 min = drapeau d'inflammation (critère ASAS, repris par les recos rhumato). À l'inverse, en lombalgie commune mécanique, la raideur du matin est brève (< 30 min) et passe vite avec les premiers mouvements.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

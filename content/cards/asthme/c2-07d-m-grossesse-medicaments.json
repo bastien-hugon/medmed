@@ -1,0 +1,29 @@
+{
+  "id": "asthme-c2-m07d-grossesse-medicaments",
+  "kind": "qcm-multi",
+  "prompt": "Femme enceinte asthmatique : coche TOUS les médicaments d'asthme qui sont CONSIDÉRÉS COMME OK à poursuivre pendant la grossesse selon NICE NG245.",
+  "choices": [
+    {"id": "a", "text": "SABA (salbutamol)", "correct": true},
+    {"id": "b", "text": "ICS (budésonide, fluticasone…)", "correct": true},
+    {"id": "c", "text": "LABA (formotérol, salmétérol)", "correct": true},
+    {"id": "d", "text": "Théophyllines orales", "correct": true},
+    {"id": "e", "text": "Corticothérapie orale ponctuelle si exacerbation", "correct": true},
+    {"id": "f", "text": "Arrêter tous les traitements dès le 1er trimestre par principe de précaution", "correct": false},
+    {"id": "g", "text": "Arrêter brusquement LTRA et LAMA dès le diagnostic de grossesse", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Principe NG245 : « Maintenir un asthme CONTRÔLÉ est PRIORITAIRE — les bénéfices dépassent largement les risques médicamenteux ». SABA, LABA, ICS, théophyllines et corticothérapie orale ponctuelle sont OK. Pour LTRA/LAMA : NG245 recommande de NE PAS ARRÊTER pendant la grossesse si elle est déjà en place et efficace. Conseil sevrage tabac systématique. Une crise d'asthme non traitée est PLUS DANGEREUSE pour le fœtus (hypoxémie) que les médicaments.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188, 27],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c1-q04c-benefice-20min",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient vient d'écraser sa dernière cigarette il y a 20 minutes. Quel bénéfice physiologique commence DÉJÀ à se manifester ?",
+  "choices": [
+    { "id": "a", "text": "La fréquence cardiaque et la pression artérielle commencent à baisser", "correct": true },
+    { "id": "b", "text": "Le risque de cancer du poumon redevient celui d'un non-fumeur", "correct": false },
+    { "id": "c", "text": "Le risque cardiovasculaire est divisé par deux", "correct": false },
+    { "id": "d", "text": "L'espérance de vie augmente de 10 ans", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Timeline des bénéfices : 20 min → FC et PA commencent à baisser (effet stimulant de la nicotine qui s'estompe). 2 h → envies diminuent. 24 h → CO expiré normalisé. 1 an → risque CV divisé par 2. 5-10 ans → risque cancer ↓. 15+ ans → ~10 ans d'espérance de vie regagnés si arrêt avant 35 ans. Les bénéfices à long terme (B, C, D) sont valables mais ne s'expriment pas en 20 minutes.",
+  "tags": {
+    "system": ["cardiovasculaire", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "saos-c1-06c-m-complications",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les complications / comorbidités classiquement associées au SAOS non traité.",
+  "choices": [
+    {"id": "a", "text": "HTA, en particulier HTA résistante", "correct": true},
+    {"id": "b", "text": "AVC ischémique", "correct": true},
+    {"id": "c", "text": "Fibrillation auriculaire", "correct": true},
+    {"id": "d", "text": "Diabète de type 2", "correct": true},
+    {"id": "e", "text": "Accidents de la route par endormissement", "correct": true},
+    {"id": "f", "text": "Cancer du poumon", "correct": false},
+    {"id": "g", "text": "Ulcère gastrique", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Le SAOS est un AMPLIFICATEUR cardiométabolique. Comorbidités à rechercher : HTA (surtout RÉSISTANTE), AVC ischémique (RR ~4 pour les ronfleurs apnéiques), FA (favorisée et récidivante), diabète T2 (via obésité + inflammation + insulinorésistance), accidents routiers/travail (RR 2-7). Le SAOS n'est PAS associé au cancer du poumon (pas de lien démontré), ni à l'ulcère gastrique (sauf via le stress / les benzodiazépines mais ce n'est pas une comorbidité spécifique).",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire", "neurologie", "endocrinologie"],
+    "sdd": ["saos", "hta", "diabete"],
+    "item_edn": [108, 224, 245],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "asthme-c1-s02-asthme-sans-atopie",
+  "kind": "sct",
+  "prompt": "Un homme de 50 ans consulte pour une dyspnée sifflante à l'effort et au froid. Vous suspectez un asthme.",
+  "hypothesis": "Mon hypothèse : il s'agit d'un asthme.",
+  "new_info": "L'interrogatoire ne retrouve aucun antécédent d'eczéma, de rhinite allergique, ni d'asthme familial. Les prick-tests sont négatifs.",
+  "expected": "neutre",
+  "rationale": "L'absence de terrain atopique RÉDUIT la probabilité a priori d'asthme allergique, mais N'ÉLIMINE PAS l'asthme. Il existe des asthmes NON-ATOPIQUES (asthme d'effort, asthme à l'aspirine/AINS, asthme intrinsèque de l'adulte). Le diagnostic reste donc envisageable et repose toujours sur un test objectif (FeNO, éosinos, spirométrie). Effet neutre — voire légèrement \"affaiblit\" — mais ne renforce pas non plus, et surtout ne tranche pas.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

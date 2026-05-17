@@ -1,0 +1,20 @@
+{
+  "id": "gyneco-prevention-c2-q07c-cu-delai-lng-cloze",
+  "kind": "cloze",
+  "prompt": "Le lévonorgestrel (Norlevo) en contraception d'urgence se prend en une dose unique de 1,5 mg, jusqu'à ___ heures après le rapport non protégé.",
+  "expected": ["72"],
+  "rationale": "LNG : délai 72 h (3 jours). Au-delà, son efficacité s'effondre. Plus tôt = mieux : ~95 % efficacité si < 24 h, ~85 % à 24-48 h, ~63 % à 49-72 h. Si > 72 h, on bascule sur l'ulipristal (UPA, EllaOne) ou le DIU cuivre, jusqu'à 120 h. À retenir : 72 h = LNG, 120 h = UPA / DIU cuivre.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention", "urgences"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Contraception_d%27urgence",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

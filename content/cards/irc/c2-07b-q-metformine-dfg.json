@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-q07-metformine-dfg",
+  "kind": "qcm-vignette",
+  "prompt": "À partir de quel seuil de DFG la metformine est-elle CONTRE-INDIQUÉE chez un patient diabétique T2 ?",
+  "choices": [
+    { "id": "a", "text": "DFG < 60 mL/min", "correct": false },
+    { "id": "b", "text": "DFG < 45 mL/min", "correct": false },
+    { "id": "c", "text": "DFG < 30 mL/min", "correct": true },
+    { "id": "d", "text": "Aucun seuil : la metformine est toujours possible", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "La metformine est CONTRE-INDIQUÉE si DFG < 30 mL/min (risque d'acidose lactique par accumulation). Entre 30 et 45 : dose réduite (généralement max 1 000 mg/j) avec surveillance rapprochée du DFG. Entre 45 et 60 : dose habituelle, surveillance rapprochée. > 60 : libre. Et toujours : suspension lors de tout événement aigu (gastro, déshydratation, infection sévère, examen avec contraste iodé).",
+  "tags": {
+    "system": ["nephrologie", "endocrinologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "diabete", "iatrogenie"],
+    "item_edn": [261, 264, 245, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

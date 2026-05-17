@@ -1,0 +1,28 @@
+{
+  "id": "lombalgie-c1-m08-messages-cles-consultation",
+  "kind": "qcm-multi",
+  "prompt": "Cochez tous les messages-clés à transmettre lors d'une consultation pour lombalgie commune aiguë sans drapeau rouge (HAS 2019 / NICE NG59).",
+  "choices": [
+    { "id": "a", "text": "'C'est très fréquent et bénin, ≥ 90 % des cas s'améliorent en 4-6 semaines'", "correct": true },
+    { "id": "b", "text": "'Le mouvement est THÉRAPEUTIQUE : continuez vos activités du mieux que vous pouvez'", "correct": true },
+    { "id": "c", "text": "'Il n'y a pas besoin d'IRM ou de radio à ce stade'", "correct": true },
+    { "id": "d", "text": "'Reprenez le travail dès que c'est faisable, même en aménagé'", "correct": true },
+    { "id": "e", "text": "'Vous avez probablement le dos en miettes, il faut être très prudent'", "correct": false },
+    { "id": "f", "text": "'Restez allongé en évitant le moindre mouvement pendant 1 semaine'", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Les 4 messages-clés : pronostic favorable, mouvement thérapeutique, pas d'imagerie, reprise précoce du travail. Les distracteurs (e et f) sont exactement les messages à NE PAS transmettre — ils nourrissent peur et chronicisation. 'Catastropher' chez un patient lombalgique est anti-thérapeutique.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

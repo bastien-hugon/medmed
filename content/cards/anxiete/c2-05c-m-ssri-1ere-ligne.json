@@ -1,0 +1,29 @@
+{
+  "id": "anxiete-c2-m05c-ssri-1ere-ligne",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les antidépresseurs ISRS (SSRI) pouvant être utilisés en 1ère ligne ou en alternative pour le TAG selon NICE.",
+  "choices": [
+    { "id": "a", "text": "Sertraline (préférée en 1ère intention, cost-effective)", "correct": true },
+    { "id": "b", "text": "Paroxétine", "correct": true },
+    { "id": "c", "text": "Citalopram", "correct": true },
+    { "id": "d", "text": "Escitalopram", "correct": true },
+    { "id": "e", "text": "Fluoxétine au long cours pour le TAG (recommandée NICE en 1ère intention)", "correct": false },
+    { "id": "f", "text": "Imipramine en 1ère intention", "correct": false },
+    { "id": "g", "text": "Alprazolam (anxiolytique BZD)", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Pour le TAG, NICE recommande en 1ère ligne un SSRI, avec préférence pour la SERTRALINE (cost-effective). Alternatives SSRI/SNRI si sertraline inefficace ou mal tolérée : paroxétine, citalopram, escitalopram (SSRI), venlafaxine, duloxétine (SNRI). La fluoxétine n'est pas particulièrement mise en avant pour le TAG par NICE (plus utilisée pour la dépression). L'imipramine est un tricyclique de 3e ligne (toxicité, surdosage). L'alprazolam (BZD) est explicitement DÉCONSEILLÉ en traitement du TAG.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

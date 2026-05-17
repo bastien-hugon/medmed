@@ -1,0 +1,20 @@
+{
+  "id": "depistage-cancer-c1-q01d-cloze-depistage-diagnostic",
+  "kind": "cloze",
+  "prompt": "Le dépistage s'adresse à des personnes ___ ; à l'inverse, le diagnostic s'adresse à des personnes ___. Dès qu'un signe d'alerte apparaît chez un patient à jour de son dépistage, il faut basculer en démarche ___.",
+  "expected": ["asymptomatiques", "symptomatiques", "diagnostique"],
+  "rationale": "Distinction fondatrice. Le dépistage filtre une population en bonne santé apparente, à la recherche d'un cancer débutant. Le diagnostic enquête sur un signe précis chez UN patient. Un dépistage 'à jour' ne dispense pas du diagnostic devant un symptôme : la mammographie d'il y a 6 mois ne disculpe pas une boule trouvée aujourd'hui. À retenir : présence d'un symptôme = la patiente bascule automatiquement dans le diagnostic, peu importe son statut de dépistage.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [287, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

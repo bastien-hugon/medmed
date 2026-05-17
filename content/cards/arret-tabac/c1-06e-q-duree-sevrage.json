@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c1-q06e-duree-sevrage",
+  "kind": "qcm-vignette",
+  "prompt": "Combien de temps dure typiquement le manque PHYSIQUE (composante biologique) du syndrome de sevrage tabagique ?",
+  "choices": [
+    { "id": "a", "text": "Quelques heures seulement, après une nuit sans cigarette", "correct": false },
+    { "id": "b", "text": "Environ 2 à 4 semaines, avec un pic à J3-J5", "correct": true },
+    { "id": "c", "text": "6 à 12 mois en moyenne", "correct": false },
+    { "id": "d", "text": "À vie chez un patient ayant fumé plus de 20 ans", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le manque PHYSIQUE (biologique, lié aux récepteurs nicotiniques qui se réadaptent) culmine à J3-J5 et s'atténue largement en 2-4 semaines. Ce qui dure plus longtemps relève des composantes psychologique (gestion émotionnelle) et comportementale (déclencheurs, habitudes). Important à expliquer en consultation : 'Les 4 premières semaines sont les plus dures biologiquement, après c'est un travail psychologique et comportemental — moins épuisant physiquement.'",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

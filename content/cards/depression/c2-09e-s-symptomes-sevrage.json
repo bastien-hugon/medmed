@@ -1,0 +1,22 @@
+{
+  "id": "depression-c2-s09e-symptomes-sevrage",
+  "kind": "sct",
+  "prompt": "M. Dupont a arrêté brutalement sa paroxétine il y a 3 jours (\"je me sentais bien, j'ai oublié de renouveler\"). Il consulte avec : vertiges, sensations de \"choc électrique\" dans la tête, irritabilité majorée, troubles du sommeil. Vous évoquez initialement une RECHUTE DÉPRESSIVE.",
+  "hypothesis": "Rechute dépressive précoce après arrêt du traitement.",
+  "new_info": "À l'interrogatoire, M. Dupont précise que l'humeur est stable, qu'il n'a PAS d'anhédonie ni d'idées noires, que les symptômes (vertiges, brain zaps, irritabilité) ont commencé EXACTEMENT 24h après l'arrêt et qu'il ressent ces sensations comme \"physiques\" et non \"morales\".",
+  "expected": "affaiblit",
+  "rationale": "Tableau évocateur d'un SYNDROME DE DISCONTINUATION (sevrage d'AD), pas d'une rechute : (1) chronologie typique (24-72h après arrêt brutal), (2) molécule à demi-vie courte (paroxétine = la pire), (3) symptômes spécifiques (brain zaps = pathognomoniques), (4) humeur préservée. L'hypothèse \"rechute\" est AFFAIBLIE. Conduite : reprendre la paroxétine à la dose précédente, attendre la stabilisation 1-2 sem, puis programmer un sevrage progressif réel avec paliers et calendrier clair.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

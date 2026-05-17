@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q02b-echo-role",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le rôle PRINCIPAL de l'échographie cardiaque transthoracique dans le diagnostic d'IC ?",
+  "choices": [
+    { "id": "a", "text": "Mesurer la pression artérielle systémique", "correct": false },
+    { "id": "b", "text": "Confirmer le diagnostic et orienter le traitement (mesure FEVG, valves, cavités, HTAP)", "correct": true },
+    { "id": "c", "text": "Doser les peptides natriurétiques", "correct": false },
+    { "id": "d", "text": "Faire une coronarographie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'ETT est l'examen-clé de l'IC : elle CONFIRME le diagnostic (suspecté à la clinique + NT-proBNP) et oriente le traitement (FEVG → classification ICFEr / ICFEmr / ICFEp). Elle évalue aussi valves, cavités, pression pulmonaire. Non invasive, sans irradiation. La PA se prend au tensiomètre. Le NT-proBNP est un dosage sanguin. La coronarographie est invasive et exploratoire des artères coronaires.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

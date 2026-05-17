@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c2-q08-suivi-3mois",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le rendez-vous BIOLOGIQUE de SUIVI clé après initiation d'une statine selon NICE ?",
+  "choices": [
+    { "id": "a", "text": "À 1 mois : profil lipidique + CPK + transaminases.", "correct": false },
+    { "id": "b", "text": "À 2-3 mois : profil lipidique + transaminases.", "correct": true },
+    { "id": "c", "text": "À 6 mois : profil lipidique seul.", "correct": false },
+    { "id": "d", "text": "À 1 an minimum : transaminases uniquement.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Rendez-vous-clé NICE : 2-3 MOIS après l'initiation (ou tout changement de dose). On contrôle : (1) profil lipidique complet pour vérifier l'efficacité (cible atteinte ? Baisse >40 % du non-HDL ?), (2) transaminases (ALT/AST) pour la tolérance hépatique. Pas de CPK en routine (uniquement si symptômes musculaires inexpliqués). Ensuite : revue à 12 mois, puis annuellement. Mémo : 3 / 12 / annuel.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

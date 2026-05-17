@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q05b-larc-definition",
+  "kind": "qcm-vignette",
+  "prompt": "Que signifie l'acronyme LARC en contraception ?",
+  "choices": [
+    { "id": "a", "text": "Long-Acting Reversible Contraception", "correct": true },
+    { "id": "b", "text": "Local Action Released Contraception", "correct": false },
+    { "id": "c", "text": "Levonorgestrel-Associated Receptor Compound", "correct": false },
+    { "id": "d", "text": "Low-dose Adjustable Reproductive Contraceptive", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "LARC = Long-Acting Reversible Contraception = contraception réversible à longue durée d'action. Recouvre essentiellement les DIU (cuivre et hormonal) et l'implant. Deux idées dans le sigle : 'Long-Acting' = posé une fois, oublié pendant plusieurs années ; 'Reversible' = retrait possible à tout moment avec retour rapide de la fertilité (à différencier de la stérilisation).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

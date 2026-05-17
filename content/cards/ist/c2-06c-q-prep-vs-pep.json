@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q06c-prep-vs-pep",
+  "kind": "qcm-vignette",
+  "prompt": "PEP et PrEP sont deux stratégies antirétrovirales différentes contre le VIH. Quelle est la distinction correcte ?",
+  "choices": [
+    { "id": "a", "text": "PEP = avant exposition (en continu), PrEP = après exposition (urgence)", "correct": false },
+    { "id": "b", "text": "PEP = APRÈS exposition à risque (urgence, 28 jours, à débuter < 72 h), PrEP = AVANT exposition (chez VIH- à haut risque, en continu ou à la demande)", "correct": true },
+    { "id": "c", "text": "PEP et PrEP sont synonymes", "correct": false },
+    { "id": "d", "text": "PEP = pédiatrique, PrEP = adulte", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Mnémo : 'Post' = après, 'Pré' = avant. PEP (Post-Exposure Prophylaxis) = pompier après l'incendie : trithérapie ARV pendant 28 jours, débutée IDÉALEMENT < 48 h, au plus tard < 72 h, accès en urgence hospitalière. PrEP (Pre-Exposure Prophylaxis) = paratonnerre avant l'orage : prise en continu (1 cp/j ténofovir+emtricitabine) ou à la demande, chez VIH- à haut risque (HSH multipartenaires, partenaire VIH+ non contrôlé, etc.).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

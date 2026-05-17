@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q03e-progestatifs-saignements",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente sous pilule micro-dosée depuis 2 mois vous appelle, inquiète : elle a des saignements irréguliers (spotting) plusieurs fois par semaine. Conduite à tenir ?",
+  "choices": [
+    { "id": "a", "text": "Arrêter immédiatement la pilule.", "correct": false },
+    { "id": "b", "text": "Rassurer : les saignements irréguliers sont FRÉQUENTS et NORMAUX les premiers mois sous progestatif seul. Surveiller, et réévaluer à 3-6 mois.", "correct": true },
+    { "id": "c", "text": "Adresser en urgence pour hystéroscopie.", "correct": false },
+    { "id": "d", "text": "Demander une biopsie de l'endomètre.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les saignements irréguliers / spotting sont LA principale cause d'arrêt précoce des progestatifs seuls — alors qu'ils sont attendus et physiologiques les premiers mois (3-6 mois). Beaucoup de patientes les vivent comme un échec de la contraception et arrêtent par elles-mêmes. Information ESSENTIELLE à donner AVANT prescription, pour limiter les arrêts intempestifs. Si saignements persistent > 6 mois ou très abondants : réévaluer (autre méthode, exploration si nécessaire).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

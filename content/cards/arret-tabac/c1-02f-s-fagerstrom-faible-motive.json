@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c1-s02f-fagerstrom-faible-motive",
+  "kind": "sct",
+  "hypothesis": "Un patient très motivé pour arrêter (stade de préparation, date d'arrêt fixée) bénéficierait d'une prescription de substituts nicotiniques (NRT) systématique pour augmenter ses chances de réussite.",
+  "new_info": "Son score de Fagerström est mesuré à 2 (il fume 5 cigarettes/jour, jamais dans l'heure suivant le réveil).",
+  "expected": "affaiblit",
+  "prompt": "Cette nouvelle information (Fagerström 2) modifie-t-elle l'indication systématique de substituts nicotiniques ?",
+  "rationale": "Fagerström 0-2 = pas de dépendance physique réelle. Le manque biologique sera léger à l'arrêt. Les NRT ne sont PAS systématiques dans ce profil — conseil minimal, soutien comportemental et entretien motivationnel peuvent suffire. On peut tout de même proposer les NRT à la demande si le patient le souhaite (gomme/pastille pour les rares envies), mais ce n'est pas obligatoire. L'indication est donc AFFAIBLIE par la mesure du Fagerström.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

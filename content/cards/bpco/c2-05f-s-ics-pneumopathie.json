@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c2-s05f-ics-pneumopathie",
+  "kind": "sct",
+  "prompt": "M. D., BPCO, sous trithérapie LAMA+LABA+ICS depuis 2 ans pour exacerbations à répétition. Tu réévalues la balance bénéfices/risques.",
+  "hypothesis": "Mon hypothèse : il faut maintenir l'ICS car il a contribué à réduire les exacerbations.",
+  "new_info": "Le patient a fait 2 PNEUMOPATHIES bactériennes nécessitant antibiothérapie cette année. Ses éosinophiles sanguins sont mesurés à 90/mm3.",
+  "expected": "affaiblit",
+  "rationale": "Les ICS augmentent le risque de pneumopathies. Cet effet indésirable est marqué quand les éosinophiles sont BAS (< 100/mm3) car le bénéfice anti-exacerbation y est moindre. Avec 2 pneumopathies récentes + éosinos < 100, la balance bénéfice/risque devient défavorable : un sevrage progressif de l'ICS (de-escalation) est à discuter, en maintenant LAMA + LABA. L'information affaiblit nettement l'hypothèse de maintenir l'ICS. Logique SCT.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

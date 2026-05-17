@@ -1,0 +1,20 @@
+{
+  "id": "saos-c2-08d-c-hypoglosse-nerf",
+  "kind": "cloze",
+  "prompt": "Le nerf hypoglosse est la ___e paire crânienne (XII). Il commande les muscles de la ___ , dont le ___ qui tire la langue vers l'avant et participe à l'ouverture du pharynx.",
+  "expected": ["12", "langue", "génioglosse"],
+  "rationale": "Anatomie neuro-fonctionnelle clé : XIIe paire crânienne (hypoglosse) → muscles de la langue → génioglosse = muscle principal de protraction (avance la langue) et de maintien des VAS ouvertes. C'est ce génioglosse qu'on stimule indirectement via le nerf hypoglosse dans la thérapie implantée. Au-delà du SAOS, le génioglosse est l'un des muscles dont le tonus chute le plus en sommeil paradoxal — d'où le rôle central du sommeil profond/REM dans le collapsus.",
+  "tags": {
+    "system": ["pneumologie", "neurologie", "anatomie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

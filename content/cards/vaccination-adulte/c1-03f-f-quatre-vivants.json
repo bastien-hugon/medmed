@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c1-f03-quatre-vivants",
+  "kind": "free-recall",
+  "prompt": "Cite les QUATRE vaccins VIVANTS atténués à retenir absolument en pratique courante (mnémo : « ROR-VAR-BCG-FJ »).",
+  "expected": ["ROR", "varicelle", "BCG", "fièvre jaune"],
+  "rationale": "Mnémo « ROR-VAR-BCG-FJ » : ROR (Rougeole-Oreillons-Rubéole), VARicelle, BCG (tuberculose), Fièvre Jaune (vaccin antiamaril). Tous CI chez la femme enceinte et l'immunodéprimé. Cas pratique : devant un patient sous biothérapie qui veut aller en zone fièvre jaune, refus + immunoglobulines spécifiques ou renoncement au voyage. Autres vivants moins fréquents en MG : rotavirus (nourrisson), grippe nasale (rare en France), Zostavax (RETIRÉ — remplacé par Shingrix recombinant).",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

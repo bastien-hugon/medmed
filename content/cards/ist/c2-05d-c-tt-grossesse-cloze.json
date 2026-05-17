@@ -1,0 +1,20 @@
+{
+  "id": "ist-c2-c05d-tt-grossesse-cloze",
+  "kind": "cloze",
+  "prompt": "Chlamydia chez la femme enceinte : ___ (antibiotique) ___ g PO en ___ . Alternative : ___ 500 mg PO TID × 7 j. Particularité du suivi : test de guérison (TOC) à ___ semaines post-traitement par NAAT.",
+  "expected": ["azithromycine", "1", "dose unique", "amoxicilline", "4"],
+  "rationale": "Régime enceinte : AZITHROMYCINE 1g PO DOSE UNIQUE (recommandé) ou AMOXICILLINE 500 mg PO TID × 7 j (alternative française classique, bien tolérée). Spécificité grossesse : un TOC (test of cure) à 4 semaines post-TT par NAAT, alors qu'on ne le fait PAS chez la non-enceinte. Raison : enjeu de transmission néonatale + azithro dose unique étant un peu moins efficace que doxy 7 j.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c2-q07-ei-rhabdomyolyse",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est l'effet indésirable MUSCULAIRE GRAVE (mais extrêmement rare) des statines, à connaître ?",
+  "choices": [
+    { "id": "a", "text": "Myalgies bénignes diffuses.", "correct": false },
+    { "id": "b", "text": "Hépatite fulminante.", "correct": false },
+    { "id": "c", "text": "Rhabdomyolyse (destruction musculaire massive).", "correct": true },
+    { "id": "d", "text": "Syndrome de Stevens-Johnson.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "La RHABDOMYOLYSE (destruction massive des fibres musculaires, libération de myoglobine, risque d'insuffisance rénale aiguë) est l'EI GRAVE à connaître. Incidence ~1/10 000 patients-année. Suspicion devant : douleurs musculaires intenses + faiblesse + urines foncées (myoglobinurie) + CPK très élevées. Les myalgies isolées sont fréquentes mais bénignes. L'hépatite fulminante est rare. Stevens-Johnson n'est pas un EI typique des statines.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

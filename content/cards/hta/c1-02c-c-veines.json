@@ -1,0 +1,20 @@
+{
+  "id": "hta-c1-c02-veines",
+  "kind": "cloze",
+  "prompt": "Les vaisseaux qui RAMÈNENT le sang appauvri (pauvre en oxygène) vers le cœur s'appellent les ___.",
+  "expected": ["veines"],
+  "rationale": "Veines = retour Vers le cœur (mnémo : Veine, reVient). Artères = partent du cœur (sang oxygéné). En HTA on parle TOUJOURS de la pression dans les artères, jamais dans les veines (où la pression est ~10x plus basse).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

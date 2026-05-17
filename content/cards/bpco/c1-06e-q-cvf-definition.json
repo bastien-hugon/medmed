@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q06e-cvf-definition",
+  "kind": "qcm-vignette",
+  "prompt": "Sur la spirométrie, que représente la CVF (Capacité Vitale Forcée) ?",
+  "choices": [
+    { "id": "a", "text": "Le volume d'air expulsé pendant la première seconde uniquement", "correct": false },
+    { "id": "b", "text": "Le volume TOTAL d'air mobilisable lors d'une expiration forcée maximale", "correct": true },
+    { "id": "c", "text": "La concentration en oxygène dans le sang artériel", "correct": false },
+    { "id": "d", "text": "Le débit instantané au pic de l'expiration", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "CVF = Capacité Vitale Forcée = volume TOTAL d'air que le patient peut expulser après une inspiration maximale, en soufflant le plus fort et le plus longtemps possible. C'est un VOLUME (en litres). À ne pas confondre : VEMS = volume sur la 1ère seconde, DEP = débit de pointe, PaO2 = oxygène artériel (gaz du sang, autre examen).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

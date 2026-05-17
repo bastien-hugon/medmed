@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c2-c04e-piliers-cloze",
+  "kind": "cloze",
+  "prompt": "Les 4 piliers de l'ICFEr (FEVG ≤ 40 %) sont : ___ (ou ARNI), béta-bloquant spécifique, ___ (antagoniste minéralocorticoïde), et ___ (inhibiteur du SGLT2).",
+  "expected": ["IEC", "MRA", "SGLT2-i"],
+  "rationale": "Pilier 1 : IEC ou ARNI (ramipril, périndopril ; ou sacubitril/valsartan). Pilier 2 : BB-IC (bisoprolol, carvédilol, nébivolol). Pilier 3 : MRA (spironolactone, éplérénone). Pilier 4 : SGLT2-i (dapagliflozine, empagliflozine). 4 cibles physiopathologiques différentes → effets additifs sur survie.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

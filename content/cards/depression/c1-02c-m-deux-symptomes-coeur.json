@@ -1,0 +1,29 @@
+{
+  "id": "depression-c1-m02c-deux-symptomes-coeur",
+  "kind": "qcm-multi",
+  "prompt": "Parmi les symptômes ci-dessous, cochez les DEUX symptômes \"cœur\" (cardinaux) de l'épisode dépressif caractérisé selon le DSM-5 — au moins UN doit être présent pour évoquer le diagnostic.",
+  "choices": [
+    { "id": "a", "text": "Humeur triste persistante (humeur dépressive)", "correct": true },
+    { "id": "b", "text": "Anhédonie (perte du plaisir et de l'intérêt)", "correct": true },
+    { "id": "c", "text": "Troubles du sommeil (insomnie ou hypersomnie)", "correct": false },
+    { "id": "d", "text": "Fatigue / perte d'énergie", "correct": false },
+    { "id": "e", "text": "Idées de mort ou de suicide", "correct": false },
+    { "id": "f", "text": "Sentiment de culpabilité excessive", "correct": false },
+    { "id": "g", "text": "Ralentissement psychomoteur", "correct": false }
+  ],
+  "expected": ["a", "b"],
+  "rationale": "Les deux symptômes cardinaux (critère A1 et A2 du DSM-5) sont : (1) humeur dépressive et (2) anhédonie. Au moins UN des deux est obligatoire pour parler d'EDC. Les autres items listés (sommeil, fatigue, idées de mort, culpabilité, ralentissement) sont les symptômes \"associés\" — ils complètent jusqu'à 5/9 mais ne peuvent à eux seuls fonder le diagnostic.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

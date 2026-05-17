@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c2-s04-intensite-tolerance",
+  "kind": "sct",
+  "prompt": "Une patiente sous atorvastatine 80 mg en prévention secondaire se plaint de myalgies modérées persistantes. Vous envisagez d'arrêter la statine.",
+  "hypothesis": "Arrêter complètement la statine est la meilleure conduite.",
+  "new_info": "NICE rappelle qu'une statine à dose plus FAIBLE bien tolérée apporte un bénéfice CV supérieur à un arrêt complet.",
+  "expected": "affaiblit",
+  "rationale": "Cette information AFFAIBLIT clairement l'hypothèse : ne pas arrêter par réflexe ! Stratégies alternatives à privilégier AVANT l'arrêt : (1) vérifier que les douleurs sont bien attribuables à la statine (effet nocebo, infection virale, hypothyroïdie), (2) baisser l'intensité (atorvastatine 40 ou 20 mg), (3) changer de molécule (souvent rosuvastatine, mieux tolérée, moins d'interactions). 'Une statine moyenne tolérée > pas de statine.'",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

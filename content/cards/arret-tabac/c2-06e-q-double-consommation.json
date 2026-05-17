@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q06e-double-consommation",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient te dit en consultation : 'Je vape depuis 6 mois mais je continue à fumer 10 cigarettes par jour, ça me permet de réduire un peu.' Quelle est la conduite la plus appropriée ?",
+  "choices": [
+    { "id": "a", "text": "Le féliciter de la 'réduction', sans modifier l'approche", "correct": false },
+    { "id": "b", "text": "Expliquer que la DOUBLE CONSOMMATION (tabac + vape) cumule les risques sans bénéfice net : objectif = passer complètement à la vape (idéalement) puis sevrer la vape, plutôt que de garder les deux", "correct": true },
+    { "id": "c", "text": "Lui interdire formellement la vape et exiger qu'il reprenne 'seulement' le tabac", "correct": false },
+    { "id": "d", "text": "Le renvoyer chez un addictologue sans plus d'explication", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Double consommation = piège fréquent. Le patient pense 'réduire les risques en réduisant les cigarettes' mais : (1) il continue à inhaler du CO et des cancérogènes (même 5 cig/j ont un risque CV significatif), (2) il ajoute potentiellement les risques (limités mais non nuls) de la vape, (3) il maintient l'addiction nicotinique, (4) il prend deux 'objets' au lieu d'un. Objectif intermédiaire raisonnable : substituer COMPLÈTEMENT la cigarette par la vape (zéro tabac), puis dans un second temps sevrer la vape progressivement (réduction du taux de nicotine du e-liquide).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

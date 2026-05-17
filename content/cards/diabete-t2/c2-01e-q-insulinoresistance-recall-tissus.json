@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q07-insulinoresistance-recall-tissus",
+  "kind": "free-recall",
+  "prompt": "Cite les 3 principaux tissus dont la résistance à l'insuline contribue au diabète de type 2.",
+  "expected": ["muscle", "muscles", "foie", "tissu adipeux", "graisse", "adipocytes"],
+  "rationale": "Triade : MUSCLE (mauvaise captation du glucose), FOIE (néoglucogenèse non freinée), TISSU ADIPEUX (sécrétion d'adipokines pro-inflammatoires). C'est l'attaque à 3 fronts qui caractérise l'insulinorésistance du T2. Le muscle représente 70-80 % de la captation périphérique du glucose — d'où l'effet majeur de l'activité physique.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

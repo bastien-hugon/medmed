@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q02c-emphyseme-surface",
+  "kind": "qcm-vignette",
+  "prompt": "Dans l'emphysème (composante de la BPCO), pourquoi le patient s'essouffle-t-il à l'effort ?",
+  "choices": [
+    { "id": "a", "text": "Les bronches se ferment complètement et empêchent tout passage d'air", "correct": false },
+    { "id": "b", "text": "Les parois entre alvéoles se détruisent, ce qui réduit la surface d'échange O2/CO2", "correct": true },
+    { "id": "c", "text": "Le cœur cesse de pomper", "correct": false },
+    { "id": "d", "text": "Le sang ne contient plus de globules rouges", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Mécanique : 100 petites alvéoles fusionnent en 1 grande bulle → la surface totale d'échange chute. Moins de surface = moins d'oxygène qui passe dans le sang = essoufflement à l'effort (quand la demande monte). Les bronches sont rétrécies, oui, mais pas FERMÉES complètement. Le cœur et les globules rouges sont indemnes au début.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

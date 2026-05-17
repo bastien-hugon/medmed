@@ -1,0 +1,27 @@
+{
+  "id": "dyslipidemie-c1-q02-ldl-hdl-recall",
+  "kind": "free-recall",
+  "prompt": "Quelle est la différence FONCTIONNELLE entre LDL et HDL ? (rôle de chacun en une phrase)",
+  "expected": [
+    "LDL dépose le cholestérol",
+    "HDL ramasse le cholestérol",
+    "LDL transporte vers les tissus",
+    "HDL ramène vers le foie",
+    "LDL mauvais",
+    "HDL bon"
+  ],
+  "rationale": "Réponse attendue : 'Le LDL DÉPOSE du cholestérol dans les artères (mauvais), le HDL RAMASSE le cholestérol pour le ramener au foie (bon).' Toute formulation équivalente avec les notions de dépôt vs récupération est acceptée. L'image des deux camions est la métaphore-clé à manipuler à l'aise.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

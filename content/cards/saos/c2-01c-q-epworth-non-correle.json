@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-01c-q-epworth-non-correle",
+  "kind": "qcm-vignette",
+  "prompt": "Concernant l'échelle de somnolence d'Epworth, quelle affirmation est EXACTE ?",
+  "choices": [
+    {"id": "a", "text": "Le score d'Epworth corrèle directement avec la sévérité de l'IAH", "correct": false},
+    {"id": "b", "text": "Un score d'Epworth bas exclut formellement un SAOS", "correct": false},
+    {"id": "c", "text": "Le score d'Epworth est un outil de dépistage et ne reflète PAS la sévérité polysomnographique", "correct": true},
+    {"id": "d", "text": "Le score d'Epworth est rempli par le médecin pendant la consultation", "correct": false}
+  ],
+  "expected": ["c"],
+  "rationale": "Piège classique. L'Epworth est un AUTO-questionnaire (rempli par le patient) qui mesure la propension subjective à s'endormir dans 8 situations. C'est un OUTIL DE DÉPISTAGE et de suivi symptomatique. Mais il NE CORRÈLE PAS avec l'IAH : un patient peut avoir IAH 50 avec Epworth 5 (peu symptomatique), et inversement un IAH 8 avec Epworth 18. Un Epworth bas N'EXCLUT donc PAS un SAOS — si la suspicion clinique est forte (ronflement, apnées rapportées, comorbidités), il faut quand même explorer.",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

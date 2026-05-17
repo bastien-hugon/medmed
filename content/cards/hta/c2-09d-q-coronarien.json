@@ -1,0 +1,26 @@
+{
+  "id": "hta-c2-q09b-coronarien",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient hypertendu, par ailleurs coronarien (post-infarctus du myocarde). Quelles classes d'antihypertenseurs sont à privilégier ?",
+  "choices": [
+    {"id": "a", "text": "IEC + bêtabloquant", "correct": true},
+    {"id": "b", "text": "Diurétique thiazidique seul", "correct": false},
+    {"id": "c", "text": "Alpha-bloquant en 1ère intention", "correct": false},
+    {"id": "d", "text": "Antihistaminique", "correct": false}
+  ],
+  "expected": ["a"],
+  "rationale": "Chez le coronarien (angor, post-IDM), la combinaison IEC + bêtabloquant est la référence (HAS). Les bêtabloquants ↓ FC et contractilité → ↓ consommation d'O2 du myocarde → soulagent les coronaires. Les IEC ont un effet cardioprotecteur post-IDM (remodelage). Ici les BB sortent de leur 'mauvaise place' en HTA non compliquée car leur indication coronarienne reprend le dessus.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

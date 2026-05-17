@@ -1,0 +1,28 @@
+{
+  "id": "cephalee-c2-m08c-fond-premiere-ligne",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les traitements de FOND recommandés en PREMIÈRE intention (NICE CG150) pour la prophylaxie de la migraine.",
+  "choices": [
+    { "id": "a", "text": "Propranolol", "correct": true },
+    { "id": "b", "text": "Topiramate", "correct": true },
+    { "id": "c", "text": "Amitriptyline", "correct": true },
+    { "id": "d", "text": "Gabapentine", "correct": false },
+    { "id": "e", "text": "Riboflavine 400 mg/j", "correct": false },
+    { "id": "f", "text": "Acupuncture (jusqu'à 10 séances)", "correct": false },
+    { "id": "g", "text": "Toxine botulique A", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "1ʳᵉ intention NICE : propranolol, topiramate ou amitriptyline (efficacité comparable, choix selon terrain). NE PAS prescrire la gabapentine (pas d'efficacité prouvée). La riboflavine 400 mg/j et l'acupuncture sont des options de 2ᵉ intention ou complémentaires. La toxine botulique est réservée à la migraine CHRONIQUE après échec ≥ 3 prophylactiques et abus médicamenteux pris en charge. Les anti-CGRP (érenumab, frémanezumab...) sont après échec d'au moins 3 traitements de fond, et ≥ 4 jours de migraine/mois.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

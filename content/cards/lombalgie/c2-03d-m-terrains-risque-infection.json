@@ -1,0 +1,30 @@
+{
+  "id": "lombalgie-c2-m03-terrains-risque-infection",
+  "kind": "qcm-multi",
+  "prompt": "Cochez tous les contextes ou terrains qui doivent faire évoquer une SPONDYLODISCITE devant une lombalgie.",
+  "choices": [
+    { "id": "a", "text": "Usage de drogues injectables par voie IV", "correct": true },
+    { "id": "b", "text": "Immunodépression (VIH, chimiothérapie, corticothérapie au long cours)", "correct": true },
+    { "id": "c", "text": "Diabète mal équilibré", "correct": true },
+    { "id": "d", "text": "Infection récente urinaire, cutanée ou dentaire (porte d'entrée potentielle)", "correct": true },
+    { "id": "e", "text": "Infiltration rachidienne ou chirurgie du rachis récente", "correct": true },
+    { "id": "f", "text": "Fièvre + altération de l'état général", "correct": true },
+    { "id": "g", "text": "Activité physique régulière sans particularité", "correct": false },
+    { "id": "h", "text": "Consommation modérée de café", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Terrains et contextes à risque de spondylodiscite : drogues IV, immunodépression (VIH, chimio, corticoïdes), diabète, foyer infectieux récent, geste invasif rachidien, fièvre/AEG. À évoquer aussi devant une lombalgie d'horaire inflammatoire chez un patient à risque. Activité physique régulière et café sont des distracteurs.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "infectiologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c1-q05b-co-22ppm",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient venu pour consultation de sevrage présente un CO expiré à 22 ppm. Comment interpréter ce résultat ?",
+  "choices": [
+    { "id": "a", "text": "Valeur normale, le patient n'a probablement pas fumé récemment", "correct": false },
+    { "id": "b", "text": "Valeur de fumeur RÉGULIER voire GROS FUMEUR (>20 ppm), tabagisme actif récent (dans les ~24 dernières heures)", "correct": true },
+    { "id": "c", "text": "Valeur compatible avec un ancien fumeur arrêté depuis 1 semaine", "correct": false },
+    { "id": "d", "text": "Valeur d'erreur de l'appareil, à refaire systématiquement", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Repères CO expiré : <5 ppm non-fumeur, 5-10 ppm fumeur occasionnel ou ancien fumeur très récent, 10-20 ppm fumeur régulier, >20 ppm gros fumeur. À 22 ppm, le tabagisme actif est patent et récent (CO disparaît en ~24 h). Utilité : dosage initial NRT (plutôt patch 21 mg), point de référence pour suivre la décroissance lors des consultations suivantes (effet motivationnel).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

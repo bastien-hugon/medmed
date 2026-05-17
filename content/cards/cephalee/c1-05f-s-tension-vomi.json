@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c1-s05f-tension-vomi",
+  "kind": "sct",
+  "prompt": "Patiente de 28 ans suivie pour 'céphalée de tension épisodique' (douleur bilatérale en bandeau, légère à modérée). Vous évoquez la poursuite du diagnostic. Comment cette nouvelle information modifie-t-elle votre hypothèse ?",
+  "hypothesis": "Il s'agit toujours d'une céphalée de tension épisodique.",
+  "new_info": "Lors de l'agenda des céphalées tenu sur 8 semaines, vous notez qu'à chaque épisode, la douleur est en réalité de 7/10, pulsatile, accompagnée de NAUSÉE et d'une intolérance marquée à la lumière. Elle s'allonge dans le noir.",
+  "expected": "affaiblit",
+  "rationale": "La présence simultanée d'une douleur pulsatile, d'une intensité sévère, de nausée et de photophobie qui obligent à s'allonger, fait remplir au moins 2 critères C (pulsatile, modérée/sévère) + critère D (nausée OU photo+phono) — donc des critères de migraine. L'agenda révèle que la 'tension' était en réalité une migraine sous-diagnostiquée. Diagnostic et traitement à reconsidérer (triptan vs paracétamol simple). L'information affaiblit l'hypothèse 'tension'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

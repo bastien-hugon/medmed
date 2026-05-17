@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c1-q02f-atopie-vs-allergie",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle affirmation décrit le mieux la relation entre atopie et allergie ?",
+  "choices": [
+    { "id": "a", "text": "Atopie et allergie sont strictement synonymes.", "correct": false },
+    { "id": "b", "text": "L'atopie est une PRÉDISPOSITION héréditaire à fabriquer trop d'IgE, qui peut se traduire ou non par des allergies cliniques.", "correct": true },
+    { "id": "c", "text": "L'atopie est une maladie infectieuse contagieuse.", "correct": false },
+    { "id": "d", "text": "Avoir une allergie cutanée exclut formellement l'existence d'un asthme.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Atopie = TERRAIN (tendance à fabriquer des IgE contre des allergènes banals). Allergie = MANIFESTATION clinique de ce terrain (rhinite, asthme, eczéma, urticaire alimentaire…). Un atopique peut n'avoir aucune allergie clinique évidente, mais ses bronches restent statistiquement plus à risque d'asthme. À l'inverse, les allergies cutanées (eczéma) COEXISTENT typiquement avec l'asthme — la triade atopique.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

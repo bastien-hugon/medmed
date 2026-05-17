@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c2-q08b-fatigue-vieillissement",
+  "kind": "qcm-vignette",
+  "prompt": "Une femme de 80 ans, autonome jusque-là, consulte pour une fatigue d'apparition récente (3 semaines). Sa fille pense que \"c'est normal à son âge\". Quelle est l'attitude la plus appropriée ?",
+  "choices": [
+    { "id": "a", "text": "Rassurer la patiente et sa fille : à 80 ans, une fatigue est normale, surveillance simple.", "correct": false },
+    { "id": "b", "text": "La fatigue d'apparition récente chez le sujet âgé doit faire chercher activement et rapidement une cause sérieuse (infection \"silencieuse\", Horton, cancer, hypothyroïdie, iatrogénie…).", "correct": true },
+    { "id": "c", "text": "Attendre 6 mois avant de prescrire un bilan, pour ne pas saturer le système.", "correct": false },
+    { "id": "d", "text": "Prescrire des compléments alimentaires \"anti-fatigue\" et revoir dans 6 mois.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "RÈGLE D'OR : la fatigue n'est PAS un vieillissement normal. Chez le sujet âgé, elle est SOUVENT le 1er signe d'une maladie sérieuse (pneumopathie sans fièvre, infection urinaire sans symptôme, Horton, cancer, hypothyroïdie, anémie, dépression masquée, iatrogénie). Le bilan doit être plus complet ET plus rapide que chez le sujet jeune. Attribuer la fatigue à l'âge = biais d'âgisme dangereux.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "depression-c1-q03e-comptage-symptomes-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Mme Petit, 42 ans, consulte. Depuis 4 semaines : anhédonie majeure, insomnie d'endormissement et réveils précoces, perte de 3 kg sans régime, fatigue invalidante, dévalorisation (\"je suis nulle\"). Elle nie toute idée suicidaire. Pas d'humeur triste explicite, pas de trouble de concentration, pas de ralentissement visible. Diagnostic ?",
+  "choices": [
+    { "id": "a", "text": "Pas d'EDC : il manque l'humeur triste", "correct": false },
+    { "id": "b", "text": "EDC confirmé : 5/9 symptômes (anhédonie + sommeil + appétit/poids + fatigue + culpabilité/dévalorisation), durée ≥ 2 sem, dont 1 symptôme cœur (anhédonie)", "correct": true },
+    { "id": "c", "text": "Trouble anxieux généralisé", "correct": false },
+    { "id": "d", "text": "Seulement 4 symptômes, donc EDC sous-seuil", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Comptage : anhédonie (cœur ✓), insomnie, perte de poids, fatigue, dévalorisation = 5 symptômes ≥ seuil. Durée 4 sem ≥ 2 sem. Au moins 1 cœur ✓. Diagnostic d'EDC posé. Erreur classique : croire qu'il faut OBLIGATOIREMENT l'humeur triste — non, l'anhédonie SEULE peut suffire comme symptôme cœur. C'est la dépression \"anhédonique\" sans tristesse exprimée.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

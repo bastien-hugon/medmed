@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c1-q05d-tension-chronique-seuil",
+  "kind": "cloze",
+  "prompt": "On parle de céphalée de tension CHRONIQUE quand le patient présente au moins ___ jours de céphalée par mois pendant plus de ___ mois. En dessous on parle de forme ÉPISODIQUE.",
+  "expected": ["15", "3"],
+  "rationale": "Seuils ICHD-3 : 15 jours/mois pendant 3 mois = chronique pour la céphalée de tension comme pour la migraine. La forme chronique impose de rechercher activement un abus médicamenteux, des comorbidités anxio-dépressives, un trouble du sommeil ou une mauvaise posture/bruxisme.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c2-m01-tests-etape1-adulte",
+  "kind": "qcm-multi",
+  "prompt": "Selon NICE NG245, ÉTAPE 1 du diagnostic d'asthme chez l'ADULTE (≥ 12 ans). Coche TOUS les éléments VRAIS.",
+  "choices": [
+    {"id": "a", "text": "Doser les éosinophiles sanguins (NFS) en première intention", "correct": true},
+    {"id": "b", "text": "Mesurer le FeNO avec un seuil positif à 50 ppb", "correct": true},
+    {"id": "c", "text": "Un seul des deux tests positif suffit à confirmer l'asthme (avec clinique compatible)", "correct": true},
+    {"id": "d", "text": "Le seuil de FeNO positif chez l'adulte est 35 ppb", "correct": false},
+    {"id": "e", "text": "Si éosinos ET FeNO négatifs → passer directement à l'étape 2 (spirométrie + réversibilité)", "correct": true},
+    {"id": "f", "text": "Un patient sous corticoïdes inhalés au long cours peut avoir un FeNO faussement normal", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "e", "f"],
+  "rationale": "Étape 1 NG245 adulte = éosinos OU FeNO, seuil FeNO 50 ppb (35 ppb chez l'enfant 5-16 ans — piège classique). Un seul positif suffit en contexte clinique évocateur ; les deux négatifs → étape 2 (spirométrie réversibilité). PIÈGE majeur : ICS prolongés abaissent FeNO et éosinos, donc un test négatif sous traitement ne RASSURE PAS — interpréter avec le traitement en main.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m08c-surveillance-seuils",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les seuils ou règles VRAIS de surveillance biologique sous IEC/ARNI/ARA2/MRA en IC (NICE NG106).",
+  "choices": [
+    { "id": "a", "text": "Bilan créat + K+ AVANT l'introduction du médicament", "correct": true },
+    { "id": "b", "text": "Bilan créat + K+ 1 à 2 semaines après instauration et après chaque ↑ de dose", "correct": true },
+    { "id": "c", "text": "Une fois à dose max tolérée : tous les 3-6 mois", "correct": true },
+    { "id": "d", "text": "Alerte si créatinine augmente de > 50 % par rapport à la base", "correct": true },
+    { "id": "e", "text": "Alerte si kaliémie > 5,5 mmol/L", "correct": true },
+    { "id": "f", "text": "Aucune surveillance nécessaire si le patient se sent bien", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Rythme NICE NG106 : avant → J1-J15 post intro → J1-J15 après chaque ↑ → 3-6 mois à dose max. Seuils d'intervention : ↑ créat > 50 % OU K+ > 5,5 mmol/L → adapter selon protocole local (réduction ou stop). La surveillance est INDISPENSABLE même si le patient se sent bien (effets indésirables silencieux).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

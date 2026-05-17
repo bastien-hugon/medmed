@@ -1,0 +1,29 @@
+{
+  "id": "hta-c2-m07-rhd",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les règles hygiéno-diététiques (RHD) recommandées par la HAS dans la prise en charge de l'HTA.",
+  "choices": [
+    {"id": "a", "text": "Limiter le sel à ≤ 6-8 g/jour", "correct": true},
+    {"id": "b", "text": "Activité physique ≥ 30 min/j, au moins 3 fois/semaine", "correct": true},
+    {"id": "c", "text": "Perte de poids en cas de surpoids/obésité", "correct": true},
+    {"id": "d", "text": "Augmenter la consommation d'alcool pour 'dilater les vaisseaux'", "correct": false},
+    {"id": "e", "text": "Arrêt du tabac", "correct": true},
+    {"id": "f", "text": "Consommation libre de réglisse", "correct": false},
+    {"id": "g", "text": "Alimentation type méditerranéenne / DASH (fruits, légumes, peu de viande rouge)", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "e", "g"],
+  "rationale": "5 RHD majeures HAS : sel ≤ 6 g/j, activité physique régulière, perte de poids si surpoids, alcool LIMITÉ (≤ 3 verres/j homme, ≤ 2 verres/j femme), arrêt du tabac. Bonus : alimentation méditerranéenne/DASH. La réglisse contient de l'acide glycyrrhizique qui mime l'aldostérone et fait MONTER la PA → à éviter ou limiter chez l'hypertendu.",
+  "tags": {
+    "system": ["cardiovasculaire", "nutrition"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

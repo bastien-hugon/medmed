@@ -1,0 +1,30 @@
+{
+  "id": "lombalgie-c2-m06-drapeaux-jaunes-liste",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les éléments qui constituent des DRAPEAUX JAUNES (facteurs psychosociaux de chronicisation) à dépister en lombalgie.",
+  "choices": [
+    { "id": "a", "text": "Croyance que le mouvement va aggraver la lésion (peur du mouvement, kinésiophobie)", "correct": true },
+    { "id": "b", "text": "Catastrophisme ('mon dos est en miettes, je vais finir en fauteuil')", "correct": true },
+    { "id": "c", "text": "Comportement d'évitement par peur (arrêt total d'activité)", "correct": true },
+    { "id": "d", "text": "Détresse émotionnelle, dépression, anxiété", "correct": true },
+    { "id": "e", "text": "Insatisfaction professionnelle, conflit au travail", "correct": true },
+    { "id": "f", "text": "Comportement passif (attente d'une solution externe)", "correct": true },
+    { "id": "g", "text": "Antécédent personnel de cancer", "correct": false },
+    { "id": "h", "text": "Fièvre à 38,5 °C associée", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Drapeaux jaunes (psychosociaux) : peur-évitement, catastrophisme, dépression/anxiété, insatisfaction pro, comportement passif. ATCD de cancer et fièvre sont des drapeaux ROUGES (causes graves) — distracteurs ici.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "psychiatrie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

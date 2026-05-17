@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q01c-fagerstrom-4",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente passe le test de Fagerström : score 4. Comment l'interpréter et que proposer en 1ère intention ?",
+  "choices": [
+    { "id": "a", "text": "Pas de dépendance physique réelle, pas de NRT, conseil minimal", "correct": false },
+    { "id": "b", "text": "Dépendance FAIBLE (3-4) ; NRT optionnel à doses faibles, soutien comportemental utile", "correct": true },
+    { "id": "c", "text": "Dépendance moyenne (5-6) ; NRT systématique à doses moyennes", "correct": false },
+    { "id": "d", "text": "Dépendance forte (7-10) ; NRT obligatoire à dose pleine, envisager 2e ligne", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Paliers du Fagerström : 0-2 (rien), 3-4 (FAIBLE), 5-6 (moyenne), 7-10 (forte). À 4, la dépendance physique existe mais reste modérée. NRT OPTIONNELS (notamment à la demande pour les envies) à doses faibles ; le soutien comportemental et l'entretien motivationnel peuvent suffire chez certains patients. Croiser avec le CO expiré pour affiner.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c2-m09c-old-criteres-intermediaires",
+  "kind": "qcm-multi",
+  "prompt": "PaO2 entre 7,3 et 8 kPa : coche TOUS les facteurs AGGRAVANTS qui, associés, permettent d'indiquer une OLD (NICE NG115).",
+  "choices": [
+    { "id": "a", "text": "Polyglobulie", "correct": true },
+    { "id": "b", "text": "Oedèmes des membres inférieurs (signe d'insuffisance cardiaque droite)", "correct": true },
+    { "id": "c", "text": "Hypertension artérielle pulmonaire (HTAP)", "correct": true },
+    { "id": "d", "text": "Saturation nocturne ≤ 92 %", "correct": true },
+    { "id": "e", "text": "Présence isolée d'une dyspnée d'effort MRC 2", "correct": false },
+    { "id": "f", "text": "Toux chronique sans signes hémodynamiques", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Indications NICE pour OLD avec PaO2 entre 7,3 et 8 kPa : il faut AU MOINS un des 4 facteurs aggravants signant le retentissement hémodynamique ou nocturne (polyglobulie = adaptation à l'hypoxémie chronique, OMI = cœur pulmonaire chronique, HTAP, SpO2 nocturne ≤ 92 %). La dyspnée seule ou la toux ne suffisent pas.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

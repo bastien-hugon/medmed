@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c2-s07f-elimination-prealable",
+  "kind": "sct",
+  "prompt": "Une patiente de 40 ans, fatigue invalidante depuis 8 mois avec PEM, sommeil non récupérateur et brouillard cognitif. Vous vous apprêtez à poser le diagnostic de ME/CFS sans avoir fait de bilan biologique.",
+  "hypothesis": "Le tableau clinique suffit à poser le diagnostic de ME/CFS chez cette patiente.",
+  "new_info": "Vous vous remémorez que le ME/CFS est un diagnostic d'ÉLIMINATION : il exige d'avoir raisonnablement écarté les autres causes (organiques et psychiques) avant d'être posé.",
+  "expected": "affaiblit",
+  "rationale": "Le ME/CFS est un diagnostic d'ÉLIMINATION. Le tableau clinique typique (fatigue > 6 mois + PEM + symptômes associés) est nécessaire mais pas suffisant : il faut au préalable un bilan biologique de 1ère intention (NFS, ferritine, VS/CRP, TSH, glycémie, ionogramme, créatinine, bilan hépatique) et un dépistage des troubles psychiques (PHQ-9, GAD-7). Cette information AFFAIBLIT l'hypothèse \"diagnostic posable d'emblée\". Bien le poser = bien éliminer le reste, puis assumer cliniquement le diagnostic en accompagnant la patiente.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

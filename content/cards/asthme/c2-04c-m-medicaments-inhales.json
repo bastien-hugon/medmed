@@ -1,0 +1,30 @@
+{
+  "id": "asthme-c2-m04-medicaments-inhales",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les molécules qui sont des médicaments INHALÉS utilisés (ou utilisables) dans l'asthme.",
+  "choices": [
+    {"id": "a", "text": "Salbutamol (SABA)", "correct": true},
+    {"id": "b", "text": "Budésonide (ICS)", "correct": true},
+    {"id": "c", "text": "Formotérol (LABA particulier, action rapide + prolongée)", "correct": true},
+    {"id": "d", "text": "Salmétérol (LABA)", "correct": true},
+    {"id": "e", "text": "Tiotropium (LAMA)", "correct": true},
+    {"id": "f", "text": "Montélukast (LTRA)", "correct": false},
+    {"id": "g", "text": "Prednisolone", "correct": false},
+    {"id": "h", "text": "Fluticasone (ICS)", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "h"],
+  "rationale": "Médicaments INHALÉS de l'asthme : SABA (salbutamol), LABA (formotérol — rapide, salmétérol), ICS (budésonide, fluticasone, béclométasone), LAMA (tiotropium). Le MONTÉLUKAST (LTRA) se prend PAR VOIE ORALE — comme la prednisolone. Astuce : le formotérol est le seul LABA à délai d'action court (~3 min), c'est ce qui permet son usage à la fois en fond ET en reliever dans AIR/MART.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

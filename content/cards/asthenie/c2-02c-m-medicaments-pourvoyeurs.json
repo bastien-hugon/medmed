@@ -1,0 +1,29 @@
+{
+  "id": "asthenie-c2-m02c-medicaments-pourvoyeurs",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les familles de médicaments qui sont des POURVOYEURS classiques d'asthénie en médecine générale.",
+  "choices": [
+    { "id": "a", "text": "Antidépresseurs (notamment tricycliques et mirtazapine).", "correct": true },
+    { "id": "b", "text": "Antihistaminiques de 1ère génération (hydroxyzine, dexchlorphéniramine).", "correct": true },
+    { "id": "c", "text": "Antihistaminiques de 2e génération (cétirizine, loratadine, desloratadine).", "correct": false },
+    { "id": "d", "text": "Antihypertenseurs (bêta-bloquants, antihypertenseurs centraux).", "correct": true },
+    { "id": "e", "text": "Diurétiques (via hypokaliémie ou déshydratation).", "correct": true },
+    { "id": "f", "text": "Benzodiazépines et hypnotiques (zolpidem, zopiclone).", "correct": true },
+    { "id": "g", "text": "Paracétamol aux doses usuelles.", "correct": false }
+  ],
+  "expected": ["a", "b", "d", "e", "f"],
+  "rationale": "Mnémo \"AHA-DiS\" : Antidépresseurs, Antihistaminiques 1G, Antihypertenseurs (bêta-bloquants ++), Diurétiques (hypokaliémie), Sédatifs/hypnotiques. À mémoriser aussi : myorelaxants. Les antiH1 de 2e génération sont peu sédatifs (passent peu la barrière hémato-encéphalique). Le paracétamol n'est pas un pourvoyeur classique. Réflexe : devant toute fatigue, relire l'ordonnance AVANT la prise de sang.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

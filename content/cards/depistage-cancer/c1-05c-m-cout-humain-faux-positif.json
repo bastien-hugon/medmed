@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c1-m05c-cout-humain-faux-positif",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les conséquences potentielles d'un FAUX POSITIF en dépistage de masse.",
+  "choices": [
+    { "id": "a", "text": "Stress et angoisse du patient le temps des examens complémentaires", "correct": true },
+    { "id": "b", "text": "Réalisation d'examens invasifs inutiles (biopsie, coloscopie...)", "correct": true },
+    { "id": "c", "text": "Coût économique supplémentaire pour le système de santé", "correct": true },
+    { "id": "d", "text": "Décès direct dû au test de dépistage", "correct": false },
+    { "id": "e", "text": "Perte de confiance du patient dans le programme de dépistage", "correct": true },
+    { "id": "f", "text": "Diagnostic d'un cancer caché qui aurait été manqué", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Un faux positif coûte : anxiété (a), examens complémentaires invasifs et iatrogènes (b — la coloscopie a un risque de perforation ~1/1000), surcoût pour le système (c), et perte de confiance qui peut entraîner une non-adhésion future (e). (d) faux : le test FIT et la mammographie ne tuent pas en eux-mêmes (le risque iatrogène vient des examens de 2e ligne, et reste très faible). (f) confond : un FAUX POSITIF signifie justement qu'il n'y a PAS de cancer (sinon ce serait un vrai positif). Ce qui aurait découvert un cancer caché c'est un vrai positif.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sensibilit%C3%A9_et_sp%C3%A9cificit%C3%A9",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

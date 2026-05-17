@@ -1,0 +1,26 @@
+{
+  "id": "depression-c2-q10b-tca-vs-isrs-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Mme Bertrand, 50 ans, EDC more severe avec idées suicidaires passives. Pas d'antécédent psychiatrique. Vous initiez un antidépresseur. Quel choix de 1ère ligne pharmacologique selon NICE 2022 ?",
+  "choices": [
+    { "id": "a", "text": "Amitriptyline (Laroxyl, TCA) car plus efficace", "correct": false },
+    { "id": "b", "text": "Un ISRS (par ex. sertraline ou escitalopram), avec quantité prescrite limitée (1-2 sem) compte tenu des idées suicidaires, et suivi rapproché.", "correct": true },
+    { "id": "c", "text": "Une benzodiazépine seule (alprazolam)", "correct": false },
+    { "id": "d", "text": "Un anxiolytique sédatif au long cours", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "ISRS = 1ère ligne pharmacologique (NICE Rec 1.4.18-20). Argument décisif chez patient à risque suicidaire : TCA peut être létal en overdose à 1-2 boîtes ; ISRS quasi non létal. Bonne pratique chez patient à risque : limiter la quantité prescrite à 1-2 sem, retirer les moyens accessibles, suivi à 1 sem (jeune adulte ou risque), info entourage. Les benzodiazépines ne traitent PAS la dépression et peuvent désinhiber + favoriser le passage à l'acte.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74, 351],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

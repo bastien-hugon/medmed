@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-f09-quatre-piliers-voyageur",
+  "kind": "free-recall",
+  "prompt": "Cite les QUATRE vaccins « piliers » du voyageur à envisager systématiquement en consultation pré-voyage tropical, et précise pour chacun la situation d'indication principale.",
+  "expected": ["fièvre jaune zone endémique Afrique Am Sud", "hépatite A zones tropicales", "méningocoque ACWY Mecque ceinture africaine", "typhoïde séjour long conditions précaires"],
+  "rationale": "Quatre piliers du voyageur tropical : (1) FIÈVRE JAUNE → zone d'endémie Afrique sub-saharienne / Amérique du Sud tropicale, vivant atténué, centre agréé, ≥ 10 jours avant ; (2) HÉPATITE A → toutes zones tropicales à hygiène limitée, inactivé, 1+1 à 6-12 mois ; (3) MÉNINGOCOQUE ACWY → Mecque (obligatoire), ceinture africaine de la méningite ; (4) TYPHOÏDE → séjour prolongé en conditions sanitaires précaires (Asie du Sud surtout). Autres selon contexte : rage, encéphalite japonaise, encéphalite à tiques, choléra (rare). Toujours penser : consultation 4-6 semaines avant.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "voyage"],
+    "item_edn": [143, 174],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

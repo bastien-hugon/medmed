@@ -1,0 +1,23 @@
+{
+  "id": "irc-c1-f02-nephron-deux-parties",
+  "kind": "free-recall",
+  "prompt": "Quelles sont les deux parties d'un néphron, et que fait chacune ?",
+  "expected": [
+    "le glomérule : mini-tamis / capillaires où le plasma est filtré / sépare petites molécules et eau du sang",
+    "le tubule : long tube qui réabsorbe ce qui est utile (eau, sel, glucose) et laisse les déchets dans l'urine"
+  ],
+  "rationale": "Anatomie fonctionnelle du néphron : glomérule (filtration passive selon la taille des molécules) + tubule (réabsorption sélective active). Quand on parle de 'glomérulopathie', c'est le tamis qui est atteint (souvent → protéinurie). Quand on parle de 'tubulopathie', c'est le tube qui dysfonctionne (souvent → troubles ioniques).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

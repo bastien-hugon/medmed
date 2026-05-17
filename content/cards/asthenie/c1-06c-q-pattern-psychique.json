@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c1-q06c-pattern-psychique",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente décrit une fatigue présente dès le réveil, constante toute la journée, qui ne cède PAS avec le repos, mais avec parfois des moments de \"bouffée d'énergie\" inattendus. Que pouvez-vous suspecter EN PRIORITÉ ?",
+  "choices": [
+    { "id": "a", "text": "Une anémie ferriprive.", "correct": false },
+    { "id": "b", "text": "Une insuffisance cardiaque débutante.", "correct": false },
+    { "id": "c", "text": "Un épisode dépressif caractérisé.", "correct": true },
+    { "id": "d", "text": "Un syndrome d'apnée du sommeil.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Pattern typique de fatigue PSYCHIQUE (dépression) : fatigue MATINALE prédominante, CONSTANTE, NON soulagée par le repos, parfois entrecoupée de bouffées d'énergie ou d'amélioration vespérale. Compléter par les questionnaires structurés (PHQ-9, GAD-7) et chercher l'anhédonie, les ruminations, les idées noires. Une anémie ou une insuffisance cardiaque suivraient plutôt un pattern \"organique\" (aggravée par l'effort).",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

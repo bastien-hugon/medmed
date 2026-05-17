@@ -1,0 +1,31 @@
+{
+  "id": "depression-c2-m10d-effets-anticholinergiques-tca",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les effets indésirables fréquents des TCA (tricycliques) qui les rendent moins bien tolérés que les ISRS et expliquent leur déclassement en 2e ligne par NICE 2022.",
+  "choices": [
+    { "id": "a", "text": "Bouche sèche (xérostomie)", "correct": true },
+    { "id": "b", "text": "Constipation", "correct": true },
+    { "id": "c", "text": "Hypotension orthostatique", "correct": true },
+    { "id": "d", "text": "Sédation, somnolence diurne", "correct": true },
+    { "id": "e", "text": "Prise de poids", "correct": true },
+    { "id": "f", "text": "Troubles cognitifs (effet anticholinergique central)", "correct": true },
+    { "id": "g", "text": "Risque cardiaque en overdose (troubles du rythme, arrêt cardiaque)", "correct": true },
+    { "id": "h", "text": "Effet euphorisant immédiat", "correct": false },
+    { "id": "i", "text": "Hépatotoxicité majeure systématique", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g"],
+  "rationale": "Profil des TCA = effets anticholinergiques (bouche sèche, constipation, troubles cognitifs, rétention urinaire), histaminergiques (sédation, prise de poids), alpha-bloquant (hypotension orthostatique), et CARDIOTOXIQUES en overdose (troubles du rythme, élargissement QRS, arrêt cardiaque). Bouche sèche et somnolence = motifs d'arrêt prématuré. Patients âgés particulièrement à risque (chutes par hypotension orthostatique, syndrome confusionnel anticholinergique). Pas d'effet euphorisant (≠ amphétamines), pas d'hépatotoxicité systématique.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

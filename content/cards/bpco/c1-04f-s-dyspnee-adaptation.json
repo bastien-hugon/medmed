@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c1-s04f-dyspnee-adaptation",
+  "kind": "sct",
+  "prompt": "M. L., 60 ans, 40 paquets-années, dit 'je vais bien, je ne suis pas essoufflé'. Tu suspectes une BPCO insidieuse.",
+  "hypothesis": "Mon hypothèse : il sous-déclare sa dyspnée par adaptation comportementale inconsciente.",
+  "new_info": "Sa femme rapporte qu'il prend systématiquement l'ascenseur depuis 2 ans et qu'il ne fait plus de jardinage 'parce que ça l'épuise'.",
+  "expected": "renforce",
+  "rationale": "L'adaptation comportementale (éviter les escaliers, ralentir, abandonner des activités) est le piège classique de la dyspnée BPCO : le patient ne la signale pas car il a réorganisé sa vie autour. C'est souvent le conjoint qui voit le changement. Ces informations renforcent fortement l'hypothèse de dyspnée masquée. Bon réflexe clinique : demander 'qu'est-ce que vous ne faites plus, qu'avant vous faisiez ?'.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

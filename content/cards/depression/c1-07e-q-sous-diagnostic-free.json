@@ -1,0 +1,34 @@
+{
+  "id": "depression-c1-q07e-sous-diagnostic-free",
+  "kind": "free-recall",
+  "prompt": "Citez TROIS raisons fréquentes pour lesquelles la dépression reste sous-diagnostiquée en médecine générale (du côté patient, médecin, et entourage).",
+  "expected": [
+    "patient n'ose pas",
+    "honte",
+    "tabou",
+    "stigmatisation",
+    "minimise",
+    "médecin",
+    "creuser",
+    "écoute",
+    "entourage",
+    "secoue-toi",
+    "faiblesse",
+    "manque de temps",
+    "ça va passer"
+  ],
+  "rationale": "Trois grands axes du sous-diagnostic : (1) le PATIENT n'ose pas en parler (honte, peur d'être étiqueté \"faible\", tabou autour de la santé mentale), (2) le MÉDECIN ne creuse pas (manque de temps, gêne, banalisation \"ça va passer\"), (3) l'ENTOURAGE minimise (\"secoue-toi\", \"prends sur toi\"). Conséquence : la moitié des dépressions ne sont jamais diagnostiquées. Rôle clé du MG : reconnaître, nommer, dédramatiser, proposer.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

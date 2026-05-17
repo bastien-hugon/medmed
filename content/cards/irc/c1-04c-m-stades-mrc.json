@@ -1,0 +1,30 @@
+{
+  "id": "irc-c1-m04-stades-mrc",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les associations stade × DFG CORRECTES selon la classification KDIGO/NICE.",
+  "choices": [
+    { "id": "a", "text": "G1 : DFG ≥ 90 mL/min", "correct": true },
+    { "id": "b", "text": "G2 : DFG 60-89 mL/min", "correct": true },
+    { "id": "c", "text": "G3a : DFG 45-59 mL/min", "correct": true },
+    { "id": "d", "text": "G3b : DFG 30-44 mL/min", "correct": true },
+    { "id": "e", "text": "G4 : DFG 15-29 mL/min", "correct": true },
+    { "id": "f", "text": "G5 : DFG < 15 mL/min (insuffisance rénale terminale)", "correct": true },
+    { "id": "g", "text": "G3a : DFG 30-44 mL/min", "correct": false },
+    { "id": "h", "text": "G4 : DFG < 15 mL/min", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Mémo des seuils : 90 / 60 / 45 / 30 / 15. G1 ≥90, G2 60-89, G3a 45-59, G3b 30-44, G4 15-29, G5 <15. La distinction G3a/G3b à 45 est cruciale en pratique : c'est à partir de G3b que la prise en charge change vraiment (adaptation médicamenteuse, risque CV accru, surveillance plus rapprochée). Et G1/G2 ne sont des MRC QUE s'il y a déjà une atteinte rénale prouvée (ex : ACR ≥ 3, hématurie, anomalie structurale).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

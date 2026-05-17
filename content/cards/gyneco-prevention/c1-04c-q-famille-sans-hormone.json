@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q04c-famille-sans-hormone",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente vous dit : 'Je ne veux AUCUNE hormone dans mon corps, mais je veux une contraception très efficace et qui dure des années.' Vers quelle famille l'orientez-vous en priorité ?",
+  "choices": [
+    { "id": "a", "text": "Pilule œstro-progestative", "correct": false },
+    { "id": "b", "text": "Implant sous-cutané", "correct": false },
+    { "id": "c", "text": "DIU au cuivre", "correct": true },
+    { "id": "d", "text": "DIU hormonal au lévonorgestrel", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Le DIU au CUIVRE est la SEULE contraception très efficace ET sans aucune hormone (le cuivre agit par toxicité spermatique et inflammation locale). Durée 5-10 ans, taux d'échec ~0,6 %. La pilule (a) et l'implant (b) sont hormonaux. Le DIU hormonal (d) libère du lévonorgestrel = c'est aussi une contraception hormonale, même si la diffusion est essentiellement locale.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

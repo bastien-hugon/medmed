@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-m04c-oedeme-cardiaque-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les caractéristiques VRAIES de l'œdème cardiaque des membres inférieurs.",
+  "choices": [
+    { "id": "a", "text": "Bilatéral et symétrique", "correct": true },
+    { "id": "b", "text": "Prend le godet à la pression", "correct": true },
+    { "id": "c", "text": "S'aggrave en fin de journée", "correct": true },
+    { "id": "d", "text": "Douloureux et rouge", "correct": false },
+    { "id": "e", "text": "S'accompagne souvent d'une prise de poids rapide", "correct": true },
+    { "id": "f", "text": "Touche typiquement une seule jambe", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Œdème cardiaque = BILATÉRAL, symétrique, indolore, godet+, vespéral (gravité), avec prise de poids hydrique. Si UNE seule jambe + rouge/chaud/douloureux → penser PHLÉBITE (TVP) = urgence. La douleur n'est PAS typique du cardiaque.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

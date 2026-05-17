@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c2-q04-intensite-haute",
+  "kind": "qcm-vignette",
+  "prompt": "Quel critère définit une statine de HAUTE INTENSITÉ selon NICE / ESC ?",
+  "choices": [
+    { "id": "a", "text": "Une baisse moyenne du LDL ≥ 40 %.", "correct": true },
+    { "id": "b", "text": "Une baisse moyenne du LDL ≥ 20 %.", "correct": false },
+    { "id": "c", "text": "Une baisse moyenne des triglycérides ≥ 50 %.", "correct": false },
+    { "id": "d", "text": "Une posologie supérieure à 100 mg/jour.", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Une statine est dite de HAUTE INTENSITÉ si elle abaisse le LDL en moyenne d'AU MOINS 40 %. Exemples : atorvastatine 20-80 mg, rosuvastatine 10-40 mg. Les 'intensités moyennes' baissent de 30-40 %, les 'faibles' de <30 %. La classification se base sur la baisse de LDL attendue, pas sur la dose en mg (qui varie selon la molécule).",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

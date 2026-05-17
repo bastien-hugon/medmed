@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-02b-q-iah-calcul",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient a passé 7 heures au lit, dont 6 heures de sommeil effectif. Sa polysomnographie révèle 30 apnées + 60 hypopnées. Quel est son IAH ?",
+  "choices": [
+    {"id": "a", "text": "13/h", "correct": false},
+    {"id": "b", "text": "15/h", "correct": true},
+    {"id": "c", "text": "30/h", "correct": false},
+    {"id": "d", "text": "90/h", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "IAH = (apnées + hypopnées) ÷ heures de SOMMEIL. Ici : (30 + 60) ÷ 6 = 90 ÷ 6 = 15/h. Attention au piège : on divise par les 6 heures de SOMMEIL réel (mesuré à l'EEG en polysomnographie), pas par les 7 heures au lit. Cet IAH = 15 correspond à un SAOS modéré (à la limite léger/modéré).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

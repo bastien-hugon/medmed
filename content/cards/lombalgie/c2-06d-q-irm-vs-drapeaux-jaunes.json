@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q06-irm-vs-drapeaux-jaunes",
+  "kind": "qcm-vignette",
+  "prompt": "Quel énoncé est conforme aux données actuelles (HAS 2019 / NICE NG59) ?",
+  "choices": [
+    { "id": "a", "text": "Les anomalies visibles à l'IRM prédisent mieux la chronicité que les drapeaux jaunes psychosociaux", "correct": false },
+    { "id": "b", "text": "Les drapeaux jaunes psychosociaux prédisent MIEUX la chronicité que les anomalies visibles à l'IRM", "correct": true },
+    { "id": "c", "text": "Les deux prédisent à part égale", "correct": false },
+    { "id": "d", "text": "Aucun des deux ne prédit la chronicité", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Tournant fondamental : les drapeaux jaunes psychosociaux sont des prédicteurs PLUS PUISSANTS de la chronicisation que les anomalies anatomiques à l'IRM. Une 'belle' hernie discale chez un patient mobile et positif ira mieux qu'un dos sans lésion chez un patient découragé. C'est pour cela que la PEC moderne est bio-psycho-sociale — pas purement anatomique.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "psychiatrie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

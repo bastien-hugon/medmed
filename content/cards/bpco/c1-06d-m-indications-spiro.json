@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c1-m06d-indications-spiro",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations où une SPIROMÉTRIE doit être proposée pour rechercher une BPCO (NICE NG115).",
+  "choices": [
+    { "id": "a", "text": "Patient > 35 ans, fumeur, avec dyspnée d'effort", "correct": true },
+    { "id": "b", "text": "Patient > 35 ans, fumeur, avec toux chronique", "correct": true },
+    { "id": "c", "text": "Patient > 35 ans, fumeur, avec bronchites hivernales récidivantes", "correct": true },
+    { "id": "d", "text": "Patient < 30 ans, non fumeur, sans symptôme", "correct": false },
+    { "id": "e", "text": "Patient > 35 ans, exposé professionnellement (silice, poussières) avec symptôme respiratoire", "correct": true },
+    { "id": "f", "text": "Patient > 35 ans, fumeur, sans aucun symptôme respiratoire (dépistage de masse)", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "NICE NG115 : spirométrie chez tout patient > 35 ans avec FDR (tabac, exposition pro) ET au moins un symptôme évocateur (dyspnée, toux chronique, expectoration, bronchites répétées, sibilants). Pas de dépistage systématique en population générale asymptomatique (e). Un sujet jeune non fumeur asymptomatique n'a pas besoin de spirométrie (d).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

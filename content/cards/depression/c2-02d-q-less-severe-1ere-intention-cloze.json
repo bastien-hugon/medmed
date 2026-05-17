@@ -1,0 +1,20 @@
+{
+  "id": "depression-c2-q02d-less-severe-1ere-intention-cloze",
+  "kind": "cloze",
+  "prompt": "Pour une dépression LESS SEVERE (PHQ-9 < 16), NICE 2022 recommande en 1ère intention la ___, et pas l'antidépresseur d'emblée.",
+  "expected": ["psychothérapie", "psychotherapie"],
+  "rationale": "Changement majeur NICE 2022 : pour la less severe, la psychothérapie (TCC, activation comportementale, IPT, self-help guidé, exercice de groupe) prime sur l'AD. L'AD reste possible si demande éclairée du patient, accès limité à la psychothérapie, ou bonne réponse antérieure à un AD.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "hta-c1-s06-depistage",
+  "kind": "sct",
+  "prompt": "Tu reçois en consultation un homme de 50 ans en pleine forme apparente, sans antécédent, qui vient pour un certificat médical.",
+  "hypothesis": "Mon hypothèse : il faut quand même lui mesurer la PA aujourd'hui.",
+  "new_info": "Il te dit : 'Je n'ai jamais aucun symptôme, ni mal de tête, ni vertiges, ni fatigue.'",
+  "expected": "neutre",
+  "rationale": "L'absence de symptômes ne modifie PAS l'indication du dépistage. L'HTA est asymptomatique dans la grande majorité des cas. La HAS recommande une mesure de PA opportuniste à toute consultation médicale chez l'adulte, indépendamment des plaintes. L'info est donc neutre vis-à-vis de l'hypothèse : on mesure quand même.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

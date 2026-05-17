@@ -1,0 +1,22 @@
+{
+  "id": "saos-c1-07f-s-sct-position-laterale",
+  "kind": "sct",
+  "prompt": "M. P., 47 ans, IMC 28, présente un SAOS léger (IAH = 12) avec des événements survenant essentiellement en décubitus dorsal selon la polygraphie. Il refuse la CPAP. Vous lui proposez une thérapie posturale (éviter le décubitus dorsal).",
+  "hypothesis": "La thérapie posturale a une chance d'améliorer significativement son SAOS.",
+  "new_info": "La polygraphie confirme que 90 % de ses apnées surviennent en décubitus dorsal et qu'il a un SAOS dit 'positionnel'.",
+  "expected": "renforce",
+  "rationale": "Le SAOS 'positionnel' (≥ 2× plus d'événements en décubitus dorsal qu'en latéral) répond particulièrement bien aux thérapies posturales (balle de tennis cousue dans le dos du pyjama, dispositifs vibratoires). Apprendre que 90 % des événements sont positionnels RENFORCE l'efficacité attendue de cette intervention simple. C'est une bonne option chez les SAOS légers à modérés positionnels, surtout en cas de refus de CPAP.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

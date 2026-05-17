@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c2-c03e-icfemr-cloze",
+  "kind": "cloze",
+  "prompt": "L'IC à fraction d'éjection modérément réduite (ICFEmr) correspond à une FEVG entre ___ et ___ %.",
+  "expected": ["41", "49"],
+  "rationale": "ICFEmr = 41-49 % (zone mid-range entre ICFEr et ICFEp). En pratique, on la traite plutôt comme une ICFEr (4 piliers) mais avec un niveau de preuve un peu moindre selon NICE NG106.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

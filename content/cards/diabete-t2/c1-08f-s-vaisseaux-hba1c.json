@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c1-s08-vaisseaux-hba1c",
+  "kind": "sct",
+  "hypothesis": "M. R., diabétique depuis 12 ans avec HbA1c moyenne à 9 %, est à fort risque de développer une rétinopathie.",
+  "new_info": "Vous apprenez que dans les grandes études (UKPDS, DCCT), chaque baisse de 1 % d'HbA1c réduit d'environ 35 % le risque microvasculaire.",
+  "prompt": "Cette nouvelle information modifie-t-elle l'hypothèse de risque élevé de rétinopathie chez ce patient ?",
+  "expected": "renforce",
+  "rationale": "9 % d'HbA1c sur 12 ans = exposition glycémique cumulée très importante → risque microvasculaire majeur. Les données UKPDS/DCCT montrent que l'inverse est vrai : abaisser l'HbA1c réduit massivement le risque. Donc, à HbA1c haute prolongée, le risque est REL (par calcul inverse, ×2 à ×3 vs. un diabétique bien équilibré). L'info renforce clairement l'hypothèse de risque élevé.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

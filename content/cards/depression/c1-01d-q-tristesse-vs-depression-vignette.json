@@ -1,0 +1,42 @@
+{
+  "id": "depression-c1-q01d-tristesse-vs-depression-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Karim, 45 ans, vient en consultation. Depuis 3 semaines, il n'arrive plus à se lever pour aller travailler, ne mange presque plus, ne répond plus à ses amis et dit \"plus rien n'a de saveur\". Il n'a vécu aucun événement particulier. Quelle est la situation la plus probable ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Tristesse réactionnelle banale, à rassurer",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Épisode dépressif caractérisé (durée > 2 sem, retentissement majeur, anhédonie franche, sans déclencheur évident)",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Burn-out professionnel à traiter par un simple arrêt de travail",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Fatigue saisonnière sans gravité",
+      "correct": false
+    }
+  ],
+  "expected": ["b"],
+  "rationale": "Trois critères de l'EDC réunis : durée ≥ 2 semaines, intensité majeure (anhédonie franche : \"plus rien n'a de saveur\"), retentissement (travail, alimentation, lien social). L'absence de déclencheur exclut une tristesse réactionnelle. Banaliser ici serait un retard de diagnostic.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q01-recherche-tous-stades",
+  "kind": "qcm-vignette",
+  "prompt": "À quel(s) stade(s) de la prise en charge la HAS recommande-t-elle de rechercher les drapeaux rouges ?",
+  "choices": [
+    { "id": "a", "text": "Uniquement à la première consultation", "correct": false },
+    { "id": "b", "text": "Uniquement après 4-6 semaines de douleur persistante", "correct": false },
+    { "id": "c", "text": "À TOUS les stades de la prise en charge", "correct": true },
+    { "id": "d", "text": "Uniquement si le patient en fait la demande", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "HAS 2019 : recherche des drapeaux rouges à TOUS les stades. Une lombalgie peut être commune au début et un drapeau rouge apparaître plus tard (par exemple, fièvre qui se développe, perte de poids, déficit neurologique nouveau). C'est la 'vigilance permanente' du généraliste — le voyant rouge peut s'allumer en cours de route.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

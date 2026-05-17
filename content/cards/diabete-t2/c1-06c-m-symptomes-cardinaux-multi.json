@@ -1,0 +1,28 @@
+{
+  "id": "diabete-t2-c1-m06-symptomes-cardinaux",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les signes faisant partie des symptômes cardinaux du diabète (les '3 P').",
+  "choices": [
+    { "id": "a", "text": "Polyurie (urines abondantes)", "correct": true },
+    { "id": "b", "text": "Polydipsie (soif intense)", "correct": true },
+    { "id": "c", "text": "Polyphagie / amaigrissement involontaire malgré un appétit conservé", "correct": true },
+    { "id": "d", "text": "Hypertension artérielle", "correct": false },
+    { "id": "e", "text": "Œdèmes des membres inférieurs", "correct": false },
+    { "id": "f", "text": "Toux chronique", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Les 3 P du diabète : Polyurie, Polydipsie, Perte de poids (parfois associée à une polyphagie paradoxale). L'HTA et les œdèmes sont des comorbidités/complications, pas des symptômes cardinaux. La toux n'a rien à voir. Note : dans le T2, ces signes sont souvent ABSENTS ou très discrets — d'où le rôle clé du dépistage biologique.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

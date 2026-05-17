@@ -1,0 +1,20 @@
+{
+  "id": "ist-c1-c01c-ist-definition-cloze",
+  "kind": "cloze",
+  "prompt": "Une IST est une ___ (type général : bactérie, virus ou parasite) transmise par contact ___ ou sanguin lors d'un rapport sexuel ___ (3 voies : vaginal, anal, ___).",
+  "expected": ["infection", "muqueux", "vaginal", "oral"],
+  "rationale": "Définition opérationnelle : INFECTION (bactérie/virus/parasite) transmise par contact MUQUEUX ou sanguin pendant un rapport VAGINAL, anal ou ORAL. Pas besoin de pénétration : un contact muqueux suffit pour HPV et herpès.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

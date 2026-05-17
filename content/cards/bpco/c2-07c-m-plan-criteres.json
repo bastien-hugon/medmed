@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c2-m07c-plan-criteres",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les conditions à réunir AVANT de remettre un plan d'action 'self-management' (corticoïde + antibiotique à domicile) à un patient BPCO (NICE NG115).",
+  "choices": [
+    { "id": "a", "text": "Antécédent d'exacerbation récente", "correct": true },
+    { "id": "b", "text": "Le patient COMPREND quand et comment utiliser les médicaments", "correct": true },
+    { "id": "c", "text": "Le patient S'ENGAGE à notifier le soignant à chaque utilisation", "correct": true },
+    { "id": "d", "text": "Le patient est en mesure d'identifier les signes d'alarme qui imposent une consultation immédiate", "correct": true },
+    { "id": "e", "text": "Patient non exacerbateur, sans aucun antécédent, jamais hospitalisé", "correct": false },
+    { "id": "f", "text": "Patient n'ayant aucune compréhension des indications du corticoïde et de l'antibiotique", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Le plan d'action n'est pas universel. Conditions NICE : (1) ATCD d'exacerbation, (2) compréhension des indications, (3) engagement à notifier, (4) capacité à reconnaître les signes d'alarme. Donner ces médicaments à un patient non éduqué ou non exacerbateur ouvre la porte à l'auto-médication abusive. C'est de l'éducation thérapeutique, ça prend du temps.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

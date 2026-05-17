@@ -1,0 +1,26 @@
+{
+  "id": "depression-c2-q06c-arret-precoce-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Vous avez initié un ISRS chez M. Cohen pour un EDC il y a 5 jours. Il vous rappelle, déçu : \"Docteur, ça ne marche pas du tout, je vais arrêter. Et en plus j'ai un peu mal au cœur le matin.\" Quelle est la meilleure conduite ?",
+  "choices": [
+    { "id": "a", "text": "Lui dire d'arrêter immédiatement et changer de molécule", "correct": false },
+    { "id": "b", "text": "Lui rappeler que l'effet antidépresseur n'arrive habituellement qu'à ~4 semaines (latence neuroplastique). Les nausées du début sont fréquentes et transitoires (1-2 sem). L'encourager à tenir au moins 4 semaines avant de juger, et le revoir.", "correct": true },
+    { "id": "c", "text": "Doubler immédiatement la dose pour accélérer l'effet", "correct": false },
+    { "id": "d", "text": "Ajouter une benzodiazépine au long cours", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Cause n°1 d'échec thérapeutique : arrêt prématuré par méconnaissance du délai. Psychoéducation cruciale dès la prescription. Les nausées initiales (effet sérotoninergique digestif) sont fréquentes, transitoires (1-2 sem), souvent gérées en prenant le médicament au cours du repas. L'effet sur l'humeur arrive entre 2-4 semaines (parfois plus tôt sur l'énergie ou le sommeil). NICE Rec 1.4.11 : information patient explicite sur la latence.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

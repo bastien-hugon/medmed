@@ -1,0 +1,29 @@
+{
+  "id": "cephalee-c2-m05c-horton-signes",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les signes/symptômes évocateurs d'une maladie de Horton (artérite à cellules géantes) chez un patient > 50 ans avec céphalée nouvelle.",
+  "choices": [
+    { "id": "a", "text": "Hyperesthésie du cuir chevelu ('mal quand je me coiffe')", "correct": true },
+    { "id": "b", "text": "Claudication de la mâchoire à la mastication", "correct": true },
+    { "id": "c", "text": "Artère temporale dure, douloureuse, sans pouls à la palpation", "correct": true },
+    { "id": "d", "text": "Symptômes visuels (cécité monoculaire transitoire ou définitive)", "correct": true },
+    { "id": "e", "text": "Altération de l'état général, fébricule", "correct": true },
+    { "id": "f", "text": "VS et CRP très augmentées", "correct": true },
+    { "id": "g", "text": "Céphalée pulsatile typique de migraine sans aucun autre symptôme", "correct": false },
+    { "id": "h", "text": "Douleur strictement bilatérale en bandeau, légère", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Tableau classique du Horton : céphalée temporale nouvelle, hyperesthésie du cuir chevelu (palpation/coiffage douloureux), claudication mandibulaire (la mastication fait mal et fait arrêter de manger), artère temporale palpable dure et sans pouls, AEG/fébricule, symptômes oculaires (signe d'urgence absolue), syndrome inflammatoire biologique majeur (VS souvent > 100 mm). Les présentations 'banales' (migraine, tension) ne ressemblent pas à un Horton.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "horton"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

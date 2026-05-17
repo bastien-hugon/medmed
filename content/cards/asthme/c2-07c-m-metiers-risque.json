@@ -1,0 +1,29 @@
+{
+  "id": "asthme-c2-m07-metiers-risque",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les métiers/expositions classiquement à risque d'asthme professionnel.",
+  "choices": [
+    {"id": "a", "text": "Boulanger / pâtissier (farines, enzymes améliorantes)", "correct": true},
+    {"id": "b", "text": "Coiffeur (persulfates des décolorants)", "correct": true},
+    {"id": "c", "text": "Soignant (latex, glutaraldéhyde, chloramine)", "correct": true},
+    {"id": "d", "text": "Soudeur / peintre (isocyanates des peintures bi-composantes)", "correct": true},
+    {"id": "e", "text": "Agriculteur / éleveur (acariens de stockage, animaux, moisissures)", "correct": true},
+    {"id": "f", "text": "Comptable en bureau sans exposition particulière", "correct": false},
+    {"id": "g", "text": "Esthéticienne en nail bar (méthacrylates des résines)", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "g"],
+  "rationale": "Métiers à risque = ceux qui exposent à des agents sensibilisants ou irritants : protéines (farine, animaux), composés chimiques de bas poids moléculaire (isocyanates, persulfates, méthacrylates), latex, désinfectants. Mnémo : « 4 P » = pain (boulanger), peinture (soudeur/peintre), poils (éleveur/coiffeur), produits chimiques (santé, nail bar). Un comptable sans exposition = pas un métier à risque.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bpco-c1-q07b-tiffeneau-formule",
+  "kind": "cloze",
+  "prompt": "Le coefficient de Tiffeneau se calcule comme le rapport ___ / ___.",
+  "expected": ["VEMS", "CVF"],
+  "rationale": "Tiffeneau = VEMS / CVF. Un ratio sans unité, exprimé en décimal (0,XX) ou en pourcentage (XX %). Sain : ≥ 0,75 chez l'adulte. SEUIL DIAGNOSTIQUE BPCO : < 0,70 après bronchodilatateur (obstruction fixée).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

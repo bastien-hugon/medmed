@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c2-q06-secondaire-cible-cloze",
+  "kind": "cloze",
+  "prompt": "En prévention secondaire, NICE retient comme cibles : LDL ≤ ___ mmol/L OU non-HDL ≤ ___ mmol/L.",
+  "expected": ["2.0", "2.6"],
+  "rationale": "Cibles NICE en prévention SECONDAIRE : LDL ≤ 2,0 mmol/L (≈ 0,77 g/L) OU non-HDL ≤ 2,6 mmol/L (≈ 1,0 g/L). Ces deux cibles sont équivalentes en pratique. À noter que l'ESC va parfois plus bas (LDL < 1,4 mmol/L pour les TRÈS haut risque), mais NICE conserve 2,0 mmol/L. Si la cible n'est pas atteinte au max toléré de statine → ajouter ézétimibe, puis anti-PCSK9.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

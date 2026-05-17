@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-c11-covid-printemps-80",
+  "kind": "cloze",
+  "prompt": "Une dose supplémentaire COVID de printemps est recommandée chez les personnes de ___ ans et plus, les immunodéprimés et les résidents d'EHPAD, avec un intervalle minimal de ___ mois depuis la dernière dose ou infection.",
+  "expected": ["80", "3"],
+  "rationale": "Stratégie COVID 2025-2026 à deux temps : (1) Automne → 65+, FdR, femmes enceintes, soignants, entourage fragiles ; (2) Printemps (dose supplémentaire) → 80+, immunodéprimés, résidents EHPAD/USLD, personnes à très haut risque. Intervalle minimum 3 mois depuis la dernière dose ou infection documentée. EHPAD = Établissement d'Hébergement pour Personnes Âgées Dépendantes ; USLD = Unité de Soins de Longue Durée.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "covid"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/COVID-19",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

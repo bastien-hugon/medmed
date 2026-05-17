@@ -1,0 +1,22 @@
+{
+  "id": "irc-c1-s02-nephron-irreversible",
+  "kind": "sct",
+  "prompt": "Vous expliquez à M. P., 70 ans, MRC G3b, que sa maladie est par nature chronique et progressive. Vous pensez que les néphrons perdus ne se régénèrent pas.",
+  "hypothesis": "La MRC évolue forcément vers la dialyse à plus ou moins long terme, on ne peut rien faire pour son rein.",
+  "new_info": "La littérature montre que sous IEC/ARA2 + SGLT2-i + bon contrôle PA et glycémie, on peut RALENTIR fortement la perte de DFG annuelle, parfois jusqu'à stabiliser un patient pendant 10-15 ans.",
+  "expected": "affaiblit",
+  "rationale": "Les néphrons perdus ne se régénèrent pas, c'est vrai — mais cela NE veut PAS dire 'tous les MRC vont en dialyse'. La vitesse de perte est modulable. Un patient stable peut traverser 10-20 ans sans atteindre l'IRT. Cette information affaiblit la vision fataliste : la MRC est chronique mais la trajectoire est négociable. C'est ce qui justifie l'investissement dans le traitement (IEC, SGLT2, PA, glycémie, AINS évités).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

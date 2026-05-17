@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-q03-cible-pa-acr",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient MRC G3a, non diabétique, présente un ACR à 95 mg/mmol. Selon NICE NG203, quelle est la cible tensionnelle au cabinet ?",
+  "choices": [
+    { "id": "a", "text": "PAS < 160 mmHg quel que soit le patient", "correct": false },
+    { "id": "b", "text": "PAS 120-139 et PAD < 90 (= < 140/90)", "correct": false },
+    { "id": "c", "text": "PAS 120-129 et PAD < 80 (= < 130/80)", "correct": true },
+    { "id": "d", "text": "Pas de cible particulière en MRC", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "ACR ≥ 70 mg/mmol fait basculer la cible vers une PA serrée : PAS 120-129 / PAD < 80, soit < 130/80 au cabinet. Sous le seuil de 70, on garde la cible standard < 140/90. La logique : plus la protéinurie est élevée, plus le rein s'use vite, plus on bénéficie d'un serrage tensionnel.",
+  "tags": {
+    "system": ["nephrologie", "cardiovasculaire"],
+    "sdd": ["irc", "mrc", "hta"],
+    "item_edn": [224, 261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "asthenie-c2-q01e-medicament-transversal",
+  "kind": "cloze",
+  "prompt": "Une cause d'asthénie est à RECHERCHER quelle que soit la durée (récente, prolongée, ou chronique) : c'est la cause ___.",
+  "expected": ["médicamenteuse", "medicamenteuse", "iatrogène", "iatrogene", "iatrogénique", "iatrogenique"],
+  "rationale": "La cause iatrogène (médicamenteuse) traverse les 3 colonnes du mapping durée → causes. Un médicament récemment introduit explique une fatigue récente ; un médicament pris au long cours explique aussi des fatigues chroniques (notamment chez les sujets âgés polymédiqués). Réflexe : avant la prise de sang, regarder l'ordonnance.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

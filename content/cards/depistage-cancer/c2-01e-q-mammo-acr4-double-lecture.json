@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q01e-mammo-acr4-double-lecture",
+  "kind": "qcm-vignette",
+  "prompt": "Madame T., 60 ans, vient de réaliser sa mammographie de dépistage. Le 1er radiologue rend un compte-rendu avec un foyer de microcalcifications suspect classé ACR 4. La patiente, anxieuse, vous demande si elle doit attendre la double lecture avant d'agir.",
+  "choices": [
+    { "id": "a", "text": "Oui, elle doit attendre 2 à 3 semaines la double lecture avant tout examen complémentaire", "correct": false },
+    { "id": "b", "text": "Non : une mammographie classée d'emblée ACR 4 ne suit PAS le circuit de double lecture. Elle entre immédiatement dans le bilan diagnostique (clichés complémentaires, échographie, biopsie)", "correct": true },
+    { "id": "c", "text": "On refait une mammographie dans 6 mois pour comparer", "correct": false },
+    { "id": "d", "text": "Elle doit faire un test FIT pour compléter le bilan", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La double lecture est réservée aux mammographies NORMALES. Dès qu'une lésion suspecte est repérée à la 1ʳᵉ lecture (ACR 4 ou 5), on bascule dans le circuit DIAGNOSTIC, on ne perd pas de temps. Conduite : clichés ciblés (agrandissements), échographie pour caractériser, et biopsie (généralement micro/macrobiopsie sous repérage) pour preuve histologique. (a) faux : attendre serait une perte de chance. (c) faux : 6 mois pour surveiller, c'est la conduite d'un ACR 3, pas d'un ACR 4. (d) faux : le FIT n'a aucun rapport avec le sein.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

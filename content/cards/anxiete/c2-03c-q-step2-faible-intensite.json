@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q03c-step2-faible-intensite",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient présente un TAG avec un GAD-7 = 8 (modéré-léger), sans retentissement majeur. Vous suivez le modèle NICE. Quelle intervention proposer EN PRIORITÉ à ce stade ?",
+  "choices": [
+    { "id": "a", "text": "SSRI d'emblée à dose maximale", "correct": false },
+    { "id": "b", "text": "Intervention de FAIBLE INTENSITÉ : auto-aide guidée, groupes psychoéducatifs, supports d'auto-aide", "correct": true },
+    { "id": "c", "text": "Hospitalisation en psychiatrie", "correct": false },
+    { "id": "d", "text": "Benzodiazépine au long cours", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Pour une anxiété modérée sans retentissement marqué, NICE recommande de commencer à l'ÉTAPE 2 du stepped care : interventions de faible intensité. Trois options validées : (1) auto-aide non guidée (livres, applis), (2) auto-aide GUIDÉE (5-7 séances courtes avec contact thérapeute minimal), (3) groupes psychoéducatifs (6 séances de 2h). Pas encore d'indication pour un SSRI (étape 3). Surtout pas de BZD au long cours (déconseillée par NICE pour le TAG). L'hospitalisation est réservée aux situations graves ou suicidaires.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

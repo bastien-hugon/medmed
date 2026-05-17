@@ -1,0 +1,22 @@
+{
+  "id": "hta-c2-s02-toux-iec",
+  "kind": "sct",
+  "prompt": "Un patient sous ramipril (IEC) depuis 3 semaines se plaint d'une toux sèche, irritative, sans expectoration ni fièvre.",
+  "hypothesis": "Mon hypothèse : cette toux est un effet indésirable du ramipril.",
+  "new_info": "La toux est apparue 1-2 semaines après le début du traitement, n'existait pas avant, et le patient n'a aucun signe d'infection respiratoire.",
+  "expected": "renforce",
+  "rationale": "Toux sèche sous IEC = effet indésirable CLASSIQUE (5-20 % des patients), lié à l'accumulation de bradykinine (normalement dégradée par l'ECA). Chronologie typique : apparition dans les jours/semaines après le début, persistance, disparition à l'arrêt. Solution : remplacer par un ARA2 (-sartan), qui n'a pas cet effet car il agit en aval (sur le récepteur de l'angio II) sans toucher la bradykinine. L'info renforce nettement l'hypothèse d'imputabilité.",
+  "tags": {
+    "system": ["cardiovasculaire", "pneumologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

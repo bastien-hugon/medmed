@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c1-s01f-tumeur-asymptomatique",
+  "kind": "sct",
+  "prompt": "Un confrère vous demande pourquoi une tumeur cérébrale frontale parfois 'silencieuse' (découverte fortuite à l'IRM) peut ne provoquer AUCUNE céphalée pendant des mois. Vous évoquez l'hypothèse 'le cerveau est insensible à la douleur ; la céphalée n'apparaît que quand les structures péri-cérébrales sont touchées'. Comment cette information modifie-t-elle votre hypothèse ?",
+  "hypothesis": "Une tumeur cérébrale peut rester longtemps indolore parce que le tissu cérébral lui-même n'a pas de récepteurs nociceptifs.",
+  "new_info": "L'imagerie de cette tumeur silencieuse montre qu'elle est strictement intra-parenchymateuse, sans déplacement des méninges adjacentes, sans engagement des vaisseaux et sans œdème péri-lésionnel.",
+  "expected": "renforce",
+  "rationale": "L'information renforce l'hypothèse : tant que la lésion respecte les structures sensibles à la douleur (méninges, vaisseaux, nerfs), elle peut rester totalement indolore — même volumineuse. La céphalée apparaît typiquement quand la tumeur s'étend, comprime/déplace les méninges, induit un œdème, ou provoque une HTIC. C'est aussi la raison pour laquelle l'absence de céphalée ne permet PAS d'écarter une lésion intracrânienne.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q19-sglt2-glp1-recall-exemples",
+  "kind": "free-recall",
+  "prompt": "Cite 1 exemple d'inhibiteur du SGLT2 et 1 exemple d'agoniste du récepteur GLP-1 (DCI).",
+  "expected": ["dapagliflozine", "empagliflozine", "canagliflozine", "ertugliflozine", "sémaglutide", "semaglutide", "liraglutide", "dulaglutide", "exenatide", "lixisénatide", "lixisenatide"],
+  "rationale": "SGLT2-i (les '-gliflozines') : dapagliflozine, empagliflozine, canagliflozine, ertugliflozine. GLP-1 RA (les '-glutides' ou '-natides') : sémaglutide (Ozempic®, Rybelsus®), liraglutide (Victoza®), dulaglutide (Trulicity®), exénatide, lixisénatide. Mnémo : '-flozine = rein qui fuit, -glutide/-natide = mime GLP-1 intestinal'.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Antidiab%C3%A9tique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "depression-c1-s01e-tristesse-vs-depression",
+  "kind": "sct",
+  "prompt": "Mme Lopez, 38 ans, consulte 5 jours après le décès de sa mère. Elle pleure, dort mal, mange peu, dit \"je n'ai goût à rien\". Vous évoquez initialement une réaction de deuil normale, à ne pas médicaliser d'emblée.",
+  "hypothesis": "Réaction de deuil normale (non pathologique).",
+  "new_info": "À l'interrogatoire, elle précise que les symptômes ont commencé le jour même de l'annonce du décès, qu'elle continue à voir sa sœur tous les jours, qu'elle a réussi à organiser les obsèques, et qu'elle se sent \"un peu mieux\" certains jours quand elle est entourée.",
+  "expected": "renforce",
+  "rationale": "Tableau cohérent avec une réaction de deuil aiguë : (1) déclencheur clair et récent (≤ 1 semaine), (2) fluctuations de l'humeur avec moments de répit en présence de proches (vs humeur plate de l'EDC), (3) fonctionnement social préservé (organisation des obsèques), (4) maintien du lien. Pas de critère temporel d'EDC (≥ 2 sem), pas de retentissement majeur invalidant. L'hypothèse de deuil normal est RENFORCÉE. On reverra à 2-4 semaines pour réévaluer si évolution défavorable.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

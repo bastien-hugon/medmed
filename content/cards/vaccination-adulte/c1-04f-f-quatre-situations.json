@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c1-f04-quatre-situations",
+  "kind": "free-recall",
+  "prompt": "Cite QUATRE grandes « situations particulières » qui modifient le calendrier vaccinal adulte standard et imposent des vaccins supplémentaires ou des contre-indications.",
+  "expected": ["grossesse", "immunodépression", "voyage", "profession exposée"],
+  "rationale": "Quatre axes de personnalisation : (1) GROSSESSE → dTcaP 20-36 SA + grippe en saison, CI vivants. (2) IMMUNODÉPRESSION → CI vivants, schémas renforcés, cocon. (3) VOYAGE → fièvre jaune, méningo ACWY, hépatite A, typhoïde, rage selon destination. (4) PROFESSION exposée → hépatite B obligatoire pour les soignants, grippe recommandée, parfois rage, leptospirose, méningo (étudiants en santé). Le HPV jeune adulte (rattrapage) et l'entourage des fragiles (cocon) sont aussi à mentionner.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

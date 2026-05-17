@@ -1,0 +1,20 @@
+{
+  "id": "depression-c1-q01c-tristesse-vs-depression-cloze",
+  "kind": "cloze",
+  "prompt": "Pour distinguer une tristesse normale d'une dépression-maladie, on regarde trois axes : la DURÉE, l'INTENSITÉ, et le ___ sur la vie quotidienne (famille, travail, social, hygiène).",
+  "expected": ["retentissement"],
+  "rationale": "Les trois axes clés sont durée (≥ 2 sem pour l'EDC), intensité (humeur plate qui ne remonte pas) et retentissement (impact concret sur le fonctionnement). Le retentissement est un critère diagnostique à part entière (critère C DSM-5) et le meilleur indicateur de sévérité.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

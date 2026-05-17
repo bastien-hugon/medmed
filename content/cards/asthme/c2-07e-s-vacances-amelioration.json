@@ -1,0 +1,22 @@
+{
+  "id": "asthme-c2-s07-vacances-amelioration",
+  "kind": "sct",
+  "prompt": "Vous suivez une coiffeuse de 27 ans pour un asthme apparu il y a 18 mois, mal contrôlé sous low-dose MART malgré une bonne technique d'inhalation.",
+  "hypothesis": "Mon hypothèse : il s'agit d'un asthme PROFESSIONNEL (déclenché par les persulfates des décolorants).",
+  "new_info": "Aux deux questions NG245, elle répond : « Mes symptômes sont nettement MEILLEURS le dimanche et pendant mes vacances ; pires en milieu de semaine au salon. »",
+  "expected": "renforce",
+  "rationale": "Pattern temporel TYPIQUE de l'asthme pro : amélioration hors travail, aggravation à l'exposition. Combiné à un métier à risque connu (coiffeuse + persulfates), c'est très fortement évocateur. Suite : DEP biquotidien sur 3-4 semaines couvrant travail/repos, adresser en pneumo + médecin du travail. Démarche de reconnaissance maladie professionnelle (tableau RG 66 bis) à initier — enjeux médicaux ET sociaux. Si exposition prolongée → risque d'asthme irréversible.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

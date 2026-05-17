@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q01e-ntprobnp-intermediaire",
+  "kind": "qcm-vignette",
+  "prompt": "M. T., 60 ans, dyspnéique à l'effort depuis 2 mois, NT-proBNP à 850 ng/L, non traité. Quelle conduite NICE NG106 ?",
+  "choices": [
+    { "id": "a", "text": "Aucun examen complémentaire, IC peu probable", "correct": false },
+    { "id": "b", "text": "Référence pour écho cardiaque dans les 6 semaines", "correct": true },
+    { "id": "c", "text": "Hospitalisation en urgence", "correct": false },
+    { "id": "d", "text": "Recontrôler le NT-proBNP dans 3 mois", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "850 ng/L se situe dans la fourchette 400-2000 → référence non urgente, écho < 6 semaines. Pas d'urgence immédiate (sauf décompensation aiguë), mais investigation indispensable. Ne pas attendre 3 mois (perte de chance).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

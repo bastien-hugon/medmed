@@ -1,0 +1,20 @@
+{
+  "id": "irc-c2-cz11-acr-confirmation",
+  "kind": "cloze",
+  "prompt": "Complète : « Un ACR initial entre 3 et 70 mg/mmol doit être ___ par un ___ prélèvement avant de conclure ; au-delà de 70, la confirmation est rarement nécessaire — on agit. »",
+  "expected": ["confirmé ; deuxième", "confirmé - deuxième", "confirmé, deuxième", "confirme ; deuxieme"],
+  "rationale": "Règle pratique NICE : entre 3 et 70 mg/mmol, on demande UN deuxième prélèvement (urine matinale, sans effort récent, hors infection urinaire) pour confirmer. Au-delà de 70 : l'imprécision relative étant bien moindre, on agit sur un seul résultat. Cette gradation évite à la fois les faux positifs (sur-traitement) et les faux négatifs (sous-action).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

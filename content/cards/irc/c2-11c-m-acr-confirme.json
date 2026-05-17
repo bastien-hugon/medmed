@@ -1,0 +1,29 @@
+{
+  "id": "irc-c2-m11-acr-confirme",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant un ACR augmenté CONFIRMÉ sur deux prélèvements chez un adulte.",
+  "choices": [
+    { "id": "a", "text": "Il définit une atteinte rénale (composante A de la classification KDIGO)", "correct": true },
+    { "id": "b", "text": "Il signe une MRC MÊME si l'eGFR est normal", "correct": true },
+    { "id": "c", "text": "Il est un facteur de risque cardiovasculaire indépendant", "correct": true },
+    { "id": "d", "text": "Il guide l'indication d'un IEC/ARA2 selon le contexte (diabète / HTA / valeur)", "correct": true },
+    { "id": "e", "text": "Il peut justifier une cible PA plus serrée (< 130/80) si ≥ 70 mg/mmol", "correct": true },
+    { "id": "f", "text": "Sa confirmation impose une biopsie rénale systématique", "correct": false },
+    { "id": "g", "text": "Sa découverte chez un diabétique avec eGFR > 90 est sans conséquence thérapeutique", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Un ACR augmenté confirmé est précieux : il diagnostique (MRC même à DFG normal), pronostique (CV et rénal), thérapeutique (IEC selon contexte, cible PA selon valeur). Mais il N'IMPOSE PAS une biopsie d'emblée. Et chez un diabétique avec eGFR normal mais ACR à 4 mg/mmol : indication d'IEC/ARA2, ce n'est pas sans conséquence.",
+  "tags": {
+    "system": ["nephrologie", "cardiovasculaire"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

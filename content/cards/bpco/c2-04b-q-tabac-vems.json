@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q04b-tabac-vems",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi les interventions suivantes, quelle est la SEULE qui a démontré qu'elle RALENTIT la chute du VEMS dans le temps chez le patient BPCO ?",
+  "choices": [
+    { "id": "a", "text": "Les corticoïdes inhalés systématiques", "correct": false },
+    { "id": "b", "text": "L'ARRÊT du TABAC", "correct": true },
+    { "id": "c", "text": "Les bronchodilatateurs courte durée (SABA)", "correct": false },
+    { "id": "d", "text": "Les antibiotiques préventifs au long cours", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'arrêt du tabac est LA SEULE intervention qui ralentit la chute annuelle du VEMS sur le long terme (étude Lung Health Study). Aucun inhalé n'a démontré cet effet. Les autres traitements soulagent les symptômes, réduisent les exacerbations, améliorent la qualité de vie — mais ne changent pas la pente de chute du VEMS. À aborder donc à CHAQUE consultation chez le patient encore fumeur.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

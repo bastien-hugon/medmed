@@ -1,0 +1,34 @@
+{
+  "id": "depression-c1-q03d-mnemo-safe-ccam-free",
+  "kind": "free-recall",
+  "prompt": "Sans regarder la lesson, listez les 9 symptômes du DSM-5 pour l'épisode dépressif caractérisé (mnémo français : SAFE-CCAM + 2 cœur).",
+  "expected": [
+    "humeur triste",
+    "anhédonie",
+    "sommeil",
+    "appétit",
+    "fatigue",
+    "énergie",
+    "concentration",
+    "culpabilité",
+    "agitation",
+    "ralentissement",
+    "mort",
+    "suicide",
+    "dévalorisation"
+  ],
+  "rationale": "Cible attendue : les 2 symptômes cœur (humeur triste + anhédonie) + 7 autres regroupés par mnémo SAFE-CCAM. SAFE = Sommeil, Appétit, Fatigue, Énergie (fatigue+énergie = même item DSM, mnémo redondant volontairement). CCAM = Concentration, Culpabilité/dévalorisation, Agitation/ralentissement, Mort/suicide. L'auto-évaluation accepte les variantes lexicales (anhedonie sans accent, etc.).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

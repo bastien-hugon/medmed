@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q06e-implant-saignements",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est l'effet indésirable le plus FRÉQUENT (et cause principale d'arrêt précoce) de l'implant ?",
+  "choices": [
+    { "id": "a", "text": "Une thrombose veineuse au bras où il est posé.", "correct": false },
+    { "id": "b", "text": "Une infertilité définitive.", "correct": false },
+    { "id": "c", "text": "Des saignements IMPRÉVISIBLES : aménorrhée chez ~20 %, saignements peu fréquents chez beaucoup, saignements prolongés chez une minorité.", "correct": true },
+    { "id": "d", "text": "Une migration de l'implant vers le cœur.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Profil de saignements IMPRÉVISIBLE — impossible de prédire à l'avance pour une patiente donnée si elle aura aménorrhée, saignements rares ou saignements prolongés. C'est la PRINCIPALE cause de retrait précoce. À annoncer AVANT la pose pour éviter la déception. Pas de risque thromboembolique significatif (progestatif seul). La fertilité revient en quelques semaines après retrait (réversible). La migration vers les vaisseaux est extrêmement rare (incident de pose).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

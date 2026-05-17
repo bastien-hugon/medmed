@@ -1,0 +1,26 @@
+{
+  "id": "hta-c1-q01b-coeur-role",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le rôle PRINCIPAL du cœur dans le corps humain ?",
+  "choices": [
+    {"id": "a", "text": "Filtrer le sang pour éliminer les déchets", "correct": false},
+    {"id": "b", "text": "Pomper le sang pour l'envoyer dans tout l'organisme", "correct": true},
+    {"id": "c", "text": "Fabriquer les globules rouges", "correct": false},
+    {"id": "d", "text": "Stocker l'oxygène", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le cœur est avant tout une POMPE musculaire (~70 battements/min, 100 000/jour). La filtration du sang, c'est le rôle des reins. La fabrication des globules rouges, c'est la moelle osseuse. L'oxygène est transporté par l'hémoglobine, pas stocké par le cœur.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

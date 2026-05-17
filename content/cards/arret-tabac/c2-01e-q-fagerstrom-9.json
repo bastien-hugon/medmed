@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q01e-fagerstrom-9",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient à 35 cigarettes/jour, première cigarette dans la minute suivant le réveil, score Fagerström à 9. Quelle est la stratégie de NRT en 1ère intention ?",
+  "choices": [
+    { "id": "a", "text": "Pas de NRT, conseil minimal suffit", "correct": false },
+    { "id": "b", "text": "Gomme 2 mg à la demande, sans timbre", "correct": false },
+    { "id": "c", "text": "Timbre 21 mg/24 h à dose pleine + forme rapide (gomme/pastille 4 mg ou spray) à la demande pour les envies, voire 2 timbres si manque persistant. 2e ligne à envisager en cas d'échec.", "correct": true },
+    { "id": "d", "text": "Bupropion seul, sans NRT", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Fagerström 9 = dépendance TRÈS FORTE. NRT à dose pleine indispensable : timbre 21 mg (parfois 2 timbres = 42 mg/24 h si manque persistant et 30+ cig/j) + forme rapide pour les pics d'envie. Si échec malgré une NRT bien menée → discussion 2e ligne (varénicline, voire bupropion). Ne pas démarrer par 2e ligne sans avoir essayé la NRT bien optimisée (1ère intention France).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c2-q02b-aura-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Femme de 28 ans avec antécédent familial de migraine. Depuis 2 ans, elle décrit 4 épisodes : début par des 'points lumineux' qui apparaissent dans son champ visuel droit et s'agrandissent en 10 min sous forme d'un croissant en zigzag, jusqu'à un scotome de 30 min, puis céphalée pulsatile gauche. Diagnostic le plus probable ?",
+  "choices": [
+    { "id": "a", "text": "Accident ischémique transitoire à répétition", "correct": false },
+    { "id": "b", "text": "Migraine AVEC aura (visuelle)", "correct": true },
+    { "id": "c", "text": "Crise d'épilepsie occipitale", "correct": false },
+    { "id": "d", "text": "Migraine sans aura, simple coïncidence visuelle", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Aura visuelle typique : symptômes POSITIFS (points scintillants, zigzag) en marche progressive sur > 5 min, durée totale 5-60 min, totalement réversible, suivie d'une céphalée pulsatile. C'est le tableau pédagogique classique du scotome scintillant. AIT : installation brutale, déficit pur. Crise occipitale : durée < 5 min, souvent associée à d'autres signes critiques et stéréotypie EEG.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

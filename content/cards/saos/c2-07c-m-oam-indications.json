@@ -1,0 +1,28 @@
+{
+  "id": "saos-c2-07c-m-oam-indications",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations où l'orthèse d'avancée mandibulaire (OAM) peut être proposée.",
+  "choices": [
+    {"id": "a", "text": "SAOS léger à modéré (IAH 5-30)", "correct": true},
+    {"id": "b", "text": "SAOS sévère en cas de refus ou d'intolérance à la CPAP", "correct": true},
+    {"id": "c", "text": "Patient claustrophobe ne supportant pas le masque CPAP", "correct": true},
+    {"id": "d", "text": "Patient édenté complet", "correct": false},
+    {"id": "e", "text": "Parodontite sévère active", "correct": false},
+    {"id": "f", "text": "Troubles temporo-mandibulaires douloureux", "correct": false}
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "INDICATIONS de l'OAM : SAOS léger à modéré (1ère ligne possible), SAOS sévère en cas d'échec/refus de CPAP, patients claustrophobes ou très réticents au masque. CONTRE-INDICATIONS : édentement (rien à fixer), parodontite sévère (mobilité dentaire), troubles ATM (l'OAM aggraverait). L'OAM est moins efficace que la CPAP sur l'IAH (~50 % de répondeurs), mais MIEUX TOLÉRÉE → l'observance compense souvent l'efficacité moindre.",
+  "tags": {
+    "system": ["pneumologie", "stomatologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

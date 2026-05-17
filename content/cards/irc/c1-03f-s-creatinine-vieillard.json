@@ -1,0 +1,22 @@
+{
+  "id": "irc-c1-s03-creatinine-vieillard",
+  "kind": "sct",
+  "prompt": "Mme R., 86 ans, 42 kg, sarcopénique, vit en EHPAD. Sa créatinine sanguine est mesurée à 78 µmol/L, valeur dite 'normale' par le laboratoire. Le médecin de garde se rassure : 'la fonction rénale est bonne, je peux donner sa dose habituelle de ciprofloxacine'.",
+  "hypothesis": "La fonction rénale de Mme R. est satisfaisante puisque sa créatinine est normale.",
+  "new_info": "L'eGFR rendu sur le compte-rendu, calculé selon CKD-EPI à partir de cette créat + âge + sexe, est à 38 mL/min/1,73 m².",
+  "expected": "affaiblit",
+  "rationale": "Piège classique du sujet âgé sarcopénique : peu de masse musculaire → peu de production de créat → créat sérique 'normale' alors que le DFG est mauvais. La créat brute est trompeuse à cet âge. L'eGFR à 38 (G3b) impose une adaptation posologique de la ciprofloxacine (élimination rénale, neurotoxicité possible si surdosage chez la personne âgée). Cette info affaiblit clairement l'idée que la fonction rénale est bonne.",
+  "tags": {
+    "system": ["nephrologie", "geriatrie"],
+    "sdd": ["irc", "mrc", "iatrogenie"],
+    "item_edn": [261, 264, 126],
+    "cnge_family": ["chroniques", "geriatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

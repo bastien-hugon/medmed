@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c1-q03e-pattern-pulsatile",
+  "kind": "cloze",
+  "prompt": "Pour trier les céphalées primaires, on combine 4 axes simples : la ___ (uni/bilatérale), la qualité (pressive vs pulsatile vs en coup de poignard), l'___ (légère/modérée/sévère) et la ___ (< 3 h, 4-72 h, etc.). La migraine est typiquement unilatérale ___ , modérée à sévère, sur 4-72 h.",
+  "expected": ["latéralité", "intensité", "durée", "pulsatile"],
+  "rationale": "Quatre axes : latéralité / qualité / intensité / durée. Ce grid à 4 entrées suffit pour trier 95 % des céphalées primaires sans test : tension = bilatérale, pressive, légère/modérée, 30 min-continue ; migraine = uni/bilatérale, pulsatile, modérée/sévère, 4-72 h ; AVF = unilatérale stricte, lancinante, ultra-sévère, 15-180 min.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

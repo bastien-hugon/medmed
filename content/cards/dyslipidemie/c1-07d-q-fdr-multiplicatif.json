@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c1-q07-fdr-multiplicatif",
+  "kind": "cloze",
+  "prompt": "Les facteurs de risque cardiovasculaire ne s'additionnent pas, ils se ___ entre eux : un patient avec plusieurs FdR a un risque BIEN plus élevé que la simple somme des risques individuels.",
+  "expected": ["multiplient"],
+  "rationale": "Concept-clé : les FdR ne s'additionnent PAS, ils se MULTIPLIENT. Un fumeur (RR ~2), hypertendu (RR ~2), diabétique (RR ~2) a un risque de l'ordre de 8 fois supérieur — pas 6. C'est pour cela qu'on ne traite jamais sur un FdR isolé : on calcule le RISQUE GLOBAL (SCORE2, QRISK3) qui intègre cette interaction multiplicative.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c2-s04f-dermatite-timbre",
+  "kind": "sct",
+  "hypothesis": "Prescription d'un timbre transdermique 21 mg/24 h en 1ère intention pour le sevrage chez un patient Fagerström 7.",
+  "new_info": "Le patient signale un eczéma de contact étendu et invalidant sous patch (réaction cutanée vive après 2 essais à des sites différents, malgré rotation des sites).",
+  "expected": "affaiblit",
+  "prompt": "Cette nouvelle information modifie-t-elle l'indication de poursuivre le timbre comme 'fond' du traitement ?",
+  "rationale": "L'irritation cutanée est l'effet indésirable le plus fréquent du timbre, généralement résolu par rotation des sites. Une vraie DERMATITE de CONTACT étendue résistant à la rotation est plus problématique : on ne peut pas continuer le timbre. L'indication s'AFFAIBLIT. Alternatives : (1) augmenter les formes ORALES (gomme + pastille + spray) en couvrant à la fois le fond et les pics — moins idéal qu'un patch mais possible ; (2) discuter une 2e ligne médicamenteuse (varénicline si pas de CI psy) qui ne passe pas par la peau ; (3) avis dermato/tabacologue. Ne pas abandonner le sevrage à cause d'un effet indésirable de la forme galénique.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie", "dermatologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

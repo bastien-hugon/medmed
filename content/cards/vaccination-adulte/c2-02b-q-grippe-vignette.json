@@ -1,0 +1,26 @@
+{
+  "id": "vaccination-adulte-c2-q02-grippe-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Un homme de 38 ans, IMC à 42 kg/m2, sans autre comorbidité, consulte en novembre. La vaccination antigrippale lui est-elle recommandée ?",
+  "choices": [
+    {"id": "a", "text": "Non, il n'a aucune comorbidité respiratoire.", "correct": false},
+    {"id": "b", "text": "Non, il a moins de 65 ans.", "correct": false},
+    {"id": "c", "text": "Oui, car l'obésité importante (IMC ≥ 40) figure parmi les indications du vaccin antigrippal.", "correct": true},
+    {"id": "d", "text": "Oui, mais uniquement s'il accepte aussi le vaccin pneumocoque.", "correct": false}
+  ],
+  "expected": ["c"],
+  "rationale": "L'obésité avec IMC ≥ 40 kg/m2 est une indication de la vaccination antigrippale en France : risque accru de formes graves de grippe (mécanique respiratoire altérée, infiltration adipeuse, comorbidités associées). Les indications < 65 ans incluent aussi : diabète, BPCO/asthme sévère, IC, IRC, immunodépression, grossesse en saison, hépatopathie chronique, entourage de fragiles, soignants.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143, 253],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

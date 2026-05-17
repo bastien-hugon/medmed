@@ -1,0 +1,22 @@
+{
+  "id": "hta-c2-s04-hvg-sans-hta",
+  "kind": "sct",
+  "prompt": "Une patiente diabétique de type 2 a une PA toujours à 132/82 mmHg au cabinet. Mais son ECG montre une hypertrophie ventriculaire gauche (HVG).",
+  "hypothesis": "Mon hypothèse : elle a peut-être une HTA masquée à débusquer.",
+  "new_info": "Tu te rappelles que l'HVG est une atteinte d'organe classique de l'HTA, et que l'HTA masquée est particulièrement fréquente chez le diabétique.",
+  "expected": "renforce",
+  "rationale": "Profil typique d'HTA masquée : PA normale au cabinet, mais signe d'atteinte d'organe (HVG, microalbuminurie, rétinopathie hypertensive). Le diabète est un terrain favorisant majeur. L'info renforce nettement l'hypothèse. Conduite : prescrire une AMT (règle des 3) ou une MAPA pour confirmer. Si AMT/MAPA ≥ 135/85 → HTA masquée → à traiter comme une vraie HTA, IEC/ARA2 en 1ère intention chez le diabétique.",
+  "tags": {
+    "system": ["cardiovasculaire", "endocrinologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

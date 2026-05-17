@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q10d-hsa-mortalite",
+  "kind": "cloze",
+  "prompt": "L'hémorragie sous-arachnoïdienne (HSA) par rupture d'anévrysme a une mortalité d'environ ___ %. C'est pourquoi toute céphalée 'en ___ ___ ___' chez un patient — même migraineux connu — impose une imagerie en urgence. L'antécédent de migraine NE ___ pas contre une HSA.",
+  "expected": ["30", "coup", "de", "tonnerre", "protège"],
+  "rationale": "Mortalité HSA ~ 30 % (dont 10-15 % avant arrivée à l'hôpital). Le pronostic dépend du délai diagnostique et du resaignement précoce. Les antécédents de migraine NE protègent PAS contre l'HSA — ils peuvent même au contraire fausser le raisonnement par 'effet de cadrage' ('elle est migraineuse, c'est sûrement encore ça'). Règle d'or : devant un changement caractéristique chez un céphalalgique connu, suspecter une cause secondaire.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "hsa"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

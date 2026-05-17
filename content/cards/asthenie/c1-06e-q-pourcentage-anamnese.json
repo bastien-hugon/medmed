@@ -1,0 +1,20 @@
+{
+  "id": "asthenie-c1-q06e-pourcentage-anamnese",
+  "kind": "cloze",
+  "prompt": "Devant une fatigue, on dit communément que l'___ fait environ 80 % du diagnostic, bien avant les examens complémentaires.",
+  "expected": ["anamnèse", "anamnese", "interrogatoire"],
+  "rationale": "L'ANAMNÈSE (interrogatoire) est le pilier du diagnostic des asthénies. La prise de sang dépiste, mais c'est l'écoute attentive (durée, pattern, médicaments, humeur, sommeil, signes associés) qui oriente. Sauter cette étape pour prescrire un bilan large = inversion de la démarche médicale rationnelle. Coût d'une anamnèse : 0 euro et 15 minutes.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

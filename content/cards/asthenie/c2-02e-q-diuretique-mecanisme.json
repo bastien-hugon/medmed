@@ -1,0 +1,20 @@
+{
+  "id": "asthenie-c2-q02e-diuretique-mecanisme",
+  "kind": "cloze",
+  "prompt": "Sous diurétique (de l'anse ou thiazidique), une asthénie peut être expliquée par une baisse du potassium dans le sang, c'est-à-dire une ___.",
+  "expected": ["hypokaliémie", "hypokaliemie"],
+  "rationale": "Les diurétiques de l'anse (furosémide) et thiazidiques (hydrochlorothiazide, indapamide) augmentent l'élimination urinaire du potassium → HYPOKALIÉMIE. Symptômes : fatigue, crampes, parfois troubles du rythme cardiaque. Réflexe pratique : doser le potassium chez tout patient sous diurétique qui se plaint de fatigue. Correction par supplémentation orale ou ajustement thérapeutique.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

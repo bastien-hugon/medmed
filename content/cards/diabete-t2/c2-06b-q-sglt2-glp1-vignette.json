@@ -1,0 +1,26 @@
+{
+  "id": "diabete-t2-c2-q17-sglt2-glp1-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le principal mécanisme d'action des inhibiteurs du SGLT2 (gliflozines, ex : dapagliflozine, empagliflozine) ?",
+  "choices": [
+    { "id": "a", "text": "Ils stimulent la sécrétion d'insuline par le pancréas", "correct": false },
+    { "id": "b", "text": "Ils bloquent la réabsorption du glucose au niveau du rein, augmentant son élimination urinaire", "correct": true },
+    { "id": "c", "text": "Ils diminuent la production hépatique de glucose", "correct": false },
+    { "id": "d", "text": "Ils miment l'hormone GLP-1 intestinale", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "SGLT2-i : bloquent le co-transporteur sodium-glucose 2 du tubule rénal → le glucose filtré n'est plus réabsorbé → glucosurie thérapeutique → glycémie baisse + petite perte de poids + petite baisse de PA. Bénéfices CV et rénaux majeurs démontrés. Option a = sulfamides. Option c = metformine. Option d = GLP-1 RA. La 'fuite urinaire de sucre' = mécanisme original et puissant.",
+  "tags": {
+    "system": ["endocrinologie", "néphrologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Antidiab%C3%A9tique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-m07c-ic-gauche-signes",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les signes/symptômes typiques d'une insuffisance cardiaque GAUCHE prédominante.",
+  "choices": [
+    { "id": "a", "text": "Dyspnée d'effort", "correct": true },
+    { "id": "b", "text": "Orthopnée", "correct": true },
+    { "id": "c", "text": "Râles crépitants des bases pulmonaires à l'auscultation", "correct": true },
+    { "id": "d", "text": "Œdèmes des chevilles bilatéraux", "correct": false },
+    { "id": "e", "text": "Turgescence jugulaire", "correct": false },
+    { "id": "f", "text": "Dyspnée paroxystique nocturne (DPN)", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "f"],
+  "rationale": "IC GAUCHE = stagnation dans les POUMONS → signes 'haut' : dyspnée, orthopnée, DPN, crépitants pulmonaires. Œdèmes des MI et turgescence jugulaire = signes 'bas' = IC droite. Mnémo : gauche → poumons (haut) ; droite → systémique (bas).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

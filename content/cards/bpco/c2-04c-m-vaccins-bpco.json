@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c2-m04c-vaccins-bpco",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les vaccins recommandés systématiquement chez un patient BPCO adulte.",
+  "choices": [
+    { "id": "a", "text": "Vaccin antigrippal saisonnier (chaque automne)", "correct": true },
+    { "id": "b", "text": "Vaccin antipneumococcique (selon schéma en vigueur)", "correct": true },
+    { "id": "c", "text": "Vaccin COVID-19 (rappels selon recommandations)", "correct": true },
+    { "id": "d", "text": "Vaccin BCG (tuberculose) annuel", "correct": false },
+    { "id": "e", "text": "Vaccin VRS (virus respiratoire syncytial) chez le sujet âgé selon recommandations", "correct": true },
+    { "id": "f", "text": "Vaccin contre la rougeole tous les 6 mois", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Vaccins recommandés chez le BPCO : grippe annuelle, pneumocoque, COVID, VRS chez l'âgé. La coqueluche peut être proposée selon le calendrier vaccinal en vigueur. Le BCG n'est pas recommandé en France à l'âge adulte, et certainement pas annuellement (1 seule dose dans l'enfance dans les populations ciblées). Pas de rougeole tous les 6 mois — la vaccination ROR se fait dans l'enfance (2 doses).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "bpco-c1-m03d-fdr-bpco",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les expositions reconnues comme FACTEURS DE RISQUE de BPCO.",
+  "choices": [
+    { "id": "a", "text": "Tabagisme actif (cigarette, pipe, narguilé)", "correct": true },
+    { "id": "b", "text": "Tabagisme passif prolongé", "correct": true },
+    { "id": "c", "text": "Exposition professionnelle à des poussières (silice, charbon, métaux)", "correct": true },
+    { "id": "d", "text": "Pollution atmosphérique urbaine ou domestique (fumées de cuisson)", "correct": true },
+    { "id": "e", "text": "Déficit génétique en alpha-1-antitrypsine", "correct": true },
+    { "id": "f", "text": "Consommation modérée d'alcool", "correct": false },
+    { "id": "g", "text": "Sédentarité isolée chez un non-fumeur", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Le tabac actif est responsable de ~80% des BPCO ; le tabac passif compte aussi. Les autres FDR : expositions professionnelles (silice, poussières organiques, fumées), pollution (notamment combustion de biomasse dans les pays en développement), et le déficit en alpha-1-antitrypsine (rare, à évoquer si BPCO précoce avant 45 ans). L'alcool seul et la sédentarité ne causent pas de BPCO.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

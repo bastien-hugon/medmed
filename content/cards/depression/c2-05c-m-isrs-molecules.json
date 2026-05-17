@@ -1,0 +1,31 @@
+{
+  "id": "depression-c2-m05c-isrs-molecules",
+  "kind": "qcm-multi",
+  "prompt": "Parmi ces molécules, cochez celles qui sont des ISRS (Inhibiteurs Sélectifs de la Recapture de la Sérotonine) couramment prescrits en France.",
+  "choices": [
+    { "id": "a", "text": "Sertraline (Zoloft)", "correct": true },
+    { "id": "b", "text": "Fluoxétine (Prozac)", "correct": true },
+    { "id": "c", "text": "Escitalopram (Seroplex)", "correct": true },
+    { "id": "d", "text": "Paroxétine (Deroxat)", "correct": true },
+    { "id": "e", "text": "Citalopram (Seropram)", "correct": true },
+    { "id": "f", "text": "Amitriptyline (Laroxyl)", "correct": false },
+    { "id": "g", "text": "Venlafaxine (Effexor)", "correct": false },
+    { "id": "h", "text": "Diazépam (Valium)", "correct": false },
+    { "id": "i", "text": "Alprazolam (Xanax)", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "ISRS courants en France : sertraline, fluoxétine, escitalopram, paroxétine, citalopram, fluvoxamine. Amitriptyline = TCA (tricyclique). Venlafaxine = ISRSNA (inhibiteur de recapture sérotonine ET noradrénaline). Diazépam et alprazolam = benzodiazépines, anxiolytiques, PAS antidépresseurs. Mnémo utile : -aline / -oxétine / -opram / -oxétine pour les ISRS.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

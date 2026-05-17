@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q09d-reinfection-vs-echec",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient bien traité (doxy 100 mg BID × 7 j observée) présente une NAAT chlamydia positive 4 mois après la fin du traitement. Quelle est l'interprétation la plus probable ?",
+  "choices": [
+    { "id": "a", "text": "Échec de la doxycycline : il faut suspecter une résistance bactérienne", "correct": false },
+    { "id": "b", "text": "Réinfection (nouveau contact contaminant) ; la doxy a marché, le patient s'est recontaminé", "correct": true },
+    { "id": "c", "text": "Faux positif : on attend 6 mois avant de retester", "correct": false },
+    { "id": "d", "text": "Persistance d'ADN bactérien non viable", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "À 4 mois post-TT avec une cure bien suivie, la majorité des positifs sont des RÉINFECTIONS (nouveau partenaire non traité, partenaire principal pas traité, autre contact). Doxycycline 7 j efficace > 95 %, donc l'échec thérapeutique est rare. La persistance d'ADN non viable est limitée à ~4 semaines. Conduite : retraiter, renforcer éducation (préservatif, traitement partenaires, abstinence pendant la cure).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

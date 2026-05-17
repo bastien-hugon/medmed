@@ -1,0 +1,22 @@
+{
+  "id": "hta-c2-s06-betabloquant-hta-simple",
+  "kind": "sct",
+  "prompt": "Un patient de 45 ans, hypertendu nouveau, SANS aucune comorbidité (pas d'angor, pas d'insuffisance cardiaque, pas de post-IDM). Tu envisages de débuter un bêtabloquant.",
+  "hypothesis": "Mon hypothèse : c'est un excellent choix de 1ère intention.",
+  "new_info": "Tu te rappelles que la HAS écrit que les bêtabloquants 'semblent moins protecteurs que les autres classes thérapeutiques vis-à-vis du risque d'AVC'.",
+  "expected": "affaiblit",
+  "rationale": "Dans l'HTA NON compliquée, les bêtabloquants ne sont PAS de 1ère intention (HAS) en raison d'une efficacité moindre sur la prévention de l'AVC comparée aux 4 autres classes (thiazidique, IC, IEC, ARA2). Réservés aux cas avec comorbidités (angor, post-IDM, insuffisance cardiaque, ICUC). L'info affaiblit donc l'hypothèse : on choisira plutôt une des 4 classes de 1ère intention.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

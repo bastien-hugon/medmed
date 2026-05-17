@@ -1,0 +1,22 @@
+{
+  "id": "irc-c1-s06-bandelette-myelome",
+  "kind": "sct",
+  "prompt": "M. C., 73 ans, consulte pour douleurs lombaires diffuses, fatigue, perte de poids. Le bilan retrouve une créat à 140 µmol/L (DFG 45) et une bandelette urinaire qui revient NÉGATIVE pour les protéines. Le médecin conclut que l'atteinte rénale n'est pas glomérulaire.",
+  "hypothesis": "Comme la bandelette est négative aux protéines, on peut écarter une atteinte glomérulaire avec protéinurie.",
+  "new_info": "Le bilan sanguin demandé en parallèle montre une VS à 95 mm, une hypercalcémie à 2,85 mmol/L, et l'ACR est en fait à 28 mg/mmol (urine du matin).",
+  "expected": "affaiblit",
+  "rationale": "Tableau évocateur de myélome (douleurs osseuses, hypercalcémie, VS élevée chez sujet âgé). Les chaînes légères de myélome ne sont PAS détectées par la bandelette classique (qui repère surtout l'albumine), mais sont retrouvées sur l'ACR et surtout sur l'électrophorèse des protéines urinaires. L'information affaiblit franchement l'idée que la bandelette négative excluait une protéinurie : il faut maintenant chercher des chaînes légères (immunofixation sang/urine) et envisager une référence hématologique/néphrologique. Piège classique à connaître.",
+  "tags": {
+    "system": ["nephrologie", "hematologie"],
+    "sdd": ["irc", "mrc", "myelome"],
+    "item_edn": [261, 264, 219],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

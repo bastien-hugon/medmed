@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c1-s05f-co-eleve-non-fumeur",
+  "kind": "sct",
+  "hypothesis": "Un patient se déclare non-fumeur en consultation de routine et son cotesteur de CO est mesuré à 18 ppm. Hypothèse initiale : il s'agit d'un tabagisme caché.",
+  "new_info": "Le patient vit dans un logement chauffé au bois et déclare avoir relancé son poêle ce matin pendant 30 minutes dans une pièce mal ventilée.",
+  "expected": "affaiblit",
+  "prompt": "Cette nouvelle information modifie-t-elle l'hypothèse 'tabagisme caché' devant un CO à 18 ppm ?",
+  "rationale": "Le cotesteur mesure le CO TOTAL expiré, pas spécifiquement celui issu du tabac. Autres sources possibles de CO : combustion incomplète (poêle à bois mal ventilé, chauffage défectueux, exposition à des fumées d'incendie, garages), pollution urbaine intense, exposition professionnelle. Un poêle à bois récent en pièce mal ventilée peut expliquer 15-20 ppm. L'hypothèse 'tabagisme caché' est donc AFFAIBLIE (mais pas exclue — on peut compléter par une cotinine urinaire si vraiment doute). Au passage : rappeler le risque d'INTOXICATION au CO qui est une urgence (céphalées, vertiges, nausées en famille = signal !).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "urgences"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

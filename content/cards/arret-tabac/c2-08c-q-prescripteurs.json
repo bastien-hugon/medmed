@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q08c-prescripteurs",
+  "kind": "qcm-vignette",
+  "prompt": "Une sage-femme te demande si elle peut elle-même prescrire des substituts nicotiniques (NRT) remboursés à ses patientes enceintes. Que lui réponds-tu ?",
+  "choices": [
+    { "id": "a", "text": "Non, seul un médecin peut prescrire des NRT remboursés", "correct": false },
+    { "id": "b", "text": "Oui, la prescription des NRT remboursés est ouverte à plusieurs professionnels : médecins, SAGES-FEMMES, dentistes, masseurs-kinésithérapeutes, infirmiers (élargissement progressif depuis 2016)", "correct": true },
+    { "id": "c", "text": "Oui mais uniquement chez les femmes non enceintes", "correct": false },
+    { "id": "d", "text": "Oui mais sans remboursement possible", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La prescription des NRT remboursés a été progressivement élargie en France : médecins (toutes spécialités), sages-femmes (depuis 2011 pour leurs patientes et leur entourage proche), dentistes (chirurgiens-dentistes, 2016), masseurs-kinésithérapeutes et infirmiers (2016). Cette ouverture facilite l'accès au sevrage : tout professionnel en contact avec un fumeur peut initier la prescription, sans attendre un rendez-vous médical dédié.",
+  "tags": {
+    "system": ["addictologie", "prevention", "sante-publique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

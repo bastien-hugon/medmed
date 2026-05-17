@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q06-recidivante-definition",
+  "kind": "qcm-vignette",
+  "prompt": "Selon la HAS 2019, comment doit-on considérer une lombalgie RÉCIDIVANTE (nouvelle poussée dans les 12 mois après un épisode résolu) ?",
+  "choices": [
+    { "id": "a", "text": "Comme une lombalgie aiguë simple, à traiter par AINS courte durée et c'est tout", "correct": false },
+    { "id": "b", "text": "Comme une lombalgie à RISQUE DE CHRONICITÉ, justifiant un dépistage des drapeaux jaunes et une PEC active renforcée", "correct": true },
+    { "id": "c", "text": "Comme une lombalgie inflammatoire nécessitant un bilan rhumatologique systématique", "correct": false },
+    { "id": "d", "text": "Comme une indication chirurgicale rapide", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Lombalgie récidivante (HAS 2019) = à traiter comme une lombalgie À RISQUE DE CHRONICITÉ. La répétition des épisodes signe une fragilité (mécanique, comportementale ou psychosociale) qui mérite un bilan approfondi et une PEC active renforcée — kiné, exercice, repérage des drapeaux jaunes (STarT Back).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

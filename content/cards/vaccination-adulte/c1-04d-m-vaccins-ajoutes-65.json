@@ -1,0 +1,28 @@
+{
+  "id": "vaccination-adulte-c1-m04-vaccins-ajoutes-65",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les vaccins qui s'AJOUTENT au socle DTP de manière systématique chez l'adulte en bonne santé à partir de 65 ans (calendrier français 2025).",
+  "choices": [
+    {"id": "a", "text": "Vaccin antigrippal annuel", "correct": true},
+    {"id": "b", "text": "Vaccin pneumocoque (VPC20 ou VPC21, dose unique)", "correct": true},
+    {"id": "c", "text": "Vaccin zona Shingrix (2 doses)", "correct": true},
+    {"id": "d", "text": "Vaccin BCG", "correct": false},
+    {"id": "e", "text": "Vaccin fièvre jaune", "correct": false},
+    {"id": "f", "text": "Vaccin HPV", "correct": false}
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "À 65 ans en France, on déclenche systématiquement : grippe annuelle, pneumocoque (dose unique VPC20 ou VPC21), zona (Shingrix 2 doses M0-M2). Raison : immunosénescence (vieillissement du système immunitaire) → infections plus graves. BCG = nourrisson ciblé (Guyane, Mayotte, contexte risque). Fièvre jaune = voyageur. HPV = adolescent et jeune adulte rattrapage. Le COVID est aussi proposé en automne dans cette tranche (campagne couplée grippe).",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-a-prevention-vaccinale",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

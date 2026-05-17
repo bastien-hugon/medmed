@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q16-metformine-recall-effets",
+  "kind": "free-recall",
+  "prompt": "Cite 3 effets indésirables ou précautions à connaître avec la metformine.",
+  "expected": ["nausée", "nausees", "diarrhée", "diarrhee", "troubles digestifs", "douleurs abdominales", "carence en vitamine B12", "B12", "acidose lactique", "insuffisance rénale", "insuffisance renale", "DFG", "produit de contraste iodé", "iode", "déshydratation", "deshydratation"],
+  "rationale": "Effets digestifs (très fréquents au début, diminuent en 2-4 sem si on prend au milieu du repas et on titre progressivement) : nausées, diarrhée, douleurs abdo. Long terme : carence en vitamine B12 (à surveiller). Rare mais grave : acidose lactique. Contre-indications principales : insuffisance rénale sévère (DFG < 30), produit de contraste iodé (suspendre 48 h), déshydratation aiguë, hypoxie aiguë.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Antidiab%C3%A9tique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

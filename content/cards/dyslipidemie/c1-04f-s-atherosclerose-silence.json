@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c1-s04-atherosclerose-silence",
+  "kind": "sct",
+  "prompt": "Un patient de 55 ans, fumeur, LDL à 5,1 mmol/L, dit : 'Je n'ai aucun symptôme, mes artères sont sûrement normales.' Vous suspectez une athérosclérose silencieuse.",
+  "hypothesis": "Le patient peut avoir une athérosclérose avancée malgré l'absence de symptômes.",
+  "new_info": "Il n'a effectivement aucune douleur thoracique, aucune dyspnée, aucune claudication.",
+  "expected": "neutre",
+  "rationale": "L'absence de symptômes ne réfute PAS l'hypothèse d'une athérosclérose : c'est précisément la caractéristique-clé de cette maladie, elle évolue en SILENCE pendant des décennies. La majorité des plaques significatives sont asymptomatiques jusqu'à la rupture brutale (infarctus, AVC). L'information apportée est donc NEUTRE (ni renforce ni affaiblit l'hypothèse). C'est tout l'intérêt du dépistage : agir avant les symptômes.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

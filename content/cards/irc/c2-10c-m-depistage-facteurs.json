@@ -1,0 +1,33 @@
+{
+  "id": "irc-c2-m10-depistage-facteurs",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les facteurs qui, selon NICE NG203, justifient le dépistage annuel d'une MRC chez un adulte.",
+  "choices": [
+    { "id": "a", "text": "Diabète (type 1 ou 2)", "correct": true },
+    { "id": "b", "text": "Hypertension artérielle", "correct": true },
+    { "id": "c", "text": "Antécédent d'insuffisance rénale aiguë (IRA)", "correct": true },
+    { "id": "d", "text": "Maladie cardiovasculaire (coronaropathie, insuffisance cardiaque, AOMI, AVC)", "correct": true },
+    { "id": "e", "text": "Maladie rénale structurale (reflux, lithiases récidivantes, HBP obstructive)", "correct": true },
+    { "id": "f", "text": "Maladie multi-systémique avec atteinte rénale potentielle (lupus, vasculite, myélome)", "correct": true },
+    { "id": "g", "text": "Goutte (hyperuricémie chronique)", "correct": true },
+    { "id": "h", "text": "Antécédents familiaux d'insuffisance rénale terminale (polykystose, Alport)", "correct": true },
+    { "id": "i", "text": "Prise prolongée de médicaments néphrotoxiques (lithium, certains antiviraux)", "correct": true },
+    { "id": "j", "text": "Âge > 60 ans isolé (sans autre facteur)", "correct": false },
+    { "id": "k", "text": "Obésité isolée sans diabète, HTA ni syndrome métabolique", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g", "h", "i"],
+  "rationale": "Liste NICE des FdR : diabète, HTA, ATCD IRA, MCV, anomalie rénale structurale, maladie multi-systémique, goutte, ATCD familiaux d'IRT, médicaments néphrotoxiques. PAS sur l'âge isolé, le sexe, l'origine ethnique seule, ou l'obésité isolée. À retenir : 'tout diabétique + tout hypertendu = 1 bilan rénal/an minimum'. C'est l'acte de dépistage le plus utile et le plus simple à instituer.",
+  "tags": {
+    "system": ["nephrologie", "prevention"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

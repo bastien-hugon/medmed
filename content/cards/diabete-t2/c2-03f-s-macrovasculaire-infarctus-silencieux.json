@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c2-s03-macrovasculaire-infarctus-silencieux",
+  "kind": "sct",
+  "hypothesis": "M. F., 68 ans, diabétique avec neuropathie, n'a pas de douleur thoracique. Il n'a probablement pas eu d'infarctus du myocarde.",
+  "new_info": "L'ECG systématique montre des ondes Q de nécrose en territoire inférieur, et la troponine est légèrement élevée à un dosage de contrôle.",
+  "prompt": "Comment cette information modifie-t-elle l'hypothèse 'pas d'infarctus' ?",
+  "expected": "affaiblit",
+  "rationale": "L'infarctus SILENCIEUX (sans douleur) est typique chez le diabétique neuropathe : la neuropathie autonome cardiaque coupe la perception douloureuse. Des ondes Q + troponine élevée signent un infarctus déjà constitué. C'est pour ça qu'on recommande un ECG annuel chez le diabétique : on cherche activement des événements qu'il ne signalera pas. Hypothèse 'pas d'infarctus' clairement affaiblie.",
+  "tags": {
+    "system": ["endocrinologie", "cardiovasculaire"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

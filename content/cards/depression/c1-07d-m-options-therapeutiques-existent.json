@@ -1,0 +1,30 @@
+{
+  "id": "depression-c1-m07d-options-therapeutiques-existent",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les options thérapeutiques validées et recommandées par NICE 2022 pour la dépression (toutes sévérités confondues).",
+  "choices": [
+    { "id": "a", "text": "Psychothérapie (TCC, activation comportementale, IPT)", "correct": true },
+    { "id": "b", "text": "Antidépresseurs (ISRS notamment en 1ère ligne pharmacologique)", "correct": true },
+    { "id": "c", "text": "Self-help guidé (livres, applications validées avec accompagnement)", "correct": true },
+    { "id": "d", "text": "Exercice physique structuré en groupe", "correct": true },
+    { "id": "e", "text": "Combinaison psychothérapie + antidépresseur (dépression more severe)", "correct": true },
+    { "id": "f", "text": "Millepertuis (St John's Wort) en automédication", "correct": false },
+    { "id": "g", "text": "Saignée et purges", "correct": false },
+    { "id": "h", "text": "Bracelet magnétique anti-stress", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "NICE 2022 valide 5 grandes familles d'intervention : psychothérapies structurées (TCC, BA, IPT), AD (ISRS en 1ère ligne), self-help guidé, exercice physique en groupe, et combinaisons. Le millepertuis est explicitement DÉCONSEILLÉ par NICE (interactions médicamenteuses graves, posologie non standardisée). Les autres options listées sont des pseudosciences. Pronostic global avec traitement : 70-80 % d'amélioration.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

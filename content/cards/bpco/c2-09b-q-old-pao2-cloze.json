@@ -1,0 +1,20 @@
+{
+  "id": "bpco-c2-q09b-old-pao2-cloze",
+  "kind": "cloze",
+  "prompt": "L'oxygénothérapie longue durée (OLD) est indiquée chez le patient BPCO stable et non fumeur si la PaO2 est < ___ kPa, durablement.",
+  "expected": ["7,3", "7.3"],
+  "rationale": "Seuil principal NICE NG115 : PaO2 < 7,3 kPa (≈ 55 mmHg). Deuxième seuil : PaO2 entre 7,3 et 8 kPa AVEC l'un des facteurs aggravants (polyglobulie, OMI signant cœur droit, HTAP, saturation nocturne ≤ 92 %). Confirmation par 2 GDS à au moins 3 semaines d'intervalle, à distance d'une exacerbation. Mnémo : '7,3 et 15' (PaO2 < 7,3 kPa, durée OLD ≥ 15 h/j).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

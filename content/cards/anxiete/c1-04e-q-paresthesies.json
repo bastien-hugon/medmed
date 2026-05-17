@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q04e-paresthesies",
+  "kind": "qcm-vignette",
+  "prompt": "Pendant une crise d'anxiété aiguë, un patient se plaint de fourmillements autour de la bouche et au bout des doigts. Quel mécanisme physiopathologique explique le mieux ces paresthésies ?",
+  "choices": [
+    { "id": "a", "text": "Hyperventilation → alcalose respiratoire → hypocalcémie ionisée fonctionnelle", "correct": true },
+    { "id": "b", "text": "Compression du nerf médian au poignet", "correct": false },
+    { "id": "c", "text": "Hypokaliémie liée au stress", "correct": false },
+    { "id": "d", "text": "Carence en vitamine B12", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Pendant l'attaque, la respiration s'accélère (tachypnée) → 'lavage' du CO2 → ALCALOSE RESPIRATOIRE → diminution du calcium ionisé (fixation accrue sur l'albumine en milieu alcalin) → tétanie discrète : paresthésies péribuccales, des mains et des pieds, parfois spasme carpopédal. Implication thérapeutique : ralentir la respiration (souffler dans un sac papier — pratique ancienne discutée — ou plus simplement respiration abdominale lente) corrige la cause. Le carpotunnel et la B12 ne donnent pas un tableau aigu de quelques minutes ; l'hypokaliémie n'explique pas typiquement ce pattern.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "vaccination-adulte-c2-q08-immunodeprimes-avant-chimio",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient va débuter une chimiothérapie programmée pour un lymphome dans 6 semaines. Quelle stratégie vaccinale lui proposer ?",
+  "choices": [
+    {"id": "a", "text": "Attendre la fin de la chimiothérapie pour vacciner, c'est plus prudent.", "correct": false},
+    {"id": "b", "text": "Vacciner pendant la chimiothérapie avec les vaccins vivants pour stimuler l'immunité.", "correct": false},
+    {"id": "c", "text": "Mettre à jour AVANT la chimiothérapie : pneumocoque, grippe, dTcaP, Shingrix, COVID — et compléter ROR si non immune (vivant, donc AVANT immunodépression).", "correct": true},
+    {"id": "d", "text": "Aucune vaccination, le patient est globalement protégé par la chimiothérapie.", "correct": false}
+  ],
+  "expected": ["c"],
+  "rationale": "Principe central : VACCINER AVANT l'instauration de l'immunodépression chaque fois que possible — la réponse vaccinale sera meilleure, et certains vaccins vivants ne pourront plus être donnés après. Cibles avant chimio : pneumocoque (1 dose VPC20/21), grippe selon saison, dTcaP si retard, Shingrix (2 doses), COVID, hépatite B si soignant/à risque, ROR-varicelle si non immune (vivants → SEULE fenêtre possible). Erreur classique : démarrer la chimio sans avoir vu le médecin traitant.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "immunodepression"],
+    "item_edn": [143, 187],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

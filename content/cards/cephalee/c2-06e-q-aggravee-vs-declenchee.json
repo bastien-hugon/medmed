@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q06e-aggravee-vs-declenchee",
+  "kind": "free-recall",
+  "prompt": "Quelle est la nuance cruciale à creuser à l'interrogatoire entre une céphalée 'AGGRAVÉE par' un mouvement (banal) et une céphalée 'DÉCLENCHÉE par' un mouvement (drapeau rouge) ?",
+  "expected": ["aggravée", "déclenchée", "arrive", "empire"],
+  "rationale": "La migraine est AGGRAVÉE par l'effort de routine (la douleur déjà présente empire si on bouge). Mais une céphalée qui ARRIVE BRUTALEMENT au moment d'un Valsalva, d'une toux ou d'un effort isolé (alors qu'elle n'était pas là avant) est un drapeau rouge — elle sonde la pression intracrânienne et oriente vers tumeur, Chiari, anévrysme ou HSA. À l'interrogatoire : 'la douleur ARRIVE quand vous toussez, ou elle EMPIRE alors qu'elle était déjà là ?' Cette nuance est souvent perdue par les patients et il faut la creuser.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

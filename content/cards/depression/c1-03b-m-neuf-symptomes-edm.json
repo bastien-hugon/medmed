@@ -1,0 +1,35 @@
+{
+  "id": "depression-c1-m03b-neuf-symptomes-edm",
+  "kind": "qcm-multi",
+  "prompt": "Cochez tous les symptômes qui FONT PARTIE des 9 symptômes officiels de l'épisode dépressif caractérisé (EDC) selon le DSM-5.",
+  "choices": [
+    { "id": "a", "text": "Humeur triste persistante", "correct": true },
+    { "id": "b", "text": "Anhédonie (perte du plaisir)", "correct": true },
+    { "id": "c", "text": "Troubles du sommeil (insomnie ou hypersomnie)", "correct": true },
+    { "id": "d", "text": "Troubles de l'appétit ou du poids", "correct": true },
+    { "id": "e", "text": "Fatigue / perte d'énergie", "correct": true },
+    { "id": "f", "text": "Troubles de la concentration", "correct": true },
+    { "id": "g", "text": "Agitation ou ralentissement psychomoteur", "correct": true },
+    { "id": "h", "text": "Sentiment de culpabilité excessive ou de dévalorisation", "correct": true },
+    { "id": "i", "text": "Idées de mort ou de suicide récurrentes", "correct": true },
+    { "id": "j", "text": "Hallucinations auditives", "correct": false },
+    { "id": "k", "text": "Idées délirantes de persécution", "correct": false },
+    { "id": "l", "text": "Crises de panique avec hyperventilation", "correct": false },
+    { "id": "m", "text": "Phobies sociales", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g", "h", "i"],
+  "rationale": "Les 9 symptômes officiels du DSM-5 (critère A) : (1) humeur triste, (2) anhédonie, (3) sommeil, (4) appétit/poids, (5) fatigue, (6) concentration, (7) agitation/ralentissement, (8) culpabilité/dévalorisation, (9) idées de mort. Hallucinations et délires ne font PAS partie des critères A — ils peuvent toutefois apparaître dans les formes sévères avec caractéristiques psychotiques (spécificateur). Crises de panique et phobies = troubles anxieux distincts (souvent comorbides). Mnémo : SAFE-CCAM.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

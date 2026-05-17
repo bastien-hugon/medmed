@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q08-reassurance-acte-therapeutique",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi rassurer un patient lombalgique est-il considéré comme un acte THÉRAPEUTIQUE (et pas une simple courtoisie) ?",
+  "choices": [
+    { "id": "a", "text": "Parce que cela fait partie du protocole administratif", "correct": false },
+    { "id": "b", "text": "Parce que les croyances de gravité et la peur entretiennent la douleur et augmentent le risque de chronicisation", "correct": true },
+    { "id": "c", "text": "Parce que cela permet de facturer une consultation longue", "correct": false },
+    { "id": "d", "text": "Parce que c'est une obligation légale en France", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La réassurance est un acte thérapeutique : un patient à qui on dit 'c'est sérieux, faisons une IRM, arrêtons-vous longtemps' renforce ses croyances de gravité, son comportement d'évitement et son catastrophisme — qui sont les principaux moteurs de la chronicisation. Inversement, la réassurance bien argumentée (90 % résolus en 4-6 sem, examen normal) facilite la reprise d'activité et raccourcit l'épisode.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "psychiatrie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

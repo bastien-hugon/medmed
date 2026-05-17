@@ -1,0 +1,29 @@
+{
+  "id": "saos-c1-02d-m-symptomes-nocturnes",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les symptômes NOCTURNES classiquement associés au SAOS.",
+  "choices": [
+    {"id": "a", "text": "Ronflement intense et chronique", "correct": true},
+    {"id": "b", "text": "Apnées rapportées par le conjoint", "correct": true},
+    {"id": "c", "text": "Réveils avec sensation d'étouffement", "correct": true},
+    {"id": "d", "text": "Nycturie (envie d'uriner plusieurs fois la nuit)", "correct": true},
+    {"id": "e", "text": "Sueurs nocturnes", "correct": true},
+    {"id": "f", "text": "Hémoptysies au réveil", "correct": false},
+    {"id": "g", "text": "Crampes des mollets", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Les 5 symptômes nocturnes typiques du SAOS sont : ronflement intense interrompu par des pauses, apnées objectivées par le conjoint, micro-réveils avec sensation d'étouffement, nycturie (~28 % via stimulation du peptide natriurétique pendant les efforts respiratoires) et sueurs nocturnes (~66 %, liées aux efforts respiratoires nocturnes). Hémoptysies = pathologie respiratoire aiguë / cancer. Crampes des mollets = syndrome des jambes sans repos (autre trouble du sommeil, à distinguer).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

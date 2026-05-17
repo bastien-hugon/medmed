@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q06-duree-aigue",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est, selon la HAS 2019, la durée habituelle d'une lombalgie qualifiée d'AIGUË ?",
+  "choices": [
+    { "id": "a", "text": "Moins de 4 à 6 semaines", "correct": true },
+    { "id": "b", "text": "Moins de 3 mois", "correct": false },
+    { "id": "c", "text": "Entre 3 et 6 mois", "correct": false },
+    { "id": "d", "text": "Plus de 6 mois", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Lombalgie aiguë = < 4 à 6 semaines. Subaiguë = entre 6 semaines et 3 mois. Chronique = > 3 mois. La frontière 4-6 semaines correspond au délai habituel de résolution spontanée (90 % des cas).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

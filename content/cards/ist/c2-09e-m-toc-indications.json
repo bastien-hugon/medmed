@@ -1,0 +1,28 @@
+{
+  "id": "ist-c2-m09e-toc-indications",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations où un test de guérison (TOC) après traitement d'une chlamydia est indiqué.",
+  "choices": [
+    { "id": "a", "text": "Femme enceinte (TOC à 4 semaines post-TT par NAAT)", "correct": true },
+    { "id": "b", "text": "Doute sérieux sur l'observance du traitement", "correct": true },
+    { "id": "c", "text": "Symptômes persistants au-delà du traitement", "correct": true },
+    { "id": "d", "text": "Suspicion clinique forte de réinfection précoce", "correct": true },
+    { "id": "e", "text": "Tout patient asymptomatique après une cure standard bien suivie", "correct": false },
+    { "id": "f", "text": "Patient demandeur sans aucune autre raison médicale", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "4 situations où le TOC est indiqué (CDC 2021) : (1) GROSSESSE (enjeu transmission néonatale) → TOC NAAT à 4 sem ; (2) doute d'OBSERVANCE ; (3) SYMPTÔMES PERSISTANTS post-TT ; (4) SUSPICION DE RÉINFECTION précoce. PAS chez le patient asymptomatique standard après cure bien suivie : on retest à 3 mois pour réinfection, pas pour guérison. Le simple souhait du patient ne justifie pas un TOC précoce (faux positifs).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

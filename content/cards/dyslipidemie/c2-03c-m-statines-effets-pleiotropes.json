@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c2-m03-statines-effets-pleiotropes",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les effets des STATINES qui contribuent à leur bénéfice cardiovasculaire (au-delà de la simple baisse du LDL).",
+  "choices": [
+    { "id": "a", "text": "Inhibition de l'HMG-CoA réductase hépatique.", "correct": true },
+    { "id": "b", "text": "Stabilisation de la chape fibreuse de la plaque d'athérome.", "correct": true },
+    { "id": "c", "text": "Effet anti-inflammatoire au niveau de la paroi artérielle.", "correct": true },
+    { "id": "d", "text": "Amélioration de la fonction endothéliale.", "correct": true },
+    { "id": "e", "text": "Augmentation marquée du HDL au-delà de 30 %.", "correct": false },
+    { "id": "f", "text": "Effet anticoagulant direct.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Les statines combinent : (1) inhibition de l'HMG-CoA réductase → baisse LDL ; (2) effets PLÉIOTROPES = stabilisation de plaque, anti-inflammation locale, amélioration de l'endothélium. C'est cette combinaison qui explique le bénéfice CV même chez les patients à LDL initialement bas. Elles ne sont PAS anticoagulantes, et n'augmentent que MARGINALEMENT le HDL (~5-10 %).",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

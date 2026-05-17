@@ -1,0 +1,27 @@
+{
+  "id": "vaccination-adulte-c2-q03b-pneumo-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient splénectomisé de 42 ans, jamais vacciné contre le pneumocoque, vient en consultation. Quel schéma vaccinal pneumococcique adulte est aujourd'hui recommandé en France (2025) ?",
+  "choices": [
+    {"id": "a", "text": "Prevenar 13 puis Pneumovax 23 à 8 semaines d'intervalle, comme historiquement.", "correct": false},
+    {"id": "b", "text": "UNE seule dose de VPC20 (Prevenar 20) ou VPC21 (Capvaxive).", "correct": true},
+    {"id": "c", "text": "Deux doses de Pneumovax 23 à un an d'intervalle.", "correct": false},
+    {"id": "d", "text": "Aucune vaccination, le pneumocoque ne concerne que les sujets > 65 ans.", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Depuis le calendrier 2024-2025, le schéma adulte est SIMPLIFIÉ : une seule dose d'un vaccin conjugué à très large couverture (VPC20 Prevenar 20 ou VPC21 Capvaxive) remplace le schéma séquentiel PCV13 → PPV23. Un splénectomisé est à très haut risque d'infection invasive à pneumocoque (Streptococcus pneumoniae encapsulé), c'est une indication majeure quelle que soit l'âge.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "pneumocoque"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/Infections-a-pneumocoque",
+    "version": "consulté en 2026-05",
+    "note": "Schéma 2025 = dose unique VPC20 ou VPC21."
+  },
+  "status": "active"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c2-q05b-horton-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Patiente de 72 ans. Depuis 3 semaines, céphalées temporales bilatérales nouvelles, AEG, douleur quand elle se coiffe, douleur de la mâchoire à la mastication. Vous suspectez fortement une maladie de Horton (artérite à cellules géantes). Quelle est la PRIORITÉ thérapeutique immédiate ?",
+  "choices": [
+    { "id": "a", "text": "Attendre les résultats de la biopsie d'artère temporale avant tout traitement", "correct": false },
+    { "id": "b", "text": "Débuter une CORTICOTHÉRAPIE par voie générale SANS attendre la biopsie", "correct": true },
+    { "id": "c", "text": "Prescrire du paracétamol et revoir dans 1 mois", "correct": false },
+    { "id": "d", "text": "Antibiothérapie empirique IV", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le risque majeur de la maladie de Horton non traitée est la CÉCITÉ DÉFINITIVE par névrite optique ischémique antérieure aiguë (NOIAA), pouvant survenir à tout moment. La corticothérapie (prednisone 0,7-1 mg/kg/j, plus haut si signes oculaires) doit être démarrée IMMÉDIATEMENT dès la suspicion forte, sans attendre la biopsie (qui reste positive 1-2 semaines sous cortico). VS/CRP très élevées orientent. Biopsie d'artère temporale = confirmation à distance.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "horton"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q08-radiographie-standard",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la place de la RADIOGRAPHIE simple du rachis lombaire dans la prise en charge de la lombalgie selon la HAS 2019 ?",
+  "choices": [
+    { "id": "a", "text": "C'est l'examen de 1ère intention dans toutes les lombalgies", "correct": false },
+    { "id": "b", "text": "Elle n'a pas d'indication en routine ; elle peut être utile à la recherche d'instabilité ou de trouble statique uniquement", "correct": true },
+    { "id": "c", "text": "Elle doit être renouvelée annuellement chez tout patient lombalgique chronique", "correct": false },
+    { "id": "d", "text": "Elle est obligatoire avant tout AINS", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Radio simple = peu informative pour le diagnostic étiologique d'une lombalgie commune, et irradiante. HAS 2019 : 'Pas d'indication, sauf recherche d'instabilité ou de trouble statique'. Pour rechercher une cause secondaire (tumeur, infection, hernie significative), c'est l'IRM qui est de mise.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "imagerie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

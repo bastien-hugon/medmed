@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c1-q03b-trois-cephalees-primaires",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la céphalée primaire LA PLUS FRÉQUENTE en population générale (prévalence vie entière) ?",
+  "choices": [
+    { "id": "a", "text": "Migraine sans aura", "correct": false },
+    { "id": "b", "text": "Céphalée de tension", "correct": true },
+    { "id": "c", "text": "Algie vasculaire de la face (AVF)", "correct": false },
+    { "id": "d", "text": "Migraine avec aura", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Prévalence vie entière : céphalée de tension ~ 70 %, migraine ~ 15 % (3 fois plus de femmes), AVF ~ 0,1 % (plutôt homme jeune). La tension est de loin la 'céphalée de monsieur tout-le-monde' — d'où l'intérêt de ne pas étiqueter trop vite une céphalée banale 'migraine' alors qu'elle est probablement une tension.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q15-metformine-cloze",
+  "kind": "cloze",
+  "prompt": "La metformine agit principalement en diminuant la production de glucose par le ___ (néoglucogenèse hépatique).",
+  "expected": ["foie"],
+  "rationale": "Foie = cible principale de la metformine. Elle inhibe la néoglucogenèse (fabrication de glucose à partir de lactate, glycérol, acides aminés). Chez le T2, le foie continue à fabriquer du sucre même quand la glycémie est déjà haute — anomalie majeure. La metformine freine ce moteur fou → la glycémie à jeun baisse. Mécanisme moléculaire : activation de l'AMPK + inhibition mitochondriale du complexe I (pas à retenir maintenant).",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Antidiab%C3%A9tique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

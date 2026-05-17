@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-m07d-ic-droite-signes",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les signes/symptômes typiques d'une insuffisance cardiaque DROITE prédominante.",
+  "choices": [
+    { "id": "a", "text": "Œdèmes des membres inférieurs bilatéraux", "correct": true },
+    { "id": "b", "text": "Turgescence jugulaire (jugulaires saillantes)", "correct": true },
+    { "id": "c", "text": "Hépatomégalie sensible / 'foie cardiaque'", "correct": true },
+    { "id": "d", "text": "Orthopnée majeure", "correct": false },
+    { "id": "e", "text": "Ascite (cas évolués)", "correct": true },
+    { "id": "f", "text": "Crépitants pulmonaires des bases", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "IC DROITE = stagnation dans les VEINES SYSTÉMIQUES (en amont du VD) → signes 'bas' : œdèmes des MI, turgescence jugulaire, foie congestif sensible, ascite dans les cas évolués. Orthopnée et crépitants = signes pulmonaires = IC gauche (stagnation pulmonaire).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

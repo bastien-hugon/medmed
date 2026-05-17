@@ -1,0 +1,30 @@
+{
+  "id": "lombalgie-c2-q05-deux-questions-systematiques",
+  "kind": "free-recall",
+  "prompt": "Citez les DEUX questions à poser systématiquement à TOUT patient consultant pour lombalgie, afin de dépister un éventuel syndrome de la queue de cheval.",
+  "expected": [
+    "fuites urinaires",
+    "trouble urinaire",
+    "trouble sphinctérien",
+    "rétention",
+    "rétention urinaire",
+    "anesthésie en selle",
+    "zone insensible",
+    "essuyer",
+    "périnée"
+  ],
+  "rationale": "Les 2 questions filtres : 1) 'Avez-vous remarqué des fuites urinaires, une difficulté à uriner ou à retenir vos selles ?' (troubles sphinctériens) ; 2) 'Y a-t-il une zone insensible quand vous vous essuyez ou au niveau du périnée ?' (anesthésie en selle). Deux questions = 30 secondes pour filtrer L'URGENCE absolue de la lombalgie. À faire à CHAQUE consultation.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

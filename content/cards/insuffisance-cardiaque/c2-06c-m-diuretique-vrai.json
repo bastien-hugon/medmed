@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m06c-diuretique-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant l'usage des diurétiques de l'anse en IC.",
+  "choices": [
+    { "id": "a", "text": "Ils décongestionnent en augmentant l'élimination rénale de sel et d'eau", "correct": true },
+    { "id": "b", "text": "Ils font partie des 4 piliers pronostiques de l'ICFEr", "correct": false },
+    { "id": "c", "text": "Une auto-titration encadrée (+ 1 cp si prise de poids > 2 kg) est utile", "correct": true },
+    { "id": "d", "text": "Ils peuvent causer hypokaliémie, déshydratation, hypoTA orthostatique, IR aiguë", "correct": true },
+    { "id": "e", "text": "Tout patient IC doit en recevoir, même asymptomatique et sec", "correct": false },
+    { "id": "f", "text": "Surveillance régulière de la kaliémie et de la créatinine est nécessaire", "correct": true }
+  ],
+  "expected": ["a", "c", "d", "f"],
+  "rationale": "Diurétiques de l'anse = symptomatiques. Cible : dose MINIMALE qui maintient le patient sec, surtout pas systématique chez tout IC. L'auto-titration éduquée est précieuse (+ 1 cp si + 2 kg en 3 j, prévenir le médecin). Effets indésirables : iono, IR, hypoTA → surveillance créat + K+. Ne pas confondre 'sec' (objectif) et 'déshydraté' (à éviter).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

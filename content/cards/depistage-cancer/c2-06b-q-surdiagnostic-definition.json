@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q06b-surdiagnostic-definition",
+  "kind": "qcm-vignette",
+  "prompt": "Comment définit-on le SURDIAGNOSTIC en contexte de dépistage de cancer ?",
+  "choices": [
+    { "id": "a", "text": "Faire le diagnostic d'un cancer qui n'existe pas (faux positif sur biopsie)", "correct": false },
+    { "id": "b", "text": "Découvrir un cancer histologiquement réel, mais qui n'aurait JAMAIS provoqué de symptômes ni de décès dans la vie du patient si on ne l'avait pas cherché", "correct": true },
+    { "id": "c", "text": "Diagnostiquer un cancer à un stade tardif et incurable", "correct": false },
+    { "id": "d", "text": "Refaire plusieurs fois le même examen de dépistage chez un même patient", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Surdiagnostic : le cancer existe POUR DE VRAI (histologie en main), mais il évolue si lentement ou pas du tout, qu'il ne se serait jamais manifesté du vivant du patient. Le test l'a trouvé, mais il ne le devait pas. C'est différent du FAUX POSITIF (a, où il n'y a pas de cancer du tout) et du faux négatif/diagnostic tardif (c). La conséquence inéluctable du surdiagnostic = SURTRAITEMENT : on opère, on irradie, on prescrit de l'hormonothérapie, avec leurs effets secondaires, alors qu'il n'aurait jamais nui. Cas typique : certains cancers du sein in situ très bien différenciés chez une femme âgée. C'est le grand DÉBAT éthique des dépistages organisés.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Surdiagnostic",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

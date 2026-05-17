@@ -1,0 +1,22 @@
+{
+  "id": "saos-c1-04f-s-sct-cephalee-matinale",
+  "kind": "sct",
+  "prompt": "M. D., 55 ans, IMC 30, consulte pour des céphalées matinales survenant 3 jours par semaine au réveil et disparaissant en 1 à 2 heures. Vous évoquez un possible SAOS.",
+  "hypothesis": "M. D. présente possiblement un SAOS et mérite un Epworth + interrogatoire du conjoint.",
+  "new_info": "À l'interrogatoire, sa femme rapporte qu'il ronfle fort avec des pauses respiratoires depuis 5 ans, et qu'il s'endort souvent devant la télé. Epworth = 13.",
+  "expected": "renforce",
+  "rationale": "Les céphalées matinales du SAOS sont liées à l'hypercapnie nocturne (vasodilatation cérébrale par CO₂) et disparaissent dans la matinée quand la PaCO₂ se normalise. La triade ronflement + apnées rapportées + somnolence (Epworth ≥ 12) chez un patient en surpoids RENFORCE fortement l'hypothèse SAOS. Indication claire de polygraphie ventilatoire.",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

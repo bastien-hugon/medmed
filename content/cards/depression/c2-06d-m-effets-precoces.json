@@ -1,0 +1,29 @@
+{
+  "id": "depression-c2-m06d-effets-precoces",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les effets indésirables PRÉCOCES (premières 1-2 semaines) typiquement transitoires d'un ISRS, à expliquer au patient AVANT la prescription pour éviter un arrêt prématuré.",
+  "choices": [
+    { "id": "a", "text": "Nausées, troubles digestifs", "correct": true },
+    { "id": "b", "text": "Anxiété/agitation transitoires", "correct": true },
+    { "id": "c", "text": "Troubles du sommeil (insomnie ou somnolence)", "correct": true },
+    { "id": "d", "text": "Céphalées", "correct": true },
+    { "id": "e", "text": "Amélioration immédiate de l'humeur dès J1", "correct": false },
+    { "id": "f", "text": "Effet \"euphorisant\" comme une drogue", "correct": false },
+    { "id": "g", "text": "Coma dès la 1ère prise", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Effets précoces typiques des ISRS (les 1-2 premières semaines, souvent transitoires) : digestifs (nausées surtout), anxiété/agitation paradoxale, troubles du sommeil, céphalées. À EXPLIQUER AVANT, pour éviter l'arrêt en croyant à un échec. Les ISRS ne sont PAS euphorisants (≠ amphétamines), ne donnent PAS un effet immédiat sur l'humeur (≠ benzodiazépines), et ne provoquent PAS de coma (toxicité aiguë très faible).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

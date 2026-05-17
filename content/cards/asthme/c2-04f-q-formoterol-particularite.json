@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c2-q04f-formoterol-particularite",
+  "kind": "cloze",
+  "prompt": "Le ___ est le seul LABA dont le délai d'action est suffisamment court (~ 3 min) pour pouvoir servir à la fois de traitement de FOND et de RELIEVER, ce qui permet les schémas AIR et MART.",
+  "expected": ["formotérol"],
+  "rationale": "Le formotérol = LABA atypique : action rapide (~3 min, comme un SABA) ET prolongée (12 h, comme un LABA). C'est la propriété qui rend AIR et MART possibles. Les autres LABA (salmétérol notamment) ont un début d'action lent (15-20 min) et ne peuvent donc pas être utilisés en reliever. À retenir absolument pour les ordonnances.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ist-c2-s08f-sct-partenaire-3-mois",
+  "kind": "sct",
+  "prompt": "Une patiente diagnostiquée chlamydia vous dit que son dernier partenaire date de 4 mois (donc > 60 jours). Elle se demande s'il faut le contacter.",
+  "hypothesis": "Indication de traiter / notifier ce partenaire bien que la relation date de plus de 60 jours.",
+  "new_info": "Vous lisez la recommandation : 'le partenaire le plus récent doit être évalué, même si la dernière relation date de plus de 60 jours.'",
+  "expected": "renforce",
+  "rationale": "La règle '60 jours' a une exception cruciale : si le PATIENT n'a eu AUCUN partenaire dans les 60 jours, il faut quand même contacter le partenaire LE PLUS RÉCENT (même si la relation date de plus de 60 jours). La nouvelle info RENFORCE l'indication : ce partenaire à 4 mois est le seul donc il doit être notifié, évalué et traité présomptivement. Sans cela, on rate probablement la source contaminante et le risque de poursuivre la chaîne de transmission.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

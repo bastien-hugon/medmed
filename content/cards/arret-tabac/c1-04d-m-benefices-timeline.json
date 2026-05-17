@@ -1,0 +1,29 @@
+{
+  "id": "arret-tabac-c1-m04d-benefices-timeline",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les bénéfices ATTENDUS dans la PREMIÈRE année après l'arrêt du tabac.",
+  "choices": [
+    {"id": "a", "text": "Baisse de la fréquence cardiaque et de la pression artérielle (dès 20 min)", "correct": true},
+    {"id": "b", "text": "Monoxyde de carbone (CO) expiré redevenant normal en ~24 h", "correct": true},
+    {"id": "c", "text": "Amélioration de la fonction pulmonaire et de la circulation pulmonaire (2 sem - quelques mois)", "correct": true},
+    {"id": "d", "text": "Amélioration de la peau, du teint et de la vitalité subjective", "correct": true},
+    {"id": "e", "text": "Risque cardiovasculaire divisé par environ 2 à 1 an", "correct": true},
+    {"id": "f", "text": "Risque de cancer du poumon revenu à celui d'un non-fumeur dès 6 mois", "correct": false},
+    {"id": "g", "text": "Récupération complète de 10 années d'espérance de vie en quelques semaines", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Bénéfices à 1 an : très tangibles (FC/PA, CO, souffle, peau, vitalité) et un effet majeur sur le risque CV (÷ 2). En revanche, le risque de cancer du poumon NE redevient PAS celui d'un non-fumeur dès 6 mois — il baisse progressivement sur 5-10 ans et au-delà. Et les gains d'espérance de vie se cumulent sur des années, pas en quelques semaines. À utiliser en consultation : le court terme est vendeur, le long terme aussi.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

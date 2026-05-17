@@ -1,0 +1,29 @@
+{
+  "id": "ist-c2-m03d-tableaux-neonataux",
+  "kind": "qcm-multi",
+  "prompt": "Coche les éléments cliniques évocateurs d'une PNEUMOPATHIE NÉONATALE à chlamydia.",
+  "choices": [
+    { "id": "a", "text": "Apparition entre 1 et 3 mois de vie", "correct": true },
+    { "id": "b", "text": "Toux sèche, répétitive, en 'staccato'", "correct": true },
+    { "id": "c", "text": "Polypnée (respiration rapide)", "correct": true },
+    { "id": "d", "text": "Éosinophilie sanguine ≥ 400/mm³", "correct": true },
+    { "id": "e", "text": "Infiltrats bilatéraux et hyperinflation à la radio", "correct": true },
+    { "id": "f", "text": "Tableau le plus souvent AFÉBRILE", "correct": true },
+    { "id": "g", "text": "Méningite purulente associée", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Tableau caractéristique de la pneumopathie à chlamydia néonatale : nourrisson de 1-3 mois, toux 'staccato' (sèche, en rafales), polypnée, AFÉBRILE le plus souvent, éosinophilie périphérique ≥ 400/mm³, radio = infiltrats bilatéraux + hyperinflation. Pas de méningite associée. Diagnostic : NAAT nasopharyngée. Traitement par macrolide.",
+  "tags": {
+    "system": ["infectieux", "pediatrie", "pneumologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

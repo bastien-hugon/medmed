@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-f02-trois-categories-cibles",
+  "kind": "free-recall",
+  "prompt": "Cite TROIS grandes catégories de personnes ciblées par la vaccination antigrippale annuelle prise en charge en France (autres que les 65+).",
+  "expected": ["maladies chroniques", "grossesse", "entourage fragiles", "professionnels de santé", "immunodéprimés"],
+  "rationale": "Au-delà des 65+, on cible : (1) MALADIES CHRONIQUES à risque de formes graves (respiratoires, cardio-vasculaires, métaboliques, rénales, immunitaires, hépatiques, IMC ≥ 40), (2) GROSSESSE (à tout terme, en saison grippale), (3) ENTOURAGE DES FRAGILES (nourrissons < 6 mois, immunodéprimés — stratégie de cocon), (4) PROFESSIONNELS DE SANTÉ et de la petite enfance. Logique : protéger ceux qui font des formes graves ET ceux qui pourraient transmettre.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

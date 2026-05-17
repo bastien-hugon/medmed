@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c2-m07-ei-statines",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les effets indésirables connus (rares ou fréquents) des STATINES.",
+  "choices": [
+    { "id": "a", "text": "Myalgies (douleurs musculaires).", "correct": true },
+    { "id": "b", "text": "Élévation des transaminases.", "correct": true },
+    { "id": "c", "text": "Rhabdomyolyse (rare).", "correct": true },
+    { "id": "d", "text": "Augmentation modeste du risque de diabète.", "correct": true },
+    { "id": "e", "text": "Hypertension artérielle.", "correct": false },
+    { "id": "f", "text": "Anémie hémolytique sévère.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "EI des statines : (1) musculaires : myalgies (fréquentes, souvent effet nocebo), myosite, RHABDOMYOLYSE (rare mais grave) ; (2) hépatiques : transaminases ↑ (modérée, transitoire), rarement hépatite ; (3) métaboliques : ↑ modeste du risque de diabète (+9 %, mais bénéfice CV >>) ; (4) divers : céphalées, troubles digestifs, rarement insomnie. Les statines NE causent PAS d'HTA ni d'anémie hémolytique.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

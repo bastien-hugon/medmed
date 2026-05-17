@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c1-q05c-fonctionnelle-place",
+  "kind": "qcm-vignette",
+  "prompt": "Selon le cadre des 3 boîtes étiologiques, à quel MOMENT du raisonnement clinique faut-il évoquer une cause FONCTIONNELLE (SFC, fibromyalgie, fatigue idiopathique) ?",
+  "choices": [
+    { "id": "a", "text": "D'emblée, dès la première consultation, pour rassurer le patient.", "correct": false },
+    { "id": "b", "text": "Avant d'explorer une cause organique, pour éviter des examens inutiles.", "correct": false },
+    { "id": "c", "text": "Après avoir raisonnablement éliminé les causes organiques ET psychiques.", "correct": true },
+    { "id": "d", "text": "Jamais : ce sont des diagnostics qui n'ont pas leur place en médecine générale.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Les causes fonctionnelles (boîte 3) sont des DIAGNOSTICS D'ÉLIMINATION : on ne les retient qu'après avoir cherché activement une cause organique (anamnèse + examen + bilan biologique de 1ère intention) et psychique (dépistage dépression/anxiété). Ce n'est ni un diagnostic poubelle posé d'emblée, ni un diagnostic à rejeter. Une fois posé, il mérite une prise en charge réelle (TCC, soutien, kiné douce, gestion du sommeil).",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

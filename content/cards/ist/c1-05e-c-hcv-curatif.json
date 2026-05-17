@@ -1,0 +1,20 @@
+{
+  "id": "ist-c1-c05e-hcv-curatif",
+  "kind": "cloze",
+  "prompt": "Parmi les IST virales chroniques, l'hépatite ___ (B ou C) est devenue CURABLE depuis l'arrivée des antiviraux à action directe (AAD), alors que pour l'hépatite ___ on dispose d'un vaccin mais pas de traitement curatif définitif.",
+  "expected": ["C", "B"],
+  "rationale": "Hépatite C : pas de vaccin, MAIS guérison curative en 8-12 semaines par AAD (antiviraux à action directe, depuis ~2014). Hépatite B : vaccin disponible (obligatoire nourrisson en France depuis 2018), mais traitement = antiviraux qui contrôlent la réplication (souvent à vie), sans éradication définitive. Paradoxe pédagogique utile : on vaccine la B (curable in fine non), on guérit la C (mais pas de vaccin).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie", "hepatologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

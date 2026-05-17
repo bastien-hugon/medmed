@@ -1,0 +1,28 @@
+{
+  "id": "saos-c2-11c-m-criteres-polysomno",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations qui doivent faire préférer une POLYSOMNOGRAPHIE à une polygraphie ventilatoire.",
+  "choices": [
+    {"id": "a", "text": "Polygraphie ventilatoire négative chez un patient à forte suspicion clinique (discordance)", "correct": true},
+    {"id": "b", "text": "Suspicion de trouble du sommeil associé (jambes sans repos, narcolepsie, parasomnie)", "correct": true},
+    {"id": "c", "text": "Insomnie sévère rendant l'interprétation de la polygraphie ambulatoire incertaine", "correct": true},
+    {"id": "d", "text": "Suspicion de SAOS central nécessitant analyse précise du sommeil", "correct": true},
+    {"id": "e", "text": "Bilan initial chez tout patient avec forte suspicion clinique de SAOS obstructif", "correct": false},
+    {"id": "f", "text": "Patient déjà appareillé en CPAP avec bonne observance", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Indications de polysomnographie (2ème intention, plus complète, en laboratoire) : (1) discordance clinico-polygraphique, (2) suspicion d'autre trouble du sommeil (SJSR, narcolepsie, parasomnie), (3) insomnie sévère qui dilue l'IAH polygraphique, (4) suspicion de SAOS central (besoin d'analyse fine du sommeil et des efforts). Pas en 1ère intention de routine (polygraphie suffit) ; pas non plus chez un patient appareillé bien équilibré (suivi clinique + relevés CPAP).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

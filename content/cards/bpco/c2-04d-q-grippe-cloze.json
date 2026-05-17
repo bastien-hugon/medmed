@@ -1,0 +1,20 @@
+{
+  "id": "bpco-c2-q04d-grippe-cloze",
+  "kind": "cloze",
+  "prompt": "Le vaccin antigrippal doit être proposé à tout patient BPCO ___ fois par an, à l'automne.",
+  "expected": ["1", "une"],
+  "rationale": "Vaccin antigrippal saisonnier = 1 injection annuelle, en automne (octobre-novembre en France), avant le pic épidémique. C'est gratuit (pris en charge à 100 %) et ça réduit les exacerbations et les hospitalisations. À proposer systématiquement à chaque BPCO, même léger.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

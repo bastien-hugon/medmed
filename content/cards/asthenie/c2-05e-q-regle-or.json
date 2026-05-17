@@ -1,0 +1,20 @@
+{
+  "id": "asthenie-c2-q05e-regle-or",
+  "kind": "cloze",
+  "prompt": "La règle d'or des examens complémentaires devant une asthénie : pas de test sans ___.",
+  "expected": ["hypothèse", "hypothese", "orientation", "orientation clinique"],
+  "rationale": "Règle d'or : PAS DE TEST SANS HYPOTHÈSE. La valeur prédictive positive d'un test dépend de la probabilité pré-test. Prescrire \"pour voir\" sur une population à faible probabilité = beaucoup de faux positifs, anxiété, examens en cascade. Une hypothèse même modeste (CK si myalgies, VIH si FdR, radio thorax si toux, polygraphie si somnolence + ronflements) justifie le test ciblé.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

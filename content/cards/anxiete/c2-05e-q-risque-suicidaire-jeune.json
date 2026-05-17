@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q05e-risque-suicidaire-jeune",
+  "kind": "qcm-vignette",
+  "prompt": "Vous initiez un SSRI (sertraline) chez une patiente de 24 ans pour un TAG sévère. Quelle modalité de surveillance NICE recommande-t-il particulièrement ?",
+  "choices": [
+    { "id": "a", "text": "Aucune surveillance particulière, revoir dans 3 mois", "correct": false },
+    { "id": "b", "text": "Revoir à 1 semaine, puis HEBDOMADAIRE pendant 1 mois (risque accru d'idéation suicidaire en début de traitement < 30 ans)", "correct": true },
+    { "id": "c", "text": "Bilan biologique mensuel pendant 6 mois", "correct": false },
+    { "id": "d", "text": "ECG hebdomadaire pendant 1 mois", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Chez les patients < 30 ans sous SSRI ou SNRI, NICE recommande une surveillance RENFORCÉE : revoir à 1 semaine, puis hebdomadaire pendant le 1er mois. Raison : risque accru d'IDÉATION SUICIDAIRE émergente en début de traitement (effet activateur des SSRI, levée de l'inhibition motrice avant amélioration de l'humeur). À évoquer explicitement avec le patient et son entourage avant de prescrire. Pas de bilan bio systématique (sauf situation spécifique), pas d'ECG (sauf citalopram à forte dose : risque allongement QT).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

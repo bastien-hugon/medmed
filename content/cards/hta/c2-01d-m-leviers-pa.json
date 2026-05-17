@@ -1,0 +1,28 @@
+{
+  "id": "hta-c2-m01-leviers-pa",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les mécanismes pharmacologiques qui peuvent faire BAISSER la pression artérielle (à partir de PA = Q × R).",
+  "choices": [
+    {"id": "a", "text": "Ralentir le cœur (↓ fréquence cardiaque)", "correct": true},
+    {"id": "b", "text": "Diminuer le volume sanguin par diurèse", "correct": true},
+    {"id": "c", "text": "Relâcher les artérioles (vasodilatation périphérique)", "correct": true},
+    {"id": "d", "text": "Augmenter la contractilité du cœur", "correct": false},
+    {"id": "e", "text": "Augmenter la rétention de sodium", "correct": false},
+    {"id": "f", "text": "Bloquer la vasoconstriction induite par l'angiotensine II", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "f"],
+  "rationale": "Pour ↓ PA, on agit sur Q (↓ FC = bêtabloquant ; ↓ volume = diurétique) ou sur R (vasodilatation = IC ; blocage SRAA = IEC/ARA2). À l'inverse, ↑ contractilité ou ↑ rétention de sodium FONT MONTER la PA. Cette logique est l'outil mental pour comprendre TOUS les antihypertenseurs.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

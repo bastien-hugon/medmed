@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m04c-piliers-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les classes qui font partie des 4 PILIERS de l'ICFEr selon NICE NG106 / ESC.",
+  "choices": [
+    { "id": "a", "text": "IEC (ou ARNI) — ex. ramipril, sacubitril/valsartan", "correct": true },
+    { "id": "b", "text": "Béta-bloquant spécifique de l'IC — bisoprolol, carvédilol, nébivolol", "correct": true },
+    { "id": "c", "text": "MRA — spironolactone ou éplérénone", "correct": true },
+    { "id": "d", "text": "SGLT2-i — dapagliflozine, empagliflozine", "correct": true },
+    { "id": "e", "text": "Inhibiteur calcique non-DHP (vérapamil, diltiazem)", "correct": false },
+    { "id": "f", "text": "Statine systématique de haute intensité", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Les 4 piliers ICFEr : IEC (ou ARNI si max toléré + symptomatique) + BB-IC + MRA + SGLT2-i. À introduire d'emblée et titrer ensemble. Le vérapamil et le diltiazem sont au contraire À ÉVITER en ICFEr (inotropes négatifs). La statine n'est PAS un pilier IC (réservée aux indications classiques : prévention cardiovasculaire selon FDR).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

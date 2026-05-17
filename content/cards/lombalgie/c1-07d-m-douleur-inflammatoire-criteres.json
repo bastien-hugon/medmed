@@ -1,0 +1,28 @@
+{
+  "id": "lombalgie-c1-m07-douleur-inflammatoire-criteres",
+  "kind": "qcm-multi",
+  "prompt": "Cochez toutes les caractéristiques typiques d'une douleur lombaire INFLAMMATOIRE.",
+  "choices": [
+    { "id": "a", "text": "Réveil nocturne, surtout en 2e partie de nuit", "correct": true },
+    { "id": "b", "text": "Raideur matinale > 30 minutes", "correct": true },
+    { "id": "c", "text": "Amélioration paradoxale par le mouvement", "correct": true },
+    { "id": "d", "text": "Persistance > 3 mois", "correct": true },
+    { "id": "e", "text": "Soulagée par le repos prolongé au lit", "correct": false },
+    { "id": "f", "text": "Aggravée par la marche et la station debout", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Profil inflammatoire (critères ASAS) : nocturne en 2e partie de nuit + raideur matinale prolongée + amélioration par le mouvement + persistance > 3 mois (souvent chez sujet jeune). Tout l'inverse du profil mécanique (douleur déclenchée par le mouvement, soulagée par le repos, sans raideur matinale).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

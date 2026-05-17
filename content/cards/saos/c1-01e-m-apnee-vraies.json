@@ -1,0 +1,28 @@
+{
+  "id": "saos-c1-01e-m-apnee-vraies",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant l'apnée du sommeil obstructive.",
+  "choices": [
+    {"id": "a", "text": "Une apnée est définie par un arrêt du flux d'air > 10 secondes", "correct": true},
+    {"id": "b", "text": "Pendant l'apnée obstructive, les efforts respiratoires thoraciques persistent", "correct": true},
+    {"id": "c", "text": "Le SAOS est d'origine centrale (défaut de commande nerveuse)", "correct": false},
+    {"id": "d", "text": "Environ 90 % des apnées du sommeil sont obstructives", "correct": true},
+    {"id": "e", "text": "L'apnée se termine généralement par un microéveil", "correct": true},
+    {"id": "f", "text": "Une apnée < 5 secondes est déjà considérée comme pathologique", "correct": false}
+  ],
+  "expected": ["a", "b", "d", "e"],
+  "rationale": "L'apnée obstructive = blocage mécanique du pharynx avec efforts thoraciques conservés (différence clé avec l'apnée centrale). Seuil temporel consensuel = 10 s. Le cerveau finit toujours par réagir par un microéveil qui rouvre les VAS. 90 % des apnées du sommeil sont obstructives, les 10 % restantes sont centrales ou mixtes. Les pauses brèves < 10 s sont fréquentes et physiologiques, surtout en sommeil paradoxal.",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

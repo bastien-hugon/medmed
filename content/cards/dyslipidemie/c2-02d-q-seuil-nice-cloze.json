@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c2-q02-seuil-nice-cloze",
+  "kind": "cloze",
+  "prompt": "Selon NICE NG238, en prévention primaire, on propose une statine (atorvastatine ___ mg) lorsque le risque CV à 10 ans est ≥ ___ %.",
+  "expected": ["20", "10"],
+  "rationale": "Règle NICE simplifiée à mémoriser ABSOLUMENT : SEUIL UNIQUE de 10 % à 10 ans, traitement de référence = atorvastatine 20 mg/j. C'est le couple '20 mg / 10 %' du réflexe primaire. À distinguer de l'ESC qui découpe plus finement (faible / modéré / élevé / très élevé) et de la prévention secondaire (atorvastatine 80 mg d'emblée).",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

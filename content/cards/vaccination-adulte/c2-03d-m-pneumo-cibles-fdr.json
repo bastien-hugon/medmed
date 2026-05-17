@@ -1,0 +1,32 @@
+{
+  "id": "vaccination-adulte-c2-m03-pneumo-cibles-fdr",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations qui, chez un adulte de 18-64 ans, constituent une indication à la vaccination antipneumococcique (calendrier français 2025).",
+  "choices": [
+    {"id": "a", "text": "Asplénie ou splénectomie", "correct": true},
+    {"id": "b", "text": "Insuffisance rénale chronique sévère", "correct": true},
+    {"id": "c", "text": "Patient immunodéprimé (chimiothérapie, biothérapies, post-greffe)", "correct": true},
+    {"id": "d", "text": "Diabète", "correct": true},
+    {"id": "e", "text": "Cardiopathie chronique sévère", "correct": true},
+    {"id": "f", "text": "BPCO modérée à sévère", "correct": true},
+    {"id": "g", "text": "Hypertension artérielle isolée", "correct": false},
+    {"id": "h", "text": "Brèche ostéo-méningée ou implant cochléaire", "correct": true},
+    {"id": "i", "text": "Cirrhose hépatique", "correct": true},
+    {"id": "j", "text": "Migraine épisodique", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "h", "i"],
+  "rationale": "Cibles 18-64 ans : immunodéprimés (chimio, biothérapie, greffe, VIH), asplénie/splénectomie, IRC sévère, syndrome néphrotique, cardiopathie sévère, BPCO/asthme sévère, diabète, cirrhose, brèche ostéo-méningée, implant cochléaire. Et bien sûr : ≥ 65 ans universellement. L'HTA isolée et la migraine ne sont pas des indications. Mnémo : risques d'infection invasive à pneumocoque = défaut de phagocytose (asplénie, complément), barrière rompue (brèche), comorbidités chroniques.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "pneumocoque"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/Infections-a-pneumocoque",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

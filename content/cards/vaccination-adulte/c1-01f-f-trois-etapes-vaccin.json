@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c1-f01-trois-etapes-vaccin",
+  "kind": "free-recall",
+  "prompt": "Cite les TROIS étapes du principe vaccinal (mnémo « 3R »).",
+  "expected": ["reconnaître", "répondre", "retenir"],
+  "rationale": "Les 3 R : RECONNAÎTRE le microbe (présentation antigénique aux cellules immunitaires) → RÉPONDRE en fabriquant anticorps et cellules T spécifiques → RETENIR via les cellules mémoire (B et T mémoire) qui persistent des années. Sans la 3e étape, la protection serait éphémère et il faudrait revacciner constamment.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

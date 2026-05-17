@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q07c-tiffeneau-calcul",
+  "kind": "qcm-vignette",
+  "prompt": "Spirométrie de M. D., 64 ans, fumeur : VEMS = 1,6 L ; CVF = 2,9 L (valeurs POST-bronchodilatateur). Quel est le coefficient de Tiffeneau et quelle est la conclusion ?",
+  "choices": [
+    { "id": "a", "text": "Tiffeneau ≈ 0,55 → obstruction présente, compatible avec BPCO", "correct": true },
+    { "id": "b", "text": "Tiffeneau ≈ 0,75 → spirométrie normale, pas de BPCO", "correct": false },
+    { "id": "c", "text": "Tiffeneau ≈ 1,30 → restriction pulmonaire", "correct": false },
+    { "id": "d", "text": "On ne peut pas conclure sans les gaz du sang", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "1,6 / 2,9 ≈ 0,55 = 55 %. Inférieur au seuil 0,70 (et c'est post-bronchodilatateur) → on parle d'OBSTRUCTION BRONCHIQUE FIXÉE = diagnostic de BPCO. Le ratio Tiffeneau ne peut pas dépasser 1 (le VEMS est forcément ≤ CVF). Les gaz du sang ne servent pas au diagnostic positif (mais à évaluer l'insuffisance respiratoire).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

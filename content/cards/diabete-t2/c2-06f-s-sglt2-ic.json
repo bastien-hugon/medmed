@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c2-s06-sglt2-ic",
+  "kind": "sct",
+  "hypothesis": "M. V., 67 ans, diabétique T2 avec insuffisance cardiaque à fraction d'éjection réduite, sous metformine bien équilibré (HbA1c 7,0 %). L'ajout d'un inhibiteur du SGLT2 n'apporterait pas grand-chose.",
+  "new_info": "Vous lisez les essais DAPA-HF et EMPEROR-Reduced qui montrent que ces molécules réduisent significativement les hospitalisations pour IC et la mortalité CV, même chez le diabétique 'bien équilibré' (et même chez le non-diabétique).",
+  "prompt": "Cette information modifie-t-elle l'hypothèse 'pas grand-chose à gagner' ?",
+  "expected": "affaiblit",
+  "rationale": "Les SGLT2-i ne sont plus seulement des antidiabétiques : ce sont devenus un traitement de fond de l'IC à FEr, indépendamment de l'HbA1c. Chez un diabétique avec IC, l'ajout d'un SGLT2-i est désormais une indication formelle (HAS / ESC). Le bénéfice est cardio-rénal, pas glycémique. Hypothèse 'pas grand-chose à gagner' clairement affaiblie : indication majeure.",
+  "tags": {
+    "system": ["endocrinologie", "cardiovasculaire"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Antidiab%C3%A9tique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

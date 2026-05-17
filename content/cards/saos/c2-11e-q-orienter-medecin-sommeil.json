@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-11e-q-orienter-medecin-sommeil",
+  "kind": "qcm-vignette",
+  "prompt": "En consultation de médecine générale, devant une suspicion clinique forte de SAOS, vers quel spécialiste orienter en pratique ?",
+  "choices": [
+    {"id": "a", "text": "ORL en première intention pour endoscopie", "correct": false},
+    {"id": "b", "text": "Pneumologue ou médecin du sommeil pour décision d'exploration", "correct": true},
+    {"id": "c", "text": "Cardiologue pour bilan préalable", "correct": false},
+    {"id": "d", "text": "Stomatologue pour orthèse mandibulaire d'emblée", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "En MG, l'orientation se fait préférentiellement vers le PNEUMOLOGUE ou le médecin du sommeil, qui décidera de l'examen (polygraphie en 1ère intention ou polysomnographie d'emblée selon contexte). Cette filière garantit aussi l'éventuel suivi thérapeutique (titration CPAP, observance, alternatives). ORL : utile en 2ème ligne (anatomie pharyngée, bilan pré-chirurgical). Cardiologue : bilan des comorbidités (HTA, FA), pas pour l'exploration du sommeil. Stomatologue : pour OAM après décision multidisciplinaire.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

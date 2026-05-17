@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c1-s05-grippe-vaccine-an-passe",
+  "kind": "sct",
+  "prompt": "Une patiente diabétique de 58 ans vous dit : « j'ai fait le vaccin contre la grippe l'an dernier, et puis j'ai eu une grosse grippe cet hiver — donc le vaccin ne sert à rien ».",
+  "hypothesis": "Mon hypothèse : il faut renoncer à lui reproposer la vaccination antigrippale cette saison.",
+  "new_info": "Vous lui expliquez que (i) le vaccin est efficace partiellement et réduit surtout les formes graves/hospitalisations, et (ii) chaque saison la cible vaccinale est réadaptée aux souches.",
+  "expected": "affaiblit",
+  "rationale": "Le vaccin antigrippal n'a jamais prétendu une efficacité 100 % sur l'infection — il réduit d'environ 30 % les hospitalisations grippales chez les sujets âgés/fragiles, ce qui est très significatif pour cette patiente diabétique. Une grippe « malgré le vaccin » ne disqualifie pas le vaccin (souches mal anticipées, immunosénescence). L'info AFFAIBLIT la décision de renoncer.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

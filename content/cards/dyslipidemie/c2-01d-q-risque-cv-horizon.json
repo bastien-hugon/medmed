@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c2-q01-risque-cv-horizon",
+  "kind": "cloze",
+  "prompt": "Les outils QRISK3 et SCORE2 estiment la probabilité d'un événement cardiovasculaire majeur dans les ___ années à venir, exprimée en ___.",
+  "expected": ["10", "pourcentage"],
+  "rationale": "Standard : risque CV à 10 ans, exprimé en POURCENTAGE (ex : 'risque de 15 % à 10 ans'). Ce chiffre détermine la prise en charge : <5 % faible, 5-10 % modéré, 10-20 % élevé, ≥20 % très élevé (selon les seuils retenus). NICE retient un seuil simple à 10 % pour proposer une statine en prévention primaire.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "dyslipidemie-c1-m07-fdr-modifiables",
+  "kind": "qcm-multi",
+  "prompt": "Cochez tous les facteurs de risque cardiovasculaire MODIFIABLES (sur lesquels on peut agir).",
+  "choices": [
+    { "id": "a", "text": "Tabagisme actif.", "correct": true },
+    { "id": "b", "text": "Hypertension artérielle.", "correct": true },
+    { "id": "c", "text": "Diabète mal équilibré.", "correct": true },
+    { "id": "d", "text": "LDL élevé.", "correct": true },
+    { "id": "e", "text": "Sédentarité.", "correct": true },
+    { "id": "f", "text": "Âge.", "correct": false },
+    { "id": "g", "text": "Sexe masculin.", "correct": false },
+    { "id": "h", "text": "Antécédents familiaux d'infarctus précoce.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Les FdR MODIFIABLES sont la CIBLE d'action thérapeutique : tabac (sevrage), HTA (traitement), diabète (équilibre glycémique), dyslipidémie (statines + RHD), surpoids/sédentarité (activité physique + diététique), alcool, stress. Les FdR NON modifiables (âge, sexe, antécédents familiaux) servent à calculer le risque mais ne s'altèrent pas. Cibler les modifiables est la base de la prévention cardiovasculaire.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "cephalee-c2-m09d-cam-medicaments-10",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les médicaments dont la prise ≥ 10 jours/mois pendant ≥ 3 mois (et NON ≥ 15 j/mois) suffit à définir une céphalée par abus médicamenteux.",
+  "choices": [
+    { "id": "a", "text": "Triptans (sumatriptan, zolmitriptan...)", "correct": true },
+    { "id": "b", "text": "Opioïdes (codéine, tramadol, morphine)", "correct": true },
+    { "id": "c", "text": "Ergots (ergotamine, dihydroergotamine)", "correct": true },
+    { "id": "d", "text": "Antalgiques combinés (ex. paracétamol + codéine + caféine)", "correct": true },
+    { "id": "e", "text": "Paracétamol seul", "correct": false },
+    { "id": "f", "text": "Aspirine seule", "correct": false },
+    { "id": "g", "text": "AINS seul (ibuprofène, naproxène)", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Seuils ICHD-3 / NICE : 10 jours/mois pour les médicaments FORTS ou COMBINÉS (triptans, opioïdes, ergots, antalgiques combinés). 15 jours/mois pour les antalgiques simples en monothérapie (paracétamol, aspirine, AINS). Mnémo : '10 forts/combinés, 15 simples, pendant 3 mois'. Les antalgiques combinés en vente libre (type Migralgine, Salgydal, etc.) sont sous-estimés comme cause de CAM.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "cam"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

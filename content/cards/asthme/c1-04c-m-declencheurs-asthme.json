@@ -1,0 +1,30 @@
+{
+  "id": "asthme-c1-m04-declencheurs-asthme",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les déclencheurs classiques d'exacerbation d'asthme à rechercher systématiquement à l'interrogatoire.",
+  "choices": [
+    {"id": "a", "text": "Allergènes inhalés (acariens, pollens, poils d'animaux, moisissures)", "correct": true},
+    {"id": "b", "text": "Infections virales respiratoires (rhume, grippe)", "correct": true},
+    {"id": "c", "text": "Effort physique, surtout intense ou en air froid/sec", "correct": true},
+    {"id": "d", "text": "Air froid, brouillard, pollution, fumée de tabac", "correct": true},
+    {"id": "e", "text": "AINS / aspirine (chez certains asthmatiques, syndrome de Widal)", "correct": true},
+    {"id": "f", "text": "Émotions fortes, stress, rire prolongé", "correct": true},
+    {"id": "g", "text": "Consommation modérée de chocolat", "correct": false},
+    {"id": "h", "text": "Exposition à la lumière du soleil", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Tous les classiques sont à interroger : allergènes (la PRÉSENCE d'un nouveau chat ou d'un déménagement compte), infections (les rhumes déclenchent un grand pourcentage des exacerbations chez l'enfant), effort, climat, AINS (Widal = polypose nasale + asthme + intolérance à l'aspirine), émotions. Le chocolat et la lumière ne sont PAS des déclencheurs reconnus. Mémo : déclencheurs multiples = signature de l'HYPERRÉACTIVITÉ BRONCHIQUE.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

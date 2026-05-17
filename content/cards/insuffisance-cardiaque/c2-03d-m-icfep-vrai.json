@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m03d-icfep-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant l'IC à fraction d'éjection PRÉSERVÉE (ICFEp, FEVG ≥ 50 %).",
+  "choices": [
+    { "id": "a", "text": "Le problème est dans le remplissage du ventricule (dysfonction diastolique)", "correct": true },
+    { "id": "b", "text": "Elle est plus fréquente chez la femme âgée, hypertendue, diabétique", "correct": true },
+    { "id": "c", "text": "Le traitement repose sur MRA + SGLT2-i (options principales)", "correct": true },
+    { "id": "d", "text": "Elle se traite EXACTEMENT comme une ICFEr (4 piliers d'emblée)", "correct": false },
+    { "id": "e", "text": "Le diagnostic nécessite FEVG ≥ 50 % + anomalie structurelle", "correct": true },
+    { "id": "f", "text": "La FEVG normale exclut le diagnostic d'IC", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "ICFEp = ventricule qui se contracte bien mais ne se REMPLIT pas correctement (raideur). Profil typique : femme âgée, HTA, diabète, obésité. NICE NG106 : considérer MRA + SGLT2-i (dapagliflozine, empagliflozine). Les 4 piliers classiques de l'ICFEr ne sont pas applicables tels quels. Diagnostic = FEVG ≥ 50 % + anomalie structurelle (OG dilatée, HVG, HTAP, E/e' ↑). Une FEVG normale n'exclut donc PAS l'IC.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

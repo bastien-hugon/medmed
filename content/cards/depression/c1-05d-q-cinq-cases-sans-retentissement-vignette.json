@@ -1,0 +1,26 @@
+{
+  "id": "depression-c1-q05d-cinq-cases-sans-retentissement-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "M. Garcia, 60 ans, vient pour autre chose. Vous le questionnez par habitude. Il rapporte depuis 3 semaines : humeur un peu basse, sommeil moins bon, légère perte d'appétit, fatigabilité, dévalorisation passagère. Mais il continue à travailler normalement, sort avec ses amis le week-end, joue avec ses petits-enfants, et dit \"ça va, c'est juste un coup de mou\". Que conclure ?",
+  "choices": [
+    { "id": "a", "text": "EDC confirmé : 5 symptômes sur 9 cochés, durée ≥ 2 sem, on prescrit un ISRS", "correct": false },
+    { "id": "b", "text": "Critère C manquant : pas de retentissement significatif sur le fonctionnement. Ne pas poser le diagnostic d'EDC. Surveillance active, revoir si évolution.", "correct": true },
+    { "id": "c", "text": "Trouble bipolaire", "correct": false },
+    { "id": "d", "text": "Hospitalisation en psychiatrie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Cocher 5 symptômes sur 9 ne suffit PAS. Le critère C (retentissement) doit être présent : ici, fonctionnement préservé dans toutes les sphères (travail, social, famille). C'est un état dépressif sous-seuil (subsyndromal), pas un EDC. Conduite : pas d'ISRS, surveillance active, conseils de mode de vie, revoir si évolution défavorable. Le diagnostic ne se réduit pas à une liste de cases cochées.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

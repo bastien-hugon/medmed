@@ -1,0 +1,20 @@
+{
+  "id": "asthenie-c1-q05e-boite-psychique",
+  "kind": "cloze",
+  "prompt": "La perte de plaisir et d'envie, signe central de la dépression, qui s'associe souvent à la fatigue psychique, s'appelle l'___.",
+  "expected": ["anhédonie", "anhedonie"],
+  "rationale": "L'ANHÉDONIE = perte du plaisir et de l'envie pour des activités habituellement appréciées. C'est, avec la tristesse, un des deux symptômes centraux du diagnostic d'épisode dépressif caractérisé (DSM-5). Devant une asthénie de la boîte PSYCHIQUE, dépister activement l'anhédonie est rentable. Question simple : \"Avez-vous encore du plaisir à faire les choses que vous aimiez ?\"",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

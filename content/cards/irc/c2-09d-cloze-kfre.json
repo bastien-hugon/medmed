@@ -1,0 +1,20 @@
+{
+  "id": "irc-c2-cz09-kfre",
+  "kind": "cloze",
+  "prompt": "Complète : « L'outil pronostique KFRE (Kidney Failure Risk Equation) estime le risque d'insuffisance rénale terminale à ___ ans. NICE oriente au néphrologue si ce risque dépasse ___ %. »",
+  "expected": ["5 ; 5", "5 et 5", "5, 5", "cinq ; cinq", "5 - 5"],
+  "rationale": "KFRE 4 variables (âge, sexe, eGFR, ACR) = outil validé pour prédire le risque d'IRT à 2 et 5 ans. Le seuil NICE de référence est 5 % à 5 ans pour orienter au néphrologue. C'est une façon plus fine que le seul DFG pour identifier les patients qui vont vraiment évoluer. Calculateurs en ligne disponibles (kidneyfailurerisk.com).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

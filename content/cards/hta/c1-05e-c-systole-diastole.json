@@ -1,0 +1,20 @@
+{
+  "id": "hta-c1-c05-systole-diastole",
+  "kind": "cloze",
+  "prompt": "Dans une PA de '140/90', le 140 est la pression ___ (cœur qui se contracte) et le 90 est la pression ___ (cœur qui se relâche).",
+  "expected": ["systolique", "diastolique"],
+  "rationale": "Systolique = chiffre du HAUT = cœur qui POUSSE le sang. Diastolique = chiffre du BAS = cœur qui SE REMPLIT. Mnémo : 'SYStolique = SYStème en action'. Repère : '140/90' c'est PRÉCISÉMENT le seuil HTA en cabinet. La systolique seule, la diastolique seule, ou les deux peuvent dépasser : il suffit d'UNE des deux pour parler d'HTA.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q08e-rehab-post-hospit",
+  "kind": "qcm-vignette",
+  "prompt": "Mme T., BPCO, vient de sortir d'une hospitalisation de 5 jours pour exacerbation sévère. Que prévoir, selon NICE NG115, dans les semaines qui suivent ?",
+  "choices": [
+    { "id": "a", "text": "Repos strict pour ne pas redéclencher une exacerbation", "correct": false },
+    { "id": "b", "text": "Lui proposer une RÉHABILITATION RESPIRATOIRE, post-exacerbation (très bénéfique)", "correct": true },
+    { "id": "c", "text": "Arrêter tous ses inhalés", "correct": false },
+    { "id": "d", "text": "Lui prescrire une cure d'antibiotiques de 30 jours en prophylaxie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE NG115 : proposer une réhabilitation respiratoire APRÈS une exacerbation hospitalisée. C'est l'une des fenêtres où le bénéfice est le plus net (réduction des ré-hospitalisations, amélioration de la qualité de vie). Le repos strict aggrave le déconditionnement. Arrêter les inhalés n'est jamais une réponse globale. Pas d'antibiothérapie longue prophylactique 'aveugle'.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

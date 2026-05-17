@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c1-q05d-dep-utilite",
+  "kind": "qcm-vignette",
+  "prompt": "Selon NICE NG245, quelle est la place du DEP (peak flow) dans la prise en charge de l'asthme de l'adulte ?",
+  "choices": [
+    { "id": "a", "text": "Outil de monitoring routinier à utiliser deux fois par jour à vie chez tout asthmatique.", "correct": false },
+    { "id": "b", "text": "Outil utile pour le DIAGNOSTIC (variabilité ≥ 20 % sur 2 sem) et pour le PLAN D'ACTION écrit ; NICE NG245 déconseille son usage en monitoring de routine.", "correct": true },
+    { "id": "c", "text": "Test obligatoire avant toute première prescription d'ICS.", "correct": false },
+    { "id": "d", "text": "Examen abandonné par NG245 au profit du FeNO en toute circonstance.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NG245 = DEP utile pour : (1) le DIAGNOSTIC en étape 3 (variabilité ≥ 20 %) et (2) le PLAN D'ACTION écrit personnalisé (suivre le DEP par rapport au meilleur perso pour détecter une dégradation). En revanche, NG245 dit explicitement « NE PAS utiliser le DEP en monitoring de routine » — c'est trop variable et peu corrélé au contrôle au quotidien. Le FeNO reste valorisé pour le monitoring adulte, mais ne remplace pas le DEP pour le plan d'action.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

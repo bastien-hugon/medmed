@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c1-m03-triglycerides-causes",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les situations cliniques classiquement associées à une ÉLÉVATION des triglycérides.",
+  "choices": [
+    { "id": "a", "text": "Consommation excessive d'alcool.", "correct": true },
+    { "id": "b", "text": "Régime riche en sucres rapides.", "correct": true },
+    { "id": "c", "text": "Diabète mal équilibré.", "correct": true },
+    { "id": "d", "text": "Obésité abdominale / syndrome métabolique.", "correct": true },
+    { "id": "e", "text": "Anémie ferriprive.", "correct": false },
+    { "id": "f", "text": "Hyperthyroïdie.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Les TG élevés sont un marqueur de mode de vie / métabolique : alcool, sucres rapides, diabète déséquilibré, surpoids/syndrome métabolique. L'anémie ferriprive n'affecte pas les TG. L'HYPOthyroïdie (et non l'hyper) peut au contraire élever les TG via une moindre clairance des lipoprotéines. Penser TG = fenêtre sur le mode de vie et le contrôle métabolique.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

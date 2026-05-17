@@ -1,0 +1,20 @@
+{
+  "id": "irc-c2-cz07-metformine-seuils",
+  "kind": "cloze",
+  "prompt": "Complète : « Chez le patient diabétique avec MRC, la metformine est à dose RÉDUITE entre DFG ___ et ___, et CONTRE-INDIQUÉE en dessous de ___. »",
+  "expected": ["30 ; 45 ; 30", "30, 45, 30", "30-45 ; 30", "30 et 45 ; 30"],
+  "rationale": "Seuils metformine à retenir : > 60 dose libre ; 45-60 surveillance rapprochée ; 30-45 dose réduite (souvent max 1 000 mg/j) ; < 30 CONTRE-INDIQUÉE. Risque principal : acidose lactique par accumulation lors de bas DFG ou d'événement aigu (déshydratation, sepsis, contraste iodé). Mnémo : suspendre lors d'événement aigu (sick day rule).",
+  "tags": {
+    "system": ["nephrologie", "endocrinologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "diabete", "iatrogenie"],
+    "item_edn": [261, 264, 245, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

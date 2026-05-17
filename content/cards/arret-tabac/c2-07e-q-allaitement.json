@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q07e-allaitement",
+  "kind": "qcm-vignette",
+  "prompt": "Mme T., allaite son nourrisson de 3 mois et souhaite arrêter de fumer (15 cig/j). Quelles propositions sont COMPATIBLES avec l'allaitement ?",
+  "choices": [
+    { "id": "a", "text": "Entretien motivationnel + TCC en 1ère intention", "correct": true },
+    { "id": "b", "text": "NRT autorisée (préférer formes ORALES, en évitant les pics juste avant la tétée ; le timbre 24 h n'est pas idéal mais reste possible)", "correct": false },
+    { "id": "c", "text": "Varénicline (Champix®) en 1ère ligne pour l'efficacité maximale", "correct": false },
+    { "id": "d", "text": "Bupropion (Zyban®) à doses faibles", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Allaitement : MÊMES contre-indications que pendant la grossesse pour les médicaments oraux. VARÉNICLINE et BUPROPION sont CI en allaitement (passage lacté). L'entretien motivationnel + TCC reste 1ère intention. La NRT est utilisable mais avec prudence (passage lacté de la nicotine — préférer formes orales prises JUSTE APRÈS la tétée pour minimiser le pic lacté ; ne pas fumer reste mieux qu'un peu de NRT). NB : ici la 'réponse la plus solidement compatible' est l'option A (EM+TCC). La NRT est aussi possible mais avec nuances ; les choix C et D sont franchement CI.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie", "gynecologie", "pediatrie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

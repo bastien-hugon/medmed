@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c1-s05f-cause-double",
+  "kind": "sct",
+  "prompt": "Un patient diabétique mal équilibré est exploré pour asthénie. Vous concluez à une cause organique (déséquilibre du diabète) et envisagez d'arrêter là l'investigation.",
+  "hypothesis": "La cause de la fatigue est uniquement le déséquilibre du diabète (boîte organique).",
+  "new_info": "À l'interrogatoire dirigé, il rapporte une perte de plaisir, des réveils précoces avec ruminations, et un score PHQ-9 à 14.",
+  "expected": "affaiblit",
+  "rationale": "Une fatigue peut appartenir simultanément à plusieurs boîtes. Ici, le PHQ-9 ≥ 10 et les symptômes d'épisode dépressif caractérisé suggèrent une SECONDE cause psychique en plus du diabète. Conclure trop tôt à une cause unique fait passer à côté d'un trouble dépressif traitable. Le nouvel élément AFFAIBLIT l'hypothèse \"cause organique unique\" : il faut prendre en charge les deux problèmes.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

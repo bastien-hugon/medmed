@@ -1,0 +1,30 @@
+{
+  "id": "hta-c2-m05-bilan-paraclinique",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les examens qui font partie du bilan initial OBLIGATOIRE selon la HAS chez le nouvel hypertendu.",
+  "choices": [
+    {"id": "a", "text": "Ionogramme sanguin (Na, K)", "correct": true},
+    {"id": "b", "text": "Créatinine + estimation du DFG", "correct": true},
+    {"id": "c", "text": "Glycémie à jeun", "correct": true},
+    {"id": "d", "text": "EAL (cholestérol total, HDL, LDL, TG)", "correct": true},
+    {"id": "e", "text": "Échographie cardiaque systématique", "correct": false},
+    {"id": "f", "text": "Protéinurie (recherche)", "correct": true},
+    {"id": "g", "text": "ECG de repos", "correct": true},
+    {"id": "h", "text": "IRM cérébrale", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "f", "g"],
+  "rationale": "Bilan OMS = iono Na/K + créat/DFG + glycémie à jeun + EAL + protéinurie + ECG (6 examens). PAS d'écho cardiaque ni d'IRM en routine. L'échographie cardiaque se discute si HVG à l'ECG, insuffisance cardiaque suspectée, ou patient à haut risque. L'IRM cérébrale n'a aucune indication dans le bilan d'une HTA non compliquée.",
+  "tags": {
+    "system": ["cardiovasculaire", "rénal", "endocrinologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c1-q15-glycemie-postprandiale-recall",
+  "kind": "free-recall",
+  "prompt": "Cite les deux principales situations dans lesquelles on mesure la glycémie pour évaluer un patient.",
+  "expected": ["à jeun", "a jeun", "postprandiale", "post-prandiale", "après le repas", "apres le repas", "après un repas", "apres un repas"],
+  "rationale": "Deux moments clés : (1) à jeun (≥ 8 h sans manger) = glycémie de base, indispensable au diagnostic ; (2) postprandiale, ~ 2 h après le repas = teste la capacité du pancréas à gérer un apport de glucose. La 3ème option (glycémie aléatoire 'random') est un raccourci diagnostique mais s'utilise surtout en présence de symptômes francs.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

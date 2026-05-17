@@ -1,0 +1,30 @@
+{
+  "id": "arret-tabac-c1-m07d-causes-rechute",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les CAUSES connues qui favorisent la rechute lors d'un sevrage tabagique.",
+  "choices": [
+    {"id": "a", "text": "Adresse insuffisante d'une des trois composantes (physio, psy, comportementale)", "correct": true},
+    {"id": "b", "text": "Exposition aux déclencheurs comportementaux (café, alcool, fête, ennui)", "correct": true},
+    {"id": "c", "text": "Syndrome de sevrage mal vécu, intolérance aux symptômes de manque", "correct": true},
+    {"id": "d", "text": "Événement stressant majeur (deuil, licenciement, séparation)", "correct": true},
+    {"id": "e", "text": "Mémoire neurobiologique des récepteurs nicotiniques (vulnérabilité durable)", "correct": true},
+    {"id": "f", "text": "Fluctuation naturelle de la motivation au cours du temps", "correct": true},
+    {"id": "g", "text": "Manque de moralité ou de caractère du patient", "correct": false},
+    {"id": "h", "text": "Découverte génétique sans implication clinique connue", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Causes courantes : (1) traitement partiel des 3 axes (ex. NRT seule sans accompagnement comportemental), (2) déclencheurs externes, (3) syndrome de sevrage mal toléré, (4) stress majeur, (5) mémoire neurobiologique (les récepteurs réactivent rapidement même après des années), (6) fluctuation motivationnelle. Ce qui N'EST PAS une cause : un défaut moral ou de caractère. C'est une posture à BANNIR en consultation : elle culpabilise et fait fuir le patient. La rechute est multifactorielle, pas une faiblesse personnelle.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

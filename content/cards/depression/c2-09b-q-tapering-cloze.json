@@ -1,0 +1,20 @@
+{
+  "id": "depression-c2-q09b-tapering-cloze",
+  "kind": "cloze",
+  "prompt": "L'arrêt d'un antidépresseur doit toujours être PROGRESSIF par paliers décroissants pour éviter le syndrome de sevrage. En anglais, ce sevrage progressif s'appelle le ___.",
+  "expected": ["tapering"],
+  "rationale": "Tapering = sevrage progressif d'un AD, par paliers décroissants (typiquement -50 % puis paliers plus petits en fin), espacés de 1-2 semaines, parfois plus. Adapter à la demi-vie : fluoxétine (longue demi-vie) plus facile, paroxétine et venlafaxine (demi-vie courte) plus difficiles. Objectif : éviter le syndrome de discontinuation (vertiges, choc électrique, anxiété, troubles du sommeil) qui peut faire croire à une rechute.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

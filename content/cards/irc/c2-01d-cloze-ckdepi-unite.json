@@ -1,0 +1,20 @@
+{
+  "id": "irc-c2-cz01-ckdepi-unite",
+  "kind": "cloze",
+  "prompt": "Complète : « La formule CKD-EPI rend un eGFR exprimé en mL/min/___ pour permettre la comparaison entre patients de différentes corpulences. »",
+  "expected": ["1.73 m²", "1,73 m²", "1.73 m2", "1,73 m2", "1,73 m^2"],
+  "rationale": "L'unité 'mL/min/1,73 m²' est une normalisation à une surface corporelle moyenne (~1,73 m²). Cela permet de comparer l'eGFR entre un patient de 50 kg et un de 100 kg sans biais lié à la taille corporelle. Pour les rares cas où on veut adapter à la corpulence réelle (chimiothérapie), on peut 'dé-normaliser' en multipliant par (SC réelle / 1,73).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

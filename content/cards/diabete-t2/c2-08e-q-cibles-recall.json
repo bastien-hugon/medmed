@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q24-cibles-recall",
+  "kind": "free-recall",
+  "prompt": "Cite les 3 (à 4) niveaux d'HbA1c-cible recommandés par la HAS chez le diabétique de type 2, en allant du plus strict au plus souple.",
+  "expected": ["6,5", "6.5", "7", "7,0", "7.0", "8", "8,0", "8.0", "9", "9,0", "9.0"],
+  "rationale": "Échelle : ≤ 6,5 % (strict, profil idéal) → ≤ 7 % (standard, majorité) → ≤ 8 % (assoupli, complications/risque iatrogène) → ≤ 9 % (sujet âgé fragile poly-pathologique). Mnémo : '6,5 – 7 – 8 – 9'. Plus le patient est fragile, plus la cible s'assouplit pour ÉVITER l'iatrogénie d'un excès de zèle (hypoglycémies → chutes → fractures → décès).",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/H%C3%A9moglobine_glyqu%C3%A9e",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

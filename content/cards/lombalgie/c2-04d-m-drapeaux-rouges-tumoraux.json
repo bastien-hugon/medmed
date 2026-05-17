@@ -1,0 +1,30 @@
+{
+  "id": "lombalgie-c2-m04-drapeaux-rouges-tumoraux",
+  "kind": "qcm-multi",
+  "prompt": "Cochez tous les éléments qui doivent faire évoquer une CAUSE TUMORALE devant une lombalgie.",
+  "choices": [
+    { "id": "a", "text": "Antécédent personnel de cancer (même ancien)", "correct": true },
+    { "id": "b", "text": "Perte de poids inexpliquée", "correct": true },
+    { "id": "c", "text": "Douleur nocturne qui réveille (caractère inflammatoire)", "correct": true },
+    { "id": "d", "text": "Premier épisode après 50 ans", "correct": true },
+    { "id": "e", "text": "Échec d'un traitement antalgique bien conduit", "correct": true },
+    { "id": "f", "text": "Altération de l'état général (asthénie, fatigue)", "correct": true },
+    { "id": "g", "text": "Douleur typiquement mécanique soulagée par le repos", "correct": false },
+    { "id": "h", "text": "Évolution favorable en 4-6 semaines spontanément", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Drapeaux rouges tumoraux : ATCD personnel de cancer, perte de poids, douleur nocturne, > 50 ans pour 1er épisode, échec antalgique, AEG. Une douleur mécanique soulagée par le repos et une évolution favorable spontanée évoquent au contraire la lombalgie commune (distracteurs).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "oncologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "gyneco-prevention-c1-m08c-gardasil9-types",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les types de HPV couverts par le vaccin Gardasil 9 (utilisé en France).",
+  "choices": [
+    { "id": "a", "text": "HPV 6", "correct": true },
+    { "id": "b", "text": "HPV 11", "correct": true },
+    { "id": "c", "text": "HPV 16", "correct": true },
+    { "id": "d", "text": "HPV 18", "correct": true },
+    { "id": "e", "text": "HPV 31", "correct": true },
+    { "id": "f", "text": "HPV 33", "correct": true },
+    { "id": "g", "text": "HPV 45", "correct": true },
+    { "id": "h", "text": "HPV 52", "correct": true },
+    { "id": "i", "text": "HPV 58", "correct": true },
+    { "id": "j", "text": "HPV 35", "correct": false },
+    { "id": "k", "text": "HPV 1 (verrues plantaires)", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g", "h", "i"],
+  "rationale": "Gardasil 9 (nonavalent, autorisé UE 2015) couvre 9 sérotypes : 6 et 11 (bas risque, condylomes) + 16, 18, 31, 33, 45, 52, 58 (haut risque, cancers). Couverture ~70 % des cancers du col (essentiellement via 16+18). Les types 35, 39, 51, 56, 59 sont des HPV HR confirmés MAIS NON couverts par Gardasil 9 — d'où la nécessité de continuer le dépistage chez les femmes vaccinées. HPV 1 (verrues plantaires) n'est pas une cible vaccinale.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [143, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Gardasil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c2-s09f-old-fumeur",
+  "kind": "sct",
+  "prompt": "M. C., 68 ans, BPCO sévère, PaO2 = 6,8 kPa sur 2 GDS à distance. Tu envisages d'instaurer une OLD à domicile.",
+  "hypothesis": "Mon hypothèse : on peut démarrer l'OLD dès maintenant.",
+  "new_info": "Le patient fume encore 5 cigarettes par jour et n'a pas l'intention d'arrêter immédiatement.",
+  "expected": "affaiblit",
+  "rationale": "Le tabagisme actif est une CONTRE-INDICATION majeure à l'OLD à domicile : l'O2 entretient les flammes, risque d'incendie/brûlures sévères documenté. NICE NG115 : pas d'OLD avant sevrage tabagique strict. L'information affaiblit nettement l'hypothèse d'instaurer immédiatement l'OLD. Priorité : intensifier le sevrage (substituts, varénicline, tabacologue), réévaluer après arrêt. Logique SCT.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

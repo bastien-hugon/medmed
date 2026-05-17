@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c1-c01-ic-pompe-cloze",
+  "kind": "cloze",
+  "prompt": "Dans l'HTA, le problème est dans le ___ (tuyau/artère). Dans l'IC, le problème est dans la ___ (pompe/cœur).",
+  "expected": ["tuyau", "pompe"],
+  "rationale": "Mémo-image : HTA = pression contre la paroi des artères (tuyau sous pression). IC = défaillance de la pompe cardiaque. Les deux coexistent souvent, mais les mécanismes sont distincts.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

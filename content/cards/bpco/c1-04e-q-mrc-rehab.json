@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q04e-mrc-rehab",
+  "kind": "qcm-vignette",
+  "prompt": "À partir de quel grade MRC dyspnée propose-t-on (en pratique courante NICE NG115) une RÉHABILITATION RESPIRATOIRE chez un patient BPCO ?",
+  "choices": [
+    { "id": "a", "text": "MRC ≥ 1", "correct": false },
+    { "id": "b", "text": "MRC ≥ 2", "correct": false },
+    { "id": "c", "text": "MRC ≥ 3", "correct": true },
+    { "id": "d", "text": "Uniquement MRC 4", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Recommandation NICE : réhabilitation respiratoire à proposer dès MRC ≥ 3 (= s'arrête après ~100 m sur le plat). On peut aussi la proposer en cas de dyspnée gênant la vie quotidienne, ou après une exacerbation hospitalisée. Plus on commence tôt, plus on casse vite le cercle vicieux du déconditionnement.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

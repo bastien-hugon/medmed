@@ -1,0 +1,20 @@
+{
+  "id": "depistage-cancer-c2-q05f-cloze-haut-risque-3p",
+  "kind": "cloze",
+  "prompt": "Les patients à HAUT RISQUE de cancer colorectal sortent du dépistage par FIT. On retient classiquement les '3 P' : antécédent ___ de polype/cancer, ___ atteints au 1er degré (surtout si <65 ans), ou ___ inflammatoire chronique de l'intestin (Crohn ou rectocolite). Ces patients relèvent d'une surveillance par ___.",
+  "expected": ["personnel", "parents", "pathologie", "coloscopie"],
+  "rationale": "Mnémo des '3 P' à retenir : Polype/cancer Personnel, Parents au 1er degré, Pathologie inflammatoire chronique (MICI). Ces 3 catégories sortent du programme organisé par FIT et bénéficient d'un dépistage INDIVIDUEL par coloscopie, à des rythmes adaptés (1 à 5 ans selon les situations). Le FIT n'a PAS sa place chez ces patients : sensibilité insuffisante en risque élevé, et une fausse réassurance ferait perdre des années précieuses. À retenir : sur un terrain à risque, la coloscopie n'est pas qu'un 'examen de 2ᵉ ligne après FIT', c'est l'examen DE PREMIÈRE LIGNE.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290, 282],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

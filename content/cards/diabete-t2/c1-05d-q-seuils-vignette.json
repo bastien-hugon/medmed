@@ -1,0 +1,26 @@
+{
+  "id": "diabete-t2-c1-q18-seuils-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "M. D., 56 ans, sans symptôme, a une glycémie à jeun à 1,30 g/L sur un premier prélèvement. Que faire en première intention ?",
+  "choices": [
+    { "id": "a", "text": "Affirmer le diagnostic de diabète et commencer la metformine", "correct": false },
+    { "id": "b", "text": "Refaire une glycémie à jeun un autre jour pour confirmation", "correct": true },
+    { "id": "c", "text": "Considérer qu'il n'a rien car > 1,26 g/L est normal", "correct": false },
+    { "id": "d", "text": "Demander d'emblée une hyperglycémie provoquée à 75 g de glucose", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Une glycémie ≥ 1,26 g/L SANS symptômes doit toujours être CONFIRMÉE par une 2ème mesure (un autre jour) avant de poser le diagnostic. Pas de précipitation thérapeutique (a). 1,30 g/L est franchement anormal (donc c faux). L'HGPO n'est pas l'examen de 1ère intention hors grossesse (d). Si la 2ème glycémie reconfirme ≥ 1,26 → diabète, et on peut alors traiter.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

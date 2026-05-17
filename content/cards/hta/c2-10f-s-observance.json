@@ -1,0 +1,22 @@
+{
+  "id": "hta-c2-s10-observance",
+  "kind": "sct",
+  "prompt": "Une patiente sous trithérapie (IEC + IC + thiazidique) à doses correctes garde une PA mal contrôlée. Tu envisages d'ajouter de la spironolactone pour HTA résistante.",
+  "hypothesis": "Mon hypothèse : l'ajout immédiat de spironolactone est la conduite à tenir.",
+  "new_info": "À l'interrogatoire, la patiente avoue qu'elle oublie souvent ses comprimés du soir et qu'elle 'fait des pauses' de 2-3 jours quand elle se sent bien.",
+  "expected": "affaiblit",
+  "rationale": "La PSEUDO-RÉSISTANCE par mauvaise observance est la 1ère cause apparente d'HTA résistante. Avant d'ajouter un 4e médicament, il faut résoudre l'observance (éducation, simplification, monoprise, pilulier, accompagnement). L'info affaiblit nettement l'hypothèse d'ajout immédiat de spironolactone. Conduite : travailler l'observance pendant 1-3 mois, réévaluer la PA, et SI elle reste non contrôlée avec une bonne observance, ALORS discuter la 4e ligne.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

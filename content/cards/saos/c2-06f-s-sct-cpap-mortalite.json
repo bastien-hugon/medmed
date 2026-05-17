@@ -1,0 +1,22 @@
+{
+  "id": "saos-c2-06f-s-sct-cpap-mortalite",
+  "kind": "sct",
+  "prompt": "Vous annoncez à un patient SAOS sévère que la CPAP va 'sauver sa vie' en réduisant fortement le risque cardiovasculaire et la mortalité.",
+  "hypothesis": "L'annonce est solidement étayée par les données les plus récentes.",
+  "new_info": "Vous apprenez que les méta-analyses récentes (essais randomisés contrôlés) ont montré que la CPAP réduit la SOMNOLENCE et améliore la qualité de vie, mais que son effet sur la MORTALITÉ cardiovasculaire est plus modeste, voire incertain en population peu symptomatique.",
+  "expected": "affaiblit",
+  "rationale": "Discours important pour un usage rigoureux des chiffres : la CPAP a des bénéfices DÉMONTRÉS sur la somnolence, la qualité de vie et la PA (légère baisse). Son bénéfice sur la mortalité cardiovasculaire reste DISCUTÉ — les essais randomisés (SAVE, ISAACC) n'ont pas montré l'effet attendu. Cela AFFAIBLIT le discours 'CPAP sauve la vie' et invite à proposer la CPAP pour des indications PRÉCISES (somnolence, comorbidités, QoL), avec une honnêteté thérapeutique vis-à-vis du patient.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c2-q01-risque-cv-outil",
+  "kind": "qcm-vignette",
+  "prompt": "Quel outil de calcul du risque cardiovasculaire à 10 ans est RECOMMANDÉ PAR NICE chez un adulte britannique sans maladie CV établie ?",
+  "choices": [
+    { "id": "a", "text": "QRISK3.", "correct": true },
+    { "id": "b", "text": "CHA2DS2-VASc (utilisé en fibrillation auriculaire).", "correct": false },
+    { "id": "c", "text": "HAS-BLED (utilisé pour évaluer le risque hémorragique).", "correct": false },
+    { "id": "d", "text": "TIMI score (utilisé dans le syndrome coronarien aigu).", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "NICE recommande QRISK3 (https://www.qrisk.org), validé sur 25-84 ans sans maladie CV. Il intègre âge, sexe, ethnie, tabac, PA, diabète, IMC, ATCD familiaux, MAIS aussi des facteurs souvent oubliés : corticoïdes, antipsychotiques atypiques, lupus, polyarthrite rhumatoïde, migraine, dysfonction érectile, maladie mentale sévère. En Europe continentale on utilise plutôt SCORE2 / SCORE2-OP (ESC). Les autres scores cités sont pour d'autres usages.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

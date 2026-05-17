@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-06c-q-cpap-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "Comment la CPAP (Pression Positive Continue) agit-elle pour traiter le SAOS ?",
+  "choices": [
+    {"id": "a", "text": "Elle respire à la place du patient (ventilation assistée)", "correct": false},
+    {"id": "b", "text": "Elle envoie de l'air sous pression qui maintient le pharynx OUVERT (attelle pneumatique)", "correct": true},
+    {"id": "c", "text": "Elle stimule électriquement les muscles dilatateurs du pharynx", "correct": false},
+    {"id": "d", "text": "Elle injecte de l'oxygène pur pour compenser les désaturations", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "La CPAP n'est PAS un ventilateur : le patient respire seul, normalement. C'est une 'ATTELLE PNEUMATIQUE' : l'air sous pression (4-20 cm H₂O) maintient les voies aériennes supérieures ouvertes mécaniquement, en empêchant le collapsus du pharynx. Image utile à donner au patient : 'ce n'est pas un appareil qui respire pour vous, c'est un appareil qui empêche votre gorge de se fermer'. Cette pédagogie améliore beaucoup l'observance.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

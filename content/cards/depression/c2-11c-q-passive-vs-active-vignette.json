@@ -1,0 +1,26 @@
+{
+  "id": "depression-c2-q11c-passive-vs-active-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Vous évaluez le risque suicidaire chez deux patients. Lequel relève d'une URGENCE psychiatrique nécessitant un avis immédiat / hospitalisation potentielle ?",
+  "choices": [
+    { "id": "a", "text": "M. A : \"j'aimerais ne pas me réveiller le matin, mais je ne ferais jamais rien pour ça à cause de mes enfants\" (idée passive sans plan ni intention)", "correct": false },
+    { "id": "b", "text": "M. B : \"j'ai prévu de me jeter du pont de la Concorde mercredi prochain, j'ai écrit une lettre, je veux que ça s'arrête\" (idée ACTIVE avec PLAN précis, MOYEN accessible, INTENTION claire, calendrier fixé)", "correct": true },
+    { "id": "c", "text": "Mme C : \"parfois la mort m'effleure mais je sais que je veux vivre\" (idée fugace)", "correct": false },
+    { "id": "d", "text": "Mme D : \"je suis triste mais je n'ai jamais pensé au suicide\"", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "M. B cumule TOUS les signaux d'urgence : idéation ACTIVE (\"je veux que ça s'arrête\"), PLAN précis (lieu, méthode), MOYEN accessible, INTENTION claire, CALENDRIER fixé, lettre rédigée (souvent un signe d'imminence). Conduite : ne pas laisser seul, avis psychiatrique en urgence (CMP, urgences psy), retrait des moyens, possible hospitalisation sous contrainte si refus de soin. M. A = idée passive sans intention, avec facteur protecteur (enfants) → suivi rapproché ambulatoire, AD si indiqué, mobilisation entourage, 3114, mais pas urgence absolue.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 351],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

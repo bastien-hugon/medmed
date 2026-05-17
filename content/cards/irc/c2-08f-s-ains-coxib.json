@@ -1,0 +1,22 @@
+{
+  "id": "irc-c2-s08-ains-coxib",
+  "kind": "sct",
+  "prompt": "M. R., 70 ans, MRC G3b A2, vous demande s'il peut prendre du célécoxib (COX-2 sélectif) que son rhumatologue lui a proposé, en pensant que c'est plus sûr pour ses reins que l'ibuprofène.",
+  "hypothesis": "Le célécoxib est plus sûr que l'ibuprofène pour la fonction rénale de M. R. car il épargne la COX-1.",
+  "new_info": "Les méta-analyses récentes (et NICE NG203) montrent que les coxibs ont un profil rénal SUPERPOSABLE aux AINS classiques : même baisse du DFG aigu, même risque de précipiter une IRA en contexte de triple whammy ou déshydratation. L'avantage des coxibs ne porte que sur la tolérance digestive (moins d'ulcères), pas sur le rein.",
+  "expected": "affaiblit",
+  "rationale": "Idée fausse fréquente : les coxibs sont 'plus sûrs pour les reins'. C'est FAUX. La PGE2 maintenant la dilatation afférente est produite par les DEUX isoformes (COX-1 ET COX-2) au niveau rénal. Bloquer la COX-2 seule suffit à dégrader le DFG. Le bénéfice des coxibs ne porte que sur la muqueuse digestive (épargne de la COX-1 gastrique). L'information affaiblit franchement l'idée qu'il y aurait sécurité rénale. À expliquer clairement au patient : célécoxib reste néphrotoxique, on évite, on propose paracétamol +/- alternatives.",
+  "tags": {
+    "system": ["nephrologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "iatrogenie"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

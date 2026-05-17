@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c2-m03d-criteres-e",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les éléments qui classent un patient BPCO en GROUPE E (Exacerbations, GOLD 2023+).",
+  "choices": [
+    { "id": "a", "text": "≥ 2 exacerbations modérées au cours des 12 derniers mois", "correct": true },
+    { "id": "b", "text": "≥ 1 exacerbation ayant nécessité une hospitalisation", "correct": true },
+    { "id": "c", "text": "Une seule exacerbation modérée traitée en ambulatoire", "correct": false },
+    { "id": "d", "text": "MRC 0-1 (peu de symptômes) au quotidien si exacerbateur", "correct": true },
+    { "id": "e", "text": "MRC ≥ 2 (symptomatique) au quotidien si exacerbateur", "correct": true },
+    { "id": "f", "text": "Aucune exacerbation dans l'année écoulée", "correct": false }
+  ],
+  "expected": ["a", "b", "d", "e"],
+  "rationale": "Groupe E = au moins UN des deux critères : ≥ 2 exacerbations modérées/an OU ≥ 1 hospitalisation. Les symptômes (MRC) n'interviennent PAS pour classer en E : qu'on soit peu ou très symptomatique, dès qu'on franchit le seuil des exacerbations, on est en E. Une seule exacerbation modérée sans hospit, et MRC 0-1 = groupe A.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

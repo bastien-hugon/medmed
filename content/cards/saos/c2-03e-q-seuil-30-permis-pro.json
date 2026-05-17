@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-03e-q-seuil-30-permis-pro",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi le seuil d'IAH à 30/h a-t-il une portée particulière, au-delà de la pure classification médicale ?",
+  "choices": [
+    {"id": "a", "text": "Parce qu'au-delà, le SAOS est considéré comme une maladie professionnelle reconnue", "correct": false},
+    {"id": "b", "text": "Parce qu'il définit la SAOS SÉVÈRE et a des implications médico-légales (permis professionnel)", "correct": true},
+    {"id": "c", "text": "Parce que c'est le seuil de remboursement à 100 % de la CPAP", "correct": false},
+    {"id": "d", "text": "Parce qu'au-delà, le SAOS ne répond plus à la CPAP", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "IAH ≥ 30 = SAOS SÉVÈRE. Ce seuil a une double portée : (1) clinique (indication forte de CPAP en première intention, surtout si symptômes ou comorbidités), (2) MÉDICO-LÉGALE (les conducteurs professionnels non traités peuvent être déclarés temporairement inaptes à la conduite par le médecin agréé tant que le traitement n'est pas instauré et observant). C'est pourquoi en consultation MG il faut toujours interroger sur la profession dès qu'on suspecte un SAOS.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

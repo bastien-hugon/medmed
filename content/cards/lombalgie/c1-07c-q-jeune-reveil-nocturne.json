@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q07-jeune-reveil-nocturne",
+  "kind": "qcm-vignette",
+  "prompt": "Un homme de 24 ans consulte pour une lombalgie évoluant depuis 4 mois. La douleur le réveille en 2e partie de nuit, est associée à une raideur matinale de 45 minutes, et s'AMÉLIORE quand il bouge. Quelle est l'hypothèse à privilégier ?",
+  "choices": [
+    { "id": "a", "text": "Lombalgie commune mécanique", "correct": false },
+    { "id": "b", "text": "Spondyloarthrite (lombalgie inflammatoire)", "correct": true },
+    { "id": "c", "text": "Hernie discale L4-L5", "correct": false },
+    { "id": "d", "text": "Tassement vertébral ostéoporotique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Tableau type d'une lombalgie INFLAMMATOIRE chez un jeune adulte : âge < 40 ans, douleur > 3 mois, réveil nocturne en 2e partie de nuit, raideur matinale prolongée, AMÉLIORATION paradoxale par le mouvement. → spondyloarthrite (orientation rhumatologique, bilan biologique CRP, HLA-B27, IRM des sacro-iliaques). Ce n'est PAS une lombalgie commune.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

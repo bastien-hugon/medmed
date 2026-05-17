@@ -1,0 +1,29 @@
+{
+  "id": "ist-c2-m04d-doxy-conseils",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les conseils utiles à donner au patient sous doxycycline pour une chlamydia.",
+  "choices": [
+    { "id": "a", "text": "Éviter une exposition solaire prolongée (risque de photosensibilité)", "correct": true },
+    { "id": "b", "text": "Prendre les comprimés debout, avec un grand verre d'eau (risque d'œsophagite)", "correct": true },
+    { "id": "c", "text": "Pas allongé immédiatement après la prise", "correct": true },
+    { "id": "d", "text": "Espacer la prise des sels d'aluminium/magnésium ou du fer (chélation, baisse de l'absorption)", "correct": true },
+    { "id": "e", "text": "Maintenir une abstinence sexuelle pendant la cure ET 7 jours après la dernière prise", "correct": true },
+    { "id": "f", "text": "Faire une coloscopie de contrôle en fin de traitement", "correct": false },
+    { "id": "g", "text": "Boire 2L de vin par jour pour favoriser l'absorption", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Conseils pratiques sous doxycycline : (1) éviter le soleil (photosensibilité) ; (2) prise DEBOUT avec grand verre d'eau, pas allongé après (risque d'œsophagite ulcérée) ; (3) espacer des sels métalliques (chélation : antiacides, fer, calcium) ; (4) abstinence sexuelle 7 jours après la dernière prise (et tant que les partenaires ne sont pas traités). Les options 'coloscopie' ou 'alcool' sont fantaisistes.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

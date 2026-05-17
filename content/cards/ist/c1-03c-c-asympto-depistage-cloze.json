@@ -1,0 +1,20 @@
+{
+  "id": "ist-c1-c03c-asympto-depistage-cloze",
+  "kind": "cloze",
+  "prompt": "Le ___ cherche une infection chez des gens qui n'ont aucun ___, ce qui est l'inverse du ___ classique (qui cherche la cause de symptômes existants).",
+  "expected": ["dépistage", "symptôme", "diagnostic"],
+  "rationale": "Distinction fondamentale : DÉPISTAGE = chez des asymptomatiques, sur critère populationnel (âge, sexe, comportement à risque). DIAGNOSTIC = chez des symptomatiques, pour identifier la cause. L'IST est l'un des domaines où le dépistage est le plus utile, parce que la majorité des cas sont silencieux.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

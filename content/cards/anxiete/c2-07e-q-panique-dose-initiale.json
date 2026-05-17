@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q07e-panique-dose-initiale",
+  "kind": "qcm-vignette",
+  "prompt": "Vous initiez un SSRI (sertraline) chez un patient avec un trouble panique modéré. Quelle stratégie de dosage NICE recommande-t-il ?",
+  "choices": [
+    { "id": "a", "text": "Démarrer à la dose habituelle adulte d'emblée", "correct": false },
+    { "id": "b", "text": "Démarrer à dose BASSE puis augmenter progressivement (le trouble panique est très sensible à une aggravation initiale)", "correct": true },
+    { "id": "c", "text": "Démarrer à dose maximale pour gagner du temps", "correct": false },
+    { "id": "d", "text": "Démarrer à dose habituelle mais ajouter systématiquement une BZD", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le trouble panique est PLUS SENSIBLE qu'un TAG ou qu'une dépression à l'effet activateur initial des SSRI : risque d'aggravation transitoire (sensations corporelles amplifiées → nouvelles crises). NICE recommande : démarrer DOSE BASSE (ex : sertraline 25 mg/j pendant 7-14 jours) puis augmenter graduellement vers la dose efficace. Cela diminue les arrêts précoces. Ajouter une BZD systématiquement = à éviter (NICE le déconseille fortement dans le trouble panique). Information patient : 'on monte tranquillement, on va atteindre la dose efficace en quelques semaines, l'effet anxiolytique se construit en 4-6 semaines'.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c2-q07b-crise-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Femme de 30 ans, migraineuse connue, consulte en début de crise (douleur 4/10, nausée naissante). Elle n'a aucun antécédent cardiovasculaire, pas d'HTA. Selon NICE, quel traitement de PREMIÈRE INTENTION lui proposez-vous ?",
+  "choices": [
+    { "id": "a", "text": "Morphine orale ou tramadol", "correct": false },
+    { "id": "b", "text": "Dihydroergotamine en monothérapie ambulatoire", "correct": false },
+    { "id": "c", "text": "Triptan oral + AINS (ou triptan + paracétamol)", "correct": true },
+    { "id": "d", "text": "Benzodiazépine + repos au lit", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "NICE recommande en 1ʳᵉ intention la COMBINAISON triptan oral + AINS (ou triptan + paracétamol). En monothérapie : triptan, AINS, aspirine 900 mg, ou paracétamol. Les ergots et opioïdes sont CONTRE-INDIQUÉS dans la migraine aiguë (vasoconstriction excessive pour les ergots, inefficacité + risque d'abus médicamenteux et de dépendance pour les opioïdes). À prendre TÔT pour maximiser l'efficacité.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

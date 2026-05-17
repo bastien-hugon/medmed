@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c1-q04-atherosclerose-definition",
+  "kind": "qcm-vignette",
+  "prompt": "Comment définit-on l'athérosclérose ?",
+  "choices": [
+    { "id": "a", "text": "Une infection des artères par une bactérie spécifique.", "correct": false },
+    { "id": "b", "text": "Un dépôt graisseux qui s'accumule dans la paroi des artères et durcit progressivement, rétrécissant la lumière du vaisseau.", "correct": true },
+    { "id": "c", "text": "Une coagulation excessive du sang à l'intérieur des veines.", "correct": false },
+    { "id": "d", "text": "Une dilatation anormale d'une artère (anévrisme).", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'ATHÉROSCLÉROSE = 'athéro' (bouillie, du grec athera) + 'sclérose' (durcissement) = plaque de graisse + tissu fibreux durci dans la paroi artérielle. Elle réduit progressivement la lumière du vaisseau et peut se compliquer de rupture / thrombose. À ne pas confondre avec : phlébite (thrombose veineuse), anévrisme (dilatation), endocardite (infection valvulaire).",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

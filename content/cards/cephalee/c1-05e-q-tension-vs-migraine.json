@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c1-q05e-tension-vs-migraine",
+  "kind": "free-recall",
+  "prompt": "Citez les 4 grandes différences entre la céphalée de TENSION et la MIGRAINE en ce qui concerne la douleur (latéralité, qualité, intensité, effet de l'effort).",
+  "expected": ["bilatérale", "pressive", "légère", "effort"],
+  "rationale": "Tension vs migraine sur les 4 axes : 1) latéralité bilatérale vs uni/bilatérale, 2) qualité pressive/serrante vs pulsatile, 3) intensité légère/modérée vs modérée/sévère, 4) effort non aggravée vs aggravée. Ce sont les 4 critères symétriques inverses de la grille UPMA migraineuse.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "saos-c1-02c-c-ronflement-alerte",
+  "kind": "cloze",
+  "prompt": "Le ronflement est un signe ___ mais peu ___ du SAOS : quasiment tous les patients SAOS ronflent, mais beaucoup de ronfleurs n'ont pas de SAOS. Le ronflement qui doit alerter est celui interrompu par des ___ respiratoires, souvent rapporté par le ___ .",
+  "expected": ["sensible", "spécifique", "pauses", "conjoint"],
+  "rationale": "Sensibilité élevée mais spécificité faible : c'est typiquement un signe de dépistage, pas de diagnostic. La question clé en consultation : 'votre partenaire vous a-t-il déjà dit que vous arrêtiez de respirer la nuit ?' Le conjoint est souvent le meilleur informateur — c'est lui qui constate les pauses et les reprises 'explosives'.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ist-c2-m02c-complications-femme",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les complications connues d'une chlamydia non traitée CHEZ LA FEMME.",
+  "choices": [
+    { "id": "a", "text": "PID (infection génitale haute / salpingite)", "correct": true },
+    { "id": "b", "text": "Grossesse extra-utérine (GEU)", "correct": true },
+    { "id": "c", "text": "Infertilité tubaire", "correct": true },
+    { "id": "d", "text": "Arthrite réactionnelle (rare mais possible)", "correct": true },
+    { "id": "e", "text": "Conjonctivite (par auto-inoculation)", "correct": true },
+    { "id": "f", "text": "Diabète de type 2", "correct": false },
+    { "id": "g", "text": "Cancer du sein", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Cascade des complications de la chlamydia non traitée chez la femme : PID (la bactérie remonte du col vers les trompes) → cicatrisation tubaire → GEU (grossesse extra-utérine, urgence) et INFERTILITÉ TUBAIRE (définitive). L'arthrite réactionnelle (post-infection stérile) est plus rare chez la femme. La conjonctivite par auto-inoculation à partir des sécrétions est possible. Ni diabète, ni cancer du sein ne sont liés à la chlamydia.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

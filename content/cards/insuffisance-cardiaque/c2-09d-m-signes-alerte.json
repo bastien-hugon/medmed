@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m09d-signes-alerte",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les signes que vous devez ENSEIGNER à un patient IC comme alertes l'imposant à recontacter le médecin sans tarder.",
+  "choices": [
+    { "id": "a", "text": "Prise de poids > 2 kg en 3 jours", "correct": true },
+    { "id": "b", "text": "Essoufflement qui s'aggrave de jour en jour", "correct": true },
+    { "id": "c", "text": "Orthopnée nouvelle (besoin de plus d'oreillers pour dormir)", "correct": true },
+    { "id": "d", "text": "Syncope ou malaise", "correct": true },
+    { "id": "e", "text": "Palpitations rapides et soutenues", "correct": true },
+    { "id": "f", "text": "Perte de poids progressive sur plusieurs mois", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Signaux d'alerte de décompensation à enseigner : prise pondérale rapide, dyspnée crescendo, orthopnée nouvelle, syncope, palpitations. Une perte de poids progressive (cachexie cardiaque) est un signe préoccupant CHRONIQUE de pronostic réservé, mais ne nécessite pas de réaction \"urgente\" comparable aux signes de décompensation aiguë — elle se discute au prochain rendez-vous.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

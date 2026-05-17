@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q01-role-lombaires",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi les vertèbres lombaires sont-elles les plus grosses de la colonne vertébrale ?",
+  "choices": [
+    { "id": "a", "text": "Parce qu'elles contiennent la moelle épinière sur toute leur hauteur", "correct": false },
+    { "id": "b", "text": "Parce qu'elles supportent presque tout le poids du tronc", "correct": true },
+    { "id": "c", "text": "Parce qu'elles sont les plus mobiles", "correct": false },
+    { "id": "d", "text": "Parce qu'elles s'articulent avec les côtes", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les vertèbres lombaires sont les plus grosses parce qu'elles portent presque tout le poids du tronc, des bras et de la tête. C'est aussi pour cela qu'elles sont les plus sollicitées et les plus exposées à la lombalgie. La moelle épinière s'arrête vers L1-L2 (pas sur toute la hauteur lombaire). Les vertèbres thoraciques (non lombaires) s'articulent avec les côtes.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

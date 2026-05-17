@@ -1,0 +1,28 @@
+{
+  "id": "asthenie-c1-m02d-fatigue-physiologique",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les situations qui correspondent à une fatigue PHYSIOLOGIQUE (normale, ne nécessitant pas de bilan spécifique).",
+  "choices": [
+    { "id": "a", "text": "Lendemain d'une nuit blanche, récupération en une grasse matinée.", "correct": true },
+    { "id": "b", "text": "Courbatures et coup de mou après un déménagement, disparus en 48 h.", "correct": true },
+    { "id": "c", "text": "Fatigue persistante depuis 4 mois malgré 8 h de sommeil, avec amaigrissement involontaire de 5 kg.", "correct": false },
+    { "id": "d", "text": "Période d'examens chargée, jeune étudiant, retour à la normale en vacances.", "correct": true },
+    { "id": "e", "text": "Asthénie isolée depuis 6 mois, retentissant sur le travail, sans cause identifiée à l'examen.", "correct": false },
+    { "id": "f", "text": "Premières semaines avec un nouveau-né qui ne fait pas ses nuits, en récupération entre les biberons.", "correct": true }
+  ],
+  "expected": ["a", "b", "d", "f"],
+  "rationale": "Une fatigue PHYSIOLOGIQUE est proportionnée à un effort/stress/privation de sommeil identifiable et CÈDE avec le repos et le retour à la normale (a, b, d, f). Une fatigue qui dure malgré un repos suffisant (c, e), ou qui s'accompagne de signes d'alarme (amaigrissement involontaire), est par définition pathologique et mérite une exploration.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

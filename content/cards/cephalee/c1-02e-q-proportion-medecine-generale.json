@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c1-q02e-proportion-medecine-generale",
+  "kind": "free-recall",
+  "prompt": "Donnez la définition courte d'une céphalée 'primaire' et d'une céphalée 'secondaire'. Indiquez ensuite, en ordre de grandeur, laquelle est la plus fréquente en médecine générale.",
+  "expected": ["primaire", "maladie", "secondaire", "symptôme", "primaire"],
+  "rationale": "Définition à savoir énoncer en 1 phrase : 'primaire = la douleur EST la maladie, pas de cause organique sous-jacente ; secondaire = la douleur est le SYMPTÔME d'une autre maladie (méningite, HSA, tumeur, Horton, etc.).' Ordre de grandeur en médecine générale : > 90 % des consultations pour céphalée sont primaires, mais l'enjeu reste de ne pas rater les < 10 % secondaires graves.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

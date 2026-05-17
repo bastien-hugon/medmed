@@ -1,0 +1,28 @@
+{
+  "id": "gyneco-prevention-c1-m04b-familles-contraception",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les 4 GRANDES FAMILLES de contraception (classification simplifiée utilisée en MG).",
+  "choices": [
+    { "id": "a", "text": "Œstro-progestatifs (combinés)", "correct": true },
+    { "id": "b", "text": "Progestatifs seuls", "correct": true },
+    { "id": "c", "text": "DIU au cuivre", "correct": true },
+    { "id": "d", "text": "Méthodes barrière", "correct": true },
+    { "id": "e", "text": "Œstrogènes seuls", "correct": false },
+    { "id": "f", "text": "Antagonistes de la progestérone au long cours", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Les 4 familles : (1) œstro-progestatifs combinés (pilule, patch, anneau), (2) progestatifs seuls (micro-pilule, implant, injection, DIU LNG), (3) DIU au cuivre (non hormonal), (4) méthodes barrière (préservatif, diaphragme, cape). Il n'existe PAS de contraception 'œstrogène seul' (les œstrogènes seuls ne suffisent pas à bloquer l'ovulation et augmentent trop le risque hyperplasie endométriale). Les antagonistes de progestérone (ex. ulipristal) sont utilisés en contraception D'URGENCE, pas au long cours.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c1-m01-mecanismes-bronche-asthme",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les mécanismes qui rétrécissent les bronches dans une crise d'asthme.",
+  "choices": [
+    {"id": "a", "text": "Contraction du muscle lisse qui entoure la bronche (bronchospasme)", "correct": true},
+    {"id": "b", "text": "Inflammation et œdème de la paroi interne de la bronche", "correct": true},
+    {"id": "c", "text": "Hypersécrétion de mucus épais qui bouche la lumière bronchique", "correct": true},
+    {"id": "d", "text": "Destruction définitive des alvéoles, comme dans l'emphysème", "correct": false},
+    {"id": "e", "text": "Fibrose pleurale cicatricielle", "correct": false},
+    {"id": "f", "text": "Caractère réversible (les bronches peuvent se rouvrir sous traitement)", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "f"],
+  "rationale": "L'asthme = triade bronchospasme + inflammation + mucus, et surtout RÉVERSIBLE — c'est le critère qui le distingue de la BPCO (obstruction fixée). Les alvéoles et la plèvre ne sont pas en cause : l'asthme est une maladie des VOIES AÉRIENNES (bronches/bronchioles).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

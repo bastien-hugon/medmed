@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-m03e-orthopnee-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant l'orthopnée.",
+  "choices": [
+    { "id": "a", "text": "Elle est très évocatrice d'insuffisance cardiaque gauche", "correct": true },
+    { "id": "b", "text": "Elle est soulagée par la position assise ou debout", "correct": true },
+    { "id": "c", "text": "Elle est spécifique de la BPCO", "correct": false },
+    { "id": "d", "text": "Le nombre d'oreillers utilisés pour dormir est un bon indicateur quantitatif", "correct": true },
+    { "id": "e", "text": "Une orthopnée nouvelle chez un patient IC connu = signal d'alerte de décompensation", "correct": true },
+    { "id": "f", "text": "Elle survient préférentiellement le matin au réveil", "correct": false }
+  ],
+  "expected": ["a", "b", "d", "e"],
+  "rationale": "L'orthopnée = signe assez SPÉCIFIQUE d'IC (gauche surtout). Très utile à l'anamnèse car les patients ne s'en plaignent pas spontanément. Compter les oreillers donne un suivi semi-quantitatif. Apparition ou aggravation = alerte de décompensation, à signaler. Elle survient au coucher / pendant la nuit, pas au matin (à différencier de la DPN qui survient 1-2 h après endormissement). Rien à voir avec la BPCO (qui a sa propre orthopnée mécanique différente).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

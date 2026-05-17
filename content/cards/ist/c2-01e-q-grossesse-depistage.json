@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q01e-grossesse-depistage",
+  "kind": "qcm-vignette",
+  "prompt": "Une femme de 23 ans enceinte (12 SA) consulte pour sa 1ère visite prénatale. Quelle attitude pour le dépistage chlamydia ?",
+  "choices": [
+    { "id": "a", "text": "Aucun dépistage : la grossesse est une contre-indication", "correct": false },
+    { "id": "b", "text": "Dépistage par NAAT à la 1ère visite prénatale ET retest au 3ème trimestre si exposition récente ou à risque", "correct": true },
+    { "id": "c", "text": "Dépistage uniquement après l'accouchement", "correct": false },
+    { "id": "d", "text": "Sérologie sanguine chlamydia uniquement", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Femme enceinte < 25 ans OU à risque = dépistage chlamydia à la 1ère visite prénatale (NAAT, auto-prélèvement vaginal ou 1er jet d'urine). Retest au 3ème trimestre si exposition récente ou facteurs de risque persistants. Enjeux : protéger la mère ET prévenir la transmission néonatale (conjonctivite J5-J12, pneumopathie 1-3 mois). Si positif → traitement adapté à la grossesse (azithromycine 1g dose unique).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

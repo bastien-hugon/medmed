@@ -1,0 +1,20 @@
+{
+  "id": "irc-c2-cz10-combo-depistage",
+  "kind": "cloze",
+  "prompt": "Complète : « Le combo de dépistage simple de la MRC associe : ___ sanguine (avec eGFR calculé), ___ sur urine du matin, et bandelette urinaire pour rechercher une ___. »",
+  "expected": ["créatinine ; ACR ; hématurie", "créatininémie ; ACR ; hématurie", "créatinine - ACR - hématurie", "créatinine, ACR, hématurie"],
+  "rationale": "Combo : créat sanguine (→ eGFR) + ACR urinaire (→ stade A) + bandelette (→ hématurie). Trois examens simples, peu coûteux, ultra-rentables chez le patient à risque (diabète, HTA). Permettent de poser le diagnostic, de stadifier, et de chercher une atteinte associée. Fréquence : 1 fois/an au minimum chez le patient à risque, plus rapproché si MRC confirmée selon stade.",
+  "tags": {
+    "system": ["nephrologie", "prevention"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -8,7 +8,14 @@ export const SourceSchema = z.object({
 });
 export type Source = z.infer<typeof SourceSchema>;
 
-export const CardKindSchema = z.enum(["lesson", "cloze", "qcm-vignette", "free-recall", "sct"]);
+export const CardKindSchema = z.enum([
+  "lesson",
+  "cloze",
+  "qcm-vignette",
+  "qcm-multi",
+  "free-recall",
+  "sct",
+]);
 export type CardKind = z.infer<typeof CardKindSchema>;
 
 export const CardTagsSchema = z.object({
@@ -68,6 +75,15 @@ export const QcmCardSchema = z.object({
   expected: z.array(z.string().min(1)).min(1),
 });
 
+// QCM multi-select (cases à cocher). expected contient tous les IDs corrects.
+// Grading = strict : toutes les bonnes ET aucune mauvaise → 1, sinon 0.
+export const QcmMultiCardSchema = z.object({
+  ...CardCommon,
+  kind: z.literal("qcm-multi"),
+  choices: z.array(QcmChoiceSchema).min(3),
+  expected: z.array(z.string().min(1)).min(1),
+});
+
 export const FreeRecallCardSchema = z.object({
   ...CardCommon,
   kind: z.literal("free-recall"),
@@ -86,6 +102,7 @@ export const CardSchema = z.discriminatedUnion("kind", [
   LessonCardSchema,
   ClozeCardSchema,
   QcmCardSchema,
+  QcmMultiCardSchema,
   FreeRecallCardSchema,
   SctCardSchema,
 ]);

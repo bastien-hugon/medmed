@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q04-sciatique-racines",
+  "kind": "qcm-vignette",
+  "prompt": "Une douleur qui descend depuis le bas du dos jusqu'au pied le long de la face postérieure de la jambe correspond le plus souvent à une atteinte des racines :",
+  "choices": [
+    { "id": "a", "text": "L1 ou L2", "correct": false },
+    { "id": "b", "text": "L3 ou L4", "correct": false },
+    { "id": "c", "text": "L5 ou S1", "correct": true },
+    { "id": "d", "text": "T10 ou T11", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Sciatique = atteinte des racines L5 (face latérale jambe, dos du pied, gros orteil) ou S1 (face postérieure cuisse/mollet, talon, plante du pied). Quand l'atteinte concerne L3 ou L4, on parle de cruralgie (face antérieure de la cuisse). Les racines T10-T11 sont thoraciques (au-dessus des lombaires).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

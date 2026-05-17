@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q02d-pid-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le mécanisme physiopathologique principal de la PID (Pelvic Inflammatory Disease) liée à une chlamydia ?",
+  "choices": [
+    { "id": "a", "text": "Hématogène : la bactérie passe par le sang depuis un foyer dentaire", "correct": false },
+    { "id": "b", "text": "Ascendante : la bactérie remonte du col utérin vers l'endomètre, les trompes et le péritoine pelvien", "correct": true },
+    { "id": "c", "text": "Descendante : depuis les reins vers les organes pelviens", "correct": false },
+    { "id": "d", "text": "Aérienne : par voie respiratoire vers le pelvis", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "PID = infection génitale haute = ascension de la bactérie depuis le col utérin (cervicite) vers l'endomètre (endométrite), les trompes (salpingite) et le péritoine pelvien (pelvi-péritonite). Mécanisme strictement ASCENDANT par voie canalaire. Conséquences cicatricielles tubaires → infertilité et GEU. C'est cette physiopathologie qui rend le dépistage et traitement précoces décisifs : on intercepte l'infection AVANT qu'elle remonte.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

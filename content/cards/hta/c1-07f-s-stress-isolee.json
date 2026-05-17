@@ -1,0 +1,22 @@
+{
+  "id": "hta-c1-s07-stress-isolee",
+  "kind": "sct",
+  "prompt": "Un patient consulte aujourd'hui pour la première fois. Tu mesures sa PA : 148/92 mmHg, confirmée à la 2e mesure.",
+  "hypothesis": "Mon hypothèse : il s'agit d'une HTA permanente à traiter médicamenteusement dès maintenant.",
+  "new_info": "Le patient n'a JAMAIS eu d'autre mesure de PA et tu n'as pas encore prescrit d'AMT/MAPA.",
+  "expected": "affaiblit",
+  "rationale": "Une seule consultation NE permet PAS de poser un diagnostic d'HTA permanente. La HAS recommande de confirmer sur plusieurs consultations OU par mesures hors cabinet (AMT règle des 3, MAPA) avant tout traitement médicamenteux (sauf urgence hypertensive, PAS > 180 ou PAD > 110). L'info affaiblit donc l'hypothèse de mise sous traitement immédiat : il faut d'abord confirmer.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

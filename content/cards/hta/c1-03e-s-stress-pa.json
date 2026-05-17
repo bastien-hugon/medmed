@@ -1,0 +1,22 @@
+{
+  "id": "hta-c1-s03-stress-pa",
+  "kind": "sct",
+  "prompt": "Un patient en consultation a une PA mesurée à 158/95 mmHg. Tu te demandes s'il s'agit d'une vraie HTA.",
+  "hypothesis": "Mon hypothèse : ce chiffre élevé reflète une vraie HTA permanente.",
+  "new_info": "Le patient vient de courir 10 minutes pour ne pas être en retard, et il est arrivé essoufflé il y a 1 minute.",
+  "expected": "affaiblit",
+  "rationale": "Un effort physique récent fait MONTER transitoirement la PA (jusqu'à 180-200 mmHg de systolique en effort intense). Un seul chiffre mesuré juste après une course n'est PAS interprétable comme HTA. La règle HAS : repos 3-5 min dans le calme avant mesure, et confirmation sur plusieurs consultations. L'info affaiblit donc l'hypothèse d'HTA permanente : il faut reprendre la mesure après 5-10 min de repos.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ist-c1-m08e-tests-fenetre-courte",
+  "kind": "qcm-multi",
+  "prompt": "Coche les tests qui ont une fenêtre BIOLOGIQUE COURTE (détection précoce après exposition) parce qu'ils détectent directement le microbe (et non les anticorps).",
+  "choices": [
+    { "id": "a", "text": "NAAT chlamydia (recherche d'ADN bactérien)", "correct": true },
+    { "id": "b", "text": "NAAT gonocoque (recherche d'ADN bactérien)", "correct": true },
+    { "id": "c", "text": "Charge virale VIH (PCR ARN)", "correct": true },
+    { "id": "d", "text": "Sérologie syphilis (TPHA-VDRL)", "correct": false },
+    { "id": "e", "text": "Sérologie hépatite C (anticorps anti-HCV)", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Les tests qui cherchent directement le MICROBE (ADN bactérien, ARN viral) ont une fenêtre courte car ils ne dépendent pas de la réaction immunitaire du patient. Les SÉROLOGIES (anticorps) ont au contraire une fenêtre liée au temps que met le système immunitaire à produire des anticorps détectables (3-12 semaines selon le microbe). Conséquence pratique : NAAT chlamydia détectable dès quelques jours, vs sérologie HCV ~3 mois.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

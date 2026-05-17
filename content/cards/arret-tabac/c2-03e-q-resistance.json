@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q03e-resistance",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient se braque en consultation : 'Vous n'allez pas me faire la morale comme tous les autres médecins. Je sais que c'est mauvais, ça ira.' Quelle est l'attitude la plus conforme à l'entretien motivationnel ?",
+  "choices": [
+    { "id": "a", "text": "Insister fermement : 'Vous devez comprendre la gravité de votre situation.'", "correct": false },
+    { "id": "b", "text": "ROULER AVEC LA RÉSISTANCE : reformuler ('je comprends que vous soyez agacé qu'on vous le rappelle'), valoriser son autonomie ('c'est vous qui décidez'), garder la porte ouverte pour la suite", "correct": true },
+    { "id": "c", "text": "Mettre fin à la consultation sans plus aborder le sujet", "correct": false },
+    { "id": "d", "text": "Lui prescrire malgré tout des patchs sans son accord", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "'Rouler avec la résistance' = principe clé de l'EM : ne PAS pousser quand le patient résiste, sinon il se braque encore plus (effet boomerang). REFORMULER ce qu'il dit, VALORISER son autonomie ('vous décidez'), garder l'ouverture pour la suite ('si un jour vous avez envie d'en reparler, on peut'). Cette posture désamorce la confrontation et préserve la relation thérapeutique pour les consultations futures.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

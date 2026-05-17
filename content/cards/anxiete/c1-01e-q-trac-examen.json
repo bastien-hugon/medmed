@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q01e-trac-examen",
+  "kind": "qcm-vignette",
+  "prompt": "Une étudiante de 22 ans vous consulte deux jours avant un concours important : elle a 'le ventre noué', dort un peu moins bien, ressasse ses cours. Elle n'a aucun antécédent. Quelle est la qualification clinique la plus juste ?",
+  "choices": [
+    { "id": "a", "text": "Trouble anxieux généralisé débutant", "correct": false },
+    { "id": "b", "text": "Anxiété normale (trac) : proportionnée et transitoire, à ne pas pathologiser", "correct": true },
+    { "id": "c", "text": "Attaque de panique modérée", "correct": false },
+    { "id": "d", "text": "Phobie spécifique des examens", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le trac avant un examen est l'exemple type d'anxiété ADAPTATIVE : (1) proportionnée à l'enjeu, (2) limitée dans le temps (quelques jours), (3) utile (pousse à réviser, à se préparer). Pas de TAG (durée bien < 6 mois, soucis ciblés sur un seul thème). Pas d'attaque de panique (pas de pic brutal avec peur de mourir). Piège fréquent : médicaliser une réaction physiologique normale → risque de prescription inutile (anxiolytique, somnifère).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

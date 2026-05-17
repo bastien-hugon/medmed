@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c2-q06c-combustion",
+  "kind": "cloze",
+  "prompt": "L'avantage théorique majeur de la cigarette électronique par rapport à la cigarette classique est l'ABSENCE de ___, ce qui supprime la production de monoxyde de carbone, de goudrons et de la plupart des cancérogènes liés au tabac.",
+  "expected": ["combustion"],
+  "rationale": "La cigarette classique BRÛLE du tabac à plus de 800 °C → CO, goudrons, ~70 cancérogènes connus. La cigarette électronique CHAUFFE (sans brûler) un e-liquide (propylène glycol + glycérine végétale + arômes + nicotine) pour produire un aérosol — pas de combustion. C'est ce qui fonde l'argument de la 'réduction des risques'. La nicotine elle-même reste présente (addiction maintenue), mais elle est moins toxique que les autres composés du tabac brûlé.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

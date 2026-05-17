@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q03f-pourquoi-irm-brca",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi l'IRM mammaire est-elle l'examen PIVOT du suivi des femmes porteuses de mutation BRCA, alors que c'est la mammographie qui sert au dépistage organisé en population générale ?",
+  "choices": [
+    { "id": "a", "text": "Parce que l'IRM est plus rapide et moins chère que la mammographie", "correct": false },
+    { "id": "b", "text": "Parce que les femmes BRCA développent leurs cancers jeunes, dans des seins encore denses où la mammographie a une sensibilité dégradée, alors que l'IRM voit bien malgré la densité", "correct": true },
+    { "id": "c", "text": "Parce que l'IRM utilise des rayons X moins irradiants que la mammographie", "correct": false },
+    { "id": "d", "text": "Parce que l'IRM est plus spécifique (moins de faux positifs) que la mammographie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Raison clé : la SENSIBILITÉ de la mammographie chute dans les seins denses (jeunes femmes, BRCA, etc.) — la graisse normalement présente après 50 ans 'révèle' les lésions par contraste, ce qui manque chez la jeune. L'IRM, qui repose sur la prise de contraste vasculaire au gadolinium, voit très bien la néovascularisation tumorale indépendamment de la densité. Donc : on remplace l'outil de masse par un outil plus sensible quand l'a priori (risque) est élevé. (a) faux : l'IRM est PLUS chère et PLUS longue. (c) faux : l'IRM n'utilise PAS de rayons X (champ magnétique + radiofréquences). (d) faux : l'IRM est moins SPÉCIFIQUE (plus de faux positifs) — mais on l'accepte parce que la prévalence du vrai positif est plus haute chez les BRCA.",
+  "tags": {
+    "system": ["oncologie", "prevention", "genetique"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/G%C3%A8nes_BRCA",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

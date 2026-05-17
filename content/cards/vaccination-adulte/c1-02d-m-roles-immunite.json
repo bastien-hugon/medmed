@@ -1,0 +1,28 @@
+{
+  "id": "vaccination-adulte-c1-m02-roles-immunite",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant les acteurs de l'immunité spécifique.",
+  "choices": [
+    {"id": "a", "text": "Les lymphocytes B produisent les anticorps.", "correct": true},
+    {"id": "b", "text": "Les anticorps sont des protéines en forme de Y.", "correct": true},
+    {"id": "c", "text": "Les lymphocytes T cytotoxiques fabriquent les anticorps.", "correct": false},
+    {"id": "d", "text": "Les cellules T auxiliaires coordonnent la réponse immunitaire.", "correct": true},
+    {"id": "e", "text": "Les cellules mémoire B et T persistent parfois toute la vie après une vaccination.", "correct": true},
+    {"id": "f", "text": "L'immunité humorale désigne l'action directe des cellules T sur les cellules infectées.", "correct": false}
+  ],
+  "expected": ["a", "b", "d", "e"],
+  "rationale": "Immunité HUMORALE = anticorps (produits par les B), agit dans les humeurs/liquides. Immunité CELLULAIRE = lymphocytes T (cytotoxiques détruisent les cellules infectées ; auxiliaires/helper coordonnent). Les T NE produisent PAS d'anticorps. Mnémo : B comme Balles à distance, T comme Tueurs au contact. Les cellules mémoire (B et T) sont la base de la protection vaccinale durable.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Immunit%C3%A9_acquise",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

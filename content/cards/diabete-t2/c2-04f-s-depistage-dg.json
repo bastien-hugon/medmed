@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c2-s04-depistage-dg",
+  "kind": "sct",
+  "hypothesis": "Mme S., 32 ans, IMC à 24, n'a aucun symptôme. Aucun dépistage du diabète n'est nécessaire chez elle.",
+  "new_info": "Elle vous signale qu'elle a eu un diabète gestationnel il y a 3 ans, qui s'est résolu après l'accouchement.",
+  "prompt": "Comment cette information modifie-t-elle l'hypothèse 'pas de dépistage' ?",
+  "expected": "affaiblit",
+  "rationale": "Un antécédent de diabète gestationnel multiplie par environ 7 le risque de développer un T2 dans les 10 ans suivants. Toute femme avec antécédent de DG doit avoir un dépistage régulier (glycémie à jeun annuelle puis tous les 1-3 ans selon profil), indépendamment de son IMC ou de son âge. Hypothèse 'pas de dépistage' clairement affaiblie.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

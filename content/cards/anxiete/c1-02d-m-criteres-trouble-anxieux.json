@@ -1,0 +1,28 @@
+{
+  "id": "anxiete-c1-m02d-criteres-trouble-anxieux",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les éléments en faveur d'une anxiété PATHOLOGIQUE (vs anxiété normale).",
+  "choices": [
+    { "id": "a", "text": "Peur disproportionnée par rapport au risque réel", "correct": true },
+    { "id": "b", "text": "Persistance des symptômes sur plusieurs semaines à mois", "correct": true },
+    { "id": "c", "text": "Évitement de situations professionnelles ou sociales", "correct": true },
+    { "id": "d", "text": "Réaction proportionnée qui disparaît une fois le danger écarté", "correct": false },
+    { "id": "e", "text": "Retentissement marqué sur le sommeil et le travail", "correct": true },
+    { "id": "f", "text": "Anxiété ressentie uniquement face à un danger immédiat", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Anxiété pathologique = trépied DISPROPORTIONNÉE + PERSISTANTE + ENVAHISSANTE (retentissement). L'évitement et le retentissement sont des marqueurs très importants. À l'inverse, une réaction proportionnée et transitoire face à un danger réel relève de l'anxiété normale (choix d, f). À retenir : c'est souvent le retentissement fonctionnel qui décide d'agir.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c1-m04d-dyspnee-bpco",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les caractéristiques TYPIQUES de la dyspnée dans la BPCO débutante.",
+  "choices": [
+    { "id": "a", "text": "Survient surtout à l'effort", "correct": true },
+    { "id": "b", "text": "Apparition insidieuse, lentement progressive", "correct": true },
+    { "id": "c", "text": "Le patient s'adapte sans s'en rendre compte (évite les escaliers, ralentit)", "correct": true },
+    { "id": "d", "text": "Apparaît brutalement la nuit, en crises", "correct": false },
+    { "id": "e", "text": "Cède immédiatement et complètement avec une bouffée de Ventoline (réversibilité totale)", "correct": false },
+    { "id": "f", "text": "Évaluable par l'échelle MRC (0 à 4)", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "f"],
+  "rationale": "Dyspnée typique BPCO = D'EFFORT, INSIDIEUSE, PROGRESSIVE, le patient s'adapte (souvent c'est l'entourage qui alerte). On la quantifie par l'échelle MRC 0-4. Les crises nocturnes paroxystiques évoquent plutôt l'asthme (ou un OAP). La réversibilité totale aux bronchodilatateurs est typique de l'asthme, pas de la BPCO (obstruction fixée).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

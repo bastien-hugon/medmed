@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q06b-diuretique-role",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le rôle des diurétiques de l'anse (furosémide) dans l'IC chronique ?",
+  "choices": [
+    { "id": "a", "text": "Améliorer la survie à long terme (médicament pronostique)", "correct": false },
+    { "id": "b", "text": "Soulager les SYMPTÔMES congestifs (œdèmes, orthopnée) sans bénéfice prouvé sur la survie", "correct": true },
+    { "id": "c", "text": "Augmenter la fraction d'éjection ventriculaire", "correct": false },
+    { "id": "d", "text": "Substituer un IEC quand celui-ci est mal toléré", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les diurétiques de l'anse sont SYMPTOMATIQUES (décongestion) — ils n'allongent PAS la survie (≠ 4 piliers). À utiliser pour gérer la surcharge hydrosodée. Quand le patient est stable et sec, on essaie de DIMINUER la dose pour limiter IR, hypokaliémie, hypoTA orthostatique.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

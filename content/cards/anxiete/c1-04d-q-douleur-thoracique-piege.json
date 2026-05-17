@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q04d-douleur-thoracique-piege",
+  "kind": "qcm-vignette",
+  "prompt": "Un homme de 52 ans, ATCD HTA et tabagique, consulte aux urgences pour une douleur thoracique constrictive apparue brutalement, avec sueurs profuses et sensation de mort imminente. Vous évoquez une attaque de panique car il décrit du stress au travail. Quelle est la conduite à tenir PRIORITAIRE ?",
+  "choices": [
+    { "id": "a", "text": "Rassurer et renvoyer chez le médecin traitant pour avis psychiatrique", "correct": false },
+    { "id": "b", "text": "Réaliser un ECG en urgence et un dosage de troponine avant de retenir l'hypothèse anxieuse", "correct": true },
+    { "id": "c", "text": "Prescrire un anxiolytique en ambulatoire", "correct": false },
+    { "id": "d", "text": "Conclure d'emblée à une attaque de panique sans bilan", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Règle d'or : NE JAMAIS attribuer trop vite des symptômes physiques à l'anxiété, surtout chez un homme >50 ans avec FdR cardiovasculaires et tableau évocateur. L'attaque de panique et le SCA peuvent se chevaucher cliniquement — la peur de mourir et les sueurs sont possibles dans les DEUX. L'ECG + troponine permet d'éliminer un SCA. Penser AUSSI à EP (D-dimères, ECG, signes droits), pneumothorax (auscultation), dissection aortique. Anxiété = diagnostic d'élimination en cas de tableau aigu somatique chez un patient à risque.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

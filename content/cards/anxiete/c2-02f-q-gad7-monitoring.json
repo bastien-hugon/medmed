@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q02f-gad7-monitoring",
+  "kind": "qcm-vignette",
+  "prompt": "Quel intérêt PRATIQUE majeur le GAD-7 apporte-t-il après l'initiation d'un traitement (SSRI ou CBT) ?",
+  "choices": [
+    { "id": "a", "text": "Confirmer définitivement le diagnostic", "correct": false },
+    { "id": "b", "text": "Suivre objectivement l'évolution sur 4-12 semaines (réponse au traitement quantifiable)", "correct": true },
+    { "id": "c", "text": "Dépister une éventuelle dépression", "correct": false },
+    { "id": "d", "text": "Évaluer le risque suicidaire", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Atout majeur du GAD-7 en pratique : transformer une plainte subjective (anxiété) en CHIFFRE TANGIBLE reproductible. Permet de suivre la réponse au traitement sur 4-12 semaines (délai d'action d'un SSRI). Précieux aussi pour la MOTIVATION du patient (voir son score baisser concrètement). Pour la dépression on utilisera plutôt un PHQ-9 ; pour le risque suicidaire, un questionnement spécifique (items dédiés, échelle CSSRS). Le GAD-7 n'est PAS un outil diagnostique à lui seul (il faut un entretien clinique).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

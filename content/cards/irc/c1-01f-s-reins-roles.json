@@ -1,0 +1,22 @@
+{
+  "id": "irc-c1-s01-reins-roles",
+  "kind": "sct",
+  "prompt": "Mme T., 68 ans, suivie pour MRC stade G3b stable, se plaint depuis quelques mois d'une fatigue importante et essoufflement à l'effort. Vous suspectez une anémie en lien avec sa maladie rénale.",
+  "hypothesis": "L'anémie de Mme T. est en partie liée à un défaut de production d'EPO par ses reins malades.",
+  "new_info": "Le bilan biologique montre Hb 9,8 g/dL, ferritine normale, B9/B12 normales, réticulocytes bas, pas de saignement extériorisé.",
+  "expected": "renforce",
+  "rationale": "Une anémie normocytaire arégénérative (réticulocytes bas) avec bilan martial normal et sans saignement, chez un patient en MRC G3b, oriente fortement vers une anémie par déficit d'EPO. Le rein malade produit moins d'EPO, ce qui ralentit la production de globules rouges par la moelle. Cette information renforce nettement l'hypothèse. Confirmation : dosage d'EPO sérique adapté à l'Hb, et discussion d'une supplémentation en EPO recombinante après correction d'éventuelles carences.",
+  "tags": {
+    "system": ["nephrologie", "hematologie"],
+    "sdd": ["irc", "mrc", "anemie"],
+    "item_edn": [261, 264, 209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

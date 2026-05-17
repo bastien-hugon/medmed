@@ -1,0 +1,22 @@
+{
+  "id": "depistage-cancer-c2-s06f-surdiagnostic-patiente-agee",
+  "kind": "sct",
+  "prompt": "Madame W., 74 ans, en bonne santé apparente, vient d'avoir sa dernière mammographie organisée. Vous envisagez de lui proposer de continuer une surveillance mammographique au-delà de 74 ans.",
+  "hypothesis": "Il est utile de proposer une surveillance mammographique après 74 ans à cette patiente.",
+  "new_info": "Vous apprenez qu'elle souffre d'une démence avancée et d'une insuffisance cardiaque sévère, avec une espérance de vie estimée à moins de 5 ans.",
+  "expected": "affaiblit",
+  "rationale": "Le surdiagnostic devient un argument FORT contre la poursuite du dépistage chez les patients à espérance de vie limitée. Le bénéfice de mortalité par cancer du sein dans le dépistage met PLUSIEURS ANNÉES (souvent 10 ans) à se matérialiser, parce qu'on dépiste des cancers à évolution lente. Chez une patiente avec une espérance de vie courte, la probabilité que le cancer dépisté ait le temps de la tuer est faible — alors que la probabilité d'un surdiagnostic (cancer in situ peu agressif qui n'aurait jamais nui) augmente, ainsi que la lourdeur du traitement éventuel sur un terrain fragile. L'information AFFAIBLIT donc clairement l'indication : c'est une situation où arrêter le dépistage est cohérent avec la balance bénéfice/risque individuelle. Décision idéalement partagée avec la famille/aidants si la patiente n'est plus en capacité.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Surdiagnostic",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

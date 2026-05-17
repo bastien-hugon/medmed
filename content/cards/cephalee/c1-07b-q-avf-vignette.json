@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c1-q07b-avf-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Homme de 32 ans, fumeur. Depuis 10 jours, présente une à deux fois par jour (souvent 2h du matin) une douleur extrême péri-orbitaire DROITE, durant 1 h, avec œil droit rouge et larmoyant, narine droite bouchée. Pendant la crise, il fait les cent pas et 'se cogne la tête'. Diagnostic le plus probable ?",
+  "choices": [
+    { "id": "a", "text": "Migraine sans aura droite", "correct": false },
+    { "id": "b", "text": "Algie vasculaire de la face en salve", "correct": true },
+    { "id": "c", "text": "Sinusite maxillaire droite", "correct": false },
+    { "id": "d", "text": "Névralgie du trijumeau (V1)", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Tableau clinique pur d'AVF : homme jeune fumeur, péri-orbitaire unilatérale strict, ultra-sévère, brève (< 3h), pluri-quotidienne, NOCTURNE (typique : 'alarm clock headache'), signes autonomiques homolatéraux (œil rouge, larmes, narine bouchée), agitation pendant la crise (contraste avec le migraineux qui veut s'allonger). Sinusite : douleur sourde, plus continue, contexte infectieux. Névralgie V1 : décharges électriques très brèves (secondes), pas d'autonomique.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "avf"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

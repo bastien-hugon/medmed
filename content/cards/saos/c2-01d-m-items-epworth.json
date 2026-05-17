@@ -1,0 +1,29 @@
+{
+  "id": "saos-c2-01d-m-items-epworth",
+  "kind": "qcm-multi",
+  "prompt": "Parmi ces situations, coche TOUTES celles qui font partie des 8 items de l'échelle de somnolence d'Epworth.",
+  "choices": [
+    {"id": "a", "text": "Assis en train de lire", "correct": true},
+    {"id": "b", "text": "Regarder la télévision", "correct": true},
+    {"id": "c", "text": "Assis, inactif, dans un lieu public", "correct": true},
+    {"id": "d", "text": "Passager d'une voiture pendant 1 heure", "correct": true},
+    {"id": "e", "text": "Au volant immobilisé dans un embouteillage", "correct": true},
+    {"id": "f", "text": "Pendant un effort physique intense (course à pied)", "correct": false},
+    {"id": "g", "text": "Pendant la nuit dans son lit", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Les 8 situations de l'Epworth : (1) lire assis, (2) regarder la TV, (3) inactif dans un lieu public, (4) passager voiture 1h, (5) allongé l'après-midi, (6) parler à quelqu'un assis, (7) après un déjeuner SANS alcool, (8) au volant immobilisé en embouteillage. Toutes sont des situations passives / monotones où il est physiologique de ne PAS s'endormir mais où un patient somnolent va sombrer. L'effort physique n'a aucun sens (personne ne s'endort en courant) ; le sommeil nocturne n'est pas une 'situation de somnolence pathologique'.",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "depression-c2-m09c-syndrome-discontinuation",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les symptômes typiques du SYNDROME DE DISCONTINUATION (sevrage) survenant à l'arrêt brutal d'un ISRS, à distinguer d'une rechute dépressive.",
+  "choices": [
+    { "id": "a", "text": "Vertiges, sensations de \"choc électrique\" (brain zaps)", "correct": true },
+    { "id": "b", "text": "Anxiété, irritabilité, larmes faciles", "correct": true },
+    { "id": "c", "text": "Troubles du sommeil, sueurs, nausées", "correct": true },
+    { "id": "d", "text": "Céphalées, fatigue", "correct": true },
+    { "id": "e", "text": "Sensations pseudo-grippales", "correct": true },
+    { "id": "f", "text": "Désir compulsif et envie irrépressible de reprendre le médicament (craving)", "correct": false },
+    { "id": "g", "text": "Tolérance avec besoin d'augmenter la dose", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Le syndrome de discontinuation typique inclut : symptômes neurosensoriels (vertiges, brain zaps, paresthésies), neuropsychiques (anxiété, irritabilité, larmes), végétatifs (sueurs, nausées, troubles digestifs), pseudo-grippaux (myalgies, fatigue, céphalées). Apparition typique 24-72h après l'arrêt, durée 1-3 sem. À distinguer de la DÉPENDANCE des benzodiazépines/opiacés : pas de craving, pas de tolérance, pas de comportements de recherche. C'est pourquoi on parle de DISCONTINUATION (et pas \"sevrage de toxicomanie\").",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

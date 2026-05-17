@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c2-q07e-prise-en-charge-sfc",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la stratégie de prise en charge ACTUELLE recommandée pour le ME/CFS ?",
+  "choices": [
+    { "id": "a", "text": "Réactivation physique progressive forcée (\"graded exercise therapy\") jusqu'à dépassement du seuil.", "correct": false },
+    { "id": "b", "text": "Antidépresseur en première intention systématique.", "correct": false },
+    { "id": "c", "text": "Approche multimodale : pacing (gestion de l'énergie sans dépasser le seuil de PEM), TCC, prise en charge du sommeil, antalgie, soutien — pas de traitement spécifique approuvé.", "correct": true },
+    { "id": "d", "text": "Hospitalisation prolongée pour repos absolu au lit.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Aucun TT médicamenteux SPÉCIFIQUE n'est approuvé pour le ME/CFS. Stratégie multimodale : (1) PACING — apprendre à gérer son énergie sans dépasser le seuil qui déclenche le PEM ; (2) TCC pour le retentissement et l'adaptation ; (3) traitement du sommeil ; (4) antalgie ; (5) soutien psychologique + reconnaissance de la réalité de la souffrance. Le \"graded exercise therapy\" est CONTROVERSÉ car il peut aggraver les symptômes via le PEM. Le repos absolu prolongé est aussi à éviter (déconditionnement).",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "asthenie-c1-m06d-anamnese-items",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les éléments d'anamnèse à explorer SYSTÉMATIQUEMENT devant une asthénie persistante (avant tout examen complémentaire).",
+  "choices": [
+    { "id": "a", "text": "Date de début, mode d'apparition (brutal ou progressif).", "correct": true },
+    { "id": "b", "text": "Pattern activité / repos.", "correct": true },
+    { "id": "c", "text": "Qualité du sommeil, ronflements, somnolence diurne.", "correct": true },
+    { "id": "d", "text": "Liste complète des médicaments (prescription, automédication, récréatif).", "correct": true },
+    { "id": "e", "text": "Humeur, plaisir, ruminations, idées noires.", "correct": true },
+    { "id": "f", "text": "Perte de poids, fièvre, sueurs nocturnes.", "correct": true },
+    { "id": "g", "text": "Dosage de cortisol salivaire en première intention.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "L'anamnèse fait 80 % du diagnostic en asthénie. Sept axes à parcourir : ancienneté, pattern, sommeil, médicaments, humeur, signes généraux (perte de poids/fièvre/sueurs), antécédents. Le dosage du cortisol salivaire n'a aucune place en 1ère intention sans signe d'orientation (suspicion de Cushing) : c'est un test dirigé. Le mantra : anamnèse → examen → bilan biologique de base, dans cet ordre.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q03e-evolution-utile",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi peut-on dire que la réaction de 'fight or flight' est une 'machinerie ancienne, héritée de l'évolution' ?",
+  "choices": [
+    { "id": "a", "text": "Parce qu'elle n'existe que chez l'humain moderne", "correct": false },
+    { "id": "b", "text": "Parce qu'elle a été sélectionnée pour la survie face à des dangers physiques immédiats (prédateurs, agressions)", "correct": true },
+    { "id": "c", "text": "Parce qu'elle est apparue dans les sociétés industrielles", "correct": false },
+    { "id": "d", "text": "Parce qu'elle est inefficace et a régressé chez l'humain", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La réaction sympathique 'fight or flight' est partagée par tous les vertébrés. Elle a été conservée par la sélection naturelle car elle permettait de survivre face à des menaces physiques immédiates (prédateur, agression). Aujourd'hui, le système se déclenche aussi face à des menaces 'modernes' et abstraites (mail du chef, factures, pensées intrusives) — où courir ou se battre ne sert à rien. C'est ce mismatch entre une machinerie ancienne et un environnement moderne qui explique en partie pourquoi tant de gens souffrent d'anxiété chronique aujourd'hui.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

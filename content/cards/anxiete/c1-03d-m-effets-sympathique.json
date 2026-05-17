@@ -1,0 +1,28 @@
+{
+  "id": "anxiete-c1-m03d-effets-sympathique",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les effets physiologiques attendus de l'activation du système sympathique en réaction de 'fight or flight'.",
+  "choices": [
+    { "id": "a", "text": "Tachycardie (accélération du rythme cardiaque)", "correct": true },
+    { "id": "b", "text": "Mydriase (dilatation des pupilles)", "correct": true },
+    { "id": "c", "text": "Bronchodilatation (ouverture des voies aériennes)", "correct": true },
+    { "id": "d", "text": "Ralentissement de la digestion", "correct": true },
+    { "id": "e", "text": "Bradycardie marquée et myosis", "correct": false },
+    { "id": "f", "text": "Sueurs et vasoconstriction cutanée", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "Le système sympathique = l'ACCÉLÉRATEUR du corps. Il prépare à l'action : plus de débit cardiaque (tachycardie), plus d'oxygène (bronchodilatation), meilleure vision (mydriase), digestion suspendue (pas le moment de digérer un dîner pendant qu'on fuit un prédateur), sueurs pour anticiper l'effort. Bradycardie + myosis = effets PARASYMPATHIQUES (le frein), pas sympathiques. C'est exactement l'INVERSE.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

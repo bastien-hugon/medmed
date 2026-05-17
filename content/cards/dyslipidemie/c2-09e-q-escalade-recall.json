@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c2-q09-escalade-recall",
+  "kind": "free-recall",
+  "prompt": "Quel est l'ORDRE LOGIQUE de l'escalade thérapeutique en PRÉVENTION SECONDAIRE quand la cible LDL n'est pas atteinte ?",
+  "expected": [
+    "statine haute intensité",
+    "atorvastatine 80",
+    "ézétimibe",
+    "anti-PCSK9",
+    "alirocumab evolocumab inclisiran"
+  ],
+  "rationale": "Escalade en 3 paliers : (1) STATINE HAUTE INTENSITÉ (atorvastatine 80 mg) d'emblée ; (2) + ÉZÉTIMIBE si cible non atteinte (et même parfois en routine pour bénéfice CV supplémentaire selon IMPROVE-IT) ; (3) + ANTI-PCSK9 (alirocumab, evolocumab ou inclisiran) si statine + ézétimibe insuffisants. Coûteux, prescription souvent spécialisée/hospitalière. Toujours associer RHD à chaque palier.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

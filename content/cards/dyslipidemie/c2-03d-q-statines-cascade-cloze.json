@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c2-q03-statines-cascade-cloze",
+  "kind": "cloze",
+  "prompt": "Les statines inhibent l'HMG-CoA réductase. En réponse, les cellules hépatiques expriment plus de ___ à leur surface, ce qui CAPTURE le LDL circulant et fait baisser le LDL ___.",
+  "expected": ["récepteurs au LDL", "sanguin"],
+  "rationale": "Cascade biochimique : statine → moins de cholestérol synthétisé dans l'hépatocyte → le foie 'a faim' de cholestérol → expression accrue des RÉCEPTEURS au LDL en surface → ces récepteurs captent le LDL plasmatique et le ramènent dans l'hépatocyte → baisse du LDL sanguin de 30-50 %. C'est la double action : moins de synthèse + plus d'élimination.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

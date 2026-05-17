@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q10-ceinture-lombaire",
+  "kind": "qcm-vignette",
+  "prompt": "Que faut-il dire à un patient qui demande s'il peut porter une CEINTURE LOMBAIRE ?",
+  "choices": [
+    { "id": "a", "text": "C'est le traitement principal, à porter en permanence", "correct": false },
+    { "id": "b", "text": "Son efficacité n'est pas démontrée, mais on peut la tolérer sur une courte période pour aider à la REPRISE D'ACTIVITÉ (pas en remplacement)", "correct": true },
+    { "id": "c", "text": "C'est strictement interdit", "correct": false },
+    { "id": "d", "text": "À porter au minimum 6 mois en continu", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Ceinture lombaire = pas de bénéfice prouvé (NICE NG59 'do not offer belts'). HAS reste un peu plus souple : utilisation possible 'court terme pour aider à la reprise d'activité', jamais en remplacement de la PEC active (kiné, mouvement). Le port prolongé est délétère : déconditionne la musculature paravertébrale (l'inverse de l'effet recherché).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

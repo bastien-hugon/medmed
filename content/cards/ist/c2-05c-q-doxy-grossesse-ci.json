@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q05c-doxy-grossesse-ci",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi la doxycycline est-elle contre-indiquée pendant la grossesse (2ème et 3ème trimestre surtout) ?",
+  "choices": [
+    { "id": "a", "text": "Risque de fausse couche immédiate", "correct": false },
+    { "id": "b", "text": "Fixation sur l'os et les dents fœtales en formation, provoquant une coloration jaune-grise définitive des dents", "correct": true },
+    { "id": "c", "text": "Hépatotoxicité maternelle", "correct": false },
+    { "id": "d", "text": "Anémie hémolytique systématique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La doxycycline (et plus généralement la classe des tétracyclines) se fixe sur le calcium des dents et os en formation chez le fœtus, provoquant une coloration JAUNE-GRISE DÉFINITIVE des dents de lait ET définitives, ainsi qu'une altération de la croissance osseuse. CI relative au 1er trimestre, plus stricte aux 2ème et 3ème trimestres. Même logique chez l'enfant < 8 ans (dents en formation).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie", "pediatrie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

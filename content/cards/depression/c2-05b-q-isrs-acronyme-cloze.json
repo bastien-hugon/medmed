@@ -1,0 +1,20 @@
+{
+  "id": "depression-c2-q05b-isrs-acronyme-cloze",
+  "kind": "cloze",
+  "prompt": "Les antidépresseurs de 1ère ligne en 2022 sont les ISRS — Inhibiteurs Sélectifs de la Recapture de la ___.",
+  "expected": ["sérotonine", "serotonine"],
+  "rationale": "ISRS = Inhibiteurs Sélectifs de la Recapture de la Sérotonine. SSRI en anglais (Selective Serotonin Reuptake Inhibitors). Mécanisme : blocage du transporteur SERT à la fente synaptique → maintien de la sérotonine plus longtemps dans la synapse → adaptations neuroplastiques au cours des semaines suivantes.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

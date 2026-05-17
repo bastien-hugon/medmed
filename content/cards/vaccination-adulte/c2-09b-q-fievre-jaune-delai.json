@@ -1,0 +1,26 @@
+{
+  "id": "vaccination-adulte-c2-q09-fievre-jaune-delai",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient prévoit un voyage en zone d'endémie de fièvre jaune dans 2 semaines. Le vaccin antiamaril est-il administrable dans son cabinet de médecine générale ?",
+  "choices": [
+    {"id": "a", "text": "Oui, comme tout autre vaccin, dans un cabinet de médecine générale.", "correct": false},
+    {"id": "b", "text": "Non, le vaccin antiamaril ne peut être administré que dans un centre de vaccination internationale AGRÉÉ.", "correct": true},
+    {"id": "c", "text": "Oui, à condition d'avoir un agrément spécial vétérinaire.", "correct": false},
+    {"id": "d", "text": "Non, ce vaccin n'existe pas en France.", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le vaccin fièvre jaune (antiamaril, vivant atténué — souche 17D) est délivré et injecté UNIQUEMENT dans des centres de vaccination internationale AGRÉÉS (référence : Institut Pasteur, centres en CHU, certains centres privés agréés). Pourquoi : surveillance des effets indésirables rares mais graves (maladie viscérotropique post-vaccinale), traçabilité internationale (certificat OMS « yellow card »), CI à vérifier (vivant → grossesse, immunodépression). À faire ≥ 10 jours avant le départ.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "voyage"],
+    "item_edn": [143, 174],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

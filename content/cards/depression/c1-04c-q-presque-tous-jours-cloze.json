@@ -1,0 +1,20 @@
+{
+  "id": "depression-c1-q04c-presque-tous-jours-cloze",
+  "kind": "cloze",
+  "prompt": "Le critère temporel de l'EDC exige TROIS conditions simultanées : symptômes ≥ 2 semaines consécutives, ___ tous les jours, et la plus grande partie de la journée.",
+  "expected": ["presque"],
+  "rationale": "Les 3 sous-critères temporels du critère A DSM-5 doivent être réunis simultanément : (1) ≥ 2 sem consécutives, (2) presque tous les jours (pas tous les jours, mais quasi-quotidien), (3) la plus grande partie de la journée. Un symptôme qui survient seulement le soir, ou seulement certains jours par semaine, ne remplit pas ce critère.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

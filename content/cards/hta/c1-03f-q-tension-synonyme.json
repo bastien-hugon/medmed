@@ -1,0 +1,26 @@
+{
+  "id": "hta-c1-q03b-tension-synonyme",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient te dit : 'Je viens pour prendre ma TENSION.' À quoi fait-il référence en langage médical ?",
+  "choices": [
+    {"id": "a", "text": "À sa fréquence cardiaque", "correct": false},
+    {"id": "b", "text": "À sa pression artérielle (PA)", "correct": true},
+    {"id": "c", "text": "À sa température corporelle", "correct": false},
+    {"id": "d", "text": "À son niveau de stress nerveux", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "'Tension', 'tension artérielle', 'pression artérielle' = exactement la même chose. Le terme 'tension' est entré dans le langage courant (et historique : il évoque la 'tension' de la paroi artérielle sous la pression). Dans les comptes-rendus médicaux, on écrit plutôt PA. Ne pas confondre avec : pouls (= fréquence cardiaque), fièvre (= température), anxiété (= stress nerveux).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

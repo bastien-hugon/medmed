@@ -1,0 +1,26 @@
+{
+  "id": "saos-c1-01d-q-mecanisme-obstructif",
+  "kind": "qcm-vignette",
+  "prompt": "Dans le SAOS (syndrome d'apnées OBSTRUCTIVES du sommeil), quel est le mécanisme à l'origine de l'arrêt respiratoire ?",
+  "choices": [
+    {"id": "a", "text": "Un défaut de commande nerveuse centrale qui ne stimule plus le diaphragme", "correct": false},
+    {"id": "b", "text": "Une fermeture mécanique du pharynx (collapsus des voies aériennes supérieures)", "correct": true},
+    {"id": "c", "text": "Une obstruction bronchique distale comme dans l'asthme", "correct": false},
+    {"id": "d", "text": "Un spasme du diaphragme lié au sommeil paradoxal", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Dans le SAOS, le diaphragme continue à se contracter normalement (efforts respiratoires conservés et visibles à la polygraphie), mais l'air ne passe plus parce que le pharynx — couloir mou derrière la langue — se collabe. C'est ça la différence fondamentale avec l'apnée CENTRALE, où le cerveau ne commande plus la respiration et où les efforts thoraco-abdominaux s'arrêtent aussi.",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c1-q04e-fit-negatif-conduite",
+  "kind": "qcm-vignette",
+  "prompt": "Madame H., 56 ans, sans antécédent particulier, a réalisé son test FIT dans le cadre du dépistage organisé. Résultat : NÉGATIF. Que lui dites-vous ?",
+  "choices": [
+    { "id": "a", "text": "Aucun cancer du côlon possible, elle est à l'abri à vie", "correct": false },
+    { "id": "b", "text": "Test rassurant aujourd'hui ; elle refera un FIT dans 2 ans, et doit consulter sans attendre en cas de signe digestif inhabituel (sang, douleur, modification du transit, perte de poids)", "correct": true },
+    { "id": "c", "text": "Mieux vaut faire une coloscopie maintenant pour confirmer le négatif", "correct": false },
+    { "id": "d", "text": "Refaire un FIT dans 6 mois pour s'assurer du résultat", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "FIT négatif = rassurant POUR L'INSTANT, mais pas une garantie absolue. La sensibilité du test n'est que de 70-80 % (faux négatifs possibles), et un cancer peut survenir entre deux tests (cancer de l'intervalle). Conduite : on reprend le cycle (FIT dans 2 ans) ET on continue à éduquer la patiente sur les signes d'alerte qui doivent la faire consulter HORS dépistage (rectorragies, douleurs abdominales persistantes, modification durable du transit, perte de poids inexpliquée, anémie ferriprive). (a) est trompeur et dangereux (faux), (c) inutile et iatrogène, (d) intermédiaire injustifié.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

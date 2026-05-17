@@ -1,0 +1,29 @@
+{
+  "id": "dyslipidemie-c2-m09-traitements-non-recommandes",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les traitements / compléments alimentaires qui NE SONT PAS RECOMMANDÉS en routine par NICE pour la prévention CV en dyslipidémie.",
+  "choices": [
+    { "id": "a", "text": "Fibrates (gemfibrozil, fénofibrate) en routine.", "correct": true },
+    { "id": "b", "text": "Niacine (acide nicotinique).", "correct": true },
+    { "id": "c", "text": "Résines biliaires (cholestyramine) en routine.", "correct": true },
+    { "id": "d", "text": "Oméga-3 standards / huile de poisson en complément.", "correct": true },
+    { "id": "e", "text": "Coenzyme Q10.", "correct": true },
+    { "id": "f", "text": "Atorvastatine 80 mg en prévention secondaire.", "correct": false },
+    { "id": "g", "text": "Ézétimibe en ajout à une statine au max toléré.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "NICE NG238 NE recommande PAS en routine : fibrates (sauf hypertriglycéridémie sévère spécifique), niacine, résines biliaires (cholestyramine), oméga-3 standards (sauf icosapent éthylique dans une indication précise — TA805), CoQ10, vitamine D, phytostérols. Raison : bénéfice CV non démontré ou trop faible vs effets indésirables. À l'inverse : atorvastatine 80 mg en secondaire et ézétimibe en add-on restent les piliers.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c1-s01f-fatigue-symptome-vs-maladie",
+  "kind": "sct",
+  "prompt": "Un patient de 40 ans consulte en disant \"je suis fatigué tout le temps\". Vous envisagez d'emblée que sa fatigue soit une MALADIE en elle-même, qu'il faudrait traiter par un médicament \"anti-fatigue\".",
+  "hypothesis": "La fatigue est, en soi, une maladie autonome à traiter symptomatiquement.",
+  "new_info": "Vous relisez la définition du symptôme : c'est une plainte subjective et non-spécifique, qui peut être le reflet de causes très variées (anémie, dépression, médicament, hypothyroïdie…).",
+  "expected": "affaiblit",
+  "rationale": "La fatigue n'est PAS une maladie : c'est un SYMPTÔME, un signal d'alerte non-spécifique. Considérer la fatigue comme une maladie autonome conduit à l'erreur de chercher un \"anti-fatigue\" et à passer à côté de la cause sous-jacente (par exemple une carence martiale traitable par fer, une hypothyroïdie par lévothyroxine, une dépression par TCC et/ou antidépresseur). Le rappel de la définition (symptôme non-spécifique) AFFAIBLIT donc l'hypothèse \"maladie autonome\".",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

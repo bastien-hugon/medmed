@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q06f-implant-jeune",
+  "kind": "qcm-vignette",
+  "prompt": "Une adolescente de 16 ans, déjà sexuellement active mais avec mode de vie chaotique (oublie facilement la pilule), consulte pour contraception. Pourquoi l'implant est-il une option particulièrement intéressante chez elle ?",
+  "choices": [
+    { "id": "a", "text": "Parce que c'est la méthode la moins coûteuse.", "correct": false },
+    { "id": "b", "text": "Parce que c'est une LARC : son efficacité réelle (~0,05 %) est quasi parfaite et indépendante de l'observance.", "correct": true },
+    { "id": "c", "text": "Parce qu'il protège des IST.", "correct": false },
+    { "id": "d", "text": "Parce qu'il améliore systématiquement l'acné.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Chez une adolescente avec observance fragile, le typical use de la pilule (~9 %) peut être encore pire. L'implant LARC a un typical use = perfect use = ~0,05 % : aucune action quotidienne, aucun oubli possible, efficacité maximale 'oubliable' pendant 3 ans. Pas de protection IST → message complémentaire 'double protection' avec préservatif si nouveau partenaire. L'effet sur l'acné est variable, parfois aggravée plutôt qu'améliorée.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "diabete-t2-c1-m08-vaisseaux-complications",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les complications du diabète directement liées à l'atteinte des vaisseaux sanguins.",
+  "choices": [
+    { "id": "a", "text": "Rétinopathie diabétique (œil)", "correct": true },
+    { "id": "b", "text": "Néphropathie diabétique (rein)", "correct": true },
+    { "id": "c", "text": "Infarctus du myocarde", "correct": true },
+    { "id": "d", "text": "Accident vasculaire cérébral (AVC)", "correct": true },
+    { "id": "e", "text": "Artérite oblitérante des membres inférieurs (AOMI)", "correct": true },
+    { "id": "f", "text": "Reflux gastro-œsophagien banal", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Toutes les grandes complications du diabète passent par les vaisseaux : micro (rétine, rein, nerfs) et macro (coronaires, carotides, artères des jambes). Le RGO n'est pas une complication vasculaire (même si la gastroparésie diabétique peut indirectement aggraver les troubles digestifs). C'est l'idée centrale : 'sucre + temps = vaisseaux abîmés', et les vaisseaux abîmés tuent.",
+  "tags": {
+    "system": ["endocrinologie", "cardiovasculaire"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

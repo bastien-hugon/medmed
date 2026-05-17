@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-10e-q-fa-recidivante",
+  "kind": "qcm-vignette",
+  "prompt": "Devant une fibrillation auriculaire RÉCIDIVANTE malgré cardioversion et antiarythmique, dans quelle mesure faut-il rechercher un SAOS ?",
+  "choices": [
+    {"id": "a", "text": "Recherche optionnelle, en cas de symptômes nocturnes très évocateurs uniquement", "correct": false},
+    {"id": "b", "text": "Recherche systématique : le SAOS favorise la FA et sa récidive", "correct": true},
+    {"id": "c", "text": "Recherche inutile, la FA et le SAOS sont des entités indépendantes", "correct": false},
+    {"id": "d", "text": "Recherche uniquement si IMC > 35", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le SAOS favorise la FA via plusieurs mécanismes : hypoxie nocturne, oscillations de pression intra-thoracique (étirement auriculaire), hyperactivité sympathique, inflammation. La prévalence du SAOS chez les patients en FA est très élevée (40-50 %). Le SAOS favorise aussi la RÉCIDIVE de FA après cardioversion ou ablation. Recommandation forte : recherche systématique de SAOS chez tout patient en FA récidivante. Le traitement du SAOS améliore les taux de maintien du rythme sinusal.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire"],
+    "sdd": ["saos", "fa"],
+    "item_edn": [108, 232],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

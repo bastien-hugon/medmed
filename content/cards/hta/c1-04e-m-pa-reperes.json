@@ -1,0 +1,28 @@
+{
+  "id": "hta-c1-m04-pa-reperes",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les chiffres de PA (systolique/diastolique en mmHg) qui correspondent à une PA NORMALE chez l'adulte (au cabinet).",
+  "choices": [
+    {"id": "a", "text": "120/80", "correct": true},
+    {"id": "b", "text": "118/76", "correct": true},
+    {"id": "c", "text": "145/85", "correct": false},
+    {"id": "d", "text": "130/82", "correct": true},
+    {"id": "e", "text": "162/100", "correct": false},
+    {"id": "f", "text": "135/95", "correct": false}
+  ],
+  "expected": ["a", "b", "d"],
+  "rationale": "Seuil HTA cabinet = ≥ 140/90 mmHg (HAS). En dessous = normal. 145/85 → HTA (sys ≥ 140). 162/100 → HTA franche. 135/95 → HTA (dia ≥ 90). Attention : il suffit qu'UNE seule des deux valeurs dépasse pour parler d'HTA. Une PA 'optimale' selon les sociétés savantes serait < 120/80, mais l'absence d'HTA en cabinet HAS = < 140/90.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

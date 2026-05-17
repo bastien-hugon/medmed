@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q07c-agoraphobie",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente refuse depuis 2 ans de prendre le métro, de se rendre dans un supermarché bondé ou de quitter son quartier. Elle dit avoir peur 'de ne pas pouvoir sortir, de ne pas être secourue'. Quel diagnostic évoquer ?",
+  "choices": [
+    { "id": "a", "text": "Phobie spécifique des transports", "correct": false },
+    { "id": "b", "text": "Agoraphobie", "correct": true },
+    { "id": "c", "text": "Trouble anxieux généralisé", "correct": false },
+    { "id": "d", "text": "Phobie sociale", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Définition de l'agoraphobie : peur des situations où il serait DIFFICILE DE S'ÉCHAPPER ou D'ÊTRE SECOURU en cas de besoin (transports, foules, espaces ouverts, sortir de chez soi seule). L'élément central n'est pas l'objet, mais l'INACCESSIBILITÉ DE SECOURS. Très souvent ASSOCIÉE au trouble panique : la patiente évite les lieux où elle craint qu'une attaque ne survienne. Phobie spécifique = focalisée sur un objet (araignée, ascenseur). TAG = soucis multiples. Phobie sociale = regard d'autrui.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

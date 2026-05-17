@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q07b-doxypep-principe",
+  "kind": "qcm-vignette",
+  "prompt": "La DoxyPEP correspond à :",
+  "choices": [
+    { "id": "a", "text": "Doxycycline 100 mg PO BID × 7 jours en prévention de toutes les IST", "correct": false },
+    { "id": "b", "text": "Une dose unique de doxycycline 200 mg PO à prendre dans les 72 h après un rapport non protégé, en prévention des IST bactériennes (chlamydia, gonocoque, syphilis)", "correct": true },
+    { "id": "c", "text": "Une trithérapie antirétrovirale pour prévenir le VIH après exposition", "correct": false },
+    { "id": "d", "text": "Un nouveau vaccin contre la chlamydia", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "DoxyPEP = Doxycycline en Prophylaxie post-Exposition : DOSE UNIQUE 200 mg PO dans les 72 h après un rapport sans préservatif. Cible : IST BACTÉRIENNES (chlamydia, gonocoque avec effet plus modeste car résistance, syphilis). Ne protège PAS contre VIH, HPV, HSV, hépatites virales. Différencier de la PEP VIH (trithérapie ARV 28 j). Recommandée chez HSH et femmes trans à haut risque ; PAS d'efficacité démontrée chez femmes cisgenres.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

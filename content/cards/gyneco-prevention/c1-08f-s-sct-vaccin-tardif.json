@@ -1,0 +1,22 @@
+{
+  "id": "gyneco-prevention-c1-s08f-sct-vaccin-tardif",
+  "kind": "sct",
+  "prompt": "Une patiente de 17 ans, n'ayant pas eu de rapport sexuel, vous demande la vaccination HPV. Vous envisagez de la vacciner.",
+  "hypothesis": "La vaccination sera très bénéfique chez elle.",
+  "new_info": "Elle vous précise que toute sa vie sexuelle est encore devant elle (aucune exposition antérieure au HPV) et qu'elle est dans le créneau de rattrapage 15-19 ans.",
+  "expected": "renforce",
+  "rationale": "Le vaccin HPV est d'autant plus efficace qu'il est administré AVANT toute exposition au virus (= avant les premiers rapports). Le fait qu'elle n'ait pas encore eu de rapport sexuel renforce l'indication : elle bénéficiera de la pleine efficacité du vaccin sur tous les sérotypes couverts. Schéma 3 doses (M0, M2, M6) car ≥ 15 ans. C'est le créneau de rattrapage idéal en MG — il ne faut JAMAIS le rater.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [143, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Gardasil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

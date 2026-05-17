@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q08b-asthme-vs-bpco",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle caractéristique distingue le plus nettement l'ASTHME de la BPCO sur la spirométrie ?",
+  "choices": [
+    { "id": "a", "text": "La présence de toux", "correct": false },
+    { "id": "b", "text": "La RÉVERSIBILITÉ de l'obstruction sous bronchodilatateur (≥ 12% et ≥ 200 mL d'augmentation du VEMS) → typique d'asthme", "correct": true },
+    { "id": "c", "text": "La présence d'expectoration matinale", "correct": false },
+    { "id": "d", "text": "L'âge du patient", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le test de réversibilité tranche : si le VEMS remonte significativement (≥ 12 % ET ≥ 200 mL) ET que le Tiffeneau remonte ≥ 0,70 → obstruction RÉVERSIBLE = ASTHME. Si l'obstruction reste fixée (Tiffeneau < 0,70 post-BD) = BPCO. Toux, expectoration, âge sont des indices cliniques mais ne tranchent pas formellement (les deux maladies peuvent coexister = 'asthme-BPCO overlap').",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

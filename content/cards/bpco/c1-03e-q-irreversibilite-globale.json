@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q03e-irreversibilite-globale",
+  "kind": "qcm-vignette",
+  "prompt": "Au cours d'une BPCO installée chez un fumeur de longue date, qu'est-ce qui est IRRÉVERSIBLE ?",
+  "choices": [
+    { "id": "a", "text": "L'inflammation aiguë des bronches uniquement", "correct": false },
+    { "id": "b", "text": "L'obstruction bronchique (rétrécissement permanent) et la destruction alvéolaire (emphysème)", "correct": true },
+    { "id": "c", "text": "Rien : tout se répare totalement à l'arrêt du tabac", "correct": false },
+    { "id": "d", "text": "L'envie de fumer", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'obstruction bronchique de la BPCO est dite FIXÉE : elle ne se lève pas avec un bronchodilatateur, et les lésions accumulées (épaississement de la paroi, destruction alvéolaire) ne se réparent pas. L'arrêt du tabac freine la chute du VEMS mais ne récupère pas ce qui est perdu. D'où l'urgence d'un diagnostic précoce.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

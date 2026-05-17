@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q08d-reevaluation-cloze",
+  "kind": "cloze",
+  "prompt": "Un traitement de fond migraineux ne se juge JAMAIS sur 2 semaines : il faut réévaluer à ___ - ___ mois pour décider de continuer, ajuster ou changer. Pour les anti-CGRP, on arrête si la réduction de fréquence est < ___ % (migraine épisodique) ou < ___ % (migraine chronique) à 12 semaines.",
+  "expected": ["3", "6", "50", "30"],
+  "rationale": "Délai de jugement : 3-6 mois pour les traitements de fond classiques (propranolol, topiramate, amitriptyline). Erreur fréquente : déclarer un échec à 2-4 semaines et changer prématurément. Pour les anti-CGRP (érenumab, frémanezumab, galcanezumab, eptinezumab, atogépant) : règle d'arrêt formelle à 12 semaines si < 50 % de réduction (épisodique) ou < 30 % (chronique). Important pour la rationalité économique (coût élevé) et l'efficacité.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

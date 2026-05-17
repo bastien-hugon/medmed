@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c2-m06c-consequences-surdiagnostic",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant le surdiagnostic en dépistage de cancer.",
+  "choices": [
+    { "id": "a", "text": "Il entraîne un SURTRAITEMENT (chirurgie, radiothérapie, hormonothérapie) chez des patients qui n'en auraient jamais eu besoin", "correct": true },
+    { "id": "b", "text": "Il est probablement plus fréquent en dépistage du cancer du sein qu'en dépistage du cancer colorectal", "correct": true },
+    { "id": "c", "text": "Il est totalement nul dans les programmes français parce qu'ils sont 'organisés'", "correct": false },
+    { "id": "d", "text": "Il justifie qu'on informe la patiente AVANT la mammographie de dépistage, pour un choix éclairé", "correct": true },
+    { "id": "e", "text": "Il ne fait pas partie des limites des dépistages : seuls les faux positifs comptent", "correct": false },
+    { "id": "f", "text": "Le test FIT n'a pas le même problème de surdiagnostic que la mammographie, car la résection des polypes est en elle-même bénéfique", "correct": true }
+  ],
+  "expected": ["a", "b", "d", "f"],
+  "rationale": "Le surdiagnostic mène mécaniquement au surtraitement (a). En sein, on estime qu'environ 1 femme sur 1000 dépistées sur 10 ans reçoit un diagnostic/traitement qui n'aurait jamais été nécessaire (ordre de grandeur, varie selon études). Le colorectal (b, f) souffre moins de ce biais : retirer un polype adénomateux est un acte de prévention objectivement utile (moins de 'cancers fantômes'). L'organisation française ne fait PAS disparaître le surdiagnostic (c, faux) — elle organise, c'est tout. L'information éclairée (d) est devenue une priorité éthique (les courriers d'invitation INCa intègrent désormais cette nuance). L'item (e) est faux : le surdiagnostic est une limite À PART ENTIÈRE, distincte des faux positifs.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Surdiagnostic",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

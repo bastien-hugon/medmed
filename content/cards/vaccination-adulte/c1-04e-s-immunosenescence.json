@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c1-s04-immunosenescence",
+  "kind": "sct",
+  "prompt": "Un patient de 68 ans en pleine forme se présente. Vous envisagez de lui proposer la vaccination pneumocoque et la grippe annuelle.",
+  "hypothesis": "Mon hypothèse : son âge à lui seul justifie ces vaccinations, indépendamment de toute comorbidité.",
+  "new_info": "Vous savez que le système immunitaire vieillit (immunosénescence) et que les infections respiratoires basses deviennent plus graves au-delà de 65 ans.",
+  "expected": "renforce",
+  "rationale": "L'âge ≥ 65 ans est en lui-même une indication universelle à la grippe annuelle et au pneumocoque (et au zona Shingrix), sans qu'il faille de comorbidité associée. L'immunosénescence + la fragilité ↑ la morbi-mortalité des infections respiratoires. L'info RENFORCE l'hypothèse. Conséquence pratique : on ne « négocie » pas l'absence de FdR à 68 ans pour ne pas vacciner — l'âge suffit.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-a-prevention-vaccinale",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

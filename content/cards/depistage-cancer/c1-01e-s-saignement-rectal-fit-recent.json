@@ -1,0 +1,22 @@
+{
+  "id": "depistage-cancer-c1-s01e-saignement-rectal-fit-recent",
+  "kind": "sct",
+  "prompt": "Monsieur P., 61 ans, a fait son test FIT il y a 5 mois (négatif). Il vous consulte pour rectorragies répétées depuis 3 semaines. Vous envisagez d'adresser le patient pour une coloscopie diagnostique.",
+  "hypothesis": "Une coloscopie diagnostique doit être réalisée chez ce patient.",
+  "new_info": "Le patient vous dit qu'il a bien fait son test FIT il y a 5 mois et qu'il était négatif.",
+  "expected": "neutre",
+  "rationale": "Piège typique de confusion dépistage / diagnostic. Le patient est désormais SYMPTOMATIQUE (rectorragies répétées) — il sort du programme de dépistage et entre dans la démarche diagnostique. Le statut du FIT récent (positif ou négatif) n'a quasiment plus aucune valeur : un FIT négatif n'exclut pas un cancer en formation (sensibilité ~70-80%, faux négatifs réels), et de toute façon il n'a pas été conçu pour répondre à 'pourquoi ce patient saigne maintenant'. L'information ne RENFORCE pas (la coloscopie était déjà indiquée par le symptôme), n'AFFAIBLIT pas (un FIT négatif n'innocente pas un patient qui saigne) → NEUTRE. Règle : un patient symptomatique ne peut PAS être rassuré par un dépistage récent normal.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [287, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "saos-c1-07d-c-cycle-apneique",
+  "kind": "cloze",
+  "prompt": "Cycle d'un événement obstructif : le pharynx se ___ (collapsus), l'air ne passe plus → la saturation en oxygène ___ , le CO₂ s'accumule → le cerveau déclenche un ___ qui relance le tonus musculaire et rouvre les VAS → la respiration reprend bruyamment, puis le cycle recommence.",
+  "expected": ["collabe", "baisse", "microéveil"],
+  "rationale": "Comprendre le cycle permet de comprendre les conséquences : (1) la désaturation explique le risque cardiovasculaire (stress oxydatif, inflammation, hyperactivité sympathique), (2) le microéveil — souvent inconscient — explique la fragmentation du sommeil et donc la somnolence diurne. Chaque cycle peut durer 30 secondes à 1 minute. Multiplié par des dizaines/centaines de fois par nuit, c'est ce qui rend la nuit non-réparatrice.",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

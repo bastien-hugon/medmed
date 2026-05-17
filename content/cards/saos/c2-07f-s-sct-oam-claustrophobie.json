@@ -1,0 +1,22 @@
+{
+  "id": "saos-c2-07f-s-sct-oam-claustrophobie",
+  "kind": "sct",
+  "prompt": "M. C., 50 ans, SAOS modéré (IAH 22) avec Epworth 13. Il refuse catégoriquement la CPAP en raison d'une claustrophobie sévère. Vous lui proposez une orthèse d'avancée mandibulaire.",
+  "hypothesis": "L'OAM est une bonne option pour ce patient.",
+  "new_info": "Son examen dentaire montre une bonne denture, sans parodontite, sans dysfonctionnement temporo-mandibulaire. Sa femme insiste pour qu'il accepte un traitement.",
+  "expected": "renforce",
+  "rationale": "L'OAM est particulièrement adaptée à ce profil : SAOS modéré (indication standard de l'OAM), refus de CPAP pour claustrophobie (indication alternative), denture saine sans contre-indication (ATM, parodontite), entourage motivé pour soutenir l'observance. Tous ces éléments RENFORCENT la proposition d'OAM. Mieux vaut une OAM bien utilisée qu'une CPAP refusée en bloc.",
+  "tags": {
+    "system": ["pneumologie", "stomatologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

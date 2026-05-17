@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q03e-abe-traitement",
+  "kind": "qcm-vignette",
+  "prompt": "Selon la classification GOLD A/B/E, quel groupe se voit proposer une BITHÉRAPIE LAMA + LABA d'emblée comme traitement de fond ?",
+  "choices": [
+    { "id": "a", "text": "Groupe A (peu symptomatique, peu exacerbateur)", "correct": false },
+    { "id": "b", "text": "Groupe B (symptomatique stable) et Groupe E (exacerbateur)", "correct": true },
+    { "id": "c", "text": "Aucun groupe : la bithérapie n'est jamais utilisée d'emblée", "correct": false },
+    { "id": "d", "text": "Uniquement le groupe E", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "GOLD 2023+ : groupe A = SABA/SAMA à la demande ; groupes B et E = LAMA + LABA d'emblée comme traitement de fond. Groupe E avec récidive ou traits asthmatiques/éosinophilie : ajouter ICS → trithérapie. La bithérapie longue durée est devenue le standard de fond chez tout patient symptomatique ou exacerbateur.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

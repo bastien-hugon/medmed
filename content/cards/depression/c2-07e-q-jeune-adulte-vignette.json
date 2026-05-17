@@ -1,0 +1,26 @@
+{
+  "id": "depression-c2-q07e-jeune-adulte-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Vous initiez de la sertraline chez Théo, 19 ans, étudiant, pour un EDC. PHQ-9 à 17. Idées suicidaires passives (\"j'aimerais ne plus me réveiller\" mais sans plan). Quel suivi planifiez-vous ?",
+  "choices": [
+    { "id": "a", "text": "Revoir à 4 semaines, le temps que ça fasse effet", "correct": false },
+    { "id": "b", "text": "Revoir à 1 SEMAINE (jeune adulte 18-25 ans + risque suicidaire évalué), info claire au patient ET à l'entourage sur les signaux d'alerte (agitation, anxiété, majoration idées suicidaires), retrait des moyens accessibles, 3114 communiqué.", "correct": true },
+    { "id": "c", "text": "Pas de suivi planifié, il me rappellera s'il a un problème", "correct": false },
+    { "id": "d", "text": "Hospitalisation systématique de tous les patients < 25 ans sous AD", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Théo cumule DEUX critères pour un suivi à 1 semaine (NICE Rec 1.4.22) : tranche 18-25 ans ET risque suicidaire évalué (même passif). Cumul = vigilance maximale en début de traitement. Plan : suivi rapproché, info patient + entourage, retrait des moyens accessibles (médicaments, etc.), communication du 3114. L'hospitalisation systématique n'est pas justifiée : idées passives + accord pour soins ambulatoires + entourage présent peuvent suffire.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74, 351],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

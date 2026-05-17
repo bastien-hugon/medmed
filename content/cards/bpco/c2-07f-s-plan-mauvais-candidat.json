@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c2-s07f-plan-mauvais-candidat",
+  "kind": "sct",
+  "prompt": "M. H., 82 ans, BPCO, troubles cognitifs débutants (MMSE 22/30), vit seul, a fait 1 exacerbation l'année passée. Tu envisages de lui donner un plan d'action écrit (corticoïde + antibiotique à domicile).",
+  "hypothesis": "Mon hypothèse : il est un bon candidat pour le plan d'action.",
+  "new_info": "Il a oublié à plusieurs reprises ses prises d'inhalateurs et ne se rappelle pas en consultation pourquoi il prend ses médicaments.",
+  "expected": "affaiblit",
+  "rationale": "Le plan d'action exige que le patient COMPRENNE et SACHE déclencher au bon moment, et NOTIFIE le soignant. Avec des troubles cognitifs et des oublis fréquents, le risque d'auto-médication inappropriée ou de retard de traitement est élevé. NICE déconseille le plan d'action chez qui ne peut pas l'appliquer. L'information affaiblit l'hypothèse de 'bon candidat'. Alternative : impliquer aidants/IDE à domicile, plan partagé, consultations rapprochées. Logique SCT.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

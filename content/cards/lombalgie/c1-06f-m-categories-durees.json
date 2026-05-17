@@ -1,0 +1,29 @@
+{
+  "id": "lombalgie-c1-m06-categories-durees",
+  "kind": "qcm-multi",
+  "prompt": "Cochez toutes les catégories temporelles de lombalgie reconnues par la HAS 2019.",
+  "choices": [
+    { "id": "a", "text": "Lombalgie aiguë (poussée < 4-6 semaines)", "correct": true },
+    { "id": "b", "text": "Lombalgie subaiguë (6 semaines à 3 mois)", "correct": true },
+    { "id": "c", "text": "Lombalgie chronique (> 3 mois)", "correct": true },
+    { "id": "d", "text": "Lombalgie à risque de chronicité (< 3 mois avec drapeaux jaunes)", "correct": true },
+    { "id": "e", "text": "Lombalgie récidivante (récidive dans les 12 mois)", "correct": true },
+    { "id": "f", "text": "Lombalgie ultra-aiguë (< 24 heures)", "correct": false },
+    { "id": "g", "text": "Lombalgie ancienne (> 10 ans)", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "HAS 2019 distingue : aiguë (< 4-6 sem), subaiguë (6 sem-3 mois), chronique (> 3 mois), à risque de chronicité (< 3 mois + drapeaux jaunes) et récidivante (à traiter comme à risque). 'Ultra-aiguë' et 'ancienne' sont des distracteurs sans valeur clinique.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

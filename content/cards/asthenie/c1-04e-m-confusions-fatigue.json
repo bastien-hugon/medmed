@@ -1,0 +1,28 @@
+{
+  "id": "asthenie-c1-m04e-confusions-fatigue",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les termes que les patients confondent FRÉQUEMMENT avec \"fatigue\" et qu'il faut savoir distinguer en consultation.",
+  "choices": [
+    { "id": "a", "text": "Faiblesse musculaire (déficit de force).", "correct": true },
+    { "id": "b", "text": "Somnolence (envie irrépressible de dormir).", "correct": true },
+    { "id": "c", "text": "Dyspnée d'effort (essoufflement à l'effort).", "correct": true },
+    { "id": "d", "text": "Vertige rotatoire pur (sensation de rotation de l'environnement).", "correct": false },
+    { "id": "e", "text": "Anhédonie (perte de plaisir), souvent associée à la dépression.", "correct": true },
+    { "id": "f", "text": "Acouphène (bruit perçu sans source externe).", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Le mot \"fatigué\" sert d'attrape-tout pour : (a) faiblesse musculaire → neuro/musculaire ; (b) somnolence → tr. sommeil/SAOS ; (c) dyspnée d'effort → cœur/poumon ; (e) anhédonie/manque d'envie → dépression. Vertige rotatoire et acouphène sont des symptômes neuro-sensoriels distincts, rarement confondus avec la fatigue. Le tri sémantique en début d'entretien est essentiel pour éviter de partir sur une fausse piste.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

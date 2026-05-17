@@ -1,0 +1,26 @@
+{
+  "id": "vaccination-adulte-c1-q05-grippe-annuelle",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi le vaccin antigrippal doit-il être refait CHAQUE année chez les personnes à risque ?",
+  "choices": [
+    {"id": "a", "text": "Parce que les anticorps disparaissent en 6 semaines.", "correct": false},
+    {"id": "b", "text": "Parce que le virus de la grippe mute en permanence et le vaccin est réadapté chaque année aux souches qui circulent.", "correct": true},
+    {"id": "c", "text": "Parce que l'effet du vaccin est strictement saisonnier et ne dure que pendant l'hiver vacciné.", "correct": false},
+    {"id": "d", "text": "Parce que la loi française impose un rappel annuel obligatoire pour tous les adultes.", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "La grippe a une dérive antigénique annuelle (mutations de l'hémagglutinine et de la neuraminidase) → les souches circulantes changent chaque saison. L'OMS recommande chaque année la composition du vaccin pour l'hémisphère nord (lab. Pasteur, surveillance mondiale). C'est pourquoi un vaccin annuel est nécessaire — pas parce que l'immunité s'effondre, mais parce que la cible bouge.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

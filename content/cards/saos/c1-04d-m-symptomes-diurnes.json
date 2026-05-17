@@ -1,0 +1,29 @@
+{
+  "id": "saos-c1-04d-m-symptomes-diurnes",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les symptômes DIURNES classiquement associés au SAOS.",
+  "choices": [
+    {"id": "a", "text": "Somnolence excessive (endormissements involontaires)", "correct": true},
+    {"id": "b", "text": "Fatigue chronique / sommeil non réparateur", "correct": true},
+    {"id": "c", "text": "Céphalées matinales", "correct": true},
+    {"id": "d", "text": "Troubles de concentration / mémoire", "correct": true},
+    {"id": "e", "text": "Baisse de libido ou troubles de l'érection", "correct": true},
+    {"id": "f", "text": "Hémoptysies à l'effort", "correct": false},
+    {"id": "g", "text": "Acouphènes pulsatiles", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Cinq symptômes diurnes typiques : somnolence (le principal, mesuré par Epworth), fatigue / sommeil non réparateur, céphalées matinales (liées à l'hypercapnie nocturne), troubles cognitifs (concentration, mémoire — réversibles sous CPAP), troubles sexuels (libido / dysérection, ~28 %). Hémoptysies = pathologie respiratoire aiguë / cancer. Acouphènes pulsatiles = pathologie vasculaire (ex. fistule durale). Ces deux derniers ne font pas partie du tableau SAOS.",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

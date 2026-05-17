@@ -1,0 +1,20 @@
+{
+  "id": "depistage-cancer-c2-q06d-cloze-surdiagnostic-surtraitement",
+  "kind": "cloze",
+  "prompt": "Le ___ est la découverte d'un cancer qui n'aurait jamais provoqué de symptômes dans la vie du patient. Sa conséquence est le ___ : on prescrit chirurgie, radiothérapie ou hormonothérapie à un patient qui n'en avait pas besoin. Ce phénomène est plus important dans le dépistage du cancer du ___ que dans celui du cancer ___.",
+  "expected": ["surdiagnostic", "surtraitement", "sein", "colorectal"],
+  "rationale": "Définitions clés : surdiagnostic (le cancer existe mais n'aurait pas nui) → surtraitement (effets secondaires d'un traitement inutile). Le surdiagnostic est plus prononcé en sein (certains cancers in situ très bien différenciés, lents) qu'en colorectal (où retirer un polype adénomateux est un bénéfice net). C'est pour ça qu'on parle d'une balance bénéfice/risque positive mais MODESTE en sein, et plus franche en colorectal. À retenir : un dépistage qui sauve des vies en moyenne peut faire du mal à des individus précis. Le choix éclairé devient alors essentiel.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Surdiagnostic",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

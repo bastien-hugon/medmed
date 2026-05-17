@@ -1,0 +1,22 @@
+{
+  "id": "asthme-c1-s05-spiro-non-reversible",
+  "kind": "sct",
+  "prompt": "Un homme de 62 ans, fumeur à 40 PA, consulte pour dyspnée chronique. Vous suspectez un asthme.",
+  "hypothesis": "Mon hypothèse : il s'agit d'un asthme.",
+  "new_info": "La spirométrie montre une obstruction (VEMS/CVF 0,58). Après salbutamol, VEMS augmente de 4 % et de 80 mL seulement.",
+  "expected": "affaiblit",
+  "rationale": "Réversibilité absente (ΔVEMS < 12 % ET < 200 mL) chez un gros fumeur dyspnéique → l'obstruction n'est pas réversible, ça oriente vers une BPCO bien plus que vers un asthme. L'asthme n'est pas formellement exclu (réversibilité parfois faible en consultation, à reproduire) mais l'hypothèse est nettement AFFAIBLIE. Démarche : confirmer BPCO (clinique + spiro), ne pas oublier qu'overlap asthme-BPCO existe.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188, 209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

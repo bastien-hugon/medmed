@@ -1,0 +1,28 @@
+{
+  "id": "lombalgie-c1-m05-criteres-lombalgie-commune",
+  "kind": "qcm-multi",
+  "prompt": "Cochez tous les éléments qui caractérisent une LOMBALGIE COMMUNE (au sens HAS 2019).",
+  "choices": [
+    { "id": "a", "text": "Absence de drapeau rouge (pas de fracture, pas d'infection, pas de cancer, pas de queue de cheval)", "correct": true },
+    { "id": "b", "text": "C'est la situation majoritaire (≥ 90 % des lombalgies)", "correct": true },
+    { "id": "c", "text": "Diagnostic d'EXCLUSION (clinique, sans nécessité d'imagerie initiale)", "correct": true },
+    { "id": "d", "text": "Présence obligatoire d'une hernie discale à l'IRM", "correct": false },
+    { "id": "e", "text": "Durée toujours supérieure à 3 mois", "correct": false },
+    { "id": "f", "text": "Nécessite systématiquement un arrêt de travail prolongé", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Lombalgie commune = absence de drapeau rouge + situation banale (≥ 90 %) + diagnostic clinique d'exclusion. Elle peut être aiguë comme chronique (la durée est une classification INDÉPENDANTE). Elle n'exige NI imagerie systématique, NI arrêt de travail systématique. Au contraire, la PEC moderne valorise la reprise précoce d'activité.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "anxiete-c2-m03d-step3-options",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les interventions recommandées par NICE à l'ÉTAPE 3 (haute intensité) du stepped care pour le TAG.",
+  "choices": [
+    { "id": "a", "text": "Thérapie cognitivo-comportementale (CBT) — 12 à 15 séances hebdomadaires d'1h", "correct": true },
+    { "id": "b", "text": "Relaxation appliquée (applied relaxation)", "correct": true },
+    { "id": "c", "text": "SSRI (sertraline en 1ère intention)", "correct": true },
+    { "id": "d", "text": "Benzodiazépine au long cours en première ligne", "correct": false },
+    { "id": "e", "text": "Antipsychotique en monothérapie en soins primaires", "correct": false },
+    { "id": "f", "text": "Auto-aide non guidée comme unique intervention", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "À l'étape 3 (haute intensité), NICE propose AU CHOIX une psychothérapie (CBT ou relaxation appliquée) OU un médicament (SSRI, sertraline préférée). Le choix dépend de la préférence du patient et de l'accessibilité. Les BZD sont DÉCONSEILLÉES en traitement du TAG (sauf court terme en crise). Les antipsychotiques sont explicitement non recommandés en soins primaires pour le TAG. L'auto-aide seule relève de l'étape 2, pas de l'étape 3.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

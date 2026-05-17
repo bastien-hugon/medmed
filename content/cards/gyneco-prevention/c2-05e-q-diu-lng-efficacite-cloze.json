@@ -1,0 +1,20 @@
+{
+  "id": "gyneco-prevention-c2-q05e-diu-lng-efficacite-cloze",
+  "kind": "cloze",
+  "prompt": "Le DIU au lévonorgestrel (dose standard, ex. 19,5 mg) a une efficacité d'environ ___ % de grossesses la 1ère année (typical use = perfect use, car LARC).",
+  "expected": ["0,2"],
+  "rationale": "DIU LNG : ~0,2 % de grossesses la 1ère année. Typical use = perfect use (LARC, pas d'action quotidienne, pas d'oubli). À comparer : DIU cuivre ~0,6 %, implant ~0,05 %, pilule combinée 9 % en typical use. Le DIU LNG est donc l'une des contraceptions les plus efficaces, à égalité ou très près de l'implant.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

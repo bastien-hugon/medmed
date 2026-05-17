@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-c02-grippe-imc",
+  "kind": "cloze",
+  "prompt": "L'obésité est une indication de la vaccination antigrippale en France lorsque l'IMC est ≥ ___ kg/m2.",
+  "expected": ["40"],
+  "rationale": "Seuil français : IMC ≥ 40 kg/m2 (obésité de classe 3 ou « morbide »). Justification : risque accru de formes graves de grippe (atélectasies, syndrome de détresse respiratoire), associations fréquentes (diabète, SAOS, IC). À ne pas confondre avec le seuil bariatrique (35 avec comorbidités). Note : ce seuil peut évoluer dans les futurs calendriers (discussion régulière d'abaisser à 35 ou 30).",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143, 253],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

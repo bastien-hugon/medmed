@@ -1,0 +1,20 @@
+{
+  "id": "saos-c2-07d-c-oam-efficacite",
+  "kind": "cloze",
+  "prompt": "L'orthèse d'avancée mandibulaire est efficace dans environ ___ % des cas. Elle est ___ efficace que la CPAP sur l'IAH, mais souvent ___ tolérée, ce qui peut compenser au final par une meilleure ___.",
+  "expected": ["50", "moins", "mieux", "observance"],
+  "rationale": "Chiffres-clés : efficacité 50 %, moins puissante que la CPAP mais mieux tolérée → l'observance compense souvent. Mieux vaut une OAM bien utilisée qu'une CPAP qui dort dans le placard. C'est une bonne option de compromis pour les SAOS modérés ou les patients réfractaires au masque.",
+  "tags": {
+    "system": ["pneumologie", "stomatologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

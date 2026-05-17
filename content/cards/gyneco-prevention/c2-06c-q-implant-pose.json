@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q06c-implant-pose",
+  "kind": "qcm-vignette",
+  "prompt": "Où est posé l'implant contraceptif sous-cutané ?",
+  "choices": [
+    { "id": "a", "text": "Dans la cavité utérine, sous contrôle échographique.", "correct": false },
+    { "id": "b", "text": "Sous la peau de la face interne du bras non dominant, sous anesthésie locale, par un médecin formé.", "correct": true },
+    { "id": "c", "text": "Sous la peau de l'abdomen, près de l'ombilic.", "correct": false },
+    { "id": "d", "text": "Dans le vagin, comme un anneau souple.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Implant = petit bâtonnet souple (taille d'une allumette) inséré dans le tissu sous-cutané de la FACE INTERNE du bras NON DOMINANT (donc bras gauche chez un droitier). Anesthésie locale, geste rapide, par un médecin formé (souvent gynéco ou MG ayant suivi la formation laboratoire). Contient de l'étonogestrel (progestatif). Durée 3 ans environ. Au-delà, on peut le retirer ou le remplacer.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

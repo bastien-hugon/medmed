@@ -1,0 +1,20 @@
+{
+  "id": "hta-c1-f12-symptomes-hta-severe",
+  "kind": "free-recall",
+  "prompt": "Cite les 4 symptômes possibles (mais rares) qui PEUVENT apparaître dans une HTA TRÈS SÉVÈRE ou lors d'une poussée hypertensive.",
+  "expected": ["céphalées (typiquement matinales)", "acouphènes (bourdonnements d'oreille)", "phosphènes (mouches/éclairs devant les yeux)", "épistaxis (saignement de nez)"],
+  "rationale": "Tétrade classique 'des poussées hypertensives' à connaître : CÉPHALÉES + ACOUPHÈNES + PHOSPHÈNES + ÉPISTAXIS. Mais attention : ces symptômes sont rares et tardifs. Ils n'apparaissent généralement qu'au-delà de PAS > 180 ou PAD > 110 mmHg. Leur absence ne rassure PAS sur l'absence d'HTA.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

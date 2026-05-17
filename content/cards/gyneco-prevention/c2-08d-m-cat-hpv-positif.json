@@ -1,0 +1,28 @@
+{
+  "id": "gyneco-prevention-c2-m08d-cat-hpv-positif",
+  "kind": "qcm-multi",
+  "prompt": "Une patiente de 35 ans a un TEST HPV POSITIF lors de son dépistage. Cochez les étapes appropriées de la conduite à tenir.",
+  "choices": [
+    { "id": "a", "text": "Cytologie réflexe sur le même prélèvement (ou nouveau prélèvement cytologique)", "correct": true },
+    { "id": "b", "text": "Adresser pour colposcopie selon les résultats cytologiques (et systématiquement si cytologie anormale)", "correct": true },
+    { "id": "c", "text": "Rassurer sur le fait que HPV positif ≠ cancer (importance du suivi)", "correct": true },
+    { "id": "d", "text": "Hystérectomie d'emblée", "correct": false },
+    { "id": "e", "text": "Chimiothérapie préventive", "correct": false },
+    { "id": "f", "text": "Considérer le résultat comme un cancer du col confirmé", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Conduite après HPV positif : (1) cytologie réflexe (obligatoire, car le test HPV est sensible mais peu spécifique — beaucoup de positifs n'ont aucune anomalie cellulaire) ; (2) colposcopie selon résultats cytologiques (et systématique si anomalies) ; (3) counseling rassurant — la grande majorité des HPV s'éliminent spontanément. Un HPV positif n'est jamais en soi un diagnostic de cancer. Hystérectomie, chimio, etc. n'ont AUCUNE indication à ce stade.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Cancer_du_col_de_l%27ut%C3%A9rus",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

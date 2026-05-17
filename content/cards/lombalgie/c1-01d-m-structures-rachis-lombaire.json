@@ -1,0 +1,29 @@
+{
+  "id": "lombalgie-c1-m01-structures-rachis-lombaire",
+  "kind": "qcm-multi",
+  "prompt": "Cochez toutes les structures qui composent ou stabilisent le rachis lombaire et peuvent être impliquées dans une lombalgie commune.",
+  "choices": [
+    { "id": "a", "text": "Les 5 vertèbres lombaires (L1 à L5)", "correct": true },
+    { "id": "b", "text": "Les disques intervertébraux", "correct": true },
+    { "id": "c", "text": "Les ligaments du rachis", "correct": true },
+    { "id": "d", "text": "Les muscles paravertébraux", "correct": true },
+    { "id": "e", "text": "Le pancréas", "correct": false },
+    { "id": "f", "text": "La rate", "correct": false },
+    { "id": "g", "text": "La trachée", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "La région lombaire est un système composite : 5 vertèbres (L1-L5) empilées, séparées par des disques (amortisseurs), maintenues par des ligaments et stabilisées par les muscles paravertébraux. La lombalgie commune naît d'un mélange flou de ces structures — c'est pour cela qu'on ne peut pas, le plus souvent, dire 'd'où' vient précisément la douleur. Pancréas, rate, trachée sont des distracteurs anatomiques.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q02b-ist-vs-mst",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la différence principale entre IST et MST ?",
+  "choices": [
+    { "id": "a", "text": "IST se transmet sexuellement, MST se transmet par le sang", "correct": false },
+    { "id": "b", "text": "IST = infection portée (parfois silencieuse), MST = maladie déclarée avec symptômes ou complications", "correct": true },
+    { "id": "c", "text": "IST est un terme féminin, MST est masculin", "correct": false },
+    { "id": "d", "text": "IST ne concerne que les femmes, MST tout le monde", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "IST = Infection Sexuellement Transmissible : le microbe est présent, parfois sans symptôme. MST = Maladie Sexuellement Transmissible : l'infection s'est manifestée cliniquement (symptômes ou complications). On préfère 'IST' depuis ~2015 pour insister sur le silence fréquent et justifier le dépistage.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

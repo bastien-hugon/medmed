@@ -1,0 +1,29 @@
+{
+  "id": "anxiete-c2-m07c-panique-ssri-licencies",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les antidépresseurs disposant d'une AUTORISATION (license) pour le traitement du TROUBLE PANIQUE selon NICE.",
+  "choices": [
+    { "id": "a", "text": "Escitalopram", "correct": true },
+    { "id": "b", "text": "Sertraline", "correct": true },
+    { "id": "c", "text": "Citalopram", "correct": true },
+    { "id": "d", "text": "Paroxétine", "correct": true },
+    { "id": "e", "text": "Venlafaxine (SNRI)", "correct": true },
+    { "id": "f", "text": "Imipramine en 1ère intention", "correct": false },
+    { "id": "g", "text": "Fluoxétine au long cours en 1ère intention", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "NICE précise pour le trouble panique : sauf indication contraire, prescrire un SSRI LICENCIÉ pour le panic = escitalopram, sertraline, citalopram, paroxétine, ou la venlafaxine (SNRI également licenciée). Pour le trouble panique on est plus restrictif que pour le TAG. Si inefficacité après 12 semaines à dose adéquate : essai d'imipramine ou clomipramine (tricycliques, off-label). La fluoxétine n'est pas dans la liste prioritaire NICE pour le trouble panique en 2011.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

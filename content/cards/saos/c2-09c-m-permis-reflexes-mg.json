@@ -1,0 +1,28 @@
+{
+  "id": "saos-c2-09c-m-permis-reflexes-mg",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les bons réflexes du MG face à un patient suspect ou avéré de SAOS qui conduit.",
+  "choices": [
+    {"id": "a", "text": "Demander dès la suspicion la profession et l'usage du véhicule (privé / professionnel)", "correct": true},
+    {"id": "b", "text": "Conseiller l'arrêt de la conduite à risque tant que le diagnostic ou le traitement n'est pas finalisé", "correct": true},
+    {"id": "c", "text": "Informer du risque accidentogène et tracer cette information dans le dossier", "correct": true},
+    {"id": "d", "text": "Orienter vers un médecin agréé pour les conducteurs professionnels", "correct": true},
+    {"id": "e", "text": "Ne rien dire au patient pour ne pas l'inquiéter", "correct": false},
+    {"id": "f", "text": "Signaler directement à la préfecture sans en parler au patient", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Bonnes pratiques médico-légales : interroger sur la profession dès la suspicion (avant même les explorations), informer du risque, tracer dans le dossier, conseiller l'arrêt temporaire, orienter vers un médecin agréé pour les professionnels. Le médecin traitant ne signale PAS lui-même à la préfecture (sauf cas exceptionnel d'urgence vitale collective) ; c'est le médecin agréé qui statue. Mais informer le patient et tracer est un devoir.",
+  "tags": {
+    "system": ["pneumologie", "medecine-du-travail"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

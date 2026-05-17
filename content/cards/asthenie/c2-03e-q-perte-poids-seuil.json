@@ -1,0 +1,20 @@
+{
+  "id": "asthenie-c2-q03e-perte-poids-seuil",
+  "kind": "cloze",
+  "prompt": "Une perte de poids involontaire est considérée comme un drapeau rouge lorsqu'elle dépasse ___ % du poids du corps en quelques mois.",
+  "expected": ["5", "cinq"],
+  "rationale": "Seuil conventionnel : > 5 % du poids corporel en 6 mois (ou en quelques mois) sans intention de maigrir → drapeau rouge à explorer. Évoque : cancer, infection chronique (TB, VIH), hyperthyroïdie, maladie inflammatoire systémique, dépression majeure, malabsorption. Combiné à une asthénie, ce signe accélère le bilan.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

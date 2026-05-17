@@ -1,0 +1,28 @@
+{
+  "id": "anxiete-c2-m02d-gad7-utilites",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant le GAD-7.",
+  "choices": [
+    { "id": "a", "text": "Permet d'évaluer la sévérité d'un TAG", "correct": true },
+    { "id": "b", "text": "Peut servir au suivi de la réponse au traitement", "correct": true },
+    { "id": "c", "text": "Comporte 7 items cotés de 0 à 3 (score total 0 à 21)", "correct": true },
+    { "id": "d", "text": "Pose le diagnostic à lui seul sans entretien clinique", "correct": false },
+    { "id": "e", "text": "Existe en version courte GAD-2 pour un dépistage ultra-rapide", "correct": true },
+    { "id": "f", "text": "Évalue spécifiquement le trouble panique", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Le GAD-7 est un OUTIL D'AIDE — pas un diagnostic à lui seul. Il sert (1) à quantifier la sévérité d'un TAG, (2) à suivre la réponse au traitement entre consultations. 7 items cotés 0-3 sur 2 semaines → score 0-21. GAD-2 (2 premiers items) sert au screening ultra-rapide. Le GAD-7 ne dit RIEN sur le trouble panique, les phobies ou le TOC — il est spécifique au TAG. Un score élevé impose un entretien complet pour confirmer le diagnostic.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

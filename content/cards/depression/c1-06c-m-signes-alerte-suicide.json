@@ -1,0 +1,31 @@
+{
+  "id": "depression-c1-m06c-signes-alerte-suicide",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les éléments qui constituent des SIGNAUX D'ALERTE majeurs faisant basculer le risque suicidaire vers une urgence psychiatrique.",
+  "choices": [
+    { "id": "a", "text": "Idéation suicidaire ACTIVE (\"je veux mourir\")", "correct": true },
+    { "id": "b", "text": "PLAN précis (méthode, lieu, moment envisagés)", "correct": true },
+    { "id": "c", "text": "Intention claire et déterminée de passer à l'acte", "correct": true },
+    { "id": "d", "text": "Accès aux MOYENS létaux (arme, stock de médicaments, hauteur)", "correct": true },
+    { "id": "e", "text": "Tentatives suicidaires antérieures", "correct": true },
+    { "id": "f", "text": "Désespoir massif (\"plus rien à perdre\", \"aucune issue\")", "correct": true },
+    { "id": "g", "text": "Pensées fugaces de la mort sans plan ni intention", "correct": false },
+    { "id": "h", "text": "Insomnie isolée", "correct": false },
+    { "id": "i", "text": "Préférence pour les soirées calmes à la maison", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Les signaux d'alerte majeurs sont les 5 axes de l'évaluation du risque imminent : idéation active, plan, intention, moyens accessibles, antécédents (le meilleur prédicteur), désespoir. Les idées passives fugaces (\"je préférerais ne pas être là\") sont moins graves mais restent à explorer. L'insomnie seule n'est pas un facteur de risque suicidaire spécifique. Numéro à donner : 3114 (prévention suicide, France, 24h/24, gratuit).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 351],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

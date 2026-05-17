@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q05e-50ans-vs-crp",
+  "kind": "free-recall",
+  "prompt": "Devant toute NOUVELLE céphalée chez un patient de plus de 50 ans, quels sont les 2 examens biologiques à prescrire en première intention pour éliminer un Horton ?",
+  "expected": ["VS", "CRP"],
+  "rationale": "Bilan inflammatoire : VS (vitesse de sédimentation) + CRP (protéine C-réactive). Ces deux marqueurs sont presque toujours très élevés dans le Horton (VS souvent > 50 mm, parfois > 100 mm ; CRP > 25 mg/L). Une VS et une CRP strictement normales rendent le diagnostic peu probable (mais ne l'éliminent pas formellement). C'est le réflexe le moins cher et le plus utile dans cette tranche d'âge — à toujours associer à l'examen clinique des artères temporales.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "horton"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hta-c1-m10-conditions-mesure",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations qui peuvent fausser à la HAUSSE la PA mesurée en consultation.",
+  "choices": [
+    {"id": "a", "text": "Le patient parle pendant la mesure", "correct": true},
+    {"id": "b", "text": "Le patient a fumé 15 min avant", "correct": true},
+    {"id": "c", "text": "Le patient a bu un café 20 min avant", "correct": true},
+    {"id": "d", "text": "Le patient a une vessie pleine", "correct": true},
+    {"id": "e", "text": "Le patient est au repos depuis 5 minutes en silence", "correct": false},
+    {"id": "f", "text": "La pièce est calme et tempérée", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Tous ces facteurs élèvent la PA mesurée : la conversation (+10 mmHg), nicotine (vasoconstriction, +5-10 mmHg pendant 15-30 min), caféine (idem), vessie pleine (stimulation sympathique). Le repos > 3-5 min en silence et une pièce tempérée sont AU CONTRAIRE les conditions idéales (HAS).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c2-s06f-questionnaire-utile",
+  "kind": "sct",
+  "prompt": "Vous êtes en consultation de médecine générale avec un patient asthénique. Vous hésitez à utiliser un questionnaire PHQ-9 / GAD-7 jugeant que \"ça prend trop de temps\" et que vous pouvez juger cliniquement.",
+  "hypothesis": "Les questionnaires structurés (PHQ-9, GAD-7) n'apportent rien de plus qu'un bon entretien clinique.",
+  "new_info": "Vous vous remémorez que la dépression est sous-diagnostiquée en soins primaires, que les patients n'évoquent pas spontanément leurs ruminations, et que ces questionnaires se font en 3 minutes avec une bonne valeur diagnostique.",
+  "expected": "affaiblit",
+  "rationale": "Les questionnaires standardisés REDUISENT le biais du \"j'oublie de poser certaines questions\" et déstigmatisent l'aveu de symptômes psychiques. PHQ-9 (9 items) et GAD-7 (7 items) sont validés, gratuits, rapides (3-5 minutes), et donnent un score reproductible. Ils ne remplacent pas le jugement clinique mais l'affinent. Cette information AFFAIBLIT l'hypothèse \"inutile\". Bon réflexe : les intégrer systématiquement devant une asthénie sans diagnostic organique évident.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie", "depression"],
+    "item_edn": [246, 64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

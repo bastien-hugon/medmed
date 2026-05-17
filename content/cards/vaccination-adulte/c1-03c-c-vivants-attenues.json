@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c1-c03-vivants-attenues",
+  "kind": "cloze",
+  "prompt": "Les vaccins ___ ___ sont contre-indiqués chez les personnes immunodéprimées et les femmes enceintes car le microbe affaibli peut redevenir ___ dans ce contexte.",
+  "expected": ["vivants", "atténués", "pathogène"],
+  "rationale": "Les vivants atténués (ROR, varicelle, BCG, fièvre jaune) gardent un microbe vivant — capable de se multiplier. Chez un sujet immunocompétent, le contrôle se fait sans symptôme et laisse une mémoire forte. Chez l'immunodéprimé, ce contrôle peut échouer → la souche atténuée redevient pathogène (vaccinia disséminée, BCGite, méningite ROR…). Idem en théorie pour le fœtus, d'où la CI chez la femme enceinte.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

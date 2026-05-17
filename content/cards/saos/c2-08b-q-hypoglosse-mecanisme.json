@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-08b-q-hypoglosse-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "Comment fonctionne la stimulation du nerf hypoglosse dans le SAOS ?",
+  "choices": [
+    {"id": "a", "text": "Elle bloque le nerf vague pour éviter les apnées centrales", "correct": false},
+    {"id": "b", "text": "Elle stimule à chaque inspiration les muscles de la langue qui se rétractent vers l'avant", "correct": true},
+    {"id": "c", "text": "Elle envoie une pression d'air comme une CPAP miniaturisée", "correct": false},
+    {"id": "d", "text": "Elle effectue une trachéotomie programmée la nuit", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le nerf hypoglosse (XIIe paire crânienne) commande les muscles de la langue, notamment le génioglosse. Un stimulateur implanté (sous la clavicule, comme un pacemaker) détecte l'inspiration et envoie une impulsion électrique au nerf hypoglosse → la langue se contracte vers l'avant → le pharynx s'ouvre. Activation par télécommande au coucher, automatique pendant le sommeil. C'est une approche 'physiologique' qui restaure un tonus pharyngé là où il faisait défaut.",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

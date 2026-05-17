@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c2-q02-pression-apophyse-epineuse",
+  "kind": "cloze",
+  "prompt": "Devant une suspicion de fracture vertébrale, un signe clinique simple est la reproduction d'une douleur intense, localisée à un étage précis, lors de la PRESSION sur l'___ ___ correspondante (la 'bosse' que l'on sent au milieu du dos).",
+  "expected": ["apophyse", "épineuse"],
+  "rationale": "Reproduction d'une douleur étagée à la palpation/pression d'une apophyse épineuse = signe orientant vers une fracture vertébrale (à associer au contexte clinique). C'est un geste simple, à faire systématiquement en cas de suspicion (chute, ostéoporose, corticothérapie).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

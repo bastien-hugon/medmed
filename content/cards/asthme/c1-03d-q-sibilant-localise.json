@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c1-q03d-sibilant-localise",
+  "kind": "qcm-vignette",
+  "prompt": "Un enfant de 4 ans, jusque-là en bonne santé, présente brusquement une toux et un sibilant LOCALISÉ uniquement au champ pulmonaire droit, persistant après plusieurs bouffées de salbutamol. Quelle hypothèse prioritaire ?",
+  "choices": [
+    { "id": "a", "text": "Une crise d'asthme typique : on prescrit un ICS de fond.", "correct": false },
+    { "id": "b", "text": "Une inhalation de corps étranger (cacahuète, jouet) à explorer en urgence.", "correct": true },
+    { "id": "c", "text": "Une rhinopharyngite banale, on rassure et on attend.", "correct": false },
+    { "id": "d", "text": "Un pneumothorax bilatéral.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "SIBILANT LOCALISÉ unilatéral + début brutal chez un jeune enfant = corps étranger inhalé jusqu'à preuve du contraire. Examen ORL/pneumo en urgence (bronchoscopie). L'asthme typique est diffus et bilatéral. Pneumothorax = silence auscultatoire et tympanisme, pas un sibilant. Mémo : tout sibilant focal/persistant doit faire chercher un OBSTACLE (corps étranger chez l'enfant ; chez l'adulte fumeur : penser tumeur bronchique).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188, 359],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

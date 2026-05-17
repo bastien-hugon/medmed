@@ -1,0 +1,26 @@
+{
+  "id": "hta-c1-q11b-premiere-mesure-haute",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi la PREMIÈRE mesure de PA est-elle souvent plus haute que les suivantes lors d'une consultation ?",
+  "choices": [
+    {"id": "a", "text": "Le tensiomètre est moins précis sur la première mesure", "correct": false},
+    {"id": "b", "text": "À cause d'un effet de stress initial (effet 'blouse blanche' atténué), la posture et la vasoconstriction d'arrivée", "correct": true},
+    {"id": "c", "text": "Le sang circule plus vite au début de la consultation", "correct": false},
+    {"id": "d", "text": "Les artères sont plus rigides au début", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "La première mesure capture l'état d'arrivée : le patient n'est pas encore tout à fait relâché, l'effet blouse blanche peut jouer, la posture n'est pas optimale. La 2e mesure (1 min plus tard) est plus représentative. C'est pour ça qu'on garde la moyenne (ou les 2 dernières) et qu'on fait au moins 2 mesures (HAS).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

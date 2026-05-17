@@ -1,0 +1,29 @@
+{
+  "id": "anxiete-c1-m07f-spectre-anxieux",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les entités appartenant historiquement au 'spectre des troubles anxieux' (au sens large).",
+  "choices": [
+    { "id": "a", "text": "Trouble anxieux généralisé (TAG)", "correct": true },
+    { "id": "b", "text": "Trouble panique avec ou sans agoraphobie", "correct": true },
+    { "id": "c", "text": "Phobies spécifiques (araignée, ascenseur, sang)", "correct": true },
+    { "id": "d", "text": "Phobie sociale (trouble d'anxiété sociale)", "correct": true },
+    { "id": "e", "text": "Trouble bipolaire de type I", "correct": false },
+    { "id": "f", "text": "TOC et ESPT (DSM-5 : classification distincte mais cliniquement proches)", "correct": true },
+    { "id": "g", "text": "Schizophrénie", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "Le 'spectre anxieux' au sens large inclut historiquement : TAG, trouble panique (+/- agoraphobie), phobies spécifiques, phobie sociale, TOC et ESPT. Le DSM-5 a séparé TOC (OCD-related) et ESPT (trauma-related) mais en MG française on continue souvent à les regrouper. Le trouble bipolaire (oscillation thymique entre dépression et manie) et la schizophrénie (psychose) sont des entités DIFFÉRENTES — pas des troubles anxieux, même s'ils peuvent S'ACCOMPAGNER d'anxiété (comorbidité).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hta-c1-m12-symptomes-faux",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations FAUSSES (idées reçues) sur les symptômes de l'HTA.",
+  "choices": [
+    {"id": "a", "text": "L'HTA donne TOUJOURS des maux de tête", "correct": true},
+    {"id": "b", "text": "On peut avoir 170/100 sans aucun symptôme", "correct": false},
+    {"id": "c", "text": "Pas de symptômes = pas d'HTA, inutile de dépister", "correct": true},
+    {"id": "d", "text": "Le nez qui saigne est un signe constant d'HTA", "correct": true},
+    {"id": "e", "text": "L'HTA est asymptomatique dans la grande majorité des cas", "correct": false},
+    {"id": "f", "text": "Avoir de l'HTA donne forcément des vertiges et des bourdonnements", "correct": true}
+  ],
+  "expected": ["a", "c", "d", "f"],
+  "rationale": "Les affirmations FAUSSES sont des idées reçues répandues. La réalité : l'HTA est SILENCIEUSE dans la grande majorité des cas, même à 170/100. Pas de symptômes = surtout pas une raison de ne pas dépister. Les céphalées, acouphènes, phosphènes, épistaxis ne surviennent que dans les formes très sévères ET ne sont pas constants. Le dépistage opportuniste est essentiel.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

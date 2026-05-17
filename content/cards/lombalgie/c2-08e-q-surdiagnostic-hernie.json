@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c2-q08-surdiagnostic-hernie",
+  "kind": "cloze",
+  "prompt": "Environ ___ % des adultes asymptomatiques (sans aucune douleur lombaire) ont une 'hernie discale' ou une 'protrusion' visible à l'IRM. C'est le principal argument contre l'imagerie systématique en lombalgie commune.",
+  "expected": ["30", "50", "30 à 50", "30-50"],
+  "rationale": "Environ 30 à 50 % des adultes asymptomatiques ont des anomalies discales visibles à l'IRM (selon l'âge : prévalence croissante avec l'âge). Cela rend toute interprétation 'cette hernie est la cause de votre douleur' très risquée — c'est le principal argument contre l'IRM en lombalgie commune.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "imagerie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

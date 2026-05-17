@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c1-q11-sucre-sang-cloze",
+  "kind": "cloze",
+  "prompt": "Le terme scientifique pour le 'sucre' qui circule dans le sang est le ___.",
+  "expected": ["glucose"],
+  "rationale": "Glucose = mot scientifique pour le sucre sanguin. C'est un monosaccharide (sucre simple) directement utilisable par les cellules comme carburant. Synonymes acceptés ici : 'sucre sanguin' ou 'sucre du sang', mais le terme exact reste 'glucose'.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

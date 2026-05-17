@@ -1,0 +1,30 @@
+{
+  "id": "asthenie-c1-q01e-decoder-fatigue",
+  "kind": "free-recall",
+  "prompt": "Quand un patient dit \"je suis fatigué\", citez les 4 grandes réalités cliniques différentes qu'il peut être en train de décrire (et qu'il faut faire préciser).",
+  "expected": [
+    "asthénie",
+    "fatigue vraie",
+    "manque d'énergie",
+    "faiblesse musculaire",
+    "manque de force",
+    "somnolence",
+    "envie de dormir",
+    "dyspnée d'effort",
+    "essoufflement"
+  ],
+  "rationale": "Quatre sens cachés derrière le mot \"fatigué\" : (1) ASTHÉNIE vraie (manque d'énergie pour démarrer/soutenir une activité) ; (2) FAIBLESSE musculaire (manque de force réelle) ; (3) SOMNOLENCE (envie irrépressible de dormir) ; (4) DYSPNÉE d'effort (essoufflement). Chacune oriente vers des pistes diagnostiques très différentes : raison pour laquelle l'étape #1 est de faire reformuler le patient.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

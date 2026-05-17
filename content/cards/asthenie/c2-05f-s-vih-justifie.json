@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c2-s05f-vih-justifie",
+  "kind": "sct",
+  "prompt": "Vous suivez un patient de 30 ans, fatigué depuis 6 semaines, pack standard normal. Vous envisagez de ne pas prescrire de sérologie VIH, jugée non systématique en 1ère intention.",
+  "hypothesis": "Une sérologie VIH n'est pas indiquée chez ce patient en 1ère intention.",
+  "new_info": "À l'interrogatoire, il rapporte des rapports sexuels non protégés avec partenaires multiples ces 6 derniers mois, et un épisode fébrile avec adénopathies cervicales il y a 5 semaines.",
+  "expected": "affaiblit",
+  "rationale": "Les nouveaux éléments (rapports à risque récents + primo-infection possible avec syndrome viral) constituent une indication CLAIRE de dépistage VIH. Ce n'est plus du dépistage \"de débrouillage\" : il y a une hypothèse forte. La sérologie VIH devient un test DIRIGÉ pertinent. Cette information AFFAIBLIT l'hypothèse \"pas d'indication\". À coupler avec sérologies hépatites B et C, et bilan IST.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

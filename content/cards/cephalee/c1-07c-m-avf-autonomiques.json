@@ -1,0 +1,29 @@
+{
+  "id": "cephalee-c1-m07c-avf-autonomiques",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les signes autonomiques HOMOLATÉRAUX (du même côté que la douleur) typiques d'une crise d'algie vasculaire de la face.",
+  "choices": [
+    { "id": "a", "text": "Œil rouge / injecté", "correct": true },
+    { "id": "b", "text": "Larmoiement", "correct": true },
+    { "id": "c", "text": "Congestion / écoulement nasal", "correct": true },
+    { "id": "d", "text": "Ptosis (paupière qui tombe)", "correct": true },
+    { "id": "e", "text": "Myosis (pupille rétrécie)", "correct": true },
+    { "id": "f", "text": "Sueur frontale / faciale", "correct": true },
+    { "id": "g", "text": "Mydriase bilatérale", "correct": false },
+    { "id": "h", "text": "Photophobie diffuse marquée des deux yeux", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Signature autonomique de l'AVF (système parasympathique trigéminé activé + sympathique paralysé du côté de la douleur) : œil rouge, larmoiement, nez bouché ou qui coule, ptosis, myosis, sueur frontale — TOUS du MÊME CÔTÉ que la douleur. Mydriase et photophobie bilatérale ne sont pas typiques (cette dernière oriente plutôt vers la migraine). La myosis + ptosis homolatéraux constituent un syndrome de Claude-Bernard-Horner partiel transitoire.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "avf"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

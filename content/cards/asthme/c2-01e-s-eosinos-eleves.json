@@ -1,0 +1,22 @@
+{
+  "id": "asthme-c2-s01-eosinos-eleves",
+  "kind": "sct",
+  "prompt": "Une femme de 34 ans consulte pour toux nocturne, oppression thoracique intermittente, rhinite saisonnière connue.",
+  "hypothesis": "Mon hypothèse : il s'agit d'un asthme.",
+  "new_info": "La NFS rapporte 0,55 G/L d'éosinophiles (laboratoire indique « > référence supérieure »). FeNO non disponible.",
+  "expected": "renforce",
+  "rationale": "Éosinos au-dessus de la borne supérieure du labo en présence d'une clinique évocatrice = étape 1 NG245 positive → diagnostic d'asthme retenu. Pas besoin d'aller plus loin si la clinique colle. NG245 a introduit cette étape précisément pour rendre le diag accessible quand on n'a pas de FeNO en cabinet. À noter : d'autres causes d'hyperéosinophilie existent (parasitose, médicaments, néo) — à garder en tête si autres signes d'appel.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

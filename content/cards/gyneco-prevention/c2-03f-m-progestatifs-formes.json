@@ -1,0 +1,28 @@
+{
+  "id": "gyneco-prevention-c2-m03f-progestatifs-formes",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les FORMES utilisées comme contraception par progestatif seul.",
+  "choices": [
+    { "id": "a", "text": "Pilule micro-dosée (orale, quotidienne, sans interruption)", "correct": true },
+    { "id": "b", "text": "Injection intramusculaire trimestrielle", "correct": true },
+    { "id": "c", "text": "Implant sous-cutané (étonogestrel, ~3 ans)", "correct": true },
+    { "id": "d", "text": "DIU au lévonorgestrel (DIU hormonal, 3 à 8 ans)", "correct": true },
+    { "id": "e", "text": "Anneau vaginal mensuel", "correct": false },
+    { "id": "f", "text": "Patch transdermique hebdomadaire", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Les 4 formes de progestatif seul : pilule micro-dosée, injection trimestrielle, implant sous-cutané, DIU LNG. L'anneau vaginal et le patch sont des ŒSTRO-PROGESTATIFS combinés (ils contiennent un œstrogène + un progestatif), pas des progestatifs seuls.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

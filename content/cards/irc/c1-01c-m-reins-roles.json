@@ -1,0 +1,30 @@
+{
+  "id": "irc-c1-m01-reins-roles",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les fonctions assurées par les reins (et seulement celles-ci).",
+  "choices": [
+    { "id": "a", "text": "Filtrer le sang et fabriquer l'urine", "correct": true },
+    { "id": "b", "text": "Régler la quantité d'eau et de sel dans l'organisme", "correct": true },
+    { "id": "c", "text": "Fabriquer l'EPO, hormone qui stimule la production de globules rouges", "correct": true },
+    { "id": "d", "text": "Activer la vitamine D", "correct": true },
+    { "id": "e", "text": "Pomper le sang dans tout l'organisme", "correct": false },
+    { "id": "f", "text": "Fabriquer le sang (cellules sanguines)", "correct": false },
+    { "id": "g", "text": "Contribuer au contrôle de la pression artérielle", "correct": true },
+    { "id": "h", "text": "Digérer les protéines alimentaires", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "g"],
+  "rationale": "Les reins ont 5 grandes fonctions : (1) filtrer et fabriquer l'urine, (2) homéostasie hydro-sodée, (3) fabriquer l'EPO (anémie en cas de MRC), (4) activer la vitamine D (troubles minéraux osseux en MRC), (5) participer à la régulation de la PA via le SRAA. Ils NE pompent PAS le sang (cœur) et NE fabriquent PAS les cellules sanguines (moelle osseuse). Et ils ne digèrent rien — la digestion appartient au tube digestif.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

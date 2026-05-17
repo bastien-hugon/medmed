@@ -1,0 +1,29 @@
+{
+  "id": "saos-c2-05c-m-mhd-vraies",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les mesures HYGIÉNO-DIÉTÉTIQUES recommandées dans le SAOS.",
+  "choices": [
+    {"id": "a", "text": "Perte de poids si surpoids", "correct": true},
+    {"id": "b", "text": "Arrêt de l'alcool en soirée (ou réduction)", "correct": true},
+    {"id": "c", "text": "Sevrage des benzodiazépines et apparentés", "correct": true},
+    {"id": "d", "text": "Éviter le décubitus dorsal (thérapie posturale)", "correct": true},
+    {"id": "e", "text": "Exercice physique régulier", "correct": true},
+    {"id": "f", "text": "Arrêt total et définitif du sport", "correct": false},
+    {"id": "g", "text": "Sieste prolongée systématique après chaque repas", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Les 5 MHD du SAOS : (1) perte de poids (la plus efficace), (2) arrêt de l'alcool le soir (myorelaxant), (3) sevrage des BZD/Z-drugs (myorelaxants), (4) éviter le décubitus dorsal (thérapie posturale, surtout pour les SAOS positionnels), (5) exercice physique régulier (perte de poids + tonus + qualité de sommeil). Ces mesures sont la BASE — toujours indispensables, jamais facultatives, à toute sévérité. L'arrêt total du sport est délétère. La sieste systématique n'a pas sa place (et peut masquer la somnolence diurne diagnostique).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

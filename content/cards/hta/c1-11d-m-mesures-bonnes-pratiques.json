@@ -1,0 +1,28 @@
+{
+  "id": "hta-c1-m11-mesures-bonnes-pratiques",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les bonnes pratiques HAS concernant la fréquence/nombre de mesures de PA en consultation.",
+  "choices": [
+    {"id": "a", "text": "Au moins 2 mesures espacées d'environ 1 minute", "correct": true},
+    {"id": "b", "text": "Mesure aux DEUX BRAS à la première consultation", "correct": true},
+    {"id": "c", "text": "Garder par défaut le bras où la PA est la PLUS HAUTE pour les mesures de suivi", "correct": true},
+    {"id": "d", "text": "Une seule mesure suffit si elle est < 140/90", "correct": false},
+    {"id": "e", "text": "Garder la moyenne des mesures (ou les 2 dernières si la 1ère est aberrante)", "correct": true},
+    {"id": "f", "text": "Faire 5 mesures à la suite systématiquement", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "HAS : ≥ 2 mesures espacées ~1 min, mesure aux 2 bras à la 1ère consultation, on garde le bras le plus haut pour le suivi (peut révéler une atteinte vasculaire si écart > 15 mmHg), garder la moyenne. Une seule mesure ne suffit jamais. 5 mesures = excès qui n'est pas la règle HAS (mais c'est la règle de l'AMT à domicile).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

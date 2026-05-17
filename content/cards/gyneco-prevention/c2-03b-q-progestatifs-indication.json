@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q03b-progestatifs-indication",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est l'indication PRINCIPALE des progestatifs seuls par rapport aux œstro-progestatifs ?",
+  "choices": [
+    { "id": "a", "text": "Patiente jeune sans aucun facteur de risque cardiovasculaire.", "correct": false },
+    { "id": "b", "text": "Patiente présentant une contre-indication aux œstrogènes (tabac > 35 ans, migraine avec aura, ATCD TEV, allaitement, HTA non équilibrée, post-partum immédiat).", "correct": true },
+    { "id": "c", "text": "Patiente souhaitant des cycles très réguliers.", "correct": false },
+    { "id": "d", "text": "Patiente cherchant à améliorer son acné.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les progestatifs seuls sont la 'famille plan B' quand les œstrogènes sont contre-indiqués. Liste mémo : tabac > 35 ans, migraine AVEC aura, ATCD TEV, HTA mal contrôlée, allaitement, post-partum immédiat, cancer du sein. À l'inverse, ils donnent plus de saignements irréguliers que les œstro-progestatifs (donc moins bons pour les cycles 'réglés') et n'améliorent généralement pas l'acné (certains peuvent même l'aggraver).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

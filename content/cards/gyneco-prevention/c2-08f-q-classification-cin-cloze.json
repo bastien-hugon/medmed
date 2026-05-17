@@ -1,0 +1,20 @@
+{
+  "id": "gyneco-prevention-c2-q08f-classification-cin-cloze",
+  "kind": "cloze",
+  "prompt": "Sur biopsie, les lésions précancéreuses du col sont classées en ___ 1, ___ 2, ___ 3 selon la sévérité (acronyme de 3 lettres signifiant 'néoplasie cervicale intraépithéliale').",
+  "expected": ["CIN", "CIN", "CIN"],
+  "rationale": "CIN = Cervical Intraepithelial Neoplasia (néoplasie cervicale intraépithéliale). CIN1 = légère, CIN2 = modérée, CIN3 = sévère (= carcinome in situ). En cytologie (sur frottis), la classification équivalente est Bethesda : ASC-US (atypies indéterminées), LSIL (bas grade, ~ CIN1), HSIL (haut grade, ~ CIN2-3). Plus la sévérité est haute, plus le risque de progression vers un cancer invasif est élevé — donc plus le traitement est rapide (conisation pour les CIN2-3).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Cancer_du_col_de_l%27ut%C3%A9rus",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "saos-c2-06e-c-cpap-pression",
+  "kind": "cloze",
+  "prompt": "La CPAP délivre une pression continue de ___ à ___ cm H₂O, titrée individuellement (ou auto-ajustable = ___). L'observance long terme est d'environ ___ % à 1 an.",
+  "expected": ["4", "20", "APAP", "80"],
+  "rationale": "Repères techniques : pression de 4 à 20 cm H₂O (titration manuelle ou via mode APAP = Auto-CPAP = appareil qui adapte la pression en temps réel selon les événements détectés). Observance long terme : ~80 % à 1 an — meilleure qu'on ne le pense, à condition d'un bon accompagnement initial (choix du masque, gestion des effets indésirables, suivi rapproché les 3 premiers mois).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

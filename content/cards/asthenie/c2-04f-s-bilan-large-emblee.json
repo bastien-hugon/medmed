@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c2-s04f-bilan-large-emblee",
+  "kind": "sct",
+  "prompt": "Un patient de 30 ans, asthénique depuis 2 mois, examen normal, pas de drapeau rouge. Vous envisagez de prescrire d'emblée : sérologies VIH/EBV/CMV/Lyme/hépatites + bilan immunologique (ANA, FR, anti-CCP) + scanner thoraco-abdo-pelvien, \"pour ne rien rater\".",
+  "hypothesis": "Prescrire d'emblée un bilan exhaustif (sérologies multiples + immunologie + imagerie large) est une bonne stratégie diagnostique.",
+  "new_info": "Vous vous remémorez les principes de l'EBM : la valeur prédictive positive d'un test dépend de la probabilité pré-test. Sur une population à faible probabilité, beaucoup de tests = beaucoup de faux positifs.",
+  "expected": "affaiblit",
+  "rationale": "Sans point d'appel clinique, prescrire des dizaines de tests AUGMENTE le nombre de FAUX POSITIFS et donc l'anxiété, les examens en cascade, et les coûts, sans améliorer le diagnostic. Le rappel des principes de l'EBM AFFAIBLIT l'hypothèse \"plus on prescrit, mieux c'est\". Conduite raisonnable : pack standard + tests dirigés sur l'orientation clinique. Un bon médecin prescrit MOINS et MIEUX.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

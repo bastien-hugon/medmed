@@ -1,0 +1,29 @@
+{
+  "id": "irc-c1-m06-bandelette-parametres",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la bandelette urinaire dans la MRC.",
+  "choices": [
+    { "id": "a", "text": "Pour la MRC, on regarde surtout les carrés 'protéines' et 'sang'", "correct": true },
+    { "id": "b", "text": "Une bandelette positive aux protéines doit être confirmée par un ACR au laboratoire", "correct": true },
+    { "id": "c", "text": "La bandelette est un examen de DIAGNOSTIC suffisant pour parler de MRC", "correct": false },
+    { "id": "d", "text": "Une bandelette négative aux protéines élimine définitivement toute albuminurie", "correct": false },
+    { "id": "e", "text": "Une hématurie sur bandelette chez l'adulte impose une exploration (infection, lithiase, glomérule, urologie)", "correct": true },
+    { "id": "f", "text": "Les bandelettes détectent surtout l'albumine, pas toutes les protéines (chaînes légères du myélome peuvent passer inaperçues)", "correct": true },
+    { "id": "g", "text": "Une urine très concentrée peut donner un faux positif aux protéines", "correct": true }
+  ],
+  "expected": ["a", "b", "e", "f", "g"],
+  "rationale": "La bandelette est un test de DÉPISTAGE, pas de diagnostic. Pour la MRC : protéines (à confirmer par ACR) + sang (à explorer). Elle a deux pièges : faux positif (urine très concentrée, hématurie macro) et faux négatif (microalbuminurie débutante, chaînes légères du myélome). C'est pourquoi on ne se contente jamais d'une bandelette : on confirme par l'ACR si protéines positives.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

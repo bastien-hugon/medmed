@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c1-q06-eal-definition",
+  "kind": "qcm-vignette",
+  "prompt": "Que signifie l'acronyme EAL en biologie lipidique ?",
+  "choices": [
+    { "id": "a", "text": "Évaluation des Acides Linoléiques.", "correct": false },
+    { "id": "b", "text": "Exploration d'une Anomalie Lipidique.", "correct": true },
+    { "id": "c", "text": "Examen Annuel des Lipoprotéines.", "correct": false },
+    { "id": "d", "text": "Évaluation Avant Lipoaspiration.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "EAL = 'Exploration d'une Anomalie Lipidique'. C'est la nomenclature française pour le bilan lipidique complet (cholestérol total, HDL, LDL calculé, triglycérides). À demander à JEUN 12h (eau autorisée), loin d'un événement aigu. C'est l'outil de base pour évaluer une dyslipidémie.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

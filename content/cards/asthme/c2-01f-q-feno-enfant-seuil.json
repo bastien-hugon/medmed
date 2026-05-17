@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c2-q01f-feno-enfant-seuil",
+  "kind": "cloze",
+  "prompt": "Chez l'ENFANT de 5 à 16 ans, le seuil de FeNO positif retenu par NICE NG245 est de ___ ppb (différent de celui de l'adulte ≥ 12 ans, qui est de 50 ppb).",
+  "expected": ["35"],
+  "rationale": "Seuils FeNO NG245 — à mémoriser : ADULTE ≥ 12 ans = 50 ppb / ENFANT 5-16 ans = 35 ppb. Ces deux fourchettes d'âge se CHEVAUCHENT (12-16 ans) : en pratique, on utilise le seuil pédiatrique 35 ppb chez les 5-16 ans, et le seuil adulte 50 ppb à partir de 17 ans. Piège classique de QCM ÉCN : mélanger les deux seuils.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

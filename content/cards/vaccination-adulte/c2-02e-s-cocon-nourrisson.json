@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c2-s02-cocon-nourrisson",
+  "kind": "sct",
+  "prompt": "Vous suivez une famille avec un nourrisson de 3 mois né prématurément. Le père, 32 ans, en bonne santé, demande s'il doit se faire vacciner contre la grippe.",
+  "hypothesis": "Mon hypothèse : sans comorbidité personnelle, il n'a pas d'indication particulière au vaccin antigrippal.",
+  "new_info": "Vous lui rappelez qu'il vit au quotidien avec un nourrisson de moins de 6 mois né prématuré, donc fragile face à la grippe.",
+  "expected": "affaiblit",
+  "rationale": "Stratégie de COCON : l'entourage proche d'un nourrisson < 6 mois (qui ne peut pas être vacciné directement contre la grippe) est une INDICATION du vaccin antigrippal. Cela protège indirectement le bébé qui, s'il fait une grippe, peut décompenser gravement. L'info AFFAIBLIT l'absence d'indication apparente. Idem pour l'entourage des immunodéprimés.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe", "cocon"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

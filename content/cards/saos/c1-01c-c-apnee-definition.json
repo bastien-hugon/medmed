@@ -1,0 +1,20 @@
+{
+  "id": "saos-c1-01c-c-apnee-definition",
+  "kind": "cloze",
+  "prompt": "Au cours du sommeil, une APNÉE est définie comme un arrêt complet du flux respiratoire pendant plus de ___ secondes. Dans le SAOS, l'origine est ___ (mécanique, par fermeture du pharynx), et représente environ ___ % des apnées du sommeil.",
+  "expected": ["10", "obstructive", "90"],
+  "rationale": "Trois chiffres fondamentaux : seuil de durée (10 s, consensus international), mécanisme (obstructif = collapsus du pharynx, par opposition à 'central' = défaut de commande nerveuse), et fréquence (90 % des apnées du sommeil sont obstructives — les 10 % restantes sont centrales ou mixtes).",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

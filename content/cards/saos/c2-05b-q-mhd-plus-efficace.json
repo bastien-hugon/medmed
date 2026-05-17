@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-05b-q-mhd-plus-efficace",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi les mesures hygiéno-diététiques du SAOS, laquelle est la plus EFFICACE en termes de réduction de l'IAH ?",
+  "choices": [
+    {"id": "a", "text": "L'arrêt total du tabac", "correct": false},
+    {"id": "b", "text": "La perte de poids", "correct": true},
+    {"id": "c", "text": "L'arrêt complet de l'alcool, même en journée", "correct": false},
+    {"id": "d", "text": "Le sommeil sur le dos avec un coussin haut", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "La PERTE DE POIDS est la MHD la plus efficace : une perte de 10 % du poids corporel peut réduire l'IAH de 25 à 50 %. Mécanisme : moins de graisse péripharyngée → pharynx plus large. Effet bonus : améliore aussi HTA, diabète, profil lipidique. C'est le seul levier non médicamenteux capable de 'guérir' un SAOS léger à modéré et de réduire la dépendance à la CPAP pour les sévères. Les autres mesures (alcool, sédatifs, position) sont importantes mais d'efficacité plus modeste isolément.",
+  "tags": {
+    "system": ["pneumologie", "endocrinologie"],
+    "sdd": ["saos", "obesite"],
+    "item_edn": [108, 253],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

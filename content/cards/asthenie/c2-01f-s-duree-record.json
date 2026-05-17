@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c2-s01f-duree-record",
+  "kind": "sct",
+  "prompt": "Un patient de 45 ans rapporte une fatigue depuis 2 semaines. Vous évoquez d'emblée un syndrome de fatigue chronique (ME/CFS) et envisagez de le mettre sous \"pacing\".",
+  "hypothesis": "Il s'agit d'un syndrome de fatigue chronique (ME/CFS).",
+  "new_info": "La durée des symptômes est rappelée : 2 semaines.",
+  "expected": "affaiblit",
+  "rationale": "Le ME/CFS exige une fatigue invalidante d'au moins 6 mois (avec malaise post-effort, sommeil non récupérateur, troubles cognitifs, intolérance orthostatique). À 2 semaines, on est en fatigue RÉCENTE : il faut d'abord rechercher une cause iatrogène, une anémie, une infection virale, un stress aigu. Cette information AFFAIBLIT fortement l'hypothèse ME/CFS posée trop tôt. C'est un diagnostic d'élimination ET de durée.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

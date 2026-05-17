@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c2-s01f-deux-crises",
+  "kind": "sct",
+  "prompt": "Patiente de 25 ans, jamais eu de céphalée de sa vie. Elle a présenté 2 crises de céphalée hémicrânienne pulsatile avec nausée et photophobie, durées 8 et 12 h, en 2 mois. Vous évoquez le diagnostic de migraine sans aura selon les critères ICHD-3. Comment cette nouvelle information modifie-t-elle votre hypothèse ?",
+  "hypothesis": "Le diagnostic ICHD-3 de migraine sans aura est posé.",
+  "new_info": "Vous relisez les critères : il faut au MOINS 5 crises répondant aux critères B-D pour le diagnostic certain. Cette patiente n'en compte que 2.",
+  "expected": "affaiblit",
+  "rationale": "Avec seulement 2 crises, on parle de MIGRAINE PROBABLE (catégorie ICHD-3 1.5) — pas de migraine certaine. La conduite reste similaire (traitement symptomatique adapté + agenda des céphalées), mais le diagnostic ne sera consolidé qu'après la 5ᵉ crise. C'est une nuance importante : on ne 'donne pas' le label de migraine à la légère, surtout chez un patient sans antécédent. L'information affaiblit l'hypothèse 'migraine certaine'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

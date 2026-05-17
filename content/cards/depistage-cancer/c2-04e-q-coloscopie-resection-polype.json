@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q04e-coloscopie-resection-polype",
+  "kind": "qcm-vignette",
+  "prompt": "Monsieur L., 64 ans, a un FIT positif. La coloscopie retrouve UN polype adénomateux de 12 mm, qui est réséqué dans le même temps. L'histologie ne montre pas de signe de cancer. Comment qualifier cette prise en charge sur le plan de la prévention ?",
+  "choices": [
+    { "id": "a", "text": "Échec du dépistage : il n'y avait pas de cancer, c'était une fausse alerte", "correct": false },
+    { "id": "b", "text": "Prévention SECONDAIRE réussie : on a retiré une lésion à risque qui aurait pu évoluer vers un cancer dans les années à venir", "correct": true },
+    { "id": "c", "text": "Le patient doit refaire un FIT dans 6 mois pour vérifier", "correct": false },
+    { "id": "d", "text": "Il faut maintenant traiter le polype réséqué par chimiothérapie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "C'est exactement la situation gagnante du dépistage du cancer colorectal : on retire un polype adénomateux (précurseur potentiel) AVANT qu'il ne devienne cancéreux. Le délai de transformation adénome → cancer est de 5 à 15 ans en général. La résection endoscopique = INTERCEPTION du processus. C'est ça qui explique le bénéfice de mortalité du dépistage : moins de cancers réellement développés. (a) interprétation à l'envers : ce n'est pas une fausse alerte, c'est une vraie intervention préventive. (c) faux : suivi par coloscopie de surveillance (3-5 ans selon nb/taille de polypes), PAS FIT. (d) absurde : un polype adénomateux bénin réséqué ne se 'traite' pas.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

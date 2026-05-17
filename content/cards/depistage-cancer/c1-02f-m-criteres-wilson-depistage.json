@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c1-m02f-criteres-wilson-depistage",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les conditions qu'on attend AVANT d'autoriser un dépistage de masse pour un cancer (critères de Wilson et Jungner, simplifiés).",
+  "choices": [
+    { "id": "a", "text": "La maladie est fréquente et grave dans la population", "correct": true },
+    { "id": "b", "text": "Il existe une phase préclinique détectable (avant les symptômes)", "correct": true },
+    { "id": "c", "text": "Le test est simple, acceptable et suffisamment précis", "correct": true },
+    { "id": "d", "text": "Un traitement précoce est plus efficace qu'un traitement tardif", "correct": true },
+    { "id": "e", "text": "Le coût du programme doit être nul pour le système de santé", "correct": false },
+    { "id": "f", "text": "La balance bénéfice/risque est favorable en population générale", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "Critères classiques de Wilson : maladie grave et fréquente, phase préclinique détectable, test acceptable et précis, traitement plus efficace au stade précoce, balance bénéfice/risque favorable, et coût SOUTENABLE (mais pas nul ! e est faux). Pourquoi ces critères empêchent certains dépistages (poumon, prostate, ovaire en population générale) : soit le test n'est pas assez précis, soit le traitement précoce n'apporte pas un gain de mortalité prouvé, soit la balance penche vers les effets délétères (surdiagnostic). Ces critères protègent contre l'enthousiasme naïf : 'dépister, c'est forcément bien' est FAUX.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 287, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/D%C3%A9pistage",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

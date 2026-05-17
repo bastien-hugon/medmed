@@ -1,0 +1,30 @@
+{
+  "id": "irc-c2-m06-sglt2-effets",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant les SGLT2-i (dapagliflozine, empagliflozine).",
+  "choices": [
+    { "id": "a", "text": "Ils inhibent la réabsorption tubulaire du glucose et du sodium dans le tube proximal", "correct": true },
+    { "id": "b", "text": "Ils réduisent la protéinurie en baissant la pression intraglomérulaire", "correct": true },
+    { "id": "c", "text": "Ils sont bénéfiques aussi en cas d'insuffisance cardiaque (réduction d'hospitalisations)", "correct": true },
+    { "id": "d", "text": "Une hausse INITIALE de créatinine de 5-10 % est attendue et ne doit pas faire arrêter", "correct": true },
+    { "id": "e", "text": "Ils augmentent le risque de mycoses génitales", "correct": true },
+    { "id": "f", "text": "Ils peuvent provoquer une acidocétose euglycémique chez le diabétique (rare mais grave)", "correct": true },
+    { "id": "g", "text": "Ils sont à arrêter le matin d'une intervention chirurgicale ou en cas de jeûne prolongé", "correct": true },
+    { "id": "h", "text": "Ils provoquent fréquemment des hypoglycémies sévères en monothérapie", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g"],
+  "rationale": "SGLT2-i = inhibition de la réabsorption tubulaire de glucose et sodium → glycosurie (effet antidiabétique), natriurèse (baisse pression intraglomérulaire = néphroprotection), bénéfice IC (effet diurétique + autres mécanismes). Effets indésirables principaux : mycoses génitales (sucre dans l'urine), acidocétose euglycémique (rare, à connaître), déshydratation (prudence si diurétique). Ils NE provoquent PAS d'hypoglycémies en monothérapie (mécanisme indépendant de l'insuline). Suspension périopératoire / jeûne prolongé / infection sévère pour éviter l'acidocétose.",
+  "tags": {
+    "system": ["nephrologie", "endocrinologie"],
+    "sdd": ["irc", "mrc", "diabete"],
+    "item_edn": [261, 264, 245],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

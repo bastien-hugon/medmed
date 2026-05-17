@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c1-s05-rupture-statine-stabilisation",
+  "kind": "sct",
+  "prompt": "Un patient sceptique se demande pourquoi prendre une statine 'pour la vie' alors qu'il ne sent rien. Vous expliquez que la statine stabilise les plaques.",
+  "hypothesis": "Les statines réduisent le risque de rupture de plaque (effet pléiotrope), au-delà de la simple baisse du LDL.",
+  "new_info": "Vous lui rappelez que des essais cliniques (PROVE-IT, IMPROVE-IT) montrent une baisse des événements CV même quand le LDL initial était 'normal'.",
+  "expected": "renforce",
+  "rationale": "Cette information RENFORCE l'hypothèse : si le bénéfice persiste même avec un LDL initial bas, c'est que la statine fait plus que simplement baisser le chiffre — elle stabilise la chape fibreuse, réduit l'inflammation locale, améliore l'endothélium. C'est précisément le concept d'effet PLÉIOTROPE. Argument clé à donner au patient : 'on traite pour empêcher la rupture du jour où on ne s'y attend pas'.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

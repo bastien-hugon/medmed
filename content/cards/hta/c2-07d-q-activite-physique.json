@@ -1,0 +1,26 @@
+{
+  "id": "hta-c2-q07b-activite-physique",
+  "kind": "qcm-vignette",
+  "prompt": "Quel niveau d'activité physique la HAS recommande-t-elle dans la prise en charge de l'HTA ?",
+  "choices": [
+    {"id": "a", "text": "10 minutes/jour, 1 fois par semaine", "correct": false},
+    {"id": "b", "text": "30 minutes/jour d'endurance, au moins 3 fois par semaine", "correct": true},
+    {"id": "c", "text": "2 heures de musculation intense quotidienne", "correct": false},
+    {"id": "d", "text": "Aucune activité physique n'est recommandée", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "HAS : 30 min/jour d'endurance (marche rapide, vélo, natation, jogging modéré), au moins 3 fois/semaine. Effet propre : -5 à -10 mmHg de PAS. La musculation intense isolée n'est pas recommandée (risque de poussées tensionnelles). Combinée à un entraînement d'endurance, elle est acceptable. À noter : ces 30 min cumulables sur la journée (escaliers, marche, jardinage) — pas obligatoire de tout faire d'un coup.",
+  "tags": {
+    "system": ["cardiovasculaire", "nutrition"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

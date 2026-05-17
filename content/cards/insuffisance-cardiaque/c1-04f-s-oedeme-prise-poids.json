@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c1-s04f-oedeme-prise-poids",
+  "kind": "sct",
+  "prompt": "Hypothèse : œdèmes des MI d'origine cardiaque chez un patient suspect d'IC. Information nouvelle : pas de prise de poids associée, poids parfaitement stable depuis 6 mois. Comment cette info modifie-t-elle la suspicion ?",
+  "hypothesis": "Œdèmes des MI d'origine cardiaque chez un patient suspect d'IC",
+  "new_info": "Poids stable depuis 6 mois, aucune prise pondérale documentée",
+  "expected": "affaiblit",
+  "rationale": "Les œdèmes cardiaques résultent d'une rétention hydrique SYSTÉMIQUE — ils s'accompagnent typiquement d'une prise de poids (souvent 2-5 kg). Une stabilité parfaite du poids sur 6 mois rend l'origine cardiaque MOINS probable. Penser alors à d'autres causes d'œdèmes bilatéraux : veineuse chronique, lymphœdème, médicamenteuse (amlodipine), hypoalbuminémie, hypothyroïdie.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

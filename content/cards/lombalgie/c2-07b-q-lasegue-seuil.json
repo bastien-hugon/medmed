@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q07-lasegue-seuil",
+  "kind": "qcm-vignette",
+  "prompt": "Lors de la manœuvre de Lasègue (patient allongé, élévation passive de la jambe tendue), à partir de quel angle approximatif une reproduction de la douleur lombo-radiculaire dans la jambe est-elle considérée comme évocatrice de compression radiculaire (sciatique) ?",
+  "choices": [
+    { "id": "a", "text": "Avant 30°", "correct": false },
+    { "id": "b", "text": "Avant 60°", "correct": true },
+    { "id": "c", "text": "À 90° exactement", "correct": false },
+    { "id": "d", "text": "Le seuil n'a pas d'importance", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Lasègue positif = reproduction d'une douleur dans le trajet sciatique (face postérieure de la jambe) AVANT 60° d'élévation passive de la jambe tendue. Une simple douleur lombaire ou une raideur des ischio-jambiers ne compte pas. Plus le seuil est bas, plus la suspicion est forte.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

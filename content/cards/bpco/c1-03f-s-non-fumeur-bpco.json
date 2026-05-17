@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c1-s03f-non-fumeur-bpco",
+  "kind": "sct",
+  "prompt": "Mme C., 42 ans, jamais fumeuse, consulte pour une dyspnée d'effort progressive depuis 2 ans. Le médecin évoque une BPCO précoce.",
+  "hypothesis": "Mon hypothèse : la patiente a un déficit génétique en alpha-1-antitrypsine.",
+  "new_info": "Son père est décédé d'un emphysème à 50 ans, sans avoir jamais fumé.",
+  "expected": "renforce",
+  "rationale": "Le déficit en alpha-1-antitrypsine est une cause GÉNÉTIQUE rare de BPCO. À évoquer systématiquement chez un patient non-fumeur jeune (< 45 ans) avec emphysème, ou s'il y a un antécédent familial d'emphysème précoce. L'histoire familiale renforce nettement cette hypothèse, qui orientera le bilan (dosage sanguin de l'alpha-1-antitrypsine).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

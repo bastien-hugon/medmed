@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c1-m03d-signes-radiologiques-suspects",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les signes radiologiques qu'un radiologue CHERCHE sur une mammographie pour suspecter un cancer du sein.",
+  "choices": [
+    { "id": "a", "text": "Microcalcifications groupées en foyer", "correct": true },
+    { "id": "b", "text": "Masse dense aux contours mal limités", "correct": true },
+    { "id": "c", "text": "Désorganisation/distorsion de l'architecture du tissu mammaire", "correct": true },
+    { "id": "d", "text": "Calcifications vasculaires diffuses bilatérales", "correct": false },
+    { "id": "e", "text": "Asymétrie de densité focale et nouvelle par rapport au cliché précédent", "correct": true },
+    { "id": "f", "text": "Présence d'un implant mammaire", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Les 4 grands signes d'alerte : microcalcifications groupées (a — signature fréquente d'un cancer in situ débutant), masse dense aux contours flous (b — par opposition aux kystes ronds bien limités), distorsion architecturale (c — comme si le tissu était 'aspiré' vers un point), asymétrie focale nouvelle (e — d'où l'intérêt de comparer aux clichés antérieurs). Les calcifications vasculaires bilatérales (d) sont au contraire BÉNIGNES (athérome des artères mammaires, classées ACR 2). Un implant (f) est une donnée anatomique, pas un signe de cancer (mais il peut compliquer la lecture).",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

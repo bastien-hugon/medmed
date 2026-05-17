@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q03-localisation-paravertebraux",
+  "kind": "qcm-vignette",
+  "prompt": "Que signifie le préfixe 'para-' dans 'muscles paravertébraux' ?",
+  "choices": [
+    { "id": "a", "text": "Au-dessus de", "correct": false },
+    { "id": "b", "text": "À l'intérieur de", "correct": false },
+    { "id": "c", "text": "À côté de", "correct": true },
+    { "id": "d", "text": "En face de", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "'Para-' = 'à côté de'. Les muscles paravertébraux sont donc les muscles qui longent les vertèbres, de chaque côté de la colonne. On retrouve ce préfixe partout en médecine : paranasal, paraombilical, parathyroïdien...",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

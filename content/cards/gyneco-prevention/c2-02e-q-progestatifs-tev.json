@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q02e-progestatifs-tev",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente de 30 ans, ATCD de TVP du mollet sous œstro-progestatifs il y a 2 ans, demande une contraception efficace. Que peut-on lui proposer SANS augmenter à nouveau son risque de TEV ?",
+  "choices": [
+    { "id": "a", "text": "Une autre pilule œstro-progestative de 'nouvelle génération'.", "correct": false },
+    { "id": "b", "text": "Un patch œstro-progestatif (moins risqué que la pilule).", "correct": false },
+    { "id": "c", "text": "Un progestatif seul (pilule micro-dosée, implant, DIU LNG) OU un DIU au cuivre : ces options n'augmentent pas le risque de TEV.", "correct": true },
+    { "id": "d", "text": "Aucune contraception, attendre la ménopause.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "ATCD de TVP = contre-indication formelle aux œstrogènes (toutes formes : pilule, patch, anneau — tous augmentent le risque). En revanche, les PROGESTATIFS SEULS n'augmentent PAS significativement le risque de TEV (l'œstrogène est le responsable principal de l'effet pro-coagulant hépatique). Le DIU au cuivre est aussi parfaitement compatible (zéro hormone). Donc cette patiente a de nombreuses options sûres et efficaces.",
+  "tags": {
+    "system": ["gynecologie-urologie", "cardiovasculaire"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 226],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

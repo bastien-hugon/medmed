@@ -1,0 +1,20 @@
+{
+  "id": "bpco-c2-q02d-gold-seuils-cloze",
+  "kind": "cloze",
+  "prompt": "Classification GOLD de sévérité de la BPCO selon le VEMS % prédit : GOLD 1 ≥ ___ %, GOLD 2 entre 50 et 79 %, GOLD 3 entre ___ et 49 %, GOLD 4 < ___ %.",
+  "expected": ["80", "30", "30"],
+  "rationale": "Trois seuils à retenir : 80 / 50 / 30. GOLD 1 légère ≥ 80 %, GOLD 2 modérée 50-79 %, GOLD 3 sévère 30-49 %, GOLD 4 très sévère < 30 %. Pré-requis : la BPCO doit être déjà confirmée (Tiffeneau < 0,70 post-BD).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

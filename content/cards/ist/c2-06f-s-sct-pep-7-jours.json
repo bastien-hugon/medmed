@@ -1,0 +1,22 @@
+{
+  "id": "ist-c2-s06f-sct-pep-7-jours",
+  "kind": "sct",
+  "prompt": "Un patient consulte aux urgences 7 jours après un rapport non protégé avec un partenaire séropositif au statut virologique inconnu. Vous évaluez s'il faut débuter une PEP VIH.",
+  "hypothesis": "Indication d'une PEP VIH urgente.",
+  "new_info": "Le délai depuis l'exposition est de 7 jours.",
+  "expected": "affaiblit",
+  "rationale": "La PEP VIH doit être débutée le plus tôt possible, idéalement < 48 h et au plus tard < 72 h. Au-delà de 72 h, l'efficacité n'est plus démontrée et la PEP n'est plus indiquée. Le délai de 7 jours AFFAIBLIT — et même exclut — l'indication d'une PEP. Conduite : pas de PEP, mais sérologie VIH initiale (état de base), retest à 6 semaines (fenêtre Ag/Ac 4G), 3 mois, et 6 mois si exposition à haut risque. Évaluation PrEP pour la suite.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

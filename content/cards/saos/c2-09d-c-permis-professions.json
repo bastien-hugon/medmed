@@ -1,0 +1,20 @@
+{
+  "id": "saos-c2-09d-c-permis-professions",
+  "kind": "cloze",
+  "prompt": "Les permis professionnels concernés par le SAOS incluent les permis ___ (poids lourd), ___ (transport en commun), ainsi que les chauffeurs de ___ et de VTC. En cas de SAOS modéré à sévère NON traité, l'inaptitude est ___ et levée après instauration d'un traitement efficace et observant.",
+  "expected": ["C", "D", "taxi", "temporaire"],
+  "rationale": "Permis professionnels : C (poids lourd > 3,5 t), D (transport en commun, bus), taxi, VTC, ambulance. Pour ces catégories, un SAOS modéré-sévère non traité = inaptitude TEMPORAIRE (pas définitive), levée après évaluation par un médecin agréé qui documente l'observance (relevés CPAP) et l'efficacité. Réévaluations périodiques (1-3 ans). Cadre réglementaire : arrêté du 28 mars 2022.",
+  "tags": {
+    "system": ["pneumologie", "medecine-du-travail"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

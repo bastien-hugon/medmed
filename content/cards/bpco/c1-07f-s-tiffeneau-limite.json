@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c1-s07f-tiffeneau-limite",
+  "kind": "sct",
+  "prompt": "M. R., 70 ans, ancien fumeur, dyspnée modérée. Tu suspectes une BPCO.",
+  "hypothesis": "Mon hypothèse : il a bien une BPCO confirmée à la spirométrie.",
+  "new_info": "Sa spirométrie post-bronchodilatateur retrouve un VEMS/CVF = 0,68.",
+  "expected": "renforce",
+  "rationale": "0,68 < 0,70 (seuil diagnostique). Comme on est en post-bronchodilatateur, l'obstruction est FIXÉE → diagnostic de BPCO confirmé. Cela renforce nettement l'hypothèse. Logique SCT : on juge l'effet d'une nouvelle info sur une hypothèse (renforce / affaiblit / neutre). Attention au piège des valeurs proches du seuil : 0,68 reste < 0,70, donc pathologique selon GOLD/NICE (certaines sociétés discutent la LIN, mais la référence reste 0,70).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

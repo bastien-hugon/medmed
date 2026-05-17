@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c2-m01-risque-cv-sous-estime",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les situations dans lesquelles les outils de calcul (QRISK3 / SCORE2) SOUS-ESTIMENT le risque CV réel et justifient une majoration clinique.",
+  "choices": [
+    { "id": "a", "text": "Infection VIH sous traitement antirétroviral.", "correct": true },
+    { "id": "b", "text": "Polyarthrite rhumatoïde / maladie auto-immune systémique.", "correct": true },
+    { "id": "c", "text": "Schizophrénie ou maladie mentale sévère.", "correct": true },
+    { "id": "d", "text": "Traitement déjà en cours par statine ou antihypertenseur.", "correct": true },
+    { "id": "e", "text": "Bonne hygiène de vie, IMC normal.", "correct": false },
+    { "id": "f", "text": "Faible consommation d'alcool.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Plusieurs situations conduisent à une SOUS-ESTIMATION du risque CV par les algorithmes standards : (1) VIH (inflammation chronique + effets ARV), (2) maladies auto-immunes (lupus, PR), (3) maladie mentale sévère (inflammation, mode de vie, traitements), (4) patient déjà sous traitement CV qui 'cache' son risque sous-jacent, (5) corticothérapie au long cours. Dans ces cas, il faut majorer cliniquement le score. Une bonne hygiène de vie n'est PAS un facteur de sous-estimation.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

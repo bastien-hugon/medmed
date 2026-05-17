@@ -1,0 +1,30 @@
+{
+  "id": "asthenie-c2-m08c-diagnostics-sujet-age",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les diagnostics à RECHERCHER ACTIVEMENT devant une asthénie chez un sujet > 65 ans (\"à ne pas manquer\").",
+  "choices": [
+    { "id": "a", "text": "Infection silencieuse (pneumopathie, infection urinaire, endocardite), parfois sans fièvre.", "correct": true },
+    { "id": "b", "text": "Maladie de Horton chez sujet > 60 ans (céphalée nouvelle + VS élevée).", "correct": true },
+    { "id": "c", "text": "Pseudo-polyarthrite rhizomélique (PPR) — douleurs des ceintures, raideur matinale.", "correct": true },
+    { "id": "d", "text": "Cancer occulte (colorectal, prostate, poumon, hémopathies).", "correct": true },
+    { "id": "e", "text": "Hypothyroïdie (fréquente après 65 ans).", "correct": true },
+    { "id": "f", "text": "Dépression masquée — plaintes somatiques sans plainte explicite de tristesse.", "correct": true },
+    { "id": "g", "text": "Iatrogénie (polymédication + élimination rénale ralentie).", "correct": true },
+    { "id": "h", "text": "Syndrome de Gilles de la Tourette.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g"],
+  "rationale": "Liste à mémoriser pour le sujet âgé : infections \"silencieuses\", Horton + PPR (couplées dans ~15 % des cas), cancers occultes, hypothyroïdie, dépression masquée (\"je vais bien mais je n'ai plus la force\"), iatrogénie. Le Gilles de la Tourette est un trouble neurologique du sujet jeune (tics + vocalises), sans rapport. La règle : seuil de prescription du bilan plus bas, examen physique plus complet, vigilance accrue.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

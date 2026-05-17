@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q08b-depistage-25-29",
+  "kind": "qcm-vignette",
+  "prompt": "Selon les recommandations françaises (HAS 2019), quel test est utilisé en 1ère intention pour le dépistage du cancer du col chez une femme de 25-29 ans ?",
+  "choices": [
+    { "id": "a", "text": "Test HPV-HR uniquement.", "correct": false },
+    { "id": "b", "text": "Examen cytologique (frottis cervico-utérin) — 2 examens à 1 an d'intervalle au démarrage, puis tous les 3 ans si normaux.", "correct": true },
+    { "id": "c", "text": "Colposcopie systématique.", "correct": false },
+    { "id": "d", "text": "Échographie pelvienne.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Calendrier HAS 25-29 ans : examen cytologique (frottis). Initial = 2 examens à 1 an d'intervalle, puis tous les 3 ans si négatifs. Logique : avant 30 ans, l'infection HPV est fréquente et transitoire (clairance spontanée) — un test HPV serait souvent positif sans signification durable, d'où le choix de la cytologie qui détecte directement les anomalies cellulaires. À partir de 30 ans, on bascule sur le test HPV (plus précoce et plus sensible).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Cancer_du_col_de_l%27ut%C3%A9rus",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

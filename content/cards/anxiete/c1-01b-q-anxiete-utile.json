@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q01b-anxiete-utile",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient vous dit : 'Docteur, j'ai eu très peur quand un cycliste a failli me renverser ce matin. C'est pas normal d'avoir réagi comme ça ?' Quelle est la meilleure réponse, du point de vue physiologique ?",
+  "choices": [
+    { "id": "a", "text": "C'est anormal, il faudrait un bilan psychiatrique", "correct": false },
+    { "id": "b", "text": "C'est une réaction NORMALE et UTILE : le système d'alarme vous a permis de réagir vite", "correct": true },
+    { "id": "c", "text": "C'est une attaque de panique, je vais vous prescrire un anxiolytique", "correct": false },
+    { "id": "d", "text": "C'est probablement un TAG débutant, on va surveiller", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'anxiété face à un danger réel et proportionné est une fonction PHYSIOLOGIQUE utile : système d'alarme + accélérateur sympathique = réaction rapide qui peut sauver la vie. Pas un trouble. Pas d'attaque de panique (pas de crise paroxystique avec peur de mourir, pas de récurrence). Pas un TAG (pas de soucis multiples chroniques sur ≥ 6 mois). Mnémo : peur PROPORTIONNÉE + TRANSITOIRE + UTILE = normale.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

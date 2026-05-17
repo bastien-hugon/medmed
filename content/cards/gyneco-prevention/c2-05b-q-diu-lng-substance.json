@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q05b-diu-lng-substance",
+  "kind": "qcm-vignette",
+  "prompt": "Le DIU 'hormonal' libère localement quelle substance ?",
+  "choices": [
+    { "id": "a", "text": "Œstradiol", "correct": false },
+    { "id": "b", "text": "Lévonorgestrel (LNG), un progestatif", "correct": true },
+    { "id": "c", "text": "Ulipristal acétate", "correct": false },
+    { "id": "d", "text": "Cuivre + lévonorgestrel", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "DIU hormonal = libération locale de LÉVONORGESTREL (LNG), un progestatif. La diffusion est essentiellement intra-utérine (faible passage systémique). C'est donc à la fois une LARC ET une contraception progestative. Ne contient PAS d'œstrogène, donc compatible avec les CI aux œstrogènes (tabac > 35 ans, ATCD TEV, migraine avec aura). À mémoriser : LNG = lévonorgestrel = on le retrouve aussi dans la pilule du lendemain (Norlevo 1,5 mg).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

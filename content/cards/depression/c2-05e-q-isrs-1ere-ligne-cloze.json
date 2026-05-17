@@ -1,0 +1,20 @@
+{
+  "id": "depression-c2-q05e-isrs-1ere-ligne-cloze",
+  "kind": "cloze",
+  "prompt": "Les antidépresseurs de 1ère ligne pharmacologique sont les ISRS, préférés aux TCA notamment en raison d'un bien meilleur profil de sécurité en cas de surdosage (___).",
+  "expected": ["overdose", "surdosage"],
+  "rationale": "Argument décisif (NICE Rec 1.4.20) : les TCA peuvent être létaux à dose de 1-2 boîtes par arrêt cardiaque, troubles du rythme, convulsions. Les ISRS sont quasi non létaux en monothérapie même à très haute dose. Chez un patient déprimé (donc potentiellement suicidaire), \"ce qu'on lui met dans la pharmacie compte\". Exception NICE : la lofépramine, un TCA à meilleur profil de sécurité.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

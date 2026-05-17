@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-10b-q-bilan-systematique",
+  "kind": "qcm-vignette",
+  "prompt": "Devant un SAOS nouvellement diagnostiqué, quel BILAN ÉTIOLOGIQUE et de COMORBIDITÉS proposez-vous en première ligne ?",
+  "choices": [
+    {"id": "a", "text": "Scanner thoracique + EFR + DLCO", "correct": false},
+    {"id": "b", "text": "Pression artérielle (± MAPA), glycémie à jeun, bilan lipidique, TSH, ECG", "correct": true},
+    {"id": "c", "text": "Polysomnographie de contrôle systématique à 6 mois", "correct": false},
+    {"id": "d", "text": "Endoscopie ORL sous sédation systématique", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le SAOS est un AMPLIFICATEUR cardiométabolique → bilan simple et ciblé : (1) PA et MAPA (chercher HTA, HTA résistante), (2) glycémie à jeun ± HbA1c (diabète T2), (3) bilan lipidique (cofacteur cardiovasculaire), (4) TSH (hypothyroïdie comme cause atypique), (5) ECG (FA, hypertrophie ventriculaire). Pas de scanner thoracique ni EFR sauf orientation pneumo spécifique (BPCO associée, overlap syndrome). Pas d'endoscopie sous sédation systématique (réservée à l'éligibilité chirurgicale ou stimulation hypoglosse).",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire", "endocrinologie"],
+    "sdd": ["saos"],
+    "item_edn": [108, 224, 245],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

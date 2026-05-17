@@ -1,0 +1,22 @@
+{
+  "id": "saos-c2-03f-s-sct-saos-leger-comorbide",
+  "kind": "sct",
+  "prompt": "M. F., 60 ans, IAH à 10/h (SAOS léger), Epworth à 9, mais hypertension résistante et FA paroxystique récente. Vous envisagez de ne pas traiter activement (CPAP) compte tenu du caractère léger.",
+  "hypothesis": "L'abstention thérapeutique active est raisonnable chez ce patient (SAOS léger, peu symptomatique).",
+  "new_info": "Vous apprenez que sa FA récidive malgré 2 cardioversions et que son HTA reste à 158/96 mmHg malgré 3 antihypertenseurs bien dosés.",
+  "expected": "affaiblit",
+  "rationale": "La sévérité d'un SAOS ne se résume PAS à l'IAH : un IAH 'léger' (10/h) chez un patient avec HTA résistante + FA récidivante doit être TRAITÉ activement car ces comorbidités majeures sont des indications fortes de CPAP même hors SAOS sévère stricto sensu. L'information cardiologique (HTA résistante, FA récidivante) AFFAIBLIT l'idée d'abstention et soutient un essai de CPAP comme traitement adjuvant. Penser 'sévérité globale', pas que 'chiffre IAH'.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire"],
+    "sdd": ["saos", "hta", "fa"],
+    "item_edn": [108, 224, 232],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

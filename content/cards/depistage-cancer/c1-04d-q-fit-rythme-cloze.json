@@ -1,0 +1,20 @@
+{
+  "id": "depistage-cancer-c1-q04d-fit-rythme-cloze",
+  "kind": "cloze",
+  "prompt": "Le test FIT est proposé dans le cadre du dépistage organisé tous les ___ ans, à toute personne (homme ou femme) âgée de ___ à ___ ans, sans facteur de risque particulier.",
+  "expected": ["2", "50", "74"],
+  "rationale": "Mêmes bornes que le sein : 50-74 ans, tous les 2 ans. Le rythme bisannuel est un compromis : assez fréquent pour rattraper un cancer apparu depuis le dernier test (le cancer colorectal met plusieurs années à se développer, donc 2 ans de fenêtre c'est raisonnable), pas trop fréquent pour éviter la fatigue d'adhésion et les faux positifs cumulés. Mnémo commun aux deux dépistages : 'cinquante à soixante-quatorze, tous les deux ans'.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

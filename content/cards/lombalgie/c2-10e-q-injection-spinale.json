@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q10-injection-spinale",
+  "kind": "qcm-vignette",
+  "prompt": "Selon NICE NG59, que recommander concernant les injections spinales (infiltrations) en LOMBALGIE (sans sciatique) ?",
+  "choices": [
+    { "id": "a", "text": "À proposer en 1ère intention", "correct": false },
+    { "id": "b", "text": "'Do not offer spinal injections for managing low back pain'", "correct": true },
+    { "id": "c", "text": "À proposer si la douleur dure plus de 2 semaines", "correct": false },
+    { "id": "d", "text": "Indiquées en remplacement de la kinésithérapie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE NG59 : 'Do not offer spinal injections for managing low back pain'. Pas d'efficacité prouvée en lombalgie 'tout-venant'. Les infiltrations épidurales peuvent être discutées dans la SCIATIQUE aiguë sévère uniquement, après échec du non-invasif. La HAS rejoint cette position (Grade C, pas d'indication sans radiculalgie).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendations",
+    "version": "2016 amended 2020"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c1-m02e-alveoles-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant les alvéoles pulmonaires.",
+  "choices": [
+    { "id": "a", "text": "Il y a environ 300 millions d'alvéoles dans les poumons", "correct": true },
+    { "id": "b", "text": "Leur paroi est ultra-fine pour permettre le passage des gaz", "correct": true },
+    { "id": "c", "text": "Elles sont entourées de capillaires sanguins", "correct": true },
+    { "id": "d", "text": "L'O2 y entre dans le sang et le CO2 en sort", "correct": true },
+    { "id": "e", "text": "Elles produisent les globules rouges", "correct": false },
+    { "id": "f", "text": "Dans l'emphysème, elles fusionnent en grosses bulles, réduisant la surface d'échange", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "Les alvéoles sont des sacs aériens (~0,2 mm, ~300 millions au total) à paroi ultra-fine, en contact intime avec un réseau capillaire dense — d'où l'efficacité de l'échange O2/CO2. Elles ne fabriquent PAS de globules rouges (rôle de la moelle osseuse). Dans l'emphysème, leur destruction crée des bulles : moins de surface = moins d'échange = essoufflement.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

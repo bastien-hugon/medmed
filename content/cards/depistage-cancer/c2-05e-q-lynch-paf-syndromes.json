@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q05e-lynch-paf-syndromes",
+  "kind": "qcm-vignette",
+  "prompt": "Le syndrome de LYNCH (anciennement HNPCC) est un syndrome de prédisposition héréditaire au cancer colorectal. Quelle affirmation est la PLUS exacte ?",
+  "choices": [
+    { "id": "a", "text": "Il est dû à une mutation des gènes BRCA1/BRCA2", "correct": false },
+    { "id": "b", "text": "Il est lié à une mutation des gènes du système de réparation de l'ADN (système MMR : MLH1, MSH2, MSH6, PMS2), avec un risque très élevé de cancer colorectal et d'autres cancers (endomètre, ovaire, voies urinaires...)", "correct": true },
+    { "id": "c", "text": "Il provoque des centaines de polypes coliques dès l'enfance", "correct": false },
+    { "id": "d", "text": "Il est totalement asymptomatique et ne nécessite aucune surveillance particulière", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le syndrome de Lynch est dû à des mutations des gènes MMR (Mismatch Repair) : MLH1, MSH2, MSH6, PMS2. Ces gènes réparent les erreurs de l'ADN — leur défaillance favorise l'apparition rapide de cancers, surtout colorectaux (risque 50-80 %) mais aussi endomètre, ovaire, urothélium, estomac... La surveillance est COLOSCOPIQUE TRÈS RAPPROCHÉE (tous les 1 à 2 ans) à partir de 20-25 ans, et inclut un suivi gynécologique. (a) faux : BRCA, c'est sein/ovaire, pas Lynch. (c) confusion avec la POLYPOSE ADÉNOMATEUSE FAMILIALE (PAF), liée au gène APC, qui donne effectivement des centaines de polypes dès l'adolescence. (d) faux et dangereux.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif", "genetique"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_de_Lynch",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

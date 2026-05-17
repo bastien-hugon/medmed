@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c1-q05e-faux-negatif-mammographie",
+  "kind": "qcm-vignette",
+  "prompt": "Madame R., 62 ans, a fait une mammographie de dépistage organisée qui s'est révélée NORMALE en double lecture. Huit mois plus tard, elle consulte pour une boule palpable du sein droit. Une biopsie confirme un cancer. Comment qualifier la mammographie de dépistage initiale ?",
+  "choices": [
+    { "id": "a", "text": "Vrai positif", "correct": false },
+    { "id": "b", "text": "Vrai négatif", "correct": false },
+    { "id": "c", "text": "Faux positif", "correct": false },
+    { "id": "d", "text": "Faux négatif", "correct": true }
+  ],
+  "expected": ["d"],
+  "rationale": "La mammographie a dit 'rien à voir' (négatif), mais le cancer était déjà là (ou est apparu très rapidement). C'est un FAUX NÉGATIF du dépistage, ou ce qu'on appelle un CANCER DE L'INTERVALLE (un cancer qui se révèle entre deux mammographies de dépistage). Causes possibles : seins denses qui cachent la lésion, lésion en zone difficile à voir, cancer agressif à croissance rapide, ou simple erreur d'interprétation. Ce n'est PAS une 'preuve que le dépistage ne marche pas' : la sensibilité de la mammographie est de l'ordre de 85-90 %, donc 10-15 % de cancers sont ratés en moyenne. La double lecture corrige une partie de ces ratés, mais pas tous. C'est aussi pour ça qu'on dit aux patientes : 'mammographie normale = rassurant aujourd'hui, mais consulte sans attendre si quelque chose change avant la prochaine échéance'.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sensibilit%C3%A9_et_sp%C3%A9cificit%C3%A9",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

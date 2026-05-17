@@ -1,0 +1,26 @@
+{
+  "id": "hta-c2-q08b-cause-avc",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi les facteurs de risque modifiables, lequel est la PREMIÈRE cause d'AVC dans la population ?",
+  "choices": [
+    {"id": "a", "text": "Le diabète", "correct": false},
+    {"id": "b", "text": "L'hypertension artérielle", "correct": true},
+    {"id": "c", "text": "L'hypercholestérolémie isolée", "correct": false},
+    {"id": "d", "text": "Le sédentarisme", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "L'HTA est LE premier facteur de risque modifiable d'AVC (ischémique et hémorragique). Baisser la PA de 10 mmHg de PAS = -40 % de risque d'AVC environ. C'est pour cela que le traitement de l'HTA est une priorité de santé publique. Les autres FdR (diabète, dyslipidémie, tabac, sédentarité, alcool, FA) viennent ensuite et s'additionnent.",
+  "tags": {
+    "system": ["cardiovasculaire", "neurologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

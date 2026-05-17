@@ -1,0 +1,20 @@
+{
+  "id": "hta-c2-c08-nephroangio",
+  "kind": "cloze",
+  "prompt": "L'atteinte rénale chronique liée à l'HTA s'appelle la ___, qui peut évoluer vers une insuffisance rénale chronique.",
+  "expected": ["néphroangiosclérose"],
+  "rationale": "Néphroangiosclérose = sclérose progressive des petites artères du rein (artériolosclérose hyaline et hyperplasique) → ischémie glomérulaire chronique → atrophie tubulaire et fibrose → ↓ DFG. C'est, avec le diabète, l'une des 2 grandes causes d'IRC terminale en France. Marqueurs précoces : microalbuminurie, puis protéinurie clinique, puis baisse du DFG. Surveillance : créat + protéinurie tous les 1-2 ans en routine, plus rapproché si HTA mal contrôlée.",
+  "tags": {
+    "system": ["cardiovasculaire", "rénal"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

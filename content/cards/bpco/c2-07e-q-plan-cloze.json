@@ -1,0 +1,20 @@
+{
+  "id": "bpco-c2-q07e-plan-cloze",
+  "kind": "cloze",
+  "prompt": "Le patient BPCO sous plan d'action s'engage à NOTIFIER son soignant à chaque ___ des médicaments d'auto-gestion.",
+  "expected": ["utilisation", "prise", "déclenchement"],
+  "rationale": "Chaque utilisation = signal d'alarme à partager avec le soignant. Cela permet : (1) d'évaluer si l'usage était justifié, (2) d'ajuster le traitement de fond, (3) de repérer les exacerbations fréquentes (qui font basculer en groupe E et imposent une bithérapie/trithérapie). Sans cette notification, le plan d'action devient une auto-médication non encadrée.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

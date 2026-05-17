@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q01e-oestro-benefices",
+  "kind": "qcm-vignette",
+  "prompt": "En dehors de l'effet contraceptif, les œstro-progestatifs apportent souvent des bénéfices ANNEXES. Lequel parmi ces propositions ?",
+  "choices": [
+    { "id": "a", "text": "Augmentation de la masse osseuse jusqu'à 50 ans.", "correct": false },
+    { "id": "b", "text": "Régularisation des cycles, diminution des douleurs de règles, amélioration de l'acné.", "correct": true },
+    { "id": "c", "text": "Diminution du risque d'IST.", "correct": false },
+    { "id": "d", "text": "Réduction du risque thromboembolique veineux.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Bénéfices annexes classiques : cycles plus réguliers et prévisibles, règles moins douloureuses (dysménorrhées atténuées), parfois amélioration d'une acné (surtout pilules contenant un progestatif anti-androgénique). À l'inverse, les œstro-progestatifs AUGMENTENT le risque thromboembolique (réponse D inversée) et N'ONT AUCUN effet protecteur sur les IST (réponse C fausse).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

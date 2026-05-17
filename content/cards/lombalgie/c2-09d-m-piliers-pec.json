@@ -1,0 +1,29 @@
+{
+  "id": "lombalgie-c2-m09-piliers-pec",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les éléments qui font partie de la prise en charge recommandée d'une lombalgie commune aiguë sans drapeau rouge (HAS 2019).",
+  "choices": [
+    { "id": "a", "text": "Réassurance et information claire sur le pronostic favorable", "correct": true },
+    { "id": "b", "text": "Maintien d'activité, reprise précoce du travail si possible", "correct": true },
+    { "id": "c", "text": "AINS à dose minimale efficace, sur la durée la plus courte possible", "correct": true },
+    { "id": "d", "text": "Kinésithérapie ACTIVE si la douleur persiste ou si risque de chronicité", "correct": true },
+    { "id": "e", "text": "Repos au lit prolongé > 5 jours", "correct": false },
+    { "id": "f", "text": "Imagerie systématique (IRM ou radio)", "correct": false },
+    { "id": "g", "text": "Opioïdes forts en 1ère intention", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "4 piliers HAS 2019 : réassurance, maintien d'activité, antalgie courte (AINS en 1ère intention), kiné active si nécessaire. Les distracteurs (e, f, g) sont à l'opposé : à NE PAS faire — repos prolongé, imagerie systématique et opioïdes forts en 1ère intention sont délétères.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q04c-diu-cuivre-regles",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est l'effet typique du DIU AU CUIVRE sur les règles, à annoncer AVANT la pose ?",
+  "choices": [
+    { "id": "a", "text": "Les règles deviennent généralement plus rares et moins abondantes (souvent aménorrhée).", "correct": false },
+    { "id": "b", "text": "Les règles deviennent généralement plus abondantes et plus longues, parfois plus douloureuses.", "correct": true },
+    { "id": "c", "text": "Aucun changement sur les règles.", "correct": false },
+    { "id": "d", "text": "Les règles deviennent marron au lieu de rouge.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Effet typique du DIU CUIVRE : règles + abondantes, + longues, + douloureuses chez certaines patientes. C'est l'INVERSE du DIU hormonal qui les diminue. À annoncer SYSTÉMATIQUEMENT avant la pose pour éviter la déception / la demande de retrait précoce. Si une patiente a déjà des règles très abondantes ou très douloureuses, on l'orientera plutôt vers un DIU hormonal (LNG) qui les améliore. Si elle a des règles normales et veut zéro hormone, le DIU cuivre reste excellent.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

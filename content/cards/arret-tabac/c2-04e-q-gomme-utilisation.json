@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q04e-gomme-utilisation",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente sous gomme à la nicotine 4 mg dit : 'Je la mâche comme un chewing-gum, je ne sens rien d'efficace.' Quelle erreur d'utilisation faut-il rectifier ?",
+  "choices": [
+    { "id": "a", "text": "Mâcher en continu et rapidement, comme un chewing-gum classique", "correct": false },
+    { "id": "b", "text": "Mâcher LENTEMENT quelques fois jusqu'à ressentir le goût (un peu piquant), puis 'PARQUER' la gomme contre la joue, alterner mastication/repos pendant ~20-30 min", "correct": true },
+    { "id": "c", "text": "Avaler la gomme entière pour passage gastrique", "correct": false },
+    { "id": "d", "text": "Croquer rapidement puis cracher pour absorption sublinguale", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Technique CORRECTE des gommes nicotiniques : la nicotine s'absorbe via la muqueuse buccale (pas digestive). Mâcher lentement quelques coups jusqu'à sentir le goût piquant, puis PARQUER contre la joue ; quand le goût diminue, mâcher 2-3 fois et reparquer. Durée totale : 20-30 min. Erreurs fréquentes : (a) mâcher comme un chewing-gum → libération trop rapide, hoquet, irritation, peu d'absorption ; (c) avaler → effet quasi nul (premier passage hépatique). Toujours expliquer la technique à la 1ère prescription.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

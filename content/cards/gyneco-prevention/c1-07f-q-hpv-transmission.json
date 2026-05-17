@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q07f-hpv-transmission",
+  "kind": "qcm-vignette",
+  "prompt": "Concernant la transmission du HPV, lequel de ces énoncés est CORRECT ?",
+  "choices": [
+    { "id": "a", "text": "Le préservatif élimine totalement le risque de transmission du HPV.", "correct": false },
+    { "id": "b", "text": "La transmission se fait par contact peau/muqueuse, pas seulement par pénétration ; le préservatif réduit mais ne supprime pas le risque (muqueuses non couvertes).", "correct": true },
+    { "id": "c", "text": "Le HPV ne se transmet que par voie sanguine.", "correct": false },
+    { "id": "d", "text": "Seuls les rapports anaux peuvent transmettre le HPV.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La transmission HPV se fait par CONTACT cutané/muqueux — donc même sans pénétration (caresses génitales, contacts buccogénitaux). Le préservatif RÉDUIT le risque (il protège la zone qu'il couvre) mais ne l'élimine pas, car le virus peut se transmettre via les muqueuses non couvertes (base du pénis, vulve, anus). C'est pour ça que la vaccination est l'arme préventive principale, le préservatif étant un complément utile (mais surtout indispensable contre les autres IST).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Papillomavirus_humain",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

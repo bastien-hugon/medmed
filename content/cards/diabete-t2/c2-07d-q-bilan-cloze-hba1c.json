@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q20-bilan-cloze-hba1c",
+  "kind": "cloze",
+  "prompt": "Chez le diabétique de type 2 traité, l'HbA1c est habituellement contrôlée tous les ___ mois.",
+  "expected": ["3", "trois"],
+  "rationale": "3 mois = rythme de référence (sauf adaptation : tous les 6 mois si très stable, plus rapproché si désordres récents ou adaptation thérapeutique). Ce rythme correspond à la durée de vie d'un globule rouge — à chaque contrôle, on évalue une nouvelle 'génération' glyquée. Couplé à une consultation clinique trimestrielle.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

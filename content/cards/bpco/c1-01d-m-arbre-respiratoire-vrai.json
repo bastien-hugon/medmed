@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c1-m01d-arbre-respiratoire-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant l'arbre respiratoire et la BPCO.",
+  "choices": [
+    { "id": "a", "text": "La trachée se divise en deux bronches principales", "correct": true },
+    { "id": "b", "text": "Les alvéoles sont les sacs où se font les échanges gazeux O2/CO2", "correct": true },
+    { "id": "c", "text": "La BPCO attaque essentiellement les bronches et les alvéoles", "correct": true },
+    { "id": "d", "text": "Les bronchioles sont plus grosses que les bronches principales", "correct": false },
+    { "id": "e", "text": "L'oxygène entre dans le sang au niveau de la trachée", "correct": false },
+    { "id": "f", "text": "L'air finit son trajet dans les alvéoles pulmonaires", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "f"],
+  "rationale": "L'arbre respiratoire va du plus large (trachée) au plus fin (alvéoles). Les BRONCHIOLES sont les ramifications FINES, plus PETITES que les bronches principales (donc d est faux). L'échange gazeux ne se fait QUE dans les alvéoles, car leur paroi est ultra-fine (donc e est faux : la trachée est un simple conduit). La BPCO frappe les deux étages distaux : inflammation des bronches + destruction alvéolaire (emphysème).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

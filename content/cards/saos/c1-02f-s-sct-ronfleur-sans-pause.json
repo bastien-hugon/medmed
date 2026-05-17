@@ -1,0 +1,22 @@
+{
+  "id": "saos-c1-02f-s-sct-ronfleur-sans-pause",
+  "kind": "sct",
+  "prompt": "M. K., 42 ans, IMC 24, ronfle quotidiennement selon sa femme depuis 2 ans. Il est en bonne forme la journée, Epworth = 5. Vous évoquez un SAOS.",
+  "hypothesis": "M. K. présente probablement un SAOS justifiant une polygraphie.",
+  "new_info": "Sa femme précise qu'il ronfle de façon régulière et continue, sans aucune pause respiratoire ni reprise bruyante, et qu'il ne paraît pas étouffer la nuit.",
+  "expected": "affaiblit",
+  "rationale": "Le ronflement seul, surtout chez un sujet mince (IMC 24), sans Epworth élevé (5/24) et SANS pauses respiratoires constatées, oriente vers un ronflement simple (très fréquent et non pathologique en soi). L'absence de pause apnéique rapportée par le conjoint AFFAIBLIT fortement l'hypothèse de SAOS. Cela n'exclut pas formellement (il faut parfois une polygraphie si autres FdR), mais réduit la probabilité a priori.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

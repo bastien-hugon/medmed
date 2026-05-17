@@ -1,0 +1,20 @@
+{
+  "id": "depistage-cancer-c1-q05d-cloze-sensibilite-specificite",
+  "kind": "cloze",
+  "prompt": "La ___ d'un test, c'est sa capacité à dire 'positif' quand la maladie est présente (peu de faux ___). La ___ d'un test, c'est sa capacité à dire 'négatif' quand la maladie est absente (peu de faux ___).",
+  "expected": ["sensibilité", "négatifs", "spécificité", "positifs"],
+  "rationale": "Sensibilité = peu de FAUX NÉGATIFS (le test rate peu de malades). Spécificité = peu de FAUX POSITIFS (le test crie peu à tort). Mnémo : SeNsibilité commence par S-N → contre les faux Négatifs ; sPécificité contient un P → contre les faux Positifs. En dépistage de masse, on PRIVILÉGIE la sensibilité (rater un cancer est jugé plus grave que faire passer un examen complémentaire inutile), mais on garde une spécificité raisonnable pour ne pas inonder les services de coloscopies/biopsies.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sensibilit%C3%A9_et_sp%C3%A9cificit%C3%A9",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

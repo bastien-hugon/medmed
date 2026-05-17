@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-f08-quatre-principes",
+  "kind": "free-recall",
+  "prompt": "Cite les QUATRE grands principes de la vaccination chez le patient immunodéprimé (mnémo en 4 mots-clés).",
+  "expected": ["prioritaires", "inactivés", "renforcés", "cocon"],
+  "rationale": "Mnémo « PRIORITAIRES + INACTIVÉS + RENFORCÉS + COCON » : (1) PRIORITAIRES → infections fréquentes/graves chez immunodéprimé → vacciner activement (pneumocoque, grippe, Shingrix, COVID, méningo si indication, hépatite B...) ; (2) INACTIVÉS uniquement → CI absolue aux vivants (ROR, varicelle, BCG, fièvre jaune) ; (3) RENFORCÉS → schémas adaptés, doses supplémentaires, sérologies post-vaccinales si besoin ; (4) COCON → vacciner l'entourage proche pour réduire l'exposition. Vacciner AVANT l'immunodépression programmée chaque fois que possible.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "immunodepression"],
+    "item_edn": [143, 187],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

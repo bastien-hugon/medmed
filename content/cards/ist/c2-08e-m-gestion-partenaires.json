@@ -1,0 +1,28 @@
+{
+  "id": "ist-c2-m08e-gestion-partenaires",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les éléments à intégrer dans la gestion d'une chlamydia diagnostiquée chez un patient pour casser la chaîne de transmission.",
+  "choices": [
+    { "id": "a", "text": "Traiter le patient", "correct": true },
+    { "id": "b", "text": "Notifier et faire évaluer/traiter les partenaires des 60 derniers jours", "correct": true },
+    { "id": "c", "text": "Maintenir une abstinence sexuelle pendant la cure et 7 jours après la dernière prise", "correct": true },
+    { "id": "d", "text": "Proposer un dépistage des autres IST (VIH, syphilis, gonocoque, hépatites)", "correct": true },
+    { "id": "e", "text": "Programmer un retest à 3 mois pour évaluer une éventuelle réinfection", "correct": true },
+    { "id": "f", "text": "Imposer une déclaration obligatoire à la mairie", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Prise en charge globale d'une IST = 5 leviers : (1) traiter le patient indexé ; (2) notifier+traiter les partenaires (60j) ; (3) abstinence pendant la guérison ; (4) ÉLARGIR le bilan IST (VIH/syphilis/gonocoque/HBV/HCV, vaccins HPV/HBV/HAV) ; (5) retest à 3 mois (réinfection). La chlamydia n'est pas une déclaration obligatoire en France. Le VIH oui (déclaration anonyme par le biologiste).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

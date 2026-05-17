@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q01f-col-muqueuse",
+  "kind": "qcm-vignette",
+  "prompt": "On dit que le col de l'utérus est tapissé d'une 'muqueuse'. Pourquoi est-ce important en pratique ?",
+  "choices": [
+    { "id": "a", "text": "Parce que c'est sur cette muqueuse que des modifications anormales (pré-cancéreuses) peuvent apparaître et être détectées au frottis.", "correct": true },
+    { "id": "b", "text": "Parce que la muqueuse fabrique les ovules.", "correct": false },
+    { "id": "c", "text": "Parce que c'est une couche imperméable qui empêche toute infection.", "correct": false },
+    { "id": "d", "text": "Parce que la muqueuse contient les vaisseaux qui irriguent les ovaires.", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "La muqueuse du col est un revêtement de cellules fragiles, directement exposées au vagin et donc au HPV. C'est exactement sur ces cellules que vont apparaître les anomalies (ASC-US, LSIL, HSIL, CIN1/2/3) — et c'est ce qu'on prélève (par grattage) lors du frottis pour les détecter avant qu'elles ne deviennent un cancer invasif. Loin d'être 'imperméable', cette muqueuse est au contraire la principale porte d'entrée du HPV.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Cancer_du_col_de_l%27ut%C3%A9rus",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

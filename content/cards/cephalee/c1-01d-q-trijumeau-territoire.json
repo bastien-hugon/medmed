@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c1-q01d-trijumeau-territoire",
+  "kind": "cloze",
+  "prompt": "Le cerveau lui-même est ___ à la douleur (pas de récepteurs nociceptifs). Les structures qui font mal lors d'une céphalée sont les ___ , les ___ sanguins, les muscles et les nerfs — dont le principal nerf sensitif de la face est le nerf ___ .",
+  "expected": ["insensible", "méninges", "vaisseaux", "trijumeau"],
+  "rationale": "Quatre éléments à retenir : 1) le cerveau est insensible (anosognosie nociceptive), 2) les méninges sont l'origine la plus fréquente de la douleur, 3) les vaisseaux méningés portent le 'pulsatile' de la migraine, 4) le trijumeau (V) véhicule la sensibilité des 2/3 antérieurs du scalp et de la face — c'est le 'nerf de la migraine' (système trigéminovasculaire).",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

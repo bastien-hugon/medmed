@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c1-q05c-co-nonfumeur",
+  "kind": "cloze",
+  "prompt": "Le seuil de CO expiré classiquement considéré comme 'non-fumeur' est inférieur à ___ ppm.",
+  "expected": ["5"],
+  "rationale": "< 5 ppm = profil non-fumeur (CO résiduel de la pollution ambiante, foyers de cuisson, etc.). 5-10 ppm = fumeur occasionnel ou ancien fumeur récent (le CO décroît en ~24 h). > 10 ppm = fumeur régulier. > 20 ppm = gros fumeur. Repères pratiques, à vérifier selon les appareils (certains affichent en %COHb).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

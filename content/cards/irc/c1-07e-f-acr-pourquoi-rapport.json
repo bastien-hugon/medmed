@@ -1,0 +1,25 @@
+{
+  "id": "irc-c1-f07-acr-pourquoi-rapport",
+  "kind": "free-recall",
+  "prompt": "Pourquoi mesure-t-on l'ACR (rapport albumine/créatinine) plutôt qu'une simple concentration d'albumine dans les urines ?",
+  "expected": [
+    "la concentration d'albumine dépend de l'hydratation : urine concentrée → tout paraît plus élevé, urine diluée → tout paraît plus bas",
+    "la créatinine urinaire est éliminée à débit constant, donc faire le rapport corrige l'effet de la concentration",
+    "le résultat est ainsi reproductible sur une urine ponctuelle (urine du matin) sans avoir besoin du recueil de 24h",
+    "cela évite les erreurs liées aux variations d'hydratation entre prélèvements"
+  ],
+  "rationale": "Astuce : rapport albumine/créat → s'affranchit du facteur de dilution. Avant l'ACR, on demandait un recueil sur 24h (compliqué, souvent mal fait par les patients). L'ACR sur urine du matin est plus simple, mieux toléré, et tout aussi pertinent. C'est un excellent exemple de simplification clinique sans perte de rigueur.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-f02-kdigo-deux-axes",
+  "kind": "free-recall",
+  "prompt": "Pourquoi KDIGO classe-t-il la MRC sur deux axes (G et A) plutôt qu'un seul (DFG) ?",
+  "expected": [
+    "le DFG seul masque des pronostics très différents : à DFG égal, un ACR élevé prédit une progression rénale et CV plus rapide",
+    "le DFG dit COMBIEN il reste de filtre, l'ACR dit À QUELLE VITESSE le filtre s'use",
+    "les décisions thérapeutiques dépendent de l'ACR : indication IEC/ARA2 (selon ACR + diabète/HTA), cible PA serrée si ACR ≥ 70",
+    "le risque cardiovasculaire est mieux estimé en intégrant les deux axes",
+    "la fréquence de surveillance KDIGO suit la matrice (annuelle si vert, plus rapprochée si orange/rouge)"
+  ],
+  "rationale": "Le principe à retenir : la protéinurie n'est pas un 'plus' optionnel — elle change le pronostic et la prise en charge. KDIGO formalise cette idée par une matrice 2D plutôt qu'une échelle 1D. Conséquence concrète : on dose toujours ACR + DFG, jamais l'un sans l'autre.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

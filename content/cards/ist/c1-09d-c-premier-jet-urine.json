@@ -1,0 +1,20 @@
+{
+  "id": "ist-c1-c09d-premier-jet-urine",
+  "kind": "cloze",
+  "prompt": "Pour la recherche de chlamydia ou gonocoque par NAAT chez l'homme, on prélève le ___ jet d'urine. Idéalement, le patient n'a pas uriné depuis ___ heures.",
+  "expected": ["1er", "1-2"],
+  "rationale": "1er jet d'urine = riche en cellules de l'urètre, où l'éventuel microbe est présent. Délai sans uriner : 1 à 2 heures avant le prélèvement (sinon l'urètre est 'rincé' et la sensibilité chute). Spécifique à la NAAT (PCR sur ADN bactérien). Astuce pédagogique : 'pas le milieu de jet comme pour l'ECBU — l'INVERSE : on veut justement le début, là où il y a des cellules de l'urètre.'",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

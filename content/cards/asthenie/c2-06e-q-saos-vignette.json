@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c2-q06e-saos-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Un homme de 52 ans, IMC 31, vient pour fatigue. Sa femme rapporte des ronflements sonores et des pauses respiratoires nocturnes \"qui l'inquiètent\". Score d'Epworth à 14. Pack standard normal.\n\nQuel examen demandez-vous en priorité pour confirmer votre hypothèse ?",
+  "choices": [
+    { "id": "a", "text": "Sérologie VIH.", "correct": false },
+    { "id": "b", "text": "Polygraphie ventilatoire (ou polysomnographie).", "correct": true },
+    { "id": "c", "text": "Échographie cardiaque transthoracique.", "correct": false },
+    { "id": "d", "text": "MAPA (mesure ambulatoire de pression artérielle) sur 24 h.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Suspicion clinique forte de SAOS : terrain (homme, surpoids, > 50 ans) + ronflement + pauses observées + somnolence diurne (Epworth ≥ 11). L'examen de confirmation est la POLYGRAPHIE VENTILATOIRE (en ville) ou la POLYSOMNOGRAPHIE (en laboratoire de sommeil, plus complet). Indice d'apnées-hypopnées (IAH) ≥ 5/h avec symptômes ou ≥ 15/h sans symptômes = SAOS. PEC : règles hygiéno-diététiques, PPC si SAOS modéré ou sévère, orthèse d'avancée mandibulaire si forme légère/modérée.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie", "trouble-sommeil"],
+    "item_edn": [246, 110],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

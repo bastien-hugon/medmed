@@ -1,0 +1,22 @@
+{
+  "id": "ist-c1-s03f-sct-pas-de-plainte",
+  "kind": "sct",
+  "prompt": "Vous suivez une jeune femme de 22 ans, sexuellement active, qui vous demande s'il faut faire un dépistage chlamydia annuel.",
+  "hypothesis": "Indication d'un dépistage chlamydia annuel.",
+  "new_info": "Elle vous dit : 'Je n'ai aucun symptôme, je vais très bien.'",
+  "expected": "neutre",
+  "rationale": "L'absence de symptômes ne change RIEN à l'indication : le dépistage de la chlamydia est précisément conçu pour les femmes asymptomatiques < 25 ans. La nouvelle information est NEUTRE — l'indication reste, et c'est l'occasion d'expliquer le rationnel : 70-90 % des chlamydia chez la femme sont silencieuses, et c'est pour cela qu'on ne se fie pas aux plaintes.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

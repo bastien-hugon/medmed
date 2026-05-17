@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c1-q05-rupture-plaque-cloze",
+  "kind": "cloze",
+  "prompt": "Quand une plaque d'athérome se rompt, le sang en contact avec son contenu déclenche la formation d'un ___ qui peut boucher brutalement l'artère et provoquer une ___ tissulaire en aval.",
+  "expected": ["thrombus", "ischémie"],
+  "rationale": "La rupture de plaque expose les composants thrombogènes (collagène, facteur tissulaire) → activation immédiate de la coagulation et des plaquettes → formation d'un THROMBUS (caillot) en quelques secondes à minutes. Si l'artère est occluse, le tissu en aval (myocarde, cerveau, membre) ne reçoit plus d'oxygène → ISCHÉMIE → nécrose en quelques minutes à heures (infarctus, AVC).",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

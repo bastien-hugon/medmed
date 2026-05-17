@@ -1,0 +1,30 @@
+{
+  "id": "depression-c2-m03c-options-less-severe",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les options de 1ère intention validées par NICE 2022 pour la dépression LESS SEVERE (PHQ-9 < 16).",
+  "choices": [
+    { "id": "a", "text": "Self-help guidé (6-8 séances accompagnées)", "correct": true },
+    { "id": "b", "text": "TCC en groupe ou individuelle", "correct": true },
+    { "id": "c", "text": "Activation comportementale (BA)", "correct": true },
+    { "id": "d", "text": "Exercice physique structuré en groupe (≥ 1×/sem, 10 sem)", "correct": true },
+    { "id": "e", "text": "Thérapie interpersonnelle (IPT)", "correct": true },
+    { "id": "f", "text": "ISRS d'emblée systématique pour tous", "correct": false },
+    { "id": "g", "text": "Benzodiazépines au long cours", "correct": false },
+    { "id": "h", "text": "Hospitalisation systématique", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Les 5 options de 1ère intention en less severe : self-help guidé, TCC, activation comportementale, exercice physique de groupe, IPT. L'AD n'est PAS en 1ère intention systématique (Rec 1.5.3) — seulement si demandé ou si psychothérapie inaccessible. Les benzodiazépines ne traitent PAS la dépression et peuvent aggraver les idées suicidaires + créer une dépendance. L'hospitalisation est réservée aux situations à risque imminent.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

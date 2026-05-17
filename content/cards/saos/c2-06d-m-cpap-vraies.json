@@ -1,0 +1,28 @@
+{
+  "id": "saos-c2-06d-m-cpap-vraies",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la CPAP dans le SAOS.",
+  "choices": [
+    {"id": "a", "text": "C'est le traitement de RÉFÉRENCE du SAOS modéré à sévère symptomatique", "correct": true},
+    {"id": "b", "text": "L'observance minimale recommandée est de 4 h/nuit", "correct": true},
+    {"id": "c", "text": "Elle réduit la somnolence diurne et améliore la qualité de vie", "correct": true},
+    {"id": "d", "text": "Elle réduit modestement la PA, surtout en cas d'HTA résistante", "correct": true},
+    {"id": "e", "text": "Elle remplace les muscles respiratoires du patient", "correct": false},
+    {"id": "f", "text": "Les effets indésirables fréquents incluent sécheresse, rhinite et irritation cutanée", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "La CPAP est le gold standard pour le SAOS modéré-sévère SYMPTOMATIQUE. Observance : seuil de 4 h/nuit (≥ 70 % des nuits) pour bénéfice clinique et remboursement en France. Bénéfices PROUVÉS : réduction somnolence, amélioration qualité de vie, baisse modeste de la PA. Effets indésirables fréquents : sécheresse muqueuse, rhinite, irritation cutanée du masque, conjonctivite (fuites). Elle ne 'remplace' pas les muscles respiratoires — le patient respire seul, la CPAP n'est qu'une attelle pneumatique.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

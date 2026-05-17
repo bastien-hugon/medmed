@@ -1,0 +1,20 @@
+{
+  "id": "ist-c1-c07e-vaccins-mnemo",
+  "kind": "cloze",
+  "prompt": "Mnémo des vaccins IST : les 3 'H' qui se vaccinent sont ___ (Papilloma), ___ (hépatite B) et ___ (hépatite A). Les 2 'H' qui NE se vaccinent PAS sont ___ (herpès) et ___ (VIH).",
+  "expected": ["HPV", "HBV", "HAV", "HSV", "HIV"],
+  "rationale": "Tous les vaccins IST disponibles commencent par 'H' (HBV, HPV, HAV). Les deux IST 'en H' SANS vaccin sont aussi connues : HSV (herpès) et HIV (VIH). Hépatite C (HCV) n'a pas de vaccin non plus, mais elle est curable par antiviraux directs. Mnémo efficace pour ne pas se tromper en cabinet : 'HBV, HPV, HAV — oui. HSV, HIV — non.'",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

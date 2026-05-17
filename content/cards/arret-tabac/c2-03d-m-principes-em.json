@@ -1,0 +1,29 @@
+{
+  "id": "arret-tabac-c2-m03d-principes-em",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les principes fondamentaux de l'entretien motivationnel (EM) selon Miller & Rollnick.",
+  "choices": [
+    {"id": "a", "text": "Empathie (absence de jugement, écoute active)", "correct": true},
+    {"id": "b", "text": "Faire émerger l'ambivalence par des questions ouvertes", "correct": true},
+    {"id": "c", "text": "Rouler avec la résistance (ne pas pousser, reformuler, valoriser l'autonomie)", "correct": true},
+    {"id": "d", "text": "Soutenir l'auto-efficacité (valoriser les essais antérieurs, même ratés)", "correct": true},
+    {"id": "e", "text": "Discours moralisateur et confrontation directe pour 'réveiller' le patient", "correct": false},
+    {"id": "f", "text": "Prescription d'office du traitement avant que le patient n'exprime sa motivation", "correct": false},
+    {"id": "g", "text": "Refuser de prendre en charge un patient en pré-contemplation", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Quatre principes EM : EMPATHIE / AMBIVALENCE / RÉSISTANCE (rouler avec) / AUTO-EFFICACITÉ. À l'opposé : confrontation, moralisme, prescription précipitée — ces postures REJETTENT le patient et renforcent sa résistance. L'EM est efficacité-prouvée (Cochrane) et applicable à tout changement comportemental, pas seulement tabac.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

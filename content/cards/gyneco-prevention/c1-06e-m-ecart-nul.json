@@ -1,0 +1,28 @@
+{
+  "id": "gyneco-prevention-c1-m06e-ecart-nul",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les méthodes contraceptives pour lesquelles l'efficacité 'typical use' est QUASI ÉGALE à l'efficacité 'perfect use' (écart minimal).",
+  "choices": [
+    { "id": "a", "text": "Implant sous-cutané", "correct": true },
+    { "id": "b", "text": "DIU au cuivre", "correct": true },
+    { "id": "c", "text": "DIU au lévonorgestrel (DIU hormonal)", "correct": true },
+    { "id": "d", "text": "Pilule combinée", "correct": false },
+    { "id": "e", "text": "Préservatif externe", "correct": false },
+    { "id": "f", "text": "Méthodes basées sur la connaissance de la fertilité", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Règle : 'plus la méthode demande une action quotidienne/à chaque rapport, plus l'écart perfect/typical explose'. Les 3 LARC (implant, DIU cuivre, DIU LNG) ne demandent AUCUNE action → écart nul ou minime (implant 0,05 / 0,05 ; DIU LNG 0,2 / 0,2 ; DIU cuivre 0,6 / 0,8). Pilule (× 30), préservatif (× 9), méthodes naturelles (× 6) ont des écarts massifs.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

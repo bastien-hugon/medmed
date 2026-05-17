@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c1-m05-rupture-plaque-consequences",
+  "kind": "qcm-multi",
+  "prompt": "Cochez toutes les CONSÉQUENCES POSSIBLES d'une rupture de plaque d'athérome.",
+  "choices": [
+    { "id": "a", "text": "Infarctus du myocarde (rupture dans une coronaire).", "correct": true },
+    { "id": "b", "text": "AVC ischémique (rupture dans une artère cérébrale ou carotide).", "correct": true },
+    { "id": "c", "text": "Ischémie aiguë de membre inférieur.", "correct": true },
+    { "id": "d", "text": "Embolie pulmonaire (thrombose veineuse profonde).", "correct": false },
+    { "id": "e", "text": "Syndrome coronarien aigu (angor instable, infarctus).", "correct": true },
+    { "id": "f", "text": "Phlébite superficielle isolée.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "La rupture de plaque expose le contenu lipidique → formation d'un thrombus → occlusion artérielle aiguë. Selon le territoire : coronaires (SCA = angor instable + infarctus), cérébro-vasculaire (AVC/AIT), membre inférieur (ischémie aiguë). L'embolie pulmonaire et la phlébite sont des pathologies VEINEUSES (stagnation, thrombose veineuse), sans lien avec l'athérosclérose artérielle. Distinction artériel vs veineux à toujours faire.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

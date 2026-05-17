@@ -33,7 +33,7 @@ async function walk(dir: string): Promise<string[]> {
 }
 
 function extraFor(card: Card): Record<string, unknown> | null {
-  if (card.kind === "qcm-vignette") {
+  if (card.kind === "qcm-vignette" || card.kind === "qcm-multi") {
     return { choices: card.choices };
   }
   if (card.kind === "sct") {

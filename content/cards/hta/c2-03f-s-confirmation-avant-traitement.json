@@ -1,0 +1,22 @@
+{
+  "id": "hta-c2-s03-confirmation-avant-traitement",
+  "kind": "sct",
+  "prompt": "Tu vois un patient asymptomatique avec une PA à 158/95 mmHg, confirmée à plusieurs mesures dans la consultation. Tu envisages de débuter un traitement antihypertenseur.",
+  "hypothesis": "Mon hypothèse : il faut prescrire une AMT ou une MAPA AVANT de commencer le traitement médicamenteux.",
+  "new_info": "Le patient est asymptomatique, sans aucun signe d'urgence hypertensive (PAS < 180, PAD < 110, pas de céphalées sévères ni de signes neurologiques).",
+  "expected": "renforce",
+  "rationale": "La HAS recommande explicitement de CONFIRMER le diagnostic d'HTA hors cabinet (AMT ou MAPA) AVANT de débuter un traitement médicamenteux, SAUF urgence hypertensive (PAS > 180 ou PAD > 110 avec retentissement). Ici, pas d'urgence, donc on confirme avant de traiter pour éviter de mettre sous médicament à vie un patient qui a juste une HTA blouse blanche. L'info renforce l'hypothèse.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

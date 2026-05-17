@@ -1,0 +1,20 @@
+{
+  "id": "anxiete-c2-q05d-delai-action",
+  "kind": "cloze",
+  "prompt": "Avant de prescrire une sertraline pour un TAG, il faut prévenir le patient que l'effet anxiolytique stable apparaît en ___ à 6 semaines : un délai d'attente normal, à ne pas confondre avec une 'inefficacité'.",
+  "expected": ["4"],
+  "rationale": "Délai d'action des SSRI : 4 à 6 semaines pour un effet anxiolytique stable. Préciser ce délai au patient est ESSENTIEL pour l'observance : sans cette information, beaucoup arrêtent au bout de 2 semaines en pensant que 'ça ne marche pas'. À prévenir aussi : une AGGRAVATION TRANSITOIRE la 1ère semaine (anxiété, agitation) est classique et doit régresser. Ne pas augmenter trop vite la dose. Revoir le patient à 1-2 semaines (surtout < 30 ans : risque suicidaire), puis régulièrement.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

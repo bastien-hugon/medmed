@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c1-s05f-hemoptysie",
+  "kind": "sct",
+  "prompt": "M. S., 65 ans, BPCO connue et tabagique actif. Il consulte pour une toux qui s'aggrave depuis 2 mois.",
+  "hypothesis": "Mon hypothèse : il s'agit d'une simple aggravation de sa toux chronique de BPCO.",
+  "new_info": "Il décrit aussi un AMAIGRISSEMENT de 6 kg en 3 mois et a craché du SANG à deux reprises (hémoptysie).",
+  "expected": "affaiblit",
+  "rationale": "Hémoptysie + amaigrissement chez un fumeur de longue date = drapeau rouge pour CANCER BRONCHO-PULMONAIRE jusqu'à preuve du contraire. Ces signes sortent du tableau classique de BPCO (toux + crachats clairs + dyspnée). Ils affaiblissent l'hypothèse 'simple aggravation BPCO' et imposent un bilan tumoral en urgence (scanner thoracique, voire fibroscopie). Logique SCT : renforce / affaiblit / neutre.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

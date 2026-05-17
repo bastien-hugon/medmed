@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c1-q01e-cerveau-incision",
+  "kind": "free-recall",
+  "prompt": "Lors d'une chirurgie cérébrale chez un patient éveillé, le neurochirurgien peut stimuler ou inciser le cortex sans que le patient ne ressente de douleur. Citez les 4 grandes catégories de structures qui, AUTOUR du cerveau, génèrent la douleur d'une céphalée.",
+  "expected": ["méninges", "vaisseaux", "muscles", "nerfs"],
+  "rationale": "Mnémo : 'MVMN' = Méninges, Vaisseaux, Muscles, Nerfs. Le cerveau n'a pas de nocicepteurs ; toutes les céphalées passent par activation/sensibilisation de ces 4 structures (plus la peau/os du crâne, mais ce sont les 4 principales). La 'chirurgie éveillée' est un test physiologique célèbre qui démontre ce point.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

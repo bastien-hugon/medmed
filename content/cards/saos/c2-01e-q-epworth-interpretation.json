@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-01e-q-epworth-interpretation",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient de 50 ans, ronfleur, rapporte un score d'Epworth à 17/24. Comment interprétez-vous cette valeur ?",
+  "choices": [
+    {"id": "a", "text": "Score normal, pas d'exploration nécessaire", "correct": false},
+    {"id": "b", "text": "Somnolence limite, à surveiller dans 6 mois", "correct": false},
+    {"id": "c", "text": "Somnolence SÉVÈRE, à explorer rapidement (polygraphie)", "correct": true},
+    {"id": "d", "text": "Score techniquement impossible (max = 16)", "correct": false}
+  ],
+  "expected": ["c"],
+  "rationale": "L'Epworth va de 0 à 24 (8 items × 3 points max). Repères : < 8 normal, 8-11 limite, ≥ 12 pathologique (exploration indiquée), > 16 SÉVÈRE. Un score à 17 témoigne d'une somnolence majeure avec un risque accru d'accident (en particulier au volant). C'est une indication formelle d'exploration du sommeil et une discussion immédiate sur la conduite (surtout s'il s'agit d'un professionnel). Le ronflement associé renforce la suspicion de SAOS.",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

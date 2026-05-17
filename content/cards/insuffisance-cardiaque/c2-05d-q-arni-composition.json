@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q05d-arni-composition",
+  "kind": "qcm-vignette",
+  "prompt": "L'ARNI (sacubitril/valsartan) associe deux principes actifs. Lesquels ?",
+  "choices": [
+    { "id": "a", "text": "Un IEC + un béta-bloquant", "correct": false },
+    { "id": "b", "text": "Un ARA2 (valsartan) + un inhibiteur de la néprilysine (sacubitril)", "correct": true },
+    { "id": "c", "text": "Un diurétique + un MRA", "correct": false },
+    { "id": "d", "text": "Un IEC + un ARA2", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "ARNI = Angiotensin Receptor / Neprilysin Inhibitor. Sacubitril bloque la néprilysine (enzyme qui dégrade les peptides natriurétiques 'bons') + valsartan bloque le récepteur de l'angiotensine II. Effets bénéfiques additifs → supériorité démontrée vs énalapril (PARADIGM-HF). C'est PAS un IEC : ne JAMAIS associer aux IEC.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

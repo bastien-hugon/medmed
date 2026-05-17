@@ -1,0 +1,28 @@
+{
+  "id": "anxiete-c1-m05c-tag-caracteristiques",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les éléments typiques d'un trouble anxieux généralisé (TAG).",
+  "choices": [
+    { "id": "a", "text": "Soucis excessifs et difficilement contrôlables", "correct": true },
+    { "id": "b", "text": "Inquiétudes portant sur de multiples sujets du quotidien", "correct": true },
+    { "id": "c", "text": "Durée prolongée (≥ 6 mois selon les recommandations)", "correct": true },
+    { "id": "d", "text": "Symptômes physiques chroniques : fatigue, tensions, sommeil pourri, irritabilité", "correct": true },
+    { "id": "e", "text": "Crises paroxystiques brèves avec peur de mourir", "correct": false },
+    { "id": "f", "text": "Peur ciblée sur un objet précis (araignée, ascenseur)", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Tableau classique du TAG : soucis MULTIPLES, EXCESSIFS, INCONTRÔLABLES, sur ≥ 6 mois, avec des symptômes physiques CHRONIQUES (pas paroxystiques). Les crises brèves avec peur de mourir évoquent une attaque de panique. La peur ciblée sur un objet précis évoque une phobie spécifique. Les deux peuvent COEXISTER avec un TAG (comorbidité fréquente), mais ne le définissent pas.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

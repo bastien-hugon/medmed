@@ -1,0 +1,22 @@
+{
+  "id": "hta-c1-s05-hta-systolique-isolee",
+  "kind": "sct",
+  "prompt": "Une patiente de 75 ans a une PA mesurée à 162/78 mmHg en cabinet, confirmée par AMT à 150/76. Tu te demandes si elle a une HTA.",
+  "hypothesis": "Mon hypothèse : il s'agit d'une vraie HTA qui mérite traitement.",
+  "new_info": "Sa diastolique (78 et 76 mmHg) est dans les limites de la normale.",
+  "expected": "neutre",
+  "rationale": "Pour parler d'HTA, il suffit qu'UNE seule des deux valeurs dépasse son seuil. Ici la systolique (162 en cabinet, 150 en AMT) est franchement au-dessus des seuils (140 cabinet, 135 AMT). La diastolique normale n'affaiblit PAS le diagnostic : c'est même un tableau typique chez le sujet âgé (HTA systolique isolée par rigidité artérielle liée à l'âge). L'info est donc neutre vis-à-vis de l'hypothèse — la PAS suffit à elle seule.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

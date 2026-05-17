@@ -1,0 +1,29 @@
+{
+  "id": "bpco-c2-m08c-rehab-composantes",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les composantes d'un programme de RÉHABILITATION RESPIRATOIRE pour BPCO.",
+  "choices": [
+    { "id": "a", "text": "Réentraînement à l'effort (cycloergomètre, marche, renforcement musculaire)", "correct": true },
+    { "id": "b", "text": "Éducation thérapeutique (maladie, inhalateurs, exacerbations)", "correct": true },
+    { "id": "c", "text": "Soutien nutritionnel (dénutrition ou obésité)", "correct": true },
+    { "id": "d", "text": "Soutien psychologique (anxiété, dépression)", "correct": true },
+    { "id": "e", "text": "Kinésithérapie respiratoire (drainage, ventilation dirigée)", "correct": true },
+    { "id": "f", "text": "Cure de corticoïdes intraveineux mensuelle", "correct": false },
+    { "id": "g", "text": "Repos strict en chambre", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Réhab = programme MULTIDISCIPLINAIRE (médical, kiné, diététique, psy, infirmier). Composantes essentielles : exercice physique adapté + éducation + soutien nutritionnel et psychologique + kiné. PAS de corticoïdes IV ni de repos strict (le repos aggrave le déconditionnement). C'est la rupture du cercle vicieux 'essoufflé → bouge moins → se déconditionne → s'essouffle plus'.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

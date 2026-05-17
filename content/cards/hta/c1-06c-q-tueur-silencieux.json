@@ -1,0 +1,26 @@
+{
+  "id": "hta-c1-q06b-tueur-silencieux",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi qualifie-t-on souvent l'HTA de 'tueur silencieux' ?",
+  "choices": [
+    {"id": "a", "text": "Parce qu'elle frappe la nuit pendant le sommeil", "correct": false},
+    {"id": "b", "text": "Parce qu'elle reste asymptomatique pendant des années tout en abîmant les organes", "correct": true},
+    {"id": "c", "text": "Parce qu'elle est causée par des bactéries silencieuses", "correct": false},
+    {"id": "d", "text": "Parce qu'elle se transmet sans bruit dans les familles", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Surnom de 'tueur silencieux' = HTA asymptomatique dans la grande majorité des cas, qui abîme cerveau, cœur, reins, yeux pendant des années sans signe d'alerte. Première manifestation possible : AVC, infarctus. D'où l'intérêt MAJEUR du dépistage opportuniste à chaque consultation médicale chez l'adulte (HAS).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

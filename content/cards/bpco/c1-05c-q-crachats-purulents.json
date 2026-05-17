@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q05c-crachats-purulents",
+  "kind": "qcm-vignette",
+  "prompt": "M. T., BPCO connu, signale depuis 3 jours des crachats passés du blanc au JAUNE-VERT, avec une dyspnée majorée. Que signale ce changement de couleur ?",
+  "choices": [
+    { "id": "a", "text": "C'est normal : les crachats de BPCO sont toujours jaunes", "correct": false },
+    { "id": "b", "text": "Surinfection bactérienne probable, dans le cadre d'une exacerbation", "correct": true },
+    { "id": "c", "text": "Signe d'allergie alimentaire", "correct": false },
+    { "id": "d", "text": "Effet secondaire des bronchodilatateurs courte durée", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Crachats devenus purulents (jaune/vert) = signe de SURINFECTION BACTÉRIENNE, qui s'inscrit dans une EXACERBATION de BPCO. C'est l'un des 3 critères d'Anthonisen (dyspnée majorée, volume des crachats augmenté, purulence). En base de BPCO, les crachats sont blancs/transparents. Ce changement justifie d'évaluer une antibiothérapie (amoxicilline en 1ère intention).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

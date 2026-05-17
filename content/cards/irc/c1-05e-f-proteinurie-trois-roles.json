@@ -1,0 +1,24 @@
+{
+  "id": "irc-c1-f05-proteinurie-trois-roles",
+  "kind": "free-recall",
+  "prompt": "Cite les TROIS raisons qui font que la protéinurie est aussi importante en pratique pour la MRC.",
+  "expected": [
+    "diagnostic : marqueur d'atteinte rénale, peut précéder la baisse du DFG (détection précoce)",
+    "pronostic : plus elle est élevée, plus le risque de progression rénale ET cardiovasculaire est élevé",
+    "thérapeutique : guide les décisions (indication IEC/ARA2, cible PA plus serrée si ACR ≥ 70)"
+  ],
+  "rationale": "Triple rôle de la protéinurie = diagnostic + pronostic + thérapeutique. C'est pour ça qu'on la cherche systématiquement chez les patients à risque (diabète, HTA, MCV, etc.) et qu'on la quantifie par l'ACR (et non pas seulement la bandelette).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "diabete-t2-c2-m06-sglt2-glp1-effets",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les bénéfices démontrés (au-delà de la baisse glycémique) communs aux inhibiteurs de SGLT2 et/ou aux agonistes GLP-1 chez le diabétique T2 à risque CV ou rénal.",
+  "choices": [
+    { "id": "a", "text": "Réduction des événements cardiovasculaires majeurs", "correct": true },
+    { "id": "b", "text": "Réduction des hospitalisations pour insuffisance cardiaque (surtout SGLT2-i)", "correct": true },
+    { "id": "c", "text": "Ralentissement de la progression de l'insuffisance rénale chronique (surtout SGLT2-i)", "correct": true },
+    { "id": "d", "text": "Perte de poids (surtout GLP-1 RA, modérée pour SGLT2-i)", "correct": true },
+    { "id": "e", "text": "Augmentation systématique de la pression artérielle", "correct": false },
+    { "id": "f", "text": "Risque élevé d'hypoglycémie en monothérapie", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Ces deux classes ont révolutionné la prise en charge du T2 par leurs bénéfices CV/rénaux indépendants de la glycémie. SGLT2-i : MACE↓, hospitalisations pour IC↓, ralentissement IRC↓. GLP-1 RA : MACE↓, perte de poids importante (5-15 kg). Ni l'une ni l'autre n'augmente la PA (e — au contraire, elles la baissent un peu) ni n'induit d'hypoglycémie en monothérapie (f).",
+  "tags": {
+    "system": ["endocrinologie", "cardiovasculaire", "néphrologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Antidiab%C3%A9tique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

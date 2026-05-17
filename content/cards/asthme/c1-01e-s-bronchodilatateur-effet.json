@@ -1,0 +1,22 @@
+{
+  "id": "asthme-c1-s01-bronchodilatateur-effet",
+  "kind": "sct",
+  "prompt": "Vous voyez en consultation un patient de 30 ans qui décrit des crises de dyspnée sifflante intermittentes.",
+  "hypothesis": "Mon hypothèse : il s'agit d'un asthme (obstruction réversible des bronches).",
+  "new_info": "Une spirométrie réalisée pendant un épisode montre une obstruction. Après 2 bouffées de salbutamol, le VEMS augmente de 15 % (+ 350 mL).",
+  "expected": "renforce",
+  "rationale": "Une obstruction qui se LÈVE rapidement après un bronchodilatateur signe la RÉVERSIBILITÉ — caractéristique principale de l'asthme. Cette amélioration franche (>= 12 % et >= 200 mL chez l'adulte selon NG245) renforce nettement l'hypothèse d'asthme et l'écarte d'une obstruction fixée type BPCO.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-07b-q-oam-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "Comment l'orthèse d'avancée mandibulaire (OAM) agit-elle pour traiter le SAOS ?",
+  "choices": [
+    {"id": "a", "text": "Elle bloque la respiration buccale pour forcer le passage nasal", "correct": false},
+    {"id": "b", "text": "Elle avance la mandibule de quelques mm, ce qui tire la langue et élargit le pharynx", "correct": true},
+    {"id": "c", "text": "Elle injecte une pression d'air comme une mini-CPAP intra-buccale", "correct": false},
+    {"id": "d", "text": "Elle stimule électriquement la langue pour la rétracter", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "L'OAM est une gouttière dentaire qui avance la mandibule de quelques millimètres. Comme la langue est attachée à la mandibule (génioglosse), cette avancée tire mécaniquement la langue et les tissus mous vers l'avant → le pharynx s'élargit en arrière de la langue → moins de collapsus. C'est un dispositif purement mécanique, sans pression d'air ni stimulation électrique. À ne pas confondre avec la stimulation du nerf hypoglosse (qui, elle, est implantée chirurgicalement et stimule électriquement la langue).",
+  "tags": {
+    "system": ["pneumologie", "stomatologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

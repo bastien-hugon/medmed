@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c2-s08f-forfait-150",
+  "kind": "sct",
+  "hypothesis": "Tu réponds à une patiente que les NRT remboursés en France sont soumis à un FORFAIT ANNUEL de 150 € au-delà duquel elle devra payer de sa poche.",
+  "new_info": "Tu vérifies sur ameli.fr : depuis le 1er janvier 2019, les NRT sont remboursés à 65 % par le régime classique, SANS plafond annuel — l'ancien forfait de 150 €/an a été supprimé.",
+  "expected": "affaiblit",
+  "prompt": "Cette vérification modifie-t-elle ton information initiale à la patiente ?",
+  "rationale": "L'information initiale (forfait 150 €) est PÉRIMÉE : c'était le système avant 2019. Aujourd'hui les NRT sont remboursés comme tout médicament inscrit sur la liste — 65 % par l'Assurance Maladie, complémentaire santé sur le reste à charge, dispense d'avance de frais en pharmacie, SANS plafond. Cela facilite considérablement l'accès, notamment pour les gros fumeurs qui auraient pu dépasser 150 €. L'hypothèse de départ est AFFAIBLIE → corriger l'information donnée à la patiente. Erreur fréquente à connaître : beaucoup de soignants restent sur l'ancien forfait.",
+  "tags": {
+    "system": ["addictologie", "prevention", "sante-publique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

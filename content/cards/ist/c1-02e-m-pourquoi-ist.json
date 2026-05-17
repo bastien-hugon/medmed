@@ -1,0 +1,27 @@
+{
+  "id": "ist-c1-m02e-pourquoi-ist",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les raisons pour lesquelles on préfère aujourd'hui le terme 'IST' à celui de 'MST'.",
+  "choices": [
+    { "id": "a", "text": "Insister sur le fait que beaucoup d'infections sont silencieuses (asymptomatiques)", "correct": true },
+    { "id": "b", "text": "Justifier la stratégie de dépistage avant l'apparition des symptômes", "correct": true },
+    { "id": "c", "text": "Diminuer la stigmatisation associée au mot 'maladie'", "correct": true },
+    { "id": "d", "text": "Parce que les IST sont moins graves que les MST", "correct": false },
+    { "id": "e", "text": "Parce que les IST n'ont pas de traitement contrairement aux MST", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Le glissement MST → IST (vers 2015) répond à 3 motivations : (1) signaler que la majorité est ASYMPTOMATIQUE ; (2) légitimer le DÉPISTAGE chez des gens qui se sentent bien ; (3) diminuer la stigmatisation (infection ≠ maladie 'sale'). Les IST et MST désignent les mêmes pathogènes : ce n'est pas une question de gravité ou de traitement.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

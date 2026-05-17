@@ -1,0 +1,31 @@
+{
+  "id": "cephalee-c2-m03c-red-flags-snoop",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les éléments qui constituent un DRAPEAU ROUGE (SNNOOP10 / NICE CG150) devant une céphalée et doivent déclencher une démarche d'urgence (imagerie, biologie, avis spécialisé).",
+  "choices": [
+    { "id": "a", "text": "Céphalée brutale en coup de tonnerre (max < 5 min)", "correct": true },
+    { "id": "b", "text": "Céphalée + fièvre, surtout avec raideur de nuque", "correct": true },
+    { "id": "c", "text": "Déficit neurologique nouveau persistant", "correct": true },
+    { "id": "d", "text": "Trouble de la conscience ou changement de personnalité", "correct": true },
+    { "id": "e", "text": "Nouvelle céphalée chez un patient > 50 ans", "correct": true },
+    { "id": "f", "text": "Céphalée déclenchée par toux / Valsalva / effort", "correct": true },
+    { "id": "g", "text": "Céphalée orthostatique (apparaît debout, disparaît couché)", "correct": true },
+    { "id": "h", "text": "Patient immunodéprimé / antécédent de cancer", "correct": true },
+    { "id": "i", "text": "Céphalée pulsatile habituelle aggravée par la lumière chez une femme jeune migraineuse connue", "correct": false },
+    { "id": "j", "text": "Céphalée bilatérale en bandeau de fin de journée chez un cadre stressé", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g", "h"],
+  "rationale": "Les 8 premiers sont des drapeaux rouges NICE classiques (mnémonique SNNOOP10 : Systemic, Neurologic, Onset sudden, Older > 50, Pattern change, Positional, Precipitated by Valsalva, Papilloedema, Pregnancy, Painful eye, Posttraumatic). Les deux derniers (migraine typique d'une femme jeune connue, céphalée de tension de cadre stressé) sont des tableaux de céphalée primaire sans drapeau rouge — pas d'imagerie pour rassurer (NICE).",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

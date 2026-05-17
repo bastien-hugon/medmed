@@ -1,0 +1,22 @@
+{
+  "id": "irc-c2-s06-sglt2-creat-initiale",
+  "kind": "sct",
+  "prompt": "Mme A., 60 ans, diabétique T2, MRC G3a A3, sous ramipril dose maximale tolérée. Vous initiez la dapagliflozine 10 mg pour néphroprotection. Le contrôle à 4 semaines montre une baisse du DFG de 60 à 55 mL/min, mais le patient va bien.",
+  "hypothesis": "Cette baisse du DFG sous dapagliflozine signifie que le médicament dégrade la fonction rénale et qu'il faut l'arrêter.",
+  "new_info": "Les essais DAPA-CKD et EMPA-KIDNEY montrent que cette baisse initiale du DFG (~5-10 %) sous SGLT2-i, dite 'creatinine dip', est ATTENDUE par mécanisme hémodynamique (rétroaction tubulo-glomérulaire) et n'est PAS un signe de toxicité. Au-delà, la pente de baisse du DFG est durablement ralentie.",
+  "expected": "affaiblit",
+  "rationale": "Exactement comme avec les IEC/ARA2 : la baisse initiale du DFG sous SGLT2-i est physiologique (vasoconstriction afférente par rétroaction tubulo-glomérulaire → baisse de la pression intraglomérulaire = effet protecteur). C'est le signe que le médicament fait son travail. Sur le long terme, la pente de DFG est moins pentue qu'en l'absence de SGLT2-i. L'information affaiblit fortement l'hypothèse 'arrêter'. Règle : sous 30 % de baisse de DFG, on continue. Mémo : 'creatinine dip = bon signe'.",
+  "tags": {
+    "system": ["nephrologie", "endocrinologie"],
+    "sdd": ["irc", "mrc", "diabete"],
+    "item_edn": [261, 264, 245],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

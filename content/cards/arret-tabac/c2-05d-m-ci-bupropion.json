@@ -1,0 +1,29 @@
+{
+  "id": "arret-tabac-c2-m05d-ci-bupropion",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les CONTRE-INDICATIONS classiques du bupropion (Zyban®) dans l'aide au sevrage tabagique.",
+  "choices": [
+    {"id": "a", "text": "Antécédents de convulsions ou d'épilepsie", "correct": true},
+    {"id": "b", "text": "Troubles du comportement alimentaire (anorexie mentale, boulimie)", "correct": true},
+    {"id": "c", "text": "Sevrage alcoolique récent ou sevrage de benzodiazépines en cours", "correct": true},
+    {"id": "d", "text": "Grossesse et allaitement", "correct": true},
+    {"id": "e", "text": "Hypersensibilité connue au bupropion", "correct": true},
+    {"id": "f", "text": "Score de Fagerström supérieur à 7", "correct": false},
+    {"id": "g", "text": "Présence d'une BPCO modérée", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Bupropion = abaissement du SEUIL ÉPILEPTOGÈNE → CI majeures : antécédents de convulsions/épilepsie, troubles alimentaires (déséquilibres ioniques favorisant convulsions), sevrage alcool/benzo récent (terrain convulsivant). Aussi : grossesse, allaitement, hypersensibilité, certaines interactions (IMAO). À ne pas confondre avec varénicline (CI grossesse + précaution psy). Un Fagerström élevé ou une BPCO ne sont PAS des CI, ce sont au contraire des indications potentielles.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

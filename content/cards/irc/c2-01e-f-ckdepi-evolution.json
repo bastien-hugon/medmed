@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-f01-ckdepi-evolution",
+  "kind": "free-recall",
+  "prompt": "Quelles sont les principales différences entre la formule CKD-EPI 2021 (NICE) et les anciennes formules (MDRD, Cockcroft-Gault) ?",
+  "expected": [
+    "CKD-EPI est plus précise pour les DFG proches de la normale (Cockcroft sous-estime, MDRD sous-estime aux hauts DFG)",
+    "CKD-EPI 2021 ne contient plus le coefficient 'race' (retiré pour équité et validité)",
+    "Cockcroft-Gault utilise le poids mais pas la surface corporelle ; CKD-EPI est normalisée à 1,73 m²",
+    "MDRD utilise mêmes variables (créat, âge, sexe) mais formule différente, moins précise",
+    "Cockcroft reste utilisée pour certaines adaptations posologiques (anticancéreux)"
+  ],
+  "rationale": "Évolution historique : Cockcroft (1976, simple mais sous-estime) → MDRD (2006, mieux mais limité) → CKD-EPI (2009, référence) → CKD-EPI 2021 (sans race). Pour la MG, on prend l'eGFR rendu par le labo (toujours CKD-EPI désormais). Pour adaptation chimio anticancer : parfois Cockcroft encore demandé.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c1-q04-nom-syndrome-radiculaire-postero-lateral",
+  "kind": "free-recall",
+  "prompt": "Comment appelle-t-on cliniquement une douleur lombaire qui irradie le long du nerf sciatique (face postérieure de la jambe jusqu'au pied) ?",
+  "expected": ["sciatique", "lombosciatique", "lombo-sciatique"],
+  "rationale": "Sciatique (ou lombosciatique) : douleur lombaire irradiant le long du nerf sciatique, dans le territoire de L5 ou S1. C'est un symptôme, pas un diagnostic — la cause est le plus souvent une hernie discale L4-L5 ou L5-S1 qui comprime la racine correspondante. La PEC initiale rejoint celle de la lombalgie commune (activité, AINS courts) sauf si drapeau rouge ou déficit moteur.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

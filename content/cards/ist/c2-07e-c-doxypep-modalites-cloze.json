@@ -1,0 +1,20 @@
+{
+  "id": "ist-c2-c07e-doxypep-modalites-cloze",
+  "kind": "cloze",
+  "prompt": "DoxyPEP : ___ mg de doxycycline PO en ___ , à prendre dans les ___ heures suivant un rapport non protégé. Populations cibles : ___ et femmes ___ .",
+  "expected": ["200", "dose unique", "72", "HSH", "trans"],
+  "rationale": "Modalités à mémoriser : 200 mg doxy PO en DOSE UNIQUE, dans les 72 h (idéal < 24 h) post-rapport. Populations : HSH et femmes trans à haut risque d'IST bactériennes. Ce n'est PAS un traitement continu, c'est une PROPHYLAXIE POST-EXPOSITION ponctuelle. Réserves : risque de résistance bactérienne au long cours (gonocoque, microbiote), surconsommation d'antibiotique.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

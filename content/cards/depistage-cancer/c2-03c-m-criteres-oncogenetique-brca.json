@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c2-m03c-criteres-oncogenetique-brca",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les critères qui doivent faire évoquer une consultation d'ONCOGÉNÉTIQUE pour suspicion de mutation BRCA chez une patiente.",
+  "choices": [
+    { "id": "a", "text": "Plusieurs cas de cancer du sein chez des apparentées au 1er ou 2e degré", "correct": true },
+    { "id": "b", "text": "Cancer du sein survenu avant 50 ans chez la patiente ou une apparentée", "correct": true },
+    { "id": "c", "text": "Association d'un cancer du sein ET d'un cancer de l'ovaire dans la famille", "correct": true },
+    { "id": "d", "text": "Cancer du sein chez un HOMME apparenté", "correct": true },
+    { "id": "e", "text": "Une seule tante éloignée ayant eu un cancer du sein à 75 ans", "correct": false },
+    { "id": "f", "text": "Bilatéralité du cancer du sein chez une apparentée", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "Le réflexe oncogénétique se déclenche devant un ARBRE FAMILIAL ÉVOCATEUR : plusieurs cas (a), précocité <50 ans (b), association sein+ovaire (c), cancer du sein chez un homme (d, très évocateur), bilatéralité (f). L'item (e) est un faux ami : un seul cas tardif chez un apparenté au 2ᵉ degré ne justifie pas une consultation d'oncogénétique — c'est un événement banal en population générale. Mnémo : 'jeune, multiple, des deux côtés, ou chez un homme' → pense BRCA.",
+  "tags": {
+    "system": ["oncologie", "prevention", "genetique"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/G%C3%A8nes_BRCA",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

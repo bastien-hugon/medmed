@@ -1,0 +1,22 @@
+{
+  "id": "lombalgie-c1-s07-sct-douleur-mecanique-rassurer",
+  "kind": "sct",
+  "prompt": "Vous suivez une patiente de 38 ans pour une lombalgie évoluant depuis 5 semaines. Vous évoquez une LOMBALGIE COMMUNE MÉCANIQUE. La patiente précise que la douleur s'aggrave nettement en se penchant ou en portant ses courses, et est soulagée quand elle s'allonge. Cette information renforce-t-elle, affaiblit-elle ou est-elle neutre vis-à-vis de votre hypothèse ?",
+  "hypothesis": "Lombalgie commune mécanique",
+  "new_info": "Aggravation par les mouvements (flexion, port de charges), soulagement par le décubitus",
+  "expected": "renforce",
+  "rationale": "Profil typiquement mécanique : déclenchement par le mouvement / port de charges, soulagement par le repos. Cela renforce l'hypothèse de lombalgie commune mécanique et écarte le profil inflammatoire (qui se serait amélioré au mouvement). Conduite : maintien d'activité, AINS courte durée, réassurance, pas d'imagerie.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ist-c1-m06c-preservatif-limites",
+  "kind": "qcm-multi",
+  "prompt": "Coche les IST contre lesquelles le préservatif EXTERNE est MOINS protecteur (sans être inutile), parce que la transmission peut se faire par contact peau-peau hors zone couverte.",
+  "choices": [
+    { "id": "a", "text": "HPV (verrues génitales et lésions précancéreuses)", "correct": true },
+    { "id": "b", "text": "HSV (herpès génital)", "correct": true },
+    { "id": "c", "text": "Syphilis (chancre périnéal possible hors zone couverte)", "correct": true },
+    { "id": "d", "text": "VIH (transmis par fluides)", "correct": false },
+    { "id": "e", "text": "Chlamydia (transmission par sécrétions)", "correct": false },
+    { "id": "f", "text": "Hépatite B (transmission par sang et fluides)", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Le préservatif protège bien contre les IST transmises par FLUIDES (VIH, chlamydia, gonocoque, hépatite B, trichomonase). Il protège MOINS — sans être inutile — contre les IST transmises par CONTACT PEAU-PEAU hors zone couverte : HPV (lésions du pubis, scrotum, vulve), HSV (vésicules périnéales), SYPHILIS (chancre indolore qui peut être ailleurs que sur la zone enroulée). Message pédagogique : pas de barrière parfaite, mais le préservatif reste l'outil le plus polyvalent.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

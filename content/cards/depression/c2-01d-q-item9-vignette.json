@@ -1,0 +1,26 @@
+{
+  "id": "depression-c2-q01d-item9-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Mme Diallo remplit son PHQ-9 en salle d'attente. Score total : 11 (less severe). Mais à l'item 9 (idées de mort/suicide), elle a coché \"plus de la moitié des jours\". Que faites-vous ?",
+  "choices": [
+    { "id": "a", "text": "Score total < 16 = less severe, je rassure et propose self-help guidé", "correct": false },
+    { "id": "b", "text": "Une réponse positive à l'item 9, quel que soit le score total, impose une exploration immédiate du risque suicidaire en consultation (questions de gradation, plan, moyens, intention, antécédents)", "correct": true },
+    { "id": "c", "text": "Je relance un PHQ-9 dans 2 semaines pour vérifier", "correct": false },
+    { "id": "d", "text": "Je prescris un anxiolytique pour calmer", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'item 9 du PHQ-9 (idées suicidaires) doit être systématiquement vérifié et exploré, même si le score total est dans la zone less severe. Une dépression peut être \"légère\" sur l'échelle ET néanmoins comporter un risque suicidaire à prendre au sérieux. Le score est un repère, jamais une vérité absolue. Évaluer : idéation passive vs active, plan, intention, moyens, antécédents, désespoir.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 351],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

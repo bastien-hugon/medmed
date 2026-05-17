@@ -1,0 +1,29 @@
+{
+  "id": "anxiete-c1-m06c-attaque-panique-symptomes",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les symptômes typiquement décrits PENDANT une attaque de panique.",
+  "choices": [
+    { "id": "a", "text": "Palpitations / cœur qui s'emballe", "correct": true },
+    { "id": "b", "text": "Sueurs profuses", "correct": true },
+    { "id": "c", "text": "Sensation d'étouffement / oppression thoracique", "correct": true },
+    { "id": "d", "text": "Douleur thoracique", "correct": true },
+    { "id": "e", "text": "Sensation de mort imminente, de devenir fou ou de perdre le contrôle", "correct": true },
+    { "id": "f", "text": "Paresthésies (fourmillements mains, péribuccaux)", "correct": true },
+    { "id": "g", "text": "Évolution lente sur plusieurs heures sans pic net", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Tableau typique d'attaque de panique : symptômes physiques sympathiques + symptômes psychiques (peur intense de mourir, de devenir fou). Évolution : montée BRUTALE, pic en < 10 min, retombée en 20-30 min. Une 'crise d'anxiété' qui monte progressivement sur des heures n'est PAS une attaque de panique typique : chercher une autre cause (organique, autre trouble anxieux, intoxication/sevrage). Mnémo : panique = pic rapide, retombée rapide.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

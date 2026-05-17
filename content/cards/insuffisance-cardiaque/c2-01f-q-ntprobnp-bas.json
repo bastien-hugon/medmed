@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q01f-ntprobnp-bas",
+  "kind": "qcm-vignette",
+  "prompt": "Mme L., 55 ans, IMC 24, dyspnée d'effort modérée, JAMAIS traitée pour IC. NT-proBNP à 180 ng/L. Vers quoi orienter en priorité ?",
+  "choices": [
+    { "id": "a", "text": "Référence urgente cardiologie", "correct": false },
+    { "id": "b", "text": "IC peu probable → chercher d'autres causes à la dyspnée (poumon, anémie, déconditionnement)", "correct": true },
+    { "id": "c", "text": "Doser un BNP de confirmation", "correct": false },
+    { "id": "d", "text": "Échocardiographie systématique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NT-proBNP < 400 chez patient NON traité avec IMC normal = excellente valeur prédictive négative = IC peu probable. Inutile de redoubler par un BNP (même information). Pas d'écho systématique. Chercher AUTRE cause à la dyspnée : asthme, BPCO, anémie, déconditionnement, anxiété, hypothyroïdie…",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

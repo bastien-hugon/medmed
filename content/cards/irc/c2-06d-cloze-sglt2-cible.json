@@ -1,0 +1,20 @@
+{
+  "id": "irc-c2-cz06-sglt2-cible",
+  "kind": "cloze",
+  "prompt": "Complète : « Le mécanisme d'action des SGLT2-i au niveau rénal est l'inhibition de la réabsorption du ___ et du ___ dans le tubule proximal. »",
+  "expected": ["glucose ; sodium", "sucre ; sodium", "glucose et sodium", "glucose - sodium", "glucose, sodium"],
+  "rationale": "Le SGLT2 (Sodium-Glucose coTransporter 2) co-transporte glucose et sodium. En le bloquant : le sucre repart dans l'urine (effet antidiabétique) ET le sodium aussi (effet natriurétique). C'est ce double effet qui explique le bénéfice combiné : antidiabétique + néphroprotecteur + insuffisance cardiaque.",
+  "tags": {
+    "system": ["nephrologie", "endocrinologie"],
+    "sdd": ["irc", "mrc", "diabete"],
+    "item_edn": [261, 264, 245],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

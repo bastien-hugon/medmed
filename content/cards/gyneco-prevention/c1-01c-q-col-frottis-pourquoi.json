@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q01c-col-frottis-pourquoi",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi le COL DE L'UTÉRUS est-il l'organe surveillé par le frottis / test HPV (et pas le reste de l'utérus) ?",
+  "choices": [
+    { "id": "a", "text": "Parce que le col est l'organe le plus volumineux du petit bassin.", "correct": false },
+    { "id": "b", "text": "Parce que sa muqueuse est directement exposée au vagin et au HPV, ce qui en fait la cible privilégiée du virus.", "correct": true },
+    { "id": "c", "text": "Parce que le col contient les ovules.", "correct": false },
+    { "id": "d", "text": "Parce que le HPV n'infecte que le col, et jamais d'autres muqueuses.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le col est l'interface utérus-vagin : sa muqueuse est directement exposée à tous les contacts sexuels — donc au HPV. C'est cette exposition qui explique pourquoi 91 % des cancers du col sont attribuables au HPV, et pourquoi on prélève des cellules de la surface du col (par grattage) pour dépister. (Le HPV infecte aussi vulve, anus, oropharynx — la proposition D est fausse — mais le col reste l'organe le plus 'rentable' à surveiller).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Papillomavirus_humain",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

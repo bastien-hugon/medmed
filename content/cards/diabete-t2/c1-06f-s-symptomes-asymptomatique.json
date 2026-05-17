@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c1-s06-symptomes-asymptomatique",
+  "kind": "sct",
+  "hypothesis": "Mme L., 58 ans, en surpoids, dit ne ressentir aucun symptôme particulier. Elle n'a probablement pas de diabète de type 2.",
+  "new_info": "Sa glycémie à jeun de dépistage revient à 1,42 g/L, confirmée à 1,38 g/L un autre jour.",
+  "prompt": "Comment cette information modifie-t-elle l'hypothèse 'pas de diabète' ?",
+  "expected": "affaiblit",
+  "rationale": "Le T2 est SILENCIEUX chez la majorité des patients pendant des années. L'absence de symptômes n'élimine PAS le diagnostic. Les deux glycémies ≥ 1,26 g/L confirment au contraire le diabète. C'est précisément la raison d'être du dépistage : trouver les diabétiques asymptomatiques avant qu'ils ne développent des complications. Hypothèse 'pas de diabète' clairement affaiblie.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

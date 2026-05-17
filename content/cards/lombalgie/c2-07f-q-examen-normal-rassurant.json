@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q07-examen-normal-rassurant",
+  "kind": "qcm-vignette",
+  "prompt": "Un examen clinique strictement NORMAL chez un patient lombalgique a-t-il une utilité thérapeutique ?",
+  "choices": [
+    { "id": "a", "text": "Non, seul un examen anormal apporte de l'information", "correct": false },
+    { "id": "b", "text": "Oui : un examen normal est une INFORMATION POSITIVE qu'on partage avec le patient, et cette réassurance fait partie du traitement", "correct": true },
+    { "id": "c", "text": "Oui, mais seulement chez le patient anxieux", "correct": false },
+    { "id": "d", "text": "Non, il faut prescrire une IRM même en cas d'examen normal", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Un examen normal n'est PAS un examen 'pour rien'. C'est une donnée précieuse à partager : 'tout bouge, tout sent, tout réagit comme il faut'. Cette réassurance concrète, fondée sur des gestes simples, est un acte thérapeutique : elle diminue les croyances de gravité et favorise la reprise d'activité. C'est l'opposé du 'on fait une IRM pour être sûrs'.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

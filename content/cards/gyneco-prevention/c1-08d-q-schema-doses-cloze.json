@@ -1,0 +1,20 @@
+{
+  "id": "gyneco-prevention-c1-q08d-schema-doses-cloze",
+  "kind": "cloze",
+  "prompt": "En France, le schéma vaccinal HPV chez un adolescent entre 11 et 14 ans inclus comprend ___ doses (à M0 et M6). À partir de 15 ans, il faut ___ doses (M0, M2 et M6).",
+  "expected": ["2", "3"],
+  "rationale": "Avant 15 ans : 2 doses (M0 et M6, espacement 6 mois). À partir de 15 ans : 3 doses (M0, M2, M6). Logique : la réponse immunitaire est meilleure chez le sujet jeune, deux doses suffisent. Plus on est âgé, plus on a besoin de rappels. Rattrapage possible jusqu'à 19 ans pour tous, et jusqu'à 26 ans pour les HSH.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [143, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Gardasil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

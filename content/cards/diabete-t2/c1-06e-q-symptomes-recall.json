@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c1-q20-symptomes-recall",
+  "kind": "free-recall",
+  "prompt": "Cite les 3 symptômes cardinaux (les '3 P') du diabète.",
+  "expected": ["polyurie", "polydipsie", "perte de poids", "amaigrissement", "polyphagie"],
+  "rationale": "Les 3 P : Polyurie (uriner beaucoup), Polydipsie (boire beaucoup), Perte de poids (parfois remplacé par 'polyphagie' = manger beaucoup, dans certaines présentations). Bonne réponse = les 3 termes en P. Mnémo : 'pisser, picoler, peser moins'.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

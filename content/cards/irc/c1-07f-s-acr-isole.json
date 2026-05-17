@@ -1,0 +1,22 @@
+{
+  "id": "irc-c1-s07-acr-isole",
+  "kind": "sct",
+  "prompt": "M. F., 45 ans, sans ATCD particulier, vient de faire un ACR à 12 mg/mmol après bandelette positive. Vous concluez à une MRC débutante (G1 A2 si DFG normal).",
+  "hypothesis": "Cet ACR isolé à 12 mg/mmol suffit à porter le diagnostic de MRC stade A2.",
+  "new_info": "M. F. a fait un match de football de 90 minutes la veille du prélèvement, et le contrôle 4 semaines plus tard (sans effort récent) revient à 1,8 mg/mmol.",
+  "expected": "affaiblit",
+  "rationale": "L'effort intense récent peut donner une protéinurie d'effort transitoire (faux positif). C'est pour cela que le diagnostic exige une CONFIRMATION sur un deuxième prélèvement à distance, idéalement urine du matin, sans effort récent. Le contrôle à 1,8 (A1) infirme l'atteinte rénale. L'information affaiblit donc franchement l'hypothèse MRC. Règle d'or : ne jamais coller l'étiquette MRC sur une seule mesure d'ACR sans contextualiser et confirmer.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

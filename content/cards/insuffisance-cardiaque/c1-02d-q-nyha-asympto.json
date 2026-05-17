@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q02d-nyha-asympto",
+  "kind": "qcm-vignette",
+  "prompt": "M. K., 64 ans, IC à FEVG 35 % bien traitée, court 30 min sans gêne et ne ressent rien dans la vie quotidienne. Quelle classe NYHA ?",
+  "choices": [
+    { "id": "a", "text": "NYHA I", "correct": true },
+    { "id": "b", "text": "NYHA II", "correct": false },
+    { "id": "c", "text": "Hors NYHA puisqu'il est sous traitement", "correct": false },
+    { "id": "d", "text": "NYHA 0", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "NYHA I = aucune limitation, même à l'effort intense. Sous traitement bien conduit, beaucoup de patients ICFEr passent de NYHA II/III à NYHA I — c'est même l'objectif. 'NYHA 0' n'existe pas. La classification s'applique TOUJOURS, traité ou non — c'est un score clinique d'évaluation du retentissement actuel.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

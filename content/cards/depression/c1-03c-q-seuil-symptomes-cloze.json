@@ -1,0 +1,20 @@
+{
+  "id": "depression-c1-q03c-seuil-symptomes-cloze",
+  "kind": "cloze",
+  "prompt": "Pour parler d'épisode dépressif caractérisé, il faut au moins ___ symptômes sur 9 présents, dont au moins UN des deux symptômes cœur (humeur triste ou anhédonie).",
+  "expected": ["5"],
+  "rationale": "Seuil DSM-5 : 5/9 symptômes, presque tous les jours, pendant au moins 2 semaines, avec ≥ 1 symptôme cardinal (humeur ou anhédonie). En dessous de 5 → on peut parler de symptômes dépressifs ou de dépression sous-seuil, mais pas d'EDC. Le seuil 5 est arbitraire mais validé par décennies de littérature.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

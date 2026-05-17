@@ -1,0 +1,20 @@
+{
+  "id": "depression-c1-q07b-pronostic-cloze",
+  "kind": "cloze",
+  "prompt": "Le pronostic de l'épisode dépressif caractérisé traité est bon : environ ___ % à 80 % des dépressions traitées guérissent ou s'améliorent franchement.",
+  "expected": ["70"],
+  "rationale": "Chiffre à graver et à dire au patient : 70-80 % de réponse au traitement (psychothérapie et/ou antidépresseur). La dépression est UNE des maladies psychiatriques les mieux pronostiquées quand on la traite correctement. Le frein principal est l'absence de diagnostic et l'absence d'observance, pas un manque d'efficacité des traitements.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

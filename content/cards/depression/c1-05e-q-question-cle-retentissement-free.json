@@ -1,0 +1,29 @@
+{
+  "id": "depression-c1-q05e-question-cle-retentissement-free",
+  "kind": "free-recall",
+  "prompt": "Formulez UNE question ouverte simple et concrète à poser au patient pour évaluer le retentissement de sa dépression sur son fonctionnement quotidien.",
+  "expected": [
+    "qu'arriviez-vous",
+    "qu'est-ce que vous faisiez avant",
+    "que faites-vous plus",
+    "n'arrivez plus",
+    "fonctionnement",
+    "comment ça se passe",
+    "travail",
+    "famille"
+  ],
+  "rationale": "Question-type clé : \"Qu'est-ce que vous arriviez à faire avant que vous n'arrivez plus à faire ?\" — ou variantes (\"Comment ça se passe au travail / à la maison / avec vos proches ?\"). Cible : faire émerger concrètement les fonctions altérées, plutôt qu'un score abstrait. Plus parlant et plus utile pour décider d'un arrêt de travail ou d'une intensification thérapeutique.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

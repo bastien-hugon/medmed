@@ -1,0 +1,26 @@
+{
+  "id": "saos-c1-05f-q-pathologies-endocriniennes",
+  "kind": "qcm-vignette",
+  "prompt": "Devant un SAOS atypique (sujet mince, jeune, ou très sévère sans FdR évident), quelles pathologies ENDOCRINIENNES sous-jacentes faut-il systématiquement évoquer ?",
+  "choices": [
+    {"id": "a", "text": "Hyperthyroïdie et phéochromocytome", "correct": false},
+    {"id": "b", "text": "Hypothyroïdie, acromégalie et syndrome de Cushing", "correct": true},
+    {"id": "c", "text": "Maladie d'Addison et hyperaldostéronisme primaire", "correct": false},
+    {"id": "d", "text": "Diabète insipide et hyperparathyroïdie", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Trois endocrinopathies favorisent un SAOS atypique : (1) HYPOTHYROÏDIE (infiltration myxoedémateuse des VAS + diminution du tonus musculaire), (2) ACROMÉGALIE (hypertrophie de la langue et des tissus mous + macroglossie), (3) SYNDROME DE CUSHING (obésité centrale + faciès). Un SAOS chez un sujet jeune, mince, ou particulièrement sévère doit faire demander au minimum TSH, IGF-1 et un examen clinique orienté. Ces pathologies peuvent expliquer un SAOS résistant ou réfractaire.",
+  "tags": {
+    "system": ["pneumologie", "endocrinologie"],
+    "sdd": ["saos"],
+    "item_edn": [108, 241, 243],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

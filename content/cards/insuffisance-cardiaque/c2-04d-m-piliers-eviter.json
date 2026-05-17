@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m04d-piliers-eviter",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les médicaments à ÉVITER chez un patient ICFEr (FEVG ≤ 40 %) selon NICE NG106.",
+  "choices": [
+    { "id": "a", "text": "Vérapamil", "correct": true },
+    { "id": "b", "text": "Diltiazem", "correct": true },
+    { "id": "c", "text": "Dihydropyridines courte action (nifédipine LI)", "correct": true },
+    { "id": "d", "text": "Spironolactone", "correct": false },
+    { "id": "e", "text": "AINS (sauf indication ponctuelle stricte)", "correct": true },
+    { "id": "f", "text": "Empagliflozine", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "À ÉVITER en ICFEr (NICE NG106) : vérapamil, diltiazem, dihydropyridines courte action (inotropes négatifs, risque de décompensation). Les AINS aussi → rétention hydrosodée + IR + risque d'aggravation. La spironolactone (MRA) et l'empagliflozine (SGLT2-i) sont au contraire DES PILIERS du traitement.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

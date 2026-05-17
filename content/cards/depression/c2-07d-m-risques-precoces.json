@@ -1,0 +1,28 @@
+{
+  "id": "depression-c2-m07d-risques-precoces",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les signaux qui doivent inciter le patient (ou son entourage) à contacter immédiatement le médecin dans les PREMIÈRES SEMAINES d'un antidépresseur.",
+  "choices": [
+    { "id": "a", "text": "Apparition ou majoration d'idées suicidaires", "correct": true },
+    { "id": "b", "text": "Agitation, akathisie (impossibilité de tenir en place)", "correct": true },
+    { "id": "c", "text": "Anxiété intense nouvelle ou très majorée", "correct": true },
+    { "id": "d", "text": "Idées d'auto-agression", "correct": true },
+    { "id": "e", "text": "Légères nausées le matin, transitoires", "correct": false },
+    { "id": "f", "text": "Sécheresse buccale modérée", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Phénomène connu en début d'AD, surtout chez < 25 ans (NICE Rec 1.4.22) : majoration transitoire possible d'agitation, anxiété et idées suicidaires AVANT la levée de l'humeur. Information à donner systématiquement au patient ET à l'entourage. Nausées et sécheresse buccale modérées sont des effets indésirables banals et transitoires, ne nécessitant pas de consultation en urgence (mais à signaler au suivi planifié).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74, 351],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

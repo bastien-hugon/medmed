@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q08b-fenetre-sero-def",
+  "kind": "qcm-vignette",
+  "prompt": "Qu'est-ce que la 'fenêtre sérologique' dans le contexte du dépistage d'une IST ?",
+  "choices": [
+    { "id": "a", "text": "Le délai pendant lequel une sérologie reste positive après guérison", "correct": false },
+    { "id": "b", "text": "Le délai entre l'exposition à l'infection et l'apparition d'anticorps détectables par la prise de sang", "correct": true },
+    { "id": "c", "text": "La période de l'année où les sérologies sont les plus pratiquées", "correct": false },
+    { "id": "d", "text": "La fenêtre de temps maximale pour donner un traitement", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Fenêtre sérologique = délai entre l'exposition et la séroconversion (apparition des anticorps détectables). Pendant cette fenêtre, le test est faussement NÉGATIF alors que l'infection est présente. Conséquence : recontrôler après la fin de la fenêtre. Exceptions importantes : tests par antigène/ADN (NAAT chlamydia, charge virale VIH) ont une fenêtre beaucoup plus courte.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

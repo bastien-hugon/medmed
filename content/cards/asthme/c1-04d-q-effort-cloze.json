@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c1-q04d-effort-cloze",
+  "kind": "cloze",
+  "prompt": "Un asthme qui se manifeste typiquement quelques minutes après un effort intense, surtout par temps froid et sec, s'appelle un asthme d'___.",
+  "expected": ["effort"],
+  "rationale": "Asthme d'effort = bronchoconstriction induite par l'exercice (BIE). Mécanisme : l'hyperventilation refroidit et assèche les bronches, ce qui libère des médiateurs inflammatoires. Pic 5-15 min après l'effort. Diagnostic : test de provocation à l'effort (rare en MG), souvent clinique. Prise en charge : prémédication par ICS/formotérol ou SABA 15 min avant l'effort, échauffement progressif, port d'un masque/foulard par temps froid.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

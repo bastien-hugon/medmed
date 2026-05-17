@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c2-s09-inclisiran-observance",
+  "kind": "sct",
+  "prompt": "Un patient avec hypercholestérolémie familiale, post-infarctus, a une observance médiocre des médicaments oraux. Vous envisagez de l'orienter vers l'inclisiran (2 injections SC par an).",
+  "hypothesis": "L'inclisiran pourrait améliorer l'observance et le contrôle lipidique chez ce patient.",
+  "new_info": "L'inclisiran (Leqvio®, recommandé NICE TA733) est un ARN interférent à demi-vie longue : 2 injections sous-cutanées par an seulement, après une dose initiale puis à 3 mois.",
+  "expected": "renforce",
+  "rationale": "RENFORCE l'hypothèse : justement, l'inclisiran a été développé pour les profils à observance difficile. 2 injections/an (après init + 3 mois) = 'mensuelles' devenant trimestrielles, sans contrainte quotidienne. Indication NICE : prévention secondaire ou patients à très haut risque avec LDL persistant ≥2,6 mmol/L malgré statine + ézétimibe maximaux. Décision d'orientation à confirmer avec le spécialiste (prescription souvent hospitalière, coût élevé).",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

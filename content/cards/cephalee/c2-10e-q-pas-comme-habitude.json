@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q10e-pas-comme-habitude",
+  "kind": "free-recall",
+  "prompt": "Quelle phrase prononcée par un patient céphalalgique connu doit IMMÉDIATEMENT vous faire suspecter une cause secondaire (HSA, TVC, dissection...) et déclencher une imagerie ?",
+  "expected": ["pas comme d'habitude", "différente", "jamais eu"],
+  "rationale": "Phrase-clé : 'celle-ci n'est pas comme les autres', 'c'est différent de mes migraines habituelles', 'je n'ai jamais eu mal comme ça'. C'est la verbalisation, par le patient lui-même, du drapeau rouge 'substantial change in headache characteristics' (NICE). À côté du 'coup de tonnerre' (sur la cinétique), c'est le signal le plus utile en pratique en médecine générale. Toujours laisser le patient décrire SA céphalée sans l'orienter — la verbalisation spontanée du changement est très spécifique.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

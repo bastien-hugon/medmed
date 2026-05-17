@@ -1,0 +1,20 @@
+{
+  "id": "ist-c1-c06e-preservatif-mecanisme",
+  "kind": "cloze",
+  "prompt": "Le préservatif agit comme une barrière ___ entre les muqueuses des partenaires et les ___ (sperme, sécrétions vaginales, sang). Il existe deux types : externe (porté par le ___) et interne (porté par la ___).",
+  "expected": ["physique", "fluides", "pénis", "vulve"],
+  "rationale": "Mécanisme strictement mécanique : empêcher le contact muqueux et le passage de fluides porteurs de microbes. Préservatif EXTERNE = pénis (anciennement 'masculin'). Préservatif INTERNE = vulve/vagin (anciennement 'féminin'). Les deux peuvent aussi être utilisés pour le rapport anal. Terminologie actuelle inclusive.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

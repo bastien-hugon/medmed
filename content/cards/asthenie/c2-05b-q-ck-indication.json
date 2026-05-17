@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c2-q05b-ck-indication",
+  "kind": "qcm-vignette",
+  "prompt": "Vous suivez un patient de 65 ans sous atorvastatine, qui consulte pour une asthénie d'apparition récente avec des DOULEURS MUSCULAIRES DIFFUSES dans les cuisses et les épaules.\n\nQuel test biologique DIRIGÉ devez-vous prescrire en priorité, en complément du pack standard ?",
+  "choices": [
+    { "id": "a", "text": "Sérologie EBV à la recherche d'une mononucléose tardive.", "correct": false },
+    { "id": "b", "text": "CK (créatine kinase) pour rechercher une atteinte musculaire (rhabdomyolyse iatrogène sous statine).", "correct": true },
+    { "id": "c", "text": "Bilan immunologique systématique (ANA, FR, anti-CCP).", "correct": false },
+    { "id": "d", "text": "Polygraphie ventilatoire à la recherche d'un SAOS.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Devant des myalgies + asthénie sous statine, doser les CK est l'examen DIRIGÉ pertinent : il dépiste une atteinte musculaire iatrogène (myopathie aux statines, rhabdomyolyse plus grave). Une élévation > 5x la normale impose en général l'arrêt de la statine. C'est l'application de la règle : pas de test sans hypothèse, mais devant une hypothèse claire, le test ciblé est rentable.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

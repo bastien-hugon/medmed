@@ -1,0 +1,22 @@
+{
+  "id": "irc-c2-s09-orientation-stable",
+  "kind": "sct",
+  "prompt": "M. L., 78 ans, MRC G3a (DFG stable à 53) A1 (ACR 1,2 mg/mmol) depuis 5 ans, HTA contrôlée sous ramipril 5 mg, vit bien sa vie. Vous envisagez de l'envoyer voir un néphrologue 'par sécurité'.",
+  "hypothesis": "Une consultation chez un néphrologue est indiquée pour ce patient G3a A1 stable.",
+  "new_info": "Les critères NICE NG203 n'incluent PAS le stade G3a A1 stable comme indication d'orientation. Le KFRE de ce patient (calculé) est à 1,2 % à 5 ans. Il est sur un traitement optimal.",
+  "expected": "affaiblit",
+  "rationale": "G3a A1 stable, KFRE bas, HTA contrôlée, sous IEC : c'est exactement le profil qui RESTE en MG. Pas de critère d'orientation NICE rempli. L'envoyer ne lui apporte rien et engorge le néphrologue pour des patients qui en bénéficient vraiment (G4, dégradation rapide, protéinurie franche). L'information affaiblit franchement l'hypothèse. Leçon : la majorité des MRC sont gérables en MG, l'orientation doit être ciblée.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

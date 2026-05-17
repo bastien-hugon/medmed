@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c1-q02d-hyperreactivite-definition",
+  "kind": "cloze",
+  "prompt": "On dit que les bronches d'un asthmatique sont ___ : elles se contractent face à des stimuli (air froid, effort, fumée) que des bronches normales ignorent.",
+  "expected": ["hyperréactives"],
+  "rationale": "Hyperréactivité bronchique = trait CARACTÉRISTIQUE de l'asthme, mesurable objectivement par un test de provocation à la métacholine ou à l'histamine en milieu spécialisé (étape 4 NG245). En pratique, c'est ce qui explique que les patients ressentent des symptômes face à des déclencheurs très variés, allergiques ou non.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

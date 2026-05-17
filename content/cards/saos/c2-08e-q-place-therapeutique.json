@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-08e-q-place-therapeutique",
+  "kind": "qcm-vignette",
+  "prompt": "Dans la hiérarchie thérapeutique du SAOS, quelle est la PLACE de la stimulation du nerf hypoglosse ?",
+  "choices": [
+    {"id": "a", "text": "Traitement de 1ère intention dans le SAOS sévère", "correct": false},
+    {"id": "b", "text": "Alternative à la CPAP de même niveau de preuve", "correct": false},
+    {"id": "c", "text": "Traitement de RECOURS chez les patients sélectionnés en échec de CPAP", "correct": true},
+    {"id": "d", "text": "Traitement validé pour les SAOS centraux", "correct": false}
+  ],
+  "expected": ["c"],
+  "rationale": "La stimulation du nerf hypoglosse est un traitement de RECOURS, pas de 1ère ligne. Elle vient APRÈS la CPAP (référence), l'OAM (alternative), les MHD. Indications strictes : SAOS modéré-sévère obstructif (pas central), IMC < 35, anatomie compatible, échec/intolérance documentée de la CPAP. Encore peu diffusée en France (centres experts), mais en développement. C'est une option à connaître pour répondre au patient qui demande 's'il n'existe rien d'autre que le masque'.",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

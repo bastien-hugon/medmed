@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q01-prevalence-vie-entiere",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle proportion de la population aura au moins un épisode de lombalgie au cours de sa vie ?",
+  "choices": [
+    { "id": "a", "text": "Environ 10 %", "correct": false },
+    { "id": "b", "text": "Environ 30 %", "correct": false },
+    { "id": "c", "text": "Environ 80 %", "correct": true },
+    { "id": "d", "text": "Environ 99 %", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Environ 80 % des personnes connaîtront au moins un épisode de lombalgie dans leur vie. C'est l'un des motifs de consultation les plus fréquents en médecine générale, et la première cause d'années vécues avec incapacité dans le monde. Cette banalité doit être expliquée au patient pour le rassurer.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

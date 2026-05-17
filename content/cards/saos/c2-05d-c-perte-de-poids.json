@@ -1,0 +1,20 @@
+{
+  "id": "saos-c2-05d-c-perte-de-poids",
+  "kind": "cloze",
+  "prompt": "Une perte d'environ ___ % du poids corporel peut réduire l'IAH de ___ à ___ %. La perte de poids reste recommandée à TOUTE sévérité de SAOS, y compris ___ déjà traités par CPAP.",
+  "expected": ["10", "25", "50", "ceux"],
+  "rationale": "Chiffres-clés : -10 % du poids → -25 à -50 % d'IAH. C'est massif. La perte de poids reste un levier majeur même chez les SAOS sévères déjà appareillés en CPAP — elle peut permettre de baisser la pression de CPAP, voire de s'en passer à terme. À toute sévérité : la perte de poids est la mesure la plus 'rentable' du SAOS, avec effets cardiométaboliques en bonus.",
+  "tags": {
+    "system": ["pneumologie", "endocrinologie"],
+    "sdd": ["saos", "obesite"],
+    "item_edn": [108, 253],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "irc-c2-cz02-kdigo-binome",
+  "kind": "cloze",
+  "prompt": "Un patient diabétique a un eGFR à 32 mL/min/1,73 m² et un ACR à 8 mg/mmol. Complète son binôme KDIGO : ___ ___.",
+  "expected": ["G3b A2", "G3b-A2", "G3b/A2", "g3b a2"],
+  "rationale": "DFG 32 → entre 30 et 44 → G3b. ACR 8 → entre 3 et 30 → A2. Donc G3b A2. Patient à risque élevé : suivi rapproché, IEC/ARA2, discussion SGLT2-i (diabétique + MRC + ACR augmenté). Cible PA < 140/90 (ACR < 70).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

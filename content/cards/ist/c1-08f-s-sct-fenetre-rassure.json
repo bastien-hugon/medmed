@@ -1,0 +1,22 @@
+{
+  "id": "ist-c1-s08f-sct-fenetre-rassure",
+  "kind": "sct",
+  "prompt": "Un patient revient en consultation très inquiet. Il a fait une sérologie VIH 5 jours après une exposition à risque, résultat négatif. Il vous dit 'donc je suis tranquille'.",
+  "hypothesis": "Le patient est définitivement rassuré sur le risque VIH.",
+  "new_info": "Vous lui rappelez que la fenêtre sérologique pour le test combiné Ag/Ac 4ème génération est d'environ 6 semaines.",
+  "expected": "affaiblit",
+  "rationale": "5 jours après l'exposition = en pleine fenêtre sérologique. Le test peut être faussement négatif. La nouvelle info (fenêtre de 6 semaines) AFFAIBLIT considérablement la conclusion 'tranquille'. Conduite : maintenir l'inquiétude raisonnable, planifier un retest à 6 semaines (et envisager une PEP si exposition très récente < 72 h et patient pas encore couvert).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "depression-c1-q05b-retentissement-cloze",
+  "kind": "cloze",
+  "prompt": "Au-delà des 5 symptômes sur 9 et de la durée ≥ 2 semaines, l'EDC nécessite un ___ cliniquement significatif sur le fonctionnement (familial, professionnel, social ou quotidien).",
+  "expected": ["retentissement"],
+  "rationale": "Le retentissement est le critère C du DSM-5. Sans impact mesurable sur le fonctionnement, le diagnostic d'EDC ne tient pas, même avec 5 symptômes cochés. Quatre sphères à explorer : famille, travail, social, quotidien (hygiène, courses, factures).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

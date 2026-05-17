@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c2-q04c-timbre-24h",
+  "kind": "cloze",
+  "prompt": "Le timbre transdermique nicotinique (patch) libère la nicotine de façon LENTE et CONTINUE sur ___ heures, assurant un taux sanguin stable et constituant le 'fond' du traitement.",
+  "expected": ["24"],
+  "rationale": "Patch 24 h : à coller le matin, change quotidiennement, dose dégressive (21 → 14 → 7 mg) sur ~8 semaines. Avantages : couvre le manque biologique nocturne et matinal. Inconvénient : ne reproduit pas le 'shoot' rapide (~7 s) de la cigarette, donc à compléter par une forme rapide (gomme, pastille, spray) pour les pics d'envie.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, useTransition } from "react";
+import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { completeSession, submitReview } from "@/actions/session";
 import type { CardRow } from "@/lib/cards";
@@ -24,6 +24,23 @@ const ratings: { value: Rating; label: string; hint: string; tone: string }[] = 
 // distance min 2 cartes plus loin, max 3 retests par carte pour éviter une boucle.
 const RETEST_DISTANCE = 3;
 const MAX_RETESTS = 3;
+
+// Mélange déterministe basé sur l'id : ordre des choix QCM stabilisé par carte
+// (évite la mémoire de position), peut différer entre devices ou sessions.
+function seededShuffle<T>(arr: T[], seed: string): T[] {
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) | 0;
+  function rng() {
+    h = (h * 1664525 + 1013904223) | 0;
+    return ((h >>> 0) % 1000) / 1000;
+  }
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
 
 // Labels affichables par topic (dérivés du préfixe de l'id de la carte).
 // Permet d'afficher un badge clair pendant les sessions interleaved.
@@ -98,6 +115,7 @@ export default function SessionRunner({
   const [userAnswer, setUserAnswer] = useState<string>("");
   const [pickedChoiceId, setPickedChoiceId] = useState<string | null>(null);
   const [pickedSctValue, setPickedSctValue] = useState<string | null>(null);
+  const [pickedMultiIds, setPickedMultiIds] = useState<string[]>([]);
   const [verdict, setVerdict] = useState<{ correct: boolean; feedback: string } | null>(null);
   const [grading, setGrading] = useState(false);
   const [gradeError, setGradeError] = useState<string | null>(null);
@@ -109,14 +127,25 @@ export default function SessionRunner({
     startedAtRef.current = Date.now();
   }, [cursor]);
 
-  if (cards.length === 0) {
+  // Tous les hooks doivent être appelés AVANT tout return conditionnel.
+  const item = queue[cursor] ?? null;
+  const card = item?.card ?? null;
+  // Randomisation déterministe (cf. seededShuffle) des choix QCM / QCM-multi.
+  const shuffledChoices = useMemo(() => {
+    if (!card) return null;
+    if (card.kind !== "qcm-vignette" && card.kind !== "qcm-multi") return null;
+    const ch = ((card.extra as { choices?: { id: string; text: string }[] } | null)?.choices ??
+      []) as { id: string; text: string }[];
+    return seededShuffle(ch, card.id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [card?.id]);
+
+  if (cards.length === 0 || !item || !card) {
     return (
       <EmptyState onComplete={() => finishTransition(() => completeSession(sessionId))} />
     );
   }
 
-  const item = queue[cursor];
-  const card = item.card;
   const isRetest = item.attempt > 0;
   // Pas de bandeau de transition si on est sur un retest : le sujet est déjà connu.
   const previousCard = cursor > 0 && !isRetest ? queue[cursor - 1].card : null;
@@ -130,6 +159,13 @@ export default function SessionRunner({
   function computeCorrect(): 0 | 1 | null {
     if (card.kind === "qcm-vignette") {
       return pickedChoiceId && expectedArr.includes(pickedChoiceId) ? 1 : 0;
+    }
+    if (card.kind === "qcm-multi") {
+      const exp = new Set(expectedArr);
+      const got = new Set(pickedMultiIds);
+      if (exp.size !== got.size) return 0;
+      for (const id of exp) if (!got.has(id)) return 0;
+      return 1;
     }
     if (card.kind === "sct") {
       return pickedSctValue && expectedArr.includes(pickedSctValue) ? 1 : 0;
@@ -145,6 +181,7 @@ export default function SessionRunner({
     setConfidence(null);
     setUserAnswer("");
     setPickedChoiceId(null);
+    setPickedMultiIds([]);
     setPickedSctValue(null);
     setVerdict(null);
     setGradeError(null);
@@ -227,6 +264,7 @@ export default function SessionRunner({
 
   function canReveal(): boolean {
     if (card.kind === "qcm-vignette") return pickedChoiceId !== null;
+    if (card.kind === "qcm-multi") return pickedMultiIds.length > 0;
     if (card.kind === "sct") return pickedSctValue !== null;
     if (card.kind === "free-recall") return userAnswer.trim().length > 0;
     if (card.kind === "cloze") return userAnswer.trim().length > 0;
@@ -313,9 +351,12 @@ export default function SessionRunner({
                   setUserAnswer={setUserAnswer}
                   pickedChoiceId={pickedChoiceId}
                   setPickedChoiceId={setPickedChoiceId}
+                  pickedMultiIds={pickedMultiIds}
+                  setPickedMultiIds={setPickedMultiIds}
                   pickedSctValue={pickedSctValue}
                   setPickedSctValue={setPickedSctValue}
                   expectedArr={expectedArr}
+                  shuffledChoices={shuffledChoices}
                 />
               </div>
 
@@ -516,6 +557,7 @@ function CardKindBadge({ kind }: { kind: CardRow["kind"] }) {
     lesson: "Leçon",
     cloze: "Texte à trous",
     "qcm-vignette": "QCM",
+    "qcm-multi": "QCM multi-choix",
     "free-recall": "Rappel libre",
     sct: "Raisonnement clinique",
   };
@@ -523,6 +565,7 @@ function CardKindBadge({ kind }: { kind: CardRow["kind"] }) {
     lesson: "border-sky-200 bg-sky-50 text-sky-700 dark:border-sky-800 dark:bg-sky-950 dark:text-sky-300",
     cloze: "border-zinc-200 text-zinc-500 dark:border-zinc-800 dark:text-zinc-400",
     "qcm-vignette": "border-zinc-200 text-zinc-500 dark:border-zinc-800 dark:text-zinc-400",
+    "qcm-multi": "border-amber-200 bg-amber-50 text-amber-700 dark:border-amber-800 dark:bg-amber-950 dark:text-amber-300",
     "free-recall": "border-zinc-200 text-zinc-500 dark:border-zinc-800 dark:text-zinc-400",
     sct: "border-zinc-200 text-zinc-500 dark:border-zinc-800 dark:text-zinc-400",
   };
@@ -608,9 +651,12 @@ function AnswerArea({
   setUserAnswer,
   pickedChoiceId,
   setPickedChoiceId,
+  pickedMultiIds,
+  setPickedMultiIds,
   pickedSctValue,
   setPickedSctValue,
   expectedArr,
+  shuffledChoices,
 }: {
   card: CardRow;
   step: Step;
@@ -618,18 +664,17 @@ function AnswerArea({
   setUserAnswer: (v: string) => void;
   pickedChoiceId: string | null;
   setPickedChoiceId: (v: string) => void;
+  pickedMultiIds: string[];
+  setPickedMultiIds: (v: string[]) => void;
   pickedSctValue: string | null;
   setPickedSctValue: (v: string) => void;
   expectedArr: string[];
+  shuffledChoices: { id: string; text: string }[] | null;
 }) {
   const locked = step === "reveal";
 
   if (card.kind === "qcm-vignette") {
-    const choices =
-      ((card.extra as { choices?: { id: string; text: string }[] } | null)?.choices ?? []) as {
-        id: string;
-        text: string;
-      }[];
+    const choices = shuffledChoices ?? [];
     return (
       <div className="space-y-2">
         {choices.map((c) => {
@@ -654,6 +699,59 @@ function AnswerArea({
               className={`flex w-full items-start gap-3 rounded-lg border px-4 py-3 text-left text-sm transition ${color}`}
             >
               <span className="font-mono text-xs text-zinc-400">{c.id.toUpperCase()}</span>
+              <span>{c.text}</span>
+            </button>
+          );
+        })}
+      </div>
+    );
+  }
+
+  if (card.kind === "qcm-multi") {
+    const choices = shuffledChoices ?? [];
+    const picked = new Set(pickedMultiIds);
+    const toggle = (id: string) => {
+      const next = new Set(picked);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      setPickedMultiIds([...next]);
+    };
+    return (
+      <div className="space-y-2">
+        <p className="text-xs text-zinc-500 dark:text-zinc-400">
+          ☐ Coche toutes les bonnes réponses (plusieurs possibles)
+        </p>
+        {choices.map((c) => {
+          const isPicked = picked.has(c.id);
+          const isCorrect = expectedArr.includes(c.id);
+          let color: string;
+          if (locked) {
+            if (isCorrect && isPicked) color = "border-emerald-500 bg-emerald-50 dark:bg-emerald-950";
+            else if (isCorrect && !isPicked) color = "border-emerald-300 bg-emerald-50/40 dark:bg-emerald-950/40";
+            else if (!isCorrect && isPicked) color = "border-red-500 bg-red-50 dark:bg-red-950";
+            else color = "border-zinc-200 dark:border-zinc-800";
+          } else {
+            color = isPicked
+              ? "border-zinc-900 bg-zinc-50 dark:border-zinc-50 dark:bg-zinc-900"
+              : "border-zinc-200 hover:border-zinc-400 dark:border-zinc-800 dark:hover:border-zinc-600";
+          }
+          return (
+            <button
+              key={c.id}
+              type="button"
+              disabled={locked}
+              onClick={() => toggle(c.id)}
+              className={`flex w-full items-start gap-3 rounded-lg border px-4 py-3 text-left text-sm transition ${color}`}
+            >
+              <span
+                className={`mt-0.5 inline-flex h-4 w-4 shrink-0 items-center justify-center rounded border-2 ${
+                  isPicked
+                    ? "border-zinc-900 bg-zinc-900 text-white dark:border-zinc-50 dark:bg-zinc-50 dark:text-zinc-900"
+                    : "border-zinc-300 dark:border-zinc-600"
+                }`}
+              >
+                {isPicked && <span className="text-[10px] leading-none">✓</span>}
+              </span>
               <span>{c.text}</span>
             </button>
           );

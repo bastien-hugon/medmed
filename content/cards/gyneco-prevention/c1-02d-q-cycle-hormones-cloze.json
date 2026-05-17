@@ -1,0 +1,20 @@
+{
+  "id": "gyneco-prevention-c1-q02d-cycle-hormones-cloze",
+  "kind": "cloze",
+  "prompt": "Les deux hormones-clés du cycle menstruel sont les ___ (dominant la 1ère moitié) et la ___ (dominante la 2e moitié).",
+  "expected": ["œstrogènes", "progestérone"],
+  "rationale": "Œstrogènes : sécrétés par le follicule ovarien en croissance, dominent la phase folliculaire (J1-J14). Progestérone : sécrétée par le corps jaune (= follicule vidé), domine la phase lutéale (J14-J28). Toute la contraception hormonale joue sur ce duo : pilule combinée = œstrogène + progestatif ; pilule micro-dosée, implant, DIU LNG = progestatif seul.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

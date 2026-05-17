@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c1-s01f-bronche-obstruee",
+  "kind": "sct",
+  "prompt": "Un patient fumeur de 60 ans se plaint d'un essoufflement à l'effort. Tu suspectes une atteinte des voies respiratoires basses.",
+  "hypothesis": "Mon hypothèse : l'air a du mal à sortir parce que les bronches sont rétrécies.",
+  "new_info": "L'examen retrouve des sibilants (sifflements à l'expiration) à l'auscultation des deux poumons.",
+  "expected": "renforce",
+  "rationale": "Les sibilants sont des bruits aigus expiratoires produits par le passage de l'air à travers des bronches RÉTRÉCIES (l'air 'siffle' comme dans un tuyau étroit). Leur présence diffuse renforce l'hypothèse d'une obstruction bronchique. Logique du SCT : on juge l'effet d'une nouvelle info sur une hypothèse (renforce / affaiblit / neutre).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

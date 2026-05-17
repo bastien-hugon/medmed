@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q09d-old-duree",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la durée MINIMALE quotidienne d'utilisation de l'oxygénothérapie longue durée (OLD) pour qu'elle apporte un bénéfice de SURVIE chez le patient BPCO ?",
+  "choices": [
+    { "id": "a", "text": "≥ 4 heures par jour", "correct": false },
+    { "id": "b", "text": "≥ 8 heures par jour", "correct": false },
+    { "id": "c", "text": "≥ 15 heures par jour", "correct": true },
+    { "id": "d", "text": "≥ 24 heures par jour, sans interruption", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Seuil de 15 heures par jour validé par les études historiques NOTT et MRC : c'est en dessous de 15h/j que le bénéfice sur la survie disparaît. La majorité des patients la portent 15-18h/j en incluant la nuit + une partie de la journée. Mnémo 'O2 = 7,3 et 15'. Observance évaluée par le compteur du concentrateur.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

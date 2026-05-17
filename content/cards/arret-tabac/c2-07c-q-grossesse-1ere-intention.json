@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c2-q07c-grossesse-1ere-intention",
+  "kind": "cloze",
+  "prompt": "Chez la femme enceinte fumeuse, le traitement de 1ère intention pour l'arrêt du tabac est une approche NON médicamenteuse : entretien motivationnel et thérapie ___ comportementale (TCC).",
+  "expected": ["cognitivo", "cognitivo-comportementale", "cognitive"],
+  "rationale": "Entretien motivationnel + TCC (Thérapie Cognitivo-Comportementale) en 1ère intention pendant la grossesse. Efficacité comparable aux médicaments dans cette population, sans risque fœtal. Si échec, on passe aux NRT (autorisés, remboursés). Varénicline et bupropion sont CONTRE-INDIQUÉS.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie", "gynecologie", "obstetrique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

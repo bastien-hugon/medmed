@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c1-m02d-caracteristiques-programme-organise",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les caractéristiques propres au dépistage ORGANISÉ (vs dépistage individuel) en France.",
+  "choices": [
+    { "id": "a", "text": "Le patient reçoit un courrier d'invitation à son domicile", "correct": true },
+    { "id": "b", "text": "Le test est pris en charge à 100 % par l'Assurance maladie, sans avance de frais", "correct": true },
+    { "id": "c", "text": "Les centres et lecteurs sont agréés, avec contrôle qualité externe", "correct": true },
+    { "id": "d", "text": "Le rythme et l'âge de début sont décidés au cas par cas par le médecin traitant", "correct": false },
+    { "id": "e", "text": "Le programme inclut un suivi organisé en cas de test positif (rappel, examens complémentaires)", "correct": true },
+    { "id": "f", "text": "Le programme est réservé aux patients ayant des antécédents familiaux de cancer", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Le programme ORGANISÉ se reconnaît à 4 marques : invitation par courrier (a), gratuité totale via tiers payant (b), contrôle qualité par agrément (c), filet de suivi en cas de positif (e). Le rythme et l'âge de début sont au contraire FIXÉS de manière standardisée (pas du sur-mesure). Et il s'adresse à la POPULATION GÉNÉRALE asymptomatique à risque moyen — les patients à antécédents familiaux relèvent eux du dépistage INDIVIDUEL (sur mesure, prescrit par le médecin, avec une coloscopie ou une IRM, et pris en charge différemment).",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [287, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

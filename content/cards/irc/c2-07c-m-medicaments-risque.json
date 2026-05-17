@@ -1,0 +1,30 @@
+{
+  "id": "irc-c2-m07-medicaments-risque",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les médicaments / classes nécessitant une vigilance particulière (adaptation, surveillance, parfois CI) chez un patient avec MRC.",
+  "choices": [
+    { "id": "a", "text": "AINS (ibuprofène, naproxène, kétoprofène, diclofénac)", "correct": true },
+    { "id": "b", "text": "Metformine (CI si DFG < 30, dose réduite 30-45)", "correct": true },
+    { "id": "c", "text": "Morphine et codéine (accumulation, préférer fentanyl ou prudent paracétamol)", "correct": true },
+    { "id": "d", "text": "Lithium (marge thérapeutique étroite, élimination rénale)", "correct": true },
+    { "id": "e", "text": "Digoxine (marge étroite, élimination rénale)", "correct": true },
+    { "id": "f", "text": "Aminosides (gentamicine, amikacine) — toxicité rénale", "correct": true },
+    { "id": "g", "text": "Anticoagulants oraux directs (AOD) — seuils de DFG à respecter", "correct": true },
+    { "id": "h", "text": "Paracétamol à doses usuelles (1g x 3/j)", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g"],
+  "rationale": "Liste à connaître par cœur des médicaments à risque chez le MRC : AINS (éviter), metformine (selon DFG), opioïdes (morphine/codéine accumulent — préférer fentanyl ou tramadol prudent), lithium (toxicité, fenêtre étroite), digoxine (élimination rénale), aminosides (toxicité directe), AOD (apixaban/rivaroxaban/dabigatran ont des seuils). Le paracétamol à dose usuelle reste sûr — métabolisme hépatique. Réflexe : à chaque épisode aigu (gastro, déshydratation), revoir la liste pour suspendre les médicaments à risque (sick day rules).",
+  "tags": {
+    "system": ["nephrologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "iatrogenie"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

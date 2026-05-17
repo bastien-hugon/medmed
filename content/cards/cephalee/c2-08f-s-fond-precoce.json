@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c2-s08f-fond-precoce",
+  "kind": "sct",
+  "prompt": "Patient migraineux, 8 jours de migraine/mois invalidants. Vous introduisez de l'amitriptyline 10 mg le soir comme traitement de fond. Il revient à 3 semaines : 'ça ne marche pas, je veux arrêter'. Vous envisagez d'arrêter et de passer à un autre traitement. Comment cette nouvelle information modifie-t-elle votre conduite ?",
+  "hypothesis": "Échec de l'amitriptyline à 3 semaines, donc arrêt et switch vers un autre traitement.",
+  "new_info": "Vous relisez NICE : la réévaluation d'un traitement de fond migraineux se fait à 3-6 MOIS. Avant ce délai, et surtout si la dose n'a pas été titrée, on ne peut pas conclure à un échec.",
+  "expected": "affaiblit",
+  "rationale": "Trois semaines est trop court : l'amitriptyline (comme tous les traitements de fond) demande une montée progressive (10 → 25 → 50 mg) et un délai de 3-6 mois avant de juger. Conduite : maintenir, titrer la dose, éducation thérapeutique (pas de soulagement immédiat, effet attendu sur fréquence non sur intensité de la crise), agenda des céphalées pour objectiver. L'information affaiblit la conduite 'arrêt immédiat'. Si à 3-6 mois, réduction < 50 % de fréquence → alors switcher.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q06-couleurs-drapeaux",
+  "kind": "qcm-vignette",
+  "prompt": "Dans le vocabulaire HAS 2019, à quoi correspondent les drapeaux BLEUS (en complément des rouges et jaunes) ?",
+  "choices": [
+    { "id": "a", "text": "Facteurs liés à l'ENVIRONNEMENT DE TRAVAIL (charge physique, faible contrôle, faible soutien, pression temporelle)", "correct": true },
+    { "id": "b", "text": "Facteurs liés au système de soin (assurance maladie, parcours)", "correct": false },
+    { "id": "c", "text": "Comorbidités cardiovasculaires", "correct": false },
+    { "id": "d", "text": "Antécédents familiaux", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "HAS 2019 distingue 4 couleurs : ROUGE (gravité organique), JAUNE (psychosocial individuel), BLEU (environnement de travail : charge, contrôle, soutien), NOIR (système et politiques : indemnisation, employeur, durée d'arrêt). Bleu + noir guident la PEC vers le médecin du travail et la réintégration professionnelle.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

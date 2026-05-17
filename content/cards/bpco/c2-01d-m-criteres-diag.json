@@ -1,0 +1,29 @@
+{
+  "id": "bpco-c2-m01d-criteres-diag",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les critères nécessaires pour poser le diagnostic de BPCO selon NICE NG115 / GOLD.",
+  "choices": [
+    { "id": "a", "text": "Spirométrie réalisée APRÈS bronchodilatateur", "correct": true },
+    { "id": "b", "text": "Rapport VEMS/CVF < 0,70 (Tiffeneau)", "correct": true },
+    { "id": "c", "text": "Au moins un symptôme évocateur (dyspnée, toux chronique, expectoration, sibilants, bronchites répétées)", "correct": true },
+    { "id": "d", "text": "Facteur de risque (tabac ou exposition professionnelle)", "correct": true },
+    { "id": "e", "text": "Patient âgé de > 35 ans (typiquement)", "correct": true },
+    { "id": "f", "text": "Présence d'une fièvre à 38,5°C", "correct": false },
+    { "id": "g", "text": "Anomalie systématique sur la radiographie thoracique", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Diagnostic NICE : > 35 ans + FDR + au moins un symptôme + spirométrie post-BD avec VEMS/CVF < 0,70. La radio n'est pas systématique pour le diagnostic positif (elle sert au DD). La fièvre n'a aucune place dans le diagnostic de BPCO chronique (signe d'exacerbation ou de surinfection ponctuelle, pas de la maladie elle-même).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

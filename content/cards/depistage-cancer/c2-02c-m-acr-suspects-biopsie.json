@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c2-m02c-acr-suspects-biopsie",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les classes ACR (BI-RADS) qui doivent conduire à une BIOPSIE de la lésion mammaire.",
+  "choices": [
+    { "id": "a", "text": "ACR 1 (normal)", "correct": false },
+    { "id": "b", "text": "ACR 2 (bénin certain)", "correct": false },
+    { "id": "c", "text": "ACR 3 (probablement bénin)", "correct": false },
+    { "id": "d", "text": "ACR 4 (suspect)", "correct": true },
+    { "id": "e", "text": "ACR 5 (très évocateur de cancer)", "correct": true },
+    { "id": "f", "text": "ACR 0 (incomplet)", "correct": false }
+  ],
+  "expected": ["d", "e"],
+  "rationale": "Règle simple : 'à partir de 4, on PERCE'. ACR 4 et ACR 5 → BIOPSIE pour preuve histologique. ACR 1 et 2 → retour au dépistage de routine (rien à faire). ACR 3 → surveillance imagerie à 6 mois (PAS de biopsie : le taux de malignité <2 % ne le justifie pas). ACR 0 → ce n'est pas un classement définitif, on COMPLÈTE le bilan d'abord (clichés sup., échographie) puis on reclasse. À noter : ACR 6 (cancer déjà prouvé) ne génère pas de nouvelle biopsie — la preuve est déjà là.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

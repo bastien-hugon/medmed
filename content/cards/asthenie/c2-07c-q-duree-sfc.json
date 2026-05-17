@@ -1,0 +1,20 @@
+{
+  "id": "asthenie-c2-q07c-duree-sfc",
+  "kind": "cloze",
+  "prompt": "Le diagnostic de ME/CFS (syndrome de fatigue chronique) exige une fatigue invalidante d'au moins ___ mois.",
+  "expected": ["6", "six"],
+  "rationale": "Critère temporel : ≥ 6 MOIS de fatigue invalidante, non expliquée par une autre maladie, avec retentissement marqué sur l'activité antérieure. Avant 6 mois, on ne peut pas poser le diagnostic — on parle de fatigue prolongée à explorer. C'est aussi un diagnostic d'élimination : il faut d'abord avoir cherché les causes organiques et psychiques.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

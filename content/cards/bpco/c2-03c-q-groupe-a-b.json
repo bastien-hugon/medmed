@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q03c-groupe-a-b",
+  "kind": "qcm-vignette",
+  "prompt": "M. M., BPCO, dyspnée MRC 3 (s'arrête à 100 m), AUCUNE exacerbation dans l'année. Dans quel groupe GOLD le classez-vous ?",
+  "choices": [
+    { "id": "a", "text": "Groupe A", "correct": false },
+    { "id": "b", "text": "Groupe B", "correct": true },
+    { "id": "c", "text": "Groupe E", "correct": false },
+    { "id": "d", "text": "Aucun, il faut absolument un VEMS pour classer", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "MRC ≥ 2 (ici 3) + 0-1 exacerbation/an sans hospit = GROUPE B (symptomatique, stable). A = peu symptomatique (MRC 0-1) ET 0-1 exacerbation. E = ≥ 2 exacerbations OU 1 hospit. La classification A/B/E utilise SYMPTÔMES + EXACERBATIONS, pas le VEMS (qui sert au stade GOLD 1-4 parallèle).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

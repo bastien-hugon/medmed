@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c2-c07e-ivabradine-cloze",
+  "kind": "cloze",
+  "prompt": "L'ivabradine s'ajoute en 3e ligne si FEVG ≤ ___ %, en rythme ___, FC > ___/min malgré BB à dose max tolérée.",
+  "expected": ["35", "sinusal", "70"],
+  "rationale": "Triple condition NICE : FEVG ≤ 35 %, rythme sinusal (inefficace en FA), FC > 70/min malgré BB max. C'est un chronotrope négatif pur via le nœud sinusal.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

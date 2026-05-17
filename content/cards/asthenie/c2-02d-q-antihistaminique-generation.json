@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c2-q02d-antihistaminique-generation",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces antihistaminiques prescrits pour rhinite allergique, lequel est LE PLUS susceptible de provoquer une fatigue et une somnolence diurne ?",
+  "choices": [
+    { "id": "a", "text": "Cétirizine 10 mg/j.", "correct": false },
+    { "id": "b", "text": "Loratadine 10 mg/j.", "correct": false },
+    { "id": "c", "text": "Desloratadine 5 mg/j.", "correct": false },
+    { "id": "d", "text": "Hydroxyzine 25 mg le soir.", "correct": true }
+  ],
+  "expected": ["d"],
+  "rationale": "L'HYDROXYZINE est un antihistaminique de 1ère GÉNÉRATION : elle passe la barrière hémato-encéphalique et endort. Cétirizine, loratadine, desloratadine = 2e GÉNÉRATION, peu ou pas sédatifs (passent peu la BHE). En cas de fatigue iatrogène sur antiH1 1G, préférer une 2G chaque fois que possible.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

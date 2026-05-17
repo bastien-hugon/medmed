@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c2-m05-criteres-non-controle",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les critères qui définissent un asthme NON CONTRÔLÉ selon NICE NG245 (un seul critère suffit).",
+  "choices": [
+    {"id": "a", "text": "Utilisation du reliever ≥ 3 jours par semaine", "correct": true},
+    {"id": "b", "text": "Au moins 1 réveil nocturne par semaine dû à l'asthme", "correct": true},
+    {"id": "c", "text": "Au moins une exacerbation ayant nécessité une cure de corticoïdes oraux dans les 12 derniers mois", "correct": true},
+    {"id": "d", "text": "FeNO obligatoirement > 100 ppb", "correct": false},
+    {"id": "e", "text": "Hospitalisation systématique requise", "correct": false},
+    {"id": "f", "text": "Sibilants permanents à l'auscultation à chaque consultation", "correct": false}
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Trois critères NG245, dont UN SEUL suffit : symptômes fréquents (reliever ≥ 3 j/sem OU ≥ 1 nuit/sem avec réveil) OU exacerbation ayant nécessité une CSI orale dans l'année. Pas de seuil de FeNO ni d'auscultation : ces critères sont OPÉRATIONNELS, basés sur ce que le patient vit. À l'inverse, asthme contrôlé = aucun symptôme diurne ni nocturne, pas/peu de reliever, activité normale, souffle normal.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

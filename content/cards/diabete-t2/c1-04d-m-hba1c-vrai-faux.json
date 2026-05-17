@@ -1,0 +1,28 @@
+{
+  "id": "diabete-t2-c1-m04-hba1c-vrai-faux",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations EXACTES à propos de l'HbA1c.",
+  "choices": [
+    { "id": "a", "text": "Elle reflète la glycémie moyenne sur ~3 mois", "correct": true },
+    { "id": "b", "text": "Elle correspond au pourcentage d'hémoglobine 'sucrée' (glyquée)", "correct": true },
+    { "id": "c", "text": "Elle reflète la glycémie des dernières 24 heures", "correct": false },
+    { "id": "d", "text": "Une HbA1c ≥ 6,5 % oriente vers un diabète", "correct": true },
+    { "id": "e", "text": "Elle remplace systématiquement la glycémie à jeun pour le diagnostic", "correct": false },
+    { "id": "f", "text": "Sa valeur peut être faussée par une anémie ou une hémoglobinopathie", "correct": true }
+  ],
+  "expected": ["a", "b", "d", "f"],
+  "rationale": "L'HbA1c est une moyenne sur ~3 mois (a) — pas 24 h (c). Elle représente le % d'hémoglobine glyquée (b). Seuil diabète : ≥ 6,5 % (d). Elle ne remplace pas la glycémie à jeun (e) — les deux sont des options valides selon les recos. Et oui, anémie, hémolyse, hémoglobinopathies peuvent fausser le dosage (f) → dans ces cas, on s'en remet à la glycémie.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/H%C3%A9moglobine_glyqu%C3%A9e",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

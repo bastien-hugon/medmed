@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c2-s06f-exacerbation-virale",
+  "kind": "sct",
+  "prompt": "Mme E., BPCO, dyspnée majorée depuis 3 jours, toux et crachats BLANCS (non purulents), un peu de coryza. Tu hésites à prescrire un antibiotique.",
+  "hypothesis": "Mon hypothèse : il faut introduire l'amoxicilline.",
+  "new_info": "Les crachats restent franchement blancs/transparents, sans purulence, et la patiente n'a pas de fièvre. Examen pulmonaire sans foyer auscultatoire.",
+  "expected": "affaiblit",
+  "rationale": "Pas de purulence des crachats, pas de fièvre, pas de foyer = arguments contre une surinfection bactérienne. La grande majorité des exacerbations sont VIRALES et ne tirent pas bénéfice d'un antibiotique. NICE NG114 : antibiothérapie surtout si purulence claire des crachats. L'information affaiblit nettement l'hypothèse de prescrire de l'amoxicilline. On garde corticoïdes oraux (prednisolone 30 mg × 5j) + majoration des bronchodilatateurs. Logique SCT.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

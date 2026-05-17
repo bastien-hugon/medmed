@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c1-m02-triade-atopique",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les maladies qui font partie de la triade atopique classique (terrain allergique héréditaire).",
+  "choices": [
+    {"id": "a", "text": "Asthme allergique", "correct": true},
+    {"id": "b", "text": "Rhinite allergique (rhume des foins, allergie aux acariens)", "correct": true},
+    {"id": "c", "text": "Eczéma atopique (dermatite atopique)", "correct": true},
+    {"id": "d", "text": "Psoriasis", "correct": false},
+    {"id": "e", "text": "Bronchite chronique du fumeur", "correct": false},
+    {"id": "f", "text": "Conjonctivite allergique (souvent associée, parfois ajoutée à la triade)", "correct": false}
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Triade atopique = asthme + rhinite allergique + eczéma. C'est un trio que tu interroges systématiquement chez un suspect d'asthme : leur présence (chez le patient ou ses parents/fratrie) augmente fortement la probabilité diagnostique. Psoriasis = maladie auto-immune, pas atopique. La conjonctivite allergique est associée mais ne figure pas dans la triade canonique.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

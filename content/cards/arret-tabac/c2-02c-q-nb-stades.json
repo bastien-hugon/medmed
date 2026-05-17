@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c2-q02c-nb-stades",
+  "kind": "cloze",
+  "prompt": "Le modèle de Prochaska et DiClemente décrit ___ stades du changement (pré-contemplation, contemplation, préparation, action, maintien), constituant un cycle où la rechute renvoie au stade de préparation.",
+  "expected": ["5", "cinq"],
+  "rationale": "Cinq stades, en cycle (pas une ligne droite). La rechute fait partie du modèle : elle ramène à 'préparation' avec l'apprentissage de la tentative précédente, jamais à zéro. Connaître les 5 stades = adapter le discours et la prescription au stade actuel.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

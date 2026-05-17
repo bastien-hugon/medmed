@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q01e-comorbidite-depression",
+  "kind": "qcm-vignette",
+  "prompt": "Vous venez de poser un diagnostic de TAG. NICE insiste sur l'importance d'une évaluation 'compréhensive', au-delà du simple comptage de symptômes. Quelle comorbidité psychiatrique devez-vous SYSTÉMATIQUEMENT rechercher ?",
+  "choices": [
+    { "id": "a", "text": "Schizophrénie", "correct": false },
+    { "id": "b", "text": "Dépression (coexiste avec un TAG dans ~50% des cas)", "correct": true },
+    { "id": "c", "text": "Trouble bipolaire de type II", "correct": false },
+    { "id": "d", "text": "Trouble de la personnalité borderline", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La DÉPRESSION coexiste avec le TAG dans environ la moitié des cas — il faut la rechercher SYSTÉMATIQUEMENT (PHQ-9, deux questions de Whooley). Implication thérapeutique : si dépression associée, choisir le SSRI le plus adapté (sertraline reste pertinente), surveiller le risque suicidaire (surtout < 30 ans). NICE recommande aussi de chercher : mésusage de substances (alcool +++ comme 'auto-médication'), conditions médicales (TSH, anémie), facteurs de vie (deuil, isolement, précarité).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

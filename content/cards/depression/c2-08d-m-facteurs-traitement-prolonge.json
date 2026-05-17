@@ -1,0 +1,28 @@
+{
+  "id": "depression-c2-m08d-facteurs-traitement-prolonge",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les facteurs qui justifient un traitement antidépresseur PROLONGÉ (au-delà des 6 mois post-rémission, souvent 2 ans ou plus, voire à vie).",
+  "choices": [
+    { "id": "a", "text": "Antécédents d'épisodes dépressifs multiples (≥ 3)", "correct": true },
+    { "id": "b", "text": "Épisode initial sévère (idées suicidaires actives, retentissement majeur)", "correct": true },
+    { "id": "c", "text": "Comorbidités psychiatriques (TAG, addictions, trouble bipolaire)", "correct": true },
+    { "id": "d", "text": "Haut risque de rechute identifié", "correct": true },
+    { "id": "e", "text": "Patient préférant arrêter dès la fin du 6e mois post-rémission, sans facteur de risque", "correct": false },
+    { "id": "f", "text": "Première dépression, peu sévère, sans facteur de risque", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Indications de traitement prolongé (phase d'entretien au-delà de 6 mois post-rémission) : ATCD ≥ 3 épisodes, épisode initial sévère, comorbidités psychiatriques, FdR de rechute. Sinon, après 6 mois post-rémission, on peut envisager un sevrage progressif. Décision à co-construire avec le patient en pesant bénéfices (prévention rechute) vs risques (effets indésirables au long cours).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

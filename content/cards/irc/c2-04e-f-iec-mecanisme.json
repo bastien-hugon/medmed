@@ -1,0 +1,28 @@
+{
+  "id": "irc-c2-f04-iec-mecanisme",
+  "kind": "free-recall",
+  "prompt": "Explique le mécanisme par lequel les IEC/ARA2 protègent le rein dans la MRC, et cite trois effets indésirables à surveiller.",
+  "expected": [
+    "mécanisme : ils dilatent SPÉCIFIQUEMENT l'artériole EFFÉRENTE du glomérule (en bloquant l'angiotensine II)",
+    "conséquence : baisse de la pression intra-glomérulaire → moins d'usure du tamis → réduction de la protéinurie ET ralentissement de la chute du DFG",
+    "effet indésirable 1 : hyperkaliémie (surveiller K+ avant et 1-2 semaines après chaque hausse)",
+    "effet indésirable 2 : hausse modérée de la créatinine, ATTENDUE jusqu'à 30 % (ne pas arrêter)",
+    "effet indésirable 3 : toux sèche (IEC seulement, due aux bradykinines ; switch possible vers ARA2)",
+    "effet indésirable 4 : angio-œdème (rare mais grave, contre-indication définitive si survenue)",
+    "effet indésirable 5 : hypotension, surtout à l'introduction chez le sujet âgé ou déshydraté"
+  ],
+  "rationale": "Concept central : les IEC/ARA2 sont des médicaments protecteurs DU REIN, au-delà de leur effet antihypertenseur. C'est pour ça qu'on les indique dès qu'il y a protéinurie, même si la PA est dans les normes. Mémo : 'AAA — artériole efférente, ARA2/IEC, anti-progression'.",
+  "tags": {
+    "system": ["nephrologie", "cardiovasculaire"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

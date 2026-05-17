@@ -1,0 +1,20 @@
+{
+  "id": "ist-c2-c06e-depistage-universel-cloze",
+  "kind": "cloze",
+  "prompt": "Recommandation HAS / OMS : proposer une sérologie ___ au moins ___ dans la vie à tout adulte de ___ à 70 ans, indépendamment du risque, selon un modèle '___ -out' (= inclus par défaut, le patient peut refuser).",
+  "expected": ["VIH", "une fois", "15", "opt"],
+  "rationale": "Dépistage universel VIH : une fois dans la vie pour tout adulte 15-70 ans, indépendamment du risque déclaré. Modèle 'opt-out' (inclus par défaut, refus possible) ≠ 'opt-in' (proposé seulement si demandé) : l'opt-out maximise le taux de dépistage et 'normalise' le test. Pour les populations à risque, dépistage répété (annuel à trimestriel selon profil).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

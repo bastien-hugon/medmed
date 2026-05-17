@@ -1,0 +1,22 @@
+{
+  "id": "asthme-c2-s05-mauvaise-technique",
+  "kind": "sct",
+  "prompt": "Un patient asthmatique sous low-dose MART revient non contrôlé : reliever utilisé 4 j/sem, 2 réveils/sem. Vous envisagez d'escalader vers moderate-dose MART.",
+  "hypothesis": "Mon hypothèse : l'escalade thérapeutique est justifiée et nécessaire.",
+  "new_info": "Lors de la consultation, vous demandez au patient de vous montrer comment il prend son inhalateur : il appuie sur la cartouche avant même d'avoir commencé à inspirer, ne tient pas l'apnée, et utilise l'appareil sans chambre d'inhalation alors qu'il en aurait besoin.",
+  "expected": "affaiblit",
+  "rationale": "AVANT d'escalader, NG245 demande de vérifier les 4 « basics ». Ici la TECHNIQUE D'INHALATION est manifestement défaillante → le patient ne reçoit pas vraiment sa dose, ce qui suffit à expliquer le non-contrôle. Escalader sans corriger ça serait inefficace (et augmenterait inutilement les effets indésirables). Action correcte : démonstration, chambre d'inhalation, re-éducation, revoir à 4-6 sem AVANT de monter de palier.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

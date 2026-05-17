@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c2-q08d-ppr-rhumato",
+  "kind": "qcm-vignette",
+  "prompt": "Un homme de 75 ans consulte pour une fatigue depuis 2 mois. À l'interrogatoire : raideur des épaules et des hanches le matin, durant plus d'une heure, qui s'améliore avec la mobilisation. VS à 75 mm/h, CRP à 45 mg/L. Quelle est l'hypothèse la plus probable ?",
+  "choices": [
+    { "id": "a", "text": "Pseudo-polyarthrite rhizomélique (PPR).", "correct": true },
+    { "id": "b", "text": "Polyarthrite rhumatoïde débutante.", "correct": false },
+    { "id": "c", "text": "Fibromyalgie.", "correct": false },
+    { "id": "d", "text": "Spondyloarthrite axiale.", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Tableau classique de PPR : sujet > 60 ans + douleurs et raideur des CEINTURES (épaules + hanches) + raideur matinale > 1 h + syndrome inflammatoire (VS et CRP élevées). Diagnostic clinique + biologique. Réponse rapide à une corticothérapie de faible dose (15 mg/j de prednisone). À noter : association possible avec maladie de Horton dans environ 15 % des cas — toujours rechercher céphalée, troubles visuels, claudication mandibulaire.",
+  "tags": {
+    "system": ["general", "rhumatologie"],
+    "sdd": ["asthenie"],
+    "item_edn": [246, 196],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

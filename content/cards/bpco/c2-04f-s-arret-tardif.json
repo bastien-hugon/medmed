@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c2-s04f-arret-tardif",
+  "kind": "sct",
+  "prompt": "M. J., 75 ans, BPCO GOLD 3, encore fumeur 1 paquet/j. Il dit 'à mon âge, ça ne sert plus à rien d'arrêter, le mal est fait'.",
+  "hypothesis": "Mon hypothèse : il faut quand même lui proposer l'arrêt du tabac.",
+  "new_info": "Les données de la Lung Health Study montrent qu'à tout âge, l'arrêt du tabac ralentit la pente de chute du VEMS et améliore la survie.",
+  "expected": "renforce",
+  "rationale": "Même à 75 ans, l'arrêt du tabac est BÉNÉFIQUE chez le BPCO : freine la chute du VEMS, réduit les exacerbations, diminue le risque cardiovasculaire et le risque de cancer (broncho-pulmonaire et autres). Les données scientifiques renforcent nettement l'hypothèse de proposer l'arrêt, peu importe l'âge. C'est même un argument à donner explicitement au patient pour combattre l'idée 'trop tard'. Logique SCT.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

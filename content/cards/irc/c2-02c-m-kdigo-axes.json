@@ -1,0 +1,29 @@
+{
+  "id": "irc-c2-m02-kdigo-axes",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la classification KDIGO de la MRC.",
+  "choices": [
+    { "id": "a", "text": "Elle croise deux axes : stade G (DFG) et stade A (ACR/albuminurie)", "correct": true },
+    { "id": "b", "text": "Deux patients à même DFG mais ACR différents ont un pronostic différent", "correct": true },
+    { "id": "c", "text": "Un patient G1 A1 n'est PAS classé MRC en l'absence d'autre marqueur d'atteinte", "correct": true },
+    { "id": "d", "text": "Plus on s'éloigne du coin G1A1 (vert), plus le risque rénal et cardiovasculaire monte", "correct": true },
+    { "id": "e", "text": "L'orientation néphrologue dépend uniquement du stade G, pas de l'ACR", "correct": false },
+    { "id": "f", "text": "La 'matrice du risque' KDIGO peut être colorée vert/jaune/orange/rouge selon le risque", "correct": true },
+    { "id": "g", "text": "Le stade A se mesure obligatoirement avec une protéinurie de 24h", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "KDIGO = grille 2D : G (filtration restante) × A (vitesse d'usure du tamis). Les deux combinés donnent le pronostic. L'orientation néphro tient compte des deux : G3b A3 oriente, mais aussi un G2 avec ACR ≥ 70 ou hématurie persistante. Le stade A se mesure par ACR sur urine du matin (pas par recueil de 24h qui est obsolète en pratique).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

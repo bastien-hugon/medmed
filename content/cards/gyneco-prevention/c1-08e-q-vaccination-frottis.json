@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q08e-vaccination-frottis",
+  "kind": "qcm-vignette",
+  "prompt": "Une femme de 28 ans, vaccinée Gardasil 9 à 12 ans, vous demande si elle peut sauter le dépistage du col puisqu'elle est vaccinée. Que lui répondez-vous ?",
+  "choices": [
+    { "id": "a", "text": "Oui, la vaccination dispense du dépistage à vie.", "correct": false },
+    { "id": "b", "text": "Non, le dépistage reste recommandé selon le calendrier habituel (cytologie 25-29 ans, test HPV 30-65 ans), car le vaccin ne couvre pas 100 % des HPV à haut risque.", "correct": true },
+    { "id": "c", "text": "Oui, après 30 ans seulement.", "correct": false },
+    { "id": "d", "text": "Le dépistage est inutile chez les femmes vaccinées avant les premiers rapports.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Gardasil 9 couvre 7 HPV oncogènes sur 12 confirmés. Les types 35, 39, 51, 56, 59 (HR) NE SONT PAS couverts. La couverture vaccinale anticancer-col est d'environ 70-90 % selon les sources, donc ~10-30 % des cancers peuvent encore survenir chez une femme vaccinée. Conclusion : le calendrier de dépistage est le MÊME que pour la population générale. Message-clé MG : 'vaccin = prévention primaire ; dépistage = prévention secondaire ; les deux se complètent, ne se substituent pas'.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [143, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Cancer_du_col_de_l%27ut%C3%A9rus",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c2-q04d-air-mart-difference",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle différence essentielle distingue AIR therapy et MART selon NICE NG245 ?",
+  "choices": [
+    { "id": "a", "text": "AIR utilise un SABA seul, MART utilise un ICS seul.", "correct": false },
+    { "id": "b", "text": "AIR = low-dose ICS/formotérol uniquement À LA DEMANDE ; MART = même inhalateur pris en FOND 2×/j + en plus à la demande.", "correct": true },
+    { "id": "c", "text": "AIR est réservé aux enfants, MART aux adultes.", "correct": false },
+    { "id": "d", "text": "AIR est pour la crise aiguë grave, MART pour le contrôle.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "AIR (Anti-Inflammatory Reliever) = ICS/formotérol À LA DEMANDE uniquement, pour le nouveau-diagnostiqué peu symptomatique. MART (Maintenance And Reliever Therapy) = MÊME inhalateur en FOND 2×/j + à la demande, pour le patient plus symptomatique ou non contrôlé sous AIR. Les deux schémas reposent sur le même produit (ICS+formotérol) : la différence est la PRISE en fond ou non.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

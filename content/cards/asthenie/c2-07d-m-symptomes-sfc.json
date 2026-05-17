@@ -1,0 +1,29 @@
+{
+  "id": "asthenie-c2-m07d-symptomes-sfc",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les symptômes qui sont ÉVOCATEURS d'un syndrome de fatigue chronique (ME/CFS), au-delà de la fatigue elle-même.",
+  "choices": [
+    { "id": "a", "text": "Malaise post-effort (PEM) avec aggravation différée 24-48 h.", "correct": true },
+    { "id": "b", "text": "Sommeil non récupérateur.", "correct": true },
+    { "id": "c", "text": "Troubles de la concentration et de la mémoire à court terme (\"brain fog\").", "correct": true },
+    { "id": "d", "text": "Intolérance orthostatique (vertiges, malaise à la station debout).", "correct": true },
+    { "id": "e", "text": "Mal de gorge, ganglions cervicaux sensibles, myalgies, céphalées.", "correct": true },
+    { "id": "f", "text": "Polyurie-polydipsie chronique.", "correct": false },
+    { "id": "g", "text": "Hémoptysies récurrentes.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Tableau ME/CFS typique : fatigue > 6 mois + PEM + sommeil non récupérateur + brouillard cognitif + intolérance orthostatique + symptômes \"pseudo-grippaux\" (mal de gorge, adénopathies sensibles, myalgies, céphalées). Polyurie-polydipsie évoque un diabète ; hémoptysies évoquent une cause pulmonaire ou cardiaque. À noter : le COVID-long présente des recouvrements importants avec ME/CFS.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

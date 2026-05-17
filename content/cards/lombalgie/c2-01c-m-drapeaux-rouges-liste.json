@@ -1,0 +1,30 @@
+{
+  "id": "lombalgie-c2-m01-drapeaux-rouges-liste",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les éléments qui constituent des drapeaux rouges (red flags) à rechercher systématiquement devant une lombalgie (HAS 2019 / NICE NG59).",
+  "choices": [
+    { "id": "a", "text": "Antécédent personnel de cancer", "correct": true },
+    { "id": "b", "text": "Fièvre, altération de l'état général", "correct": true },
+    { "id": "c", "text": "Traumatisme récent significatif", "correct": true },
+    { "id": "d", "text": "Anesthésie en selle ou troubles sphinctériens", "correct": true },
+    { "id": "e", "text": "Corticothérapie prolongée ou usage de drogues IV", "correct": true },
+    { "id": "f", "text": "Perte de poids inexpliquée", "correct": true },
+    { "id": "g", "text": "Douleur soulagée par le port de charges", "correct": false },
+    { "id": "h", "text": "Patient qui pratique la natation deux fois par semaine", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Liste HAS 2019 des drapeaux rouges : ATCD cancer, fièvre/AEG, traumatisme important, signes neurologiques (queue de cheval), corticoïdes/drogues IV, perte de poids inexpliquée, âge < 20 ou > 55 ans pour 1er épisode, douleur non mécanique nocturne, déformation structurale. Les distracteurs (douleur soulagée par charges, natation) ne sont pas des drapeaux rouges.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

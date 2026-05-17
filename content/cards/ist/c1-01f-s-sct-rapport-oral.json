@@ -1,0 +1,22 @@
+{
+  "id": "ist-c1-s01f-sct-rapport-oral",
+  "kind": "sct",
+  "prompt": "Un patient de 28 ans consulte. Vous évaluez son risque d'avoir contracté une IST.",
+  "hypothesis": "Risque d'IST faible à nul.",
+  "new_info": "Il précise avoir eu plusieurs rapports oraux non protégés ces dernières semaines, mais aucun rapport vaginal ni anal.",
+  "expected": "affaiblit",
+  "rationale": "L'idée reçue 'pas de pénétration = pas de risque' est fausse. Les rapports oraux non protégés transmettent chlamydia pharyngée, gonocoque pharyngé, syphilis, HPV, HSV. Donc une exposition orale répétée AFFAIBLIT l'hypothèse 'risque faible à nul' : on doit proposer un dépistage complet (sang + écouvillon pharyngé chez HSH ou si à risque). Le réflexe pédagogique : tout contact muqueux compte.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q08e-iec-ara2",
+  "kind": "qcm-vignette",
+  "prompt": "Mme G., 67 ans, ICFEr sous ramipril 10 mg, est encore symptomatique. Son médecin propose d'ajouter du valsartan (ARA2) au ramipril pour potentialiser l'effet. Que pensez-vous de cette association ?",
+  "choices": [
+    { "id": "a", "text": "Excellente idée, l'association IEC + ARA2 améliore le pronostic", "correct": false },
+    { "id": "b", "text": "Association DÉCONSEILLÉE : hyperkaliémie et IR aiguë majorées, sans bénéfice prouvé", "correct": true },
+    { "id": "c", "text": "Indispensable chez tout ICFEr", "correct": false },
+    { "id": "d", "text": "À discuter en première intention", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Association IEC + ARA2 = INTERDITE en IC (et en HTA en général). Cumul des effets sur le système rénine-angiotensine → hyperkaliémie + IR aiguë + hypoTA, sans bénéfice de survie. À la place, considérer le switch vers ARNI (qui inclut déjà un ARA2 — donc jamais avec IEC, wash-out 36 h).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

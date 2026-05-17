@@ -1,0 +1,29 @@
+{
+  "id": "vaccination-adulte-c2-m11-covid-cibles",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la vaccination COVID-19 en France pour la saison 2025-2026.",
+  "choices": [
+    {"id": "a", "text": "La campagne d'automne est couplée à la vaccination antigrippale.", "correct": true},
+    {"id": "b", "text": "Les vaccins ARNm sont utilisables chez la femme enceinte.", "correct": true},
+    {"id": "c", "text": "Les vaccins ARNm sont contre-indiqués chez l'immunodéprimé.", "correct": false},
+    {"id": "d", "text": "Une dose printemps est recommandée chez les 80+, immunodéprimés et résidents EHPAD/USLD.", "correct": true},
+    {"id": "e", "text": "La composition vaccinale est mise à jour chaque saison pour cibler les variants circulants.", "correct": true},
+    {"id": "f", "text": "Seule la grippe est ciblée en automne ; le COVID n'est plus dans le calendrier.", "correct": false},
+    {"id": "g", "text": "Toute personne qui le souhaite peut être vaccinée, même hors population cible.", "correct": true}
+  ],
+  "expected": ["a", "b", "d", "e", "g"],
+  "rationale": "Vaccins ARNm = pas de microbe vivant → utilisables chez immunodéprimé et enceinte (au contraire = INDICATION). Stratégie automne couplée grippe pour 65+/FdR/enceintes/soignants ; printemps en plus pour 80+/immunodéprimés/EHPAD. Formulations adaptées chaque saison (XBB, JN.1, KP.x...). Vaccination ouverte aux personnes hors cible qui le souhaitent. Les recommandations évoluent vite — toujours vérifier le DGS-Urgent en vigueur.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "covid"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/COVID-19",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

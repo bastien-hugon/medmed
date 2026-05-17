@@ -1,0 +1,20 @@
+{
+  "id": "depression-c2-q01c-score-max-phq9-cloze",
+  "kind": "cloze",
+  "prompt": "Le score total du PHQ-9 va de 0 à ___ (9 items, chacun coté de 0 à 3).",
+  "expected": ["27"],
+  "rationale": "9 items × 3 (presque tous les jours) = 27 max. Chaque item coté 0 (jamais) / 1 (plusieurs jours) / 2 (plus de la moitié des jours) / 3 (presque tous les jours). Repères : < 5 minime, 5-9 légère, 10-14 modérée, 15-19 modérément sévère, ≥ 20 sévère. NICE 2022 a simplifié à 2 catégories : < 16 (less severe) et ≥ 16 (more severe).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

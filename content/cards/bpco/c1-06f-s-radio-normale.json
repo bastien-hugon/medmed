@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c1-s06f-radio-normale",
+  "kind": "sct",
+  "prompt": "Mme G., 60 ans, 30 PA, dyspnée d'effort progressive. Tu suspectes une BPCO.",
+  "hypothesis": "Mon hypothèse : elle a une BPCO et il faut la confirmer.",
+  "new_info": "La radiographie thoracique est revenue NORMALE.",
+  "expected": "neutre",
+  "rationale": "La radiographie thoracique NE FAIT PAS le diagnostic positif de BPCO. Elle peut être normale en cas de BPCO légère à modérée. Elle sert surtout à ÉLIMINER d'autres causes (cancer, insuffisance cardiaque, pneumopathie). Une radio normale n'élimine donc pas la BPCO — seule la SPIROMÉTRIE tranche (VEMS/CVF post-BD < 0,70). L'information n'a pas d'effet sur l'hypothèse : neutre. Logique SCT : renforce / affaiblit / neutre.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

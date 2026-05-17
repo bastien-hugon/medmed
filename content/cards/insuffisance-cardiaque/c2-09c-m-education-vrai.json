@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m09c-education-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les recommandations VALIDES d'éducation thérapeutique pour un patient IC chronique (NICE NG106).",
+  "choices": [
+    { "id": "a", "text": "Pesée quotidienne (même balance, même heure, à jeun)", "correct": true },
+    { "id": "b", "text": "Alerte si prise de poids > 2 kg en 3 jours", "correct": true },
+    { "id": "c", "text": "Vaccinations grippe annuelle + pneumocoque", "correct": true },
+    { "id": "d", "text": "Restriction systématique sévère du sel (régime sans sel strict)", "correct": false },
+    { "id": "e", "text": "Activité physique adaptée (réadaptation cardiaque si possible)", "correct": true },
+    { "id": "f", "text": "Éviter les sels de substitution potassiques avec un IEC/MRA", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "e", "f"],
+  "rationale": "NICE NG106 : PAS de restriction sévère sodée routinière (à nuancer en cas d'excès évident, charcuterie, plats préparés). Pesée quotidienne = mesure n°1 de surveillance. Vaccins grippe + pneumocoque OBLIGATOIRES dans le suivi. Activité physique encouragée (sauf décompensation). Sels potassiques de substitution → hyperK+ avec IEC/MRA.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

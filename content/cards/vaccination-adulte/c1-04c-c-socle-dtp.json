@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c1-c04-socle-dtp",
+  "kind": "cloze",
+  "prompt": "Chez l'adulte, le socle minimal de vaccination toute la vie repose sur le trio ___ - ___ - ___ (DTP).",
+  "expected": ["diphtérie", "tétanos", "poliomyélite"],
+  "rationale": "Le DTP est rappelé à 25, 45, 65 ans puis tous les 10 ans. C'est la base que TOUT adulte doit avoir à jour, indépendamment de toute autre situation. À 25 ans, on ajoute la coqueluche (formule dTcaP). Pour une plaie souillée, on contrôle systématiquement la date du dernier rappel DTP.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

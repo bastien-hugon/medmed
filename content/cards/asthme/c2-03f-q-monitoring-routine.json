@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c2-q03f-monitoring-routine",
+  "kind": "qcm-vignette",
+  "prompt": "Un asthmatique adulte bien étiqueté vous demande s'il doit continuer à mesurer son DEP matin et soir tous les jours, à vie. Que dites-vous selon NICE NG245 ?",
+  "choices": [
+    { "id": "a", "text": "Oui, mesurer le DEP matin et soir à vie est indispensable.", "correct": false },
+    { "id": "b", "text": "NICE NG245 DÉCONSEILLE le DEP en monitoring de routine ; il sert au diagnostic et au plan d'action écrit quand les symptômes se dégradent.", "correct": true },
+    { "id": "c", "text": "On remplace le DEP par une mesure du FeNO mensuelle obligatoire.", "correct": false },
+    { "id": "d", "text": "On l'arrête définitivement, le DEP est inutile dans tous les cas.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NG245 = DEP utile pour (1) diagnostic (étape 3 : variabilité ≥ 20 %) et (2) PLAN D'ACTION ÉCRIT (le patient compare son DEP à sa meilleure valeur perso quand il sent une dégradation). PAS de monitoring routinier biquotidien — démontré inutile et fastidieux. Le suivi de routine se fait sur : symptômes (reliever, réveils, exacerbations), FeNO chez l'adulte (recommandé NG245), questionnaires (ACT, ACQ).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

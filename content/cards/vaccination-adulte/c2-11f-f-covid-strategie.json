@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-f11-covid-strategie",
+  "kind": "free-recall",
+  "prompt": "Décris en une phrase la stratégie vaccinale COVID 2025-2026 en France (2 temps annuels et leurs cibles principales).",
+  "expected": ["automne couplée grippe 65+ FdR femmes enceintes", "printemps 80+ immunodéprimés EHPAD"],
+  "rationale": "Stratégie à 2 temps : (1) AUTOMNE (octobre-novembre, couplée à la grippe) → 65+, FdR (mêmes comorbidités que grippe), femmes enceintes, soignants, entourage de fragiles. (2) PRINTEMPS (dose supplémentaire) → 80+, immunodéprimés, résidents EHPAD/USLD, très haut risque, avec intervalle min 3 mois. Vaccins ARNm reformulés chaque saison pour les variants circulants. Mnémo : « COVID 2.0 = comme la grippe → automne 65+ ; + printemps 80+/ID ».",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "covid"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/COVID-19",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

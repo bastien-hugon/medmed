@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m02c-echo-evalue",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les éléments que l'échographie cardiaque transthoracique évalue chez un patient suspect d'IC.",
+  "choices": [
+    { "id": "a", "text": "Fonction systolique du VG (mesure de la FEVG)", "correct": true },
+    { "id": "b", "text": "Fonction diastolique (qualité du remplissage)", "correct": true },
+    { "id": "c", "text": "Valves (rétrécissement, fuite)", "correct": true },
+    { "id": "d", "text": "Pression artérielle pulmonaire estimée (recherche d'HTAP)", "correct": true },
+    { "id": "e", "text": "Glycémie capillaire", "correct": false },
+    { "id": "f", "text": "Shunts intracardiaques éventuels", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "L'ETT évalue : FEVG (systole), fonction diastolique, valvulopathies, cavités (taille, hypertrophie), pression pulmonaire, shunts. Examen multidimensionnel. La glycémie capillaire se mesure par dextro, rien à voir.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

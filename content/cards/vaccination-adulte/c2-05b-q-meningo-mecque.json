@@ -1,0 +1,26 @@
+{
+  "id": "vaccination-adulte-c2-q05-meningo-mecque",
+  "kind": "qcm-vignette",
+  "prompt": "Un homme de 55 ans prépare son pèlerinage à La Mecque. Quel vaccin lui est OBLIGATOIRE pour obtenir le visa saoudien ?",
+  "choices": [
+    {"id": "a", "text": "Vaccin méningocoque B (Bexsero, Trumenba).", "correct": false},
+    {"id": "b", "text": "Vaccin méningocoque ACWY tétravalent.", "correct": true},
+    {"id": "c", "text": "Vaccin fièvre jaune.", "correct": false},
+    {"id": "d", "text": "Vaccin contre la peste.", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le visa saoudien pour le pèlerinage (Hajj, Omra) exige une vaccination méningocoque ACWY tétravalent en cours de validité (généralement vaccin conjugué, dose unique). Justification : concentration massive de pèlerins (millions de personnes), risque épidémique majeur d'infection invasive à méningocoque (notamment W). Le vaccin doit être fait au moins 10 jours avant le départ. Le B n'est pas exigé.",
+  "tags": {
+    "system": ["infectieux", "prevention", "neurologie"],
+    "sdd": ["vaccination", "meningocoque", "voyage"],
+    "item_edn": [143, 151],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-a-prevention-vaccinale/infections-invasives-a-meningocoque",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

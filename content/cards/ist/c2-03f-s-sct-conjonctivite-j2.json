@@ -1,0 +1,22 @@
+{
+  "id": "ist-c2-s03f-sct-conjonctivite-j2",
+  "kind": "sct",
+  "prompt": "Un nouveau-né présente une conjonctivite purulente sévère à J2 de vie. Vous évoquez une cause IST néonatale.",
+  "hypothesis": "Hypothèse : conjonctivite néonatale à chlamydia.",
+  "new_info": "L'apparition est précoce, à J2 (pas J5-J12 comme attendu pour chlamydia).",
+  "expected": "affaiblit",
+  "rationale": "Le timing à J2 est INHABITUEL pour la chlamydia (typiquement J5-J12). Une conjonctivite franche à J0-J3 oriente plutôt vers le GONOCOQUE — urgence ophtalmologique car risque de perforation cornéenne et de cécité. La nouvelle information AFFAIBLIT l'hypothèse chlamydia et doit faire reclasser l'urgence : prélèvement conjonctival pour culture/NAAT chlamydia + gonocoque, traitement empirique de la gonococcie néonatale (ceftriaxone IV/IM) sans attendre.",
+  "tags": {
+    "system": ["infectieux", "pediatrie", "ophtalmologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

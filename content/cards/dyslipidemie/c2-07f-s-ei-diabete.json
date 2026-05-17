@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c2-s07-ei-diabete",
+  "kind": "sct",
+  "prompt": "Un patient en prévention secondaire (post-infarctus) sous atorvastatine 80 mg a vu son HbA1c passer de 5,8 % à 6,4 % en 1 an. Vous envisagez d'arrêter la statine.",
+  "hypothesis": "L'arrêt de la statine se justifie pour prévenir l'évolution vers le diabète.",
+  "new_info": "L'augmentation modeste du risque de diabète sous statine (+9 %) est largement compensée par le bénéfice CV (-25 à -30 % des événements).",
+  "expected": "affaiblit",
+  "rationale": "AFFAIBLIT fortement l'hypothèse : le bénéfice CV des statines en prévention secondaire est de loin supérieur au risque de glycémie augmentée. NICE est claire : NE PAS arrêter la statine pour une élévation glycémique ou une HbA1c en hausse. On surveille, on rappelle les RHD, on initie un traitement antidiabétique si l'HbA1c franchit le seuil — mais on garde la statine. C'est un piège classique qui prive le patient post-infarctus d'un médicament salvateur.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

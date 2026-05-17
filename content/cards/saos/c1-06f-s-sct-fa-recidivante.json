@@ -1,0 +1,22 @@
+{
+  "id": "saos-c1-06f-s-sct-fa-recidivante",
+  "kind": "sct",
+  "prompt": "M. Z., 68 ans, est suivi pour une fibrillation auriculaire récidivante malgré 2 cardioversions et un traitement antiarythmique bien conduit. Son cardiologue vous demande s'il est utile de chercher autre chose.",
+  "hypothesis": "Il est pertinent de rechercher un SAOS chez ce patient.",
+  "new_info": "L'interrogatoire révèle un ronflement quotidien bruyant rapporté par sa femme, un IMC à 31, et un Epworth à 12.",
+  "expected": "renforce",
+  "rationale": "Le SAOS est fortement associé à la FA et favorise sa RÉCIDIVE après cardioversion ou ablation (mécanismes : hypoxie, oscillations de pression intra-thoracique, hyperactivité sympathique). Devant une FA récidivante, il faut chercher un SAOS — c'est une recommandation forte. Les éléments cliniques (IMC 31, ronflement, Epworth 12) RENFORCENT cette indication. Le traitement du SAOS améliore les taux de maintien du rythme sinusal après cardioversion ou ablation.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire"],
+    "sdd": ["saos", "fa"],
+    "item_edn": [108, 232],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

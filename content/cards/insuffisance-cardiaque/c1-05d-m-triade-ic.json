@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-m05d-triade-ic",
+  "kind": "qcm-multi",
+  "prompt": "Coche les TROIS symptômes qui composent la triade clinique évocatrice d'insuffisance cardiaque.",
+  "choices": [
+    { "id": "a", "text": "Dyspnée d'effort (± orthopnée)", "correct": true },
+    { "id": "b", "text": "Œdèmes des membres inférieurs", "correct": true },
+    { "id": "c", "text": "Fatigue d'effort", "correct": true },
+    { "id": "d", "text": "Toux chronique productive purulente", "correct": false },
+    { "id": "e", "text": "Douleur thoracique en serrement à l'effort", "correct": false },
+    { "id": "f", "text": "Fièvre intermittente", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Triade IC chez l'adulte : DYSPNÉE + ŒDÈMES + FATIGUE. Chacun pris isolément est peu spécifique, mais leur association chez un patient à risque cardiovasculaire = forte suspicion → NT-proBNP + écho. La toux productive purulente évoque une infection. La douleur thoracique d'effort évoque l'angine de poitrine (coronaropathie).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

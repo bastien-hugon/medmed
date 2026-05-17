@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c2-s02f-rechute-maintien",
+  "kind": "sct",
+  "hypothesis": "Une patiente abstinente depuis 14 mois (stade de MAINTIEN) qui rechute après un week-end stressant retourne au stade de PRÉ-CONTEMPLATION.",
+  "new_info": "Elle vient consulter spontanément en disant : 'J'ai rechuté ce week-end, je veux repartir, j'ai compris ce qui m'a fait craquer.'",
+  "expected": "affaiblit",
+  "prompt": "Cette nouvelle information modifie-t-elle l'idée qu'elle est revenue au stade de PRÉ-CONTEMPLATION ?",
+  "rationale": "Dans le modèle de Prochaska, la rechute NE renvoie PAS à pré-contemplation (qui suppose 'je n'y pense même pas'). Elle renvoie typiquement à PRÉPARATION : la patiente reste consciente, motivée, identifie déjà le déclencheur, consulte spontanément. C'est tout sauf de la pré-contemplation. L'hypothèse de départ est donc AFFAIBLIE. Bonne conduite : valider l'auto-analyse, replanifier le sevrage avec ajustement sur le déclencheur identifié (stress → outils non-tabagiques de gestion du stress), reprendre les NRT.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

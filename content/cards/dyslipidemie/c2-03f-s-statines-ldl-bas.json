@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c2-s03-statines-ldl-bas",
+  "kind": "sct",
+  "prompt": "Un patient post-infarctus a un LDL initial à 1,8 mmol/L (= 0,7 g/L), déjà bas. Vous envisagez de NE PAS prescrire de statine.",
+  "hypothesis": "L'absence de statine est justifiable, puisque le LDL est déjà dans la cible.",
+  "new_info": "Les essais PROVE-IT et IMPROVE-IT montrent un bénéfice CV des statines indépendamment du LDL initial (effet pléiotrope : stabilisation de plaque).",
+  "expected": "affaiblit",
+  "rationale": "Cette information AFFAIBLIT fortement l'hypothèse : en prévention secondaire, NICE recommande atorvastatine 80 mg D'EMBLÉE, QUEL QUE SOIT le LDL initial. Le bénéfice de la statine n'est pas uniquement lié à la baisse du chiffre LDL : il vient aussi de la STABILISATION DES PLAQUES et de l'effet anti-inflammatoire (pléiotrope). Ne pas traiter sous prétexte d'un LDL bas = piège classique qui prive le patient d'un bénéfice CV démontré.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

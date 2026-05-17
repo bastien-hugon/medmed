@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-f10-depistage-pas-faire",
+  "kind": "free-recall",
+  "prompt": "Cite des facteurs qu'il NE faut PAS utiliser comme seul critère pour décider de dépister une MRC, et explique pourquoi.",
+  "expected": [
+    "âge isolé : un septuagénaire sans autre FdR ne se dépiste pas systématiquement (faible rendement)",
+    "sexe seul : pas de FdR indépendant",
+    "origine ethnique seule : retirée des recommandations (équité + biais des anciennes formules)",
+    "obésité isolée : si pas de diabète, HTA, syndrome métabolique → faible probabilité de MRC liée",
+    "bandelette positive isolée sans contexte : nécessite confirmation par ACR avant tout"
+  ],
+  "rationale": "Dépister sans cible utile à tort = faux positifs (anxiété, examens en cascade, perte de temps), pas de bénéfice individuel ni populationnel prouvé. La logique du dépistage cible est efficiente : on vise les populations avec une vraie prévalence et un vrai bénéfice attendu à intervenir tôt. C'est aussi pourquoi on évite les check-ups annuels 'pour tous'.",
+  "tags": {
+    "system": ["nephrologie", "prevention"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

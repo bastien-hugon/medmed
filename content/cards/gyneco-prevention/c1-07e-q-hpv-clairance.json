@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q07e-hpv-clairance",
+  "kind": "qcm-vignette",
+  "prompt": "Une jeune femme de 26 ans découvre que son test HPV est positif lors d'un dépistage. Elle est très inquiète : 'je vais avoir un cancer ?'. Que lui dites-vous ?",
+  "choices": [
+    { "id": "a", "text": "Oui, malheureusement, une infection HPV signifie cancer du col à court terme.", "correct": false },
+    { "id": "b", "text": "Dans 80-90 % des cas, l'organisme élimine spontanément le virus en 1-2 ans (clairance virale). C'est l'infection PERSISTANTE par un HPV à haut risque qui est dangereuse, et le passage au cancer prend 10-30 ans — d'où le suivi rapproché qu'on va organiser.", "correct": true },
+    { "id": "c", "text": "Il faut une hystérectomie immédiate.", "correct": false },
+    { "id": "d", "text": "Il faut commencer une chimiothérapie préventive.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Message-clé en MG : positive HPV ≠ cancer. (1) 80-90 % d'élimination spontanée en 1-2 ans. (2) Seule la persistance d'un HPV HR + transformation cellulaire en plusieurs étapes (CIN1 → CIN2 → CIN3 → cancer invasif) sur 10-30 ans est dangereuse. (3) Le système de dépistage est précisément conçu pour repérer ces étapes intermédiaires bien avant le cancer (cytologie réflexe + colposcopie si besoin). Rassurer SANS banaliser — c'est tout l'enjeu du counseling post-dépistage.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Papillomavirus_humain",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

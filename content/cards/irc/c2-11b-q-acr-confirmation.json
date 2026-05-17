@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-q11-acr-confirmation",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient hypertendu non diabétique présente un ACR à 42 mg/mmol confirmé sur deux prélèvements à 3 semaines d'intervalle, eGFR à 70 mL/min. Quelle est la conduite à tenir selon NICE NG203 ?",
+  "choices": [
+    { "id": "a", "text": "Surveillance seule, pas de traitement spécifique", "correct": false },
+    { "id": "b", "text": "Initier un IEC ou un ARA2 (ACR > 30 + HTA chez non-diabétique)", "correct": true },
+    { "id": "c", "text": "Adresser en néphrologie pour biopsie rénale d'emblée", "correct": false },
+    { "id": "d", "text": "Initier un SGLT2-i en première intention", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Indication IEC/ARA2 chez non-diabétique : HTA + ACR > 30 mg/mmol (notre patient à 42). Pas de biopsie d'emblée (réservée à des situations spécifiques en néphrologie). Pas de SGLT2 en première intention sans IEC/ARA2 déjà optimisé. La surveillance seule est insuffisante : un ACR à 42 prédit une dégradation rénale et CV non négligeable, justifiant la néphroprotection.",
+  "tags": {
+    "system": ["nephrologie", "cardiovasculaire"],
+    "sdd": ["irc", "mrc", "hta"],
+    "item_edn": [224, 261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

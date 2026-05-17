@@ -1,0 +1,26 @@
+{
+  "id": "hta-c1-q07b-seuil-une-mesure",
+  "kind": "qcm-vignette",
+  "prompt": "Lors d'une PREMIÈRE consultation, tu mesures une PA à 152/95 mmHg chez un patient. Peux-tu poser d'emblée le diagnostic d'HTA ?",
+  "choices": [
+    {"id": "a", "text": "Oui, une mesure ≥ 140/90 suffit à poser le diagnostic", "correct": false},
+    {"id": "b", "text": "Non, il faut confirmer sur plusieurs consultations (ou par AMT/MAPA), sauf urgence hypertensive", "correct": true},
+    {"id": "c", "text": "Non, il faut attendre que la PA dépasse 180/110 pour la première mesure", "correct": false},
+    {"id": "d", "text": "Oui, mais seulement si le patient présente aussi des céphalées", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le diagnostic d'HTA ne se pose JAMAIS sur une seule mesure (sauf urgence hypertensive, PAS > 180 ou PAD > 110 avec retentissement). HAS : 'confirmer le diagnostic d'HTA avant de débuter un traitement médicamenteux'. On confirme par : plusieurs mesures à plusieurs consultations OU mesures hors cabinet (AMT règle des 3, ou MAPA). Le but : éliminer un stress passager / effet blouse blanche.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

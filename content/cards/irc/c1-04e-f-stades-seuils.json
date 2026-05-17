@@ -1,0 +1,27 @@
+{
+  "id": "irc-c1-f04-stades-seuils",
+  "kind": "free-recall",
+  "prompt": "Donne les 6 stades de la MRC selon le DFG (G1 → G5 avec sous-division G3a/G3b), en citant les seuils de DFG.",
+  "expected": [
+    "G1 : DFG ≥ 90 mL/min",
+    "G2 : DFG 60-89 mL/min",
+    "G3a : DFG 45-59 mL/min",
+    "G3b : DFG 30-44 mL/min",
+    "G4 : DFG 15-29 mL/min",
+    "G5 : DFG < 15 mL/min (terminal)"
+  ],
+  "rationale": "Mémo : seuils ronds 90 / 60 / 45 / 30 / 15. La logique : tous les 15 ou 30 mL/min, on bascule de stade. G3 est divisé à 45 car c'est là que la prise en charge change. G5 (<15) = stade terminal, suppléance à organiser (dialyse, greffe, ou abstention concertée).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "dyslipidemie-c2-q03-statines-molecules",
+  "kind": "free-recall",
+  "prompt": "Cite au moins TROIS molécules de la classe des statines.",
+  "expected": [
+    "atorvastatine",
+    "rosuvastatine",
+    "simvastatine",
+    "pravastatine",
+    "fluvastatine",
+    "pitavastatine"
+  ],
+  "rationale": "Les principales statines, à connaître : atorvastatine, rosuvastatine (les deux puissantes / les plus prescrites), simvastatine, pravastatine, fluvastatine, pitavastatine. Toutes finissent par '-statine'. À retenir : atorvastatine 20 mg et 80 mg sont les deux doses-réflexes (prévention primaire / secondaire selon NICE). Rosuvastatine est souvent l'alternative quand interactions médicamenteuses ou intolérance.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

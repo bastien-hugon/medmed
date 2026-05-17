@@ -1,0 +1,22 @@
+{
+  "id": "lombalgie-c2-s01-sct-nouveau-deficit",
+  "kind": "sct",
+  "prompt": "Vous suivez depuis 3 semaines une patiente de 55 ans pour ce que vous avez diagnostiqué comme LOMBALGIE COMMUNE aiguë (pas de drapeau rouge initialement, PEC active). Lors d'une consultation de contrôle, elle rapporte une nouvelle apparition d'une faiblesse du pied droit (steppage en marchant). Cette information renforce-t-elle, affaiblit-elle ou est-elle neutre vis-à-vis de votre hypothèse initiale ?",
+  "hypothesis": "Lombalgie commune (sans drapeau rouge)",
+  "new_info": "Apparition d'une faiblesse du releveur du pied droit (steppage)",
+  "expected": "affaiblit",
+  "rationale": "Un déficit moteur (steppage = faiblesse du tibial antérieur, racine L5) est un drapeau rouge neurologique d'apparition secondaire. La HAS recommande de rechercher les drapeaux rouges à TOUS les stades — pas seulement à la 1ère consultation. Cette nouvelle info disqualifie 'lombalgie commune' : il faut une IRM rapide pour rechercher une compression radiculaire significative, et adresser en rhumatologie/neurochirurgie.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

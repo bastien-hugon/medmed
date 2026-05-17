@@ -1,0 +1,27 @@
+{
+  "id": "irc-c1-f06-bandelette-pieges",
+  "kind": "free-recall",
+  "prompt": "Cite au moins trois pièges (faux positifs ou faux négatifs) de la bandelette urinaire dans le dépistage d'une protéinurie.",
+  "expected": [
+    "faux positif : urine très concentrée (hydratation insuffisante)",
+    "faux positif : hématurie macroscopique abondante",
+    "faux négatif : microalbuminurie débutante (bandelette peu sensible aux taux faibles)",
+    "faux négatif : protéines non-albumine (chaînes légères du myélome) qui passent inaperçues",
+    "faux positif : infection urinaire (leucocytes, débris)",
+    "résultat trompeur après effort physique intense (protéinurie d'effort)"
+  ],
+  "rationale": "La bandelette a une bonne sensibilité pour les protéinuries franches, mais elle est imparfaite. D'où la règle : un dépistage chez un patient à risque doit utiliser l'ACR comme test de référence, surtout pour la microalbuminurie (3-30 mg/mmol) que la bandelette peut rater. Et un test positif doit toujours être recontextualisé.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

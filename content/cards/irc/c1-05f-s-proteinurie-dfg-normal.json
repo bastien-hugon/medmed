@@ -1,0 +1,22 @@
+{
+  "id": "irc-c1-s05-proteinurie-dfg-normal",
+  "kind": "sct",
+  "prompt": "Mme V., 52 ans, hypertendue. Son médecin lui annonce qu'elle n'a pas de maladie rénale chronique car son DFG estimé est à 85 mL/min/1,73 m².",
+  "hypothesis": "Mme V. n'a pas de MRC puisque son DFG est dans les limites de la normale.",
+  "new_info": "Son ACR sur urine du matin revient à 38 mg/mmol, confirmé sur un deuxième prélèvement 3 semaines plus tard.",
+  "expected": "affaiblit",
+  "rationale": "Un DFG ≥ 60 n'exclut PAS la MRC : la définition inclut aussi tout marqueur d'atteinte rénale persistant > 3 mois, dont l'ACR ≥ 3 mg/mmol. Avec un ACR à 38 (stade A3 : protéinurie franche) confirmé, Mme V. est en MRC G2 A3 — c'est même une catégorie à risque modéré-élevé qui justifie un IEC ou ARA2 (non-diabétique + ACR > 30). L'information affaiblit franchement l'hypothèse 'pas de MRC'.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

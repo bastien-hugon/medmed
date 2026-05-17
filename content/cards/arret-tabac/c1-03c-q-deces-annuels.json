@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c1-q03c-deces-annuels",
+  "kind": "cloze",
+  "prompt": "En France, le tabac est responsable d'environ ___ 000 décès par an, ce qui en fait la 1ère cause de mortalité évitable.",
+  "expected": ["75"],
+  "rationale": "Chiffre clé à connaître : ~75 000 décès/an liés au tabac en France (ordre de grandeur, varie un peu d'une source à l'autre, entre 70 000 et 80 000). Inclut cancers (toutes localisations), maladies cardio-vasculaires, BPCO, AVC. 1 fumeur sur 2 meurt prématurément de son tabac.",
+  "tags": {
+    "system": ["pneumologie", "prevention", "sante-publique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q02e-preparation",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient de 50 ans, fumeur, te dit : 'J'ai décidé. J'arrête le 1er du mois prochain. J'ai déjà acheté des patchs et noté la date sur mon calendrier. Vous pouvez m'aider à finaliser le plan ?' À quel stade de Prochaska est-il et quelle est la conduite la plus appropriée ?",
+  "choices": [
+    { "id": "a", "text": "Contemplation ; objectif : faire pencher la balance avec entretien motivationnel", "correct": false },
+    { "id": "b", "text": "PRÉPARATION ; fixer la date, choisir les NRT, anticiper les déclencheurs, programmer le suivi rapproché", "correct": true },
+    { "id": "c", "text": "Action ; ajuster les doses de NRT après chaque consultation", "correct": false },
+    { "id": "d", "text": "Maintien ; consolider la non-fumeur identitaire à long terme", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le patient a DÉCIDÉ d'arrêter, planifie dans le mois, prend des initiatives concrètes (patchs, date) → c'est le stade de PRÉPARATION. Conduite : finaliser le plan (date d'arrêt, dosage NRT selon Fagerström + CO, identification des déclencheurs, plans alternatifs pour les situations à risque), programmer le suivi (J7, J30...). Une fois la date passée et l'abstinence en cours, il sera en stade d'ACTION.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

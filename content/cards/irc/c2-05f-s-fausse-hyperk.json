@@ -1,0 +1,22 @@
+{
+  "id": "irc-c2-s05-fausse-hyperk",
+  "kind": "sct",
+  "prompt": "M. P., 65 ans, MRC G3b sous ramipril stable depuis 2 ans. Contrôle de routine : K+ à 6,2 mmol/L. Vous décidez d'arrêter le ramipril immédiatement.",
+  "hypothesis": "L'arrêt du ramipril s'impose face à cette hyperkaliémie à 6,2 mmol/L.",
+  "new_info": "Vous rappelez l'infirmière préleveuse : le prélèvement a été difficile, avec un long garrotage, et le tube a voyagé 4 h avant analyse au laboratoire central. Le bilan refait dans la matinée, sans difficulté, donne K+ à 4,8 mmol/L.",
+  "expected": "affaiblit",
+  "rationale": "Cause classique de FAUSSE hyperkaliémie : hémolyse in vitro du prélèvement (garrotage long, hémolyse mécanique, retard de centrifugation, transport long). Le tube libère du K+ intracellulaire (très concentré) qui fausse la mesure. Toujours penser à recontrôler avant d'arrêter un IEC sur une valeur > 5,5, surtout si pas d'autres signes (ECG normal, pas de contexte aigu). L'information affaiblit franchement l'hypothèse 'arrêt nécessaire' : le ramipril reste, le patient garde son médicament protecteur.",
+  "tags": {
+    "system": ["nephrologie", "biologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

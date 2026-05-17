@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c2-s02-niveaux-diabete",
+  "kind": "sct",
+  "prompt": "Vous voyez en consultation un patient de 58 ans diabétique de type 2 depuis 12 ans, avec une rétinopathie débutante. Vous le considérez en prévention secondaire.",
+  "hypothesis": "Ce patient est en risque CV très élevé et doit être traité comme un patient en prévention secondaire.",
+  "new_info": "Vous apprenez qu'il n'a jamais eu d'infarctus ni d'AVC, et que son ECG est normal.",
+  "expected": "neutre",
+  "rationale": "Le diabète AVEC ATTEINTE D'ORGANE (rétinopathie, néphropathie, neuropathie) suffit à le classer en risque TRÈS ÉLEVÉ, sans qu'il ait besoin d'avoir eu un événement CV. L'absence d'événement CV ne change donc PAS la stratification : c'est l'atteinte microvasculaire qui fait basculer en TRÈS ÉLEVÉ. La conduite (statine haute intensité, cible LDL stricte) reste indiquée. L'information est NEUTRE pour la décision.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

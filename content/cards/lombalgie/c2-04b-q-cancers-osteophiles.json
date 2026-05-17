@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q04-cancers-osteophiles",
+  "kind": "qcm-vignette",
+  "prompt": "Quels cancers métastasent le plus fréquemment au rachis lombaire ?",
+  "choices": [
+    { "id": "a", "text": "Cancer du sein, prostate, poumon, rein et thyroïde", "correct": true },
+    { "id": "b", "text": "Cancer du côlon, pancréas et estomac", "correct": false },
+    { "id": "c", "text": "Cancer de la peau (carcinome basocellulaire) uniquement", "correct": false },
+    { "id": "d", "text": "Cancer de l'utérus exclusivement", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Les 5 cancers ostéophiles classiques : sein, prostate, poumon, rein, thyroïde (mnémo : 'P-Sein-Pou-Re-Thy' ou 'BLT-K-P' en anglais). Le myélome multiple est aussi à connaître comme tumeur primitive ostéolytique. Un patient avec ATCD de l'un de ces cancers qui consulte pour une lombalgie persistante = métastase osseuse jusqu'à preuve du contraire.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "oncologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

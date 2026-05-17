@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q02d-ist-silencieuse-exemple",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente porte une chlamydia détectée par dépistage mais ne ressent aucun symptôme. Comment qualifier sa situation au sens strict ?",
+  "choices": [
+    { "id": "a", "text": "Elle a une MST mais pas une IST", "correct": false },
+    { "id": "b", "text": "Elle a une IST mais pas (encore) une MST", "correct": true },
+    { "id": "c", "text": "Elle n'a ni IST ni MST puisqu'elle n'a pas de symptôme", "correct": false },
+    { "id": "d", "text": "Elle a une IST et une MST simultanément", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Chlamydia portée + asymptomatique = IST sans MST. Le microbe est là (infection = IST), mais aucune maladie déclarée (MST). Si plus tard l'infection remontait et provoquait une salpingite fébrile, ce serait alors une MST. Cette distinction justifie le dépistage : sans cela, on raterait toute la phase silencieuse.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "irc-c1-q07-acr-seuil",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient hypertendu non diabétique présente un ACR à 22 mg/mmol confirmé sur deux prélèvements à 3 semaines d'intervalle, et un DFG estimé à 78 mL/min/1,73 m². À quel stade de l'albuminurie (A) le situez-vous selon KDIGO ?",
+  "choices": [
+    { "id": "a", "text": "A1 (normal)", "correct": false },
+    { "id": "b", "text": "A2 (modérément augmenté / microalbuminurie)", "correct": true },
+    { "id": "c", "text": "A3 (sévèrement augmenté / protéinurie franche)", "correct": false },
+    { "id": "d", "text": "Pas de classification possible avec un DFG normal", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Seuils ACR : A1 < 3 ; A2 = 3 à 30 ; A3 > 30 mg/mmol. 22 tombe en A2 (microalbuminurie). Le DFG normal n'empêche PAS la classification : ce patient est G2 A2, c'est-à-dire MRC à bas risque (avec une atteinte rénale documentée par l'ACR persistant). Surveillance + facteurs de risque + envisager IEC selon le profil.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hta-c1-m13-facteurs-variation",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les facteurs qui font PHYSIOLOGIQUEMENT VARIER la PA chez un sujet sain.",
+  "choices": [
+    {"id": "a", "text": "Le moment de la journée (jour vs nuit)", "correct": true},
+    {"id": "b", "text": "L'effort physique", "correct": true},
+    {"id": "c", "text": "Le stress et les émotions", "correct": true},
+    {"id": "d", "text": "La position du corps (allongé vs debout)", "correct": true},
+    {"id": "e", "text": "Le groupe sanguin", "correct": false},
+    {"id": "f", "text": "Un repas copieux récent", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "La PA varie en permanence selon : cycle circadien (-10 à -20 % la nuit, 'dipping'), effort, stress (système sympathique), position (debout = légèrement plus basse), digestion (légère baisse postprandiale). Le groupe sanguin n'a aucune influence sur la PA. Ces variations expliquent pourquoi le diagnostic d'HTA exige des mesures répétées dans des conditions standardisées.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q21-bilan-recall-5organes",
+  "kind": "free-recall",
+  "prompt": "Cite les 5 'organes' à examiner ou explorer chaque année dans le bilan standard du diabétique.",
+  "expected": ["yeux", "œil", "oeil", "rétine", "retine", "rein", "reins", "pieds", "pied", "cœur", "coeur", "système cardiovasculaire", "dents", "bouche", "bucco-dentaire"],
+  "rationale": "Mnémo HAS : 'YEUX – REINS – PIEDS – CŒUR – DENTS'. Chaque organe est exploré par un examen spécifique : fond d'œil, microalbuminurie + créatinine, monofilament, ECG + bilan lipidique, examen bucco-dentaire. C'est le squelette du suivi annuel à connaître par cœur.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

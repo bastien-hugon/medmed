@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q04e-bid-acronyme",
+  "kind": "qcm-vignette",
+  "prompt": "Sur une ordonnance, l'abréviation 'BID' (du latin) signifie :",
+  "choices": [
+    { "id": "a", "text": "Une fois par jour (le matin)", "correct": false },
+    { "id": "b", "text": "Deux fois par jour (matin et soir, espacés ~12 h)", "correct": true },
+    { "id": "c", "text": "Trois fois par jour", "correct": false },
+    { "id": "d", "text": "À jeun strict", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "BID = Bis In Die (latin) = 2 fois par jour. Autres abréviations utiles : QD (Quaque Die = 1 fois/j), TID (Ter In Die = 3 fois/j), QID (Quater In Die = 4 fois/j), HS (Hora Somni = au coucher), PO (Per Os = par la bouche), IV (intraveineux). Doxycycline chlamydia = 100 mg PO BID × 7 j = 1 cp matin + 1 cp soir, 7 jours d'affilée.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

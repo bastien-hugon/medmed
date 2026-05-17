@@ -1,0 +1,22 @@
+{
+  "id": "depistage-cancer-c1-s05f-fit-negatif-rassurance",
+  "kind": "sct",
+  "prompt": "Monsieur V., 64 ans, consulte parce qu'il a constaté du sang sur le papier toilette depuis 2 semaines. Vous envisagez de l'adresser pour une coloscopie diagnostique.",
+  "hypothesis": "Une coloscopie diagnostique est indiquée chez ce patient.",
+  "new_info": "Le patient ajoute qu'il a fait son FIT il y a 4 mois, négatif, et il en est rassuré.",
+  "expected": "neutre",
+  "rationale": "Le patient est SYMPTOMATIQUE (rectorragies récentes), donc il quitte la logique du dépistage et entre dans le diagnostic — quel que soit son statut FIT. Un FIT négatif récent n'a PAS la sensibilité suffisante pour exclure un cancer (sensibilité ~70-80 %, faux négatifs réels). De plus, des saignements peuvent commencer après le prélèvement du FIT. La coloscopie reste pleinement indiquée par la présence des symptômes. L'information FIT négatif récent n'AFFAIBLIT donc pas l'indication (elle ne disculpe pas un patient qui saigne) et ne la RENFORCE pas non plus (elle était déjà indiquée par les symptômes) → NEUTRE. Piège classique : ne JAMAIS rassurer un patient symptomatique avec un dépistage récent normal.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 287, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sensibilit%C3%A9_et_sp%C3%A9cificit%C3%A9",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

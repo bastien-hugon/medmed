@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c1-s07f-rechute-echec",
+  "kind": "sct",
+  "hypothesis": "Considérer une rechute après 3 mois d'abstinence comme un ÉCHEC du processus de sevrage, qui doit faire arrêter l'accompagnement.",
+  "new_info": "Le patient identifie spontanément le déclencheur (alcool en soirée) et exprime sa volonté d'essayer à nouveau en anticipant cette situation.",
+  "expected": "affaiblit",
+  "prompt": "Cette nouvelle information modifie-t-elle l'idée que la rechute = échec du sevrage ?",
+  "rationale": "La rechute n'EST PAS un échec : c'est une étape attendue. Le fait que le patient IDENTIFIE le déclencheur et soit MOTIVÉ à reprendre montre qu'il a INTÉGRÉ une compétence d'auto-observation — c'est précisément ce qu'on cherche en thérapie cognitivo-comportementale. L'hypothèse 'rechute = échec' est donc AFFAIBLIE par cette information : le patient utilise sa rechute comme un apprentissage, ce qui augmente ses chances futures. Conduite à tenir : valider sa réflexion, construire ensemble un plan pour les situations alcoolisées (limiter l'alcool, prévoir des alternatives, prévenir les amis).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

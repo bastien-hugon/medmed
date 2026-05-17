@@ -1,0 +1,22 @@
+{
+  "id": "saos-c2-09f-s-sct-conducteur-accident",
+  "kind": "sct",
+  "prompt": "M. N., 45 ans, vient en consultation 'urgence' après avoir eu un accrochage léger sur autoroute en s'endormant au volant. Il vous demande de ne 'rien noter dans son dossier pour ne pas perdre son boulot de chauffeur livreur'. Vous suspectez fortement un SAOS.",
+  "hypothesis": "Il faut tracer l'évènement dans le dossier et orienter le patient vers un médecin agréé.",
+  "new_info": "Le patient insiste pour que vous ne consigniez rien et menace de changer de médecin si vous le faites.",
+  "expected": "neutre",
+  "rationale": "La menace de changer de médecin ne modifie PAS l'obligation médico-légale : tracer l'accident d'endormissement, informer du risque, organiser le bilan SAOS, orienter vers un médecin agréé. L'effet est NEUTRE sur la décision médicale — il faut maintenir le cap. Ne pas tracer expose le médecin à une responsabilité majeure en cas d'accident grave ultérieur. C'est un dilemme classique : protection court-terme du patient (emploi) vs protection long-terme (sécurité collective, traçabilité médico-légale). La règle prime l'émotion.",
+  "tags": {
+    "system": ["pneumologie", "medecine-du-travail", "ethique"],
+    "sdd": ["saos"],
+    "item_edn": [108, 7],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

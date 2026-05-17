@@ -1,0 +1,28 @@
+{
+  "id": "hta-c1-m08-tensiometre-bonne-pratique",
+  "kind": "qcm-multi",
+  "prompt": "Lors de la mesure de la PA au tensiomètre, coche TOUTES les pratiques CORRECTES.",
+  "choices": [
+    {"id": "a", "text": "Mettre la manchette sur le bras NU", "correct": true},
+    {"id": "b", "text": "Poser le bras à la hauteur du cœur", "correct": true},
+    {"id": "c", "text": "Mettre la manchette par-dessus un pull épais (gain de temps)", "correct": false},
+    {"id": "d", "text": "Adapter la taille de la manchette à la circonférence du bras", "correct": true},
+    {"id": "e", "text": "Placer la manchette sur l'avant-bras (plus pratique)", "correct": false},
+    {"id": "f", "text": "Mesurer aux DEUX BRAS lors de la première consultation", "correct": true}
+  ],
+  "expected": ["a", "b", "d", "f"],
+  "rationale": "Règles HAS : bras NU (pas par-dessus un pull), à hauteur du cœur, manchette adaptée à la circonférence, mesure aux 2 bras à la 1ère consultation (puis on garde le bras où la PA est la plus haute). La manchette se place sur le bras au niveau du biceps, JAMAIS sur l'avant-bras. Un écart > 15 mmHg entre les 2 bras peut suggérer une atteinte vasculaire (à explorer).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

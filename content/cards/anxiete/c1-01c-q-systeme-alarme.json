@@ -1,0 +1,20 @@
+{
+  "id": "anxiete-c1-q01c-systeme-alarme",
+  "kind": "cloze",
+  "prompt": "L'anxiété normale fonctionne comme un ___ d'alarme : elle se déclenche face à un danger réel ou supposé pour préparer le corps à agir vite.",
+  "expected": ["système", "systeme"],
+  "rationale": "L'image du 'système d'alarme' est centrale pour comprendre et déstigmatiser l'anxiété. Le système d'alarme normal sonne face à un vrai danger (utile), et se coupe quand le danger passe. Dans le trouble anxieux, il sonne sans cesse, pour rien, et empêche de vivre.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

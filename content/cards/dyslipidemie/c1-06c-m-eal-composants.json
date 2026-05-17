@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c1-m06-eal-composants",
+  "kind": "qcm-multi",
+  "prompt": "Cochez tous les paramètres mesurés (ou calculés) dans un bilan lipidique complet (EAL).",
+  "choices": [
+    { "id": "a", "text": "Cholestérol total.", "correct": true },
+    { "id": "b", "text": "HDL cholestérol.", "correct": true },
+    { "id": "c", "text": "LDL cholestérol (souvent calculé).", "correct": true },
+    { "id": "d", "text": "Triglycérides.", "correct": true },
+    { "id": "e", "text": "Glycémie à jeun.", "correct": false },
+    { "id": "f", "text": "Hémoglobine glyquée (HbA1c).", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "L'EAL standard mesure 4 paramètres : cholestérol total, HDL, LDL (souvent calculé par la formule de Friedewald), triglycérides. Le 'non-HDL cholestérol' (= chol total − HDL) est aussi de plus en plus utilisé, notamment quand les TG sont élevés et faussent le calcul du LDL. La glycémie à jeun et l'HbA1c font partie du bilan métabolique mais NE sont PAS de l'EAL stricto sensu.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

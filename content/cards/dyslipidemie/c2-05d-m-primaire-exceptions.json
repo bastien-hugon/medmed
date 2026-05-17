@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c2-m05-primaire-exceptions",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les situations dans lesquelles on peut/doit envisager une statine en PRÉVENTION PRIMAIRE même si le risque CV calculé est <10 %.",
+  "choices": [
+    { "id": "a", "text": "Patient ≥85 ans (à risque par l'âge, surtout si tabac ou HTA).", "correct": true },
+    { "id": "b", "text": "Diabète de type 1 avec âge >40 ans ou durée >10 ans.", "correct": true },
+    { "id": "c", "text": "Insuffisance rénale chronique.", "correct": true },
+    { "id": "d", "text": "Risque estimé sous-évalué (VIH, PR, schizophrénie...).", "correct": true },
+    { "id": "e", "text": "Patient en bonne santé sans aucun FdR ni préférence personnelle.", "correct": false },
+    { "id": "f", "text": "Patient qui refuse explicitement après information éclairée.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Exceptions au seuil de 10 % : (1) patient ≥85 ans (à considérer), (2) DT1 avec >40 ans OU durée >10 ans OU néphropathie OU autres FdR, (3) IRC (atorvastatine 20 mg en 1re intention), (4) risque sous-estimé par l'outil (VIH, PR, lupus, maladie mentale sévère, corticoïdes au long cours). Un patient en parfaite santé sans préférence ne justifie pas une statine en deçà du seuil. Le refus éclairé doit être respecté.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

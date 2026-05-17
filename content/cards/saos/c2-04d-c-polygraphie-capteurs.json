@@ -1,0 +1,20 @@
+{
+  "id": "saos-c2-04d-c-polygraphie-capteurs",
+  "kind": "cloze",
+  "prompt": "La polygraphie ventilatoire enregistre au minimum : le ___ nasobuccal (canule narinaire), la ___ en oxygène (oxymètre de pouls), et les ___ respiratoires via des sangles thoraciques et abdominales. Elle est réalisée en ___ (à domicile).",
+  "expected": ["flux", "saturation", "efforts", "ambulatoire"],
+  "rationale": "4 mesures-clés à connaître : flux aérien (nasal), SaO₂ (doigt), efforts respiratoires (sangles thoraco-abdominales pour distinguer obstructif vs central), souvent ECG et position. Avantage : ambulatoire, le patient dort chez lui dans des conditions plus proches de la vie réelle. Inconvénient : pas d'EEG, donc on calcule l'IAH sur le temps d'enregistrement, pas sur le temps de sommeil réel.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

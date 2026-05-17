@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c2-c02d-echo-cloze",
+  "kind": "cloze",
+  "prompt": "L'examen-clé qui CONFIRME le diagnostic d'insuffisance cardiaque est l'___ cardiaque ___ (= ETT).",
+  "expected": ["échographie", "transthoracique"],
+  "rationale": "ETT (échographie cardiaque transthoracique) = pierre angulaire diagnostique. Sans douleur, sans irradiation, faite par cardiologue. Mesure FEVG → classe l'IC → décide le traitement.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c1-q07-mnemo-mouvement",
+  "kind": "free-recall",
+  "prompt": "Complétez la phrase mnémotechnique : 'La douleur mécanique aime le ___, la douleur inflammatoire aime le ___ .'",
+  "expected": ["repos", "mouvement"],
+  "rationale": "Mnémonique : 'mécanique aime le repos, inflammatoire aime le mouvement'. Discriminateur le plus simple à l'interrogatoire. Quand on est devant une lombalgie chronique qui s'AMÉLIORE en bougeant, on sort du cadre 'commun' et on évoque la spondyloarthrite.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

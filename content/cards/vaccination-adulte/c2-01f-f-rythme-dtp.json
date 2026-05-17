@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-f01-rythme-dtp",
+  "kind": "free-recall",
+  "prompt": "Cite les âges fixes des rappels DTP/coqueluche chez l'adulte en France, en précisant pour chaque âge quelle formule (dTcaP ou dTP).",
+  "expected": ["25 ans dTcaP", "45 ans dTP", "65 ans dTP", "tous les 10 ans"],
+  "rationale": "25 ans = dTcaP (coqueluche ajoutée) — 45 ans = dTP — 65 ans = dTP — puis 75, 85, 95 = dTP tous les 10 ans. Intervalles : 20 ans entre 25-45 et 45-65, puis 10 ans (immunosénescence). Mnémo : 25-45-65 puis « décade ». Les minuscules d et ca = doses réduites adulte ; les majuscules T et P = doses standards.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-q05-surveillance-delai",
+  "kind": "qcm-vignette",
+  "prompt": "Vous venez d'augmenter la dose d'IEC chez un patient en MRC. À quel délai recommande-t-on de contrôler la kaliémie et la créatininémie selon NICE NG203 ?",
+  "choices": [
+    { "id": "a", "text": "Dans les 24 heures suivant la hausse de dose", "correct": false },
+    { "id": "b", "text": "1 à 2 semaines après la hausse de dose", "correct": true },
+    { "id": "c", "text": "3 mois après la hausse de dose", "correct": false },
+    { "id": "d", "text": "Pas de contrôle nécessaire si le patient est asymptomatique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Délai NICE : 1 à 2 semaines après initiation ou chaque hausse de dose, avec contrôle K+ + créat. Avant : impact pas encore visible sur le biologique (24h trop court). Après 3 mois : trop tard, l'hyperkaliémie ou la dégradation rénale auraient pu causer des dommages. Mnémo : 'IEC neuf → biologie à 2 semaines'.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

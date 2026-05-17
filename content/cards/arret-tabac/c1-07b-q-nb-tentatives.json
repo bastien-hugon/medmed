@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c1-q07b-nb-tentatives",
+  "kind": "cloze",
+  "prompt": "En moyenne, il faut compter entre 5 et ___ tentatives d'arrêt avant qu'un fumeur ne parvienne à un arrêt définitif.",
+  "expected": ["7", "sept"],
+  "rationale": "5 à 7 tentatives en moyenne avant l'arrêt définitif. Chiffre à connaître pour DÉCULPABILISER le patient qui rechute : 'Ce n'est pas un échec, c'est le parcours habituel.' L'arrêt définitif au 1er essai est l'exception, pas la règle.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

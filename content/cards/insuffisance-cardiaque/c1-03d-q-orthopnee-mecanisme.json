@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q03d-orthopnee-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi l'orthopnée est-elle soulagée par la position assise chez un patient IC ?",
+  "choices": [
+    { "id": "a", "text": "La position assise détend les muscles respiratoires et augmente la PaO2", "correct": false },
+    { "id": "b", "text": "La gravité aide à retenir le sang dans les jambes, ce qui décharge les poumons", "correct": true },
+    { "id": "c", "text": "La position assise diminue la fréquence cardiaque", "correct": false },
+    { "id": "d", "text": "La position assise comprime mécaniquement le thorax et facilite l'expiration", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "En décubitus, le retour veineux augmente (le sang des jambes remonte) → surcharge des poumons → dyspnée. Assis ou debout, la gravité piège le sang dans les MI → décharge pulmonaire → soulagement. C'est pour ça que les patients dorment surélevés (3-4 oreillers).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

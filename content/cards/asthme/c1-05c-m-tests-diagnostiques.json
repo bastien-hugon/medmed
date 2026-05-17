@@ -1,0 +1,29 @@
+{
+  "id": "asthme-c1-m05-tests-diagnostiques",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les tests objectifs proposés par NICE NG245 pour confirmer un asthme chez l'ADULTE (≥ 12 ans).",
+  "choices": [
+    {"id": "a", "text": "FeNO (fraction exhalée de NO) ≥ 50 ppb", "correct": true},
+    {"id": "b", "text": "Éosinophiles sanguins au-dessus de la valeur de référence du labo", "correct": true},
+    {"id": "c", "text": "Réversibilité au bronchodilatateur : VEMS ↑ ≥ 12 % ET ≥ 200 mL", "correct": true},
+    {"id": "d", "text": "Variabilité du DEP ≥ 20 % sur 2 semaines bi-quotidiennes", "correct": true},
+    {"id": "e", "text": "Test de provocation à la métacholine ou à l'histamine (en spécialisé)", "correct": true},
+    {"id": "f", "text": "Radiographie thoracique anormale obligatoire", "correct": false},
+    {"id": "g", "text": "Dosage des IgE totales seules", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Les 4 étapes adulte NG245 : éosinos/FeNO → réversibilité spiro → variabilité DEP → provocation. La radio thoracique sert au diag DIFFÉRENTIEL (exclure pneumopathie, pneumothorax…), pas au diag positif d'asthme. Les IgE totales seules ne diagnostiquent pas l'asthme (peuvent juste orienter sur le terrain atopique). Et la clinique seule ne suffit JAMAIS — NG245 exige toujours un test objectif.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

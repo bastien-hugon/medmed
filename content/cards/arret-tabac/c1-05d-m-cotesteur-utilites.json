@@ -1,0 +1,29 @@
+{
+  "id": "arret-tabac-c1-m05d-cotesteur-utilites",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les utilités RÉELLES du cotesteur de CO expiré en consultation de sevrage tabagique.",
+  "choices": [
+    {"id": "a", "text": "Mesure objective de la consommation tabagique RÉCENTE (~24 dernières heures)", "correct": true},
+    {"id": "b", "text": "Aide au dosage initial des substituts nicotiniques", "correct": true},
+    {"id": "c", "text": "Outil de motivation visuel pour le patient (voir le chiffre baisser)", "correct": true},
+    {"id": "d", "text": "Confirmation de l'abstinence récente lors du suivi rapproché", "correct": true},
+    {"id": "e", "text": "Évaluation d'un tabagisme ancien (>1 mois d'arrêt)", "correct": false},
+    {"id": "f", "text": "Diagnostic d'un cancer du poumon", "correct": false},
+    {"id": "g", "text": "Diagnostic de la BPCO", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Le cotesteur fournit un marqueur OBJECTIF, INSTANTANÉ et VISIBLE du tabagisme actif/récent (<24 h). Il est utile au début (dosage NRT), pendant (suivi), et comme outil motivationnel (le patient voit le chiffre descendre). Il NE détecte PAS un tabagisme ancien (CO disparu) et NE diagnostique PAS de cancer ou de BPCO (pour ça : imagerie, EFR/spirométrie).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

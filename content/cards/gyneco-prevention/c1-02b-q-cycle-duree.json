@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q02b-cycle-duree",
+  "kind": "qcm-vignette",
+  "prompt": "Combien de temps dure, en moyenne, un cycle menstruel ?",
+  "choices": [
+    { "id": "a", "text": "Environ 14 jours.", "correct": false },
+    { "id": "b", "text": "Environ 28 jours (souvent entre 25 et 35).", "correct": true },
+    { "id": "c", "text": "Exactement 30 jours pour toutes les femmes.", "correct": false },
+    { "id": "d", "text": "Environ 60 jours, sauf grossesse.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "~28 jours en moyenne, mais la variabilité physiologique est large (25-35 j). Le jour 1 = premier jour des règles. L'ovulation se situe vers J14 dans un cycle théorique de 28 j, mais en pratique elle se positionne ~14 jours AVANT les règles suivantes (donc plus tard dans un cycle long). Cette imprécision est l'une des raisons pour lesquelles les méthodes 'naturelles' (fenêtre de fertilité) sont peu fiables.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [33, 35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

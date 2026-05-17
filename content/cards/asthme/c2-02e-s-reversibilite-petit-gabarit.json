@@ -1,0 +1,22 @@
+{
+  "id": "asthme-c2-s02-reversibilite-petit-gabarit",
+  "kind": "sct",
+  "prompt": "Femme de 55 ans, 1,52 m, dyspnée sifflante intermittente. Spirométrie : VEMS 1,10 L → 1,28 L après salbutamol (+ 16 %, + 180 mL).",
+  "hypothesis": "Mon hypothèse : il s'agit d'un asthme avec réversibilité positive.",
+  "new_info": "Les critères stricts NICE NG245 sont +12 % ET +200 mL chez l'adulte. Ici on a +16 % mais seulement +180 mL.",
+  "expected": "affaiblit",
+  "rationale": "Critères NG245 = ET strict. +16 % est OK, +180 mL est tout juste sous le seuil de 200 mL → réversibilité formellement NÉGATIVE selon NG245. L'hypothèse d'asthme est affaiblie sur la base de ce test précis. Cela dit, ce résultat est limite et chez un petit gabarit où 200 mL est proportionnellement énorme : NG245 recommande de poursuivre la cascade (étape 3 : variabilité DEP ≥ 20 % sur 2 sem) avant de conclure définitivement.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

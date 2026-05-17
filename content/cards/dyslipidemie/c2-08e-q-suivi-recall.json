@@ -1,0 +1,27 @@
+{
+  "id": "dyslipidemie-c2-q08-suivi-recall",
+  "kind": "free-recall",
+  "prompt": "Quels paramètres BIOLOGIQUES suit-on à 2-3 mois après initiation d'une statine ?",
+  "expected": [
+    "profil lipidique",
+    "LDL",
+    "non-HDL",
+    "transaminases",
+    "ALT",
+    "AST"
+  ],
+  "rationale": "À 2-3 mois : (1) PROFIL LIPIDIQUE complet — cholestérol total, HDL, LDL, TG, non-HDL — pour vérifier l'efficacité (cible atteinte ? Baisse ≥40 % du non-HDL ?). (2) TRANSAMINASES (ALT/AST) pour la tolérance hépatique. PAS de CPK systématique (uniquement si symptômes musculaires inexpliqués). PAS de TSH ni de NFS en routine.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

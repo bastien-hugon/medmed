@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c2-m05d-basics-avant-escalade",
+  "kind": "qcm-multi",
+  "prompt": "Avant d'ESCALADER le traitement chez un asthmatique non contrôlé, NICE NG245 demande de vérifier 4 « basics ». Coche-les TOUS.",
+  "choices": [
+    {"id": "a", "text": "Adhésion au traitement (compteur de doses, demande non-jugeante)", "correct": true},
+    {"id": "b", "text": "Technique d'inhalation (inspiration profonde, coordination, chambre d'inhalation)", "correct": true},
+    {"id": "c", "text": "Environnement (allergènes, tabac, vapotage, pollution)", "correct": true},
+    {"id": "d", "text": "Diagnostic différentiel (RGO, dysfonction des cordes vocales, BPCO surajoutée…)", "correct": true},
+    {"id": "e", "text": "Dosage des IgE totales obligatoire avant toute escalade", "correct": false},
+    {"id": "f", "text": "Radiographie thoracique obligatoire avant toute escalade", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Les 4 « basics » NG245 sont à vérifier SYSTÉMATIQUEMENT avant d'escalader : (1) adhésion (souvent insuffisante, ne pas culpabiliser le patient), (2) technique d'inhalation (à faire DÉMONTRER, pas juste demander), (3) environnement (un chat récent peut tout expliquer), (4) diag différentiel (et si ce n'était pas/plus l'asthme ?). Inutile de multiplier les examens avant d'avoir vérifié ces 4 points.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

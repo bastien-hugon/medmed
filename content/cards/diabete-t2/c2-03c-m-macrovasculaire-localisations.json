@@ -1,0 +1,28 @@
+{
+  "id": "diabete-t2-c2-m03-macrovasculaire-localisations",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les localisations classiques des complications MACROvasculaires du diabète.",
+  "choices": [
+    { "id": "a", "text": "Artères coronaires (infarctus, angine)", "correct": true },
+    { "id": "b", "text": "Artères cérébrales (AVC ischémique)", "correct": true },
+    { "id": "c", "text": "Artères des membres inférieurs (AOMI)", "correct": true },
+    { "id": "d", "text": "Capillaires de la rétine", "correct": false },
+    { "id": "e", "text": "Glomérules rénaux", "correct": false },
+    { "id": "f", "text": "Veines des membres inférieurs", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Macrovasculaire = grosses ARTÈRES (pas les veines, f) : coronaires (a), cérébrales (b), membres inférieurs (c). Capillaires rétiniens (d) et glomérules rénaux (e) relèvent du microvasculaire. Le diabète touche surtout les artères, pas les veines — c'est l'athérosclérose accélérée.",
+  "tags": {
+    "system": ["endocrinologie", "cardiovasculaire"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

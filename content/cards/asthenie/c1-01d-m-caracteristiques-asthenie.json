@@ -1,0 +1,28 @@
+{
+  "id": "asthenie-c1-m01d-caracteristiques-asthenie",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les affirmations VRAIES concernant l'asthénie (fatigue).",
+  "choices": [
+    { "id": "a", "text": "C'est un symptôme subjectif, rapporté par le patient.", "correct": true },
+    { "id": "b", "text": "C'est un motif de consultation très fréquent en médecine générale.", "correct": true },
+    { "id": "c", "text": "Elle se mesure objectivement avec un appareil dédié.", "correct": false },
+    { "id": "d", "text": "C'est une maladie en soi, qui se traite avec un médicament spécifique.", "correct": false },
+    { "id": "e", "text": "Elle désigne la difficulté à démarrer et soutenir une activité par manque d'énergie.", "correct": true },
+    { "id": "f", "text": "Deux patients utilisant ce mot peuvent décrire des réalités différentes (envie de dormir, manque de force, essoufflement…).", "correct": true }
+  ],
+  "expected": ["a", "b", "e", "f"],
+  "rationale": "L'asthénie est un symptôme (pas une maladie), SUBJECTIF (pas d'instrument de mesure), FRÉQUENT en consultation, et HÉTÉROGÈNE dans son sens : c'est pour cela que la première étape clinique est de faire reformuler le patient. Il n'existe ni traitement médicamenteux générique de l'asthénie ni dispositif diagnostique pour l'objectiver.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

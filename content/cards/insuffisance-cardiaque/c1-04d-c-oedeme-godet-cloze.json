@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c1-c04d-oedeme-godet-cloze",
+  "kind": "cloze",
+  "prompt": "Une prise de poids brutale de plus de ___ kg en ___ jours chez un patient IC = signe de rétention hydrique précoce = appeler le médecin.",
+  "expected": ["2", "3"],
+  "rationale": "Règle simple d'auto-surveillance NICE NG106 : + 2 kg en 3 jours → ALERTE. C'est la mesure d'éducation thérapeutique la plus puissante (détection PRÉCOCE de décompensation, avant que les œdèmes/dyspnée ne deviennent invalidants).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

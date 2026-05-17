@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q03b-conjonctivite-delai",
+  "kind": "qcm-vignette",
+  "prompt": "Une conjonctivite néonatale apparaissant entre J5 et J12 de vie évoque en priorité :",
+  "choices": [
+    { "id": "a", "text": "Une conjonctivite à gonocoque (urgence ophtalmo)", "correct": false },
+    { "id": "b", "text": "Une conjonctivite à chlamydia", "correct": true },
+    { "id": "c", "text": "Une conjonctivite virale banale", "correct": false },
+    { "id": "d", "text": "Une allergie au lait", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Piège classique pédiatrique. Conjonctivite néonatale : J0-J3 = gonocoque (URGENCE car risque de kératite et de cécité), J5-J12 = CHLAMYDIA (œil rouge, sécrétions purulentes, paupières gonflées). Diagnostic : NAAT ou culture sur écouvillon conjonctival. Traitement chlamydia néonatal : érythromycine PO 14 jours (PAS de doxycycline chez le nouveau-né — toxicité dentaire/osseuse). Surveillance d'une sténose hypertrophique du pylore (< 6 sem de vie).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie", "pediatrie", "ophtalmologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

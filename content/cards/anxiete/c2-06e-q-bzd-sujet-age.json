@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q06e-bzd-sujet-age",
+  "kind": "qcm-vignette",
+  "prompt": "Mme V., 78 ans, TAG modéré nouvellement diagnostiqué, vit seule, descend des escaliers chaque jour. Quel argument PRINCIPAL contre une prescription de BZD au long cours dans son cas ?",
+  "choices": [
+    { "id": "a", "text": "Risque accru de CHUTES et de fractures (notamment col du fémur)", "correct": true },
+    { "id": "b", "text": "Inefficacité prouvée chez le sujet âgé", "correct": false },
+    { "id": "c", "text": "Risque d'allergie cutanée", "correct": false },
+    { "id": "d", "text": "Risque cardiovasculaire (allongement du QT)", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Chez le sujet âgé, les BZD majorent considérablement le risque de CHUTES (somnolence, ralentissement des réflexes, hypotonie musculaire), de FRACTURES (col fémoral notamment, lourde morbidité) et de CONFUSION (effets cognitifs). La métabolisation hépatique ralentie majore les concentrations et la durée d'action. Critère STOPP/START : éviter les BZD chez la personne âgée fragile. Si crise aiguë justifie une BZD : oxazépam (demi-vie courte, pas de métabolite actif) à dose minimale et durée la plus brève. Le QT (citalopram à dose élevée) concerne les SSRI, pas les BZD.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

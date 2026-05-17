@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c1-c08e-bnp-tri-cloze",
+  "kind": "cloze",
+  "prompt": "Le NT-proBNP est un outil de ___, pas de diagnostic. Une valeur BASSE chez un patient non traité a une excellente valeur prédictive ___.",
+  "expected": ["tri", "négative"],
+  "rationale": "NT-proBNP = outil de TRI (rule-out). VPN excellente → BAS = pas d'IC, on cherche ailleurs. VPP médiocre → HAUT = il faut confirmer par écho. Il ne pose JAMAIS le diagnostic seul.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

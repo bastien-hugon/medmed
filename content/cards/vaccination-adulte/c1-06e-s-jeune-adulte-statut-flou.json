@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c1-s06-jeune-adulte-statut-flou",
+  "kind": "sct",
+  "prompt": "Une jeune adulte de 23 ans, née en 2003, vous consulte. Elle ne retrouve pas son carnet de vaccination et ne sait pas si elle a eu le ROR.",
+  "hypothesis": "Mon hypothèse : il faut proposer un rattrapage ROR (1 ou 2 doses selon le contexte).",
+  "new_info": "Vous notez qu'elle est née AVANT 2018 (donc le ROR n'était pas obligatoire à l'époque) et que les épidémies de rougeole touchent surtout les jeunes adultes non ou mal vaccinés.",
+  "expected": "renforce",
+  "rationale": "Le ROR n'est devenu obligatoire qu'en 2018 → cohorte 2003 = vaccination recommandée mais non obligatoire à l'époque, avec couverture nationale insuffisante (épidémies périodiques). Devant un statut vaccinal incertain pour le ROR chez une jeune adulte née après 1980, la recommandation est de proposer un rattrapage (1 dose minimum, 2 doses si totalement non vaccinée), sans nécessiter de sérologie préalable. L'info RENFORCE.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "ROR"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

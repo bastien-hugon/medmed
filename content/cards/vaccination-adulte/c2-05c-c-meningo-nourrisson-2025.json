@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-c05-meningo-nourrisson-2025",
+  "kind": "cloze",
+  "prompt": "Depuis 2025 en France, le vaccin méningocoque ___ est obligatoire chez le nourrisson à 3, 5 et 12 mois ; et le vaccin méningocoque tétravalent ___ est obligatoire à 6 et 12 mois.",
+  "expected": ["B", "ACWY"],
+  "rationale": "Évolution majeure du calendrier 2025 : devant l'augmentation des cas (notamment W et Y), B ET ACWY sont OBLIGATOIRES chez le nourrisson, en plus du méningo C historique des « 11 obligatoires » 2018. B : 3 doses (3, 5, 12 mois). ACWY : 2 doses (6, 12 mois). Rappel ACWY recommandé chez l'ado 11-14 ans (rattrapage jusqu'à 24 ans). Chez l'adulte, ACWY et B restent CIBLÉS (voyage, métier, immunodépression).",
+  "tags": {
+    "system": ["infectieux", "prevention", "neurologie"],
+    "sdd": ["vaccination", "meningocoque"],
+    "item_edn": [143, 151],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-a-prevention-vaccinale/infections-invasives-a-meningocoque",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

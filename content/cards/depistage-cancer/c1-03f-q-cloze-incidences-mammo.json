@@ -1,0 +1,20 @@
+{
+  "id": "depistage-cancer-c1-q03f-cloze-incidences-mammo",
+  "kind": "cloze",
+  "prompt": "Une mammographie de dépistage comporte au minimum ___ clichés par sein : une incidence ___-caudale (vue de dessus) et une incidence ___ externe (vue en biais qui montre le prolongement axillaire).",
+  "expected": ["2", "cranio", "oblique"],
+  "rationale": "Deux incidences obligatoires : cranio-caudale (CC, sein comprimé de haut en bas) et oblique médio-latérale externe (MLO, en biais). La MLO est essentielle car elle voit la totalité du sein y compris le prolongement axillaire (quadrant supéro-externe, où surviennent statistiquement la majorité des cancers). Une lésion vue sur une seule incidence est suspecte d'artefact ou de superposition : on refait des clichés ciblés. Mnémo : 'CC + MLO' = les deux yeux d'une mammographie.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

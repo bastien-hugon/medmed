@@ -1,0 +1,26 @@
+{
+  "id": "depression-c2-q05d-mecanisme-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient vous demande \"Docteur, comment ça marche, le Prozac ?\". En quelques mots simples, comment expliquez-vous le mécanisme d'action d'un ISRS ?",
+  "choices": [
+    { "id": "a", "text": "Il endort le cerveau pour que vous oubliiez votre tristesse", "correct": false },
+    { "id": "b", "text": "Il bloque le \"recyclage\" de la sérotonine entre les neurones, ce qui lui permet de rester plus longtemps dans la synapse et de mieux transmettre l'information. Au fil des semaines, ça permet au cerveau de réajuster ses circuits.", "correct": true },
+    { "id": "c", "text": "Il remplace la sérotonine manquante par une sérotonine de synthèse", "correct": false },
+    { "id": "d", "text": "Il crée une dépendance comme une drogue dure", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'explication imagée : sérotonine = messager chimique. Normalement, après transmission, elle est \"réaspirée\" par le neurone émetteur (recapture). Les ISRS BLOQUENT cette recapture → la sérotonine reste plus longtemps dans la synapse → meilleure transmission. L'effet thérapeutique vient surtout des adaptations neuroplastiques qui suivent (récepteurs, neurogenèse), d'où le délai de 4 semaines. Les ISRS NE CRÉENT PAS de dépendance (≠ benzodiazépines) mais nécessitent un sevrage progressif (syndrome de discontinuation).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

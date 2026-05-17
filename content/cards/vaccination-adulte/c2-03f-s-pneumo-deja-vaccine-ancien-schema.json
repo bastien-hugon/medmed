@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c2-s03-pneumo-deja-vaccine-ancien-schema",
+  "kind": "sct",
+  "prompt": "Un patient diabétique de 67 ans a reçu il y a 3 ans le schéma historique PCV13 puis PPV23. Vous envisagez de lui injecter immédiatement une dose de VPC20 selon le nouveau calendrier.",
+  "hypothesis": "Mon hypothèse : il faut refaire systématiquement le nouveau schéma car le précédent est obsolète.",
+  "new_info": "Vous savez que le patient a déjà reçu un schéma valide à l'époque, et que les recommandations actuelles ne préconisent pas de revacciner systématiquement les patients ayant reçu l'ancien schéma complet.",
+  "expected": "affaiblit",
+  "rationale": "Les patients ayant reçu un schéma valide selon les recommandations en vigueur à l'époque ne sont pas systématiquement repris. La décision se discute au cas par cas : haut risque, fenêtre depuis la dernière dose, sérotypes couverts. L'info AFFAIBLIT la revaccination systématique. À retenir : ne pas créer un sur-vaccinage par excès de zèle ; vérifier le carnet et appliquer les recommandations en vigueur, en gardant en tête les schémas antérieurs valides.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "pneumocoque"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/Infections-a-pneumocoque",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

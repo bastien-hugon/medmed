@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c2-q05d-rx-thorax",
+  "kind": "qcm-vignette",
+  "prompt": "Chez quel patient, parmi les 4 suivants, l'ajout d'une RADIOGRAPHIE DE THORAX au pack standard est-il le PLUS justifié ?",
+  "choices": [
+    { "id": "a", "text": "Femme de 30 ans, fatiguée depuis 2 mois, examen normal, pas de signe respiratoire.", "correct": false },
+    { "id": "b", "text": "Adolescent fatigué depuis 3 semaines après une angine traitée.", "correct": false },
+    { "id": "c", "text": "Homme de 55 ans, ancien tabagique à 30 PA, asthénique depuis 3 mois avec toux sèche persistante et dyspnée d'effort.", "correct": true },
+    { "id": "d", "text": "Patient de 25 ans, sportif, fatigué après un marathon.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Indications de radio de thorax devant une asthénie : TOUX persistante, DYSPNÉE, suspicion d'infection chronique (TB), terrain à risque (tabagique, post-exposition amiante). Ce patient (55 ans, tabac, toux, dyspnée) cumule les indications : recherche de cancer broncho-pulmonaire, BPCO, séquelles ou infection chronique. Les autres situations (a, b, d) sont des fatigues sans point d'appel respiratoire, qui ne justifient pas la radio en 1ère intention.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

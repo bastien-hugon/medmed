@@ -1,0 +1,29 @@
+{
+  "id": "vaccination-adulte-c2-m08-immunodeprime-vrai-faux",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la vaccination du patient immunodéprimé.",
+  "choices": [
+    {"id": "a", "text": "Les vaccins vivants (ROR, varicelle, BCG, fièvre jaune) sont contre-indiqués.", "correct": true},
+    {"id": "b", "text": "Le vaccin Shingrix est utilisable car il n'est PAS vivant.", "correct": true},
+    {"id": "c", "text": "Il est préférable de vacciner AVANT l'instauration de l'immunodépression quand c'est programmable.", "correct": true},
+    {"id": "d", "text": "La réponse vaccinale est souvent diminuée → schémas parfois renforcés et sérologies post-vaccinales utiles.", "correct": true},
+    {"id": "e", "text": "Vacciner l'entourage (cocon) est inutile chez l'immunodéprimé.", "correct": false},
+    {"id": "f", "text": "Le pneumocoque est une vaccination prioritaire (risque accru d'infection invasive).", "correct": true},
+    {"id": "g", "text": "Tous les vaccins inactivés sont CI chez l'immunodéprimé.", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "4 principes : (1) PRIORITAIRES → vacciner activement (pneumocoque, grippe, Shingrix, COVID, méningo si indication) ; (2) INACTIVÉS uniquement (vivants CI) ; (3) RENFORCÉS (parfois doses supplémentaires, sérologies de contrôle hépatite B/ROR/varicelle) ; (4) COCON → vacciner l'entourage proche pour fermer les portes d'entrée. Mnémo : PRIORITAIRES + INACTIVÉS + RENFORCÉS + COCON.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "immunodepression"],
+    "item_edn": [143, 187],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

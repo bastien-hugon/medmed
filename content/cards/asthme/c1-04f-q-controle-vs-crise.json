@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c1-q04f-controle-vs-crise",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient asthmatique vous dit : « Je vais bien docteur, ma Ventoline j'en prends seulement 4 ou 5 fois par semaine. » Comment interprétez-vous cette affirmation ?",
+  "choices": [
+    { "id": "a", "text": "Excellent contrôle, on peut diminuer le traitement de fond.", "correct": false },
+    { "id": "b", "text": "Asthme NON contrôlé : ≥ 3 jours/sem de reliever dépasse le seuil NG245, il faut escalader.", "correct": true },
+    { "id": "c", "text": "Pas d'asthme du tout : 4-5 bouffées/sem est insignifiant.", "correct": false },
+    { "id": "d", "text": "On change pour du SABA seul, plus simple.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Piège classique : le patient se sent bien parce qu'il a son reliever pour se rattraper. Mais 4-5 j/sem >>> 3 j/sem = seuil NG245 du non-contrôle. Réflexe : féliciter la prise du spray, MAIS expliquer que c'est un signal d'alarme. Avant d'escalader → vérifier adhésion, technique, environnement, diag différentiel. (d) SABA seul = banni NG245.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

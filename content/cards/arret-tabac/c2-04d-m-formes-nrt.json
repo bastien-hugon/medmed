@@ -1,0 +1,30 @@
+{
+  "id": "arret-tabac-c2-m04d-formes-nrt",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les formes de substituts nicotiniques (NRT) disponibles en France.",
+  "choices": [
+    {"id": "a", "text": "Timbre transdermique (patch) 24 h", "correct": true},
+    {"id": "b", "text": "Gomme à mâcher (2 mg ou 4 mg)", "correct": true},
+    {"id": "c", "text": "Pastille ou comprimé sublingual", "correct": true},
+    {"id": "d", "text": "Inhalateur de nicotine", "correct": true},
+    {"id": "e", "text": "Spray buccal (vaporisateur)", "correct": true},
+    {"id": "f", "text": "Suppositoire de nicotine", "correct": false},
+    {"id": "g", "text": "Solution injectable IV de nicotine", "correct": false},
+    {"id": "h", "text": "Collyre de nicotine", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Formes commercialisées : (1) timbre 24 h — diffusion lente, fond du traitement, (2-5) formes rapides — gomme, pastille/comprimé sublingual, inhalateur, spray buccal/nasal — pour les envies. Combo recommandé : timbre + forme rapide. Les suppositoires, injectables et collyres N'EXISTENT PAS (pas d'intérêt thérapeutique, voies inadaptées).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

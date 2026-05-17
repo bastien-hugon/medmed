@@ -1,0 +1,26 @@
+{
+  "id": "saos-c1-07b-q-collapsus-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi le pharynx se collabe-t-il pendant le sommeil chez certains patients alors qu'il reste ouvert le jour ?",
+  "choices": [
+    {"id": "a", "text": "Parce que le diaphragme s'arrête de fonctionner pendant le sommeil", "correct": false},
+    {"id": "b", "text": "Parce que le tonus des muscles dilatateurs du pharynx diminue physiologiquement pendant le sommeil", "correct": true},
+    {"id": "c", "text": "Parce que le pharynx se remplit de sécrétions pendant la nuit", "correct": false},
+    {"id": "d", "text": "Parce que le cœur ralentit et ne perfuse plus correctement les muscles respiratoires", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le pharynx est un tube mou maintenu ouvert par le tonus des muscles dilatateurs (génioglosse notamment). Le jour, ce tonus est suffisant. La nuit — surtout en sommeil profond et paradoxal — le tonus musculaire DIMINUE physiologiquement chez tout le monde. Chez les sujets à risque (anatomie défavorable, obésité, alcool), cette baisse de tonus suffit à faire collaber un pharynx déjà à la limite. C'est un phénomène mécanique pur — le diaphragme et le cœur fonctionnent normalement, l'obstruction est purement haute (VAS).",
+  "tags": {
+    "system": ["pneumologie", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

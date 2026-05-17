@@ -1,0 +1,20 @@
+{
+  "id": "ist-c2-c09c-retest-3-mois-cloze",
+  "kind": "cloze",
+  "prompt": "Après traitement d'une chlamydia, tous les patients (H et F) doivent bénéficier d'un retest par ___ environ ___ mois plus tard, indépendamment du statut du ___ . La majorité des infections détectées dans les mois qui suivent sont des ___ (et non des échecs thérapeutiques).",
+  "expected": ["NAAT", "3", "partenaire", "réinfections"],
+  "rationale": "Retest à 3 mois post-TT : NAAT chlamydia, indépendamment du statut du partenaire. Logique : la doxycycline 7 j est très efficace (> 95 %), donc les recontaminations expliquent la majorité des cas positifs dans les mois suivants — pas un échec thérapeutique. Ne pas confondre RÉINFECTION (nouveau contact contaminant) et ÉCHEC (traitement insuffisant) : la conduite est différente (TT + éducation vs investigation observance/résistance).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

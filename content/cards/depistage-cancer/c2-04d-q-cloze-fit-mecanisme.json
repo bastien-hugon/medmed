@@ -1,0 +1,20 @@
+{
+  "id": "depistage-cancer-c2-q04d-cloze-fit-mecanisme",
+  "kind": "cloze",
+  "prompt": "Le test FIT repose sur des ___ dirigés spécifiquement contre l'___ humaine. Contrairement à l'ancien test au gaïac, il NE nécessite PAS de ___ alimentaire préalable. Le taux de FIT positifs en population générale est d'environ ___ %.",
+  "expected": ["anticorps", "hémoglobine", "régime", "4"],
+  "rationale": "FIT = immunologique = anticorps spécifiques de l'Hb humaine. Donc pas de réaction croisée avec la viande de bœuf, ni avec certaines peroxydases végétales (qui faisaient les faux positifs de l'ancien Hemoccult au gaïac). D'où l'absence de restriction alimentaire — un grand bénéfice d'adhésion. Le taux de positivité ≈ 4 % en population générale signifie : sur 100 tests faits, 4 personnes seront adressées en coloscopie. Et parmi ces 4, environ la moitié auront une coloscopie 'normale' (vrai filtrage, mais coût de l'angoisse à gérer en consultation).",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://en.wikipedia.org/wiki/Fecal_immunochemical_test",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

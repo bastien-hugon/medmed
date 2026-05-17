@@ -1,0 +1,28 @@
+{
+  "id": "gyneco-prevention-c2-m02d-tev-signes-urgence",
+  "kind": "qcm-multi",
+  "prompt": "Une femme sous pilule œstro-progestative doit consulter en URGENCE devant lequel/lesquels de ces signes ? (Cochez tout ce qui s'applique.)",
+  "choices": [
+    { "id": "a", "text": "Mollet brutalement douloureux, chaud et plus volumineux que l'autre", "correct": true },
+    { "id": "b", "text": "Douleur thoracique soudaine + essoufflement / dyspnée", "correct": true },
+    { "id": "c", "text": "Hémoptysie (crachat sanglant) inexpliquée", "correct": true },
+    { "id": "d", "text": "Quelques spotting au 5e jour de la plaquette", "correct": false },
+    { "id": "e", "text": "Légère prise de poids (1 kg en 3 mois)", "correct": false },
+    { "id": "f", "text": "Tension dans les seins en début de plaquette", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Signes d'URGENCE sous œstro-progestatifs (= jusqu'à preuve du contraire = TVP ou EP) : mollet douloureux/chaud/gonflé (TVP), douleur thoracique soudaine + dyspnée (EP), hémoptysie (EP). Imposent un appel urgent au 15 ou une consultation immédiate (écho-doppler, angio-scanner). Spotting, prise de poids modeste et tension mammaire sont des effets secondaires courants et bénins.",
+  "tags": {
+    "system": ["gynecologie-urologie", "cardiovasculaire"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 226],
+    "cnge_family": ["prevention", "urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

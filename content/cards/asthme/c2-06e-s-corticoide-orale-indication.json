@@ -1,0 +1,22 @@
+{
+  "id": "asthme-c2-s06-corticoide-orale-indication",
+  "kind": "sct",
+  "prompt": "Une asthmatique de 28 ans vous appelle : depuis 2 jours, dyspnée importante au moindre effort, DEP à 40 % de sa meilleure valeur, salbutamol pris 6 fois aujourd'hui avec peu d'amélioration.",
+  "hypothesis": "Mon hypothèse : il faut prescrire une cure de prednisolone orale (corticothérapie orale courte) en plus du plan d'action.",
+  "new_info": "L'examen clinique retrouve : FC 118, FR 26, SpO2 92 % en air ambiant, patiente capable de parler en phrases courtes.",
+  "expected": "renforce",
+  "rationale": "Tableau d'exacerbation SÉVÈRE : DEP < 50 % du meilleur, réponse insuffisante au reliever, tachycardie, polypnée, SpO2 limite. → Indication formelle de CSI ORALE (prednisolone 40-50 mg/j × 5-7 j chez l'adulte) en plus du quadruplage de l'ICS et du salbutamol nébulisé. Au-delà, vérifier la nécessité d'hospitaliser (SpO2 < 92 %, difficulté à parler, FC > 120 → urgences).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188, 359],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "vaccination-adulte-c2-m03b-pneumo-schema-actuel",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant le schéma actuel (2025) de vaccination antipneumococcique chez l'adulte non encore vacciné en France.",
+  "choices": [
+    {"id": "a", "text": "Le schéma de référence est UNE dose unique de VPC20 (Prevenar 20).", "correct": true},
+    {"id": "b", "text": "Le schéma de référence peut aussi être UNE dose de VPC21 (Capvaxive).", "correct": true},
+    {"id": "c", "text": "Le schéma de référence est PCV13 suivi de PPV23 à 8 semaines d'intervalle.", "correct": false},
+    {"id": "d", "text": "La nécessité d'un rappel après VPC20/VPC21 n'est pas établie aujourd'hui.", "correct": true},
+    {"id": "e", "text": "VPC = Vaccin Pneumococcique Conjugué.", "correct": true},
+    {"id": "f", "text": "Il faut systématiquement refaire un schéma PPV23 tous les 5 ans après la primovaccination.", "correct": false}
+  ],
+  "expected": ["a", "b", "d", "e"],
+  "rationale": "Calendrier 2025 : DOSE UNIQUE de VPC20 (Prevenar 20) ou VPC21 (Capvaxive). Le schéma séquentiel historique PCV13→PPV23 à 8 semaines n'est plus la référence chez l'adulte non encore vacciné. La répétition tous les 5 ans du PPV23 n'est plus recommandée. VPC = Vaccin Pneumococcique Conjugué ; le chiffre = nombre de sérotypes couverts. Avantages des conjugués 20/21 : mémoire immunitaire de qualité, plus large couverture sérotypique adulte, schéma simplifié.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "pneumocoque"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/Infections-a-pneumocoque",
+    "version": "consulté en 2026-05",
+    "note": "Calendrier vaccinal 2024-2025 : adulte = dose unique VPC20 ou VPC21."
+  },
+  "status": "active"
+}

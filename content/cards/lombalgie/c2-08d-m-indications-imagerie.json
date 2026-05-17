@@ -1,0 +1,30 @@
+{
+  "id": "lombalgie-c2-m08-indications-imagerie",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les situations qui justifient une imagerie rachidienne devant une lombalgie (HAS 2019 / NICE NG59).",
+  "choices": [
+    { "id": "a", "text": "Présence d'un drapeau rouge (cancer, infection, fracture suspectée)", "correct": true },
+    { "id": "b", "text": "Syndrome de la queue de cheval suspecté", "correct": true },
+    { "id": "c", "text": "Lombalgie chronique > 3 mois sans amélioration", "correct": true },
+    { "id": "d", "text": "Déficit neurologique d'apparition récente ou progressif", "correct": true },
+    { "id": "e", "text": "Bilan préalable à une infiltration épidurale ou à une chirurgie", "correct": true },
+    { "id": "f", "text": "Lombalgie aiguë mécanique simple < 4-6 semaines, sans drapeau rouge", "correct": false },
+    { "id": "g", "text": "Demande répétée du patient malgré explication, en l'absence de drapeau rouge", "correct": false },
+    { "id": "h", "text": "Renouvellement systématique annuel d'IRM en l'absence de modification clinique", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Indications légitimes : drapeau rouge, queue de cheval, chronicité > 3 mois, déficit neurologique nouveau, bilan préopératoire/préinfiltratoire. À l'inverse : pas d'imagerie en lombalgie aiguë mécanique non compliquée, et pas de renouvellement systématique d'imagerie chez le chronique stable. Céder à la demande répétée du patient sans indication est délétère (sur-diagnostic, anxiété).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "imagerie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

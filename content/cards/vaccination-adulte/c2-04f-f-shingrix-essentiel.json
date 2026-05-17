@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-f04-shingrix-essentiel",
+  "kind": "free-recall",
+  "prompt": "Pour le vaccin Shingrix (zona), cite : son TYPE, ses deux POPULATIONS-cibles principales, et son SCHÉMA en France.",
+  "expected": ["recombinant adjuvanté", "≥ 65 ans", "immunodéprimés ≥ 18 ans", "2 doses M0-M2"],
+  "rationale": "TYPE : recombinant adjuvanté (NON vivant — gE de VZV + adjuvant AS01B). CIBLES : (1) ≥ 65 ans universellement ; (2) immunodéprimés ≥ 18 ans. SCHÉMA : 2 doses à 2 mois d'intervalle (M0-M2). Mnémo : « Shingles → 2 doses, 2 mois, ≥ 65 ou immunodéprimé ≥ 18 ». Efficacité ~90 % sur le zona et les algies post-zostériennes, durable.",
+  "tags": {
+    "system": ["infectieux", "prevention", "dermatologie"],
+    "sdd": ["vaccination", "zona"],
+    "item_edn": [143, 167],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/Zona",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

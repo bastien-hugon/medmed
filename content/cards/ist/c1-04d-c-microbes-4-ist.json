@@ -1,0 +1,20 @@
+{
+  "id": "ist-c1-c04d-microbes-4-ist",
+  "kind": "cloze",
+  "prompt": "Associez chacune des 4 IST à son type de microbe. Chlamydia : ___ (bactérie/virus). Gonocoque : ___. Syphilis : ___. VIH : ___.",
+  "expected": ["bactérie", "bactérie", "bactérie", "virus"],
+  "rationale": "Les 3 premières (chlamydia, gonocoque, syphilis) sont des BACTÉRIES (donc traitement antibiotique, guérison possible). Le VIH est un VIRUS (donc traitement antirétroviral à vie, pas de guérison mais contrôle complet I=I). Cette distinction conditionne la stratégie : antibiothérapie courte vs traitement viral chronique.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

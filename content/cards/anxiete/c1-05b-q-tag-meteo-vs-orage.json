@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q05b-tag-meteo-vs-orage",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle métaphore décrit le MIEUX le TAG par opposition à l'attaque de panique ?",
+  "choices": [
+    { "id": "a", "text": "TAG = orage soudain ; attaque de panique = fond de pluie continue", "correct": false },
+    { "id": "b", "text": "TAG = fond grisâtre permanent (météo) ; attaque de panique = pic bref et violent (orage)", "correct": true },
+    { "id": "c", "text": "TAG = anxiété face à un objet précis ; panique = anxiété généralisée", "correct": false },
+    { "id": "d", "text": "TAG = symptômes seulement physiques ; panique = symptômes seulement psychiques", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Image-clé à retenir : TAG = la 'météo' (bruit de fond continu d'inquiétude, sur des sujets multiples, pendant des mois). Attaque de panique = 'l'orage' (pic intense en quelques minutes puis retombe). Les deux peuvent coexister chez le même patient (TAG + attaques de panique surajoutées). À noter : la phobie spécifique correspondrait plutôt au choix c (anxiété focale sur un objet).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

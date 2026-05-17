@@ -1,0 +1,22 @@
+{
+  "id": "irc-c2-s04-iec-stenose",
+  "kind": "sct",
+  "prompt": "Vous initiez un ramipril 2,5 mg chez M. S., 72 ans, MRC G3a A2, HTA. Vous estimez l'introduction sûre et la hausse attendue de créat sera < 30 %.",
+  "hypothesis": "L'initiation du ramipril est sûre et la créatinine ne devrait pas monter de plus de 30 %.",
+  "new_info": "Le contrôle à 14 jours montre une créat passée de 110 à 195 µmol/L (+77 %) et une PA effondrée à 95/55. L'auscultation abdominale révèle un souffle latéro-ombilical droit.",
+  "expected": "affaiblit",
+  "rationale": "Hausse de créat > 30 % + souffle abdominal + hypotension marquée à l'introduction = forte suspicion de STÉNOSE BILATÉRALE ou unilatérale sur rein unique des artères rénales. Chez ces patients, l'IEC/ARA2 supprime brutalement le seul mécanisme de maintien de la filtration glomérulaire (vasoconstriction efférente compensatrice). L'information affaiblit donc clairement l'hypothèse 'introduction sûre'. Conduite : arrêter l'IEC, hydrater, demander un Doppler des artères rénales, avis néphrologue. Cas classique mais à connaître absolument car évitable si on contrôle bien créat + K+ à 14 jours.",
+  "tags": {
+    "system": ["nephrologie", "cardiovasculaire"],
+    "sdd": ["irc", "mrc", "iatrogenie"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques", "urgences"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

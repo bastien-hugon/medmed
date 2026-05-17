@@ -1,0 +1,20 @@
+{
+  "id": "ist-c2-c01c-depistage-femme-cloze",
+  "kind": "cloze",
+  "prompt": "Recommandation phare : toute femme sexuellement active de moins de ___ ans doit être dépistée chaque ___ pour la chlamydia, par ___ (technique), idéalement sur ___ (type de prélèvement).",
+  "expected": ["25", "année", "NAAT", "auto-prélèvement vaginal"],
+  "rationale": "Femme < 25 ans sexuellement active = dépistage ANNUEL par NAAT, idéalement auto-prélèvement vaginal (CDC 2021). Le 1er jet d'urine est une alternative acceptable mais légèrement moins sensible. Indépendant des symptômes. Au-delà de 25 ans : dépistage selon facteurs de risque (nouveau partenaire, partenaires multiples, partenaire à risque).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

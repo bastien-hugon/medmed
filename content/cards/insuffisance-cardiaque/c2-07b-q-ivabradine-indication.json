@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q07b-ivabradine-indication",
+  "kind": "qcm-vignette",
+  "prompt": "Dans quelle situation NICE NG106 recommande-t-il l'ivabradine en addition aux 4 piliers ICFEr ?",
+  "choices": [
+    { "id": "a", "text": "FEVG ≤ 35 %, rythme SINUSAL, FC > 70/min malgré béta-bloquant à dose max", "correct": true },
+    { "id": "b", "text": "Fibrillation auriculaire chronique", "correct": false },
+    { "id": "c", "text": "Bradycardie symptomatique", "correct": false },
+    { "id": "d", "text": "Première intention chez tout ICFEr nouvellement diagnostiqué", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Ivabradine (TA267, NICE) : FEVG ≤ 35 %, RYTHME SINUSAL (inefficace en FA), FC > 70/min malgré BB max toléré, NYHA II-IV. Action : ralentit le nœud sinusal (chronotrope négatif pur). Pas une 1ère intention — c'est une 3e ligne après optimisation des 4 piliers.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

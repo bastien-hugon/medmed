@@ -1,0 +1,20 @@
+{
+  "id": "hta-c2-f05-bilan-oms",
+  "kind": "free-recall",
+  "prompt": "Cite les 6 examens paracliniques obligatoires du bilan initial d'un patient nouvellement diagnostiqué hypertendu (bilan OMS / HAS).",
+  "expected": ["ionogramme sanguin (Na, K)", "créatinine plasmatique + estimation du DFG", "glycémie à jeun", "EAL (exploration d'une anomalie lipidique à jeun)", "protéinurie", "ECG de repos"],
+  "rationale": "Bilan OMS HAS = 6 examens à demander à TOUT nouveau hypertendu. Mnémo : 'Iono / créat / glycémie / EAL / protéinurie / ECG'. NON systématiques : échographie cardiaque, fond d'œil, doppler des troncs supra-aortiques. Ces examens supplémentaires se discutent en 2e intention selon le contexte (HVG à l'ECG, suspicion d'atteinte d'organe, haut risque CV).",
+  "tags": {
+    "system": ["cardiovasculaire", "rénal", "endocrinologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

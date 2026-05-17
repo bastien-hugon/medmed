@@ -1,0 +1,20 @@
+{
+  "id": "depression-c1-q02d-anhedonie-cloze",
+  "kind": "cloze",
+  "prompt": "La perte du plaisir et de l'intérêt pour les activités habituellement appréciées (\"plus rien ne me fait plaisir\") s'appelle l'___.",
+  "expected": ["anhédonie", "anhedonie"],
+  "rationale": "Anhédonie = an (privatif) + hédonè (plaisir, du grec). C'est l'un des 2 symptômes cardinaux de l'EDC. Souvent sous-diagnostiquée car le patient ne s'en plaint pas spontanément. Question-clé : \"Y a-t-il des choses qui vous faisaient plaisir avant et qui ne vous en font plus ?\"",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

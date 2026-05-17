@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c2-c01d-ntprobnp-seuils-cloze",
+  "kind": "cloze",
+  "prompt": "Selon NICE NG106 : NT-proBNP > ___ ng/L = référence URGENTE pour écho cardiaque dans les 2 semaines.",
+  "expected": ["2000"],
+  "rationale": "Seuil opérationnel d'urgence : 2000 ng/L (équivalent ~236 pmol/L). À retenir avec la stratification : < 400 (peu probable), 400-2000 (non urgent), > 2000 (urgent).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

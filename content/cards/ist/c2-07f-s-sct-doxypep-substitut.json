@@ -1,0 +1,22 @@
+{
+  "id": "ist-c2-s07f-sct-doxypep-substitut",
+  "kind": "sct",
+  "prompt": "Un HSH de 27 ans sous DoxyPEP régulière vous dit : 'Du coup je peux arrêter le préservatif définitivement.'",
+  "hypothesis": "La DoxyPEP est un substitut équivalent au préservatif.",
+  "new_info": "Vous lui expliquez que la DoxyPEP ne couvre que les IST bactériennes (chlamydia, syphilis, gonocoque limité) et pas VIH, HPV, HSV, hépatites.",
+  "expected": "affaiblit",
+  "rationale": "Erreur fréquente. La DoxyPEP est COMPLÉMENTAIRE et non SUBSTITUTIVE au préservatif. La nouvelle info AFFAIBLIT l'idée d'un substitut équivalent : la DoxyPEP laisse passer VIH, HPV, HSV, hépatites virales. Discussion à mener : maintien du préservatif, association PrEP VIH si à risque, vaccins HPV/HBV/HAV à jour, dépistage régulier (3-6 mois).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

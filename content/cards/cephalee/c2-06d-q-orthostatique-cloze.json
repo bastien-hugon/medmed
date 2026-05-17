@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q06d-orthostatique-cloze",
+  "kind": "cloze",
+  "prompt": "Une céphalée qui apparaît ou s'aggrave en position ___ et qui est soulagée par le ___ évoque une hypotension du ___ (souvent par brèche durale post-PL, mais possibles formes spontanées).",
+  "expected": ["debout", "décubitus", "LCR"],
+  "rationale": "Mécanisme : en orthostatisme, la fuite de LCR par la brèche entraîne une dépression intracrânienne → traction des méninges et des veines (qui sont innervées) → douleur. Le décubitus rééquilibre la pression et soulage. C'est très typique post-rachianesthésie/ponction lombaire — informer le patient des modalités préventives (alitement, hydratation) et thérapeutiques (blood patch si > 48-72 h).",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

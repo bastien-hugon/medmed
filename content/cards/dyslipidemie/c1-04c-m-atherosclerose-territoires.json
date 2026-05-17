@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c1-m04-atherosclerose-territoires",
+  "kind": "qcm-multi",
+  "prompt": "Cochez toutes les MANIFESTATIONS CLINIQUES typiques d'une athérosclérose avancée selon le territoire artériel atteint.",
+  "choices": [
+    { "id": "a", "text": "Angine de poitrine (atteinte des coronaires).", "correct": true },
+    { "id": "b", "text": "Infarctus du myocarde (atteinte des coronaires).", "correct": true },
+    { "id": "c", "text": "AVC ischémique ou AIT (atteinte des artères carotides / cérébrales).", "correct": true },
+    { "id": "d", "text": "Douleurs à la marche dans les mollets (claudication, AOMI).", "correct": true },
+    { "id": "e", "text": "Gastrite chronique.", "correct": false },
+    { "id": "f", "text": "Hépatite virale C.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "L'athérosclérose est une MALADIE SYSTÉMIQUE : elle touche plusieurs territoires artériels simultanément, d'où l'importance de chercher l'AOMI chez un coronarien et inversement. Les complications dépendent du territoire : coronaires → angor/infarctus ; carotides/cérébrales → AVC/AIT ; membres inférieurs → AOMI/claudication ; rénales → HTA réno-vasculaire. Pas de lien direct avec la gastrite ni l'hépatite C.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

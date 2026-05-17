@@ -1,0 +1,29 @@
+{
+  "id": "cephalee-c2-m04c-differentiels-thunderclap",
+  "kind": "qcm-multi",
+  "prompt": "Devant une céphalée 'en coup de tonnerre' (max < 5 min, sévère), cochez TOUS les diagnostics qu'il faut EXPLORER (et donc imager en urgence).",
+  "choices": [
+    { "id": "a", "text": "Hémorragie sous-arachnoïdienne (rupture d'anévrysme)", "correct": true },
+    { "id": "b", "text": "Thrombose veineuse cérébrale", "correct": true },
+    { "id": "c", "text": "Dissection des artères cervicales (carotide, vertébrale)", "correct": true },
+    { "id": "d", "text": "Syndrome de vasoconstriction cérébrale réversible (SVCR)", "correct": true },
+    { "id": "e", "text": "Apoplexie hypophysaire", "correct": true },
+    { "id": "f", "text": "AVC ischémique cérébelleux", "correct": true },
+    { "id": "g", "text": "Crise habituelle de migraine sans aura", "correct": false },
+    { "id": "h", "text": "Céphalée de tension classique", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Le 'thunderclap' n'est PAS un diagnostic mais un SYNDROME imposant un bilan. L'HSA reste la cause à éliminer en premier (mortalité ~ 30 %), mais les autres causes (TVC, dissection, SVCR, apoplexie hypophysaire, AVC cérébelleux) peuvent aussi se présenter ainsi. Migraine et tension n'ont JAMAIS un pic en quelques secondes — si elles paraissent thunderclap, c'est qu'on est passé à côté d'une cause secondaire.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "hsa"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ist-c1-m09b-modalites-chlamydia",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les modalités de prélèvement validées pour dépister la chlamydia par NAAT.",
+  "choices": [
+    { "id": "a", "text": "Auto-prélèvement vaginal (femme)", "correct": true },
+    { "id": "b", "text": "Prélèvement cervical par le clinicien (femme)", "correct": true },
+    { "id": "c", "text": "Premier jet d'urine (homme ou femme)", "correct": true },
+    { "id": "d", "text": "Écouvillon urétral (homme)", "correct": true },
+    { "id": "e", "text": "Écouvillon rectal (sites extragénitaux chez HSH)", "correct": true },
+    { "id": "f", "text": "Sérologie sanguine chlamydia (pour le dépistage de routine)", "correct": false },
+    { "id": "g", "text": "Hémoculture", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "5 modalités validées pour NAAT chlamydia : auto-prélèvement vaginal (PRÉFÉRÉ chez la femme, aussi performant qu'un prélèvement clinicien), prélèvement cervical, 1er jet d'urine (préféré chez l'homme), écouvillon urétral (homme), écouvillon rectal (HSH). La sérologie chlamydia n'a PAS sa place dans le dépistage de l'infection génitale standard — réservée à des indications très ciblées (LGV, atteintes invasives). L'hémoculture est inadaptée.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c1-c05-grippe-age",
+  "kind": "cloze",
+  "prompt": "Le vaccin antigrippal est recommandé systématiquement chez toutes les personnes de ___ ans et plus en France.",
+  "expected": ["65"],
+  "rationale": "65 ans est le seuil d'âge universel pour la vaccination antigrippale en France, indépendamment de toute comorbidité. En-dessous de 65 ans, c'est l'existence d'un facteur de risque (BPCO, diabète, IC, immunodépression, grossesse...) qui déclenche la recommandation. Le vaccin est inactivé, sans danger en grossesse et chez l'immunodéprimé — au contraire, c'est une INDICATION.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

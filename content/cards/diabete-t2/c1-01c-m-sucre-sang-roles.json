@@ -1,0 +1,27 @@
+{
+  "id": "diabete-t2-c1-m01-sucre-sang-roles",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les propositions exactes à propos du glucose sanguin.",
+  "choices": [
+    { "id": "a", "text": "C'est le carburant principal des cellules", "correct": true },
+    { "id": "b", "text": "Il provient de la digestion des aliments glucidiques", "correct": true },
+    { "id": "c", "text": "Il est synonyme de 'sucre sanguin'", "correct": true },
+    { "id": "d", "text": "Il transporte l'oxygène à la place de l'hémoglobine", "correct": false },
+    { "id": "e", "text": "Il est exclusivement produit par les reins", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Glucose = carburant universel des cellules, issu de la digestion des glucides (pain, pâtes, fruits, sucre), strictement synonyme de 'sucre sanguin' dans ce cours. L'oxygène est porté par l'hémoglobine, et le glucose vient de la digestion (ou de la néoglucogenèse hépatique, pas rénale).",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

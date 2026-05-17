@@ -1,0 +1,32 @@
+{
+  "id": "asthenie-c2-m04c-bilan-standard",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les examens biologiques qui font partie du BILAN DE 1ère INTENTION devant une asthénie sans orientation clinique.",
+  "choices": [
+    { "id": "a", "text": "NFS (numération formule sanguine).", "correct": true },
+    { "id": "b", "text": "Ferritine.", "correct": true },
+    { "id": "c", "text": "TSH.", "correct": true },
+    { "id": "d", "text": "Glycémie à jeun.", "correct": true },
+    { "id": "e", "text": "Créatinine.", "correct": true },
+    { "id": "f", "text": "Ionogramme sanguin (Na, K, Cl).", "correct": true },
+    { "id": "g", "text": "Bilan hépatique (transaminases, GGT, PAL).", "correct": true },
+    { "id": "h", "text": "VS et/ou CRP.", "correct": true },
+    { "id": "i", "text": "Sérologie VIH systématique.", "correct": false },
+    { "id": "j", "text": "Scanner thoraco-abdomino-pelvien.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g", "h"],
+  "rationale": "Pack standard à mémoriser : NFS + ferritine + VS/CRP + TSH + glycémie + ionogramme + créatinine + bilan hépatique. Une seule ordonnance, peu coûteuse, qui dépiste l'essentiel des causes organiques fréquentes. La sérologie VIH n'est pas systématique (à proposer en cas de facteurs de risque, ou en option de dépistage opportuniste). L'imagerie large n'a pas sa place sans signe d'orientation : faible rentabilité + risques de découverte fortuite.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

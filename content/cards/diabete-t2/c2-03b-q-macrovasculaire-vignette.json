@@ -1,0 +1,26 @@
+{
+  "id": "diabete-t2-c2-q10-macrovasculaire-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le mécanisme principal qui sous-tend les complications macrovasculaires (infarctus, AVC, AOMI) chez le diabétique ?",
+  "choices": [
+    { "id": "a", "text": "Une atteinte spécifique des grosses artères propre au diabète", "correct": false },
+    { "id": "b", "text": "Une athérosclérose accélérée par l'hyperglycémie chronique et les autres facteurs de risque CV associés", "correct": true },
+    { "id": "c", "text": "Une atteinte auto-immune des parois artérielles", "correct": false },
+    { "id": "d", "text": "Un dépôt direct de glucose dans la lumière des artères", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le diabète n'invente pas une maladie macrovasculaire 'spécifique' : il ACCÉLÈRE l'athérosclérose commune. Plaques d'athérome (cholestérol + cellules inflammatoires) qui rétrécissent puis bouchent les artères. C'est pour ça que la prise en charge est GLOBALE : glycémie + PA + LDL + arrêt du tabac (étude STENO-2). Pas de mécanisme spécifique a/c/d.",
+  "tags": {
+    "system": ["endocrinologie", "cardiovasculaire"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

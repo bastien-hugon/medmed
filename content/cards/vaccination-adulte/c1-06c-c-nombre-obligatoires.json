@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c1-c06-nombre-obligatoires",
+  "kind": "cloze",
+  "prompt": "Depuis 2018 en France, ___ vaccins sont obligatoires pour tous les enfants. Le trio le plus ancien (DTP) regroupe la diphtérie, le ___ et la poliomyélite.",
+  "expected": ["11", "tétanos"],
+  "rationale": "11 vaccins obligatoires : DTP (3) + coqueluche + Hib + hépatite B + pneumocoque + méningo C + ROR (3) = 3+1+1+1+1+1+3 = 11. Note : depuis 2025, le méningocoque C isolé est remplacé/complété par ACWY + B obligatoires chez le nourrisson — mais le « cadre des 11 » 2018 reste la référence historique. Mnémo : « DTP-Coqueluche-Hib-HBV-Pneumo-MéningoC-ROR ».",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

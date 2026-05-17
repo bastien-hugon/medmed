@@ -1,0 +1,20 @@
+{
+  "id": "hta-c1-c08-tensiometre-nom",
+  "kind": "cloze",
+  "prompt": "L'appareil utilisé pour mesurer la pression artérielle s'appelle un ___, et la partie gonflable qu'on enroule autour du bras s'appelle la ___ (ou brassard).",
+  "expected": ["tensiomètre", "manchette"],
+  "rationale": "Tensiomètre = nom officiel de l'appareil (synonyme savant : sphygmomanomètre). Manchette = la partie gonflable qu'on enroule autour du bras (synonyme : brassard). Le principe : on comprime l'artère humérale jusqu'à arrêter le flux, puis on dégonfle progressivement pour détecter le moment où le sang recommence à passer (systolique) et celui où le flux redevient continu (diastolique).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

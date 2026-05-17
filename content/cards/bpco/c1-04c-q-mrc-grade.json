@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q04c-mrc-grade",
+  "kind": "qcm-vignette",
+  "prompt": "M. P., 68 ans, BPCO connue, explique : 'sur le plat, je dois m'arrêter pour reprendre mon souffle après une centaine de mètres'. Quel grade MRC dyspnée ?",
+  "choices": [
+    { "id": "a", "text": "MRC 1", "correct": false },
+    { "id": "b", "text": "MRC 2", "correct": false },
+    { "id": "c", "text": "MRC 3", "correct": true },
+    { "id": "d", "text": "MRC 4", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "MRC 3 = s'arrête après ~100 m sur du plat pour souffler. Rappel : 0 jamais sauf gros effort, 1 essoufflé en côte rapide, 2 marche plus lentement sur du plat que les gens de son âge, 3 s'arrête à ~100 m, 4 trop essoufflé pour sortir ou s'habiller. Le grade 3 est le seuil à partir duquel on propose une RÉHABILITATION RESPIRATOIRE.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

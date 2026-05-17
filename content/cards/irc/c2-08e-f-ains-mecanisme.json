@@ -1,0 +1,27 @@
+{
+  "id": "irc-c2-f08-ains-mecanisme",
+  "kind": "free-recall",
+  "prompt": "Explique pourquoi les AINS sont néphrotoxiques chez le patient MRC, et propose une alternative pour une douleur aiguë.",
+  "expected": [
+    "mécanisme : blocage des prostaglandines (PGE2, PGI2) → vasoconstriction de l'artériole AFFÉRENTE du glomérule",
+    "conséquence : baisse de la pression de filtration → baisse du DFG (aigu, réversible) ou usure chronique (irréversible)",
+    "risque majoré : déshydratation, IEC/ARA2 associé, diurétique associé (triple whammy)",
+    "alternative pour douleur aiguë : paracétamol seul (1g x 3-4/j max, à adapter si DFG très bas)",
+    "alternatives non médicamenteuses : glace/chaud, kiné, repos, infiltration locale, antalgiques topiques sûrs",
+    "si paracétamol insuffisant : tramadol prudent, opioïde faible courte durée"
+  ],
+  "rationale": "Triple message : (1) AINS = vasoconstriction afférente ; (2) c'est aggravé par IEC/diurétique/déshydratation ; (3) la première alternative est le paracétamol. À enseigner systématiquement au patient MRC : 'pas d'AINS, jamais d'ibuprofène acheté en pharmacie sans m'en parler'.",
+  "tags": {
+    "system": ["nephrologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "iatrogenie"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

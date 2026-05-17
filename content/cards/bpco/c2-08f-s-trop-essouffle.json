@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c2-s08f-trop-essouffle",
+  "kind": "sct",
+  "prompt": "M. F., MRC 3, refuse la réhabilitation : 'je suis trop essoufflé pour faire du sport'.",
+  "hypothesis": "Mon hypothèse : il a raison, il vaut mieux ne pas l'envoyer en réhab tant qu'il est essoufflé.",
+  "new_info": "Les études (NICE NG115, revue Cochrane) montrent que la réhabilitation est PARTICULIÈREMENT bénéfique chez les patients essoufflés (MRC ≥ 3), et que les exercices y sont adaptés au niveau de chacun.",
+  "expected": "affaiblit",
+  "rationale": "C'est l'inverse de l'intuition du patient : c'est précisément PARCE QU'IL est essoufflé qu'il faut le mettre en réhab. Le cercle vicieux 'essoufflé → bouge moins → déconditionnement → encore plus essoufflé' se casse par un réentraînement progressif et encadré. Les preuves scientifiques affaiblissent nettement l'hypothèse 'trop essoufflé donc pas de réhab'. C'est un argument à donner explicitement au patient pour le convaincre. Logique SCT.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

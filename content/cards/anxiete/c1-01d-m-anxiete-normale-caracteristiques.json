@@ -1,0 +1,28 @@
+{
+  "id": "anxiete-c1-m01d-anxiete-normale-caracteristiques",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les caractéristiques d'une anxiété NORMALE (adaptative).",
+  "choices": [
+    { "id": "a", "text": "Proportionnée au danger perçu", "correct": true },
+    { "id": "b", "text": "Transitoire (passe une fois le danger écarté)", "correct": true },
+    { "id": "c", "text": "Souvent UTILE (pousse à se préparer, à éviter les risques)", "correct": true },
+    { "id": "d", "text": "Persiste pendant des mois sans cause identifiable", "correct": false },
+    { "id": "e", "text": "Empêche systématiquement de fonctionner au quotidien", "correct": false },
+    { "id": "f", "text": "Peut accompagner un examen ou une prise de parole en public", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "f"],
+  "rationale": "L'anxiété normale = PROPORTIONNÉE + TRANSITOIRE + UTILE. Elle accompagne des situations 'à enjeu' (examen, prise de parole, danger réel). Les choix d et e décrivent au contraire l'anxiété PATHOLOGIQUE (trépied disproportion-persistance-retentissement). Mnémo : si ça aide à agir et que ça se calme après → normal. Si ça pourrit la vie → trouble.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

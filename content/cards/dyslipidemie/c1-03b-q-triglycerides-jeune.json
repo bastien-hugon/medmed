@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c1-q03-triglycerides-jeune",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente vient faire son bilan lipidique 1 heure après le petit-déjeuner. Quel paramètre risque d'être faussement augmenté ?",
+  "choices": [
+    { "id": "a", "text": "Le HDL cholestérol.", "correct": false },
+    { "id": "b", "text": "Les triglycérides.", "correct": true },
+    { "id": "c", "text": "Le LDL cholestérol uniquement.", "correct": false },
+    { "id": "d", "text": "Aucun paramètre, le repas n'a pas d'effet sur l'EAL.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les TRIGLYCÉRIDES sont fortement influencés par les repas récents : ils peuvent doubler dans les heures qui suivent un repas, surtout riche en graisses. C'est pour cela qu'un jeûne de 12 heures est demandé pour un EAL complet. Le HDL et le cholestérol total sont peu modifiés. Le LDL, lui, est souvent CALCULÉ à partir des autres valeurs (formule de Friedewald) et devient ininterprétable si les TG sont >4 mmol/L.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

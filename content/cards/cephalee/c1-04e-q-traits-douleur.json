@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c1-q04e-traits-douleur",
+  "kind": "free-recall",
+  "prompt": "Énumérez les 4 caractéristiques typiques de la DOULEUR migraineuse (sans inclure les symptômes associés).",
+  "expected": ["unilatérale", "pulsatile", "modérée", "effort"],
+  "rationale": "Les 4 traits ICHD-3 'UPMA' pour la douleur migraineuse : Unilatérale, Pulsatile, Modérée à sévère, Aggravée par l'effort. Il en faut au moins 2 sur 4 pour le critère C. Les symptômes associés (nausée, photo/phono) sont un autre critère séparé (critère D, 1 sur 2).",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

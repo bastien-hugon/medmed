@@ -1,0 +1,29 @@
+{
+  "id": "bpco-c2-m06d-hospitalisation",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les critères qui font HOSPITALISER une exacerbation de BPCO (et donc ne pas la garder en ambulatoire).",
+  "choices": [
+    { "id": "a", "text": "Cyanose ou troubles de la conscience", "correct": true },
+    { "id": "b", "text": "Saturation < 90 % en air ambiant", "correct": true },
+    { "id": "c", "text": "Fréquence respiratoire > 25/min, tirage", "correct": true },
+    { "id": "d", "text": "Comorbidités lourdes décompensées (insuffisance cardiaque, etc.)", "correct": true },
+    { "id": "e", "text": "Échec d'un premier traitement ambulatoire bien conduit", "correct": true },
+    { "id": "f", "text": "Isolement social, terrain fragile", "correct": true },
+    { "id": "g", "text": "Crachats devenus purulents, sans autre signe de gravité, chez un patient stable", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Signes de gravité = hospit : hypoxémie (SpO2 < 90 %), polypnée/tirage, cyanose, troubles de conscience, comorbidités décompensées, échec ambulatoire, isolement. Une exacerbation modérée 'simple' (crachats purulents seuls, patient stable et autonome) peut être traitée en ville (prednisolone + amoxicilline si purulence + majoration des bronchodilatateurs).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

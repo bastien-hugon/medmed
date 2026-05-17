@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c2-s07-ror-decouvert-precoce",
+  "kind": "sct",
+  "prompt": "Une patiente reçoit une injection de ROR (vaccin vivant atténué) alors qu'elle ne savait pas qu'elle était enceinte de 4 SA. Vous envisagez d'envoyer immédiatement la patiente pour une interruption médicale de grossesse.",
+  "hypothesis": "Mon hypothèse : la situation justifie une IMG en urgence.",
+  "new_info": "Vous consultez le Centre de Référence sur les Agents Tératogènes (CRAT) : le risque malformatif réel après ROR en début de grossesse reste très faible et n'a jamais été démontré comme significatif chez l'humain.",
+  "expected": "affaiblit",
+  "rationale": "La CI ROR-grossesse est THÉORIQUE (vaccin vivant). En pratique humaine, aucune embryopathie n'a été décrite à grande échelle. Le CRAT rassure : pas d'IMG indiquée, simple surveillance attentive de la grossesse. L'info AFFAIBLIT FORTEMENT l'indication d'IMG. La conduite : explication, suivi obstétrical normal, traçabilité, déclaration au laboratoire et au CRAT. Idem pour les autres vaccins vivants par mégarde.",
+  "tags": {
+    "system": ["infectieux", "prevention", "gynecologie"],
+    "sdd": ["vaccination", "grossesse"],
+    "item_edn": [143, 26],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

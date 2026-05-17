@@ -1,0 +1,29 @@
+{
+  "id": "cephalee-c2-m02c-aura-criteres-c",
+  "kind": "qcm-multi",
+  "prompt": "Selon ICHD-3 (migraine avec aura), il faut au moins 3 des 6 caractéristiques du critère C. Cochez TOUTES les caractéristiques qui appartiennent à ce critère C.",
+  "choices": [
+    { "id": "a", "text": "Au moins un symptôme s'installe graduellement sur ≥ 5 min", "correct": true },
+    { "id": "b", "text": "Plusieurs symptômes d'aura se succèdent", "correct": true },
+    { "id": "c", "text": "Chaque symptôme d'aura dure 5 à 60 minutes", "correct": true },
+    { "id": "d", "text": "Au moins un symptôme est unilatéral", "correct": true },
+    { "id": "e", "text": "Au moins un symptôme est positif (scintillement, fourmillement)", "correct": true },
+    { "id": "f", "text": "L'aura est accompagnée ou suivie dans les 60 min d'une céphalée", "correct": true },
+    { "id": "g", "text": "Présence d'une faiblesse motrice marquée", "correct": false },
+    { "id": "h", "text": "Trouble de conscience > 30 min", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Les 6 caractéristiques de C (il en faut ≥ 3) explorent la CINÉTIQUE typique : installation graduelle, succession, durée 5-60 min, latéralisation, symptômes positifs, couplage avec la céphalée. Faiblesse motrice et trouble de conscience NE font PAS partie des critères de l'aura typique — ce sont des symptômes ATYPIQUES qui doivent orienter vers la migraine hémiplégique (entité à part) ou un AIT/AVC.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

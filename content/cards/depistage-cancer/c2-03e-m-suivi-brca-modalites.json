@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c2-m03e-suivi-brca-modalites",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les modalités VRAIES du suivi mammaire d'une femme porteuse d'une mutation BRCA1 ou BRCA2.",
+  "choices": [
+    { "id": "a", "text": "Surveillance commencée dès 30 ans environ (parfois plus tôt)", "correct": true },
+    { "id": "b", "text": "IRM mammaire annuelle, examen central du suivi", "correct": true },
+    { "id": "c", "text": "Mammographie + échographie en complément, souvent décalées de 6 mois", "correct": true },
+    { "id": "d", "text": "Discussion d'une chirurgie prophylactique (mastectomie / annexectomie) au cas par cas", "correct": true },
+    { "id": "e", "text": "Suivi intégré au programme de dépistage organisé classique (50-74 ans)", "correct": false },
+    { "id": "f", "text": "Pas de surveillance avant 50 ans", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Suivi BRCA = SUR MESURE et PRÉCOCE. Démarrage vers 30 ans (a), IRM annuelle comme pivot (b — plus sensible que la mammo dans les seins denses jeunes), complétée par mammo + écho éventuellement décalées (c — pour densifier la surveillance dans l'année). La chirurgie prophylactique (d) se discute en consultation dédiée. Ces patientes sortent du programme organisé (e faux : trop tardif et inadapté) et n'attendent surtout pas 50 ans (f faux : les cancers BRCA surviennent souvent dans la trentaine/quarantaine).",
+  "tags": {
+    "system": ["oncologie", "prevention", "genetique"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/G%C3%A8nes_BRCA",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

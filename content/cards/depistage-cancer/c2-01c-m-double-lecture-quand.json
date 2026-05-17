@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c2-m01c-double-lecture-quand",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la DOUBLE LECTURE de la mammographie de dépistage en France.",
+  "choices": [
+    { "id": "a", "text": "Elle concerne uniquement les mammographies classées normales (ACR 1) ou bénignes (ACR 2) en première lecture", "correct": true },
+    { "id": "b", "text": "Le second radiologue lit en aveugle, sans accès au compte-rendu du premier", "correct": true },
+    { "id": "c", "text": "Elle s'applique à toutes les mammographies, y compris celles classées suspectes (ACR 4-5)", "correct": false },
+    { "id": "d", "text": "Elle diminue d'environ 6 à 10 % les cancers manqués", "correct": true },
+    { "id": "e", "text": "C'est une particularité française du dépistage organisé, peu pratiquée à l'étranger", "correct": true },
+    { "id": "f", "text": "Elle est facturée en supplément à la patiente", "correct": false }
+  ],
+  "expected": ["a", "b", "d", "e"],
+  "rationale": "Double lecture = mammographies NORMALES (ou bénignes) UNIQUEMENT (a). Pourquoi ? Parce qu'une mammographie déjà classée suspecte (ACR 4-5) déclenche immédiatement les examens complémentaires (biopsie, écho) — pas besoin d'attendre une 2ᵉ lecture, la décision est prise. La 2ᵉ lecture en aveugle (b) corrige une partie des 'misses' d'interprétation (d). C'est une spécificité française historique du programme organisé (e). Et elle est totalement gratuite (f faux) — incluse dans le programme.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

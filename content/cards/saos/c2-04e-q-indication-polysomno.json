@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-04e-q-indication-polysomno",
+  "kind": "qcm-vignette",
+  "prompt": "Patient à forte suspicion clinique de SAOS, mais sa polygraphie ventilatoire ambulatoire revient avec un IAH à 4/h (sous le seuil pathologique). Que proposer ensuite ?",
+  "choices": [
+    {"id": "a", "text": "Rassurer le patient, le SAOS est exclu", "correct": false},
+    {"id": "b", "text": "Refaire une polygraphie 6 mois plus tard", "correct": false},
+    {"id": "c", "text": "Demander une polysomnographie pour lever la discordance", "correct": true},
+    {"id": "d", "text": "Débuter directement une CPAP", "correct": false}
+  ],
+  "expected": ["c"],
+  "rationale": "Une polygraphie NÉGATIVE chez un patient à forte suspicion clinique de SAOS doit faire évoquer une discordance. C'est typiquement l'indication d'une POLYSOMNOGRAPHIE (2ème intention) : examen plus complet en laboratoire, qui mesure le sommeil réel via l'EEG. Souvent dans ce cas, l'IAH 'apparent' de la polygraphie est sous-estimé parce que le patient a peu dormi (le calcul est dilué par les heures d'éveil au lit). La polysomno permet aussi d'identifier d'autres troubles (RERA, jambes sans repos, narcolepsie).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

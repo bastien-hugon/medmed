@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-q06-sglt2-place",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la place des SGLT2-i (dapagliflozine, empagliflozine) dans la prise en charge de la MRC selon NICE NG203 ?",
+  "choices": [
+    { "id": "a", "text": "Ils remplacent les IEC/ARA2 dans la néphroprotection", "correct": false },
+    { "id": "b", "text": "Ils s'AJOUTENT à un IEC/ARA2 déjà à dose maximale tolérée chez des patients à risque", "correct": true },
+    { "id": "c", "text": "Ils ne sont indiqués que chez les diabétiques", "correct": false },
+    { "id": "d", "text": "Ils sont contre-indiqués chez tous les patients avec MRC", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les SGLT2-i sont des médicaments d'AJOUT, pas de remplacement. Séquence : (1) optimiser PA + IEC/ARA2 à dose maximale tolérée ; (2) ajouter SGLT2-i si MRC évolutive ou si diabète T2 avec ACR augmenté. Indication aussi chez non-diabétiques (essais EMPA-KIDNEY, DAPA-CKD ont montré bénéfice indépendant du diabète) sous réserve du DFG dans la fourchette d'AMM.",
+  "tags": {
+    "system": ["nephrologie", "endocrinologie"],
+    "sdd": ["irc", "mrc", "diabete"],
+    "item_edn": [261, 264, 245],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "anxiete-c1-q03c-hormones-sympathique",
+  "kind": "cloze",
+  "prompt": "Les deux hormones libérées par le système sympathique en réaction de 'fight or flight' sont l'adrénaline et la ___.",
+  "expected": ["noradrénaline", "noradrenaline"],
+  "rationale": "Adrénaline (épinéphrine) et noradrénaline (norépinéphrine) sont les deux catécholamines libérées par la médullosurrénale et les terminaisons sympathiques. Elles préparent le corps à combattre/fuir : tachycardie, vasoconstriction, bronchodilatation, mydriase, mobilisation du glucose. Ce sont aussi des cibles thérapeutiques (bêta-bloquants pour les symptômes physiques d'anxiété — usage spécifique, pas en première intention NICE).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

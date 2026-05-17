@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q05c-diu-lng-regles",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est l'effet typique du DIU HORMONAL (lévonorgestrel) sur les règles ?",
+  "choices": [
+    { "id": "a", "text": "Les règles deviennent plus abondantes et plus longues.", "correct": false },
+    { "id": "b", "text": "L'abondance et la durée des règles DIMINUENT (souvent jusqu'à l'aménorrhée chez certaines patientes), les douleurs aussi.", "correct": true },
+    { "id": "c", "text": "Pas d'effet sur les règles.", "correct": false },
+    { "id": "d", "text": "Apparition systématique de saignements continus permanents.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "DIU hormonal = atrophie progressive de l'endomètre par le LNG local → règles + courtes, + légères, parfois aménorrhée. C'est même un traitement reconnu (hors contraception) des MÉNORRAGIES FONCTIONNELLES et de l'endométriose. Effet INVERSE du DIU cuivre. Les premiers 3-6 mois : saignements irréguliers / spotting fréquents (à annoncer), puis stabilisation avec règles diminuées.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

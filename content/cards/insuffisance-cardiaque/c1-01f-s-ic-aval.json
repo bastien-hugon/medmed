@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c1-s01-ic-aval",
+  "kind": "sct",
+  "prompt": "Hypothèse : insuffisance cardiaque chez un patient de 70 ans. Information nouvelle : il se plaint de jambes lourdes à l'effort et d'une fatigue inhabituelle depuis 2 mois, avec sensation de tête vide en montant des escaliers. Comment cette info modifie-t-elle la suspicion ?",
+  "hypothesis": "Insuffisance cardiaque chez un patient de 70 ans avec dyspnée et œdèmes",
+  "new_info": "Fatigue d'effort + lourdeur des jambes + sensation de tête vide à l'effort depuis 2 mois",
+  "expected": "renforce",
+  "rationale": "La triade dyspnée + œdèmes + fatigue est très évocatrice. La fatigue et la 'tête vide' à l'effort traduisent un débit cardiaque insuffisant en AVAL : muscles et cerveau sont sous-perfusés à l'effort. Combinés aux signes congestifs en amont, ils renforcent fortement la suspicion d'IC.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

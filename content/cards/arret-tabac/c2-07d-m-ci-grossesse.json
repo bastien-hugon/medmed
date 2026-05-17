@@ -1,0 +1,28 @@
+{
+  "id": "arret-tabac-c2-m07d-ci-grossesse",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les traitements du sevrage tabagique qui sont CONTRE-INDIQUÉS pendant la grossesse.",
+  "choices": [
+    {"id": "a", "text": "Varénicline (Champix®)", "correct": true},
+    {"id": "b", "text": "Bupropion (Zyban®)", "correct": true},
+    {"id": "c", "text": "Cigarette électronique (vapoteuse) — non recommandée par défaut de données", "correct": true},
+    {"id": "d", "text": "Substituts nicotiniques (NRT) — patch, gomme, pastille", "correct": false},
+    {"id": "e", "text": "Entretien motivationnel et TCC", "correct": false},
+    {"id": "f", "text": "Mesure du CO expiré au cabinet", "correct": false}
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "CI grossesse : VARÉNICLINE et BUPROPION (médicaments oraux). La cigarette électronique n'est pas recommandée (recul insuffisant, non validée). AUTORISÉS : entretien motivationnel et TCC (1ère intention), substituts nicotiniques en cas d'échec de l'approche non-médicamenteuse (préférer formes orales). La mesure du CO expiré est un outil de monitoring, jamais une CI. Mnémo : 'PENDANT GROSSESSE → MOT, GESTE, PATCH ; jamais varénicline ni bupropion.'",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie", "gynecologie", "obstetrique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

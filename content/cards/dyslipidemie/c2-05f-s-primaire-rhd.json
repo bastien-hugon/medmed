@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c2-s05-primaire-rhd",
+  "kind": "sct",
+  "prompt": "Un patient de 55 ans a un QRISK3 à 8 %. Vous décidez d'attendre 6 mois après mise en place des RHD avant de discuter à nouveau la statine.",
+  "hypothesis": "Cette approche prudente (RHD d'abord) est justifiée.",
+  "new_info": "Le patient n'a aucun signe de hypercholestérolémie sévère (LDL = 4,2 mmol/L, pas d'antécédent familial préoccupant) et adhère bien aux conseils diététiques.",
+  "expected": "renforce",
+  "rationale": "Cette information RENFORCE l'hypothèse : à 8 % (en dessous du seuil NICE de 10 %), la statine n'est PAS automatiquement indiquée. L'absence de critères 'd'urgence' (LDL <4,9 mmol/L, pas d'hypercholestérolémie familiale) et une bonne adhésion aux RHD permettent une approche prudente. Les RHD peuvent réduire le risque CV de 15-30 %. Ré-évaluation à 6-12 mois avec nouveau dosage : décision conjointe avec le patient ensuite.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q01c-bronchodilatateur-utilise",
+  "kind": "qcm-vignette",
+  "prompt": "Pour faire le test de réversibilité lors d'une spirométrie, on administre habituellement quel bronchodilatateur, et on attend combien de temps avant de remesurer ?",
+  "choices": [
+    { "id": "a", "text": "Prednisolone per os, attendre 24h", "correct": false },
+    { "id": "b", "text": "Salbutamol inhalé (4 bouffées), attendre ~15 min", "correct": true },
+    { "id": "c", "text": "Adrénaline IV, attendre 5 min", "correct": false },
+    { "id": "d", "text": "Tiotropium inhalé, attendre 24h", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Protocole standard : SABA (typiquement salbutamol) 4 bouffées via chambre d'inhalation, puis attendre 15-20 minutes que le pic d'effet soit atteint, puis remesurer le VEMS et la CVF. La prednisolone (corticoïde) sert au test thérapeutique d'asthme, pas au test de réversibilité immédiate. L'adrénaline IV n'a pas sa place ici.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

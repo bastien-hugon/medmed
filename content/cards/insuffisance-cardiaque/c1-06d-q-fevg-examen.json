@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q06d-fevg-examen",
+  "kind": "qcm-vignette",
+  "prompt": "Quel examen mesure principalement la FEVG en pratique courante ?",
+  "choices": [
+    { "id": "a", "text": "ECG 12 dérivations", "correct": false },
+    { "id": "b", "text": "Échographie cardiaque transthoracique (ETT)", "correct": true },
+    { "id": "c", "text": "Dosage du NT-proBNP", "correct": false },
+    { "id": "d", "text": "Radiographie thoracique de face", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'ETT est l'examen-clé de l'IC : non invasive, sans irradiation, accessible. Elle mesure la FEVG, évalue valves, cavités, pression pulmonaire. L'ECG et la RX donnent des informations complémentaires mais ne mesurent PAS la FEVG. Le NT-proBNP est un marqueur biologique de tri, pas une mesure structurelle.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

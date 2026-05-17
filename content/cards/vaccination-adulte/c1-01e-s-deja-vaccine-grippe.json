@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c1-s01-deja-vaccine-grippe",
+  "kind": "sct",
+  "prompt": "Un homme de 70 ans, BPCO, vous dit : « je suis bien protégé contre la grippe, j'ai été vacciné l'an dernier ».",
+  "hypothesis": "Mon hypothèse : il est encore protégé efficacement cette saison-ci et n'a pas besoin d'un nouveau vaccin.",
+  "new_info": "Vous lui rappelez que le virus de la grippe mute chaque année et que la formulation vaccinale est réadaptée à chaque saison.",
+  "expected": "affaiblit",
+  "rationale": "Le virus grippal a une dérive antigénique permanente : la mémoire immunitaire de l'an dernier ne couvre plus les souches circulantes cette année. C'est pourquoi le vaccin antigrippal est ANNUEL. L'information AFFAIBLIT l'hypothèse de protection persistante. Conséquence : il faut revacciner chaque saison, idéalement octobre-novembre.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

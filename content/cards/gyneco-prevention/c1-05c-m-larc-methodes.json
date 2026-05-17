@@ -1,0 +1,28 @@
+{
+  "id": "gyneco-prevention-c1-m05c-larc-methodes",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les méthodes contraceptives qui sont des LARC (Long-Acting Reversible Contraception).",
+  "choices": [
+    { "id": "a", "text": "DIU au cuivre", "correct": true },
+    { "id": "b", "text": "DIU au lévonorgestrel (DIU hormonal)", "correct": true },
+    { "id": "c", "text": "Implant sous-cutané", "correct": true },
+    { "id": "d", "text": "Pilule combinée", "correct": false },
+    { "id": "e", "text": "Préservatif", "correct": false },
+    { "id": "f", "text": "Ligature des trompes", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Les 3 LARC : DIU cuivre, DIU hormonal, implant. Elles partagent deux propriétés : (1) durée d'action LONGUE (3 à 10 ans selon le dispositif), (2) RÉVERSIBLES (à la différence de la ligature des trompes/vasectomie qui sont définitives). La pilule (quotidienne) et le préservatif (à chaque rapport) ne sont pas 'long-acting'. La ligature n'est pas 'reversible' au sens LARC (la 'reperméabilisation' tubaire est techniquement possible mais aléatoire).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

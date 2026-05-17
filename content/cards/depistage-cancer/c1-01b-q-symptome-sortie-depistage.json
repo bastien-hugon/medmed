@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c1-q01b-symptome-sortie-depistage",
+  "kind": "qcm-vignette",
+  "prompt": "Madame K., 54 ans, à jour de son dépistage organisé du cancer du sein (mammographie normale il y a 4 mois). Elle vous consulte aujourd'hui : elle a senti une boule ferme dans son sein gauche depuis 3 semaines. Que faites-vous ?",
+  "choices": [
+    { "id": "a", "text": "Rassurer : sa dernière mammographie est récente et normale, on contrôlera à la prochaine échéance dans 2 ans", "correct": false },
+    { "id": "b", "text": "Lancer une démarche diagnostique immédiate : examen clinique, imagerie ciblée (mammographie + échographie), avis spécialisé si besoin", "correct": true },
+    { "id": "c", "text": "Demander un nouveau test FIT pour compléter le bilan", "correct": false },
+    { "id": "d", "text": "Attendre 3 mois pour voir si la boule régresse, puis aviser", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Piège classique. La patiente a un SYMPTÔME (boule) → elle sort du DÉPISTAGE et entre dans le DIAGNOSTIC, peu importe que sa mammographie de dépistage soit récente. La mammographie de dépistage n'est PAS un permis de rassurer 2 ans. Un cancer peut apparaître entre deux mammographies (cancer de l'intervalle), et certains cancers sont mal vus en mammographie (seins denses). La conduite est claire : examen clinique, imagerie ciblée (souvent mammo + échographie + parfois IRM), et biopsie si lésion suspecte. Le FIT n'a aucun rapport. L'attente expectative (d) est dangereuse : on perd des semaines sur une lésion potentiellement curable.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [287, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

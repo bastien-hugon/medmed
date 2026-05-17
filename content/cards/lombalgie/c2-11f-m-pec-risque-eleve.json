@@ -1,0 +1,29 @@
+{
+  "id": "lombalgie-c2-m11-pec-risque-eleve",
+  "kind": "qcm-multi",
+  "prompt": "Un patient lombalgique aigu est classé 'RISQUE ÉLEVÉ' au STarT Back. Cochez les éléments qui doivent figurer dans son plan de prise en charge.",
+  "choices": [
+    { "id": "a", "text": "Kinésithérapie active supervisée + exercices à domicile", "correct": true },
+    { "id": "b", "text": "Approche cognitivo-comportementale (TCC) intégrée dans la PEC", "correct": true },
+    { "id": "c", "text": "Suivi rapproché par le médecin traitant", "correct": true },
+    { "id": "d", "text": "Réassurance et information renforcées", "correct": true },
+    { "id": "e", "text": "Prescription d'opioïdes forts d'emblée", "correct": false },
+    { "id": "f", "text": "IRM systématique d'emblée même sans drapeau rouge", "correct": false },
+    { "id": "g", "text": "Arrêt de travail prolongé sans réévaluation", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Risque élevé = PEC intensifiée précocement : kiné active + TCC + suivi rapproché + réassurance. C'est exactement le profil où l'investissement précoce est rentable pour éviter la chronicisation. Les distracteurs (opioïdes, IRM, arrêt long) sont des écueils classiques qui aggravent au contraire la chronicisation.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "psychiatrie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendations",
+    "version": "2016 amended 2020"
+  },
+  "status": "active"
+}

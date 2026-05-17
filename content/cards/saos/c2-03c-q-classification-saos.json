@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-03c-q-classification-saos",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient présente un IAH à 22/h. Quelle est la classification de sévérité de son SAOS ?",
+  "choices": [
+    {"id": "a", "text": "SAOS léger", "correct": false},
+    {"id": "b", "text": "SAOS modéré", "correct": true},
+    {"id": "c", "text": "SAOS sévère", "correct": false},
+    {"id": "d", "text": "Pas de SAOS", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Les paliers de sévérité (à connaître par cœur) : IAH < 5 = normal ; 5-15 = LÉGER ; 15-30 = MODÉRÉ ; ≥ 30 = SÉVÈRE. Un IAH à 22 est donc dans la fourchette MODÉRÉE. Ces seuils sont cruciaux car ils conditionnent l'indication thérapeutique (CPAP recommandée à partir du modéré symptomatique) et l'aptitude au permis de conduire professionnel.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

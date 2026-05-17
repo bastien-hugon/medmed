@@ -1,0 +1,20 @@
+{
+  "id": "depression-c2-q04c-shared-decision-cloze",
+  "kind": "cloze",
+  "prompt": "NICE 2022 met l'accent sur la \"___ decision-making\" : une décision thérapeutique CO-CONSTRUITE avec le patient, en tenant compte de ses préférences, antécédents, comorbidités et de l'accessibilité des soins.",
+  "expected": ["shared"],
+  "rationale": "\"Shared decision-making\" = décision partagée. Pilier central de NICE 2022 pour la dépression : on ne suit pas un protocole rigide, on co-construit le plan. Implique : information éclairée, exploration des préférences, prise en compte du contexte (financier, géographique, social). Surtout vrai en more severe où 3 options 1ère ligne sont équivalentes.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

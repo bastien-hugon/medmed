@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c2-s06f-effort-sexuel",
+  "kind": "sct",
+  "prompt": "Homme de 38 ans présente, pour la PREMIÈRE FOIS, une céphalée brutale et sévère survenue pendant l'orgasme. Le pic a été atteint en moins d'une minute. L'examen est normal. Vous évoquez une 'céphalée primaire d'activité sexuelle', entité ICHD-3 connue. Comment cette nouvelle information modifie-t-elle votre conduite ?",
+  "hypothesis": "Il s'agit d'une céphalée primaire d'activité sexuelle, bénigne, rassurer et prescrire un AINS prophylactique.",
+  "new_info": "Vous relisez les critères ICHD-3 et NICE : la 'céphalée primaire d'activité sexuelle' est un diagnostic d'EXCLUSION qui ne peut être posé qu'APRÈS imagerie normale, étant donné que la même présentation peut révéler une HSA, un syndrome de vasoconstriction cérébrale réversible (SVCR), ou une dissection.",
+  "expected": "affaiblit",
+  "rationale": "Le premier épisode d'une céphalée d'effort/sexuelle thunderclap impose une exploration COMPLÈTE : scanner non injecté, angio-scanner ou angio-IRM (recherche anévrysme, SVCR, dissection). La 'céphalée primaire d'activité sexuelle' ne sera posée qu'APRÈS bilan négatif et idéalement répétition de l'événement sans aucun signe d'alarme. Renvoyer le patient avec un AINS sans imagerie serait risqué. L'information affaiblit la conduite simpliste.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

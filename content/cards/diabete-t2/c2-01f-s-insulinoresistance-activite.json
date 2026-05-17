@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c2-s01-insulinoresistance-activite",
+  "kind": "sct",
+  "hypothesis": "M. P., 45 ans, en surpoids et sédentaire, a un prédiabète. Sa progression vers un diabète installé est inéluctable.",
+  "new_info": "Il accepte un programme de 30 min de marche rapide 5×/semaine, perd 8 kg en 6 mois et adopte une alimentation moins sucrée.",
+  "prompt": "Comment cette nouvelle information modifie-t-elle l'hypothèse 'progression inéluctable' ?",
+  "expected": "affaiblit",
+  "rationale": "Le prédiabète est en grande partie RÉVERSIBLE : l'étude Diabetes Prevention Program (DPP) montre qu'une perte de poids de 5-7 % + 150 min/sem d'activité physique réduit de ~58 % le passage au diabète installé (mieux que la metformine seule à 31 %). L'insulinorésistance répond très bien à l'exercice et à la perte pondérale. Hypothèse de fatalisme clairement affaiblie.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

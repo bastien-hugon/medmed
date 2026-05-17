@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-c06-hpv-hsh-26",
+  "kind": "cloze",
+  "prompt": "La vaccination HPV est recommandée chez les HSH (Hommes ayant des rapports Sexuels avec des Hommes) jusqu'à l'âge de ___ ans révolus.",
+  "expected": ["26"],
+  "rationale": "HSH = population à risque accru de pathologies HPV-induites (cancers anaux, ORL, condylomes) → extension de la recommandation jusqu'à 26 ans, contre 19 ans en population générale. Idem pour les personnes immunodéprimées (jusqu'à 26 ans, voire au-delà selon situation). Schéma 3 doses si débuté après 14 ans. Vaccin Gardasil 9 (9 sérotypes).",
+  "tags": {
+    "system": ["infectieux", "prevention", "gynecologie"],
+    "sdd": ["vaccination", "HPV"],
+    "item_edn": [143, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "vaccination-adulte-c1-q06-11-obligatoires-date",
+  "kind": "qcm-vignette",
+  "prompt": "À partir de quelle date les ONZE vaccins du nourrisson sont-ils OBLIGATOIRES en France ?",
+  "choices": [
+    {"id": "a", "text": "Pour tous les enfants nés à partir du 1er janvier 2018.", "correct": true},
+    {"id": "b", "text": "Pour tous les enfants nés à partir du 1er janvier 2010.", "correct": false},
+    {"id": "c", "text": "Pour tous les enfants nés à partir du 1er janvier 2020 (passage à 11 obligatoires post-COVID).", "correct": false},
+    {"id": "d", "text": "Pour tous les enfants français quel que soit l'âge actuel (rétroactif).", "correct": false}
+  ],
+  "expected": ["a"],
+  "rationale": "Loi Buzyn — entrée en vigueur le 1er janvier 2018. Avant cette date, seuls DTP étaient obligatoires ; les 8 autres (coqueluche, Hib, HBV, pneumocoque, méningo C, ROR) étaient recommandés. La mesure visait à remonter la couverture vaccinale, notamment ROR (épidémies de rougeole). PAS de rétroactivité : un adulte vacciné enfant selon l'ancien régime n'est pas en infraction.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

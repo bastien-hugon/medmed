@@ -1,0 +1,29 @@
+{
+  "id": "irc-c1-m05-proteinurie-affirmations",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la protéinurie.",
+  "choices": [
+    { "id": "a", "text": "Une protéinurie persistante est un marqueur précoce de maladie rénale chronique", "correct": true },
+    { "id": "b", "text": "Plus la protéinurie est élevée, plus le risque de progression rénale est élevé", "correct": true },
+    { "id": "c", "text": "Plus la protéinurie est élevée, plus le risque cardiovasculaire est élevé", "correct": true },
+    { "id": "d", "text": "Une protéinurie peut exister avec un DFG encore normal", "correct": true },
+    { "id": "e", "text": "La protéinurie est un signe tardif qui n'apparaît qu'au stade G4-G5", "correct": false },
+    { "id": "f", "text": "La protéinurie est l'un des éléments qui pèsent dans la décision de mettre un IEC ou un ARA2", "correct": true },
+    { "id": "g", "text": "Seul un dosage urinaire de 24h permet de la quantifier valablement", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "La protéinurie est précoce (peut précéder la baisse du DFG), pronostique (sur les versants rénal ET cardiovasculaire) et thérapeutique (elle est un des critères de mise sous IEC/ARA2 et de cible PA plus serrée). Le recueil sur 24h n'est plus la référence : on utilise maintenant l'ACR sur urine du matin, beaucoup plus simple et reproductible.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

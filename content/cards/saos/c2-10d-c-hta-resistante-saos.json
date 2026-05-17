@@ -1,0 +1,20 @@
+{
+  "id": "saos-c2-10d-c-hta-resistante-saos",
+  "kind": "cloze",
+  "prompt": "Devant une HTA dite ___ (PA non contrôlée malgré ___ antihypertenseurs dont un ___), il faut systématiquement évoquer un SAOS sous-jacent. Inversement, chez tout SAOS confirmé, on mesure la PA et on demande une ___ ou une automesure.",
+  "expected": ["résistante", "3", "diurétique", "MAPA"],
+  "rationale": "Définition HTA résistante = PA non contrôlée (≥ 140/90 mmHg en consultation, confirmée par MAPA/automesure ≥ 135/85) malgré une trithérapie aux doses optimales incluant un diurétique. C'est l'une des PRINCIPALES indications de rechercher un SAOS. Et réciproquement : chez tout SAOS confirmé, faire MAPA ou automesure pour ne pas passer à côté d'une HTA masquée ou non contrôlée. Le SAOS est l'une des principales causes d'HTA secondaire.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire"],
+    "sdd": ["saos", "hta"],
+    "item_edn": [108, 224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

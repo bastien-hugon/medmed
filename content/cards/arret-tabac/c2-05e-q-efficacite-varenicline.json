@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q05e-efficacite-varenicline",
+  "kind": "qcm-vignette",
+  "prompt": "Concernant l'efficacité comparée des traitements du sevrage tabagique, quelle affirmation est la plus juste ?",
+  "choices": [
+    { "id": "a", "text": "Le placebo donne ~25 % d'abstinence à 12 mois", "correct": false },
+    { "id": "b", "text": "La varénicline en monothérapie atteint ~20-22 % d'abstinence à 12 mois, contre ~15-20 % pour la NRT combo et ~10 % pour le placebo", "correct": true },
+    { "id": "c", "text": "Aucun traitement n'a montré de supériorité sur le placebo", "correct": false },
+    { "id": "d", "text": "Le bupropion est plus efficace que la varénicline en monothérapie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Repères d'efficacité à 12 mois (abstinence continue, vs placebo ~10 %) : varénicline monothérapie ~22 %, NRT combo (timbre + forme rapide) ~15-20 %, bupropion ~15 %, NRT monothérapie ~15 %. La varénicline en monothérapie reste la plus efficace, suivie de la NRT combo. À NUANCER : la prise en charge globale (EM, TCC, suivi rapproché) potentialise tous ces traitements. Le 'meilleur' traitement = celui que le patient acceptera, tolérera et qui correspondra à ses préférences/CI.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

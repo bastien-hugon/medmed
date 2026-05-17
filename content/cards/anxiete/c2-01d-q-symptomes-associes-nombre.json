@@ -1,0 +1,20 @@
+{
+  "id": "anxiete-c2-q01d-symptomes-associes-nombre",
+  "kind": "cloze",
+  "prompt": "Pour poser le diagnostic de TAG, il faut au moins ___ symptômes associés parmi la liste (agitation, fatigabilité, difficultés de concentration, irritabilité, tension musculaire, troubles du sommeil).",
+  "expected": ["3", "trois"],
+  "rationale": "Le critère '≥ 3 symptômes associés' complète les soucis multiples chroniques (≥ 6 mois) pour le diagnostic de TAG. C'est l'aspect 'somatique' du tableau, qui amène souvent les patients à consulter pour fatigue, insomnie ou douleurs musculaires sans identifier leur anxiété sous-jacente. Les 6 symptômes éligibles : agitation/tension intérieure, fatigabilité, difficultés de concentration, irritabilité, tension musculaire, troubles du sommeil.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

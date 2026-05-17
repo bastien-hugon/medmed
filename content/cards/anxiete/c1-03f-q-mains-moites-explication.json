@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q03f-mains-moites-explication",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient inquiet vous demande : 'Pourquoi mes mains deviennent moites et mon cœur s'emballe quand je stresse ?' Quelle explication est à la fois VRAIE et la plus rassurante à transmettre ?",
+  "choices": [
+    { "id": "a", "text": "C'est le signe d'une maladie cardiaque sous-jacente", "correct": false },
+    { "id": "b", "text": "C'est l'activation NORMALE du système sympathique : adrénaline qui prépare le corps à agir vite", "correct": true },
+    { "id": "c", "text": "C'est une réaction allergique non spécifique", "correct": false },
+    { "id": "d", "text": "C'est probablement un trouble panique chronique, il faut un traitement à vie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Expliquer la PHYSIOLOGIE est un acte thérapeutique majeur : le patient comprend que son corps fonctionne NORMALEMENT (pas une maladie cardiaque), juste un peu trop souvent. Donner du sens (le 'pourquoi') diminue la peur secondaire ('et si c'était grave ?') qui amplifie souvent les symptômes. C'est un pilier de la psychoéducation, recommandée par NICE dès l'étape 1 du stepped care.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

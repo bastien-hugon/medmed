@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q01b-arbre-respiratoire",
+  "kind": "qcm-vignette",
+  "prompt": "Tu suis le trajet de l'air inspiré. Quel est l'ordre CORRECT de la traversée de l'arbre respiratoire ?",
+  "choices": [
+    { "id": "a", "text": "Bouche → bronches → trachée → alvéoles → bronchioles", "correct": false },
+    { "id": "b", "text": "Bouche → trachée → bronches → bronchioles → alvéoles", "correct": true },
+    { "id": "c", "text": "Bouche → alvéoles → bronchioles → bronches → trachée", "correct": false },
+    { "id": "d", "text": "Bouche → bronchioles → bronches → trachée → alvéoles", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'air entre par la bouche/nez, descend par la TRACHÉE (gros tuyau central), se divise en deux BRONCHES principales, qui se ramifient en BRONCHIOLES de plus en plus fines, pour finir dans les ALVÉOLES. Du plus gros au plus petit. C'est l'analogie de l'arbre à l'envers : tronc (trachée) → grosses branches (bronches) → brindilles (bronchioles) → feuilles (alvéoles).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

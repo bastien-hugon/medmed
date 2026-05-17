@@ -1,0 +1,20 @@
+{
+  "id": "anxiete-c1-q02c-trepied-criteres",
+  "kind": "cloze",
+  "prompt": "Les trois critères qui définissent une anxiété pathologique (trépied à retenir) sont : DISPROPORTIONNÉE, PERSISTANTE et ___ (= retentissement fonctionnel sur la vie quotidienne).",
+  "expected": ["envahissante"],
+  "rationale": "Le trépied disproportion / persistance / ENVAHISSEMENT (retentissement) est le filtre clinique de base. Le retentissement fonctionnel (vie pro, sociale, sommeil) est souvent ce qui décide d'agir cliniquement, plus que l'intensité ressentie seule. Sans retentissement, on n'a pas de 'trouble' au sens médical.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

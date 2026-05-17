@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q06b-place-strategie",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la place officielle française de la cigarette ÉLECTRONIQUE (vapoteuse) dans la stratégie de sevrage tabagique ?",
+  "choices": [
+    { "id": "a", "text": "Traitement de 1ère intention, remboursé, à proposer systématiquement", "correct": false },
+    { "id": "b", "text": "Pas en 1ère intention, non remboursée, mais NON découragée si elle aide un fumeur à réduire/arrêter (harm reduction)", "correct": true },
+    { "id": "c", "text": "Strictement interdite chez tout fumeur, y compris en aide au sevrage", "correct": false },
+    { "id": "d", "text": "Réservée aux fumeurs ayant échoué à la varénicline ET au bupropion ET aux NRT", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Statut français : pas en 1ère intention officielle, pas remboursée, mais NON découragée si elle aide. Logique de RÉDUCTION DES RISQUES (harm reduction) : passer du tabac à la vape diminue très probablement les risques (pas de CO ni de goudrons, recul limité sur le long terme), puis idéalement sevrer la vape ensuite. À NE PAS faire : double consommation (tabac + vape) qui cumule les risques sans gain net. À évaluer au cas par cas.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

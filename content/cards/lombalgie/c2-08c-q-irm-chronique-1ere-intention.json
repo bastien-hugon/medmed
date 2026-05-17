@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q08-irm-chronique-1ere-intention",
+  "kind": "qcm-vignette",
+  "prompt": "Chez un patient présentant une lombalgie chronique (> 3 mois) sans drapeau rouge, quelle est l'imagerie de PREMIÈRE intention recommandée par la HAS 2019 ?",
+  "choices": [
+    { "id": "a", "text": "Radiographie standard de face et profil", "correct": false },
+    { "id": "b", "text": "IRM (ou scanner si IRM contre-indiquée)", "correct": true },
+    { "id": "c", "text": "Aucune imagerie nécessaire même après 3 mois", "correct": false },
+    { "id": "d", "text": "Scintigraphie osseuse systématique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Lombalgie chronique (> 3 mois) : IRM en 1ère intention (ou scanner si IRM CI). La radio standard isolée n'est pas recommandée (peu informative, irradiante). L'IRM cherche à éliminer une cause secondaire passée inaperçue (hernie significative, tumeur, spondyloarthrite) et oriente la PEC spécialisée.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "imagerie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

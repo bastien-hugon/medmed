@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q08b-vaccin-cible",
+  "kind": "qcm-vignette",
+  "prompt": "En France, la vaccination HPV est recommandée pour quelle population ?",
+  "choices": [
+    { "id": "a", "text": "Uniquement les filles, à partir de 11 ans.", "correct": false },
+    { "id": "b", "text": "Filles ET garçons, dès 11 ans (idéalement entre 11 et 14 ans), avec rattrapage possible jusqu'à 19 ans.", "correct": true },
+    { "id": "c", "text": "Uniquement les femmes ayant déjà eu un partenaire sexuel.", "correct": false },
+    { "id": "d", "text": "Uniquement les enfants à risque, sur prescription d'un spécialiste.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Depuis 2021 (HAS 2022), la vaccination HPV est recommandée chez les FILLES ET LES GARÇONS de 11-14 ans, rattrapage 15-19 ans, et jusqu'à 26 ans chez les HSH (hommes ayant des relations sexuelles avec des hommes). Justifications : (1) les garçons aussi attrapent le HPV, peuvent développer des cancers liés (anus, oropharynx), (2) leur vaccination réduit la circulation virale (immunité de groupe). L'idéal = avant les premiers rapports, donc avant exposition au virus.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [143, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Gardasil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

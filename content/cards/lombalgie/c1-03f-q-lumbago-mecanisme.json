@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q03-lumbago-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient parle d'un 'tour de reins' ou 'lumbago' survenu en soulevant une caisse. À quoi correspond cliniquement ce terme familier ?",
+  "choices": [
+    { "id": "a", "text": "À une fracture vertébrale", "correct": false },
+    { "id": "b", "text": "À une crise aiguë de lombalgie commune (souvent d'origine musculo-ligamentaire)", "correct": true },
+    { "id": "c", "text": "À une hernie discale prouvée", "correct": false },
+    { "id": "d", "text": "À une infection rénale", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "'Tour de reins' ou 'lumbago' = lombalgie commune aiguë, le plus souvent d'origine musculo-ligamentaire (les muscles paravertébraux ou les ligaments se 'défendent' après un mouvement). C'est un terme populaire, ce n'est PAS un diagnostic anatomique précis. Évolution favorable en 4-6 semaines dans 90 % des cas — pas besoin d'imagerie en l'absence de drapeau rouge.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

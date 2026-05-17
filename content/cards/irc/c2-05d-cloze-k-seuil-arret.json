@@ -1,0 +1,20 @@
+{
+  "id": "irc-c2-cz05-k-seuil-arret",
+  "kind": "cloze",
+  "prompt": "Complète : « Sous IEC ou ARA2, on arrête le médicament si la kaliémie atteint ___ mmol/L (après avoir éliminé les autres causes contributives). »",
+  "expected": ["6,0", "6", "6.0", "≥ 6", "6 mmol/L", "6,0 mmol/L"],
+  "rationale": "Seuil d'arrêt = K+ ≥ 6 mmol/L. Entre 5,0 et 5,9 : on corrige les facteurs (régime, AINS, etc.) et on recontrôle. < 5 : on continue. Avant arrêt définitif : toujours vérifier qu'il n'y a pas de fausse hyperkaliémie (hémolyse) et chasser les contributeurs (AINS, supplémentations, spironolactone).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

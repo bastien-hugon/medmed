@@ -1,0 +1,22 @@
+{
+  "id": "hta-c1-s04-mercure-toxique",
+  "kind": "sct",
+  "prompt": "Tu trouves dans une vieille trousse médicale un tensiomètre à colonne de mercure qui semble fonctionnel.",
+  "hypothesis": "Mon hypothèse : je peux le réutiliser sereinement pour mesurer la PA des patients aujourd'hui.",
+  "new_info": "Tu te rappelles que le mercure est un métal lourd toxique et que son usage est désormais réglementé/interdit dans les dispositifs médicaux en Europe.",
+  "expected": "affaiblit",
+  "rationale": "Les tensiomètres à mercure ont été progressivement retirés des établissements de santé en raison de la toxicité du mercure (risque environnemental et sanitaire en cas de bris). L'unité 'mmHg' est restée par convention historique, mais les appareils actuels sont électroniques ou anéroïdes (sans mercure). L'info affaiblit nettement l'hypothèse d'usage routinier sans précaution.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

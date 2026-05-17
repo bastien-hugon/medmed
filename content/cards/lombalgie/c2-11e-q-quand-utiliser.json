@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q11-quand-utiliser",
+  "kind": "qcm-vignette",
+  "prompt": "Quand recommande-t-on d'utiliser le STarT Back tool selon NICE NG59 ?",
+  "choices": [
+    { "id": "a", "text": "Uniquement après 3 mois de douleur (en lombalgie chronique)", "correct": false },
+    { "id": "b", "text": "Dès le PREMIER contact, pour CHAQUE nouvel épisode de lombalgie", "correct": true },
+    { "id": "c", "text": "Une fois par an chez tout patient consultant en médecine générale", "correct": false },
+    { "id": "d", "text": "Uniquement chez le patient anxio-dépressif", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE NG59 : 'STarT Back risk assessment tool at first point of contact for each new episode'. L'idée : stratifier le risque tôt pour adapter immédiatement l'intensité de la PEC, et ne pas attendre la chronicisation pour identifier les patients à risque.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendations",
+    "version": "2016 amended 2020"
+  },
+  "status": "active"
+}

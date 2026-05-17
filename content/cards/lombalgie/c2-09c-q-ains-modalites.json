@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q09-ains-modalites",
+  "kind": "qcm-vignette",
+  "prompt": "Comment doit-on prescrire un AINS (par exemple ibuprofène) dans une lombalgie commune aiguë selon la HAS 2019 ?",
+  "choices": [
+    { "id": "a", "text": "À forte dose, en continu, pendant 3 mois", "correct": false },
+    { "id": "b", "text": "À la dose efficace la plus FAIBLE, pour la durée la plus COURTE possible, en tenant compte de la balance bénéfice-risque", "correct": true },
+    { "id": "c", "text": "Toujours associé à un opioïde fort", "correct": false },
+    { "id": "d", "text": "Uniquement par voie intramusculaire", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Règle HAS / NICE : 'lowest effective dose for the shortest possible period of time'. Précautions standard : tenir compte du terrain (âge, HTA, insuffisance rénale, ATCD UGD), gastroprotection si FdR, monitoring clinique. Pas d'AINS en continu sur des mois — risque GI, cardio-rénal, hépatique.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

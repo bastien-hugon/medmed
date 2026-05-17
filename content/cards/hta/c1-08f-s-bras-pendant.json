@@ -1,0 +1,22 @@
+{
+  "id": "hta-c1-s08-bras-pendant",
+  "kind": "sct",
+  "prompt": "Lors d'une mesure de PA, l'infirmière place le bras du patient pendant vers le bas, sans le poser sur la table.",
+  "hypothesis": "Mon hypothèse : la PA mesurée sera fiable et utilisable pour le diagnostic.",
+  "new_info": "Tu te rappelles que la position du bras influence la mesure via la pression hydrostatique (différence de hauteur entre le bras et le cœur).",
+  "expected": "affaiblit",
+  "rationale": "Quand le bras est plus bas que le cœur (~10 cm), la colonne de sang ajoute environ +8 mmHg de pression hydrostatique → PA FAUSSEMENT HAUTE. Inversement, bras trop haut → PA sous-estimée. Le bras doit être posé sur un support à la hauteur du cœur. L'info affaiblit clairement l'hypothèse de fiabilité : il faut reprendre la mesure en position correcte.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q05-ancien-nom",
+  "kind": "qcm-vignette",
+  "prompt": "Avant 2019, on parlait souvent de 'lombalgie non spécifique'. Pourquoi la HAS préfère-t-elle aujourd'hui le terme 'lombalgie commune' ?",
+  "choices": [
+    { "id": "a", "text": "Parce que 'non spécifique' donnait l'impression de quelque chose de bizarre, alors que c'est la situation NORMALE et la plus fréquente quand on a mal au dos", "correct": true },
+    { "id": "b", "text": "Parce que les anglo-saxons utilisent 'common back pain' depuis toujours", "correct": false },
+    { "id": "c", "text": "Parce que 'non spécifique' était un faux ami juridique en France", "correct": false },
+    { "id": "d", "text": "Parce que cela permettait de la rembourser à 100 %", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "La HAS 2019 a remplacé 'lombalgie non spécifique' par 'lombalgie commune' pour insister sur le fait que c'est la situation la plus FRÉQUENTE et la plus BANALE. Le mot 'non spécifique' suggérait quelque chose d'incompris et d'inquiétant ; 'commune' rassure et oriente vers la réassurance comme acte thérapeutique central.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

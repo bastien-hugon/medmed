@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q04f-famille-allaitement",
+  "kind": "qcm-vignette",
+  "prompt": "Une jeune accouchée allaitant son enfant souhaite une contraception. Vers quelle famille l'orientez-vous (en évitant les œstrogènes) ?",
+  "choices": [
+    { "id": "a", "text": "Œstro-progestatifs (pilule combinée, patch, anneau)", "correct": false },
+    { "id": "b", "text": "Progestatifs seuls (micro-pilule, implant, DIU LNG) ou DIU au cuivre", "correct": true },
+    { "id": "c", "text": "Méthodes naturelles uniquement", "correct": false },
+    { "id": "d", "text": "Aucune contraception n'est utile pendant l'allaitement.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les œstrogènes peuvent diminuer la lactation et augmentent le risque thromboembolique en post-partum — ils sont CONTRE-INDIQUÉS pendant l'allaitement (et au moins les 6 premières semaines après l'accouchement). On bascule vers une famille SANS œstrogène : progestatifs seuls (pilule micro-dosée, implant, injection, DIU LNG) ou DIU au cuivre. L'allaitement N'EST PAS une contraception fiable en soi (la méthode MAMA a des conditions très strictes et n'est efficace que ~6 mois).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

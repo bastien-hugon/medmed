@@ -1,0 +1,28 @@
+{
+  "id": "diabete-t2-c2-m08-cibles-hba1c-multi",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les profils dans lesquels une cible d'HbA1c ASSOUPLIE (≤ 8 % voire plus) est appropriée.",
+  "choices": [
+    { "id": "a", "text": "Personne âgée fragile, poly-pathologique", "correct": true },
+    { "id": "b", "text": "Insuffisance rénale sévère ou insuffisance cardiaque évoluée", "correct": true },
+    { "id": "c", "text": "Espérance de vie limitée", "correct": true },
+    { "id": "d", "text": "Risque élevé d'hypoglycémie (sulfamides, insuline)", "correct": true },
+    { "id": "e", "text": "Diabète récemment diagnostiqué chez un sujet jeune sans comorbidité", "correct": false },
+    { "id": "f", "text": "Patient autonome, motivé, sous metformine seule, sans antécédent CV", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Cible ASSOUPLIE chez les profils où le risque d'hypoglycémie dépasse le bénéfice du contrôle strict : âgé fragile (a), insuf rénale/cardiaque évoluée (b), espérance limitée (c), risque iatrogène (d). Au contraire, jeune nouveau diagnostic (e) et patient autonome sans risque (f) tirent bénéfice d'une cible plus STRICTE (≤ 6,5 %). 'Pas plus strict que nécessaire'.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/H%C3%A9moglobine_glyqu%C3%A9e",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

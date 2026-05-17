@@ -1,0 +1,22 @@
+{
+  "id": "gyneco-prevention-c1-s06f-sct-counseling-pilule",
+  "kind": "sct",
+  "prompt": "Une jeune femme de 19 ans, étudiante avec un emploi du temps très irrégulier et des soirées fréquentes, vous demande quelle est la 'meilleure' contraception. Vous envisagez de lui prescrire une pilule œstro-progestative.",
+  "hypothesis": "La pilule combinée est l'option idéale en 1ère intention pour cette patiente.",
+  "new_info": "Elle vous confie qu'elle a du mal à se rappeler de prendre quoi que ce soit à heures fixes — déjà ses antibiotiques en cas d'angine, elle oublie une dose sur deux.",
+  "expected": "affaiblit",
+  "rationale": "L'efficacité de la pilule en typical use (~9 %) repose massivement sur l'observance. Chez quelqu'un avec un mode de vie irrégulier et un historique d'oublis répétés, le typical use sera probablement PIRE encore : risque de grossesse non négligeable. Cette information AFFAIBLIT l'hypothèse pilule comme 1ère intention. Il faut réorienter le counseling vers une LARC (implant, DIU) dont le typical use est ≈ perfect use, indépendamment de l'observance.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

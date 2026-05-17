@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c1-s06-eal-infection",
+  "kind": "sct",
+  "prompt": "Vous envisagez de prescrire un EAL chez un patient pour évaluer son risque CV.",
+  "hypothesis": "Le moment est opportun pour réaliser l'EAL.",
+  "new_info": "Le patient est en sortie d'hospitalisation pour une infection respiratoire fébrile traitée il y a 5 jours.",
+  "expected": "affaiblit",
+  "rationale": "Une infection AIGUË (ou chirurgie, ou stress majeur) modifie temporairement le profil lipidique : le cholestérol et le LDL peuvent BAISSER de 20-30 % pendant la phase aiguë et plusieurs semaines après. Un EAL prélevé en convalescence sous-estime donc le risque réel et est ININTERPRÉTABLE. Il faut attendre 6 à 8 semaines après guérison pour un bilan fiable. L'information AFFAIBLIT donc l'hypothèse : ce n'est PAS le bon moment.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

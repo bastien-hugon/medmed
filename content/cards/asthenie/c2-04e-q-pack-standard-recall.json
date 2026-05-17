@@ -1,0 +1,40 @@
+{
+  "id": "asthenie-c2-q04e-pack-standard-recall",
+  "kind": "free-recall",
+  "prompt": "Citez les examens biologiques du \"pack standard\" de 1ère intention devant une asthénie (au moins 6).",
+  "expected": [
+    "NFS",
+    "numération formule sanguine",
+    "ferritine",
+    "VS",
+    "CRP",
+    "TSH",
+    "glycémie",
+    "glycemie a jeun",
+    "ionogramme",
+    "natrémie",
+    "kaliémie",
+    "créatinine",
+    "creatinine",
+    "fonction rénale",
+    "bilan hépatique",
+    "bilan hepatique",
+    "transaminases",
+    "GGT",
+    "phosphatases alcalines"
+  ],
+  "rationale": "Pack standard à savoir par cœur : NFS + ferritine + VS et/ou CRP + TSH + glycémie + ionogramme + créatinine + bilan hépatique. Coût faible, rentabilité diagnostique élevée pour les causes organiques fréquentes (anémie, hypothyroïdie, diabète, inflammation, dysnatrémie/hypokaliémie iatrogène, IRC, atteinte hépatique).",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cephalee-c1-m01c-structures-douloureuses",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les structures de la tête qui peuvent générer la douleur d'une céphalée (cases multiples à cocher).",
+  "choices": [
+    { "id": "a", "text": "Les méninges (dure-mère ++)", "correct": true },
+    { "id": "b", "text": "Les vaisseaux sanguins méningés et du scalp", "correct": true },
+    { "id": "c", "text": "Le tissu cérébral (cortex, substance blanche)", "correct": false },
+    { "id": "d", "text": "Les muscles du cuir chevelu et de la nuque", "correct": true },
+    { "id": "e", "text": "Les nerfs crâniens (trijumeau ++) et cervicaux", "correct": true },
+    { "id": "f", "text": "Les ventricules cérébraux (épendyme)", "correct": false }
+  ],
+  "expected": ["a", "b", "d", "e"],
+  "rationale": "Le tissu cérébral et l'épendyme ventriculaire sont DÉPOURVUS de récepteurs nociceptifs. La douleur naît exclusivement des structures péri-cérébrales : méninges (surtout la dure-mère et ses sinus veineux), vaisseaux extra et intracrâniens, muscles cervico-céphaliques, nerfs sensitifs (trijumeau pour les 2/3 antérieurs, plexus cervical pour l'arrière). C'est pourquoi une 'douleur dans la tête' n'implique presque jamais le cerveau lui-même.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q01e-contact-muqueux",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient affirme : 'Sans pénétration, il n'y a pas de risque d'IST.' Quelle est la meilleure réponse ?",
+  "choices": [
+    { "id": "a", "text": "C'est vrai : sans pénétration, aucun microbe ne se transmet", "correct": false },
+    { "id": "b", "text": "C'est faux : un simple contact muqueux ou peau-peau au niveau génital suffit pour transmettre certaines IST comme HPV ou herpès", "correct": true },
+    { "id": "c", "text": "C'est vrai sauf si le partenaire est séropositif", "correct": false },
+    { "id": "d", "text": "C'est faux mais seulement pour le VIH", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La pénétration n'est PAS nécessaire pour transmettre certaines IST. Le contact peau-peau ou muqueux au niveau des zones génitales suffit pour HPV (verrues, cancer du col) et HSV (herpès). C'est aussi vrai pour les rapports oraux : chlamydia pharyngée, gonocoque pharyngé, syphilis, HPV oropharyngés. La règle pédagogique : un contact suffit.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

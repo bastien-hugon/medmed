@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-m08d-bnp-faux-negatifs",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les facteurs qui BAISSENT le NT-proBNP (faux négatifs possibles).",
+  "choices": [
+    { "id": "a", "text": "Obésité", "correct": true },
+    { "id": "b", "text": "Ethnie afro-caribéenne", "correct": true },
+    { "id": "c", "text": "Traitement par IEC", "correct": true },
+    { "id": "d", "text": "Traitement par ARNI", "correct": true },
+    { "id": "e", "text": "Insuffisance rénale chronique", "correct": false },
+    { "id": "f", "text": "Diurétiques au long cours", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "f"],
+  "rationale": "BAISSENT le NT-proBNP : obésité, ethnie afro-caribéenne, et TOUS les traitements de l'IC (IEC, ARNI, ARA2, BB, MRA, diurétiques) → un NT-proBNP 'normal' chez un patient DÉJÀ traité ne RASSURE PAS. L'insuffisance rénale chronique au contraire AUGMENTE le NT-proBNP (faux positif).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

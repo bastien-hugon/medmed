@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c2-q03c-miller-rollnick",
+  "kind": "cloze",
+  "prompt": "L'entretien motivationnel est une approche de communication développée dans les années 1980 par Miller et ___, fondée sur l'empathie, l'émergence de l'ambivalence et le soutien à l'auto-efficacité du patient.",
+  "expected": ["Rollnick"],
+  "rationale": "William R. Miller (psychologue américain) et Stephen Rollnick (psychologue gallois) ont formalisé l'entretien motivationnel à l'origine dans le champ des addictions à l'alcool, étendu ensuite à toutes les conduites addictives et au changement de comportement en santé (activité physique, observance...). Ouvrage de référence : 'Motivational Interviewing' (1991, plusieurs éditions).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

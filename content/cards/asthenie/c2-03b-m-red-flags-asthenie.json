@@ -1,0 +1,30 @@
+{
+  "id": "asthenie-c2-m03b-red-flags-asthenie",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les signes qui constituent un DRAPEAU ROUGE devant une asthénie (faisant accélérer le bilan et redouter une cause grave).",
+  "choices": [
+    { "id": "a", "text": "Perte de poids involontaire (> 5 % du poids en quelques mois).", "correct": true },
+    { "id": "b", "text": "Fièvre prolongée ou inexpliquée.", "correct": true },
+    { "id": "c", "text": "Sueurs nocturnes qui mouillent le pyjama.", "correct": true },
+    { "id": "d", "text": "Adénopathies généralisées ou persistantes.", "correct": true },
+    { "id": "e", "text": "Fatigue qui se règle bien après une grasse matinée le dimanche.", "correct": false },
+    { "id": "f", "text": "Céphalée nouvelle avec troubles visuels chez sujet > 50 ans.", "correct": true },
+    { "id": "g", "text": "Idées suicidaires.", "correct": true },
+    { "id": "h", "text": "Atteinte de plusieurs systèmes (rash + arthrite + fièvre…).", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "f", "g", "h"],
+  "rationale": "Drapeaux rouges à mémoriser : perte de poids involontaire, fièvre prolongée, sueurs nocturnes, adénopathies généralisées, atteinte multi-systèmes, céphalée nouvelle + troubles visuels chez le sujet âgé (Horton), idées suicidaires. La fatigue qui cède avec un week-end de repos (e) est typiquement PHYSIOLOGIQUE — pas un red flag. Un seul drapeau rouge suffit à changer la conduite : enquête active, parfois avis spécialisé urgent.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

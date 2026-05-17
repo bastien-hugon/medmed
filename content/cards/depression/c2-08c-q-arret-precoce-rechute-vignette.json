@@ -1,0 +1,26 @@
+{
+  "id": "depression-c2-q08c-arret-precoce-rechute-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "M. Karim, 40 ans, a obtenu une rémission complète d'un EDC après 3 mois de sertraline. À 4 mois de traitement, il vous dit \"je vais arrêter, je vais beaucoup mieux\". Quelle est la réponse correcte selon NICE 2022 ?",
+  "choices": [
+    { "id": "a", "text": "Très bien, vous pouvez arrêter dès aujourd'hui en stoppant net", "correct": false },
+    { "id": "b", "text": "Lui expliquer qu'il faut POURSUIVRE l'AD au moins 6 MOIS APRÈS la rémission (soit jusqu'à ~M9-M10 ici) pour limiter le risque de rechute, puis arrêter PROGRESSIVEMENT (tapering) avec lui.", "correct": true },
+    { "id": "c", "text": "Diminuer la dose de moitié immédiatement et arrêter dans 2 semaines", "correct": false },
+    { "id": "d", "text": "Continuer à vie sans réévaluer", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Règle NICE clé : ≥ 6 mois APRÈS la rémission, pas 6 mois au total. M. Karim n'est qu'à 1 mois post-rémission → arrêter maintenant = ~50 % de risque de rechute précoce. Conduite : poursuivre jusqu'à 6 mois post-rémission, puis tapering progressif programmé avec le patient. Le \"je vais mieux\" est précisément le moment où on RISQUE le plus l'arrêt précoce — d'où la psychoéducation à faire AU DÉPART (\"9-18 mois de traitement total\").",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

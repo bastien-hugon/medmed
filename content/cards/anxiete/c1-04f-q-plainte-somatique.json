@@ -1,0 +1,20 @@
+{
+  "id": "anxiete-c1-q04f-plainte-somatique",
+  "kind": "cloze",
+  "prompt": "Beaucoup de patients anxieux ne consultent PAS en disant 'je suis anxieux' : ils consultent pour des plaintes ___ (douleur thoracique, dyspnée, troubles digestifs, vertiges).",
+  "expected": ["somatiques", "physiques", "corporelles"],
+  "rationale": "Piège majeur en MG : l'anxiété est souvent vécue d'abord par le corps. Le patient consulte pour 'la poitrine qui serre', 'pas pu respirer', 'le cœur qui s'emballe', 'des vertiges'. Reconnaître cette présentation 'somatique' est essentiel pour ne pas multiplier les examens et orienter vers une prise en charge adaptée APRÈS avoir éliminé l'urgent. Inversement, attention à ne pas étiqueter trop vite 'somatisation' sans avoir éliminé une cause organique.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

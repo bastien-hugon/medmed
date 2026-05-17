@@ -1,0 +1,22 @@
+{
+  "id": "saos-c1-03e-s-sct-hypopnee-versus-apnee",
+  "kind": "sct",
+  "prompt": "Mme R., 54 ans, dort 7 h par nuit. Sa polygraphie révèle 20 apnées et 80 hypopnées, avec désaturations associées. Son mari rapporte des reprises respiratoires bruyantes.",
+  "hypothesis": "Le diagnostic de SAOS est moins probable parce que les apnées sont peu nombreuses (seulement 20).",
+  "new_info": "Le rapport indique que ses 80 hypopnées s'accompagnent toutes d'une désaturation ≥ 3 % ou d'un microéveil cortical.",
+  "expected": "affaiblit",
+  "rationale": "L'IAH compte ENSEMBLE apnées et hypopnées : 20 + 80 = 100 événements sur 7 h → IAH ≈ 14/h (SAOS léger limite modéré). Apprendre que les hypopnées sont 'valides' (désaturation ou microéveil) AFFAIBLIT l'idée que 'peu d'apnées = pas grave' : les hypopnées comptent autant. L'hypothèse 'moins probable parce que peu d'apnées' est donc affaiblie par cette confirmation que toutes les hypopnées sont délétères.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

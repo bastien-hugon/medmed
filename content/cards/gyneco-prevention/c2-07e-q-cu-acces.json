@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q07e-cu-acces",
+  "kind": "qcm-vignette",
+  "prompt": "Une lycéenne de 16 ans, paniquée, vient à votre cabinet 18 h après un rapport non protégé. Elle veut une contraception d'urgence mais n'ose pas en parler à ses parents. Que lui dites-vous ?",
+  "choices": [
+    { "id": "a", "text": "Il faut une ordonnance et l'accord parental obligatoire.", "correct": false },
+    { "id": "b", "text": "Elle peut aller directement en pharmacie : LNG (Norlevo) et UPA (EllaOne) sont délivrés SANS ORDONNANCE et GRATUITS pour les mineures, en toute confidentialité.", "correct": true },
+    { "id": "c", "text": "Elle doit attendre 48 h de plus pour qu'on puisse poser un DIU.", "correct": false },
+    { "id": "d", "text": "Ce n'est plus possible, le délai est dépassé.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Message-clé d'accessibilité : LNG et UPA sans ordonnance + gratuits pour les mineures + sans accord parental + délivrance confidentielle en pharmacie. Pour une lycéenne 18 h après le rapport : LNG (72 h) ou UPA (120 h) sont parfaitement adaptés. Plus tôt = mieux : à 18 h, le LNG aura ~95 % d'efficacité. À 18 h, on est encore dans la fenêtre de pose d'un DIU cuivre, mais l'accès est moins immédiat (pose au cabinet du médecin).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention", "urgences"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Contraception_d%27urgence",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

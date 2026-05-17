@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c1-f06-mnemo-11-obligatoires",
+  "kind": "free-recall",
+  "prompt": "Cite les 11 maladies/vaccins obligatoires chez le nourrisson en France depuis 2018 (mnémo : socle DTP + coqueluche + 4 ajouts + ROR).",
+  "expected": ["diphtérie", "tétanos", "poliomyélite", "coqueluche", "Haemophilus influenzae b", "hépatite B", "pneumocoque", "méningocoque C", "rougeole", "oreillons", "rubéole"],
+  "rationale": "Structure mnémo : DTP (3) + Coqueluche (1) + Hib (1) + HBV (1) + Pneumocoque (1) + Méningo C (1) + ROR (3) = 11. Note 2025 : ACWY et B sont AUSSI obligatoires chez le nourrisson désormais (en plus du méningo C historique). Application MG chez l'adulte : pas de rétroactivité ; rattrapage à proposer en cas de carnet incomplet, en particulier ROR, hépatite B, coqueluche (via dTcaP 25 ans).",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

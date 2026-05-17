@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q02c-gold-severe",
+  "kind": "qcm-vignette",
+  "prompt": "Mme W., BPCO confirmée. Spirométrie post-BD : VEMS/CVF = 0,52 ; VEMS = 38 % de la prédite. Quel stade GOLD ?",
+  "choices": [
+    { "id": "a", "text": "GOLD 1 (légère)", "correct": false },
+    { "id": "b", "text": "GOLD 2 (modérée)", "correct": false },
+    { "id": "c", "text": "GOLD 3 (sévère)", "correct": true },
+    { "id": "d", "text": "GOLD 4 (très sévère)", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "VEMS à 38 % prédit tombe dans la tranche 30-49 % = GOLD 3 (sévère). Rappel des seuils 80 / 50 / 30 : ≥80 GOLD 1, 50-79 GOLD 2, 30-49 GOLD 3, <30 GOLD 4. Le Tiffeneau (0,52) confirme l'obstruction, le VEMS % stade la sévérité.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

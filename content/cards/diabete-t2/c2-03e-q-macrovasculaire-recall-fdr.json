@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q12-macrovasculaire-recall-fdr",
+  "kind": "free-recall",
+  "prompt": "Outre le diabète, cite 3 autres facteurs de risque cardiovasculaire majeurs qu'il faut TOUJOURS rechercher et traiter chez un diabétique de type 2.",
+  "expected": ["HTA", "hypertension", "hypertension artérielle", "dyslipidémie", "dyslipidemie", "cholestérol", "cholesterol", "LDL", "tabac", "tabagisme", "sédentarité", "sedentarite", "obésité", "obesite", "âge", "age", "antécédents familiaux"],
+  "rationale": "Prise en charge multifactorielle (étude STENO-2) : 4 grands leviers en plus du sucre — HTA (cible ≤ 130/80 chez le diabétique), dyslipidémie (LDL bas, statine quasi systématique en prévention secondaire), arrêt du tabac, activité physique et perte de poids. C'est ce qui divise par 2 la mortalité dans les essais. Le diabète SEUL traité ne suffit jamais.",
+  "tags": {
+    "system": ["endocrinologie", "cardiovasculaire"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

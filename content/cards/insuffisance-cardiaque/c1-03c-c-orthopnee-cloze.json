@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c1-c03c-orthopnee-cloze",
+  "kind": "cloze",
+  "prompt": "L'orthopnée est l'essoufflement qui apparaît dès qu'on s'___ à plat. La dyspnée paroxystique ___ (DPN) en est la variante de réveil brutal.",
+  "expected": ["allonge", "nocturne"],
+  "rationale": "Orthopnée = dyspnée déclenchée par le décubitus dorsal, soulagée par la position assise. DPN (dyspnée paroxystique nocturne) = réveil en suffoquant, ~1-2 h après endormissement ; même mécanisme (retour veineux ↑ en décubitus → engorgement pulmonaire). Très évocatrices d'IC gauche.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

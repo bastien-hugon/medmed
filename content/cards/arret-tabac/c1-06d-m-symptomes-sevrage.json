@@ -1,0 +1,31 @@
+{
+  "id": "arret-tabac-c1-m06d-symptomes-sevrage",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les symptômes classiques du syndrome de sevrage tabagique (mnémo I-A-S-C-A).",
+  "choices": [
+    {"id": "a", "text": "Irritabilité, nervosité, agressivité", "correct": true},
+    {"id": "b", "text": "Anxiété, baisse de moral", "correct": true},
+    {"id": "c", "text": "Troubles du sommeil (insomnie, réveils, rêves intenses)", "correct": true},
+    {"id": "d", "text": "Difficultés de concentration, sensation de 'brouillard'", "correct": true},
+    {"id": "e", "text": "Augmentation de l'appétit, parfois prise de poids", "correct": true},
+    {"id": "f", "text": "Envies irrésistibles de cigarette par vagues (craving)", "correct": true},
+    {"id": "g", "text": "Fièvre élevée à 39-40 °C", "correct": false},
+    {"id": "h", "text": "Convulsions tonico-cloniques", "correct": false},
+    {"id": "i", "text": "Hallucinations visuelles complexes", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Mnémo I-A-S-C-A : Irritabilité, Anxiété, Sommeil, Concentration, Appétit ↑. À ajouter : envies brèves par vagues (craving), constipation, parfois céphalées. Ce sont des manifestations BIOLOGIQUES, pas une faiblesse de caractère. Fièvre, convulsions et hallucinations NE FONT PAS partie du sevrage tabagique (sevrage alcool ou benzodiazépines, lui, peut faire convulsions et delirium tremens — à ne pas confondre).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

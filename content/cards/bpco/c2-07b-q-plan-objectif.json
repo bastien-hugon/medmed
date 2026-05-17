@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q07b-plan-objectif",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est l'OBJECTIF principal du PLAN D'ACTION ÉCRIT remis à un patient BPCO exacerbateur (avec corticoïde et antibiotique à domicile) ?",
+  "choices": [
+    { "id": "a", "text": "Permettre au patient de DÉCLENCHER LUI-MÊME son traitement dès le début d'une exacerbation, sans attendre un rendez-vous médical", "correct": true },
+    { "id": "b", "text": "Donner au patient des médicaments à utiliser au quotidien à la place du traitement de fond", "correct": false },
+    { "id": "c", "text": "Remplacer les consultations de suivi", "correct": false },
+    { "id": "d", "text": "Imposer une auto-médication systématique tous les mois", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Le plan d'action = auto-gestion. Objectif : raccourcir le délai entre les premiers signes d'exacerbation et le début du traitement (corticoïde ± antibiotique), ce qui réduit l'aggravation et les hospitalisations. Il NE remplace PAS le traitement de fond (qui continue) ni le suivi médical (le patient doit notifier chaque utilisation). Pas d'auto-médication 'préventive' systématique.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

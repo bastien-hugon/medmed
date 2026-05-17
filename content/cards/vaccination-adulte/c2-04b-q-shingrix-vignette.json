@@ -1,0 +1,26 @@
+{
+  "id": "vaccination-adulte-c2-q04-shingrix-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient de 55 ans, sous chimiothérapie pour un lymphome, vous demande s'il peut être vacciné contre le zona. Quel vaccin proposer ?",
+  "choices": [
+    {"id": "a", "text": "Zostavax (vaccin vivant atténué), c'est le vaccin de référence.", "correct": false},
+    {"id": "b", "text": "Aucun vaccin zona n'est utilisable chez l'immunodéprimé.", "correct": false},
+    {"id": "c", "text": "Shingrix (recombinant adjuvanté), il est utilisable chez l'immunodéprimé à partir de 18 ans, 2 doses M0-M2.", "correct": true},
+    {"id": "d", "text": "Il faut attendre 65 ans, indépendamment de son immunodépression.", "correct": false}
+  ],
+  "expected": ["c"],
+  "rationale": "Le Shingrix est un vaccin RECOMBINANT (protéine gE de VZV) + adjuvant — donc NON vivant, autorisé chez l'immunodéprimé. Indications françaises 2025 : (1) tous les adultes ≥ 65 ans ; (2) adultes immunodéprimés ≥ 18 ans (cancer, biothérapies, post-greffe, VIH...). Schéma : 2 doses à 2 mois d'intervalle (M0, M2). L'ancien Zostavax (vivant) est CI chez l'immunodéprimé et n'est plus utilisé en France.",
+  "tags": {
+    "system": ["infectieux", "prevention", "dermatologie"],
+    "sdd": ["vaccination", "zona"],
+    "item_edn": [143, 167],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/Zona",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

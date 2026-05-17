@@ -1,0 +1,20 @@
+{
+  "id": "saos-c1-03c-c-hypopnee-definition",
+  "kind": "cloze",
+  "prompt": "Une HYPOPNÉE se définit par une réduction du flux d'air d'au moins ___ % pendant plus de ___ secondes, associée à une baisse de la ___ en oxygène ou à un ___ visible à l'EEG.",
+  "expected": ["30", "10", "saturation", "microéveil"],
+  "rationale": "Critères AASM 2012 (consensuels et repris en France) : réduction du flux ≥ 30 % pendant > 10 s, avec une chute de SaO₂ ≥ 3 % OU un microéveil cortical. On exige donc à la fois une dimension respiratoire (baisse de flux) ET une conséquence (oxygène ou sommeil) pour qu'une hypopnée 'compte' dans l'IAH.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

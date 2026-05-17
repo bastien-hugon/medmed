@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c1-q01-cholesterol-origine",
+  "kind": "cloze",
+  "prompt": "Le cholestérol qui circule dans ton sang vient majoritairement du ___ (~___ %), et minoritairement de l'___.",
+  "expected": ["foie", "70", "alimentation"],
+  "rationale": "Environ 70 % du cholestérol sanguin est SYNTHÉTISÉ par le foie, et seulement ~30 % provient de l'alimentation. Cette répartition est cruciale en pratique : un régime strict ne baisse en général le LDL que de 5-10 %, parce que le foie compense. C'est pour ça que, pour atteindre des cibles strictes, on doit souvent recourir à une statine (qui bloque la synthèse hépatique).",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

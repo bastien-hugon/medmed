@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c1-q03-triglycerides-stockage",
+  "kind": "free-recall",
+  "prompt": "À quoi servent physiologiquement les triglycérides, et où sont-ils stockés ?",
+  "expected": [
+    "stockage de l'énergie",
+    "tissu adipeux",
+    "cellules graisseuses",
+    "réserve énergétique",
+    "graisse"
+  ],
+  "rationale": "Les triglycérides sont la principale FORME DE STOCKAGE de l'énergie chez l'humain. Quand on mange plus que nécessaire, le foie transforme l'excédent (sucres et graisses) en TG, expédiés sous forme de VLDL vers le TISSU ADIPEUX (cellules graisseuses, dont l'adipocyte) pour stockage long terme. En période de jeûne, ils sont relibérés sous forme d'acides gras pour fournir de l'énergie aux muscles.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

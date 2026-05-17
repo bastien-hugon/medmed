@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-m01-ic-pompe-vraies",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant le mécanisme général de l'insuffisance cardiaque (IC).",
+  "choices": [
+    { "id": "a", "text": "Le cœur est une pompe qui n'arrive plus à propulser assez de sang vers les organes", "correct": true },
+    { "id": "b", "text": "Le sang stagne en AMONT du ventricule défaillant (poumons si VG, veines systémiques si VD)", "correct": true },
+    { "id": "c", "text": "Le sang circule normalement, c'est juste sa viscosité qui augmente", "correct": false },
+    { "id": "d", "text": "Une IC peut exister avec une FEVG normale (problème de remplissage, pas d'éjection)", "correct": true },
+    { "id": "e", "text": "L'IC est forcément réversible avec un traitement médicamenteux", "correct": false },
+    { "id": "f", "text": "Une HTA chronique mal soignée peut finir par causer une IC", "correct": true }
+  ],
+  "expected": ["a", "b", "d", "f"],
+  "rationale": "IC = pompe défaillante → stagnation en amont (poumons / veines systémiques). Elle peut survenir avec FEVG préservée (ICFEp, problème diastolique). Ce n'est généralement pas réversible : on stabilise, on freine, on évite la décompensation. L'HTA chronique fatigue le myocarde et est une cause classique d'IC. La viscosité du sang n'a rien à voir.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

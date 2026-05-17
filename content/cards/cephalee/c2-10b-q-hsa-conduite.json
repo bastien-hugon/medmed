@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c2-q10b-hsa-conduite",
+  "kind": "qcm-vignette",
+  "prompt": "Patiente migraineuse connue, 40 ans, vient pour une céphalée pulsatile installée brutalement en 1 minute pendant un effort, intensité 9/10, qui 'ne ressemble pas du tout' à ses migraines habituelles. Examen normal. Conduite immédiate la plus appropriée ?",
+  "choices": [
+    { "id": "a", "text": "Donner un sumatriptan oral et revoir si pas d'amélioration", "correct": false },
+    { "id": "b", "text": "Scanner cérébral sans injection en URGENCE pour éliminer une HSA", "correct": true },
+    { "id": "c", "text": "Bilan biologique standard à faire dans la semaine", "correct": false },
+    { "id": "d", "text": "Rassurer car elle est migraineuse connue", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Deux drapeaux rouges réunis : 1) céphalée 'thunderclap' (pic en < 5 min), 2) changement majeur du caractère habituel ('pas comme d'habitude') chez une migraineuse connue. L'antécédent de migraine N'EXCLUT PAS une HSA. Scanner cérébral non injecté en urgence (sensibilité optimale dans les 6 premières heures), suivi d'une PL si scanner négatif et suspicion forte. Donner un triptan = faute grave (masque le diagnostic, vasoconstricteur risqué si AVC concomitant).",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "hsa", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

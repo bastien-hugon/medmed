@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c2-m06-secondaire-indications",
+  "kind": "qcm-multi",
+  "prompt": "Cochez toutes les situations qui définissent une PRÉVENTION SECONDAIRE (cible LDL ≤ 2,0 mmol/L, atorvastatine 80 mg d'emblée).",
+  "choices": [
+    { "id": "a", "text": "Infarctus du myocarde (avec ou sans stent).", "correct": true },
+    { "id": "b", "text": "Angor stable / angine de poitrine documentée.", "correct": true },
+    { "id": "c", "text": "AVC ischémique ou AIT.", "correct": true },
+    { "id": "d", "text": "AOMI (artériopathie oblitérante des membres inférieurs).", "correct": true },
+    { "id": "e", "text": "Revascularisation coronaire (stent ou pontage).", "correct": true },
+    { "id": "f", "text": "HTA contrôlée, sans aucun événement CV.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Prévention SECONDAIRE = patient avec une MCV (maladie cardiovasculaire) AVÉRÉE : infarctus, angor documenté, AVC, AIT, AOMI, revascularisation (stent, pontage). Tous ces patients ont déjà des plaques significatives et un risque de récidive élevé. NICE : atorvastatine 80 mg D'EMBLÉE, quel que soit le LDL initial. Une HTA contrôlée sans événement n'est PAS de la prévention secondaire — elle reste de la prévention primaire.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

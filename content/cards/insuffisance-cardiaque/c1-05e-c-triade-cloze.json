@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c1-c05e-triade-cloze",
+  "kind": "cloze",
+  "prompt": "La triade clinique évocatrice d'IC chez l'adulte associe : ___, œdèmes des MI et ___ d'effort.",
+  "expected": ["dyspnée", "fatigue"],
+  "rationale": "Dyspnée + œdèmes + fatigue d'effort = trépied symptomatique. Aucun signe pris seul n'est spécifique, mais ensemble chez un patient à risque ils orientent fortement et justifient un NT-proBNP.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

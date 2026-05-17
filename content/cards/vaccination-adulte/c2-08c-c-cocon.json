@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-c08-cocon",
+  "kind": "cloze",
+  "prompt": "Vacciner l'entourage proche (famille, soignants) d'un patient immunodéprimé pour le protéger indirectement s'appelle la stratégie de ___.",
+  "expected": ["cocon"],
+  "rationale": "Stratégie de COCON = vacciner les contacts proches d'une personne fragile qui répond mal aux vaccins (immunodéprimé) ou qui ne peut pas être vaccinée (nourrisson < 6 mois pour la grippe). Objectif : couper les chaînes de transmission. Application typique : grippe et coqueluche autour du nouveau-né ; grippe et COVID autour de l'immunodéprimé ; ROR autour d'un sujet non immunisé sans pouvoir l'être directement.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "immunodepression", "cocon"],
+    "item_edn": [143, 187],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

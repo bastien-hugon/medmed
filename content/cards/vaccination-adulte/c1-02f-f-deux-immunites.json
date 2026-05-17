@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c1-f02-deux-immunites",
+  "kind": "free-recall",
+  "prompt": "Cite les DEUX grands versants de l'immunité spécifique adaptative (mobilisée par les vaccins) et l'acteur principal de chacun.",
+  "expected": ["humorale", "cellulaire", "anticorps", "lymphocytes B", "lymphocytes T"],
+  "rationale": "1. HUMORALE = anticorps produits par les lymphocytes B (circulent dans les humeurs/liquides, neutralisent et marquent). 2. CELLULAIRE = lymphocytes T (cytotoxiques tuent les cellules infectées ; auxiliaires coordonnent). Les vaccins inactivés sollicitent surtout l'immunité humorale ; les vaccins vivants atténués et ARNm sollicitent les deux versants. Mnémo : B comme Balles à distance, T comme Tueurs au contact.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Immunit%C3%A9_acquise",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c1-q04e-co-24h",
+  "kind": "cloze",
+  "prompt": "Après l'arrêt de la cigarette, le monoxyde de carbone (CO) expiré redevient normal en environ ___ heures.",
+  "expected": ["24"],
+  "rationale": "Le CO a une demi-vie de quelques heures et est éliminé en ~24 h après la dernière cigarette. C'est ce qui rend le cotesteur de CO si utile en consultation de sevrage : il OBJECTIVE la 'fraîcheur' de l'abstinence sur les dernières 24 heures. Excellent outil de motivation : 'vous étiez à 22 ppm avant, vous êtes à 6 ppm aujourd'hui.'",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

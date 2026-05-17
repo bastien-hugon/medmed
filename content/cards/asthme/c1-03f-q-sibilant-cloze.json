@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c1-q03f-sibilant-cloze",
+  "kind": "cloze",
+  "prompt": "Le sibilant de l'asthme est typiquement entendu à l'___ (phase respiratoire) et de manière ___ (uni- ou bilatérale) à l'auscultation.",
+  "expected": ["expiration", "bilatérale"],
+  "rationale": "Sibilant asthme = expiratoire + bilatéral + diffus. Le caractère bilatéral diffus distingue l'asthme d'un obstacle focal (corps étranger, tumeur), pour lesquels le sibilant est unilatéral. Le caractère expiratoire vient de la dynamique : à l'expiration, les bronches se ferment davantage sous la pression intrathoracique, ce qui amplifie le rétrécissement et le sifflement.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

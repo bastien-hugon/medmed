@@ -1,0 +1,22 @@
+{
+  "id": "depression-c2-s03e-less-severe-pas-AD",
+  "kind": "sct",
+  "prompt": "Mme Bouchet, 27 ans, PHQ-9 à 12, less severe. Pas d'idées suicidaires, fonctionnement préservé. Vous envisagez de proposer en 1ère intention une activation comportementale + un self-help guidé, sans antidépresseur.",
+  "hypothesis": "Prise en charge type \"less severe\" : intervention psychothérapeutique en 1ère intention, sans AD.",
+  "new_info": "Vous apprenez qu'elle a déjà eu un EDC il y a 4 ans, traité par sertraline avec une excellente réponse en 6 semaines et tolérance parfaite. Elle vous dit \"si ça avait marché la dernière fois, je préfère reprendre la même chose\".",
+  "expected": "affaiblit",
+  "rationale": "Un antécédent de bonne réponse à un AD spécifique est une INDICATION VALIDE par NICE 2022 pour proposer cet AD en 1ère intention, MÊME en less severe (Rec 1.5.3 + 1.4.18). Le \"shared decision-making\" prime : préférence patiente éclairée + historique favorable = AD pertinent. L'hypothèse \"psychothérapie d'abord\" est AFFAIBLIE par ce nouveau contexte — la sertraline est un choix raisonnable, voire le meilleur ici. Décision partagée.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

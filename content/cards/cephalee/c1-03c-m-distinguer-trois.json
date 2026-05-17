@@ -1,0 +1,28 @@
+{
+  "id": "cephalee-c1-m03c-distinguer-trois",
+  "kind": "qcm-multi",
+  "prompt": "Patient homme 35 ans, crises STRICTEMENT unilatérales péri-orbitaires gauches, BRÈVES (45 min), ULTRA-sévères, plusieurs par jour pendant 3 semaines. Œil gauche rouge larmoyant, narine gauche bouchée. Cochez TOUS les éléments cohérents avec une algie vasculaire de la face (AVF).",
+  "choices": [
+    { "id": "a", "text": "La latéralité strictement unilatérale du même côté à chaque crise", "correct": true },
+    { "id": "b", "text": "La durée brève (15-180 min)", "correct": true },
+    { "id": "c", "text": "Les signes autonomiques homolatéraux (œil rouge, larmes, nez bouché)", "correct": true },
+    { "id": "d", "text": "La survenue 'en salve' (cluster) avec rémissions entre les bouts", "correct": true },
+    { "id": "e", "text": "L'agitation pendant la crise (le patient ne peut PAS rester allongé)", "correct": true },
+    { "id": "f", "text": "Le caractère pulsatile avec photophobie et phonophobie marquées", "correct": false },
+    { "id": "g", "text": "La durée de 24 heures par crise", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "L'AVF est caractérisée par : unilatéralité STRICTE, durée < 3 h, signes autonomiques homolatéraux (œil rouge, larmes, nez bouché, ptosis/myosis), agitation (le patient marche, contraste avec le migraineux qui s'allonge), et organisation EN SALVE. Photo/phonophobie marquées et durée 24 h évoquent plutôt une migraine. Le tableau de la vignette est typique d'AVF.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "avf"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

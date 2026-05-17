@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c1-q03-paravertebraux-role",
+  "kind": "cloze",
+  "prompt": "Les muscles paravertébraux sont comparés aux ___ qui tiennent un mât de bateau : sans eux, la colonne (le mât) ne tient pas debout.",
+  "expected": ["haubans"],
+  "rationale": "Haubans : les câbles qui maintiennent un mât en tension. Image-clé pour expliquer pourquoi le maintien actif de la musculature paravertébrale est le pilier thérapeutique de la lombalgie commune — pas le repos.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

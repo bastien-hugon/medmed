@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c1-q13-insuline-cloze-pancreas",
+  "kind": "cloze",
+  "prompt": "L'insuline est une hormone fabriquée par le ___.",
+  "expected": ["pancréas", "pancreas"],
+  "rationale": "Pancréas : organe en forme de banane, derrière l'estomac. Plus précisément, ce sont les cellules bêta des îlots de Langerhans qui sécrètent l'insuline en réponse à l'élévation de la glycémie. Pas le foie, pas les reins, pas l'estomac.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

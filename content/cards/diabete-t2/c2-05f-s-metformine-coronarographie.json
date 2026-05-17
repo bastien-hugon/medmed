@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c2-s05-metformine-coronarographie",
+  "kind": "sct",
+  "hypothesis": "M. N., diabétique sous metformine 2000 mg/j, doit avoir une coronarographie demain. Il est sûr de continuer son traitement habituel sans modification.",
+  "new_info": "L'examen comporte l'injection intraveineuse de produit de contraste iodé, et le patient a une fonction rénale limite (DFG ~ 50 ml/min).",
+  "prompt": "Cette information modifie-t-elle l'hypothèse 'continuer la metformine sans changement' ?",
+  "expected": "affaiblit",
+  "rationale": "L'injection de produit de contraste iodé peut provoquer une néphropathie aiguë → cumul d'IRC + metformine → risque d'acidose lactique. Recommandations : suspendre la metformine le JOUR de l'examen et 48 h après, vérifier le DFG avant reprise. Le DFG limite à 50 renforce cette précaution. Hypothèse 'continuer sans changement' clairement affaiblie : il faut suspendre temporairement.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Antidiab%C3%A9tique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

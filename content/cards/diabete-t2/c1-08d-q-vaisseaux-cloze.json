@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c1-q23-vaisseaux-cloze",
+  "kind": "cloze",
+  "prompt": "Les complications du diabète touchant les TRÈS PETITS vaisseaux (rétine, rein, nerfs) sont dites ___.",
+  "expected": ["microvasculaires", "microvasculaire"],
+  "rationale": "Microvasculaires : 'micro' = petit, capillaires. Les organes cibles emblématiques sont les 3 R : Rétine, Rein, neRfs. À opposer aux macrovasculaires (grosses artères : cœur, cerveau, jambes). Cette distinction structure tout le suivi du diabétique.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

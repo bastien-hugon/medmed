@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q03d-snoop-cloze",
+  "kind": "cloze",
+  "prompt": "Mnémonique SNNOOP10 : ___ symptoms (fièvre, perte de poids), ___ symptoms (déficit), ___ sudden (coup de tonnerre), ___ > 50 ans, ___ change (céphalée habituelle qui change), ___ (céphalée orthostatique), ___ by Valsalva, papillœdème, grossesse, ___ eye (œil rouge douloureux), ___ (traumatisme récent).",
+  "expected": ["Systemic", "Neurologic", "Onset", "Older", "Pattern", "Positional", "Precipitated", "Painful", "Posttraumatic"],
+  "rationale": "SNNOOP10 (10 'P' au sens large) est un outil mnémotechnique anglo-saxon largement repris dans la littérature. Il permet de balayer rapidement les principales catégories de drapeaux rouges sans en oublier. Chaque P ouvre une étiologie : Systemic → Horton/infection, Onset sudden → HSA, Pattern change → événement vasculaire intercurrent, Positional → hypotension du LCR, etc.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

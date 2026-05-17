@@ -1,0 +1,30 @@
+{
+  "id": "vaccination-adulte-c2-m05-meningo-indications-adulte",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations qui constituent chez l'ADULTE une indication ciblée au vaccin méningocoque ACWY ou B.",
+  "choices": [
+    {"id": "a", "text": "Voyage en ceinture africaine de la méningite", "correct": true},
+    {"id": "b", "text": "Pèlerinage à La Mecque (Hajj, Omra) — vaccin ACWY obligatoire pour le visa", "correct": true},
+    {"id": "c", "text": "Étudiant en formation médicale ou paramédicale (rappel ACWY)", "correct": true},
+    {"id": "d", "text": "Personne âgée de 70 ans en bonne santé sans projet de voyage", "correct": false},
+    {"id": "e", "text": "Patient sous eculizumab (anti-C5) ou avec déficit en complément", "correct": true},
+    {"id": "f", "text": "Splénectomie / asplénie fonctionnelle", "correct": true},
+    {"id": "g", "text": "Personnel de laboratoire manipulant Neisseria meningitidis", "correct": true},
+    {"id": "h", "text": "Contact proche d'un cas index d'infection invasive à méningocoque", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "e", "f", "g", "h"],
+  "rationale": "Adulte → indications CIBLÉES (pas de vaccination universelle hors rattrapage ado/jeune adulte) : (1) VOYAGE : ceinture africaine, Mecque (ACWY) ; (2) PROFESSION : étudiants santé, soignants exposés, labo manipulant méningo ; (3) IMMUNODÉPRESSION particulière : déficit en complément, eculizumab (anti-C5 — bloque le complément, fragilise spécifiquement contre méningo → vaccin AVANT le traitement), asplénie/splénectomie ; (4) CAS-CONTACT : autour d'un cas index d'IIM. L'âge avancé n'est PAS une indication.",
+  "tags": {
+    "system": ["infectieux", "prevention", "neurologie"],
+    "sdd": ["vaccination", "meningocoque"],
+    "item_edn": [143, 151],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-a-prevention-vaccinale/infections-invasives-a-meningocoque",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

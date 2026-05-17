@@ -1,0 +1,28 @@
+{
+  "id": "gyneco-prevention-c1-m04e-progestatifs-seuls-formes",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les FORMES qui appartiennent à la famille des PROGESTATIFS SEULS.",
+  "choices": [
+    { "id": "a", "text": "Pilule micro-dosée (désogestrel, lévonorgestrel)", "correct": true },
+    { "id": "b", "text": "Implant sous-cutané (étonogestrel)", "correct": true },
+    { "id": "c", "text": "Injection intramusculaire (acétate de médroxyprogestérone)", "correct": true },
+    { "id": "d", "text": "DIU au lévonorgestrel (DIU hormonal)", "correct": true },
+    { "id": "e", "text": "Anneau vaginal combiné", "correct": false },
+    { "id": "f", "text": "DIU au cuivre", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "La famille 'progestatif seul' regroupe TOUTES les formes contenant uniquement un progestatif : pilule micro-dosée, implant, injection trimestrielle, DIU au lévonorgestrel. L'anneau vaginal contient un œstrogène + un progestatif (= œstro-progestatif). Le DIU au cuivre est sans hormone. Ce regroupement est utile parce que toutes ces formes partagent les mêmes indications (œstro contre-indiqués) et le même profil de saignements irréguliers/aménorrhée.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

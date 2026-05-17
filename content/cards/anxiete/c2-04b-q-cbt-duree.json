@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q04b-cbt-duree",
+  "kind": "qcm-vignette",
+  "prompt": "Selon NICE, quelle est la durée recommandée d'une psychothérapie cognitivo-comportementale (CBT) pour un TAG à l'étape 3 ?",
+  "choices": [
+    { "id": "a", "text": "3 à 5 séances de 30 minutes", "correct": false },
+    { "id": "b", "text": "12 à 15 séances HEBDOMADAIRES d'environ 1 heure", "correct": true },
+    { "id": "c", "text": "Une séance unique de 2 heures", "correct": false },
+    { "id": "d", "text": "Au moins 50 séances sur 2 ans", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Pour le TAG, NICE précise : 12-15 séances HEBDOMADAIRES d'1h, soit 3-4 mois de thérapie. C'est PLUS LONG que la CBT du trouble panique (7-14h totales, max 4 mois). À distinguer : pour la CBT panique, l'unité est l'HEURE totale ; pour la CBT TAG, c'est le nombre de SÉANCES. Pour le patient, c'est un engagement de 3-4 mois — à expliquer dès le départ. Pas une 'pilule miracle' ni un format ultra-bref.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "depression-c2-q08e-phases-traitement-cloze",
+  "kind": "cloze",
+  "prompt": "Le traitement de la dépression se découpe en trois phases : phase AIGUË (jusqu'à la rémission), phase de ___ (6 mois post-rémission), puis phase d'entretien (au-delà, si indiqué).",
+  "expected": ["consolidation"],
+  "rationale": "Trois phases distinctes du traitement : (1) AIGUË : début → rémission (typiquement 2-6 mois), objectif = obtenir la rémission. (2) CONSOLIDATION : 6 mois post-rémission, objectif = prévenir la rechute précoce, maintenir la même dose ayant fait la rémission. (3) ENTRETIEN : au-delà, indiquée si FdR (≥ 3 épisodes, sévérité, comorbidités). Découpe utile pour la psychoéducation patient.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

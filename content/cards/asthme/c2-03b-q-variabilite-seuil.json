@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c2-q03b-variabilite-seuil",
+  "kind": "cloze",
+  "prompt": "Le DEP biquotidien sur 2 semaines est en faveur d'un asthme si la variabilité moyenne est d'au moins ___ %.",
+  "expected": ["20"],
+  "rationale": "Seuil NG245 étape 3 = variabilité DEP ≥ 20 %. Calcul : (DEP_max - DEP_min) / DEP_max × 100, moyenné sur les jours mesurés. Chez un sujet sain, variabilité < 10 %. À distinguer des autres seuils : 12 % (réversibilité spiro), 50 ppb (FeNO adulte), 35 ppb (FeNO enfant).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

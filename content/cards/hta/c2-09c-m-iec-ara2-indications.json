@@ -1,0 +1,28 @@
+{
+  "id": "hta-c2-m09-iec-ara2-indications",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations cliniques pour lesquelles un IEC ou un ARA2 est PARTICULIÈREMENT INDIQUÉ chez l'hypertendu (au-delà du simple effet sur la PA).",
+  "choices": [
+    {"id": "a", "text": "Diabète avec microalbuminurie", "correct": true},
+    {"id": "b", "text": "Insuffisance rénale chronique", "correct": true},
+    {"id": "c", "text": "Protéinurie", "correct": true},
+    {"id": "d", "text": "Insuffisance cardiaque", "correct": true},
+    {"id": "e", "text": "Grossesse en cours", "correct": false},
+    {"id": "f", "text": "Sténose bilatérale des artères rénales", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "IEC/ARA2 = molécules de choix dans le diabète + microalbuminurie, l'IRC, la protéinurie, l'insuffisance cardiaque (effet néphroprotecteur et cardioprotecteur indépendants de l'effet PA). Mais : CONTRE-INDIQUÉS en cas de GROSSESSE (tératogènes) et de sténose bilatérale des artères rénales (risque d'IRA fonctionnelle par perte de l'autorégulation glomérulaire).",
+  "tags": {
+    "system": ["cardiovasculaire", "rénal", "endocrinologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

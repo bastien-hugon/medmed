@@ -1,0 +1,24 @@
+{
+  "id": "irc-c1-f08-causes-mrc",
+  "kind": "free-recall",
+  "prompt": "Cite les TROIS grandes causes de MRC en France et leur poids relatif approximatif.",
+  "expected": [
+    "diabète ~ 1/3 des cas (atteinte glomérulaire par hyperglycémie chronique)",
+    "HTA ~ 1/4 des cas (pression artérielle élevée use le glomérule et le tubule)",
+    "glomérulopathies (auto-immunes type lupus/IgA, héréditaires type Alport/polykystose, infectieuses) — poids variable mais important"
+  ],
+  "rationale": "Trio à retenir : diabète > HTA > glomérulopathies. C'est cette épidémiologie qui justifie le dépistage cible : tout diabétique + tout hypertendu = bilan rénal annuel. Sur le plan thérapeutique, les deux premières causes sont accessibles via le contrôle glycémique et tensionnel — ce qui rend la prévention secondaire efficace.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

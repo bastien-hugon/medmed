@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q04e-oedeme-unilateral",
+  "kind": "qcm-vignette",
+  "prompt": "Mme V., 58 ans, antécédent d'IC, consulte pour un œdème du mollet droit isolé apparu en 24 h, douloureux, chaud, avec rougeur. Quel diagnostic faut-il évoquer EN PRIORITÉ ?",
+  "choices": [
+    { "id": "a", "text": "Décompensation cardiaque", "correct": false },
+    { "id": "b", "text": "Thrombose veineuse profonde (phlébite)", "correct": true },
+    { "id": "c", "text": "Insuffisance veineuse chronique simple", "correct": false },
+    { "id": "d", "text": "Œdème allergique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Œdème UNILATÉRAL + douleur + chaleur + rougeur + apparition rapide = TVP jusqu'à preuve du contraire. Urgence : score de Wells, D-dimères, écho-doppler veineux. La décompensation cardiaque donne un œdème BILATÉRAL et symétrique. NE PAS rater une TVP chez un patient IC (au contraire, IC = facteur de risque de TVP par immobilisation et stase).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234, 226],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

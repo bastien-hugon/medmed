@@ -1,0 +1,20 @@
+{
+  "id": "gyneco-prevention-c1-q01d-col-cloze",
+  "kind": "cloze",
+  "prompt": "Le col de l'utérus est la partie ___ (haute / basse) de l'utérus, qui fait la jonction avec le vagin.",
+  "expected": ["basse"],
+  "rationale": "L'utérus = poire renversée. La partie haute, arrondie, c'est le fundus. La partie basse, cylindrique, qui plonge dans le vagin = le col. C'est cette portion qu'on prélève lors d'un frottis et qui est la cible privilégiée du HPV.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

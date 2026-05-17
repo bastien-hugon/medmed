@@ -1,0 +1,28 @@
+{
+  "id": "diabete-t2-c2-m07-bilan-annuel-multi",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les examens qui font partie du bilan annuel standard du diabétique de type 2 (HAS).",
+  "choices": [
+    { "id": "a", "text": "Fond d'œil ou rétinographie", "correct": true },
+    { "id": "b", "text": "Créatinine sanguine + rapport albumine/créatinine urinaire", "correct": true },
+    { "id": "c", "text": "Examen des pieds + test au monofilament 10 g", "correct": true },
+    { "id": "d", "text": "ECG de repos", "correct": true },
+    { "id": "e", "text": "Bilan lipidique (LDL, HDL, triglycérides)", "correct": true },
+    { "id": "f", "text": "IRM cérébrale systématique", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Bilan annuel = yeux (a), reins (b), pieds (c), cœur (d-e). À cela s'ajoute l'examen bucco-dentaire annuel. L'IRM cérébrale n'est PAS systématique (f) — réservée à des indications cliniques (suspicion d'AVC, troubles neurologiques). Mnémo : 'YEUX – REINS – PIEDS – CŒUR – DENTS'.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

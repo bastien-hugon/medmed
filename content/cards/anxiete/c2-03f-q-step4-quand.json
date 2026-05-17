@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q03f-step4-quand",
+  "kind": "qcm-vignette",
+  "prompt": "M. K., 38 ans, TAG sévère, a essayé sans succès une CBT bien menée, puis sertraline 200 mg/j pendant 12 semaines, puis venlafaxine 225 mg/j pendant 10 semaines. Il décrit maintenant des idées suicidaires fluctuantes. Quel niveau du stepped care doit-on solliciter ?",
+  "choices": [
+    { "id": "a", "text": "Étape 2 — auto-aide guidée à reprendre", "correct": false },
+    { "id": "b", "text": "Étape 4 — adressage en soins spécialisés (psychiatre, centre dédié)", "correct": true },
+    { "id": "c", "text": "Étape 1 — surveillance active sur 6 mois", "correct": false },
+    { "id": "d", "text": "Étape 3 — essayer un autre SSRI avant tout", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Critères d'orientation à l'étape 4 : (1) échec de plusieurs interventions d'étape 3, (2) comorbidités complexes (dépression sévère, addiction), (3) risque suicidaire — ici présent. À l'étape 4, le spécialiste peut proposer : combinaison psycho + pharmaco supervisée, traitements de 2e/3e ligne (prégabaline, tricycliques), évaluation hospitalière partielle ou complète. Devant des idées suicidaires fluctuantes, évaluation du risque immédiat indispensable (échelle, plan, moyens, antécédents) avant toute autre décision.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

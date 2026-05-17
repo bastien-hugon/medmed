@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-q01-ckdepi-variables",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle variable n'entre PAS dans la formule CKD-EPI 2021 utilisée par les laboratoires français pour estimer le DFG ?",
+  "choices": [
+    { "id": "a", "text": "La créatinine sanguine", "correct": false },
+    { "id": "b", "text": "L'âge du patient", "correct": false },
+    { "id": "c", "text": "Le sexe du patient", "correct": false },
+    { "id": "d", "text": "L'origine ethnique (coefficient race)", "correct": true }
+  ],
+  "expected": ["d"],
+  "rationale": "La formule CKD-EPI 2021 retire le coefficient 'race' présent dans les anciennes versions (CKD-EPI 2009). C'est une évolution majeure défendue pour des raisons d'équité et de validité scientifique. Les trois variables restantes sont : créatinine, âge, sexe. NICE NG203 (mise à jour 2021) a adopté cette version sans coefficient race.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

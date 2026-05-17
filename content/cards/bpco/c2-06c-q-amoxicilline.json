@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q06c-amoxicilline",
+  "kind": "qcm-vignette",
+  "prompt": "M. R., exacerbation de BPCO avec crachats devenus purulents (jaune-vert) et dyspnée majorée. Quel antibiotique en 1ère intention (NICE NG114) ?",
+  "choices": [
+    { "id": "a", "text": "Amoxicilline 500 mg, 3 fois par jour, pendant 5 jours", "correct": true },
+    { "id": "b", "text": "Ceftriaxone 2 g IV, pendant 10 jours en ambulatoire", "correct": false },
+    { "id": "c", "text": "Vancomycine per os, 10 jours", "correct": false },
+    { "id": "d", "text": "Métronidazole 500 mg ×3/j, 7 jours", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Antibiothérapie 1ère intention NICE NG114 pour exacerbation de BPCO bactérienne en ville : AMOXICILLINE 500 mg × 3/j pendant 5 jours. Alternatives selon allergie / résistance : doxycycline ou clarithromycine. La ceftriaxone IV n'a pas sa place en ville. Vancomycine et métronidazole ciblent des germes non concernés ici.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

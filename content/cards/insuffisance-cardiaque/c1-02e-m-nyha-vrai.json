@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-m02e-nyha-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la classification NYHA.",
+  "choices": [
+    { "id": "a", "text": "Elle évalue le retentissement de la dyspnée sur l'activité quotidienne", "correct": true },
+    { "id": "b", "text": "Elle comporte 4 classes (I à IV)", "correct": true },
+    { "id": "c", "text": "Elle se base sur la FEVG mesurée à l'écho", "correct": false },
+    { "id": "d", "text": "Elle peut évoluer dans le temps chez un même patient", "correct": true },
+    { "id": "e", "text": "NYHA III-IV est un critère d'orientation vers une équipe spécialisée (MDT)", "correct": true },
+    { "id": "f", "text": "Elle se mesure par un dosage sanguin", "correct": false }
+  ],
+  "expected": ["a", "b", "d", "e"],
+  "rationale": "NYHA = échelle CLINIQUE en 4 classes, basée sur la limitation par la dyspnée. Elle est indépendante de la FEVG (ce sont deux dimensions complémentaires : FEVG = structurel/échographique ; NYHA = fonctionnel/clinique). Elle évolue dans le temps : c'est le baromètre de suivi à chaque consultation. NYHA III-IV → considérer une MDT spécialisée (NICE NG106).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

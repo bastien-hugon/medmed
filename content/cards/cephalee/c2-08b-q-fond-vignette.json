@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c2-q08b-fond-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Femme de 25 ans, sans contraception, sans projet de grossesse immédiat mais en âge de procréer. Migraine sans aura, 6 jours/mois invalidants malgré un bon traitement de crise. Vous décidez d'introduire un traitement de fond. Lequel est À ÉVITER en première intention ?",
+  "choices": [
+    { "id": "a", "text": "Propranolol", "correct": false },
+    { "id": "b", "text": "Amitriptyline", "correct": false },
+    { "id": "c", "text": "Topiramate", "correct": true },
+    { "id": "d", "text": "Riboflavine 400 mg/j", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Le topiramate est TÉRATOGÈNE (fentes labio-palatines, hypospadias, ↘ QI). Contre-indication relative chez la femme en âge de procréer sans Programme de Prévention de Grossesse (contraception efficace + suivi). Le propranolol (bêtabloquant) et l'amitriptyline (tricyclique) sont les alternatives raisonnables. La riboflavine (vit B2) 400 mg/j est une option bien tolérée parfois efficace. Adapter au profil : asthme → éviter propranolol ; HTA → propranolol bonus ; insomnie → amitriptyline le soir.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

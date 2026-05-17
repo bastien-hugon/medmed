@@ -1,0 +1,27 @@
+{
+  "id": "anxiete-c2-q06f-bzd-suffixes",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces molécules, laquelle n'est PAS une benzodiazépine ?",
+  "choices": [
+    { "id": "a", "text": "Alprazolam (Xanax)", "correct": false },
+    { "id": "b", "text": "Bromazépam (Lexomil)", "correct": false },
+    { "id": "c", "text": "Diazépam (Valium)", "correct": false },
+    { "id": "d", "text": "Sertraline (Zoloft)", "correct": true },
+    { "id": "e", "text": "Oxazépam (Seresta)", "correct": false }
+  ],
+  "expected": ["d"],
+  "rationale": "Les BZD sont reconnaissables aux suffixes en '-azépam' (diazépam, bromazépam, oxazépam, lorazépam, prazépam, clonazépam, lormétazépam, témazépam) ou '-azolam' (alprazolam, midazolam, triazolam). La SERTRALINE est un SSRI (inhibiteur de la recapture de la sérotonine) — pas une BZD. Connaître les classes par leurs suffixes est utile à la prescription : ne pas confondre les BZD anxiolytiques (à risque de dépendance) avec les SSRI antidépresseurs (1ère ligne du TAG selon NICE).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q07e-interdits",
+  "kind": "free-recall",
+  "prompt": "Citez les 2 grandes classes de médicaments à NE PAS DONNER pour le traitement de crise de la migraine (selon NICE / HAS).",
+  "expected": ["opioïdes", "ergots"],
+  "rationale": "À ne PAS donner : 1) OPIOÏDES (codéine, tramadol, morphine) — inefficaces sur la physiopathologie migraineuse, risque MAJEUR de céphalée par abus médicamenteux, dépendance, et hyperalgésie. 2) ERGOTS (ergotamine, dihydroergotamine en monothérapie ambulatoire) — vasoconstriction trop puissante et prolongée, profil d'effets secondaires défavorable, risque d'ergotisme. Message clé NICE/HAS : 'do not offer opioids or ergots for acute migraine'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

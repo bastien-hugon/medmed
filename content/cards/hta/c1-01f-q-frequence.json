@@ -1,0 +1,26 @@
+{
+  "id": "hta-c1-q01c-frequence",
+  "kind": "qcm-vignette",
+  "prompt": "Au repos, combien de fois le cœur bat-il par minute en moyenne chez un adulte sain ?",
+  "choices": [
+    {"id": "a", "text": "Environ 20 fois par minute", "correct": false},
+    {"id": "b", "text": "Environ 70 fois par minute", "correct": true},
+    {"id": "c", "text": "Environ 150 fois par minute", "correct": false},
+    {"id": "d", "text": "Environ 300 fois par minute", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "La fréquence cardiaque normale au repos chez l'adulte est de 60-100 bpm (moyenne ~70). Soit ~100 000 battements/jour, ~2,5 milliards sur une vie. À l'effort, elle peut monter à 150-200 bpm (FC max théorique ≈ 220 - âge). Bradycardie = < 60 bpm, tachycardie = > 100 bpm au repos.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

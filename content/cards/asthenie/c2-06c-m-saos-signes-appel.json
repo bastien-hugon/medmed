@@ -1,0 +1,29 @@
+{
+  "id": "asthenie-c2-m06c-saos-signes-appel",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les signes d'appel qui doivent faire évoquer un SAOS (syndrome d'apnée obstructive du sommeil) devant une fatigue.",
+  "choices": [
+    { "id": "a", "text": "Ronflements sonores, signalés par le ou la partenaire.", "correct": true },
+    { "id": "b", "text": "Pauses respiratoires nocturnes constatées par l'entourage.", "correct": true },
+    { "id": "c", "text": "Somnolence diurne (endormissements en réunion, devant la télé, au volant).", "correct": true },
+    { "id": "d", "text": "Sensation de sommeil non récupérateur dès le réveil.", "correct": true },
+    { "id": "e", "text": "Surpoids/obésité, cou court et large.", "correct": true },
+    { "id": "f", "text": "Insomnie de fin de nuit avec ruminations matinales.", "correct": false },
+    { "id": "g", "text": "Score d'Epworth ≥ 11.", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "g"],
+  "rationale": "Signes d'appel du SAOS : ronflement sonore + pauses respiratoires (témoin) + somnolence diurne (Epworth ≥ 11 anormal) + sommeil non récupérateur + terrain (surpoids, cou court, sexe masculin, > 50 ans). L'insomnie matinale avec ruminations (f) évoque plutôt une dépression. Confirmation diagnostique du SAOS : polygraphie ventilatoire ou polysomnographie (IAH ≥ 5/h avec symptômes ou ≥ 15/h sans). PEC : règles hygiéno-diététiques, PPC si modéré-sévère.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie", "trouble-sommeil"],
+    "item_edn": [246, 110],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

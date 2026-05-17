@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q06c-fevg-calcul",
+  "kind": "qcm-vignette",
+  "prompt": "Le ventricule gauche d'un patient contient 120 mL en fin de diastole et 40 mL en fin de systole. Quelle est sa FEVG ?",
+  "choices": [
+    { "id": "a", "text": "33 %", "correct": false },
+    { "id": "b", "text": "40 %", "correct": false },
+    { "id": "c", "text": "67 %", "correct": true },
+    { "id": "d", "text": "75 %", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "FEVG = (volume éjecté / volume télédiastolique) × 100 = (120 - 40) / 120 × 100 = 80/120 × 100 ≈ 67 %. FEVG ≥ 50 % = normale. Le patient a une fonction systolique préservée.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

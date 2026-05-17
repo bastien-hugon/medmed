@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c1-q04-atherosclerose-cloze",
+  "kind": "cloze",
+  "prompt": "Le terme 'athérosclérose' vient de 'athéro' (= ___) et 'sclérose' (= ___). C'est l'accumulation d'un dépôt graisseux + tissu fibreux dans la paroi de l'___.",
+  "expected": ["bouillie", "durcissement", "artère"],
+  "rationale": "Décomposition étymologique : 'athéro' = bouillie (du grec athera), évoquant le contenu lipidique pâteux ; 'sclérose' = durcissement, la chape fibreuse qui recouvre le dépôt. Le tout se forme dans la paroi de l'ARTÈRE (pas dans la veine — l'athérosclérose est purement artérielle). Cette plaque évolue sur des DÉCENNIES en silence avant de se compliquer.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c1-m03c-modalites-mammographie-depistage",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les modalités VRAIES concernant la mammographie de dépistage organisé du cancer du sein en France.",
+  "choices": [
+    { "id": "a", "text": "Au moins 2 incidences par sein (cranio-caudale + oblique externe)", "correct": true },
+    { "id": "b", "text": "Examen clinique des seins réalisé le même jour", "correct": true },
+    { "id": "c", "text": "Double lecture du cliché si jugé normal par le 1er radiologue", "correct": true },
+    { "id": "d", "text": "Réalisée tous les ans à partir de 40 ans", "correct": false },
+    { "id": "e", "text": "Proposée tous les 2 ans aux femmes de 50 à 74 ans", "correct": true },
+    { "id": "f", "text": "Prise en charge à 100 % sans avance de frais", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "e", "f"],
+  "rationale": "Les 5 modalités du programme organisé : 2 incidences (a), examen clinique associé (b), double lecture des mammos normales (c), tous les 2 ans entre 50 et 74 ans (e), gratuit (f). L'item (d) est faux : pas de mammographie ANNUELLE dans le programme organisé, et pas de début à 40 ans (le bénéfice du dépistage avant 50 ans en population générale n'est pas démontré, et les seins jeunes plus denses dégradent la sensibilité de la mammo). La mammographie annuelle avant 50 ans relève du suivi INDIVIDUEL des femmes à haut risque (BRCA, antécédents familiaux denses).",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

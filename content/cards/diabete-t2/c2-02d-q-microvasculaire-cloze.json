@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q08-microvasculaire-cloze",
+  "kind": "cloze",
+  "prompt": "Le 1er signe biologique d'une atteinte rénale chez le diabétique est l'apparition de protéine (albumine) dans les urines : c'est la ___.",
+  "expected": ["microalbuminurie", "micro-albuminurie"],
+  "rationale": "Microalbuminurie = apparition de petites quantités d'albumine dans les urines (30-300 mg/24 h ou rapport albumine/créatinine 3-30 mg/mmol). C'est le signal d'alarme PRÉCOCE de la néphropathie diabétique, avant même la baisse du DFG. À ce stade, l'évolution peut souvent être ralentie par un meilleur contrôle glycémique, tensionnel, et un IEC/ARA-2.",
+  "tags": {
+    "system": ["endocrinologie", "néphrologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

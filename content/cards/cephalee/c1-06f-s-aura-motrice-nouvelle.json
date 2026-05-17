@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c1-s06f-aura-motrice-nouvelle",
+  "kind": "sct",
+  "prompt": "Patiente de 42 ans, migraineuse avec aura visuelle (scotome scintillant) depuis 15 ans, vient pour une crise typique en cours. Vous évoquez une crise migraineuse classique. Comment cette nouvelle information modifie-t-elle votre hypothèse ?",
+  "hypothesis": "Il s'agit d'une crise habituelle de migraine avec aura visuelle.",
+  "new_info": "La patiente précise que cette fois, AVANT la céphalée, elle a présenté pour la PREMIÈRE FOIS une faiblesse motrice du bras droit qui s'est installée en 30 secondes et qui a persisté 90 minutes.",
+  "expected": "affaiblit",
+  "rationale": "Trois alarmes : 1) symptôme MOTEUR (jamais eu auparavant) — atypique pour l'aura classique de cette patiente, 2) installation BRUTALE en 30 sec — incompatible avec la cinétique graduelle de l'aura migraineuse (≥ 5 min), 3) DURÉE 90 min — dépasse les bornes 5-60 min. Tout cela évoque un AIT/AVC jusqu'à preuve du contraire. Conduite : imagerie en urgence (IRM avec séquences de diffusion), NE PAS donner de triptan (vasoconstricteur, contre-indiqué en cas d'AVC). L'information affaiblit fortement l'hypothèse migraine.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

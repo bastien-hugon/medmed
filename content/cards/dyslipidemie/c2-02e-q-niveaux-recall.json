@@ -1,0 +1,25 @@
+{
+  "id": "dyslipidemie-c2-q02-niveaux-recall",
+  "kind": "free-recall",
+  "prompt": "Cite les 4 NIVEAUX de risque cardiovasculaire utilisés pour classer un patient (selon ESC 2021).",
+  "expected": [
+    "risque faible",
+    "risque modéré",
+    "risque élevé",
+    "risque très élevé"
+  ],
+  "rationale": "Quatre niveaux : FAIBLE, MODÉRÉ, ÉLEVÉ, TRÈS ÉLEVÉ. Chaque niveau correspond à un seuil de risque à 10 ans (variable selon l'âge) ET à des conduites thérapeutiques distinctes : faible = RHD, modéré = RHD + discussion, élevé = statine indiquée, très élevé = statine intensive + cible LDL stricte. Réflexe : 'plus le risque est élevé, plus la cible LDL est BASSE'.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

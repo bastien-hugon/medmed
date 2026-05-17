@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q08b-rehab-indication",
+  "kind": "qcm-vignette",
+  "prompt": "M. P., BPCO, MRC 3, dit qu'il évite de plus en plus de marcher 'parce que ça l'épuise'. Quelle prise en charge non médicamenteuse a démontré l'IMPACT LE PLUS LARGE (↓ dyspnée + ↑ tolérance d'effort + ↑ qualité de vie + ↓ exacerbations) ?",
+  "choices": [
+    { "id": "a", "text": "Un nouvel inhalé en plus", "correct": false },
+    { "id": "b", "text": "La RÉHABILITATION RESPIRATOIRE (programme multidisciplinaire 6-12 semaines)", "correct": true },
+    { "id": "c", "text": "Une cure thermale annuelle isolée", "correct": false },
+    { "id": "d", "text": "Le repos strict à domicile", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La réhabilitation respiratoire combine exercice physique adapté + éducation + soutien nutritionnel et psychologique + kiné, sur 6-12 semaines. C'est l'intervention NON médicamenteuse qui agit sur le plus grand nombre d'axes : dyspnée, tolérance d'effort, qualité de vie, exacerbations, hospitalisations. Le repos accentue le déconditionnement (cercle vicieux). MRC ≥ 3 = indication NICE.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

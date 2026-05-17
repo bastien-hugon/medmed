@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q02-fracture-sans-trauma",
+  "kind": "qcm-vignette",
+  "prompt": "Une vertèbre lombaire peut-elle se fracturer SANS traumatisme important ?",
+  "choices": [
+    { "id": "a", "text": "Non, une fracture vertébrale exige toujours un choc à haute énergie", "correct": false },
+    { "id": "b", "text": "Oui, en cas d'ostéoporose ou de corticothérapie prolongée, une simple chute de sa hauteur ou même un geste banal peut suffire", "correct": true },
+    { "id": "c", "text": "Non, seulement sur os tumoral", "correct": false },
+    { "id": "d", "text": "Oui, mais uniquement chez l'enfant", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Sur os fragilisé (ostéoporose, corticothérapie au long cours), une fracture vertébrale peut survenir sans choc — juste en se baissant, en toussant, ou lors d'une simple chute de sa hauteur. C'est pour cela que les drapeaux rouges incluent corticothérapie et ostéoporose, et que le TOC inclut l'ostéoporose comme contexte autonome.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

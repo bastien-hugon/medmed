@@ -1,0 +1,26 @@
+{
+  "id": "hta-c2-q03b-regle-des-3",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la 'règle des 3' en automesure tensionnelle (AMT) selon la HAS ?",
+  "choices": [
+    {"id": "a", "text": "3 mesures à 3 moments de la journée pendant 3 mois", "correct": false},
+    {"id": "b", "text": "3 mesures le matin avant le petit-déjeuner, 3 mesures le soir avant le coucher, pendant 3 jours consécutifs", "correct": true},
+    {"id": "c", "text": "3 mesures sur 30 minutes, 3 fois par semaine", "correct": false},
+    {"id": "d", "text": "3 mesures, à 3 doigts d'écart sur le bras", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Règle des 3 (AMT/HAS) : 3 mesures le matin (avant petit-déj et médocs) + 3 mesures le soir (avant coucher), pendant 3 jours consécutifs = 18 mesures au total. On espace chaque mesure de 1-2 min. On note tout (PAS, PAD, FC). Le médecin calcule la moyenne (en excluant souvent la 1ère du matin et du soir). Permet d'évaluer la PA dans la vraie vie, hors stress du cabinet.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q06d-implant-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le mécanisme PRINCIPAL d'action de l'implant à l'étonogestrel ?",
+  "choices": [
+    { "id": "a", "text": "Stérilisation de la trompe par effet thermique.", "correct": false },
+    { "id": "b", "text": "Blocage de l'ovulation (constant), avec en plus épaississement de la glaire et amincissement de l'endomètre.", "correct": true },
+    { "id": "c", "text": "Toxicité directe sur les spermatozoïdes par le cuivre.", "correct": false },
+    { "id": "d", "text": "Action abortive après nidation.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Contrairement à la plupart des micro-pilules progestatives (blocage d'ovulation INCONSTANT), l'implant bloque l'ovulation de façon CONSTANTE — c'est d'ailleurs ce qui explique son efficacité quasi parfaite (0,05 % d'échec). S'y ajoutent les effets progestatifs classiques (épaississement glaire, amincissement endomètre). Aucun rapport avec la stérilisation, ni avec le cuivre. Non abortif.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

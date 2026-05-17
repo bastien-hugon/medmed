@@ -1,0 +1,29 @@
+{
+  "id": "irc-c1-m03-creatinine-dfg",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la créatinine et le DFG.",
+  "choices": [
+    { "id": "a", "text": "La créatinine est un déchet produit par les muscles à débit constant", "correct": true },
+    { "id": "b", "text": "Quand les reins filtrent moins bien, la créatinine sanguine MONTE", "correct": true },
+    { "id": "c", "text": "Le DFG normal d'un adulte jeune est autour de 90-120 mL/min/1.73 m²", "correct": true },
+    { "id": "d", "text": "Un patient très musclé peut avoir une créatinine légèrement plus haute sans souffrance rénale", "correct": true },
+    { "id": "e", "text": "Un DFG à 60 mL/min signifie que le rein fonctionne à 60 % de sa capacité", "correct": false },
+    { "id": "f", "text": "Le DFG est habituellement mesuré directement par le laboratoire avec une perfusion d'iohexol", "correct": false },
+    { "id": "g", "text": "Une créatinine 'normale' chez une personne âgée fragile peut cacher un mauvais DFG", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "g"],
+  "rationale": "DFG = nombre de mL filtrés/min/1,73 m², pas un pourcentage. En pratique on l'ESTIME (eGFR) à partir de la créatinine, de l'âge et du sexe — la mesure directe (iohexol) est rare. La masse musculaire fausse l'interprétation de la créat brute : un body-builder aura une créat haute normale, un vieillard sarcopénique une créat 'normale' qui cache un mauvais DFG. D'où l'intérêt de toujours lire l'eGFR rendu par le labo, pas la créat seule.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q10-paracetamol-seul-nice",
+  "kind": "qcm-vignette",
+  "prompt": "Concernant le PARACÉTAMOL SEUL en lombalgie commune, que stipule NICE NG59 (2016 amendé 2020) ?",
+  "choices": [
+    { "id": "a", "text": "C'est le traitement de référence en première intention", "correct": false },
+    { "id": "b", "text": "'Do not offer paracetamol alone for managing low back pain' (ne pas le proposer en monothérapie)", "correct": true },
+    { "id": "c", "text": "Il doit être associé systématiquement à un opioïde fort", "correct": false },
+    { "id": "d", "text": "Il est plus efficace que les AINS dans toutes les études", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE NG59 : 'do not offer paracetamol alone for managing low back pain'. Les études (notamment PACE 2014) ont montré qu'il n'est pas plus efficace que le placebo en monothérapie. La HAS le maintient à visée symptomatique mais avec une efficacité reconnue comme limitée. En pratique : possible en complément, jamais comme pilier.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendations",
+    "version": "2016 amended 2020"
+  },
+  "status": "active"
+}

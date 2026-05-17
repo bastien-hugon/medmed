@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q02-anatomie-disque",
+  "kind": "qcm-vignette",
+  "prompt": "Comment est structuré le disque intervertébral ?",
+  "choices": [
+    { "id": "a", "text": "Un os spongieux entouré d'une coque dure", "correct": false },
+    { "id": "b", "text": "Un noyau gélatineux (nucleus pulposus) au centre, entouré d'un anneau fibreux solide (annulus fibrosus)", "correct": true },
+    { "id": "c", "text": "Trois lamelles de cartilage hyalin superposées", "correct": false },
+    { "id": "d", "text": "Un sac de liquide synovial entre deux surfaces articulaires", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le disque a deux parties : au centre, le nucleus pulposus (noyau gélatineux), et autour, l'annulus fibrosus (anneau fibreux). Quand l'anneau se fissure et que le noyau fait saillie, c'est la hernie discale. À retenir : ce n'est PAS une articulation synoviale (pas de liquide synovial), c'est une articulation cartilagineuse.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

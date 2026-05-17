@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c1-m01c-caracteristiques-depistage",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations qui caractérisent un DÉPISTAGE (et non un diagnostic).",
+  "choices": [
+    { "id": "a", "text": "S'adresse à des personnes sans symptôme", "correct": true },
+    { "id": "b", "text": "Utilise un test standardisé appliqué en masse", "correct": true },
+    { "id": "c", "text": "Vise à identifier la maladie d'UN patient symptomatique", "correct": false },
+    { "id": "d", "text": "Cherche à détecter la maladie à un stade précoce", "correct": true },
+    { "id": "e", "text": "Doit être lancé en urgence dès qu'un signe d'alerte apparaît", "correct": false },
+    { "id": "f", "text": "Concerne une population définie (tranche d'âge, sexe, facteurs de risque)", "correct": true }
+  ],
+  "expected": ["a", "b", "d", "f"],
+  "rationale": "Le dépistage cible une POPULATION asymptomatique, avec un test simple et standardisé, pour repérer la maladie tôt. C'est tout l'inverse du diagnostic, qui s'adresse à UN patient déjà symptomatique. Dès qu'un symptôme apparaît (e), on quitte la logique du dépistage et on entre dans l'enquête diagnostique : adieu le test 'à la chaîne', on déploie des examens ciblés selon le tableau. Mnémo : 'pas de symptôme = file orange dépistage, symptôme = porte rouge diagnostic'.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [287, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

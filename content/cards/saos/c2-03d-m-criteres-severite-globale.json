@@ -1,0 +1,28 @@
+{
+  "id": "saos-c2-03d-m-criteres-severite-globale",
+  "kind": "qcm-multi",
+  "prompt": "Au-delà de l'IAH, quels autres éléments contribuent à apprécier la SÉVÉRITÉ globale d'un SAOS et orientent la décision de traitement ?",
+  "choices": [
+    {"id": "a", "text": "La profondeur et la durée des désaturations en oxygène nocturnes", "correct": true},
+    {"id": "b", "text": "L'intensité de la somnolence diurne (Epworth, retentissement)", "correct": true},
+    {"id": "c", "text": "Les comorbidités cardiovasculaires (HTA résistante, FA, AVC)", "correct": true},
+    {"id": "d", "text": "L'exposition au risque accidentogène (conducteur professionnel)", "correct": true},
+    {"id": "e", "text": "La taille du patient", "correct": false},
+    {"id": "f", "text": "Le groupe sanguin", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "La sévérité d'un SAOS ne se résume pas à un chiffre d'IAH : il faut intégrer (1) le retentissement oxymétrique (% de temps SaO₂ < 90 %, nadir), (2) le retentissement diurne (Epworth, qualité de vie), (3) les comorbidités cardiovasculaires (HTA résistante, FA, AVC), (4) le contexte (conducteur professionnel, métier à risque). Un patient avec IAH 12 + HTA résistante + chauffeur poids lourd doit être traité plus 'agressivement' qu'un patient IAH 20 asymptomatique sédentaire.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

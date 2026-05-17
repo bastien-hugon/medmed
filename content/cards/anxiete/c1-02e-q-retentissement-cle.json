@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q02e-retentissement-cle",
+  "kind": "qcm-vignette",
+  "prompt": "Deux patientes décrivent toutes deux une anxiété intense. La première continue à travailler et à voir ses amies normalement ; la seconde s'est arrêtée de travailler, a maigri et ne sort plus de chez elle. Quel critère, plus que l'intensité ressentie, vous oriente prioritairement vers le diagnostic de TROUBLE anxieux ?",
+  "choices": [
+    { "id": "a", "text": "Le niveau de tachycardie en consultation", "correct": false },
+    { "id": "b", "text": "Le retentissement FONCTIONNEL (travail, social, sommeil)", "correct": true },
+    { "id": "c", "text": "L'âge de la patiente", "correct": false },
+    { "id": "d", "text": "La présence ou non de céphalées", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le critère décisionnel principal pour qualifier un trouble anxieux n'est pas l'intensité ressentie (très subjective et variable), mais le RETENTISSEMENT FONCTIONNEL : arrêt de travail, isolement, perte de poids, sommeil dégradé. Une anxiété intense vécue mais sans retentissement (rare mais possible) peut relever de stratégies de coping ; une anxiété même 'modérée' qui empêche de vivre est, elle, pathologique. C'est le 3e pilier du trépied : envahissement.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

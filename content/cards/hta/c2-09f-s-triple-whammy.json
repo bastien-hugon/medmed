@@ -1,0 +1,22 @@
+{
+  "id": "hta-c2-s09-triple-whammy",
+  "kind": "sct",
+  "prompt": "Une patiente hypertendue, sous ramipril (IEC) + hydrochlorothiazide (diurétique), te demande si elle peut prendre de l'ibuprofène (AINS) pour une douleur articulaire.",
+  "hypothesis": "Mon hypothèse : cette association est potentiellement DANGEREUSE et il faut éviter l'ibuprofène.",
+  "new_info": "Tu te rappelles que l'association IEC/ARA2 + diurétique + AINS forme le 'triple whammy' (triple coup) qui multiplie le risque d'insuffisance rénale aiguë.",
+  "expected": "renforce",
+  "rationale": "Triple whammy = IEC/ARA2 + diurétique + AINS → risque majoré d'IRA fonctionnelle (les AINS bloquent les prostaglandines vasodilatatrices de l'artériole afférente, l'IEC dilate l'efférente, le diurétique réduit le volume → effondrement de la pression de filtration glomérulaire). À éviter, ou prudence extrême avec hydratation + surveillance créat. L'info renforce nettement l'hypothèse. Alternative : paracétamol +/- topique.",
+  "tags": {
+    "system": ["cardiovasculaire", "rénal"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

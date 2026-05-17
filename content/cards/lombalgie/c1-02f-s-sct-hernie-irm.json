@@ -1,0 +1,22 @@
+{
+  "id": "lombalgie-c1-s02-sct-hernie-irm",
+  "kind": "sct",
+  "prompt": "Un patient de 45 ans consulte pour une lombalgie aiguë évoluant depuis 5 jours, sans drapeau rouge. Vous évoquez une LOMBALGIE COMMUNE. Le patient vous montre une IRM lombaire faite il y a 2 ans (motif inconnu) qui rapporte 'protrusion discale L4-L5 sans conflit radiculaire'. Cette information renforce-t-elle, affaiblit-elle ou est-elle neutre vis-à-vis de l'hypothèse de lombalgie commune ?",
+  "hypothesis": "Lombalgie commune (sans cause grave identifiable)",
+  "new_info": "IRM ancienne montrant une protrusion discale L4-L5 sans conflit radiculaire",
+  "expected": "neutre",
+  "rationale": "Les anomalies discales (protrusions, hernies, discopathies) sont des découvertes fréquentes chez des sujets asymptomatiques (30-50 % selon l'âge). En l'absence de drapeau rouge et de tableau clinique radiculaire, une protrusion discale ancienne ne change pas le diagnostic de lombalgie commune ni la PEC. Elle ne renforce ni n'affaiblit l'hypothèse. Le piège serait de la prendre comme 'cause' de la douleur et de cesser de chercher d'autres explications (ou pire, de l'opérer).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "imagerie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

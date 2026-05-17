@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c1-c02f-nyha-cloze",
+  "kind": "cloze",
+  "prompt": "Un patient essoufflé pour des efforts importants (monter 2 étages d'un trait) mais pas pour la vie quotidienne est classé NYHA ___.",
+  "expected": ["II", "2", "ii"],
+  "rationale": "NYHA II = essoufflé pour des efforts importants uniquement. NYHA III = essoufflé pour des efforts modestes (marche à plat). C'est la limite la plus souvent floue à l'examen — la nuance se joue sur le type d'effort qui déclenche la dyspnée.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "irc-c1-cz08-mrc-silencieuse",
+  "kind": "cloze",
+  "prompt": "Complète : « La MRC est typiquement ___ jusqu'aux stades avancés ; c'est pourquoi on doit la ___ activement chez les patients à risque (diabétiques, hypertendus). »",
+  "expected": ["silencieuse ; dépister", "asymptomatique ; dépister", "silencieuse - dépister", "silencieuse, dépister"],
+  "rationale": "Caractère sournois de la MRC : pas de douleur, pas de signe, jusqu'à ce que la moitié des néphrons soit perdue. Conséquence pratique : si on attend que le patient consulte pour 'mal aux reins', on rate plusieurs années de fenêtre thérapeutique. D'où le rôle central du dépistage opportuniste (créat + ACR annuel) chez les sujets à risque.",
+  "tags": {
+    "system": ["nephrologie", "prevention"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations", "prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

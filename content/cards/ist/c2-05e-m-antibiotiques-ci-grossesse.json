@@ -1,0 +1,27 @@
+{
+  "id": "ist-c2-m05e-antibiotiques-ci-grossesse",
+  "kind": "qcm-multi",
+  "prompt": "Coche les antibiotiques utilisés dans le traitement des IST qui sont CONTRE-INDIQUÉS (ou à éviter) chez la femme enceinte.",
+  "choices": [
+    { "id": "a", "text": "Doxycycline (toxicité osseuse et dentaire fœtale)", "correct": true },
+    { "id": "b", "text": "Lévofloxacine (risque cartilagineux fœtal, données animales)", "correct": true },
+    { "id": "c", "text": "Azithromycine", "correct": false },
+    { "id": "d", "text": "Amoxicilline", "correct": false },
+    { "id": "e", "text": "Ceftriaxone (utilisée pour gonocoque, OK grossesse)", "correct": false }
+  ],
+  "expected": ["a", "b"],
+  "rationale": "À éviter en grossesse pour traiter une chlamydia : DOXYCYCLINE (et tétracyclines en général) → dents/os fœtaux ; LÉVOFLOXACINE (et fluoroquinolones) → cartilage fœtal (données animales). À l'inverse, AZITHROMYCINE et AMOXICILLINE sont les options sûres pour la chlamydia. CEFTRIAXONE (β-lactamine) reste également utilisable pour traiter une gonococcie pendant la grossesse.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

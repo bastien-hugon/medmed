@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q04c-doxy-1ere-ligne",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi la doxycycline 100 mg PO BID × 7 jours est-elle préférée à l'azithromycine 1 g dose unique en 1ère ligne de la chlamydia (hors grossesse) depuis 2021 ?",
+  "choices": [
+    { "id": "a", "text": "Parce que la doxycycline coûte moins cher", "correct": false },
+    { "id": "b", "text": "Parce qu'elle a une meilleure efficacité sur les infections rectales et oropharyngées et un moindre risque de résistance", "correct": true },
+    { "id": "c", "text": "Parce qu'elle se prend par voie intraveineuse", "correct": false },
+    { "id": "d", "text": "Parce qu'elle protège aussi contre le VIH", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Bascule CDC 2021 : doxycycline 7 j devient la 1ère ligne. Justification d'un essai randomisé chez HSH avec chlamydia rectale : guérison microbiologique 100 % avec doxy vs 74 % avec azithro dose unique. Plus efficace donc sur les sites extragénitaux (rectum, oropharynx), et moindre pression de sélection sur les résistances bactériennes. L'azithromycine dose unique reste une alternative valable.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

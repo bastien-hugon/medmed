@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c2-m04-intensite-haute-doses",
+  "kind": "qcm-multi",
+  "prompt": "Cochez tous les régimes thérapeutiques considérés comme HAUTE INTENSITÉ (baisse LDL ≥ 40 %).",
+  "choices": [
+    { "id": "a", "text": "Atorvastatine 20 mg/j.", "correct": true },
+    { "id": "b", "text": "Atorvastatine 80 mg/j.", "correct": true },
+    { "id": "c", "text": "Rosuvastatine 10 mg/j.", "correct": true },
+    { "id": "d", "text": "Rosuvastatine 40 mg/j.", "correct": true },
+    { "id": "e", "text": "Simvastatine 10 mg/j.", "correct": false },
+    { "id": "f", "text": "Pravastatine 20 mg/j.", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Haute intensité (baisse LDL ≥ 40 %) : atorvastatine 20-80 mg, rosuvastatine 10-40 mg. Simvastatine 10 mg et pravastatine 20 mg sont de FAIBLE intensité. Simvastatine 20-40 mg et atorvastatine 10 mg sont d'intensité MOYENNE. À retenir : atorvastatine 20 mg = haute intensité = la 'dose-réflexe' de prévention primaire (≥10 % de risque).",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

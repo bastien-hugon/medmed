@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c1-s03f-orthopnee-nouvelle",
+  "kind": "sct",
+  "prompt": "Hypothèse : décompensation d'IC chronique chez un patient connu. Information nouvelle : il signale qu'il dort depuis 4 jours avec 4 oreillers au lieu d'1 seul habituellement. Comment cette info modifie-t-elle la suspicion ?",
+  "hypothesis": "Décompensation d'insuffisance cardiaque chronique chez un patient connu IC",
+  "new_info": "Le patient dort depuis 4 jours avec 4 oreillers (vs 1 oreiller habituellement)",
+  "expected": "renforce",
+  "rationale": "Augmentation rapide du nombre d'oreillers nécessaires = orthopnée qui s'aggrave = engorgement pulmonaire croissant. C'est un des premiers signes de décompensation, souvent AVANT que la dyspnée d'effort ne devienne dramatique. Renforce nettement la suspicion. À enseigner au patient : 'si tu rajoutes un oreiller, appelle-moi'.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

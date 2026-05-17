@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c1-q06b-aura-duree",
+  "kind": "qcm-vignette",
+  "prompt": "Lequel de ces tableaux est COMPATIBLE avec une aura migraineuse typique ?",
+  "choices": [
+    { "id": "a", "text": "Hémiparésie brutale (installée en quelques secondes), durant 4 heures", "correct": false },
+    { "id": "b", "text": "Scotome scintillant en zigzag qui s'agrandit progressivement sur 15 min, dure au total 30 min, puis céphalée pulsatile", "correct": true },
+    { "id": "c", "text": "Cécité monoculaire complète installée en 5 secondes durant 2 minutes", "correct": false },
+    { "id": "d", "text": "Confusion isolée durant 12 heures", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Aura migraineuse typique = installation GRADUELLE sur ≥ 5 min, durée totale 5-60 min, RÉVERSIBLE, souvent symptômes 'positifs' (scintillement avant scotome), suivie dans l'heure d'une céphalée. (a) hémiparésie brutale = AVC. (c) cécité monoculaire brutale brève = amaurose fugace (origine vasculaire, à explorer). (d) confusion prolongée = atypique, n'est pas une aura migraineuse — chercher autre cause.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

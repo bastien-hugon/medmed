@@ -1,0 +1,26 @@
+{
+  "id": "saos-c1-06e-q-red-flag-hta-resistante",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi les situations cliniques suivantes, laquelle constitue le RED FLAG le plus classique imposant de rechercher un SAOS sous-jacent ?",
+  "choices": [
+    {"id": "a", "text": "HTA bien contrôlée par 1 antihypertenseur", "correct": false},
+    {"id": "b", "text": "HTA RÉSISTANTE (PA non contrôlée malgré 3 antihypertenseurs dont un diurétique)", "correct": true},
+    {"id": "c", "text": "Hypotension orthostatique", "correct": false},
+    {"id": "d", "text": "Variabilité tensionnelle en MAPA chez un patient anxieux", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "L'HTA résistante (PA non contrôlée malgré 3 antihypertenseurs dont un diurétique aux doses optimales) doit faire évoquer en priorité une HTA SECONDAIRE, et le SAOS en est l'une des causes les plus fréquentes. Les autres causes incluent l'hyperaldostéronisme primaire, la sténose de l'artère rénale, le phéochromocytome. Devant toute HTA résistante : Epworth + interrogatoire du conjoint + polygraphie au moindre doute. Le traitement du SAOS améliore le contrôle tensionnel (effet modeste mais cliniquement utile).",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire"],
+    "sdd": ["saos", "hta"],
+    "item_edn": [108, 224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

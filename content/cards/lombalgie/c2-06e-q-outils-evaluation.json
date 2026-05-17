@@ -1,0 +1,28 @@
+{
+  "id": "lombalgie-c2-q06-outils-evaluation",
+  "kind": "free-recall",
+  "prompt": "Citez deux outils d'évaluation recommandés par la HAS pour repérer les facteurs psychosociaux de chronicisation (drapeaux jaunes) en lombalgie.",
+  "expected": [
+    "STarT Back",
+    "STaRT Back",
+    "Start Back",
+    "Örebro",
+    "Orebro",
+    "FABQ",
+    "HAD"
+  ],
+  "rationale": "Outils HAS 2019 : STarT Back (stratification du risque), questionnaire Örebro court (prédictif de l'absentéisme), FABQ (Fear-Avoidance Beliefs Questionnaire — peurs et évitements), HAD (Hospital Anxiety and Depression scale). Le plus simple et le plus utilisé en pratique est le STarT Back (9 items, 2 minutes).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "psychiatrie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

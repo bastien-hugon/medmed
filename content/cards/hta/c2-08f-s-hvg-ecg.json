@@ -1,0 +1,22 @@
+{
+  "id": "hta-c2-s08-hvg-ecg",
+  "kind": "sct",
+  "prompt": "Tu reçois le compte-rendu de l'ECG d'un patient hypertendu de longue date : 'aspect d'hypertrophie ventriculaire gauche'.",
+  "hypothesis": "Mon hypothèse : il existe déjà un retentissement cardiaque de l'HTA.",
+  "new_info": "L'HVG est listée par la HAS parmi les atteintes d'organe cible cardiaque liées à l'HTA, témoignant d'années de surcharge tensionnelle.",
+  "expected": "renforce",
+  "rationale": "HVG = épaississement du muscle du ventricule gauche, en réponse à la post-charge augmentée (PA élevée chronique). C'est une atteinte d'organe cible CARDIAQUE classique, marqueur d'HTA évoluée et facteur de risque indépendant d'IDM, insuffisance cardiaque, troubles du rythme. L'info renforce nettement l'hypothèse de retentissement. Conduite : confirmer par échographie cardiaque, optimiser le traitement antihypertenseur (cibler une régression de l'HVG, mieux obtenue avec IEC/ARA2).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

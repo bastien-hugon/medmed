@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q06e-attaque-uniques-urgences",
+  "kind": "qcm-vignette",
+  "prompt": "Un homme jeune (28 ans, sans ATCD, non tabagique) consulte aux urgences pour une première crise brutale (10 min) avec palpitations, douleur thoracique et peur intense de mourir. ECG normal, troponine négative, bilan biologique normal. Quelle est la conduite à tenir ?",
+  "choices": [
+    { "id": "a", "text": "Hospitalisation systématique en psychiatrie", "correct": false },
+    { "id": "b", "text": "Rassurer, expliquer le diagnostic d'attaque de panique probable, information écrite et retour au médecin traitant", "correct": true },
+    { "id": "c", "text": "Prescrire d'emblée un traitement par SSRI à vie", "correct": false },
+    { "id": "d", "text": "Refaire le bilan cardiaque dans 48h", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE recommande aux urgences pour une 1ère attaque de panique : (1) éliminer une cause organique (fait ici), (2) RASSURER avec explication physiopathologique, (3) remettre une INFORMATION ÉCRITE, (4) orienter vers le médecin traitant pour évaluation et suivi. Pas d'hospitalisation systématique (une attaque isolée n'est pas une urgence psychiatrique). Pas de SSRI 'à vie' avant d'avoir confirmé un trouble panique chronique. Bilan cardiaque déjà normal — le refaire renforce l'anxiété et la médicalisation.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "irc-c2-f07-sick-day-rules",
+  "kind": "free-recall",
+  "prompt": "Quelles classes de médicaments suspendre transitoirement chez un patient MRC en cas d'événement aigu (gastro-entérite, fièvre, déshydratation, jeûne) — les fameuses 'sick day rules' ?",
+  "expected": [
+    "metformine (risque acidose lactique)",
+    "AINS (vasoconstriction afférente, peut précipiter IRA)",
+    "IEC/ARA2 (vasodilatation efférente, peut aggraver IRA fonctionnelle)",
+    "diurétiques (aggravent déshydratation)",
+    "SGLT2-i (acidocétose et déshydratation)",
+    "sulfamides hypoglycémiants (risque hypo en cas de jeûne)"
+  ],
+  "rationale": "Mnémo anglais 'SADMANS' : Sulfonylureas, ACEi, Diuretics, Metformin, ARB, NSAIDs, SGLT2. À enseigner au patient lors de chaque prescription : 'si vous êtes malade au point de ne pas boire pendant 24 h, suspendez ces médicaments et reprenez quand vous remangez normalement, ou contactez-moi'. Mesure simple, à grand impact préventif.",
+  "tags": {
+    "system": ["nephrologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "iatrogenie"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques", "urgences"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

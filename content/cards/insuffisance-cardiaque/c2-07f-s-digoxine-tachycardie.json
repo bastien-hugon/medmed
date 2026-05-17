@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c2-s07f-digoxine-tachycardie",
+  "kind": "sct",
+  "prompt": "Hypothèse : ordonnance d'un patient ICFEr connu : IEC + BB + MRA + SGLT2-i + digoxine 0,125 mg/j. Information nouvelle : il est en fibrillation auriculaire chronique avec FC ~110/min au repos. La présence de digoxine dans l'ordonnance est-elle cohérente avec ce contexte ?",
+  "hypothesis": "Présence cohérente de la digoxine dans l'ordonnance",
+  "new_info": "FA chronique avec FC ~110/min au repos malgré 4 piliers",
+  "expected": "renforce",
+  "rationale": "Digoxine en IC + FA = indication classique pour le contrôle de la fréquence cardiaque (alternative ou add-on aux BB quand ceux-ci sont insuffisants ou mal tolérés). C'est cohérent avec le profil 'ICFEr + FA non contrôlée'. À noter : ivabradine ne marche PAS en FA (donc digoxine OU augmentation BB OU avis cardio sont les options). La présence de la digoxine est donc cohérente, suspicion renforcée.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

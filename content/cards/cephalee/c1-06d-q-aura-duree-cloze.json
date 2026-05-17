@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c1-q06d-aura-duree-cloze",
+  "kind": "cloze",
+  "prompt": "L'aura migraineuse s'installe en au moins ___ minutes, dure entre ___ et ___ minutes, et est totalement ___ . Elle précède (ou accompagne) la céphalée dans l'heure qui suit.",
+  "expected": ["5", "5", "60", "réversible"],
+  "rationale": "Quatre nombres et un mot-clé à retenir : installation > 5 min, durée 5 à 60 min, réversibilité totale. La différence majeure avec un AIT/AVC : la BRUTALITÉ (l'AVC est instantané) et la NATURE des symptômes ('positifs' scintillants dans l'aura, vs purement 'négatifs' déficitaires dans l'AVC).",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

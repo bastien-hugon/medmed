@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c1-s02f-emphyseme-bulles",
+  "kind": "sct",
+  "prompt": "M. K., 70 ans, gros fumeur depuis 50 ans, présente une dyspnée majeure à l'effort. Le pneumologue suspecte un emphysème évolué.",
+  "hypothesis": "Mon hypothèse : la surface alvéolaire d'échange gazeux est très diminuée.",
+  "new_info": "Le scanner thoracique montre des bulles d'emphysème géantes des deux côtés et un parenchyme pulmonaire raréfié.",
+  "expected": "renforce",
+  "rationale": "Les bulles d'emphysème sont précisément la fusion des alvéoles détruites : une grande cavité aérienne remplace 100 petits alvéoles, ce qui effondre la surface d'échange (rappel : surface ≈ terrain de tennis chez le sujet sain). L'image scanographique renforce nettement l'hypothèse d'une réduction de surface alvéolaire. Logique du SCT : renforce / affaiblit / neutre.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

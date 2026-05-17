@@ -1,0 +1,20 @@
+{
+  "id": "hta-c2-c04-hta-masquee",
+  "kind": "cloze",
+  "prompt": "L'HTA ___ correspond à une PA normale au cabinet mais élevée à domicile (AMT/MAPA). Elle est particulièrement fréquente chez le patient ___.",
+  "expected": ["masquée", "diabétique"],
+  "rationale": "HTA masquée = piège diagnostique majeur : on rate l'HTA si on ne sort pas du cabinet. Particulièrement fréquente chez le diabétique (jusqu'à 30 % des diabétiques connus en ont une). Risque CV comparable à une HTA permanente. À traiter comme telle. Indication d'AMT/MAPA chez : sujet à risque CV élevé, atteinte d'organe inexpliquée (HVG à l'écho sans HTA évidente), PA cabinet limite (entre 130/80 et 140/90).",
+  "tags": {
+    "system": ["cardiovasculaire", "endocrinologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

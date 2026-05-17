@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c1-q02-ldl-hdl-cloze",
+  "kind": "cloze",
+  "prompt": "Le transporteur de cholestérol qui DÉPOSE dans les artères (et favorise la plaque) est le ___, alors que celui qui RAMASSE le cholestérol en excès est le ___.",
+  "expected": ["LDL", "HDL"],
+  "rationale": "LDL ('low-density') = camion qui DÉPOSE → mauvais cholestérol, moteur de l'athérosclérose. HDL ('high-density') = camion-poubelle qui RAMASSE le cholestérol en excès et le ramène au foie. Astuce : L comme 'Loue un Local' (dépose), H comme 'Helps' (aide). Toutes les cibles thérapeutiques visent à BAISSER le LDL — pas à monter le HDL.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q02e-bilan-complementaire",
+  "kind": "qcm-vignette",
+  "prompt": "En plus de l'échographie cardiaque, quel bilan complémentaire est recommandé chez un patient nouvellement suspect d'IC (NICE NG106) ?",
+  "choices": [
+    { "id": "a", "text": "Uniquement un ECG", "correct": false },
+    { "id": "b", "text": "ECG, RX thorax, NFS, créat/iono, TSH, BH, EAL, HbA1c, BU, peak flow ou spiro", "correct": true },
+    { "id": "c", "text": "Uniquement une IRM cardiaque", "correct": false },
+    { "id": "d", "text": "Coronarographie systématique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE NG106 — bilan diagnostique initial complet : ECG + RX thorax + biologie large (NFS, ionogramme/créat, TSH, bilan hépatique, lipidique, HbA1c, BU) + exploration respiratoire (peak flow ou spiro) pour différentiel. L'IRM cardiaque est de 2e ligne (suspicion étiologique particulière). La coronarographie est invasive, réservée si suspicion ischémique.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

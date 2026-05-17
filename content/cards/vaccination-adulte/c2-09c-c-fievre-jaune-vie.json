@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-c09-fievre-jaune-vie",
+  "kind": "cloze",
+  "prompt": "Selon les recommandations de l'___ depuis 2016, une dose unique de vaccin contre la ___ ___ est désormais considérée comme protectrice à vie.",
+  "expected": ["OMS", "fièvre", "jaune"],
+  "rationale": "L'OMS a modifié sa position en 2016 : dose UNIQUE → protection à vie, plus de rappel systématique tous les 10 ans. ATTENTION : certains pays continuent d'EXIGER un rappel à 10 ans pour le visa malgré la position OMS. Il faut donc vérifier les exigences du pays de destination via le site du ministère des Affaires étrangères ou Pasteur Conseils-aux-voyageurs.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "voyage"],
+    "item_edn": [143, 174],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q06c-perfect-use-definition",
+  "kind": "qcm-vignette",
+  "prompt": "Que désigne précisément le 'PERFECT USE' (usage parfait) d'une contraception ?",
+  "choices": [
+    { "id": "a", "text": "L'efficacité moyenne mesurée chez toutes les utilisatrices en vraie vie.", "correct": false },
+    { "id": "b", "text": "L'efficacité quand la méthode est utilisée exactement comme prévue, à chaque rapport, sans oubli, sans erreur — conditions 'idéales'.", "correct": true },
+    { "id": "c", "text": "L'efficacité chez les femmes très jeunes.", "correct": false },
+    { "id": "d", "text": "L'efficacité après retrait définitif de la contraception.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Perfect use = chiffre théorique, conditions de laboratoire : aucune erreur d'utilisation. C'est le chiffre qu'on voit sur la boîte ('99,7 %'). Typical use = vraie vie, avec oublis, retards, accidents. Les deux chiffres existent pour TOUTES les méthodes mais l'écart varie : énorme pour les méthodes 'quotidiennes' (pilule 0,3 → 9 %), nul pour les LARC (rien à faire au quotidien).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q03d-brca-risque-cancer",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente vient d'apprendre qu'elle est porteuse d'une mutation BRCA1. Elle vous demande quel est son risque de cancer du sein au cours de sa vie. Quelle est la réponse la PLUS juste ?",
+  "choices": [
+    { "id": "a", "text": "Identique à la population générale (environ 12 %)", "correct": false },
+    { "id": "b", "text": "Environ 50 à 80 %", "correct": true },
+    { "id": "c", "text": "Environ 100 % : le cancer est inévitable", "correct": false },
+    { "id": "d", "text": "Diminué par rapport à la population générale (mutation protectrice)", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le risque cumulé sur la vie d'une porteuse BRCA1 est de l'ordre de 50-80 % pour le cancer du sein (vs ~12 % en population générale, soit un risque multiplié par 5 à 7). Le risque d'ovaire est aussi très augmenté (~40-60 % pour BRCA1, un peu moindre pour BRCA2). Le cancer N'EST PAS inévitable (c, faux) : le risque reste probabiliste, et c'est précisément pourquoi le suivi rapproché (IRM dès 30 ans) et la chirurgie prophylactique sont DISCUTÉS au cas par cas — selon l'âge, l'histoire familiale précise, les choix de la patiente. L'item (d) est absurde : BRCA = BReast CAncer, mutation à risque, pas protectrice.",
+  "tags": {
+    "system": ["oncologie", "prevention", "genetique"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/G%C3%A8nes_BRCA",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

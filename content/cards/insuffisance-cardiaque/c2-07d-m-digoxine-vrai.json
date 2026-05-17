@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m07d-digoxine-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la digoxine en IC.",
+  "choices": [
+    { "id": "a", "text": "Elle est réservée à l'IC sévère persistante malgré 4 piliers + spécialiste", "correct": true },
+    { "id": "b", "text": "Elle ralentit la FC et augmente légèrement la contractilité", "correct": true },
+    { "id": "c", "text": "Sa marge thérapeutique est étroite (risque de toxicité)", "correct": true },
+    { "id": "d", "text": "Elle est la 1ère ligne chez tout patient ICFEr", "correct": false },
+    { "id": "e", "text": "Surveillance : digoxinémie, kaliémie, ECG", "correct": true },
+    { "id": "f", "text": "Risque toxique majoré chez l'âgé et l'insuffisant rénal", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "e", "f"],
+  "rationale": "Digoxine = chronotrope négatif + faible inotrope positif. Marge étroite (toxicité = troubles digestifs, troubles de la vision colorée jaune, arythmies, BAV) majorée par hypokaliémie et IR. Surveillance : digoxinémie (cible basse 0.5-0.9 ng/mL), kaliémie, créat, ECG. Réservée aux IC sévères persistantes ; jamais en 1ère ligne.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

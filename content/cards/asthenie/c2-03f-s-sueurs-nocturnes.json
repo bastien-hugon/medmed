@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c2-s03f-sueurs-nocturnes",
+  "kind": "sct",
+  "prompt": "Un patient de 35 ans consulte pour fatigue depuis 2 mois. Vous envisagez une fatigue banale, peut-être un peu de stress professionnel, et prévoyez un bilan biologique simple.",
+  "hypothesis": "Il s'agit d'une fatigue banale d'origine psychique sans cause grave sous-jacente.",
+  "new_info": "À l'interrogatoire dirigé, il rapporte des sueurs nocturnes qui mouillent les draps depuis 3 semaines, une perte de 4 kg sans régime, et il a palpé un ganglion cervical qui ne le quitte pas.",
+  "expected": "affaiblit",
+  "rationale": "Le tableau associe désormais 3 DRAPEAUX ROUGES : sueurs nocturnes + amaigrissement involontaire + adénopathie persistante. Tableau évocateur d'une hémopathie maligne (lymphome ++) ou d'une tuberculose. Cette information AFFAIBLIT fortement l'hypothèse \"fatigue banale\" et impose un bilan en urgence : NFS, VS/CRP, LDH, sérologies (VIH, hépatites), radio de thorax, écho cervicale + avis hématologique. Pas de tergiversation.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

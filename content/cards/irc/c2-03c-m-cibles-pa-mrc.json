@@ -1,0 +1,29 @@
+{
+  "id": "irc-c2-m03-cibles-pa-mrc",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la cible tensionnelle chez le patient avec MRC selon NICE NG203.",
+  "choices": [
+    { "id": "a", "text": "Cible standard (ACR < 70 mg/mmol) : PA < 140/90 au cabinet", "correct": true },
+    { "id": "b", "text": "Cible serrée (ACR ≥ 70 mg/mmol) : PA < 130/80 au cabinet", "correct": true },
+    { "id": "c", "text": "Le seuil ACR qui fait basculer vers la cible serrée est 70 mg/mmol", "correct": true },
+    { "id": "d", "text": "Tous les patients MRC doivent avoir une PA < 130/80 quel que soit l'ACR", "correct": false },
+    { "id": "e", "text": "Chez le sujet âgé fragile, on peut tolérer une cible un peu plus haute pour éviter les chutes", "correct": true },
+    { "id": "f", "text": "Le diabète + protéinurie franche tombe souvent dans la situation 'cible serrée'", "correct": true },
+    { "id": "g", "text": "Les cibles à domicile (auto-mesure) sont identiques aux cibles cabinet", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e", "f"],
+  "rationale": "Deux cibles selon ACR (seuil 70). Individualisation pour le sujet âgé fragile (équilibre entre bénéfice CV/rénal et risque de chute/syncope). Le diabétique fait souvent les ACR les plus élevés (néphropathie diabétique) → cible serrée plus fréquente. Et les cibles à domicile (AMT) sont GÉNÉRALEMENT plus basses que celles du cabinet (effet blouse blanche), typiquement < 135/85 pour la cible standard et < 125/75 pour la cible serrée.",
+  "tags": {
+    "system": ["nephrologie", "cardiovasculaire"],
+    "sdd": ["irc", "mrc", "hta"],
+    "item_edn": [224, 261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

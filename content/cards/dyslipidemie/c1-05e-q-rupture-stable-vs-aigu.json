@@ -1,0 +1,27 @@
+{
+  "id": "dyslipidemie-c1-q05-rupture-stable-vs-aigu",
+  "kind": "free-recall",
+  "prompt": "Quelle est la différence clinique entre une plaque qui RÉTRÉCIT progressivement une artère, et une plaque qui se ROMPT ?",
+  "expected": [
+    "rétrécissement chronique progressif symptômes effort",
+    "angine de poitrine à l'effort",
+    "claudication",
+    "rupture brutale aiguë urgence",
+    "infarctus AVC",
+    "soudain sans prévenir"
+  ],
+  "rationale": "Rétrécissement chronique = ischémie d'effort, symptômes progressifs et reproductibles (angine de poitrine d'effort, claudication intermittente à la marche). Rupture = ischémie aiguë SOUDAINE, sans prévenir : infarctus du myocarde, AVC, ischémie aiguë de membre. C'est pour cela qu'on traite le LDL longtemps À L'AVANCE : pour stabiliser les plaques et éviter la rupture imprévisible.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

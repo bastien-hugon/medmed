@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c2-s02f-gold4-symptomes",
+  "kind": "sct",
+  "prompt": "M. A., VEMS à 24 % prédit, donc GOLD 4. Tu t'attends à un retentissement clinique majeur.",
+  "hypothesis": "Mon hypothèse : son pronostic vital est engagé à court terme.",
+  "new_info": "À l'interrogatoire, il marche encore 1 km par jour sans pause et n'a fait AUCUNE exacerbation depuis 2 ans, sous LAMA + LABA seul.",
+  "expected": "affaiblit",
+  "rationale": "GOLD 1-4 (spirométrie) NE PRÉDIT PAS à lui seul le pronostic individuel. Un patient GOLD 4 peu symptomatique et sans exacerbations a un pronostic bien meilleur qu'un GOLD 2 exacerbateur fréquent. L'information clinique (bonne tolérance fonctionnelle, pas d'exacerbations) affaiblit l'hypothèse 'pronostic engagé à court terme'. C'est exactement pourquoi GOLD a introduit la classification A/B/E parallèle. Logique SCT.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

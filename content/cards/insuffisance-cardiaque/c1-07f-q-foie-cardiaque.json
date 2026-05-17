@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q07f-foie-cardiaque",
+  "kind": "qcm-vignette",
+  "prompt": "Vous palpez chez M. C., 70 ans, IC connue, un foie débordant de 3 travers de doigt sous le rebord costal, légèrement sensible, avec un reflux hépato-jugulaire positif. Vers quoi cela oriente-t-il ?",
+  "choices": [
+    { "id": "a", "text": "Cirrhose alcoolique", "correct": false },
+    { "id": "b", "text": "Congestion hépatique = IC droite (foie cardiaque)", "correct": true },
+    { "id": "c", "text": "Cancer du foie", "correct": false },
+    { "id": "d", "text": "Hépatite virale aiguë", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Foie débordant sensible + reflux hépato-jugulaire (pression sur le foie → gonflement des jugulaires) = congestion en amont du VD = 'foie cardiaque', signe d'IC droite. Cirrhose : foie dur, indolore, signes d'hypertension portale différents. Le reflux hépato-jugulaire est un signe clinique simple à apprendre et très utile au lit du patient.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

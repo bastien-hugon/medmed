@@ -1,0 +1,20 @@
+{
+  "id": "irc-c1-cz07-acr-formule",
+  "kind": "cloze",
+  "prompt": "Complète : « L'ACR (Albumin-to-Creatinine Ratio) est le rapport ___ ÷ ___ mesuré sur un échantillon d'urine du matin. Faire un rapport plutôt qu'un dosage isolé corrige l'effet de l'___ du patient. »",
+  "expected": ["albumine ; créatinine ; hydratation", "albumine, créatinine, hydratation", "albumine - créatinine - hydratation", "albumine urinaire ; créatinine urinaire ; hydratation"],
+  "rationale": "Astuce du rapport : la créatinine urinaire est éliminée à débit relativement constant ; faire le rapport albumine/créat corrige automatiquement l'effet 'urine plus ou moins concentrée'. C'est ce qui rend l'ACR sur urine ponctuelle aussi fiable que la mesure sur 24h, mais beaucoup plus simple à recueillir.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

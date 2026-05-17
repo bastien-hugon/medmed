@@ -1,0 +1,28 @@
+{
+  "id": "saos-c1-03d-m-apnee-hypopnee-vraies",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant apnées et hypopnées obstructives.",
+  "choices": [
+    {"id": "a", "text": "Les deux durent par définition plus de 10 secondes", "correct": true},
+    {"id": "b", "text": "Une apnée est un arrêt complet du flux, une hypopnée une réduction partielle (≥ 30 %)", "correct": true},
+    {"id": "c", "text": "Une hypopnée ne nécessite ni désaturation ni microéveil pour être comptabilisée", "correct": false},
+    {"id": "d", "text": "Elles sont additionnées dans l'IAH parce que leurs conséquences sont comparables", "correct": true},
+    {"id": "e", "text": "Une hypopnée est toujours moins délétère qu'une apnée pour le patient", "correct": false},
+    {"id": "f", "text": "Les efforts respiratoires thoraciques persistent dans les deux cas (obstructifs)", "correct": true}
+  ],
+  "expected": ["a", "b", "d", "f"],
+  "rationale": "Apnées et hypopnées obstructives partagent : durée > 10 s, persistance des efforts thoraciques (différenciation des formes centrales), et comptage commun dans l'IAH. La différence porte sur le degré d'obstruction (complet vs partiel ≥ 30 %). Une hypopnée nécessite OBLIGATOIREMENT une désaturation ≥ 3 % ou un microéveil pour 'compter'. Et une hypopnée mal tolérée peut être aussi délétère qu'une apnée franche — le cerveau et le cœur voient surtout la désaturation et le microéveil, pas le détail mécanique.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

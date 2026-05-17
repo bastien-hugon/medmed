@@ -1,0 +1,28 @@
+{
+  "id": "saos-c2-02e-m-iah-vrai-faux",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant l'IAH (Index Apnée-Hypopnée).",
+  "choices": [
+    {"id": "a", "text": "C'est un nombre d'événements PAR HEURE de sommeil", "correct": true},
+    {"id": "b", "text": "Un IAH ≥ 5 avec symptômes définit un SAOS", "correct": true},
+    {"id": "c", "text": "Un IAH ≥ 15 sans symptôme définit aussi un SAOS", "correct": true},
+    {"id": "d", "text": "C'est un nombre total d'événements par nuit", "correct": false},
+    {"id": "e", "text": "Il se mesure cliniquement, sans enregistrement du sommeil", "correct": false},
+    {"id": "f", "text": "Il conditionne la classification en SAOS léger / modéré / sévère", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "f"],
+  "rationale": "L'IAH est un INDEX HORAIRE (événements/heure), pas un total nocturne. Il NE peut PAS être deviné cliniquement : il faut un enregistrement du sommeil (polygraphie ou polysomnographie). Les deux portes d'entrée diagnostiques (≥ 5 + symptômes OU ≥ 15 isolé) et la classification de sévérité (5-15 / 15-30 / ≥ 30) reposent dessus. C'est le chiffre central du SAOS — le maîtriser c'est connaître la moitié du dossier.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

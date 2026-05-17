@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c1-s06f-prise-poids",
+  "kind": "sct",
+  "hypothesis": "Maintenir le sevrage tabagique chez une patiente qui a pris 4 kg en 6 semaines depuis l'arrêt.",
+  "new_info": "La patiente vous dit : 'Je vais reprendre la cigarette pour reperdre ce poids, c'est insupportable.'",
+  "expected": "neutre",
+  "prompt": "Cette nouvelle information modifie-t-elle l'indication de POURSUIVRE le sevrage tabagique malgré la prise de poids ?",
+  "rationale": "La prise de poids modérée (2-5 kg en moyenne) est classique du sevrage : la nicotine est anorexigène et augmente la dépense énergétique, son arrêt fait remonter l'appétit. Le bénéfice CV et oncologique de l'arrêt du tabac DÉPASSE LARGEMENT le risque métabolique d'une prise de poids modérée. L'indication de maintenir le sevrage reste donc INCHANGÉE (neutre par rapport à la prise de poids). Conduite à tenir : reconnaître le vécu de la patiente, proposer des stratégies non-tabagiques (activité physique, accompagnement diététique, vigilance grignotage sucré), éviter le moralisme. Reprendre la cigarette = perdre tous les acquis sanitaires.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "nutrition"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

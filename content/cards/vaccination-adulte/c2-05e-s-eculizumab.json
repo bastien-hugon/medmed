@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c2-s05-eculizumab",
+  "kind": "sct",
+  "prompt": "Une patiente de 34 ans doit débuter prochainement un traitement par eculizumab (anti-C5) pour une maladie hématologique rare. Vous envisagez de débuter le traitement dès la consultation, sans étape vaccinale préalable.",
+  "hypothesis": "Mon hypothèse : on peut débuter l'eculizumab sans précaution vaccinale particulière.",
+  "new_info": "Vous rappelez que l'eculizumab bloque le complément (C5), ce qui fragilise spécifiquement contre Neisseria meningitidis.",
+  "expected": "affaiblit",
+  "rationale": "L'eculizumab (et autres anti-C5 type ravulizumab) inhibe le complément terminal → défaut de bactéricidie sur les bactéries encapsulées, surtout le MÉNINGOCOQUE. C'est une CI fonctionnelle majeure → vaccination préalable OBLIGATOIRE contre ACWY et B (idéalement 2 semaines avant la 1re perfusion, sinon antibioprophylaxie). L'info AFFAIBLIT le démarrage immédiat. Mnémo : « anti-C5 → vacciner méningo avant ».",
+  "tags": {
+    "system": ["infectieux", "prevention", "neurologie"],
+    "sdd": ["vaccination", "meningocoque", "immunodepression"],
+    "item_edn": [143, 151, 187],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-a-prevention-vaccinale/infections-invasives-a-meningocoque",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

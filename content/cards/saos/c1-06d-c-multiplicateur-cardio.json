@@ -1,0 +1,20 @@
+{
+  "id": "saos-c1-06d-c-multiplicateur-cardio",
+  "kind": "cloze",
+  "prompt": "Le SAOS est considéré comme un ___ de risque cardiovasculaire : il augmente le risque d'AVC et d'infarctus jusqu'à ___ fois chez les ronfleurs apnéiques. Le risque d'accident routier est multiplié par ___ à ___ chez les SAOS non traités.",
+  "expected": ["multiplicateur", "4", "2", "7"],
+  "rationale": "À retenir : risques relatifs élevés (cardiovasculaire ×4 chez les ronfleurs apnéiques, accidents routiers ×2-7). Ces chiffres motivent la prise en charge même chez des patients peu symptomatiques — le SAOS reste délétère silencieusement. Le terme 'multiplicateur' souligne qu'il s'ajoute aux autres facteurs (HTA, diabète, tabac) plutôt qu'il ne les remplace.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire", "neurologie"],
+    "sdd": ["saos"],
+    "item_edn": [108, 224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

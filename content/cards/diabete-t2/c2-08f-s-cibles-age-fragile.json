@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c2-s08-cibles-age-fragile",
+  "kind": "sct",
+  "hypothesis": "Mme G., 87 ans, vivant en EHPAD, diabétique depuis 20 ans, troubles cognitifs débutants, sous sulfamides + metformine, HbA1c à 6,7 %. Son équilibre glycémique est excellent et le traitement est parfaitement adapté.",
+  "new_info": "Vous apprenez qu'elle a fait 2 malaises avec chute en 6 mois, dont un avec glycémie capillaire à 0,42 g/L au domicile.",
+  "prompt": "Cette information modifie-t-elle l'hypothèse 'équilibre excellent, traitement adapté' ?",
+  "expected": "affaiblit",
+  "rationale": "HbA1c à 6,7 % chez une dame de 87 ans fragile + sulfamides + chutes hypoglycémiques = SUR-TRAITEMENT typique. La cible appropriée serait ≤ 8 % voire ≤ 9 %. Les hypoglycémies sont à très haut risque chez la personne âgée (chutes, fractures, troubles cognitifs aggravés, décès). C'est une iatrogénie. Hypothèse 'parfaitement adapté' clairement affaiblie : il faut ALLEGER le traitement (arrêter les sulfamides, accepter une HbA1c plus haute).",
+  "tags": {
+    "system": ["endocrinologie", "gériatrie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/H%C3%A9moglobine_glyqu%C3%A9e",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

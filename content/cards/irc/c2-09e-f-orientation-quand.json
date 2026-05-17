@@ -1,0 +1,31 @@
+{
+  "id": "irc-c2-f09-orientation-quand",
+  "kind": "free-recall",
+  "prompt": "Cite au moins SIX situations qui justifient une orientation au néphrologue chez un patient MRC.",
+  "expected": [
+    "KFRE > 5 % à 5 ans (risque élevé d'IRT)",
+    "ACR ≥ 70 mg/mmol (sauf diabète bien équilibré sans red flag associé)",
+    "ACR > 30 mg/mmol AVEC hématurie persistante",
+    "baisse soutenue du DFG ≥ 25 % avec passage d'un stade à un autre en < 12 mois",
+    "baisse rapide du DFG ≥ 15 mL/min/1,73 m² par an",
+    "HTA non contrôlée malgré ≥ 4 antihypertenseurs à doses optimales",
+    "suspicion de cause génétique ou rare (polykystose, Alport, ATCD familiaux d'IRT)",
+    "suspicion de sténose des artères rénales (souffle abdominal, dégradation brutale du DFG sous IEC, OAP flash)",
+    "stade G4 (DFG < 30) pour préparer la suppléance (dialyse, greffe, abstention concertée)",
+    "atteinte multi-systémique avec suspicion (lupus, vasculite, myélome) nécessitant biopsie / immunosuppresseurs"
+  ],
+  "rationale": "Principe : la médecine générale gère la majorité des MRC stables. On oriente pour des décisions complexes : suppléance, immunosuppresseurs, biopsie, diagnostic difficile, dégradation rapide. Le néphrologue n'est PAS un substitut au MG : il intervient en complément. Un avis téléphonique ou RCP peut suffire dans bien des cas avant de programmer une vraie consultation.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

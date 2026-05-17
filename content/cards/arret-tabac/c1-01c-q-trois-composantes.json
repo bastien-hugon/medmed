@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c1-q01c-trois-composantes",
+  "kind": "cloze",
+  "prompt": "L'addiction nicotinique est dite TRI-dimensionnelle : composante physiologique, composante psychologique et composante ___.",
+  "expected": ["comportementale"],
+  "rationale": "Les trois axes de l'addiction nicotinique : physiologique (manque biologique de nicotine au cerveau), psychologique (gestion des émotions, du stress), comportementale (rituels, déclencheurs, gestes associés). Agir sur les trois axes en même temps = meilleure chance de réussite durable.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

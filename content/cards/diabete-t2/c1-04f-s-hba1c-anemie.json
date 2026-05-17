@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c1-s04-hba1c-anemie",
+  "kind": "sct",
+  "hypothesis": "M. K., 70 ans, a une HbA1c à 6,8 % : il est diabétique.",
+  "new_info": "Vous découvrez qu'il a une anémie hémolytique chronique avec raccourcissement de la durée de vie des globules rouges.",
+  "prompt": "Comment cette nouvelle information modifie-t-elle l'hypothèse de diabète ?",
+  "expected": "affaiblit",
+  "rationale": "L'HbA1c suppose une durée de vie normale des globules rouges (~120 j). En cas d'hémolyse, les globules rouges sont remplacés plus vite → ils ont moins de temps pour se glyquer → l'HbA1c SOUS-ESTIME la glycémie réelle. Donc une HbA1c 'haute' chez un hémolytique est inhabituelle et l'interprétation est faussée — il faut confirmer par une glycémie à jeun ou un autre test. Hypothèse affaiblie.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/H%C3%A9moglobine_glyqu%C3%A9e",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

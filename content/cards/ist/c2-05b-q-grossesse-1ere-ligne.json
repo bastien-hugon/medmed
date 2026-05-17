@@ -1,0 +1,26 @@
+{
+  "id": "ist-c2-q05b-grossesse-1ere-ligne",
+  "kind": "qcm-vignette",
+  "prompt": "Traitement de 1ère ligne d'une chlamydia génitale chez une femme ENCEINTE :",
+  "choices": [
+    { "id": "a", "text": "Doxycycline 100 mg PO BID × 7 jours", "correct": false },
+    { "id": "b", "text": "Azithromycine 1 g PO dose unique", "correct": true },
+    { "id": "c", "text": "Lévofloxacine 500 mg PO 1×/j × 7 jours", "correct": false },
+    { "id": "d", "text": "Ceftriaxone 500 mg IM dose unique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Chez la femme enceinte : AZITHROMYCINE 1 g PO dose unique. La doxycycline est CONTRE-INDIQUÉE (fixation osseuse et dentaire fœtale, coloration définitive des dents). La lévofloxacine est à éviter (risque cartilagineux fœtal animal). La ceftriaxone est pour le gonocoque, pas la chlamydia. Alternative française : amoxicilline 500 mg PO TID × 7 j.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

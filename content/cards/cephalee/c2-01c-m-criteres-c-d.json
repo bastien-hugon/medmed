@@ -1,0 +1,28 @@
+{
+  "id": "cephalee-c2-m01c-criteres-c-d",
+  "kind": "qcm-multi",
+  "prompt": "Selon les critères ICHD-3 pour la MIGRAINE SANS AURA, cochez TOUTES les caractéristiques qui font partie du critère C (caractéristiques de la douleur) — sachant qu'il en faut AU MOINS 2 sur 4.",
+  "choices": [
+    { "id": "a", "text": "Unilatérale", "correct": true },
+    { "id": "b", "text": "Pulsatile", "correct": true },
+    { "id": "c", "text": "Intensité modérée à sévère", "correct": true },
+    { "id": "d", "text": "Aggravée par / faisant éviter l'activité physique de routine", "correct": true },
+    { "id": "e", "text": "Nausée et/ou vomissements", "correct": false },
+    { "id": "f", "text": "Photophobie ET phonophobie", "correct": false },
+    { "id": "g", "text": "Strictement bilatérale en bandeau", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Critère C ICHD-3 = caractéristiques de la douleur, mnémo UPMA : Unilatérale, Pulsatile, Modérée à sévère, Aggravée par l'effort. Il en faut au moins 2 sur 4. Nausée/vomi et photo+phono sont le critère D (associés, 1 sur 2). 'Strictement bilatérale en bandeau' correspond à la céphalée de tension.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

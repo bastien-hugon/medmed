@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q09c-naat-acronyme",
+  "kind": "qcm-vignette",
+  "prompt": "L'acronyme NAAT, utilisé pour le dépistage de référence chlamydia et gonocoque, signifie :",
+  "choices": [
+    { "id": "a", "text": "Non-Antibiotic Anti-infective Test", "correct": false },
+    { "id": "b", "text": "Nucleic Acid Amplification Test (test d'amplification d'acides nucléiques, ADN/ARN)", "correct": true },
+    { "id": "c", "text": "Neonatal Antibody Activation Test", "correct": false },
+    { "id": "d", "text": "Nasal Air Aspiration Technique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NAAT = Nucleic Acid Amplification Test = test d'amplification d'acides nucléiques (technique de type PCR). On amplifie de petits fragments d'ADN bactérien jusqu'à les rendre détectables. Beaucoup plus sensible qu'une culture, et utilisable sur prélèvement non invasif (1er jet d'urine, auto-écouvillon vaginal). Méthode de référence pour chlamydia ET gonocoque depuis les recommandations CDC 2021.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ist-c1-s09f-sct-auto-prelevement",
+  "kind": "sct",
+  "prompt": "Une jeune femme veut un dépistage chlamydia mais refuse 'tout examen au spéculum'. Vous évaluez la faisabilité du dépistage.",
+  "hypothesis": "Dépistage chlamydia faisable malgré le refus du spéculum.",
+  "new_info": "Vous lui proposez un auto-prélèvement vaginal qu'elle réalise elle-même en cabine, performances équivalentes à un prélèvement clinicien.",
+  "expected": "renforce",
+  "rationale": "L'auto-prélèvement vaginal a une performance équivalente à un prélèvement clinicien sur NAAT (CDC 2021). Il évite tout examen invasif et améliore l'acceptabilité. La nouvelle information RENFORCE la faisabilité : on peut totalement contourner le spéculum tout en obtenant un test de qualité optimale. Levier majeur d'accès au dépistage chez les femmes réticentes.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "bpco-c2-m09e-old-non-indications",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations qui CONTRE-INDIQUENT ou disqualifient une prescription d'OLD au long cours (selon NICE NG115 et bon sens clinique).",
+  "choices": [
+    { "id": "a", "text": "Patient ENCORE TABAGIQUE actif (risque d'incendie majeur)", "correct": true },
+    { "id": "b", "text": "Patient incapable de respecter une durée d'au moins 15 h/j", "correct": true },
+    { "id": "c", "text": "GDS mesurés UNIQUEMENT pendant une exacerbation aiguë (sans confirmation à distance)", "correct": true },
+    { "id": "d", "text": "Patient BPCO stable non fumeur avec PaO2 < 7,3 kPa confirmée sur 2 GDS à 3 semaines d'intervalle", "correct": false },
+    { "id": "e", "text": "Patient BPCO stable avec PaO2 = 7,5 kPa et HTAP confirmée", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "L'OLD est CONTRE-INDIQUÉE chez le tabagique actif (risque d'incendie au domicile) et impose la stabilité clinique (pas de mesure pendant exacerbation, confirmation par 2 GDS à au moins 3 semaines d'intervalle). Inutile si le patient ne portera pas ≥ 15 h/j. Les options d et e sont au contraire de bonnes INDICATIONS d'OLD.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

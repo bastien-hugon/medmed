@@ -1,0 +1,28 @@
+{
+  "id": "hta-c1-m07-classification-pa",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les situations correspondant à une HTA selon le seuil HAS au cabinet (PA ≥ 140/90 mmHg, confirmée).",
+  "choices": [
+    {"id": "a", "text": "PA mesurée : 130/82", "correct": false},
+    {"id": "b", "text": "PA mesurée : 142/86", "correct": true},
+    {"id": "c", "text": "PA mesurée : 138/94", "correct": true},
+    {"id": "d", "text": "PA mesurée : 168/72 (sujet âgé)", "correct": true},
+    {"id": "e", "text": "PA mesurée : 128/78", "correct": false},
+    {"id": "f", "text": "PA mesurée : 150/100", "correct": true}
+  ],
+  "expected": ["b", "c", "d", "f"],
+  "rationale": "Règle : il SUFFIT qu'UNE des deux valeurs dépasse son seuil. 142/86 → sys ≥ 140 → HTA. 138/94 → dia ≥ 90 → HTA. 168/72 → sys ≥ 140 → HTA systolique isolée (typique du sujet âgé par rigidité artérielle). 150/100 → les deux → HTA franche. 130/82 et 128/78 → normales. Toujours confirmer par mesures répétées / AMT.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

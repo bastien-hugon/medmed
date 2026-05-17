@@ -1,0 +1,29 @@
+{
+  "id": "hta-c2-m08-organes-cibles",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les organes/atteintes considérés comme des ATTEINTES D'ORGANE CIBLE dans l'HTA.",
+  "choices": [
+    {"id": "a", "text": "Cerveau (AVC, démence vasculaire)", "correct": true},
+    {"id": "b", "text": "Cœur (HVG, insuffisance cardiaque, coronaropathie)", "correct": true},
+    {"id": "c", "text": "Pancréas (pancréatite)", "correct": false},
+    {"id": "d", "text": "Reins (néphroangiosclérose, IRC, protéinurie)", "correct": true},
+    {"id": "e", "text": "Yeux (rétinopathie hypertensive)", "correct": true},
+    {"id": "f", "text": "Grosses artères (anévrysme de l'aorte, AOMI)", "correct": true},
+    {"id": "g", "text": "Estomac (ulcère gastrique)", "correct": false}
+  ],
+  "expected": ["a", "b", "d", "e", "f"],
+  "rationale": "Organes cibles classiques : cerveau, cœur, reins, yeux (mnémo 'CCRY') + grosses artères (anévrysme aortique, AOMI = artérite oblitérante des membres inférieurs). Le pancréas et l'estomac ne sont PAS des cibles de l'HTA. À noter : la rétinopathie hypertensive est visible au fond d'œil, qui sert d'indicateur du retentissement vasculaire global.",
+  "tags": {
+    "system": ["cardiovasculaire", "rénal", "neurologie", "ophtalmologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

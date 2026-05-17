@@ -1,0 +1,26 @@
+{
+  "id": "saos-c2-09b-q-permis-professionnel",
+  "kind": "qcm-vignette",
+  "prompt": "Chauffeur de poids lourd, M. K., 48 ans, présente un SAOS modéré (IAH 25) avec Epworth à 13. Que faire concernant son aptitude à la conduite professionnelle ?",
+  "choices": [
+    {"id": "a", "text": "Aucune action particulière, son IAH n'est pas sévère", "correct": false},
+    {"id": "b", "text": "Le déclarer inapte définitivement à la conduite professionnelle", "correct": false},
+    {"id": "c", "text": "Conseiller l'arrêt de la conduite à risque, l'orienter vers un médecin agréé, instaurer un traitement efficace puis revoir l'aptitude", "correct": true},
+    {"id": "d", "text": "Lui demander de réduire son temps de conduite à 4 h/jour", "correct": false}
+  ],
+  "expected": ["c"],
+  "rationale": "Conduite à tenir devant un conducteur professionnel suspect de SAOS modéré-sévère non traité : (1) informer du risque accidentogène et tracer dans le dossier, (2) conseiller l'arrêt temporaire de la conduite à risque, (3) adresser à un MÉDECIN AGRÉÉ qui statuera sur l'aptitude, (4) instaurer un traitement efficace (CPAP + MHD), (5) réévaluation après documentation de l'observance et de l'efficacité. L'inaptitude est TEMPORAIRE (pas définitive) et levée après traitement efficace. Ne pas omettre cette dimension expose le médecin à une responsabilité en cas d'accident.",
+  "tags": {
+    "system": ["pneumologie", "medecine-du-travail"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

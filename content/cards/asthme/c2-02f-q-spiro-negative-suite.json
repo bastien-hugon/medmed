@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c2-q02f-spiro-negative-suite",
+  "kind": "qcm-vignette",
+  "prompt": "Patient de 28 ans, clinique très évocatrice d'asthme (toux nocturne, sibilants à l'effort, atopie). FeNO 24 ppb (< 50). Spirométrie : VEMS varie de 5 % et + 90 mL après salbutamol. Que faire selon NG245 ?",
+  "choices": [
+    { "id": "a", "text": "Conclure « pas d'asthme » et rassurer.", "correct": false },
+    { "id": "b", "text": "Passer à l'étape 3 : faire mesurer le DEP biquotidien × 2 sem à la recherche d'une variabilité ≥ 20 %.", "correct": true },
+    { "id": "c", "text": "Prescrire d'emblée un ICS de fond sans test supplémentaire.", "correct": false },
+    { "id": "d", "text": "Adresser directement en réanimation respiratoire.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Cascade NG245 = 4 étapes successives qu'on POURSUIT tant que la clinique est évocatrice et que les tests précédents sont négatifs. Étapes 1 et 2 négatives ici → étape 3 = DEP biquotidien × 2 sem. Si négative → étape 4 = test de provocation bronchique (métacholine/histamine) en spécialisé. Conclure « pas d'asthme » sans aller au bout de la cascade serait une erreur — patient symptomatique reste symptomatique.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

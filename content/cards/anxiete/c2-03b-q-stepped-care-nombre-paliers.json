@@ -1,0 +1,20 @@
+{
+  "id": "anxiete-c2-q03b-stepped-care-nombre-paliers",
+  "kind": "cloze",
+  "prompt": "NICE structure la prise en charge du TAG selon un modèle de soins par paliers (stepped care) comportant ___ étapes.",
+  "expected": ["4", "quatre"],
+  "rationale": "4 étapes pour le TAG : (1) identification + évaluation, (2) interventions de faible intensité (auto-aide, groupes), (3) interventions de haute intensité (CBT ou SSRI), (4) soins spécialisés complexes. Pour le trouble PANIQUE, le modèle comporte 5 étapes. Le principe : ne pas sauter d'étape, escalader uniquement si nécessaire — sauf urgence (idées suicidaires, retentissement majeur, contexte de crise).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

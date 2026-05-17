@@ -1,0 +1,20 @@
+{
+  "id": "depression-c2-q01b-phq9-acronyme-cloze",
+  "kind": "cloze",
+  "prompt": "L'auto-questionnaire de référence pour mesurer la sévérité de la dépression en médecine générale est le PHQ-9, qui veut dire ___ Health Questionnaire à 9 items.",
+  "expected": ["Patient", "patient"],
+  "rationale": "PHQ-9 = Patient Health Questionnaire — 9 items. Auto-rempli en 2-3 minutes, validé en français, gratuit, libre de droits. Couvre les 9 symptômes du DSM-5, avec score 0-27. Validé par NICE NG222 comme outil de stratification.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

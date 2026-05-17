@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c2-s09-consultation-tardive",
+  "kind": "sct",
+  "prompt": "Un patient vient vous voir 5 jours avant un départ pour le Sénégal pour faire « tous ses vaccins voyage » (fièvre jaune, hépatite A, méningocoque, typhoïde...).",
+  "hypothesis": "Mon hypothèse : on peut tout faire en une consultation le jour même et il sera prêt dans 5 jours.",
+  "new_info": "Vous lui rappelez que les vaccins nécessitent un délai pour la séroconversion (souvent 2-4 semaines), et que la fièvre jaune doit être faite ≥ 10 jours avant le départ.",
+  "expected": "affaiblit",
+  "rationale": "Le délai 5 jours est insuffisant : la fièvre jaune exige ≥ 10 jours avant le départ pour la séroconversion ET pour valider le certificat international (carnet jaune). Hépatite A : protection commence ~10-15 jours après la 1re dose mais reste partielle. Idéal : consultation voyage 4 à 6 SEMAINES avant le départ. L'info AFFAIBLIT le plan « tout en une fois 5 jours avant ». Conduite : prioriser ce qui peut être fait, expliquer les risques résiduels, prophylaxie comportementale (anti-moustiques, hygiène alimentaire), antibioprophylaxie si pertinent.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "voyage"],
+    "item_edn": [143, 174],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

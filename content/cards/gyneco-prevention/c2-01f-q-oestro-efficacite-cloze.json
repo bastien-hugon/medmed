@@ -1,0 +1,20 @@
+{
+  "id": "gyneco-prevention-c2-q01f-oestro-efficacite-cloze",
+  "kind": "cloze",
+  "prompt": "L'efficacité de la pilule œstro-progestative est d'environ 0,3 % de grossesses la 1ère année en perfect use, mais d'environ ___ % en typical use (vraie vie).",
+  "expected": ["9"],
+  "rationale": "0,3 % en perfect use → 9 % en typical use (Trussell / CDC). Soit un facteur 30 ! Cet écart énorme est lié aux oublis (la pilule combinée tolère mal un retard > 12h sur l'œstrogène, et l'efficacité dépend d'une prise quotidienne). C'est pour cette raison que, chez les patientes à observance fragile, on préfère de plus en plus orienter vers une LARC (typical use ≈ perfect use).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

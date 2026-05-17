@@ -1,0 +1,20 @@
+{
+  "id": "irc-c2-cz04-iec-creat",
+  "kind": "cloze",
+  "prompt": "Complète : « Après initiation d'un IEC ou d'un ARA2, une hausse de la créatinine jusqu'à ___ % est ATTENDUE et n'impose pas l'arrêt du médicament. »",
+  "expected": ["30", "30 %", "30%", "30 pour cent"],
+  "rationale": "Concept critique souvent mal connu : la hausse INITIALE de créat sous IEC/ARA2 est physiologique (dilatation artériole efférente → baisse pression intraglomérulaire → baisse DFG mesurée). Cette baisse est BÉNIGNE et reflète l'effet protecteur. Seuil de tolérance : 30 % de hausse de créat (ou 25 % de baisse de DFG). Au-delà : recontrôler, chercher cause (déshydratation, AINS, sténose artère rénale).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

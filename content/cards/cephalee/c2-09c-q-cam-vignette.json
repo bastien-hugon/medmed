@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c2-q09c-cam-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Patiente migraineuse depuis 10 ans, vous dit prendre 12 jours/mois de sumatriptan + ibuprofène pour ses crises depuis 6 mois. Elle a maintenant 20 jours de céphalée par mois 'qui ne passent plus'. Quel est le diagnostic et la conduite ?",
+  "choices": [
+    { "id": "a", "text": "Migraine chronique : ajouter un anti-CGRP", "correct": false },
+    { "id": "b", "text": "Céphalée par abus médicamenteux (triptan ≥ 10 j/mois ≥ 3 mois) : SEVRAGE BRUTAL de tous les antalgiques pendant ≥ 1 mois", "correct": true },
+    { "id": "c", "text": "Céphalée de tension chronique : ajouter de l'amitriptyline", "correct": false },
+    { "id": "d", "text": "Migraine réfractaire : adresser pour toxine botulique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Seuils CAM : triptans/opioïdes/ergots/combinés ≥ 10 j/mois pendant ≥ 3 mois ; paracétamol/aspirine/AINS ≥ 15 j/mois pendant ≥ 3 mois. Ici 12 j/mois de triptan dépasse le seuil 10. Conduite NICE : sevrage BRUTAL (pas progressif), pendant ≥ 1 mois, prévenir que la céphalée empire 1-2 semaines avant amélioration, considérer prophylaxie concomitante, réévaluer à 4-8 semaines. Pas d'anti-CGRP ni de botox avant sevrage. Erreur fréquente : étiqueter 'migraine chronique réfractaire' et empiler les traitements sans reconnaître la CAM.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "cam"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

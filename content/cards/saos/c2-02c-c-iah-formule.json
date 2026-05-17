@@ -1,0 +1,20 @@
+{
+  "id": "saos-c2-02c-c-iah-formule",
+  "kind": "cloze",
+  "prompt": "L'IAH = (nombre d'apnées + nombre d'___) ÷ nombre d'heures de ___ . On parle de SAOS quand IAH ≥ ___ avec symptômes, ou IAH ≥ ___ même sans symptôme.",
+  "expected": ["hypopnées", "sommeil", "5", "15"],
+  "rationale": "Définition à connaître par cœur : (1) IAH = événements / heure de sommeil (donc un INDEX horaire, pas un total absolu), (2) critères diagnostiques DOUBLES : soit IAH ≥ 5 + symptômes (somnolence, fatigue, ronflement, etc.), soit IAH ≥ 15 même sans symptôme — c'est cette deuxième porte d'entrée qui légitime le traitement chez des patients pauci-symptomatiques à fort risque cardiovasculaire.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

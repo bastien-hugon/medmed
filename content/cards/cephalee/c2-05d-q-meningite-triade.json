@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q05d-meningite-triade",
+  "kind": "cloze",
+  "prompt": "La triade méningée historique associe : ___ , ___ et ___ ___ . Devant ≥ 2 sur 3, y penser systématiquement et examiner soigneusement. Un signe complémentaire URGENCE VITALE à rechercher est le ___ cutané (méningococcémie → antibiothérapie immédiate avant transfert).",
+  "expected": ["céphalée", "fièvre", "raideur", "nuque", "purpura"],
+  "rationale": "Triade méningée : céphalée + fièvre + raideur de nuque. Si 2/3 sont présents, ne pas attendre la 3ᵉ pour suspecter — examiner photophobie, vomissements, troubles de conscience, purpura. Un purpura fébrile fulminans = antibiothérapie immédiate (ceftriaxone IM/IV) AVANT transfert, sans attendre la PL. Une méningite suspectée doit faire imager seulement si signes neurologiques focaux ou trouble de conscience, sinon PL d'emblée.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "meningite"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

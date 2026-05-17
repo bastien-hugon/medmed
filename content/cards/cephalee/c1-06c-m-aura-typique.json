@@ -1,0 +1,29 @@
+{
+  "id": "cephalee-c1-m06c-aura-typique",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les caractéristiques compatibles avec une aura migraineuse TYPIQUE (rassurante, ne nécessite pas d'imagerie urgente si récidive d'une aura connue).",
+  "choices": [
+    { "id": "a", "text": "Installation graduelle sur au moins 5 minutes", "correct": true },
+    { "id": "b", "text": "Durée totale entre 5 et 60 minutes", "correct": true },
+    { "id": "c", "text": "Entièrement réversible", "correct": true },
+    { "id": "d", "text": "Symptômes visuels (scotome scintillant, zigzag)", "correct": true },
+    { "id": "e", "text": "Symptômes sensitifs (paresthésies remontant le bras puis la face)", "correct": true },
+    { "id": "f", "text": "Hémiparésie franche", "correct": false },
+    { "id": "g", "text": "Cécité d'UN SEUL œil (monoculaire stricte)", "correct": false },
+    { "id": "h", "text": "Trouble de la conscience", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Aura typique = visuelle, sensitive, ou aphasique, installée en > 5 min, durée 5-60 min, totalement réversible. Aura ATYPIQUE = motrice (hémiparésie), monoculaire stricte (vs hémianopsie), trouble de conscience, vertige majeur, diplopie — ces formes doivent ouvrir un bilan neurologique (AIT, AVC, dissection, atteinte du tronc cérébral, migraine hémiplégique rare). 1ère aura atypique = imagerie en urgence.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "hta-c1-s12-fatigue-hta",
+  "kind": "sct",
+  "prompt": "Un patient consulte en disant : 'Je suis fatigué depuis quelques semaines, je suis sûr que c'est ma tension qui est trop haute.'",
+  "hypothesis": "Mon hypothèse : la fatigue est un signe d'appel typique de l'HTA, je vais surtout chercher ça.",
+  "new_info": "Tu te rappelles que l'HTA est asymptomatique dans la grande majorité des cas et que la fatigue n'est PAS un symptôme classique de l'HTA.",
+  "expected": "affaiblit",
+  "rationale": "La fatigue n'est PAS un symptôme attribuable à l'HTA en soi (sauf à un stade très avancé avec insuffisance cardiaque par exemple). Devant une fatigue chronique, on cherche d'autres causes : anémie, hypothyroïdie, dépression, troubles du sommeil (SAHOS), maladie chronique, syndrome inflammatoire… Mesurer la PA reste utile (dépistage opportuniste) mais ce n'est pas LA piste prioritaire. L'info affaiblit l'hypothèse d'un lien direct fatigue ↔ HTA.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

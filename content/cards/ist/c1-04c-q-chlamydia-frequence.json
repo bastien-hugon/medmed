@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q04c-chlamydia-frequence",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est l'IST bactérienne la plus fréquente chez les jeunes adultes (< 25 ans) ?",
+  "choices": [
+    { "id": "a", "text": "Syphilis", "correct": false },
+    { "id": "b", "text": "Chlamydia", "correct": true },
+    { "id": "c", "text": "Gonocoque", "correct": false },
+    { "id": "d", "text": "Mycoplasme génital", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Chlamydia trachomatis est l'IST bactérienne la plus fréquente, particulièrement chez les < 25 ans sexuellement actifs. C'est pour cela qu'on cible cette population pour le dépistage annuel systématique. Le gonocoque est plus rare mais en augmentation, surtout chez les HSH. La syphilis est moins fréquente mais en résurgence.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q05d-diu-comparaison",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente hésite entre DIU au cuivre et DIU hormonal. Quel critère est généralement DÉCISIF pour orienter ce choix ?",
+  "choices": [
+    { "id": "a", "text": "L'âge de la patiente.", "correct": false },
+    { "id": "b", "text": "Le profil de ses RÈGLES actuelles (abondantes/douloureuses → DIU hormonal ; normales + souhait zéro hormone → DIU cuivre).", "correct": true },
+    { "id": "c", "text": "Le niveau socio-économique.", "correct": false },
+    { "id": "d", "text": "La présence d'un partenaire stable.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le 'match' DIU cuivre vs DIU hormonal se joue sur les RÈGLES : (1) règles abondantes / douloureuses / endométriose → DIU hormonal (les diminue voire aménorrhée) ; (2) règles normales et désir de zéro hormone → DIU cuivre. Les deux ont la même efficacité (0,2 % vs 0,6 %), la même durée d'action longue, la même réversibilité.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

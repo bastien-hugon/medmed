@@ -1,0 +1,29 @@
+{
+  "id": "anxiete-c1-m04c-symptomes-physiques",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les symptômes physiques classiques d'une crise d'anxiété aiguë.",
+  "choices": [
+    { "id": "a", "text": "Tachycardie / palpitations", "correct": true },
+    { "id": "b", "text": "Sueurs et mains moites", "correct": true },
+    { "id": "c", "text": "Oppression thoracique / sensation d'étouffement", "correct": true },
+    { "id": "d", "text": "Tremblements", "correct": true },
+    { "id": "e", "text": "Vertiges, sensation de tête vide", "correct": true },
+    { "id": "f", "text": "Bradycardie marquée avec hypotension orthostatique", "correct": false },
+    { "id": "g", "text": "Fourmillements aux mains et autour de la bouche", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "g"],
+  "rationale": "Tous ces symptômes (sauf la bradycardie) sont des conséquences de l'activation SYMPATHIQUE. La bradycardie marquée + hypotension oriente vers une cause vagale, cardiaque ou médicamenteuse — pas vers l'anxiété, qui ACCÉLÈRE le cœur. Les fourmillements (paresthésies) péribuccaux/des mains sont liés à l'hyperventilation (alcalose respiratoire avec hypocalcémie ionisée fonctionnelle). Mnémo : 'sympathique = symptômes en + ' (accélération, sueurs, tension).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

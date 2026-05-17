@@ -1,0 +1,29 @@
+{
+  "id": "cephalee-c1-m05c-criteres-tension",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUTES les caractéristiques cohérentes avec une céphalée de tension typique (NICE / ICHD-3).",
+  "choices": [
+    { "id": "a", "text": "Localisation BILATÉRALE", "correct": true },
+    { "id": "b", "text": "Douleur PRESSIVE / SERRANTE (non pulsatile)", "correct": true },
+    { "id": "c", "text": "Intensité légère à modérée", "correct": true },
+    { "id": "d", "text": "PAS aggravée par les activités physiques de routine", "correct": true },
+    { "id": "e", "text": "Pulsatile, intense, durant 24 h", "correct": false },
+    { "id": "f", "text": "Vomissements fréquents", "correct": false },
+    { "id": "g", "text": "Œil rouge homolatéral", "correct": false },
+    { "id": "h", "text": "Durée 30 min à plusieurs jours possible", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "h"],
+  "rationale": "Définition NICE/ICHD-3 de la tension : bilatérale, pressive, légère/modérée, NON aggravée par l'effort, pas d'associés (au plus une légère photo OU phono, mais pas les deux). Durée 30 min à plusieurs jours. Pulsatile/intense/24 h/vomissements = critères de migraine. Œil rouge homolatéral = AVF.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "hta-c2-f02-acteurs-sraa",
+  "kind": "free-recall",
+  "prompt": "Cite dans l'ordre les 4 grands acteurs/molécules du SRAA, depuis la libération par le rein jusqu'à l'effet final sur le rein/vaisseaux.",
+  "expected": ["rénine (libérée par le rein)", "angiotensine I (à partir de l'angiotensinogène hépatique)", "angiotensine II (formée par l'ECA au poumon)", "aldostérone (sécrétée par la surrénale, retient Na et eau)"],
+  "rationale": "Chaîne SRAA : RÉNINE → ANGIOTENSINE I → ANGIOTENSINE II → ALDOSTÉRONE. Mnémo : 'Rein crie → rénine → angio I → poumon (ECA) → angio II → surrénale → aldostérone → retient eau+sel → PA monte'. Les IEC bloquent ECA (étape angio I → angio II). Les ARA2 bloquent le récepteur de l'angio II. La spironolactone bloque le récepteur de l'aldostérone.",
+  "tags": {
+    "system": ["cardiovasculaire", "endocrinologie", "rénal"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

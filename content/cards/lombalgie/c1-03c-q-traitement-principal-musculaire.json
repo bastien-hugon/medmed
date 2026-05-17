@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c1-q03-traitement-principal-musculaire",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi le traitement principal de la lombalgie commune est-il le MOUVEMENT et non le repos ?",
+  "choices": [
+    { "id": "a", "text": "Parce que le repos est plus coûteux pour la sécurité sociale", "correct": false },
+    { "id": "b", "text": "Parce que la musculature paravertébrale s'affaiblit rapidement à l'arrêt, ce qui entretient et aggrave la douleur", "correct": true },
+    { "id": "c", "text": "Parce que le mouvement répare directement les disques abîmés", "correct": false },
+    { "id": "d", "text": "Parce que la lombalgie est en réalité une maladie psychiatrique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les muscles paravertébraux stabilisent la colonne (les 'haubans' du mât). Au repos prolongé, ils s'affaiblissent en quelques jours, ce qui fragilise la colonne et entretient la douleur (cercle vicieux). Le mouvement maintient la force musculaire et la souplesse — sans 'réparer' un disque, il rend la mécanique fonctionnelle. C'est le rationnel principal de la PEC active recommandée par la HAS et NICE.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

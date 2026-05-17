@@ -1,0 +1,22 @@
+{
+  "id": "depression-c2-s06e-non-reponse-4-semaines",
+  "kind": "sct",
+  "prompt": "Mme Brun est sous sertraline 50 mg/j depuis 4 semaines pour un EDC more severe. PHQ-9 initial 19, actuel 18. Vous envisagez de SWITCHER pour un autre antidépresseur.",
+  "hypothesis": "Switch d'antidépresseur en raison d'une non-réponse à 4 semaines.",
+  "new_info": "À l'interrogatoire, elle reconnaît qu'elle a manqué environ 1 prise sur 2 (\"j'oublie souvent, et je doute que ça marche, alors parfois je saute\"). Elle a aussi commencé un nouveau travail très stressant il y a 3 sem.",
+  "expected": "affaiblit",
+  "rationale": "Avant de switcher d'AD pour non-réponse, il faut OBLIGATOIREMENT vérifier : (1) l'observance (ici problématique : 50 % de prises manquées rend l'évaluation de l'efficacité impossible), (2) la dose (50 mg est la dose de départ, possiblement insuffisante), (3) le contexte (nouveau stress aigu pouvant masquer la réponse). L'hypothèse de switch est AFFAIBLIE. Conduite : optimiser observance, augmenter la dose si besoin (sertraline 100 mg/j), réévaluer dans 2-4 sem avant tout switch.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "depression-c1-m05c-spheres-retentissement",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les sphères de fonctionnement qu'il faut explorer pour évaluer le retentissement d'une dépression en consultation de médecine générale.",
+  "choices": [
+    { "id": "a", "text": "Fonctionnement familial (couple, enfants, parents)", "correct": true },
+    { "id": "b", "text": "Fonctionnement professionnel (travail, retards, arrêts)", "correct": true },
+    { "id": "c", "text": "Fonctionnement social (amis, sorties, liens)", "correct": true },
+    { "id": "d", "text": "Vie quotidienne (hygiène, courses, ménage, factures)", "correct": true },
+    { "id": "e", "text": "Niveau de revenus mensuel exact", "correct": false },
+    { "id": "f", "text": "Origine géographique du patient", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Les 4 sphères classiques pour évaluer le critère C (retentissement) : famille, travail, social, quotidien. Question-clé : \"Qu'arriviez-vous à faire avant et que vous ne faites plus ?\". Les revenus et l'origine géographique ne sont pas des sphères de retentissement (mais peuvent être des facteurs de vulnérabilité distincts).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

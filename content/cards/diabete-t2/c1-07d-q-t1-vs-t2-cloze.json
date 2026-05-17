@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c1-q21-t1-vs-t2-cloze",
+  "kind": "cloze",
+  "prompt": "Le diabète de type 2 représente environ ___ % de tous les diabètes (chiffre arrondi).",
+  "expected": ["95", "90"],
+  "rationale": "> 95 % des diabétiques sont T2 dans la plupart des pays. Le T1 fait < 5 %. Les autres formes (gestationnel, MODY, diabète secondaire à une pancréatite ou à des médicaments) restent marginales. C'est important à intérioriser : 'diabète' dans la vraie vie de la médecine générale = diabète T2, sauf preuve du contraire.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c1-q01-nombre-vertebres-lombaires",
+  "kind": "cloze",
+  "prompt": "La région lombaire de la colonne vertébrale compte ___ vertèbres, numérotées de L1 à L5.",
+  "expected": ["5", "cinq"],
+  "rationale": "5 vertèbres lombaires : les plus grosses de la colonne car elles supportent presque tout le poids du tronc. C'est aussi pour cela que cette région est la plus sollicitée — et la plus sujette aux lombalgies (80 % des gens en auront une dans leur vie).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q23-cibles-cloze-standard",
+  "kind": "cloze",
+  "prompt": "Pour la majorité des diabétiques de type 2 (espérance > 5 ans, sans complication majeure), la cible STANDARD d'HbA1c est ≤ ___ %.",
+  "expected": ["7", "7,0", "7.0"],
+  "rationale": "7 % = cible par défaut HAS pour la plupart des T2. ≤ 6,5 % chez les profils 'idéaux' (récent, jeune, sans risque d'hypo). ≤ 8 % chez les profils complexes (complications, risque d'hypo). ≤ 9 % chez le sujet âgé fragile. Ces cibles sont des outils de décision : si on est sous la cible, on n'intensifie pas ; si on est au-dessus, on intensifie.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/H%C3%A9moglobine_glyqu%C3%A9e",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

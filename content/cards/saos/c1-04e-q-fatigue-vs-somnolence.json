@@ -1,0 +1,26 @@
+{
+  "id": "saos-c1-04e-q-fatigue-vs-somnolence",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle question discrimine le mieux une SOMNOLENCE (évocatrice de SAOS) d'une simple FATIGUE chronique (évocatrice par exemple d'une dépression) ?",
+  "choices": [
+    {"id": "a", "text": "« Avez-vous du mal à vous lever le matin ? »", "correct": false},
+    {"id": "b", "text": "« Tombez-vous dans le sommeil sans le vouloir, à des moments où l'on ne devrait pas dormir ? »", "correct": true},
+    {"id": "c", "text": "« Êtes-vous tout le temps fatigué ? »", "correct": false},
+    {"id": "d", "text": "« Avez-vous moins envie de sortir avec vos amis ? »", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "La somnolence se définit par des endormissements INVOLONTAIRES à des moments inappropriés (devant la télé, en lisant, en voiture, en réunion). La fatigue, elle, est un manque d'énergie sans endormissement. Un patient déprimé est très fatigué mais ne s'endort pas devant la télé. Un patient SAOS s'endort vraiment. C'est cette question qui distingue les deux et oriente l'enquête (et le score d'Epworth, qui mesure précisément la propension à s'endormir dans 8 situations).",
+  "tags": {
+    "system": ["pneumologie", "neurologie", "psychiatrie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

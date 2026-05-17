@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c1-q05b-tension-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Femme de 32 ans, cadre. En fin de journée, sensation de 'bandeau qui serre' des deux côtés du crâne, qualité pressive non pulsatile, intensité 4/10, durée 2 à 4 h plusieurs fois par mois. Pas de nausée, marche et travail possibles. Diagnostic le plus probable ?",
+  "choices": [
+    { "id": "a", "text": "Migraine sans aura", "correct": false },
+    { "id": "b", "text": "Céphalée de tension épisodique", "correct": true },
+    { "id": "c", "text": "Algie vasculaire de la face", "correct": false },
+    { "id": "d", "text": "Céphalée par abus médicamenteux", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Tous les critères de tension sont là : Bilatérale, Banale (légère/modérée), Bandeau qui serre, pas aggravée par l'activité, pas de nausée ni de photo/phonophobie marquée. Pas migraine (manque UPMA et symptômes associés). Pas d'abus (pas d'info sur médicaments, < 15 j/mois). Pas AVF (pas unilatérale, pas autonomique, pas brève ultra-sévère).",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

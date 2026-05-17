@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c1-s02-ldl-hdl-traitement",
+  "kind": "sct",
+  "prompt": "Un patient à haut risque CV a un LDL à 4,2 mmol/L et un HDL à 1,5 mmol/L. Vous envisagez une statine.",
+  "hypothesis": "Une statine est indiquée chez ce patient.",
+  "new_info": "Vous remarquez que son HDL est plutôt 'bon' (1,5 mmol/L, soit dans la fourchette favorable).",
+  "expected": "neutre",
+  "rationale": "Un HDL favorable est plutôt rassurant, MAIS la décision de traiter par statine se fait sur le RISQUE CV GLOBAL et le LDL, pas sur le HDL. Un HDL 'bon' ne dispense PAS de traiter un LDL élevé chez un patient à haut risque. L'information est intéressante mais n'influence pas la décision thérapeutique — d'où l'effet NEUTRE sur l'hypothèse. C'est un piège classique : se rassurer faussement sur un HDL correct.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

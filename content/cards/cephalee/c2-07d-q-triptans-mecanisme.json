@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q07d-triptans-mecanisme",
+  "kind": "cloze",
+  "prompt": "Les triptans sont des agonistes des récepteurs ___ - ___ (sérotonine). Ils entraînent une ___ des vaisseaux méningés et inhibent la libération de neuropeptides douloureux. Ils sont CONTRE-INDIQUÉS en cas d'antécédent ___ (infarctus, AVC, coronaropathie).",
+  "expected": ["5-HT1B", "5-HT1D", "vasoconstriction", "cardiovasculaire"],
+  "rationale": "Triptans = agonistes 5-HT1B/1D. Effet vasoconstricteur (les vaisseaux méningés se dilatent pendant la crise migraineuse) + inhibition de la libération de CGRP et autres neuropeptides au niveau du système trigéminovasculaire. CI : antécédent cardiovasculaire majeur, HTA non contrôlée, prudence en grossesse. Si un triptan ne marche pas, on essaie un AUTRE triptan (efficacité hétérogène entre molécules) — commencer par le moins cher.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

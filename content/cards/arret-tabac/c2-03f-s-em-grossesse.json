@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c2-s03f-em-grossesse",
+  "kind": "sct",
+  "hypothesis": "Indication de l'entretien motivationnel + TCC en 1ère intention pour le sevrage tabagique chez une fumeuse.",
+  "new_info": "La patiente est enceinte de 10 semaines.",
+  "expected": "renforce",
+  "prompt": "Cette nouvelle information modifie-t-elle l'indication d'une approche non-médicamenteuse (entretien motivationnel + TCC) en 1ère intention ?",
+  "rationale": "Chez la femme enceinte, l'approche non-médicamenteuse (entretien motivationnel + TCC) est RECOMMANDÉE en 1ère intention, AVANT d'introduire des NRT. La varénicline et le bupropion sont CONTRE-INDIQUÉS. La grossesse RENFORCE donc l'indication EM/TCC. Elles ont une efficacité comparable aux médicaments dans cette population, sans risque pour le fœtus. Bonus : la grossesse est souvent une 'fenêtre de motivation' où la patiente est prête au changement → contexte favorable.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie", "gynecologie", "obstetrique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

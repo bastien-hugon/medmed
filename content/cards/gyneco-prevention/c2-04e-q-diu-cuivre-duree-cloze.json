@@ -1,0 +1,20 @@
+{
+  "id": "gyneco-prevention-c2-q04e-diu-cuivre-duree-cloze",
+  "kind": "cloze",
+  "prompt": "Une fois posé, le DIU au cuivre est efficace pendant ___ à ___ ans selon les modèles.",
+  "expected": ["5", "10"],
+  "rationale": "Durée du DIU cuivre : 5 à 10 ans selon le modèle (gamme française : 5-7 ans pour les modèles classiques, jusqu'à 10 ans pour certains). C'est l'une des contraceptions les plus 'long-acting' qui existent. Cette durée explique son intérêt économique et son confort (zéro action quotidienne). À comparer : implant ~3 ans, DIU LNG 3-8 ans selon la dose.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

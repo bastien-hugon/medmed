@@ -1,0 +1,26 @@
+{
+  "id": "depression-c2-q09d-paroxetine-difficile-vignette",
+  "kind": "qcm-vignette",
+  "prompt": "Mme Vasseur sous paroxétine 20 mg/j depuis 14 mois (rémission obtenue depuis 8 mois). Vous décidez d'arrêter avec elle. Quelle stratégie de sevrage est la plus juste ?",
+  "choices": [
+    { "id": "a", "text": "Arrêt brutal d'un jour à l'autre", "correct": false },
+    { "id": "b", "text": "Sevrage très progressif par paliers de plus en plus petits (ex : 20 → 15 → 10 → 5 mg, espacés de 2-4 sem ; éventuellement formes liquides en fin), car la paroxétine a une demi-vie courte et est connue pour son syndrome de discontinuation marqué.", "correct": true },
+    { "id": "c", "text": "Diviser la dose par 4 d'un coup et arrêter 1 semaine après", "correct": false },
+    { "id": "d", "text": "Switcher pour de la fluoxétine pendant 6 mois avant tout arrêt", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La paroxétine et la venlafaxine sont les AD les plus difficiles à arrêter (demi-vie courte → chute rapide des taux sanguins). NICE 2022 insiste sur le caractère LENT du sevrage (semaines à mois), avec paliers progressivement plus petits (la sensibilité augmente quand la dose baisse). Formes liquides utiles en fin de sevrage. Stratégie de switch vers fluoxétine puis sevrage = option seconde si difficultés persistantes (parfois utilisée), mais pas en 1ère intention.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

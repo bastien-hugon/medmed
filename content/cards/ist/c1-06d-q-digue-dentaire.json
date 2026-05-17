@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q06d-digue-dentaire",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle barrière est conçue spécifiquement pour les rapports oraux (cunnilingus, anulingus) ?",
+  "choices": [
+    { "id": "a", "text": "Le préservatif externe", "correct": false },
+    { "id": "b", "text": "La digue dentaire (carré de latex)", "correct": true },
+    { "id": "c", "text": "Le diaphragme contraceptif", "correct": false },
+    { "id": "d", "text": "La cape cervicale", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La digue dentaire (dental dam) est un carré de latex placé sur la vulve ou l'anus du partenaire pendant un rapport oral, faisant barrière aux fluides et aux contacts muqueux. Réduit le risque de chlamydia pharyngée, gonocoque pharyngé, syphilis, herpès, HPV oropharyngé. Faiblement utilisée en pratique, à connaître pour le conseil. Astuce : on peut bricoler une digue en découpant un préservatif externe.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

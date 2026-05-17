@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c1-m04c-caracteristiques-fit",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant le test FIT (test immunologique fécal) utilisé pour le dépistage du cancer colorectal en France.",
+  "choices": [
+    { "id": "a", "text": "Il détecte la présence d'hémoglobine humaine dans les selles", "correct": true },
+    { "id": "b", "text": "Il est réalisé à domicile, sur un échantillon de selles", "correct": true },
+    { "id": "c", "text": "Il nécessite une diète sans viande rouge dans les 3 jours qui précèdent", "correct": false },
+    { "id": "d", "text": "Il est envoyé au domicile sous forme de kit gratuit", "correct": true },
+    { "id": "e", "text": "Il est proposé tous les 2 ans entre 50 et 74 ans", "correct": true },
+    { "id": "f", "text": "Un test positif fait directement le diagnostic de cancer colorectal", "correct": false }
+  ],
+  "expected": ["a", "b", "d", "e"],
+  "rationale": "Le FIT : immunologique (anticorps anti-Hb humaine), à domicile, kit gratuit reçu par courrier, tous les 2 ans entre 50 et 74 ans. (c) faux : c'est justement l'AVANTAGE du FIT sur l'ancien test au gaïac (Hemoccult) — l'anticorps est spécifique de l'hémoglobine HUMAINE, donc pas de réaction croisée avec la viande de bœuf, le boudin, etc. Pas besoin de régime préalable. (f) faux et important : un FIT positif n'est PAS un diagnostic de cancer ; il dit 'il y a du sang microscopique, va voir un gastro pour coloscopie'. Beaucoup de FIT positifs sont liés à des polypes (à retirer) ou à rien (faux positif). C'est un FILTRE, pas un diagnostic.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://en.wikipedia.org/wiki/Fecal_immunochemical_test",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

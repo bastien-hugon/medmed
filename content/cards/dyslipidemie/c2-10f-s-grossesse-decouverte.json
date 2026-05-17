@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c2-s10-grossesse-decouverte",
+  "kind": "sct",
+  "prompt": "Une patiente sous statine en prévention primaire vous appelle paniquée : elle vient de découvrir une grossesse à 8 semaines d'aménorrhée. Vous évaluez la conduite à tenir.",
+  "hypothesis": "Il faut arrêter la statine immédiatement et rassurer la patiente.",
+  "new_info": "Les statines passent le placenta et inhibent la synthèse de cholestérol chez l'embryon ; les données humaines sur les expositions de début de grossesse sont rassurantes en pratique, mais le principe de précaution prévaut.",
+  "expected": "renforce",
+  "rationale": "RENFORCE l'hypothèse : la conduite à tenir est bien d'ARRÊTER IMMÉDIATEMENT (principe de précaution), TOUT EN rassurant la patiente — les études humaines disponibles sur les expositions accidentelles n'ont pas montré d'augmentation claire de malformations sévères. Surveiller la grossesse normalement, renforcer RHD, et ne pas reprendre tant que dure l'allaitement. Reprise envisageable après sevrage. La culpabilité de la patiente doit être désamorcée : on a fait au mieux dès la découverte.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

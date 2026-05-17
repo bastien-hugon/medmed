@@ -1,0 +1,29 @@
+{
+  "id": "hta-c2-m06-classes-1ere-intention",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les classes d'antihypertenseurs recommandées en 1ère intention par la HAS chez l'adulte hypertendu non compliqué.",
+  "choices": [
+    {"id": "a", "text": "Diurétique thiazidique", "correct": true},
+    {"id": "b", "text": "Inhibiteur calcique", "correct": true},
+    {"id": "c", "text": "IEC", "correct": true},
+    {"id": "d", "text": "ARA2", "correct": true},
+    {"id": "e", "text": "Bêtabloquant", "correct": false},
+    {"id": "f", "text": "Alpha-bloquant", "correct": false},
+    {"id": "g", "text": "Anti-aldostérone (spironolactone)", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "4 classes de 1ère intention HAS : thiazidique, IC, IEC, ARA2. Les bêtabloquants sont 'moins protecteurs vis-à-vis du risque d'AVC' (HAS) et ne sont PAS en 1ère intention dans l'HTA non compliquée (mais utiles si comorbidité : insuffisance cardiaque, angor, post-IDM). Alpha-bloquants : pas en 1ère intention. Spironolactone : 4e ligne dans l'HTA résistante.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "saos-c2-11d-c-decision-exploration",
+  "kind": "cloze",
+  "prompt": "Stratégie d'exploration du SAOS en escalier : on commence par une ___ ventilatoire ambulatoire (1ère intention) ; en cas de discordance ou de suspicion de trouble du sommeil associé, on passe à une ___ en laboratoire (2ème intention). L'IAH polygraphique est calculé sur le temps d'___ , tandis que l'IAH polysomnographique est calculé sur le temps de ___ réel.",
+  "expected": ["polygraphie", "polysomnographie", "enregistrement", "sommeil"],
+  "rationale": "Stratégie en escalier (commencer simple, monter en complexité si besoin). Différence technique majeure : la polygraphie n'a pas d'EEG donc l'IAH est rapporté au TEMPS D'ENREGISTREMENT (potentiellement dilué si insomnie), alors que la polysomnographie mesure le sommeil réel via l'EEG et calcule l'IAH sur le SOMMEIL EFFECTIF. C'est aussi pour cela qu'une polysomno est demandée en cas de discordance entre clinique et polygraphie.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

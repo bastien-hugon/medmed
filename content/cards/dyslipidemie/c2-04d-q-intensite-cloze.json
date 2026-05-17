@@ -1,0 +1,20 @@
+{
+  "id": "dyslipidemie-c2-q04-intensite-cloze",
+  "kind": "cloze",
+  "prompt": "En prévention primaire (risque CV ≥ 10 %), NICE recommande en 1re intention ___ ___ mg/jour. En prévention secondaire (post-infarctus, post-AVC, AOMI), la 1re intention est ___ ___ mg/jour.",
+  "expected": ["atorvastatine", "20", "atorvastatine", "80"],
+  "rationale": "Le couple de doses-réflexes à mémoriser : ATORVASTATINE 20 mg en primaire, ATORVASTATINE 80 mg en secondaire. Toutes deux sont de haute intensité (baisse LDL ≥ 40 %), mais l'intensification en secondaire vise à viser une cible LDL stricte (≤ 2,0 mmol/L). Une seule molécule à connaître pour la première intention, deux doses à distinguer.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

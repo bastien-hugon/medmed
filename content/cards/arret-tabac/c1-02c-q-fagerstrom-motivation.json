@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c1-q02c-fagerstrom-motivation",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient fume 30 cigarettes/jour, sa première cigarette est dans les 5 minutes après le réveil. Il dit : 'Je SUIS prêt, j'arrête lundi.' Que mesure son score de Fagerström dans cette situation ?",
+  "choices": [
+    { "id": "a", "text": "Sa motivation à arrêter (plus c'est haut, plus il est motivé)", "correct": false },
+    { "id": "b", "text": "Son intensité de DÉPENDANCE PHYSIQUE à la nicotine (plus c'est haut, plus le manque sera fort à l'arrêt)", "correct": true },
+    { "id": "c", "text": "Le nombre d'années avant le développement d'un cancer du poumon", "correct": false },
+    { "id": "d", "text": "Son risque cardiovasculaire global", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Confusion classique à éviter : Fagerström ≠ motivation. Fagerström mesure l'intensité de la dépendance PHYSIQUE (manque biologique de nicotine). La motivation se mesure différemment (stades de Prochaska, échelle de Q-MAT). Un patient peut être très motivé ET très dépendant — c'est même le cas ici (Fagerström probable 8-9 + stade de préparation/action). Implication : prescrire du NRT à dose pleine ET commencer le suivi rapidement.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

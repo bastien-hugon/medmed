@@ -1,0 +1,29 @@
+{
+  "id": "asthenie-c2-m05c-tests-non-recommandes",
+  "kind": "qcm-multi",
+  "prompt": "Cochez TOUS les examens qui ne sont PAS recommandés en 1ère intention devant une asthénie sans signe d'appel clinique.",
+  "choices": [
+    { "id": "a", "text": "Panel large de sérologies infectieuses (EBV, CMV, parvovirus, Lyme, toxoplasmose…).", "correct": true },
+    { "id": "b", "text": "Bilan immunologique systématique (ANA, FR, anti-CCP, ANCA).", "correct": true },
+    { "id": "c", "text": "Marqueurs tumoraux \"de débrouillage\" (CA 19-9, ACE, CA 125, AFP).", "correct": true },
+    { "id": "d", "text": "Scanner thoraco-abdomino-pelvien systématique.", "correct": true },
+    { "id": "e", "text": "NFS et ferritine.", "correct": false },
+    { "id": "f", "text": "TSH.", "correct": false },
+    { "id": "g", "text": "IRM cérébrale systématique.", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "g"],
+  "rationale": "PAS en 1ère intention sans orientation : sérologies multiples, bilan immunologique large, marqueurs tumoraux, imagerie systématique. Mauvaise rentabilité, beaucoup de faux positifs, et anxiété induite. NFS, ferritine, TSH font partie du pack standard et restent recommandées. Règle : pas de test sans hypothèse — mais une hypothèse même modeste justifie le test ciblé approprié.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

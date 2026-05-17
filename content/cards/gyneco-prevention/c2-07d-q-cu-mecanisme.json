@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q07d-cu-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente vous demande si la 'pilule du lendemain' (LNG ou UPA) est ABORTIVE. Que lui répondez-vous ?",
+  "choices": [
+    { "id": "a", "text": "Oui, elle interrompt une grossesse déjà implantée.", "correct": false },
+    { "id": "b", "text": "Non : elle agit en retardant ou en empêchant l'OVULATION, donc AVANT la fécondation. Elle est INEFFICACE une fois l'implantation commencée.", "correct": true },
+    { "id": "c", "text": "Oui, comme la mifépristone.", "correct": false },
+    { "id": "d", "text": "Elle agit en détruisant l'embryon dans la trompe.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Méprise FRÉQUENTE à corriger : la CU hormonale n'est PAS abortive. Mécanisme = retarder ou empêcher l'ovulation. Donc si le rapport a eu lieu pendant la fenêtre fertile mais AVANT ovulation, on peut la 'pousser' assez tard pour que les spermatozoïdes ne soient plus viables. Si l'ovulation a déjà eu lieu et la fécondation a commencé, la CU est inefficace. Une fois l'implantation commencée, elle n'a aucun effet. À distinguer de la mifépristone (RU-486) qui est, elle, abortive (IVG médicamenteuse).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention", "urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Contraception_d%27urgence",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

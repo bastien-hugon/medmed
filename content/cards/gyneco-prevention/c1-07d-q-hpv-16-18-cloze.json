@@ -1,0 +1,20 @@
+{
+  "id": "gyneco-prevention-c1-q07d-hpv-16-18-cloze",
+  "kind": "cloze",
+  "prompt": "À eux deux, les HPV 16 et 18 sont responsables d'environ ___ % des cancers du col de l'utérus dans le monde.",
+  "expected": ["70"],
+  "rationale": "70 % à eux deux (HPV 16 ≈ 50 %, HPV 18 ≈ 20 %). C'est ce qui a justifié les premiers vaccins (Cervarix bivalent, Gardasil quadrivalent) ciblant 16 et 18. Gardasil 9 (utilisé en France depuis 2018) ajoute 31, 33, 45, 52, 58 pour couvrir au total ~90 % des cancers du col. Le vaccin ne couvre pas 100 % des HPV HR (16+18+31+33+35+39+45+51+52+56+58+59) — d'où le maintien du dépistage chez les femmes vaccinées.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Papillomavirus_humain",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

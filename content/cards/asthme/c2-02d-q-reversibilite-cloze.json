@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c2-q02d-reversibilite-cloze",
+  "kind": "cloze",
+  "prompt": "Chez l'adulte, NICE NG245 retient la réversibilité comme positive si le VEMS augmente d'au moins ___ % ET d'au moins ___ mL après bronchodilatateur.",
+  "expected": ["12", "200"],
+  "rationale": "Couple à mémoriser : 12 % ET 200 mL chez l'adulte ≥ 12 ans. Le ET est strict — il faut les deux. Chez l'enfant 5-16 ans : 12 % seul (pas de condition de mL). À ne pas confondre avec : 50 ppb (FeNO adulte), 35 ppb (FeNO enfant), 20 % (variabilité DEP).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

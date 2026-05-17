@@ -1,0 +1,22 @@
+{
+  "id": "saos-c2-10f-s-sct-cpap-guerit-hta",
+  "kind": "sct",
+  "prompt": "Vous expliquez à un patient SAOS sévère + HTA résistante que la CPAP va probablement 'guérir' son HTA et qu'il pourra arrêter ses antihypertenseurs après quelques mois.",
+  "hypothesis": "Cette annonce est cliniquement appropriée.",
+  "new_info": "Vous apprenez que la CPAP réduit la PA en moyenne de seulement 2 à 5 mmHg, surtout dans l'HTA résistante, et qu'elle ne dispense quasiment jamais d'un traitement antihypertenseur.",
+  "expected": "affaiblit",
+  "rationale": "Effet de la CPAP sur la PA : modeste mais réel, surtout dans l'HTA RÉSISTANTE (réduction moyenne 2-5 mmHg pour la PAS, parfois plus). Cela peut aider à atteindre la cible tensionnelle, MAIS la CPAP ne 'guérit' pas l'HTA et ne dispense pas du traitement médicamenteux. Cette information AFFAIBLIT l'annonce trop optimiste. Discours plus honnête : 'la CPAP va vous aider à mieux contrôler votre tension, en complément (pas à la place) de vos médicaments'.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire"],
+    "sdd": ["saos", "hta"],
+    "item_edn": [108, 224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ist-c1-s06f-sct-prep-preservatif",
+  "kind": "sct",
+  "prompt": "Un homme HSH de 32 ans sous PrEP VIH depuis 6 mois souhaite arrêter le préservatif pour ses rapports.",
+  "hypothesis": "Indication de maintien du préservatif malgré la PrEP.",
+  "new_info": "Il vous précise qu'il a eu 3 chlamydia rectales et une syphilis sur les 2 dernières années.",
+  "expected": "renforce",
+  "rationale": "La PrEP protège du VIH mais PAS des autres IST (chlamydia, gonocoque, syphilis, HPV, HSV). La nouvelle info — antécédents répétés d'IST bactériennes — RENFORCE l'indication de maintien du préservatif (ou au moins la discussion d'une DoxyPEP en complément). Message pédagogique clé : la PrEP n'est pas un substitut au préservatif quand l'enjeu va au-delà du VIH.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

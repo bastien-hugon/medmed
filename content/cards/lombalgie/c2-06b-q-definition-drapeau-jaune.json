@@ -1,0 +1,26 @@
+{
+  "id": "lombalgie-c2-q06-definition-drapeau-jaune",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la définition exacte d'un DRAPEAU JAUNE dans la lombalgie ?",
+  "choices": [
+    { "id": "a", "text": "Un signe clinique évoquant une cause grave (cancer, infection, fracture)", "correct": false },
+    { "id": "b", "text": "Un facteur PSYCHOSOCIAL associé à un risque accru de CHRONICISATION", "correct": true },
+    { "id": "c", "text": "Un facteur de risque cardiovasculaire", "correct": false },
+    { "id": "d", "text": "Un signe radiologique à l'IRM lombaire", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Drapeau JAUNE = facteur psychosocial qui augmente le risque de chronicisation. À ne pas confondre avec rouge (gravité organique). Les drapeaux jaunes incluent : croyances inadaptées, peur/évitement, comportement passif, dépression/anxiété, insatisfaction professionnelle. Ils prédisent mieux la chronicité que les lésions à l'IRM.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "psychiatrie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

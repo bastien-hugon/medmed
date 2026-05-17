@@ -1,0 +1,20 @@
+{
+  "id": "ist-c2-c02f-pid-acronyme-cloze",
+  "kind": "cloze",
+  "prompt": "PID signifie ___ ___ ___ (en anglais). En français, on parle de salpingite ou d'infection génitale ___ . Les deux séquelles redoutées sont l'infertilité ___ et la grossesse ___ -utérine.",
+  "expected": ["Pelvic", "Inflammatory", "Disease", "haute", "tubaire", "extra"],
+  "rationale": "PID = Pelvic Inflammatory Disease = infection génitale haute en français = salpingite. Conséquences cicatricielles : infertilité TUBAIRE (trompes obstruées, fécondation impossible) et GEU = grossesse EXTRA-utérine (l'œuf bloqué dans une trompe cicatricielle). 10-15 % des chlamydia non traitées évoluent en PID, et chaque épisode double le risque d'infertilité.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c1-s01-cholesterol-transport",
+  "kind": "sct",
+  "prompt": "Vous expliquez à un patient que le cholestérol ne peut pas voyager seul dans le sang.",
+  "hypothesis": "Le cholestérol a besoin d'un transporteur (lipoprotéine) pour circuler dans le sang.",
+  "new_info": "Le patient vous répond : 'Mais le sang est essentiellement composé d'eau, et le cholestérol est une graisse.'",
+  "expected": "renforce",
+  "rationale": "L'information apportée par le patient RENFORCE l'hypothèse : justement, parce que le cholestérol est lipophile et que le sang est aqueux, le cholestérol ne peut PAS se dissoudre directement dans le plasma. Il doit donc être véhiculé par des lipoprotéines (LDL, HDL, VLDL, chylomicrons) qui sont des 'camions' eau-compatibles. La remarque du patient confirme la nécessité du transport spécialisé.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

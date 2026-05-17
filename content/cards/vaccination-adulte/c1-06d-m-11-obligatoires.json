@@ -1,0 +1,36 @@
+{
+  "id": "vaccination-adulte-c1-m06-11-obligatoires",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les vaccins qui font partie de la liste des 11 obligatoires du nourrisson français depuis 2018.",
+  "choices": [
+    {"id": "a", "text": "Diphtérie", "correct": true},
+    {"id": "b", "text": "Tétanos", "correct": true},
+    {"id": "c", "text": "Poliomyélite", "correct": true},
+    {"id": "d", "text": "Coqueluche", "correct": true},
+    {"id": "e", "text": "Haemophilus influenzae b (Hib)", "correct": true},
+    {"id": "f", "text": "Hépatite B", "correct": true},
+    {"id": "g", "text": "Pneumocoque", "correct": true},
+    {"id": "h", "text": "Méningocoque C", "correct": true},
+    {"id": "i", "text": "Rougeole", "correct": true},
+    {"id": "j", "text": "Oreillons", "correct": true},
+    {"id": "k", "text": "Rubéole", "correct": true},
+    {"id": "l", "text": "BCG (tuberculose)", "correct": false},
+    {"id": "m", "text": "HPV (papillomavirus)", "correct": false},
+    {"id": "n", "text": "Grippe", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"],
+  "rationale": "Les 11 obligatoires (2018) : DTP (3) + coqueluche + Hib + HBV + pneumocoque + méningo C + ROR (3 — rougeole, oreillons, rubéole). BCG = ciblé (Guyane/Mayotte, contexte risque), HPV = recommandé 11-14 ans non obligatoire, grippe = ciblée. Mise à jour 2025 : ACWY + B sont aussi obligatoires en plus, mais le « bloc des 11 » 2018 reste la référence d'examen. Mnémo : « DTP-Coq-Hib-HBV-Pneumo-MéningoC-ROR ».",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

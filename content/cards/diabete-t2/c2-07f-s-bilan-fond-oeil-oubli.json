@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c2-s07-bilan-fond-oeil-oubli",
+  "kind": "sct",
+  "hypothesis": "Mme C., diabétique depuis 8 ans, n'a aucune plainte visuelle. Reporter son fond d'œil à 'plus tard' est sans risque.",
+  "new_info": "Vous savez par ailleurs que la rétinopathie diabétique évolue SILENCIEUSEMENT jusqu'à un stade avancé, et qu'à un stade évolué, les lésions sont en grande partie irréversibles.",
+  "prompt": "Cette information modifie-t-elle l'hypothèse 'reporter sans risque' ?",
+  "expected": "affaiblit",
+  "rationale": "C'est la justification même du dépistage annuel : la rétinopathie ne donne PAS de symptômes avant un stade avancé (œdème maculaire, hémorragies). Une fois qu'elle se voit cliniquement, il est trop tard pour empêcher la perte visuelle dans bien des cas. Donc 'absence de plainte' = mauvais argument pour reporter. Hypothèse 'sans risque' clairement affaiblie : le bilan annuel doit être maintenu.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

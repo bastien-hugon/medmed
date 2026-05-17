@@ -1,0 +1,22 @@
+{
+  "id": "bpco-c2-s03f-exacerbateur-cache",
+  "kind": "sct",
+  "prompt": "Mme V., BPCO, MRC 1 (peu symptomatique). Tu hésites à la classer dans le groupe A (traitement minimal) ou E.",
+  "hypothesis": "Mon hypothèse : elle relève du groupe A → SABA à la demande suffit.",
+  "new_info": "À l'interrogatoire détaillé, elle rapporte 2 cures de prednisolone + amoxicilline dans l'année, suivies d'une visite aux urgences sans hospit.",
+  "expected": "affaiblit",
+  "rationale": "Deux 'cures' = 2 exacerbations modérées au cours de l'année écoulée. Ce critère seul (≥ 2/an) bascule la patiente dans le GROUPE E, même si elle est peu symptomatique au quotidien (MRC 1). Le traitement de fond doit donc être bithérapie LAMA + LABA d'emblée (et non simplement SABA à la demande). L'information affaiblit l'hypothèse 'groupe A'. Logique SCT.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q10d-suivi-frequence",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient IC stable, sous traitement optimal à dose max tolérée, asymptomatique depuis 1 an. Quel rythme de suivi minimal recommandé (NICE NG106) ?",
+  "choices": [
+    { "id": "a", "text": "Tous les 15 jours", "correct": false },
+    { "id": "b", "text": "Tous les mois", "correct": false },
+    { "id": "c", "text": "Au minimum tous les 6 mois", "correct": true },
+    { "id": "d", "text": "Une fois par an seulement", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "NICE NG106 : suivi MINIMAL tous les 6 mois pour un patient IC stable, plus rapproché si modifications cliniques ou thérapeutiques récentes. Évaluation à chaque visite : capacité fonctionnelle, hydratation, rythme, cognition, nutrition, revue du traitement et effets indésirables, créatinine, bilan martial, Hb.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

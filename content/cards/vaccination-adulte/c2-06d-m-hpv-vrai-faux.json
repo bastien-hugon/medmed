@@ -1,0 +1,29 @@
+{
+  "id": "vaccination-adulte-c2-m06-hpv-vrai-faux",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la vaccination HPV en France.",
+  "choices": [
+    {"id": "a", "text": "Elle est recommandée chez les filles ET les garçons depuis 2021.", "correct": true},
+    {"id": "b", "text": "La cible principale est 11-14 ans (2 doses).", "correct": true},
+    {"id": "c", "text": "Le rattrapage est possible jusqu'à 19 ans révolus en population générale.", "correct": true},
+    {"id": "d", "text": "Le vaccin Gardasil 9 couvre les sérotypes oncogènes 16 et 18.", "correct": true},
+    {"id": "e", "text": "Le vaccin Gardasil 9 couvre aussi les sérotypes 6 et 11 (condylomes).", "correct": true},
+    {"id": "f", "text": "Le vaccin protège contre 100 % des cancers du col, donc le dépistage cervico-utérin devient inutile chez les vaccinées.", "correct": false},
+    {"id": "g", "text": "Chez les HSH, la recommandation s'étend jusqu'à 26 ans.", "correct": true}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "g"],
+  "rationale": "Gardasil 9 couvre 9 sérotypes dont 16/18 (haute oncogénicité, à l'origine de ~70 % des cancers du col) et 6/11 (condylomes), mais PAS tous les HPV oncogènes — le dépistage cervico-utérin (frottis puis test HPV-HR à 30 ans) reste indispensable, même chez les vaccinées. Extension 2021 : filles ET garçons. Rattrapage 19 ans population générale, 26 ans HSH/immunodéprimés.",
+  "tags": {
+    "system": ["infectieux", "prevention", "gynecologie"],
+    "sdd": ["vaccination", "HPV"],
+    "item_edn": [143, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c1-q07d-toc",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient présente des pensées intrusives répétitives ('et si j'avais oublié de fermer le gaz ?') qu'il neutralise par des rituels (retourner 6 fois vérifier la cuisinière). Quelle est l'entité clinique correspondante et son rapport au chapitre 'troubles anxieux' du DSM-5 ?",
+  "choices": [
+    { "id": "a", "text": "TAG classique, classé dans les troubles anxieux", "correct": false },
+    { "id": "b", "text": "TOC (trouble obsessionnel compulsif) : SORTI des troubles anxieux dans le DSM-5, mais cliniquement très proche", "correct": true },
+    { "id": "c", "text": "Phobie spécifique du danger domestique", "correct": false },
+    { "id": "d", "text": "Trouble panique avec compulsions", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "TOC = obsessions (pensées intrusives répétitives) + compulsions (rituels répétitifs visant à neutraliser l'angoisse). Le DSM-5 a SORTI le TOC du chapitre 'troubles anxieux' (classé dans 'OCD and related disorders'), pour mettre en avant ses spécificités neurobiologiques. En pratique clinique de MG, on continue à le regrouper avec les troubles anxieux (anxiété centrale, prise en charge avec CBT + SSRI à doses élevées). À distinguer du TAG : obsessions ciblées + rituels obligatoires.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

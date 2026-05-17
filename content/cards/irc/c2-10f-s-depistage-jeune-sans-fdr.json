@@ -1,0 +1,22 @@
+{
+  "id": "irc-c2-s10-depistage-jeune-sans-fdr",
+  "kind": "sct",
+  "prompt": "Mme C., 32 ans, en bonne santé, sans ATCD personnel ni familial particulier, vient pour un bilan de santé annuel. Elle vous demande un 'dépistage des reins' car son cousin a fait une greffe. Vous envisagez de prescrire créat + ACR systématiquement.",
+  "hypothesis": "Il est utile de dépister une MRC chez cette patiente sans facteur de risque autre que la curiosité.",
+  "new_info": "Le cousin de Mme C. (par alliance — pas de lien biologique) a fait une greffe pour une glomérulonéphrite post-infectieuse. Mme C. n'a aucun ATCD personnel, pas de diabète, pas d'HTA, pas de MCV, pas de médicament néphrotoxique. NICE NG203 ne retient pas ce contexte dans les FdR à dépister.",
+  "expected": "affaiblit",
+  "rationale": "L'inquiétude est compréhensible mais ne constitue pas un critère médical de dépistage. Pas d'ATCD familial biologique de maladie rénale héréditaire. Pas de FdR personnel. Prescrire systématiquement créat + ACR exposerait à des faux positifs (variations physiologiques) sans bénéfice prouvé. L'information affaiblit franchement l'indication. Réponse adaptée : rassurer, éduquer sur l'hygiène de vie générale, surveillance opportuniste si apparition d'un FdR (HTA, diabète) plus tard.",
+  "tags": {
+    "system": ["nephrologie", "prevention"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

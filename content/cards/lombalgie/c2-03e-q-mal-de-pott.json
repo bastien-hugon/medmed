@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c2-q03-mal-de-pott",
+  "kind": "cloze",
+  "prompt": "Une spondylodiscite tuberculeuse, classiquement chez un patient à risque (migrant, immunodéprimé, ATCD), porte un nom historique : le mal de ___.",
+  "expected": ["Pott", "pott"],
+  "rationale": "Mal de Pott = spondylodiscite tuberculeuse, décrite par Percivall Pott (chirurgien anglais, XVIIIe siècle). Forme insidieuse, évolution lente, à évoquer chez un patient migrant ou immunodéprimé avec lombalgie inflammatoire torpide. Diagnostic : IRM + biopsie (BAAR, PCR Mycobacterium tuberculosis).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "infectiologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

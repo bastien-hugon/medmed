@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c1-q01d-asthme-vs-bpco",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle phrase résume le mieux la DIFFÉRENCE FONDAMENTALE entre asthme et BPCO ?",
+  "choices": [
+    { "id": "a", "text": "L'asthme touche les alvéoles, la BPCO touche les bronches.", "correct": false },
+    { "id": "b", "text": "L'asthme est une obstruction RÉVERSIBLE des bronches ; la BPCO est une obstruction en grande partie FIXÉE.", "correct": true },
+    { "id": "c", "text": "L'asthme et la BPCO sont strictement la même maladie, juste à des âges différents.", "correct": false },
+    { "id": "d", "text": "L'asthme survient uniquement chez les fumeurs.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Mémo : ASTHME = réversible (bronches qui se rouvrent avec un bronchodilatateur ou des corticoïdes inhalés). BPCO = fixé (paroi détruite, peu de retour en arrière). Cela conditionne l'attente thérapeutique : dans l'asthme on vise un contrôle quasi-total, dans la BPCO on ralentit la dégradation. NB : un patient peut avoir LES DEUX (overlap asthme-BPCO), notamment l'asthmatique âgé fumeur.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188, 209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "diabete-t2-c2-m01-insulinoresistance-facteurs",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les facteurs qui AGGRAVENT l'insulinorésistance.",
+  "choices": [
+    { "id": "a", "text": "Obésité abdominale", "correct": true },
+    { "id": "b", "text": "Sédentarité prolongée", "correct": true },
+    { "id": "c", "text": "Prédisposition génétique familiale", "correct": true },
+    { "id": "d", "text": "Activité physique régulière", "correct": false },
+    { "id": "e", "text": "Perte de poids modérée", "correct": false },
+    { "id": "f", "text": "Alimentation très riche en sucres rapides et graisses saturées", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "f"],
+  "rationale": "Aggravent l'insulinorésistance : obésité (surtout abdominale → adipokines pro-inflammatoires), sédentarité, génétique, mauvaise alimentation. À l'INVERSE, l'activité physique (d) et la perte de poids (e) RÉDUISENT l'insulinorésistance — c'est ce qui rend les règles hygiéno-diététiques si puissantes en 1ère ligne du T2.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

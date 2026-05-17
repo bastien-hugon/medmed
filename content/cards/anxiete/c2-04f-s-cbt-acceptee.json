@@ -1,0 +1,22 @@
+{
+  "id": "anxiete-c2-s04f-cbt-acceptee",
+  "kind": "sct",
+  "prompt": "Mme D., 35 ans, TAG modéré confirmé. Vous lui proposez une CBT en 1ère intention selon NICE. Vous estimez que c'est la meilleure option pour elle.",
+  "hypothesis": "La CBT est la meilleure option de 1ère intention pour cette patiente",
+  "new_info": "Lors de la consultation, elle exprime une PRÉFÉRENCE CLAIRE pour un traitement médicamenteux : elle a déjà essayé une thérapie il y a quelques années sans succès, son emploi du temps ne lui permet pas de prendre 1h hebdo, et elle dit 'je préfère essayer la sertraline'.",
+  "expected": "affaiblit",
+  "rationale": "NICE insiste sur le SHARED DECISION MAKING : à efficacité comparable au step 3, le choix entre CBT et SSRI doit prendre en compte la PRÉFÉRENCE patient, son contexte de vie, son histoire avec la thérapie. Une préférence claire et argumentée pour un SSRI affaiblit la pertinence de pousser la CBT — même si c'est l'option recommandée 'en premier' par convention pédagogique. Imposer une thérapie contre la préférence du patient compromet l'alliance et l'observance. À retenir : 1ère intention NICE = CBT OU SSRI au choix, pas CBT obligatoire.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

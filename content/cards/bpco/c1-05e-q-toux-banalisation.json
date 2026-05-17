@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q05e-toux-banalisation",
+  "kind": "qcm-vignette",
+  "prompt": "M. F., 55 ans, 25 PA, dit : 'docteur, je tousse tous les matins et je crache, mais c'est juste ma toux de fumeur, c'est normal'. Quelle est la BONNE attitude ?",
+  "choices": [
+    { "id": "a", "text": "Le rassurer : c'est effectivement normal et bénin chez tout fumeur", "correct": false },
+    { "id": "b", "text": "Lui prescrire un antitussif et reconvoquer dans 6 mois", "correct": false },
+    { "id": "c", "text": "Faire pratiquer une spirométrie : la 'toux du fumeur' est précisément un signe d'alerte de BPCO", "correct": true },
+    { "id": "d", "text": "Lui prescrire d'emblée un corticoïde inhalé", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "La 'toux du fumeur' N'EST PAS bénigne : c'est l'un des premiers signes de BPCO, banalisé par patients ET médecins. Toute toux chronique chez un fumeur > 35 ans = spirométrie. Les antitussifs masquent le signe sans traiter la cause. Pas de corticoïde inhalé sans diagnostic confirmé et indication précise.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

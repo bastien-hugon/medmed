@@ -1,0 +1,22 @@
+{
+  "id": "saos-c2-04f-s-sct-polysomno-systematique",
+  "kind": "sct",
+  "prompt": "Un nouvel interne propose de demander d'emblée une POLYSOMNOGRAPHIE chez tous les patients suspects de SAOS, en arguant que c'est l'examen le plus complet et le plus fiable.",
+  "hypothesis": "Cette stratégie (polysomno systématique en 1ère intention) est pertinente.",
+  "new_info": "Vous apprenez que la polysomnographie est lourde (hospitalisation en laboratoire), coûteuse (~200 €), et les délais d'obtention sont de plusieurs mois en France, alors que la polygraphie ambulatoire suffit dans la majorité des cas.",
+  "expected": "affaiblit",
+  "rationale": "Stratégie en escalier : commencer simple (polygraphie ambulatoire), monter en complexité si besoin (polysomnographie). La polysomno systématique d'emblée AFFAIBLIT la fluidité du parcours patient (délais, coûts, capacité d'accueil des labos du sommeil). La polygraphie suffit chez la majorité des patients à forte probabilité clinique. La polysomno est réservée aux discordances et aux suspicions de troubles associés. Le 'plus complet' n'est pas toujours le 'plus pertinent'.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

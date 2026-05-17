@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-q10-depistage-population",
+  "kind": "qcm-vignette",
+  "prompt": "Selon NICE NG203, dans quel cadre s'inscrit le dépistage de la MRC ?",
+  "choices": [
+    { "id": "a", "text": "Dépistage généralisé de toute la population adulte une fois par an", "correct": false },
+    { "id": "b", "text": "Dépistage CIBLÉ chez les patients porteurs de facteurs de risque (diabète, HTA, MCV, etc.)", "correct": true },
+    { "id": "c", "text": "Dépistage uniquement après l'âge de 70 ans", "correct": false },
+    { "id": "d", "text": "Aucun dépistage : on attend les symptômes", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE recommande un dépistage CIBLÉ chez les patients à risque, pas un dépistage de masse. Le dépistage de toute la population sans facteur de risque donnerait trop de faux positifs sans bénéfice prouvé. Mais à l'inverse, attendre les symptômes (qui n'apparaissent qu'aux stades G4-G5) ferait rater la fenêtre thérapeutique. Bon compromis : dépister activement les patients à risque, surtout diabétiques et hypertendus (combinés : la grande majorité des futurs MRC).",
+  "tags": {
+    "system": ["nephrologie", "prevention"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

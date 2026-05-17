@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q05d-pere-cancer-colon-50-ans",
+  "kind": "qcm-vignette",
+  "prompt": "Madame J., 42 ans, sans antécédent personnel digestif, vient en consultation. Son père a été opéré d'un cancer du côlon descendant à 50 ans. Elle veut savoir ce qu'elle doit faire. Quelle est votre conduite ?",
+  "choices": [
+    { "id": "a", "text": "Attendre 50 ans et rentrer dans le programme organisé par FIT comme tout le monde", "correct": false },
+    { "id": "b", "text": "Lui prescrire un test FIT immédiatement et à répéter tous les 2 ans", "correct": false },
+    { "id": "c", "text": "L'orienter vers une coloscopie de dépistage individuel dès 45 ans (ou 5 ans avant l'âge du diagnostic familial le plus jeune), à répéter selon le résultat", "correct": true },
+    { "id": "d", "text": "La rassurer : un seul cas familial ne change rien à sa prise en charge", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Un apparenté au 1er degré atteint d'un cancer colorectal avant 65 ans fait sortir la patiente du dépistage organisé classique. Elle relève d'un DÉPISTAGE INDIVIDUEL par coloscopie : commencement dès 45 ans, OU 5 ans avant l'âge du cas index le plus jeune (ici, 50-5 = 45 ans, donc dès 45 ans). Puis rythme adapté selon les résultats (en général tous les 5 ans si normale). FIT (b) non adapté (sensibilité insuffisante chez les sujets à risque élevé). Attendre 50 ans (a) ferait perdre 5-8 ans de surveillance utile. Banaliser (d) est faux : le risque est multiplié par ~2-3 par un cas au 1er degré, et plus encore avant 65 ans.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

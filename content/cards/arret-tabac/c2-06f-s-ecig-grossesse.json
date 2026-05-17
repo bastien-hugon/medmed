@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c2-s06f-ecig-grossesse",
+  "kind": "sct",
+  "hypothesis": "Conseiller la cigarette électronique comme outil de sevrage à une fumeuse adulte sans pathologie particulière.",
+  "new_info": "La patiente est enceinte de 15 semaines.",
+  "expected": "affaiblit",
+  "prompt": "Cette nouvelle information modifie-t-elle l'indication de proposer la cigarette électronique comme outil de sevrage ?",
+  "rationale": "Pendant la grossesse, la cigarette électronique N'EST PAS RECOMMANDÉE : recul insuffisant sur le passage transplacentaire, sur les effets de l'aérosol et des arômes sur le fœtus, sur le développement neurologique. L'indication s'AFFAIBLIT. À privilégier dans cet ordre : (1) entretien motivationnel + TCC en 1ère intention, (2) si échec : NRT (gomme, pastille en 1er — moins idéal continu de la nicotine ; timbre possible si besoin) — autorisée et remboursée pendant la grossesse en France. CONTRE-INDIQUÉS : varénicline, bupropion. La vape n'est ni clairement validée ni explicitement interdite, mais elle sort du cadre recommandé.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "gynecologie", "obstetrique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

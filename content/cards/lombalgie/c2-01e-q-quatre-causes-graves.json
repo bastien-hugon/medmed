@@ -1,0 +1,29 @@
+{
+  "id": "lombalgie-c2-q01-quatre-causes-graves",
+  "kind": "free-recall",
+  "prompt": "Citez les 4 grandes catégories de causes graves de lombalgie que les drapeaux rouges cherchent à dépister.",
+  "expected": [
+    "fracture",
+    "infection",
+    "tumeur",
+    "cancer",
+    "queue de cheval",
+    "spondylodiscite",
+    "syndrome de la queue de cheval",
+    "compression neurologique"
+  ],
+  "rationale": "Les 4 catégories à connaître par cœur : 1) FRACTURE vertébrale ; 2) INFECTION (spondylodiscite) ; 3) TUMEUR (métastase, myélome) ; 4) SYNDROME DE LA QUEUE DE CHEVAL (compression nerveuse sévère). Tout drapeau rouge doit ramener à l'une de ces 4 questions : 'est-ce une fracture ? une infection ? un cancer ? une queue de cheval ?'",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

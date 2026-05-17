@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c2-s01f-co-bas-fagerstrom-haut",
+  "kind": "sct",
+  "hypothesis": "Indication d'une NRT à dose pleine (timbre 21 mg + forme rapide) chez un patient avec Fagerström à 8.",
+  "new_info": "Le CO expiré au cabinet ce matin est mesuré à 4 ppm et le patient a déclaré ne pas avoir fumé depuis 36 h dans le cadre d'une réduction progressive.",
+  "expected": "affaiblit",
+  "prompt": "Cette nouvelle information (CO bas car déjà 36 h d'abstinence) modifie-t-elle l'indication initiale de la dose pleine de NRT ?",
+  "rationale": "Le score Fagerström reflète les HABITUDES en tabagisme actif. Si le patient a déjà fait 36 h sans cigarette, il a passé une partie du pic de manque physique. Le CO bas confirme l'abstinence récente. On peut envisager une NRT à dose éventuellement un peu plus modérée pour le maintien (sur-dosage = nausées, palpitations), mais surtout l'indication 'd'emblée plein dose' s'affaiblit : ajuster selon les symptômes ressentis pendant les 36 h passées. Si manque intense malgré 36 h → dose pleine quand même. Si bonne tolérance → dose intermédiaire avec ajustement. La clinique (intensité du manque vécu, envies) prime sur le seul score Fagerström dans cette situation particulière.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

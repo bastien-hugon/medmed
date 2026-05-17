@@ -1,0 +1,28 @@
+{
+  "id": "lombalgie-c1-m03-roles-musculature-paravertebrale",
+  "kind": "qcm-multi",
+  "prompt": "Cochez tous les rôles assurés par la musculature paravertébrale.",
+  "choices": [
+    { "id": "a", "text": "Stabiliser la colonne vertébrale debout", "correct": true },
+    { "id": "b", "text": "Permettre la flexion et l'extension du tronc", "correct": true },
+    { "id": "c", "text": "Encaisser une partie des charges portées", "correct": true },
+    { "id": "d", "text": "Pomper le sang vers les organes abdominaux", "correct": false },
+    { "id": "e", "text": "Produire les hormones de la croissance osseuse", "correct": false },
+    { "id": "f", "text": "Filtrer le liquide céphalo-rachidien", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "La musculature paravertébrale (érecteurs du rachis, multifidus, etc.) a 3 grandes fonctions : tenir la colonne debout (posture statique), permettre les mouvements (flexion/extension/rotation), amortir les charges en absorbant une partie des forces. Les autres propositions sont des fonctions d'autres organes (cœur, glandes, plexus choroïdes) — distracteurs.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

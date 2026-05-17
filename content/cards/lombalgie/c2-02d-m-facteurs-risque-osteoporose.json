@@ -1,0 +1,30 @@
+{
+  "id": "lombalgie-c2-m02-facteurs-risque-osteoporose",
+  "kind": "qcm-multi",
+  "prompt": "Cochez tous les éléments qui doivent faire suspecter une OSTÉOPOROSE (et donc faire évoquer une fracture vertébrale devant une lombalgie aiguë).",
+  "choices": [
+    { "id": "a", "text": "Femme ménopausée", "correct": true },
+    { "id": "b", "text": "Antécédent de fracture du col fémoral", "correct": true },
+    { "id": "c", "text": "Antécédent de fracture du poignet à faible énergie", "correct": true },
+    { "id": "d", "text": "Petit gabarit / IMC bas", "correct": true },
+    { "id": "e", "text": "Corticothérapie prolongée", "correct": true },
+    { "id": "f", "text": "Tabagisme actif", "correct": true },
+    { "id": "g", "text": "Pratique régulière de marche à pied", "correct": false },
+    { "id": "h", "text": "Consommation modérée de produits laitiers", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "FdR d'ostéoporose : ménopause, antécédent personnel ou familial de fracture à faible énergie (poignet, col fémoral, vertèbre), petit gabarit, corticoïdes au long cours, tabac, alcool, faible apport calcique, immobilisation prolongée. La marche à pied et un apport laitier normal sont au contraire PROTECTEURS.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

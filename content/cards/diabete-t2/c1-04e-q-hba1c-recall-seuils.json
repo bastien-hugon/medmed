@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c1-q17-hba1c-recall-seuils",
+  "kind": "free-recall",
+  "prompt": "Cite les trois seuils d'HbA1c (en %) qui distinguent normal / prédiabète / diabète.",
+  "expected": ["5,7", "5.7", "6,5", "6.5", "6,4", "6.4"],
+  "rationale": "Normal < 5,7 %. Prédiabète 5,7-6,4 %. Diabète ≥ 6,5 %. Ces trois seuils sont à retenir par cœur. Mnémo : 'cinq sept – six cinq' encadrent la zone grise du prédiabète.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/H%C3%A9moglobine_glyqu%C3%A9e",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

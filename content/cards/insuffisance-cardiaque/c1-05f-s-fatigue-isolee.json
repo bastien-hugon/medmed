@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c1-s05f-fatigue-isolee",
+  "kind": "sct",
+  "prompt": "Hypothèse : insuffisance cardiaque chez une femme de 75 ans. Information nouvelle : elle a UNIQUEMENT une fatigue à l'effort, sans dyspnée, sans œdème, sans orthopnée. Comment cette info modifie-t-elle la suspicion ?",
+  "hypothesis": "Insuffisance cardiaque chez une femme de 75 ans",
+  "new_info": "Fatigue isolée à l'effort, SANS dyspnée, SANS œdème, SANS orthopnée",
+  "expected": "affaiblit",
+  "rationale": "La fatigue isolée est peu spécifique : très nombreux diagnostics différentiels (anémie, hypothyroïdie, dépression, déconditionnement, cancer, IRC, etc.). Une IC SANS dyspnée NI signe congestif est très inhabituelle — la triade ne se résume pas à la fatigue. La suspicion d'IC est affaiblie, mais sans l'éliminer : il faut explorer (NT-proBNP au moindre doute), surtout chez un sujet âgé avec FDRCV.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

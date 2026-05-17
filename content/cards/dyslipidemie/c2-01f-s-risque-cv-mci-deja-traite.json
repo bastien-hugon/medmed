@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c2-s01-risque-cv-deja-traite",
+  "kind": "sct",
+  "prompt": "Vous calculez le SCORE2 d'un patient sous traitement antihypertenseur efficace (PA actuelle 130/80) et obtenez 6 %.",
+  "hypothesis": "Le risque CV réel du patient est probablement plus élevé que le score affiché.",
+  "new_info": "Le patient était initialement à 165/100 avant traitement, et le score est calculé avec sa PA actuelle traitée.",
+  "expected": "renforce",
+  "rationale": "Les outils de calcul du risque CV utilisent les valeurs ACTUELLES, qui peuvent être 'cachées' par un traitement efficace. Le risque CV SOUS-JACENT du patient (sa biologie hypertensive non traitée) est plus important que ce que le score reflète. Cette information RENFORCE l'hypothèse : il faut majorer cliniquement le risque calculé, et envisager un traitement hypolipémiant même à 6 %. NICE évoque cette nuance dans les facteurs aggravants.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

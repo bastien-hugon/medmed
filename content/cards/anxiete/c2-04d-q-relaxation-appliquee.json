@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q04d-relaxation-appliquee",
+  "kind": "qcm-vignette",
+  "prompt": "Outre la CBT, quelle autre psychothérapie est explicitement recommandée par NICE en 1ère ligne (étape 3) du TAG ?",
+  "choices": [
+    { "id": "a", "text": "Psychanalyse classique", "correct": false },
+    { "id": "b", "text": "Relaxation appliquée (applied relaxation)", "correct": true },
+    { "id": "c", "text": "Hypnose ericksonienne", "correct": false },
+    { "id": "d", "text": "Thérapie systémique familiale", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE recommande au step 3 du TAG : CBT OU relaxation appliquée (applied relaxation), au choix. La relaxation appliquée combine apprentissage progressif de techniques de relaxation musculaire (proche de Jacobson) et utilisation pratique dans des situations anxiogènes. Approche structurée, validée empiriquement. La psychanalyse, l'hypnose et la thérapie systémique ne sont pas recommandées en 1ère ligne par NICE pour le TAG — manque d'études contrôlées de niveau suffisant.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

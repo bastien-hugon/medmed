@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-f03-cibles-pa-logique",
+  "kind": "free-recall",
+  "prompt": "Explique pourquoi NICE recommande une cible tensionnelle plus serrée chez les patients MRC avec ACR ≥ 70 mg/mmol, et pas chez tous les MRC.",
+  "expected": [
+    "plus l'ACR est élevé, plus le rein s'use vite : la protéinurie amplifie l'agression rénale",
+    "plus on baisse la PA, plus on freine la perte de DFG et la progression vers l'IRT — bénéfice maximal chez les patients à risque élevé",
+    "mais serrer plus a un coût : hypotension, chutes, syncopes, insuffisance rénale fonctionnelle, polymédication",
+    "donc on RÉSERVE la cible serrée aux patients qui en bénéficient le plus (ACR ≥ 70 = protéinurie franche)",
+    "logique d'individualisation : tolérer un peu plus haut chez le sujet âgé fragile pour éviter les chutes"
+  ],
+  "rationale": "Principe fondamental en médecine : balance bénéfice/risque. Plus le risque rénal est élevé, plus on accepte des effets indésirables modestes pour réduire ce risque. À l'inverse, pour un risque rénal modéré (ACR < 70), serrer plus n'apporte pas assez de bénéfice pour justifier les effets adverses. C'est l'essence des recos NICE : graduer.",
+  "tags": {
+    "system": ["nephrologie", "cardiovasculaire"],
+    "sdd": ["irc", "mrc", "hta"],
+    "item_edn": [224, 261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

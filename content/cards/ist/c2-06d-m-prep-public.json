@@ -1,0 +1,28 @@
+{
+  "id": "ist-c2-m06d-prep-public",
+  "kind": "qcm-multi",
+  "prompt": "Coche les populations pour lesquelles la PrEP VIH est typiquement proposée en France.",
+  "choices": [
+    { "id": "a", "text": "HSH (Hommes ayant des rapports Sexuels avec des Hommes) avec partenaires multiples", "correct": true },
+    { "id": "b", "text": "Personnes ayant un partenaire VIH+ non virologiquement contrôlé", "correct": true },
+    { "id": "c", "text": "Travailleur·euse·s du sexe", "correct": true },
+    { "id": "d", "text": "Personnes en situation de précarité avec consommation de chemsex", "correct": true },
+    { "id": "e", "text": "Toute personne sexuellement active, indépendamment du risque", "correct": false },
+    { "id": "f", "text": "Patients VIH+ sous traitement antirétroviral", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "PrEP = chez les personnes VIH-NÉGATIVES à HAUT risque : HSH multipartenaires, partenaire VIH+ non contrôlé virologiquement, travailleur·euse·s du sexe, chemsex/usage de drogues injectables, exposition répétée non protégée. PAS de PrEP en routine chez les personnes à faible risque (rapport coût/bénéfice et toxicité rénale/osseuse de bas niveau). PAS chez les VIH+ (ils sont déjà sous ARV thérapeutique).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

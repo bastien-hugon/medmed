@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q05c-bitherapie-traits",
+  "kind": "qcm-vignette",
+  "prompt": "Mme B., BPCO GOLD 2, MRC 3, antécédent personnel d'ASTHME dans l'enfance et éosinophiles sanguins à 350/mm3. Elle reste symptomatique sous SABA. Quelle BITHÉRAPIE de fond proposer ?",
+  "choices": [
+    { "id": "a", "text": "LAMA + LABA (standard)", "correct": false },
+    { "id": "b", "text": "LABA + ICS (traits asthmatiques)", "correct": true },
+    { "id": "c", "text": "LAMA + LAMA en double dose", "correct": false },
+    { "id": "d", "text": "Pas de bithérapie : juste augmenter le SABA à 12 bouffées par jour", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Antécédent d'asthme + éosinophilie (≥ 300/mm3) = TRAITS ASTHMATIQUES → orientation vers LABA + ICS plutôt que LAMA + LABA. Les ICS sont plus efficaces dans le sous-groupe à phénotype asthmatique. Doubler une même classe (LAMA + LAMA) n'est pas indiqué. Sur-utiliser le SABA n'est jamais une bonne réponse à un manque d'efficacité du traitement de fond.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

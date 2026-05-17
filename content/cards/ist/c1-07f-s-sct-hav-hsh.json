@@ -1,0 +1,22 @@
+{
+  "id": "ist-c1-s07f-sct-hav-hsh",
+  "kind": "sct",
+  "prompt": "Vous suivez un homme HSH de 28 ans en bonne santé qui vous demande quels vaccins compléter dans son carnet.",
+  "hypothesis": "Indication de vaccination contre l'hépatite A.",
+  "new_info": "Il vous indique qu'il a déjà reçu son vaccin contre l'hépatite B et le vaccin HPV. Son vaccin VHA n'a jamais été fait.",
+  "expected": "renforce",
+  "rationale": "Le vaccin hépatite A (HAV) est recommandé en France chez les HSH (transmission féco-orale possible lors de certaines pratiques sexuelles), les voyageurs en zone endémique, les patients atteints d'hépatopathie chronique. Le fait que ce patient HSH n'ait jamais reçu HAV RENFORCE l'indication : il s'agit pile de la population cible. HBV et HPV déjà à jour → bilan IST + proposer HAV.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie", "hepatologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

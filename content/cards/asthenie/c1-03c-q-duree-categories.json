@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c1-q03c-duree-categories",
+  "kind": "qcm-vignette",
+  "prompt": "Comment classez-vous, par durée, la fatigue d'un patient qui dit l'éprouver depuis 3 mois ?",
+  "choices": [
+    { "id": "a", "text": "Fatigue récente (< 1 mois).", "correct": false },
+    { "id": "b", "text": "Fatigue prolongée (1 à 6 mois).", "correct": true },
+    { "id": "c", "text": "Fatigue chronique (> 6 mois).", "correct": false },
+    { "id": "d", "text": "Fatigue aiguë (< 24 heures).", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "3 mois = fatigue PROLONGÉE (entre 1 et 6 mois). Cette catégorie oriente plus volontiers vers un diabète mal équilibré, une hypothyroïdie, un SAOS, ou une dépression installée. La durée ne donne pas le diagnostic mais sert de panneau d'aiguillage.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

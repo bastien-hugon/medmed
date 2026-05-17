@@ -1,0 +1,20 @@
+{
+  "id": "irc-c2-cz08-triple-whammy",
+  "kind": "cloze",
+  "prompt": "Complète : « La 'triple whammy' rénale associe trois classes médicamenteuses : un ___, un ___ et un ___, et peut précipiter une insuffisance rénale aiguë. »",
+  "expected": ["IEC ou ARA2 ; diurétique ; AINS", "IEC/ARA2 ; diurétique ; AINS", "IEC ; diurétique ; AINS", "ARA2 ; diurétique ; AINS", "IEC - diurétique - AINS"],
+  "rationale": "Triple whammy = IEC/ARA2 + diurétique + AINS. Chaque composant attaque la pression de filtration glomérulaire : diurétique (déshydratation) + IEC/ARA2 (dilatation efférente, perte de l'auto-régulation) + AINS (vasoconstriction afférente). À reconnaître absolument en pratique : c'est l'une des plus fréquentes causes évitables d'IRA en MG, surtout chez le sujet âgé qui s'automédique avec de l'ibuprofène.",
+  "tags": {
+    "system": ["nephrologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "iatrogenie"],
+    "item_edn": [261, 264, 326, 343],
+    "cnge_family": ["chroniques", "urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

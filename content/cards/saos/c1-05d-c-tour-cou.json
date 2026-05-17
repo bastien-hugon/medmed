@@ -1,0 +1,20 @@
+{
+  "id": "saos-c1-05d-c-tour-cou",
+  "kind": "cloze",
+  "prompt": "Un tour de cou supérieur à ___ cm chez l'homme (et environ ___ cm chez la femme) est un marqueur anthropométrique simple associé au SAOS. Ce critère reflète la quantité de graisse ___ qui rétrécit le pharynx.",
+  "expected": ["43", "40", "péripharyngée"],
+  "rationale": "Le tour de cou est un excellent marqueur clinique du risque SAOS, plus discriminant parfois que l'IMC seul, car il reflète la graisse péripharyngée locale (responsable du rétrécissement des VAS). Seuils mémorisables : > 43 cm chez l'homme, > 40 cm chez la femme. Mesure rapide et reproductible — à intégrer à l'examen clinique du ronfleur.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos", "obesite"],
+    "item_edn": [108, 253],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

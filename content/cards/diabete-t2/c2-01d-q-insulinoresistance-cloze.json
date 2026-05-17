@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q06-insulinoresistance-cloze",
+  "kind": "cloze",
+  "prompt": "Aux stades précoces du diabète de type 2, le pancréas compense la résistance des tissus en sécrétant ___ d'insuline (hyperinsulinisme compensateur).",
+  "expected": ["plus", "beaucoup plus", "davantage"],
+  "rationale": "Hyperinsulinisme COMPENSATEUR : le pancréas surproduit pour 'forcer' les serrures rouillées. Tant qu'il y arrive, glycémie ~ normale (mais insulinémie élevée). Cette phase peut durer des années. Quand le pancréas s'épuise, l'insuline finit par baisser → la glycémie monte → diabète installé.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

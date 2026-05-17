@@ -1,0 +1,20 @@
+{
+  "id": "diabete-t2-c2-q11-macrovasculaire-cloze",
+  "kind": "cloze",
+  "prompt": "Le mécanisme central des complications macrovasculaires du diabète est une athérosclérose ___ (= plus rapide et plus diffuse que chez le non-diabétique).",
+  "expected": ["accélérée", "acceleree", "accelerée", "précoce", "precoce"],
+  "rationale": "Athérosclérose 'accélérée' : terme consacré. À HbA1c, PA et LDL équivalents, un diabétique a un risque CV environ DOUBLÉ par rapport à un non-diabétique. Le diabète est considéré comme un 'équivalent de maladie coronaire' dans les recommandations CV — l'objectif est donc de traiter agressivement TOUS les facteurs de risque associés.",
+  "tags": {
+    "system": ["endocrinologie", "cardiovasculaire"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

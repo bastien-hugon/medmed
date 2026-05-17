@@ -1,0 +1,28 @@
+{
+  "id": "gyneco-prevention-c1-m02f-cycle-phases",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les PHASES du cycle menstruel (du jour 1 au jour 28 dans un cycle théorique).",
+  "choices": [
+    { "id": "a", "text": "Phase folliculaire (J1 à J14)", "correct": true },
+    { "id": "b", "text": "Ovulation (vers J14)", "correct": true },
+    { "id": "c", "text": "Phase lutéale (J14 à J28)", "correct": true },
+    { "id": "d", "text": "Phase placentaire (J20 à J28)", "correct": false },
+    { "id": "e", "text": "Phase de gestation (J5 à J28)", "correct": false },
+    { "id": "f", "text": "Phase corticale (J10 à J18)", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Trois phases : (1) FOLLICULAIRE — un follicule grossit, l'œstrogène monte ; (2) OVULATION — le follicule éclate, ovule libéré ; (3) LUTÉALE — corps jaune, progestérone, préparation de la nidation. Les autres options sont des distracteurs : il n'existe pas de 'phase placentaire' (le placenta apparaît seulement en cas de grossesse, après plusieurs semaines), ni de 'phase corticale' du cycle.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

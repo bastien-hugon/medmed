@@ -1,0 +1,22 @@
+{
+  "id": "irc-c1-s04-dfg-ponctuel",
+  "kind": "sct",
+  "prompt": "M. D., 55 ans, sans ATCD, en pleine forme. Bilan sanguin pré-opératoire pour une chirurgie orthopédique : DFG estimé à 53 mL/min. Vous suspectez une MRC débutante.",
+  "hypothesis": "M. D. a une MRC stade G3a qui justifie un bilan néphrologique avant l'intervention.",
+  "new_info": "À la relecture du dossier, c'est sa première prise de sang depuis 5 ans. Une deuxième mesure 6 semaines plus tard montre un DFG à 92 mL/min ; on apprend qu'il avait fait une grosse séance de musculation la veille du premier prélèvement et bu peu d'eau.",
+  "expected": "affaiblit",
+  "rationale": "Le diagnostic de MRC exige une anomalie PERSISTANTE > 3 mois. Une mesure isolée à 53 peut s'expliquer par une déshydratation transitoire et par un afflux de créatinine post-exercice musculaire. Le contrôle à 92 (6 semaines plus tard) infirme la chronicité. L'information affaiblit donc l'hypothèse MRC : ce n'est probablement pas une MRC, juste une baisse fonctionnelle transitoire. Leçon : toujours confirmer avant de coller l'étiquette 'MRC' à un patient.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

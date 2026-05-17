@@ -1,0 +1,30 @@
+{
+  "id": "vaccination-adulte-c2-m07-grossesse-recommandes-vs-ci",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les vaccins qui sont RECOMMANDÉS pendant la grossesse en France.",
+  "choices": [
+    {"id": "a", "text": "dTcaP (coqueluche) entre 20 et 36 SA", "correct": true},
+    {"id": "b", "text": "Grippe annuelle pendant la saison grippale, à tout terme", "correct": true},
+    {"id": "c", "text": "ROR (rougeole-oreillons-rubéole)", "correct": false},
+    {"id": "d", "text": "Varicelle", "correct": false},
+    {"id": "e", "text": "BCG", "correct": false},
+    {"id": "f", "text": "Vaccin COVID-19 (ARNm) selon recommandations en vigueur", "correct": true},
+    {"id": "g", "text": "Fièvre jaune (en routine)", "correct": false},
+    {"id": "h", "text": "Hépatite B si indication (profession, ATCD, partenaire porteur)", "correct": true}
+  ],
+  "expected": ["a", "b", "f", "h"],
+  "rationale": "RECOMMANDÉS : dTcaP 20-36 SA (coqueluche, protection nouveau-né), grippe en saison à tout terme, COVID-19 (vaccin ARNm sans danger, indiqué chez la femme enceinte), hépatite B si indication classique (profession exposée, partenaire AgHBs+, etc.). CI ABSOLUES = vaccins VIVANTS : ROR, varicelle, BCG, fièvre jaune (sauf exception bénéfice/risque pour voyage indispensable). La grossesse n'est jamais un argument pour différer un vaccin INACTIVÉ recommandé.",
+  "tags": {
+    "system": ["infectieux", "prevention", "gynecologie"],
+    "sdd": ["vaccination", "grossesse"],
+    "item_edn": [143, 26],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

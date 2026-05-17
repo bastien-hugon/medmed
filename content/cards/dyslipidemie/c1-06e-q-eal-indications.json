@@ -1,0 +1,29 @@
+{
+  "id": "dyslipidemie-c1-q06-eal-indications",
+  "kind": "free-recall",
+  "prompt": "Cite au moins trois SITUATIONS CLINIQUES qui justifient de prescrire un EAL.",
+  "expected": [
+    "évaluation du risque CV à partir de 40 ans",
+    "antécédents familiaux d'événement CV précoce",
+    "suspicion ou suivi de diabète",
+    "syndrome métabolique",
+    "après un événement cardiovasculaire",
+    "avant ou pendant un traitement par statine",
+    "HTA",
+    "obésité"
+  ],
+  "rationale": "Indications classiques : (1) évaluation systématique du risque CV à partir de 40 ans environ, (2) antécédents familiaux d'événement CV PRÉCOCE (<55 ans homme, <65 ans femme), (3) diabète, syndrome métabolique, HTA, obésité, (4) après un événement CV (post-infarctus, post-AVC) pour cibler le traitement, (5) avant d'initier une statine puis pour le suivi. Trois bonnes réponses parmi cette liste suffisent.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

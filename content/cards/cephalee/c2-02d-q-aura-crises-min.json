@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q02d-aura-crises-min",
+  "kind": "cloze",
+  "prompt": "Pour le diagnostic ICHD-3 de migraine AVEC aura, il faut au moins ___ crises (vs ___ crises pour la migraine sans aura). Le nombre est plus permissif car l'aura est très spécifique et stéréotypée.",
+  "expected": ["2", "5"],
+  "rationale": "Migraine avec aura : 2 crises suffisent. Migraine sans aura : 5 crises requises. La différence vient de la spécificité de l'aura comme événement diagnostiquement signifiant — il est rare qu'on ait deux fois la même cinétique visuelle de scotome scintillant sans qu'il s'agisse d'une aura migraineuse.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

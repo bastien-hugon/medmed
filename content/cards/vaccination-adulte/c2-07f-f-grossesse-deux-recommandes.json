@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-f07-grossesse-deux-recommandes",
+  "kind": "free-recall",
+  "prompt": "Cite les DEUX vaccinations systématiquement RECOMMANDÉES à toute femme enceinte (avec la fenêtre temporelle pour chacune).",
+  "expected": ["dTcaP 20-36 SA", "grippe saison grippale à tout terme"],
+  "rationale": "1. dTcaP (coqueluche) → idéalement 20-36 SA, à chaque grossesse, pour protéger le nouveau-né par transfert d'anticorps maternels. 2. Grippe → pendant la saison grippale (octobre-janvier en métropole), à tout terme. Bonus selon recommandations en vigueur : COVID-19 ARNm. Mnémo : « toute grossesse → dTcaP 20-36 + grippe en saison ; JAMAIS de vivants ».",
+  "tags": {
+    "system": ["infectieux", "prevention", "gynecologie"],
+    "sdd": ["vaccination", "grossesse"],
+    "item_edn": [143, 26],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

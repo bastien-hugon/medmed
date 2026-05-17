@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-m05c-arni-indication",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les conditions retenues pour proposer un switch IEC → ARNI selon NICE NG106.",
+  "choices": [
+    { "id": "a", "text": "ICFEr (FEVG ≤ 35 % le plus souvent)", "correct": true },
+    { "id": "b", "text": "Patient toujours symptomatique (NYHA II-IV) malgré IEC à dose max tolérée", "correct": true },
+    { "id": "c", "text": "Stabilité clinique (pas en décompensation aiguë)", "correct": true },
+    { "id": "d", "text": "Antécédent d'angio-œdème sous IEC", "correct": false },
+    { "id": "e", "text": "Wash-out de 36 h après arrêt de l'IEC", "correct": true },
+    { "id": "f", "text": "Association systématique IEC + ARNI pour potentialiser l'effet", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "e"],
+  "rationale": "Switch IEC → ARNI = ICFEr (FEVG ≤ 35 %), symptomatique sous IEC max toléré, patient stable, avec wash-out de 36 h. CONTRE-INDICATION : antécédent d'angio-œdème sous IEC (risque majoré sous ARNI aussi, à NE PAS prescrire). JAMAIS d'association IEC + ARNI (cumul du risque d'angio-œdème).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

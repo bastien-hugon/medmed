@@ -1,0 +1,20 @@
+{
+  "id": "lombalgie-c2-q03-nom-spondylodiscite",
+  "kind": "free-recall",
+  "prompt": "Comment s'appelle l'infection bactérienne d'un disque intervertébral et des vertèbres adjacentes ?",
+  "expected": ["spondylodiscite", "spondylo-discite"],
+  "rationale": "Spondylodiscite : infection bactérienne du couple disque + vertèbres (du grec 'spondylos' = vertèbre + 'discite'). Germes fréquents : Staphylococcus aureus (notamment chez les usagers de drogues IV), bacilles Gram négatifs, Mycobacterium tuberculosis (mal de Pott). Diagnostic = IRM + hémocultures + biopsie disco-vertébrale.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "infectiologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

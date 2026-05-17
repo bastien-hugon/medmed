@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q02c-tev-acronyme",
+  "kind": "qcm-vignette",
+  "prompt": "Que signifie l'acronyme TEV en pathologie cardiovasculaire (et en contraception) ?",
+  "choices": [
+    { "id": "a", "text": "Trouble Électrique Ventriculaire", "correct": false },
+    { "id": "b", "text": "Thrombo-Embolie Veineuse", "correct": true },
+    { "id": "c", "text": "Test Endométrial Vaginal", "correct": false },
+    { "id": "d", "text": "Transmission Étonogestrel Vaginal", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "TEV = Thrombo-Embolie Veineuse, regroupe TVP (thrombose veineuse profonde, classiquement du mollet) et EP (embolie pulmonaire, complication mortelle de la TVP). C'est LA complication redoutée des œstro-progestatifs : ils augmentent le risque relatif × 3 à 6 (mais le risque absolu reste faible chez une femme jeune sans FdR : ~2/10000/an sans pilule → ~6-12/10000/an sous pilule).",
+  "tags": {
+    "system": ["gynecologie-urologie", "cardiovasculaire"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 226],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

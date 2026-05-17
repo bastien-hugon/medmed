@@ -1,0 +1,22 @@
+{
+  "id": "lombalgie-c2-s04-sct-atcd-cancer-sein",
+  "kind": "sct",
+  "prompt": "Une femme de 62 ans, suivie pour cancer du sein traité il y a 6 ans (mastectomie + radiothérapie + hormonothérapie complétée), consulte pour une lombalgie évoluant depuis 6 semaines. Vous évoquez initialement une LOMBALGIE COMMUNE chronique débutante. Elle vous précise que la douleur la réveille la nuit, ne cède pas au paracétamol bien suivi, et qu'elle a perdu 4 kg en 3 mois sans le vouloir. Cette information renforce-t-elle, affaiblit-elle ou est-elle neutre vis-à-vis de votre hypothèse ?",
+  "hypothesis": "Lombalgie commune chronique débutante",
+  "new_info": "ATCD de cancer du sein + douleur nocturne + échec du paracétamol + perte de poids inexpliquée",
+  "expected": "affaiblit",
+  "rationale": "Cumul de drapeaux rouges tumoraux : ATCD personnel de cancer (sein = ostéophile), douleur d'horaire inflammatoire (nocturne), échec antalgique, perte de poids inexpliquée. Ces éléments disqualifient l'hypothèse 'lombalgie commune' et font évoquer en priorité une métastase osseuse vertébrale. Bilan d'urgence relative : NFS, CRP, calcémie + IRM rachidienne, et avis oncologique.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "oncologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  },
+  "status": "active"
+}

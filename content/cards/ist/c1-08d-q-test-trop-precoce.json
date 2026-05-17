@@ -1,0 +1,26 @@
+{
+  "id": "ist-c1-q08d-test-trop-precoce",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient consulte 4 jours après un rapport non protégé. Il veut 'tout dépister maintenant'. Quelle est la bonne attitude ?",
+  "choices": [
+    { "id": "a", "text": "Tester immédiatement toutes les sérologies : un test négatif suffit à exclure les IST", "correct": false },
+    { "id": "b", "text": "Tester maintenant pour rassurer, sans expliquer, et ne pas recontrôler", "correct": false },
+    { "id": "c", "text": "Expliquer la fenêtre sérologique, faire éventuellement un test 'de base' (état antérieur) maintenant, ET prévoir un retest VIH/syphilis à 6 semaines et hépatite C à 3 mois", "correct": true },
+    { "id": "d", "text": "Refuser tout dépistage avant 3 mois", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "À 4 jours, les sérologies seraient faussement négatives (fenêtre VIH 6 sem, syphilis 3-6 sem, HCV 3 mois). Bonne pratique : (1) expliquer la fenêtre ; (2) éventuellement un test 'de base' pour documenter un statut antérieur ; (3) prévoir un retest à 6 semaines (VIH/syphilis) et 3 mois (HCV) ; (4) discuter une PEP VIH si exposition à haut risque et < 72 h ; (5) NAAT chlamydia/gonocoque possible plus tôt (fenêtre courte).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

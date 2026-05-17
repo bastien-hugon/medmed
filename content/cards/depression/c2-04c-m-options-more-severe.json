@@ -1,0 +1,28 @@
+{
+  "id": "depression-c2-m04c-options-more-severe",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les options thérapeutiques de 1ère ligne ÉQUIVALENTES proposées par NICE 2022 pour la dépression MORE SEVERE (PHQ-9 ≥ 16), à choisir avec le patient.",
+  "choices": [
+    { "id": "a", "text": "Combinaison psychothérapie (TCC ou BA) + antidépresseur", "correct": true },
+    { "id": "b", "text": "Psychothérapie seule (TCC individuelle 16 séances ou BA individuelle 12-16 séances)", "correct": true },
+    { "id": "c", "text": "Antidépresseur seul (ISRS en 1ère ligne pharmacologique)", "correct": true },
+    { "id": "d", "text": "Surveillance active sans traitement pendant 8 semaines", "correct": false },
+    { "id": "e", "text": "Millepertuis (St John's Wort) en automédication", "correct": false },
+    { "id": "f", "text": "Hospitalisation systématique en psychiatrie", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Pour la more severe, NICE 2022 propose 3 options ÉQUIVALENTES en 1ère ligne (pas de hiérarchisation imposée), à choisir avec le patient selon préférences, antécédents, accessibilité, comorbidités. Différence majeure avec less severe : l'AD est explicitement présent dès la 1ère ligne. Le millepertuis est déconseillé (interactions). L'hospitalisation n'est indiquée que si risque imminent. La surveillance seule n'est pas adaptée à une more severe avec retentissement.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  },
+  "status": "active"
+}

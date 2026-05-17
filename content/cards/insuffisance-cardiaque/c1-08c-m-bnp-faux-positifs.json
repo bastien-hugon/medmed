@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-m08c-bnp-faux-positifs",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les facteurs qui AUGMENTENT le NT-proBNP indépendamment de l'IC (faux positifs).",
+  "choices": [
+    { "id": "a", "text": "Âge avancé", "correct": true },
+    { "id": "b", "text": "Insuffisance rénale chronique", "correct": true },
+    { "id": "c", "text": "BPCO", "correct": true },
+    { "id": "d", "text": "Obésité", "correct": false },
+    { "id": "e", "text": "Sepsis", "correct": true },
+    { "id": "f", "text": "Embolie pulmonaire", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "e", "f"],
+  "rationale": "AUGMENTENT le NT-proBNP : âge, IR, BPCO, sepsis, hépatopathie (cirrhose), embolie pulmonaire, diabète. L'OBÉSITÉ au contraire BAISSE le NT-proBNP (faux négatif) — piège classique chez la patiente obèse.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

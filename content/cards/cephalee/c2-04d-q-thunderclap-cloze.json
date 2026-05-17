@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q04d-thunderclap-cloze",
+  "kind": "cloze",
+  "prompt": "Une céphalée 'en coup de tonnerre' (thunderclap) atteint son intensité maximale en moins de ___ minutes. La conduite est un ___ cérébral SANS injection en urgence. Si l'imagerie est négative et la suspicion persiste, on réalise une ___ ___ pour rechercher du sang ou une xanthochromie dans le LCR.",
+  "expected": ["5", "scanner", "ponction", "lombaire"],
+  "rationale": "Trois chiffres-clés : 5 min (définition), scanner non injecté en première intention (sensibilité ~ 95 % dans les 6 premières heures pour détecter une HSA), PL si scanner négatif et suspicion forte. La vitesse d'installation (et non l'intensité brute) est le critère d'alarme : une céphalée 'modérée' qui s'installe en 30 secondes est PLUS suspecte qu'une céphalée 'sévère' qui s'installe en 1 h.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "hsa"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

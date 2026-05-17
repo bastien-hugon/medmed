@@ -1,0 +1,29 @@
+{
+  "id": "ist-c2-m07c-doxypep-ist-couvertes",
+  "kind": "qcm-multi",
+  "prompt": "Coche les IST contre lesquelles la DoxyPEP a démontré une efficacité (chez les populations cibles : HSH et femmes trans).",
+  "choices": [
+    { "id": "a", "text": "Chlamydia", "correct": true },
+    { "id": "b", "text": "Syphilis", "correct": true },
+    { "id": "c", "text": "Gonocoque (efficacité plus modeste, limitée par la résistance)", "correct": true },
+    { "id": "d", "text": "VIH", "correct": false },
+    { "id": "e", "text": "HPV", "correct": false },
+    { "id": "f", "text": "HSV (herpès)", "correct": false },
+    { "id": "g", "text": "Hépatite B", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "3 essais randomisés positifs chez HSH (CDC 2024) montrent une réduction nette de l'incidence pour CHLAMYDIA, SYPHILIS, et GONOCOQUE (effet plus modeste, car résistance bactérienne croissante de N. gonorrhoeae aux tétracyclines). Aucune efficacité pour les IST virales (VIH, HPV, HSV, hépatites) — il faut maintenir préservatif et PrEP VIH si indication. Pas non plus pour les parasites (trichomonase).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c1-s03-grossesse-fievre-jaune",
+  "kind": "sct",
+  "prompt": "Une femme enceinte de 22 SA doit partir au Sénégal dans 3 semaines pour un motif professionnel non reportable. Elle n'est pas vaccinée contre la fièvre jaune.",
+  "hypothesis": "Mon hypothèse : la vaccination antiamarile est formellement contre-indiquée dans cette situation.",
+  "new_info": "Vous notez qu'il s'agit d'un voyage indispensable en zone d'endémie où la fièvre jaune fait des cas mortels.",
+  "expected": "affaiblit",
+  "rationale": "La fièvre jaune est un vaccin VIVANT atténué, donc contre-indiqué pendant la grossesse en règle générale. MAIS l'exception bénéfice/risque s'applique quand le voyage est indispensable en zone d'endémie : le risque réel d'infection par un virus mortel l'emporte sur le risque théorique (faible et non démontré comme grave) de la vaccination. L'info AFFAIBLIT la « CI absolue ». Conduite : centre de vaccination internationale agréé, discussion partagée, traçabilité.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "voyage", "grossesse"],
+    "item_edn": [143, 26, 174],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

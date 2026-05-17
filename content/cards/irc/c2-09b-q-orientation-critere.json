@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-q09-orientation-critere",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi les critères suivants, lequel justifie en lui-même une orientation chez le néphrologue selon NICE NG203 ?",
+  "choices": [
+    { "id": "a", "text": "DFG stable à 65 mL/min chez un patient G2 A1", "correct": false },
+    { "id": "b", "text": "Baisse soutenue du DFG ≥ 25 % avec passage d'un stade à un autre en moins de 12 mois", "correct": true },
+    { "id": "c", "text": "Âge > 65 ans avec DFG normal", "correct": false },
+    { "id": "d", "text": "Hypertension contrôlée sous monothérapie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La DYNAMIQUE (vitesse de chute) compte plus que la valeur absolue pour orienter. Une baisse de 25 % avec passage de stade (G2 → G3a, G3a → G3b...) en moins d'1 an justifie l'avis néphrologue. Un G2 A1 stable peut rester en MG. L'âge isolé ne justifie pas l'orientation. Autres critères : ACR ≥ 70, ACR > 30 + hématurie, HTA non contrôlée malgré 4 antihypertenseurs, suspicion de cause génétique, G4 (préparation suppléance), KFRE > 5 % à 5 ans.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

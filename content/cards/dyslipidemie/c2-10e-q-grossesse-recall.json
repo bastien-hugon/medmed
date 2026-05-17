@@ -1,0 +1,28 @@
+{
+  "id": "dyslipidemie-c2-q10-grossesse-recall",
+  "kind": "free-recall",
+  "prompt": "Pourquoi les statines sont-elles contre-indiquées pendant la grossesse ? Cite au moins un mécanisme physiopathologique.",
+  "expected": [
+    "le cholestérol est essentiel au développement fœtal",
+    "construction des membranes cellulaires fœtales",
+    "synthèse des hormones stéroïdiennes",
+    "développement du système nerveux",
+    "risque malformatif",
+    "tératogène",
+    "passage placentaire"
+  ],
+  "rationale": "Mécanisme principal : le CHOLESTÉROL est INDISPENSABLE au développement fœtal (membranes des milliards de nouvelles cellules, hormones stéroïdiennes nécessaires à la croissance, développement du SNC très riche en cholestérol). Les statines TRAVERSENT le placenta et inhibent la synthèse de cholestérol chez le fœtus. Études animales : risque MALFORMATIF (SNC, squelette). Données humaines limitées mais principe de précaution. Toute formulation cohérente avec ces notions est valide.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

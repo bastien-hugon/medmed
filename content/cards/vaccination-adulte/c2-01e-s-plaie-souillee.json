@@ -1,0 +1,22 @@
+{
+  "id": "vaccination-adulte-c2-s01-plaie-souillee",
+  "kind": "sct",
+  "prompt": "Un patient de 52 ans se présente aux urgences avec une plaie souillée (clou rouillé dans le jardin). Vous envisagez de lui injecter un rappel tétanos.",
+  "hypothesis": "Mon hypothèse : un simple rappel tétanos suffira.",
+  "new_info": "À l'interrogatoire, il vous dit avoir reçu son dernier rappel DTP à 25 ans (donc il y a 27 ans), et rien depuis.",
+  "expected": "affaiblit",
+  "rationale": "Calendrier normal : 25-45-65. Ce patient à 52 ans aurait dû recevoir son rappel à 45 ans → DTP en retard. Devant une plaie souillée chez un adulte non à jour (> 20 ans depuis le dernier rappel adulte), la conduite est : rappel DTP IMMÉDIAT + sérum/immunoglobulines antitétaniques humaines (selon protocole HAS), car l'immunité résiduelle peut être insuffisante. Donc « simple rappel » ne suffit pas → l'info AFFAIBLIT.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "tétanos"],
+    "item_edn": [143],
+    "cnge_family": ["prevention", "urgences"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

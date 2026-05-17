@@ -1,0 +1,28 @@
+{
+  "id": "asthenie-c1-m03f-fatigue-chronique-pistes",
+  "kind": "qcm-multi",
+  "prompt": "Devant une fatigue CHRONIQUE (> 6 mois), cochez les pistes diagnostiques à explorer EN PRIORITÉ d'après la durée seule (avant tout autre élément clinique).",
+  "choices": [
+    { "id": "a", "text": "Syndrome de fatigue chronique / encéphalomyélite myalgique (ME/CFS).", "correct": true },
+    { "id": "b", "text": "Fatigue post-virale (post-COVID, post-mononucléose…).", "correct": true },
+    { "id": "c", "text": "Dépression chronique.", "correct": true },
+    { "id": "d", "text": "Hémorragie aiguë par ulcère gastrique.", "correct": false },
+    { "id": "e", "text": "Effet d'un médicament récemment introduit (la veille).", "correct": false },
+    { "id": "f", "text": "Médicaments pris au long cours.", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "f"],
+  "rationale": "La fatigue chronique (> 6 mois) oriente vers : ME/CFS, fatigue post-virale, dépression chronique, médicaments AU LONG COURS. Une hémorragie aiguë et un médicament introduit la veille évoquent au contraire une fatigue RÉCENTE (< 1 mois). Le mapping durée → causes est un panneau d'aiguillage, pas une certitude diagnostique.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

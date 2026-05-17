@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c2-m02-reversibilite-criteres",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant le test de réversibilité bronchodilatateur chez l'ADULTE (NICE NG245).",
+  "choices": [
+    {"id": "a", "text": "On compare le VEMS avant et 15-20 min après salbutamol inhalé", "correct": true},
+    {"id": "b", "text": "Réversibilité POSITIVE si VEMS augmente de ≥ 12 % ET ≥ 200 mL", "correct": true},
+    {"id": "c", "text": "Un seul des deux critères (% OU mL) suffit", "correct": false},
+    {"id": "d", "text": "Une réversibilité négative N'ÉLIMINE PAS l'asthme : on passe à l'étape 3 (variabilité DEP)", "correct": true},
+    {"id": "e", "text": "Chez l'enfant 5-16 ans, le seuil est ≥ 12 % de VEMS sans condition de mL", "correct": true},
+    {"id": "f", "text": "Le test n'est interprétable que sur un VEMS d'au moins 3 L", "correct": false}
+  ],
+  "expected": ["a", "b", "d", "e"],
+  "rationale": "Double critère adulte (12 % ET 200 mL) — le ET est crucial : un petit gabarit avec 15 % de hausse mais seulement 150 mL n'est PAS réversible au sens NG245. Chez l'enfant, seuil simplifié 12 % sans condition de mL. Et surtout : test négatif → poursuivre la cascade, pas conclure « pas d'asthme ».",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

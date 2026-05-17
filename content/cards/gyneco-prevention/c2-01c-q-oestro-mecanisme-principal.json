@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c2-q01c-oestro-mecanisme-principal",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le MÉCANISME PRINCIPAL d'action des œstro-progestatifs combinés (pilule, patch, anneau) ?",
+  "choices": [
+    { "id": "a", "text": "Destruction directe des spermatozoïdes par toxicité hormonale.", "correct": false },
+    { "id": "b", "text": "Blocage de l'OVULATION par rétrocontrôle négatif hypothalamo-hypophysaire (suppression des pics de FSH et LH).", "correct": true },
+    { "id": "c", "text": "Provoquer un avortement précoce après la nidation.", "correct": false },
+    { "id": "d", "text": "Acidifier le vagin pour neutraliser les spermatozoïdes.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Mécanisme principal : blocage de l'ovulation. Les taux constants d'œstrogène + progestatif 'trompent' l'axe hypothalamo-hypophysaire qui n'envoie plus les pics FSH/LH nécessaires à l'ovulation. Pas d'ovulation = pas d'ovule à féconder. Deux mécanismes accessoires : (1) épaississement de la glaire cervicale, (2) amincissement de l'endomètre. Les œstro-progestatifs ne sont PAS abortifs (ils agissent AVANT la fécondation).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

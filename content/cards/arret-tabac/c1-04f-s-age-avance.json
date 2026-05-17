@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c1-s04f-age-avance",
+  "kind": "sct",
+  "hypothesis": "Proposer l'arrêt du tabac à un patient de 70 ans, fumeur depuis 50 ans (40 paquets-années), reste pertinent et bénéfique.",
+  "new_info": "Le patient n'a, à ce jour, aucune pathologie cardiovasculaire, respiratoire ou cancéreuse déclarée. Bilan récent normal.",
+  "expected": "renforce",
+  "prompt": "Cette nouvelle information modifie-t-elle l'indication de proposer un sevrage tabagique à ce patient âgé ?",
+  "rationale": "Un patient âgé sans pathologie installée bénéficie ENCORE pleinement de l'arrêt : le risque CV chute (÷ 2 dès 1 an), la fonction pulmonaire peut s'améliorer (ou cesser de se dégrader), le risque de cancer continue à diminuer. L'absence de complications actuelles signifie qu'on peut PRÉVENIR plutôt que devoir traiter — fenêtre encore ouverte. Message à transmettre : 'Il n'est JAMAIS trop tard pour arrêter, même à 70 ans, on gagne des années de vie en bonne santé.' L'indication est RENFORCÉE.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire", "prevention", "geriatrie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

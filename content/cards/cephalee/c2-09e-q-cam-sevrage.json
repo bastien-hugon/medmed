@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q09e-cam-sevrage",
+  "kind": "free-recall",
+  "prompt": "Quelles sont les 3 modalités essentielles du sevrage d'une céphalée par abus médicamenteux (NICE) : mode du sevrage, durée minimale, information à donner au patient ?",
+  "expected": ["brutal", "1 mois", "empire", "amélioration"],
+  "rationale": "Trois piliers : 1) Sevrage BRUTAL (pas progressif) du médicament en cause, contre-intuitif mais validé par NICE. 2) Durée ≥ 1 MOIS sans le médicament en cause. 3) PRÉVENIR le patient : la céphalée va EMPIRER quelques jours à 1-2 semaines avant l'AMÉLIORATION attendue (l'information préalable est cruciale pour l'adhésion). Réévaluation à 4-8 semaines. Considérer une prophylaxie concomitante de la céphalée primaire sous-jacente.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "cam"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bpco-c2-q08d-rehab-duree",
+  "kind": "cloze",
+  "prompt": "Un programme de réhabilitation respiratoire dure habituellement ___ à ___ semaines.",
+  "expected": ["6", "12"],
+  "rationale": "Programme standard : 6 à 12 semaines, généralement plusieurs séances par semaine (en centre SSR pneumologie ou en réseau de proximité). Au-delà, le bénéfice s'estompe sans entretien : d'où l'importance de poursuivre une activité physique régulière APRÈS le programme. Indication NICE : MRC dyspnée ≥ 3, ou dyspnée gênant la vie quotidienne, ou après une exacerbation hospitalisée.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

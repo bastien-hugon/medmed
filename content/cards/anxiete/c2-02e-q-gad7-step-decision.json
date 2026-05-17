@@ -1,0 +1,26 @@
+{
+  "id": "anxiete-c2-q02e-gad7-step-decision",
+  "kind": "qcm-vignette",
+  "prompt": "Mme P. présente un TAG confirmé avec un GAD-7 = 17. Selon NICE, vers quel(s) niveau(x) du stepped care doit-on l'orienter ?",
+  "choices": [
+    { "id": "a", "text": "Étape 2 (auto-aide guidée) en première intention", "correct": false },
+    { "id": "b", "text": "Étape 3 (haute intensité : CBT ou SSRI), retentissement marqué probable", "correct": true },
+    { "id": "c", "text": "Étape 1 (surveillance active seule)", "correct": false },
+    { "id": "d", "text": "Pas d'intervention nécessaire, score considéré comme acceptable", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "GAD-7 = 17 correspond à une anxiété SÉVÈRE (seuil ≥ 15). NICE recommande à ce niveau l'étape 3 du stepped care : CBT (12-15 séances hebdo) OU SSRI (sertraline en 1ère intention) — au choix selon préférence patient et accessibilité. L'auto-aide seule (étape 2) est insuffisante en cas de sévérité importante. À noter : NICE ne définit pas de seuil GAD-7 strict pour les paliers, mais combine score + retentissement. ≥ 15 + retentissement marqué = step 3 quasi systématique.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  },
+  "status": "active"
+}

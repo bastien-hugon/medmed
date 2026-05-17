@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q05d-larc-efficacite",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi les LARC ont-elles une efficacité réelle (typical use) si élevée — quasi égale à leur efficacité théorique (perfect use) ?",
+  "choices": [
+    { "id": "a", "text": "Parce qu'elles utilisent des hormones plus puissantes que la pilule.", "correct": false },
+    { "id": "b", "text": "Parce qu'une fois posées, il n'y a plus aucune action quotidienne à réaliser : pas d'oubli possible, pas d'erreur d'utilisation.", "correct": true },
+    { "id": "c", "text": "Parce qu'elles sont remboursées à 100 % par la Sécurité sociale.", "correct": false },
+    { "id": "d", "text": "Parce qu'elles sont réservées à des femmes très observantes.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "C'est l'idée centrale des LARC : 'oubliables'. Pour les méthodes quotidiennes (pilule) ou à chaque rapport (préservatif), il y a un grand écart perfect/typical (pilule 0,3 % → 9 %). Pour les LARC, l'écart est NUL ou minimal : implant 0,05 %, DIU LNG 0,2 %, DIU cuivre 0,6 % — perfect = typical. C'est cet argument qui les place en tête en MG, particulièrement chez les jeunes (qui ont une observance imparfaite de la pilule).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

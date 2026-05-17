@@ -1,0 +1,26 @@
+{
+  "id": "gyneco-prevention-c1-q02c-cycle-ovulation",
+  "kind": "qcm-vignette",
+  "prompt": "Dans un cycle théorique de 28 jours, l'OVULATION (libération de l'ovule par l'ovaire) survient typiquement vers quel jour ?",
+  "choices": [
+    { "id": "a", "text": "Jour 1, en même temps que les règles.", "correct": false },
+    { "id": "b", "text": "Vers le jour 7.", "correct": false },
+    { "id": "c", "text": "Vers le jour 14, à la fin de la phase folliculaire.", "correct": true },
+    { "id": "d", "text": "Vers le jour 25, juste avant les règles suivantes.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Vers J14 dans le cycle théorique : le follicule mature 'éclate', libère l'ovule, qui peut être fécondé pendant ~24h. C'est la fenêtre de fertilité (en pratique 5 j avant + ovulation, grâce à la survie des spermatozoïdes). Mémo physiologique : l'ovulation se situe ~14 j AVANT les règles suivantes — donc dans un cycle long de 35 j, l'ovulation est plutôt à J21, pas J14.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [33, 35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  },
+  "status": "active"
+}

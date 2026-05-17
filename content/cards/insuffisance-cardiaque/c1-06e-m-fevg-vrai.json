@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-m06e-fevg-vrai",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la FEVG.",
+  "choices": [
+    { "id": "a", "text": "C'est le pourcentage de sang éjecté à chaque contraction du VG", "correct": true },
+    { "id": "b", "text": "Une FEVG normale exclut formellement une insuffisance cardiaque", "correct": false },
+    { "id": "c", "text": "Elle se mesure principalement par échographie cardiaque", "correct": true },
+    { "id": "d", "text": "Une FEVG ≤ 40 % classe l'IC en ICFEr (réduite)", "correct": true },
+    { "id": "e", "text": "Elle commande le choix du traitement médicamenteux", "correct": true },
+    { "id": "f", "text": "Elle est exprimée en mL/min", "correct": false }
+  ],
+  "expected": ["a", "c", "d", "e"],
+  "rationale": "FEVG = % éjecté à chaque battement (sans unité). Une FEVG normale (≥ 50 %) N'exclut PAS l'IC : il existe l'ICFEp (IC à FEVG préservée). Mesure → écho. Seuils : ≤ 40 % = ICFEr, 41-49 % = ICFEmr, ≥ 50 % = ICFEp. Le traitement dépend de la classe : les 4 piliers d'emblée pour l'ICFEr, options plus limitées pour l'ICFEp.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "hta-c2-m04-categories-pa",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant les 4 catégories possibles selon la PA cabinet et hors cabinet.",
+  "choices": [
+    {"id": "a", "text": "PA normale cabinet + PA normale AMT = situation normale", "correct": true},
+    {"id": "b", "text": "PA haute cabinet + PA haute AMT = HTA permanente, à traiter", "correct": true},
+    {"id": "c", "text": "PA haute cabinet + PA normale AMT = HTA masquée", "correct": false},
+    {"id": "d", "text": "PA normale cabinet + PA haute AMT = HTA masquée, à risque CV élevé", "correct": true},
+    {"id": "e", "text": "L'HTA blouse blanche nécessite RHD + surveillance annuelle", "correct": true},
+    {"id": "f", "text": "L'HTA masquée ne nécessite jamais de traitement", "correct": false}
+  ],
+  "expected": ["a", "b", "d", "e"],
+  "rationale": "Tableau 2x2 : (1) normale partout = OK ; (2) haute partout = HTA permanente ; (3) haute cabinet + normale AMT = BLOUSE BLANCHE (pas masquée !) → RHD + surveillance ; (4) normale cabinet + haute AMT = MASQUÉE → à traiter comme une HTA, surtout fréquente chez le diabétique. Erreur classique : inverser blouse blanche et masquée. Mnémo : 'blouse blanche = peur du médecin (haute chez lui seulement). Masquée = se cache du médecin (haute ailleurs).'",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

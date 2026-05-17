@@ -1,0 +1,26 @@
+{
+  "id": "dyslipidemie-c1-q01-cholesterol-recall",
+  "kind": "free-recall",
+  "prompt": "Cite au moins TROIS rôles physiologiques du cholestérol dans l'organisme.",
+  "expected": [
+    "membranes cellulaires",
+    "hormones stéroïdiennes",
+    "vitamine D",
+    "sels biliaires",
+    "synthèse hormonale"
+  ],
+  "rationale": "Quatre grandes fonctions à connaître : (1) brique des MEMBRANES cellulaires, (2) précurseur des HORMONES stéroïdiennes (testostérone, œstrogènes, cortisol, aldostérone), (3) précurseur de la VITAMINE D, (4) précurseur des SELS BILIAIRES pour la digestion des graisses. Toute réponse parmi ces quatre est valide.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ist-c1-m04b-4-ist-principales",
+  "kind": "qcm-multi",
+  "prompt": "Coche les 4 IST qui constituent le 'cœur' du dépistage IST en médecine générale.",
+  "choices": [
+    { "id": "a", "text": "Chlamydia", "correct": true },
+    { "id": "b", "text": "Gonocoque", "correct": true },
+    { "id": "c", "text": "Syphilis", "correct": true },
+    { "id": "d", "text": "VIH", "correct": true },
+    { "id": "e", "text": "HPV", "correct": false },
+    { "id": "f", "text": "HSV (herpès)", "correct": false },
+    { "id": "g", "text": "Hépatite A", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d"],
+  "rationale": "Les 4 IST 'classiques' du quotidien en MG : CHLAMYDIA + GONOCOQUE (bactéries, NAAT urines/écouvillon), SYPHILIS + VIH (sérologies). HPV et HSV sont aussi des IST mais sortent de ce socle de dépistage (HPV vu par frottis cervico-vaginal ou vaccin, HSV diagnostic clinique sur poussées). L'hépatite B est souvent ajoutée au bilan, l'hépatite A plus rarement.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

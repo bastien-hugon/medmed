@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c2-m02e-gold-vrai-faux",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les affirmations VRAIES concernant la classification GOLD 1-4 de la sévérité spirométrique de la BPCO.",
+  "choices": [
+    { "id": "a", "text": "Elle est basée sur le VEMS exprimé en % de la valeur prédite", "correct": true },
+    { "id": "b", "text": "Elle s'applique uniquement chez les patients dont le Tiffeneau est < 0,70 post-BD", "correct": true },
+    { "id": "c", "text": "Elle prédit parfaitement la sévérité clinique du patient", "correct": false },
+    { "id": "d", "text": "GOLD 4 correspond à un VEMS < 30 % prédit", "correct": true },
+    { "id": "e", "text": "Elle pilote DIRECTEMENT le choix des inhalés (le stade GOLD 1-4 décide du traitement)", "correct": false },
+    { "id": "f", "text": "Elle doit être complétée par la classification clinique A/B/E pour guider le traitement", "correct": true }
+  ],
+  "expected": ["a", "b", "d", "f"],
+  "rationale": "GOLD 1-4 ne reflète que l'obstruction (spirométrie). Elle NE prédit PAS le retentissement clinique (un GOLD 2 très symptomatique peut être plus malade qu'un GOLD 3 peu gêné). C'est la classification A/B/E (symptômes + exacerbations) qui pilote le choix des inhalés. La sévérité GOLD 1-4 sert surtout au PRONOSTIC et au SUIVI.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

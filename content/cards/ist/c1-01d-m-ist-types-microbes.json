@@ -1,0 +1,27 @@
+{
+  "id": "ist-c1-m01d-ist-types-microbes",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les types de microbes qui peuvent être responsables d'une IST.",
+  "choices": [
+    { "id": "a", "text": "Bactérie (ex : chlamydia, gonocoque, syphilis)", "correct": true },
+    { "id": "b", "text": "Virus (ex : VIH, HPV, herpès)", "correct": true },
+    { "id": "c", "text": "Parasite (ex : trichomonase, gale, poux du pubis)", "correct": true },
+    { "id": "d", "text": "Prion (comme la maladie de Creutzfeldt-Jakob)", "correct": false },
+    { "id": "e", "text": "Cellule cancéreuse libre", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Les IST regroupent 3 grandes familles : BACTÉRIES (chlamydia, gonocoque, syphilis), VIRUS (VIH, HPV, HSV, hépatites), PARASITES (trichomonase, gale, pédiculose pubienne). Les prions et les cellules cancéreuses ne se transmettent pas sexuellement comme infection.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

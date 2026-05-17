@@ -1,0 +1,29 @@
+{
+  "id": "asthenie-c2-m01d-causes-prolongees",
+  "kind": "qcm-multi",
+  "prompt": "Cochez les causes typiquement responsables d'une fatigue PROLONGÉE (1 à 6 mois) en médecine générale.",
+  "choices": [
+    { "id": "a", "text": "Diabète mal équilibré.", "correct": true },
+    { "id": "b", "text": "Hypothyroïdie.", "correct": true },
+    { "id": "c", "text": "Syndrome d'apnée du sommeil (SAOS).", "correct": true },
+    { "id": "d", "text": "Cancer occulte (surtout après 50 ans).", "correct": true },
+    { "id": "e", "text": "Hémorragie digestive aiguë de 24 h.", "correct": false },
+    { "id": "f", "text": "Syndrome de fatigue chronique (par définition > 6 mois).", "correct": false },
+    { "id": "g", "text": "Dépression installée.", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "d", "g"],
+  "rationale": "Fatigue prolongée (1-6 mois) — pistes-types : diabète, hypothyroïdie, SAOS, cancer occulte, dépression installée. L'hémorragie aiguë (e) appartient à la fatigue RÉCENTE (< 1 mois). Le SFC (f) ne peut être posé qu'après 6 mois de symptômes avec PEM. Cette carte des probabilités sert à orienter l'enquête, pas à figer le diagnostic.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "asthme-c2-m06-plan-action-composantes",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les composantes essentielles d'un PLAN D'ACTION ÉCRIT pour asthme selon NICE NG245.",
+  "choices": [
+    {"id": "a", "text": "Description du traitement de fond et de la technique d'inhalation", "correct": true},
+    {"id": "b", "text": "Liste des signes qui annoncent une dégradation (toux, oppression, réveils, baisse DEP)", "correct": true},
+    {"id": "c", "text": "Conduite à tenir en cas de dégradation modérée (ex : quadrupler la dose d'ICS × 7 j chez l'adulte ≥ 17 ans)", "correct": true},
+    {"id": "d", "text": "Critères pour appeler le médecin ou se rendre aux urgences (signes de gravité)", "correct": true},
+    {"id": "e", "text": "Volet personnalisé (déclencheurs propres, valeurs de DEP perso) et éducation thérapeutique associée", "correct": true},
+    {"id": "f", "text": "Document uniquement verbal, sans support écrit", "correct": false},
+    {"id": "g", "text": "Ordonnance d'antibiotique en cas de toute exacerbation", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e"],
+  "rationale": "Plan d'action écrit NG245 = personnalisé, écrit (PAS verbal seulement), intégré à un programme d'éducation thérapeutique. Il décrit : traitement de fond + reliever, signes de dégradation, conduite (quadruple ICS × 7 j chez l'adulte), critères de gravité. Pas d'antibiothérapie systématique : la majorité des exacerbations sont virales.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ist-c2-s04f-sct-doxy-vs-azithro",
+  "kind": "sct",
+  "prompt": "Un homme HSH de 30 ans présente une chlamydia rectale confirmée. Vous envisagez de prescrire l'azithromycine 1g dose unique pour simplifier l'observance.",
+  "hypothesis": "L'azithromycine 1g dose unique est un bon choix de 1ère ligne.",
+  "new_info": "Vous lisez l'essai cité par le CDC 2021 : sur chlamydia rectale chez HSH, guérison microbiologique 100% avec doxy vs 74% avec azithromycine dose unique.",
+  "expected": "affaiblit",
+  "rationale": "L'essai change la donne pour les chlamydia rectales : la doxy est SUPÉRIEURE à l'azithro (100% vs 74%). La nouvelle information AFFAIBLIT le projet azithro dose unique chez ce patient. Conduite : prescrire doxycycline 100 mg PO BID × 7 j (gold standard CDC 2021). L'azithromycine dose unique reste une alternative pour les chlamydia urogénitales 'simples' chez non-enceinte si problème d'observance, mais pour les formes rectales / oropharyngées, on privilégie la doxy.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

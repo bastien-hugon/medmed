@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c1-q05e-co-ancien-fumeur",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient ancien fumeur ayant arrêté il y a 6 mois vient en suivi. Il déclare ne pas avoir refumé. Son CO expiré est à 4 ppm. Comment interpréter ce résultat ?",
+  "choices": [
+    { "id": "a", "text": "CO compatible avec un profil non-fumeur, l'abstinence est confirmée", "correct": true },
+    { "id": "b", "text": "CO élevé qui prouve une reprise de tabagisme caché", "correct": false },
+    { "id": "c", "text": "Erreur de l'appareil, à refaire", "correct": false },
+    { "id": "d", "text": "Le CO ne dit rien à 6 mois d'arrêt, il faut une cotinine urinaire", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "< 5 ppm = profil non-fumeur. Le CO se normalise en ~24 h après la dernière cigarette : à 6 mois d'arrêt, on attend des valeurs basses (1-4 ppm). Cohérence avec sa déclaration → abstinence confirmée. Le CO est utile au début du sevrage (mesure récente). Pour vérifier une abstinence ANCIENNE (>1 mois), si doute clinique, on peut effectivement aller chercher la cotinine urinaire/salivaire (métabolite de la nicotine, demi-vie ~16 h, détectable plus longtemps). Mais ici, le CO bas concorde, pas de raison d'aller plus loin.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

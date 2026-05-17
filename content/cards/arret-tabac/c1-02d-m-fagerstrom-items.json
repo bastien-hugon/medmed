@@ -1,0 +1,30 @@
+{
+  "id": "arret-tabac-c1-m02d-fagerstrom-items",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les items qui font partie du test de Fagerström (6 questions standardisées).",
+  "choices": [
+    {"id": "a", "text": "Délai entre le réveil et la première cigarette du matin", "correct": true},
+    {"id": "b", "text": "Nombre de cigarettes fumées par jour", "correct": true},
+    {"id": "c", "text": "Difficulté à s'abstenir dans les lieux où c'est interdit", "correct": true},
+    {"id": "d", "text": "Cigarette à laquelle on tient le plus dans la journée (souvent la première du matin)", "correct": true},
+    {"id": "e", "text": "Tabagisme plus intense le matin que dans le reste de la journée", "correct": true},
+    {"id": "f", "text": "Fumer même malade au lit", "correct": true},
+    {"id": "g", "text": "Antécédents familiaux de tabagisme parental", "correct": false},
+    {"id": "h", "text": "Motivation déclarée à arrêter sur une échelle de 0 à 10", "correct": false}
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f"],
+  "rationale": "Les SIX items historiques du Fagerström (FTND) : (1) délai 1ère cigarette, (2) nombre/jour, (3) difficulté à s'abstenir dans lieux interdits, (4) cigarette à laquelle on tient le plus, (5) intensité matinale, (6) fumer malade. Le délai après réveil + le nombre/jour sont les deux items les plus discriminants. Antécédents familiaux et motivation déclarée NE FONT PAS partie du Fagerström.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

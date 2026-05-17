@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c1-s02f-imagerie-normale-rassure",
+  "kind": "sct",
+  "prompt": "Patiente de 35 ans avec une histoire de céphalées hémicrâniennes pulsatiles avec photophobie depuis 10 ans, examen normal. Vous évoquez une migraine primaire et expliquez qu'aucune imagerie n'est nécessaire. La patiente insiste et finit par obtenir, via un autre médecin, une IRM cérébrale dont le résultat lui revient. Comment cette nouvelle information modifie-t-elle votre hypothèse 'migraine primaire' ?",
+  "hypothesis": "Le tableau clinique correspond à une migraine sans aura (céphalée primaire).",
+  "new_info": "L'IRM cérébrale revient strictement normale, sans aucune anomalie.",
+  "expected": "neutre",
+  "rationale": "Une IRM normale ne CONFIRME ni n'INFIRME une migraine — c'est un diagnostic CLINIQUE (critères ICHD-3). La normalité de l'imagerie est attendue puisque les céphalées primaires ne présentent par définition aucune anomalie radiologique. L'information n'apporte rien diagnostiquement (effet 'neutre'). NICE déconseille explicitement l'imagerie 'pour rassurer' — l'examen aurait été utile UNIQUEMENT si elle avait présenté un drapeau rouge ou une atypie. Ce piège (IRM normale = rassure) entretient la culture du sur-examen.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

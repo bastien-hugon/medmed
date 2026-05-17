@@ -1,0 +1,30 @@
+{
+  "id": "ist-c1-m07c-vaccins-ist-disponibles",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les vaccins disponibles aujourd'hui contre une IST.",
+  "choices": [
+    { "id": "a", "text": "Vaccin contre HPV (papillomavirus)", "correct": true },
+    { "id": "b", "text": "Vaccin contre l'hépatite B (HBV)", "correct": true },
+    { "id": "c", "text": "Vaccin contre l'hépatite A (HAV)", "correct": true },
+    { "id": "d", "text": "Vaccin contre la chlamydia", "correct": false },
+    { "id": "e", "text": "Vaccin contre le gonocoque", "correct": false },
+    { "id": "f", "text": "Vaccin contre le VIH", "correct": false },
+    { "id": "g", "text": "Vaccin contre HSV (herpès)", "correct": false },
+    { "id": "h", "text": "Vaccin contre la syphilis", "correct": false }
+  ],
+  "expected": ["a", "b", "c"],
+  "rationale": "Les 3 vaccins IST disponibles : HBV (obligatoire nourrisson en France 2018), HPV (recommandé 11-14 ans filles et garçons, scolaire en 5ème depuis 2023), HAV (groupes à risque : HSH, voyageurs, hépatopathie chronique). Aucun vaccin commercialisé pour chlamydia, gonocoque, syphilis, VIH, HSV, hépatite C (recherche en cours pour plusieurs). Mnémo : 'HBV, HPV, HAV — les 3 H qui se vaccinent. Pas HSV ni HIV.'",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

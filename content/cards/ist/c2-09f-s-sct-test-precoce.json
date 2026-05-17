@@ -1,0 +1,22 @@
+{
+  "id": "ist-c2-s09f-sct-test-precoce",
+  "kind": "sct",
+  "prompt": "Un patient asymptomatique, parfaitement observant de sa cure doxy 7 jours pour chlamydia, vous demande de refaire un NAAT chlamydia 2 semaines après la fin du traitement pour 'être sûr'.",
+  "hypothesis": "Indication d'un test de guérison (NAAT) immédiat à 2 semaines post-TT.",
+  "new_info": "Vous lisez la recommandation : 'NAAT < 4 semaines post-TT peut donner des faux positifs (ADN bactérien non viable).'",
+  "expected": "affaiblit",
+  "rationale": "À 2 semaines post-TT, des fragments d'ADN bactérien non viables peuvent encore être détectés → FAUX POSITIFS anxiogènes (inutilement re-traités). La nouvelle info AFFAIBLIT l'indication du test précoce. Conduite : rassurer, expliquer la cinétique, programmer le retest à 3 mois (pour réinfection). Si vraiment souhait fort du patient et observance, attendre au moins 4 semaines.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  },
+  "status": "active"
+}

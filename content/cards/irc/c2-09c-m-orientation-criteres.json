@@ -1,0 +1,31 @@
+{
+  "id": "irc-c2-m09-orientation-criteres",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUS les critères qui justifient une orientation au néphrologue chez un patient avec MRC selon NICE NG203.",
+  "choices": [
+    { "id": "a", "text": "Risque à 5 ans d'insuffisance rénale terminale > 5 % (KFRE 4 variables)", "correct": true },
+    { "id": "b", "text": "ACR ≥ 70 mg/mmol (sauf diabète bien équilibré sans autre red flag)", "correct": true },
+    { "id": "c", "text": "ACR > 30 mg/mmol AVEC hématurie persistante", "correct": true },
+    { "id": "d", "text": "Baisse du DFG ≥ 25 % avec changement de stade en < 12 mois", "correct": true },
+    { "id": "e", "text": "Baisse rapide du DFG ≥ 15 mL/min/1,73 m² PAR AN", "correct": true },
+    { "id": "f", "text": "HTA non contrôlée malgré ≥ 4 antihypertenseurs à doses optimales", "correct": true },
+    { "id": "g", "text": "Suspicion de cause génétique (polykystose, ATCD familiaux d'IRT)", "correct": true },
+    { "id": "h", "text": "DFG < 30 mL/min (stade G4) pour préparer la suppléance", "correct": true },
+    { "id": "i", "text": "DFG stable à 55 mL/min sans autre anomalie chez un patient âgé", "correct": false }
+  ],
+  "expected": ["a", "b", "c", "d", "e", "f", "g", "h"],
+  "rationale": "Critères NICE multiples : KFRE > 5 %, ACR ≥ 70, ACR > 30 + hématurie, dégradation rapide (25 % avec changement de stade OU 15 mL/min/an), HTA résistante, suspicion cause rare/génétique, stade G4. À l'inverse : un patient stable, bien dépisté, traité par IEC et avec un G3a A1 peut tout à fait être suivi en MG. Principe : on n'oriente pas sur la valeur absolue mais sur la TRAJECTOIRE et la SÉVÉRITÉ de l'atteinte.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "hta-c1-q04c-12-8-equivalent",
+  "kind": "qcm-vignette",
+  "prompt": "Un médecin écrit '12/8' sur le dossier d'un patient. À quelle valeur de PA cela correspond-il en mmHg ?",
+  "choices": [
+    {"id": "a", "text": "12/8 mmHg (très basse, anormale)", "correct": false},
+    {"id": "b", "text": "120/80 mmHg (PA normale)", "correct": true},
+    {"id": "c", "text": "112/108 mmHg", "correct": false},
+    {"id": "d", "text": "1,2/0,8 mmHg", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Convention française orale et écrite : on enlève souvent le zéro final pour gagner du temps. '12/8' = 120/80 mmHg. '14/9' = 140/90 mmHg. '16/10' = 160/100 mmHg. C'est juste un raccourci d'écriture. Une PA de 12/8 mmHg réelle serait incompatible avec la vie (le cerveau ne serait plus perfusé).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "hta-c2-q06b-suffixe-dipine",
+  "kind": "qcm-vignette",
+  "prompt": "Sur l'ordonnance d'un patient, tu lis 'amlodipine 5 mg'. À quelle classe d'antihypertenseurs appartient cette molécule ?",
+  "choices": [
+    {"id": "a", "text": "IEC", "correct": false},
+    {"id": "b", "text": "ARA2", "correct": false},
+    {"id": "c", "text": "Inhibiteur calcique (dihydropyridine)", "correct": true},
+    {"id": "d", "text": "Diurétique thiazidique", "correct": false}
+  ],
+  "expected": ["c"],
+  "rationale": "Suffixe -DIPINE = inhibiteur calcique de la famille des DIHYDROPYRIDINES (amlodipine, nifédipine, nicardipine, lercanidipine). Mécanisme : bloquent l'entrée du calcium dans les cellules musculaires lisses artériolaires → vasodilatation → ↓ R → ↓ PA. Effets indésirables typiques : œdèmes des chevilles (vasodilatation déséquilibrée), flush, céphalées. À distinguer des IC bradycardisants (vérapamil, diltiazem, sans -dipine).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  },
+  "status": "active"
+}

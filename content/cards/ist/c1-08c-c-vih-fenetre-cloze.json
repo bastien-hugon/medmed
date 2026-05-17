@@ -1,0 +1,20 @@
+{
+  "id": "ist-c1-c08c-vih-fenetre-cloze",
+  "kind": "cloze",
+  "prompt": "Pour exclure raisonnablement une infection à VIH après une exposition, on recontrôle la sérologie (test combiné Ag/Ac 4ème génération) ___ semaines après l'exposition. Pour l'hépatite C, le délai est de ___ mois.",
+  "expected": ["6", "3"],
+  "rationale": "Ordres de grandeur à mémoriser : VIH (test Ag/Ac 4G) ~6 semaines pour exclure ; SYPHILIS ~3-6 semaines ; HÉPATITE C ~3 mois pour les anticorps. Les NAAT (chlamydia, charge virale VIH) ont une fenêtre beaucoup plus courte car ils détectent le microbe directement. Piège : 'test négatif 3 jours après l'exposition' = NON FIABLE.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

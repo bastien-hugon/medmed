@@ -1,0 +1,26 @@
+{
+  "id": "asthenie-c2-q06b-phq9-seuil",
+  "kind": "qcm-vignette",
+  "prompt": "Vous faites passer un PHQ-9 à une patiente fatiguée. Elle obtient 15. Comment interpréter ce score ?",
+  "choices": [
+    { "id": "a", "text": "Score normal, pas de dépression suspectée.", "correct": false },
+    { "id": "b", "text": "Score ≥ 10 : oriente vers un épisode dépressif probable, à confirmer cliniquement.", "correct": true },
+    { "id": "c", "text": "Le PHQ-9 ne sert qu'à mesurer l'anxiété, pas la dépression.", "correct": false },
+    { "id": "d", "text": "Un score isolé suffit à poser le diagnostic et à initier un antidépresseur.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le PHQ-9 (Patient Health Questionnaire-9) est un outil VALIDÉ de dépistage de la dépression : 9 questions, score de 0 à 27. Seuil clinique : ≥ 10 = dépression probable, à confirmer par entretien clinique (DSM-5/CIM-10). Le PHQ-9 oriente, il ne remplace pas le jugement clinique ni l'évaluation des idées suicidaires (item 9 spécifique). Pour l'anxiété, c'est le GAD-7 (seuil ≥ 10 également).",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie", "depression"],
+    "item_edn": [246, 64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

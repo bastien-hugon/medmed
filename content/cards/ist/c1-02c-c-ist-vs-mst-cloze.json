@@ -1,0 +1,20 @@
+{
+  "id": "ist-c1-c02c-ist-vs-mst-cloze",
+  "kind": "cloze",
+  "prompt": "Complétez : ___ = le microbe est présent dans le corps, souvent silencieux. ___ = la maladie est déclarée avec symptômes ou complications visibles. (3 lettres + 3 lettres)",
+  "expected": ["IST", "MST"],
+  "rationale": "IST = Infection Sexuellement Transmissible (microbe porté, silence possible). MST = Maladie Sexuellement Transmissible (symptômes ou complications). On parle aujourd'hui d'IST pour insister sur le silence et la nécessité du dépistage.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  },
+  "status": "active"
+}

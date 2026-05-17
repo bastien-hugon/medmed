@@ -1,0 +1,28 @@
+{
+  "id": "diabete-t2-c2-m05-metformine-avantages",
+  "kind": "qcm-multi",
+  "prompt": "Coche TOUTES les caractéristiques qui font de la metformine le 1er choix médicamenteux dans le diabète de type 2.",
+  "choices": [
+    { "id": "a", "text": "Pas d'hypoglycémie en monothérapie", "correct": true },
+    { "id": "b", "text": "Pas de prise de poids (voire petite perte de poids)", "correct": true },
+    { "id": "c", "text": "Efficacité démontrée sur l'HbA1c (~−1 à −1,5 %)", "correct": true },
+    { "id": "d", "text": "Coût élevé limitant son accès", "correct": false },
+    { "id": "e", "text": "Recul d'utilisation > 60 ans", "correct": true },
+    { "id": "f", "text": "Donnée de bénéfice cardiovasculaire (étude UKPDS)", "correct": true }
+  ],
+  "expected": ["a", "b", "c", "e", "f"],
+  "rationale": "La metformine cumule TOUS les avantages : pas d'hypoglycémie (a), pas de prise de poids (b), efficace (c), peu chère (donc d est faux), beaucoup de recul (e, depuis 1957), bénéfice CV démontré dans l'UKPDS (f). C'est pour ça qu'elle reste le pivot du traitement T2 dans tous les pays. Le seul vrai souci = tolérance digestive au début.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Antidiab%C3%A9tique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

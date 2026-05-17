@@ -1,0 +1,22 @@
+{
+  "id": "asthenie-c2-s08f-attribution-age",
+  "kind": "sct",
+  "prompt": "Un homme de 82 ans, autonome, marcheur, consulte pour une fatigue d'apparition récente et un essoufflement à la marche, depuis 6 semaines. Vous penchez d'emblée pour un \"vieillissement normal\".",
+  "hypothesis": "La fatigue et l'essoufflement de ce patient sont liés à l'âge et ne nécessitent pas d'investigation.",
+  "new_info": "Vous vous remémorez que la fatigue chez le sujet âgé est SOUVENT le 1er symptôme d'une maladie sérieuse (pneumopathie sans fièvre, infarctus silencieux, anémie, Horton, hypothyroïdie, cancer occulte), et que la dégradation FONCTIONNELLE rapide n'est jamais un vieillissement normal.",
+  "expected": "affaiblit",
+  "rationale": "Le vieillissement physiologique est LENT et progressif. Une dégradation FONCTIONNELLE rapide (6 semaines) chez un sujet jusque-là autonome n'est PAS un vieillissement normal. Le rappel de cette règle AFFAIBLIT l'hypothèse \"banalité de l'âge\" et oblige à mener l'enquête (auscultation, ECG, NFS, ferritine, TSH, créatinine, VS/CRP, radio de thorax). Sous-explorer chez le sujet âgé = passer à côté de maladies parfois traitables simplement.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "asthenie-c1-q03e-trois-categories",
+  "kind": "free-recall",
+  "prompt": "Citez les 3 catégories de fatigue selon la durée, avec leurs bornes temporelles.",
+  "expected": [
+    "récente < 1 mois",
+    "récente moins de 1 mois",
+    "prolongée 1 à 6 mois",
+    "prolongée entre 1 et 6 mois",
+    "chronique > 6 mois",
+    "chronique plus de 6 mois"
+  ],
+  "rationale": "Trois cases temporelles à mémoriser comme un réflexe : (1) RÉCENTE < 1 mois ; (2) PROLONGÉE 1 à 6 mois ; (3) CHRONIQUE > 6 mois. Le seuil de 6 mois est aussi celui retenu dans les critères de syndrome de fatigue chronique (SFC / ME/CFS).",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "saos-c1-07e-q-effort-respiratoire",
+  "kind": "qcm-vignette",
+  "prompt": "Pendant une apnée OBSTRUCTIVE, que se passe-t-il au niveau des efforts respiratoires (mouvements du thorax et de l'abdomen) ?",
+  "choices": [
+    {"id": "a", "text": "Ils s'arrêtent complètement comme dans l'apnée centrale", "correct": false},
+    {"id": "b", "text": "Ils persistent voire s'intensifient contre l'obstacle pharyngé", "correct": true},
+    {"id": "c", "text": "Ils deviennent paradoxaux mais sont absents en cas de SAOS", "correct": false},
+    {"id": "d", "text": "Ils diminuent progressivement puis disparaissent", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "C'est LE critère qui distingue l'apnée obstructive de l'apnée centrale en polygraphie : dans le SAOS, les sangles thoraciques et abdominales enregistrent des mouvements RESPIRATOIRES PERSISTANTS (souvent paradoxaux : le thorax se creuse, l'abdomen se gonfle, signature d'un effort inspiratoire contre obstacle fermé). C'est exactement ce qu'on attendrait d'une personne qui essaye d'inspirer avec la bouche fermée et le nez bouché. Dans l'apnée CENTRALE, au contraire, le cerveau ne commande plus → pas d'effort, mouvements thoraco-abdominaux quasi-nuls.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["saos"],
+    "item_edn": [108],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

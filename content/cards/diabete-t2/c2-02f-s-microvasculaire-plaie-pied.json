@@ -1,0 +1,22 @@
+{
+  "id": "diabete-t2-c2-s02-microvasculaire-plaie-pied",
+  "kind": "sct",
+  "hypothesis": "M. B., 65 ans, diabétique depuis 15 ans, mal équilibré, présente une petite plaie de 1 cm au pied sans douleur. Ce n'est pas grave.",
+  "new_info": "Au test au monofilament 10 g, il ne perçoit le filament en aucun des points testés.",
+  "prompt": "Comment cette information modifie-t-elle l'hypothèse 'pas grave' ?",
+  "expected": "affaiblit",
+  "rationale": "Absence de perception au monofilament 10 g = neuropathie périphérique avérée. Une plaie indolore chez un patient neuropathe est un signe d'ALERTE MAJEURE : il ne sentira pas l'aggravation, et l'infection peut progresser à bas bruit vers l'ulcération, l'ostéite, voire l'amputation. C'est le 'pied du diabétique' à très haut risque. Hypothèse 'pas grave' clairement affaiblie : situation au contraire urgente, nécessitant pansement adapté, décharge, et probablement avis spécialisé.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  },
+  "status": "active"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "dyslipidemie-c2-s08-suivi-observance",
+  "kind": "sct",
+  "prompt": "Une patiente sous atorvastatine 20 mg en prévention primaire a un LDL inchangé à 3 mois (4,1 mmol/L vs 4,3 mmol/L avant). Vous concluez que la statine est inefficace et envisagez de passer directement à un anti-PCSK9.",
+  "hypothesis": "Il faut passer immédiatement à un anti-PCSK9.",
+  "new_info": "Vous apprenez en interrogeant la patiente qu'elle 'oublie souvent' ses comprimés (2-3 prises par semaine seulement).",
+  "expected": "affaiblit",
+  "rationale": "AFFAIBLIT fortement l'hypothèse : la 1re cause d'échec d'une statine est la NON-OBSERVANCE. La très faible baisse du LDL s'explique parfaitement par les 2-3 prises/semaine. Avant tout escalade thérapeutique : (1) renforcer l'éducation et l'observance, (2) explorer les freins (peur des EI, oubli, complexité), (3) éventuellement passer à une statine 1 prise/sem (rosuvastatine est plus longue durée d'action), ou intégrer le médicament à une routine. L'anti-PCSK9 (rarement indiqué en primaire) est très prématuré.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  },
+  "status": "active"
+}
