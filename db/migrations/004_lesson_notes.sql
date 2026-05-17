@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS lesson_notes (
+  card_id TEXT PRIMARY KEY REFERENCES cards(id) ON DELETE CASCADE,
+  content TEXT NOT NULL,
+  model TEXT NOT NULL,
+  generated_at BIGINT NOT NULL
+);

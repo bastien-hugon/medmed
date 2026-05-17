@@ -6,6 +6,7 @@ import { completeSession, submitReview } from "@/actions/session";
 import type { CardRow } from "@/lib/cards";
 import type { Media } from "@/lib/schemas";
 import LessonChat, { type LessonContext } from "@/components/lesson-chat";
+import LessonNotes from "@/components/lesson-notes";
 
 type Step = "prompt" | "answer" | "reveal";
 
@@ -423,6 +424,13 @@ function LessonView({
           </a>
         </div>
       </article>
+
+      <LessonNotes
+        key={`notes-${card.id}`}
+        cardId={card.id}
+        prompt={card.prompt}
+        rationale={card.rationale}
+      />
 
       <LessonChat key={card.id} context={chatContext} />
 
