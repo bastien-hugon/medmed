@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { completeSession, submitReview } from "@/actions/session";
 import type { CardRow } from "@/lib/cards";
 import type { Media } from "@/lib/schemas";
+import LessonChat, { type LessonContext } from "@/components/lesson-chat";
 
 type Step = "prompt" | "answer" | "reveal";
 
@@ -22,6 +23,57 @@ const ratings: { value: Rating; label: string; hint: string; tone: string }[] = 
 // distance min 2 cartes plus loin, max 3 retests par carte pour éviter une boucle.
 const RETEST_DISTANCE = 3;
 const MAX_RETESTS = 3;
+
+// Labels affichables par topic (dérivés du préfixe de l'id de la carte).
+// Permet d'afficher un badge clair pendant les sessions interleaved.
+const TOPIC_LABELS: { prefix: string; label: string; tone: string }[] = [
+  { prefix: "hta-", label: "HTA", tone: "bg-red-100 text-red-800 dark:bg-red-950 dark:text-red-200" },
+  { prefix: "diabete-t2-", label: "Diabète T2", tone: "bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-200" },
+  { prefix: "dyslipidemie-", label: "Dyslipidémie", tone: "bg-orange-100 text-orange-800 dark:bg-orange-950 dark:text-orange-200" },
+  { prefix: "lombalgie-", label: "Lombalgie", tone: "bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-200" },
+  { prefix: "cephalee-", label: "Céphalée", tone: "bg-purple-100 text-purple-800 dark:bg-purple-950 dark:text-purple-200" },
+  { prefix: "depression-", label: "Dépression", tone: "bg-slate-100 text-slate-800 dark:bg-slate-900 dark:text-slate-200" },
+  { prefix: "anxiete-", label: "Anxiété", tone: "bg-cyan-100 text-cyan-800 dark:bg-cyan-950 dark:text-cyan-200" },
+  { prefix: "asthenie-", label: "Asthénie", tone: "bg-zinc-200 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200" },
+  { prefix: "ist-", label: "IST", tone: "bg-pink-100 text-pink-800 dark:bg-pink-950 dark:text-pink-200" },
+  { prefix: "gyneco-prevention-", label: "Gynéco", tone: "bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-200" },
+];
+function topicFromId(cardId: string): { label: string; tone: string } | null {
+  // Match le préfixe le plus long en premier (ex: "gyneco-prevention-" avant "ist-").
+  const sorted = [...TOPIC_LABELS].sort((a, b) => b.prefix.length - a.prefix.length);
+  const hit = sorted.find((t) => cardId.startsWith(t.prefix));
+  return hit ? { label: hit.label, tone: hit.tone } : null;
+}
+
+// Extrait l'identifiant de concept d'une carte (ex: "hta-c1-l05-..." → "hta-c1-05").
+// Une lesson et ses quiz partagent le même conceptKey.
+function conceptKey(cardId: string): string {
+  const m = cardId.match(/^(.+?-c\d+)-[lqs](\d+)/);
+  return m ? `${m[1]}-${m[2]}` : cardId;
+}
+
+// Détecte la transition pédagogique entre 2 cartes successives dans la queue.
+// Sert à afficher un bandeau qui aide à organiser les notes :
+// - "topic"      : on entre dans un nouveau sujet
+// - "concept"    : nouveau concept au sein du même sujet
+// - "lesson-end" : la lesson est finie, on passe au quiz du même concept
+type Transition =
+  | { kind: "topic"; topic: string }
+  | { kind: "concept" }
+  | { kind: "lesson-end" }
+  | null;
+
+function detectTransition(prev: CardRow | null, current: CardRow): Transition {
+  if (!prev) return null;
+  const prevTopic = topicFromId(prev.id)?.label ?? "?";
+  const curTopic = topicFromId(current.id)?.label ?? "?";
+  if (prevTopic !== curTopic) return { kind: "topic", topic: curTopic };
+  const prevConcept = conceptKey(prev.id);
+  const curConcept = conceptKey(current.id);
+  if (prevConcept !== curConcept) return { kind: "concept" };
+  if (prev.kind === "lesson" && current.kind !== "lesson") return { kind: "lesson-end" };
+  return null;
+}
 
 type QueueItem = {
   card: CardRow;
@@ -45,6 +97,9 @@ export default function SessionRunner({
   const [userAnswer, setUserAnswer] = useState<string>("");
   const [pickedChoiceId, setPickedChoiceId] = useState<string | null>(null);
   const [pickedSctValue, setPickedSctValue] = useState<string | null>(null);
+  const [verdict, setVerdict] = useState<{ correct: boolean; feedback: string } | null>(null);
+  const [grading, setGrading] = useState(false);
+  const [gradeError, setGradeError] = useState<string | null>(null);
   const startedAtRef = useRef<number>(0);
   const [pending, startTransition] = useTransition();
   const [finishing, finishTransition] = useTransition();
@@ -62,6 +117,9 @@ export default function SessionRunner({
   const item = queue[cursor];
   const card = item.card;
   const isRetest = item.attempt > 0;
+  // Pas de bandeau de transition si on est sur un retest : le sujet est déjà connu.
+  const previousCard = cursor > 0 && !isRetest ? queue[cursor - 1].card : null;
+  const transition = detectTransition(previousCard, card);
   // Progression : sur le nombre de cartes uniques originales (la queue peut grandir
   // avec les retests, mais on veut un repère stable pour l'utilisateur).
   const progress = (Math.min(cursor, cards.length) / cards.length) * 100;
@@ -75,6 +133,9 @@ export default function SessionRunner({
     if (card.kind === "sct") {
       return pickedSctValue && expectedArr.includes(pickedSctValue) ? 1 : 0;
     }
+    if (card.kind === "cloze" || card.kind === "free-recall") {
+      return verdict ? (verdict.correct ? 1 : 0) : null;
+    }
     return null;
   }
 
@@ -84,6 +145,41 @@ export default function SessionRunner({
     setUserAnswer("");
     setPickedChoiceId(null);
     setPickedSctValue(null);
+    setVerdict(null);
+    setGradeError(null);
+    setGrading(false);
+  }
+
+  // Pour cloze + free-recall, on demande à Opus 4.6 de juger la réponse
+  // avant d'afficher la correction (laxiste mais pas naïf).
+  async function onReveal() {
+    if ((card.kind === "cloze" || card.kind === "free-recall") && userAnswer.trim()) {
+      setGrading(true);
+      setGradeError(null);
+      try {
+        const res = await fetch("/api/grade", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            kind: card.kind,
+            prompt: card.prompt,
+            expected: expectedArr,
+            userAnswer,
+            rationale: card.rationale,
+          }),
+        });
+        if (!res.ok) throw new Error(`Grading ${res.status}`);
+        const data = (await res.json()) as { correct: boolean; feedback: string };
+        setVerdict({ correct: !!data.correct, feedback: String(data.feedback ?? "") });
+      } catch (e) {
+        setGradeError(e instanceof Error ? e.message : "erreur de correction");
+      } finally {
+        setGrading(false);
+        setStep("reveal");
+      }
+    } else {
+      setStep("reveal");
+    }
   }
 
   function onGrade(rating: Rating) {
@@ -139,8 +235,18 @@ export default function SessionRunner({
   return (
     <div className="flex flex-1 flex-col gap-6 px-6 py-8">
       <header className="mx-auto w-full max-w-2xl space-y-3">
-        <div className="flex items-center justify-between text-xs text-zinc-500 dark:text-zinc-400">
-          <span className="flex items-center gap-2">
+        <div className="flex items-center justify-between gap-2 text-xs text-zinc-500 dark:text-zinc-400">
+          <span className="flex flex-wrap items-center gap-2">
+            {(() => {
+              const topic = topicFromId(card.id);
+              return topic ? (
+                <span
+                  className={`inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide ${topic.tone}`}
+                >
+                  {topic.label}
+                </span>
+              ) : null;
+            })()}
             <span>
               Carte {Math.min(cursor + 1, cards.length)} / {cards.length}
               {queue.length > cards.length && (
@@ -171,6 +277,7 @@ export default function SessionRunner({
       </header>
 
       <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col gap-6">
+        {transition && <TransitionBanner transition={transition} />}
         <CardKindBadge kind={card.kind} />
 
         {card.kind === "lesson" ? (
@@ -218,6 +325,8 @@ export default function SessionRunner({
                   pickedChoiceId={pickedChoiceId}
                   pickedSctValue={pickedSctValue}
                   expectedArr={expectedArr}
+                  verdict={verdict}
+                  gradeError={gradeError}
                 />
               )}
             </div>
@@ -225,11 +334,11 @@ export default function SessionRunner({
             {step !== "reveal" ? (
               <button
                 type="button"
-                onClick={() => setStep("reveal")}
-                disabled={!canReveal()}
+                onClick={onReveal}
+                disabled={!canReveal() || grading}
                 className="mx-auto rounded-xl bg-zinc-900 px-8 py-3 text-sm font-medium text-white transition hover:bg-zinc-800 disabled:opacity-40 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-200"
               >
-                Voir la correction
+                {grading ? "Correction en cours…" : "Voir la correction"}
               </button>
             ) : (
               <div className="space-y-3">
@@ -270,6 +379,15 @@ function LessonView({
   onAck: () => void;
   onMiss: () => void;
 }) {
+  const topicLabel = topicFromId(card.id)?.label ?? "—";
+  const chatContext: LessonContext = {
+    topic: topicLabel,
+    cardId: card.id,
+    prompt: card.prompt,
+    rationale: card.rationale,
+    sourceUrl: card.source.url,
+    sourceVersion: card.source.version,
+  };
   return (
     <>
       <article className="rounded-2xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-950">
@@ -306,6 +424,8 @@ function LessonView({
         </div>
       </article>
 
+      <LessonChat key={card.id} context={chatContext} />
+
       <div className="grid grid-cols-2 gap-3">
         <button
           type="button"
@@ -325,6 +445,44 @@ function LessonView({
         </button>
       </div>
     </>
+  );
+}
+
+function TransitionBanner({ transition }: { transition: NonNullable<Transition> }) {
+  if (transition.kind === "topic") {
+    return (
+      <div className="rounded-xl border-2 border-dashed border-indigo-300 bg-indigo-50 px-5 py-3 dark:border-indigo-700 dark:bg-indigo-950/40">
+        <p className="text-[11px] font-semibold uppercase tracking-wide text-indigo-700 dark:text-indigo-300">
+          Nouveau sujet
+        </p>
+        <p className="mt-0.5 text-sm font-medium text-indigo-900 dark:text-indigo-100">
+          → {transition.topic}
+        </p>
+        <p className="mt-1 text-xs text-indigo-700/80 dark:text-indigo-300/80">
+          Bon moment pour changer de page si tu prends des notes.
+        </p>
+      </div>
+    );
+  }
+  if (transition.kind === "concept") {
+    return (
+      <div className="rounded-xl border border-zinc-200 bg-zinc-50 px-5 py-2.5 dark:border-zinc-800 dark:bg-zinc-900">
+        <p className="text-[11px] font-semibold uppercase tracking-wide text-zinc-600 dark:text-zinc-400">
+          Nouveau concept
+        </p>
+      </div>
+    );
+  }
+  // lesson-end
+  return (
+    <div className="rounded-xl border border-emerald-200 bg-emerald-50 px-5 py-2.5 dark:border-emerald-800 dark:bg-emerald-950/40">
+      <p className="text-[11px] font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-300">
+        Leçon terminée → place au quiz
+      </p>
+      <p className="mt-0.5 text-xs text-emerald-700/80 dark:text-emerald-300/80">
+        Tu peux finaliser ta note avant de répondre.
+      </p>
+    </div>
   );
 }
 
@@ -596,28 +754,71 @@ function Reveal({
   pickedChoiceId,
   pickedSctValue,
   expectedArr,
+  verdict,
+  gradeError,
 }: {
   card: CardRow;
   userAnswer: string;
   pickedChoiceId: string | null;
   pickedSctValue: string | null;
   expectedArr: string[];
+  verdict: { correct: boolean; feedback: string } | null;
+  gradeError: string | null;
 }) {
   return (
     <div className="mt-6 space-y-4 border-t border-zinc-200 pt-6 dark:border-zinc-800">
       {(card.kind === "cloze" || card.kind === "free-recall") && (
-        <div className="space-y-1">
-          <p className="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-            Réponse attendue
-          </p>
-          <p className="text-sm font-medium text-zinc-900 dark:text-zinc-100">
-            {expectedArr.join(" · ")}
-          </p>
-          {userAnswer && (
-            <p className="pt-2 text-xs text-zinc-500 dark:text-zinc-400">
-              Ta réponse&nbsp;: <span className="italic">{userAnswer}</span>
-            </p>
+        <div className="space-y-3">
+          {verdict && (
+            <div
+              className={
+                verdict.correct
+                  ? "rounded-lg border border-emerald-200 bg-emerald-50 p-3 dark:border-emerald-800 dark:bg-emerald-950/40"
+                  : "rounded-lg border border-red-200 bg-red-50 p-3 dark:border-red-800 dark:bg-red-950/40"
+              }
+            >
+              <p
+                className={
+                  verdict.correct
+                    ? "text-xs font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-300"
+                    : "text-xs font-semibold uppercase tracking-wide text-red-700 dark:text-red-300"
+                }
+              >
+                {verdict.correct ? "✓ Correct" : "✗ À revoir"}{" "}
+                <span className="font-normal opacity-70">— jugé par Opus 4.6</span>
+              </p>
+              <p
+                className={
+                  verdict.correct
+                    ? "mt-1 text-sm leading-6 text-emerald-900 dark:text-emerald-100"
+                    : "mt-1 text-sm leading-6 text-red-900 dark:text-red-100"
+                }
+              >
+                {verdict.feedback}
+              </p>
+            </div>
           )}
+          {gradeError && !verdict && (
+            <div className="rounded-lg border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-100">
+              <p className="font-medium">Correction LLM indisponible</p>
+              <p className="mt-0.5 text-xs opacity-90">
+                {gradeError}. Évalue toi-même via les boutons de rating ci-dessous.
+              </p>
+            </div>
+          )}
+          <div className="space-y-1">
+            <p className="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+              Réponse attendue
+            </p>
+            <p className="text-sm font-medium text-zinc-900 dark:text-zinc-100">
+              {expectedArr.join(" · ")}
+            </p>
+            {userAnswer && (
+              <p className="pt-2 text-xs text-zinc-500 dark:text-zinc-400">
+                Ta réponse&nbsp;: <span className="italic">{userAnswer}</span>
+              </p>
+            )}
+          </div>
         </div>
       )}
 
