@@ -307,8 +307,8 @@ export type LibraryTopic = {
   introducedLessons: number;
 };
 
-// Liste les topics ayant ≥ 1 lesson introduite (= déjà vue en session).
-// Sert d'index pour la page /library.
+// Liste TOUS les topics avec ≥ 1 lesson active. Inclut les topics 0 % vus
+// (affichés verrouillés). Tri : topics entamés d'abord, puis verrouillés.
 export async function getLibraryTopics(): Promise<LibraryTopic[]> {
   const sql = db();
   const rows = (await sql`
@@ -320,8 +320,9 @@ export async function getLibraryTopics(): Promise<LibraryTopic[]> {
     LEFT JOIN fsrs_state f ON f.card_id = c.id
     WHERE c.status = 'active'
     GROUP BY topic
-    HAVING COUNT(*) FILTER (WHERE c.kind = 'lesson' AND f.card_id IS NOT NULL) >= 1
-    ORDER BY topic
+    HAVING COUNT(*) FILTER (WHERE c.kind = 'lesson') >= 1
+    ORDER BY (COUNT(*) FILTER (WHERE c.kind = 'lesson' AND f.card_id IS NOT NULL) > 0) DESC,
+             topic ASC
   `) as Array<{ topic: string | null; total_lessons: number; introduced_lessons: number }>;
   return rows
     .filter((r) => r.topic !== null)
@@ -359,9 +360,10 @@ export async function getLibraryLessons(topic: string): Promise<LibraryLessonRow
   `) as unknown as LibraryLessonRow[];
 }
 
-// Lesson individuelle pour la page lecture. Renvoie null si la lesson n'existe
-// pas, n'est pas active, n'est pas une lesson, ou n'a jamais été introduite
-// (= gating par fsrs_state).
+// Lesson individuelle pour la page lecture. Mode aperçu : on autorise la
+// consultation même si la lesson n'a jamais été vue en session — le flag
+// `introduced` permet à l'UI d'afficher un bandeau "aperçu" et d'adapter.
+// Renvoie null uniquement si la lesson n'existe pas / inactive / pas une lesson.
 export async function getLibraryLesson(cardId: string): Promise<LibraryLessonRow | null> {
   const sql = db();
   const rows = (await sql`
@@ -374,9 +376,7 @@ export async function getLibraryLesson(cardId: string): Promise<LibraryLessonRow
       AND c.status = 'active'
       AND c.kind = 'lesson'
   `) as unknown as LibraryLessonRow[];
-  const r = rows[0];
-  if (!r || !r.introduced) return null;
-  return r;
+  return rows[0] ?? null;
 }
 
 export async function getFsrsState(cardId: string): Promise<unknown | null> {

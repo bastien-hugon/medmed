@@ -42,10 +42,24 @@ export default function LessonReader({ lesson }: { lesson: LibraryLessonRow }) {
         <h1 className="mt-1 text-xl font-semibold leading-tight">{title}</h1>
       </header>
 
+      {/* Bandeau aperçu si la lesson n'a pas encore été travaillée en session */}
+      {!lesson.introduced && (
+        <div className="rounded-xl border border-amber-200 bg-amber-50/60 px-4 py-3 text-sm text-amber-900 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100">
+          <p className="flex items-center gap-2 font-medium">
+            <span aria-hidden>👁️</span>
+            Aperçu — pas encore travaillée en session
+          </p>
+          <p className="mt-1 text-xs opacity-80">
+            Consultation libre. FSRS et tes stats ne sont pas impactés. Lance une session
+            d&apos;apprentissage pour la travailler pour de vrai.
+          </p>
+        </div>
+      )}
+
       {/* Hero illustration (si image/diagram) */}
       {lesson.media?.some((m) => m.kind === "image" || m.kind === "diagram") && (
         <div
-          className={`-mx-5 sm:-mx-6 aspect-[16/9] overflow-hidden bg-gradient-to-br ${gradient}`}
+          className={`-mx-5 sm:-mx-6 aspect-[16/9] overflow-hidden bg-linear-to-br ${gradient}`}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
