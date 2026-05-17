@@ -1,0 +1,19 @@
+{
+  "id": "asthme-c2-l07-asthme-professionnel",
+  "kind": "lesson",
+  "prompt": "L'ASTHME PROFESSIONNEL = asthme causé OU aggravé par une exposition au TRAVAIL. C'est une cause souvent oubliée en MG, alors qu'elle représente ~10-15 % des asthmes de l'adulte.\n\nMÉTIERS À RISQUE — non-exhaustif :\n• Boulangers, pâtissiers (farines, enzymes améliorantes)\n• Coiffeurs (persulfates des décolorants)\n• Personnels de santé (latex, désinfectants type glutaraldéhyde, chloramine)\n• Soudeurs, peintres, vernisseurs (isocyanates des peintures bi-composantes, fumées)\n• Agriculteurs / éleveurs (acariens de stockage, animaux, moisissures)\n• Industrie pharmaceutique, cosmétique (poussières, parfums)\n• Coiffure / nail bars (méthacrylates)\n\nDÉPISTAGE NG245 — 2 QUESTIONS-CLÉS chez tout asthmatique en âge de travailler :\n\n  1. « Vos symptômes d'asthme sont-ils MEILLEURS, IDENTIQUES ou PIRES les JOURS où vous NE TRAVAILLEZ PAS ? »\n  2. « Vos symptômes sont-ils MEILLEURS, IDENTIQUES ou PIRES pendant les VACANCES ou entre vos shifts ? »\n\nSi le patient répond \"meilleur hors travail\" / \"meilleur en vacances\" → forte suspicion d'asthme professionnel → ADRESSER en consultation spécialisée (pneumo + médecin du travail). Le diag se confirme par DEP biquotidien sur 3-4 semaines couvrant des périodes travail / repos, parfois tests d'exposition spécifiques en milieu hospitalier.\n\nENJEUX :\n• Médicaux : si l'exposition persiste, l'asthme devient irréversible.\n• Sociaux : reconnaissance en MALADIE PROFESSIONNELLE possible (tableaux RG 66, 66 bis, etc.). Ouvre droits : reclassement, indemnisation. Démarche à initier précocement.",
+  "rationale": "Les 2 questions de NG245 sont littéralement à apprendre par cœur — c'est l'un des seuls outils de screening universel en MG pour l'asthme pro. Piège fréquent : un patient peut avoir un asthme allergique non-pro ET un asthme professionnel ; donc même sans atopie classique, poser les questions. À l'inverse, ne pas confondre avec un \"asthme aggravé par le travail\" (asthme préexistant qui empire au boulot sans que le boulot soit la cause) : la prise en charge ressemble mais l'imputabilité légale diffère. La déclaration en maladie professionnelle est de la responsabilité du patient (avec aide du médecin) — informe-le.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

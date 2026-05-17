@@ -1,0 +1,53 @@
+{
+  "id": "saos-c2-04b-q-1ere-intention-exploration",
+  "kind": "qcm-vignette",
+  "prompt": "Patient de 52 ans, IMC 32, ronfleur avec apnées rapportées et Epworth à 14. Vous suspectez un SAOS. Quel examen de PREMIÈRE INTENTION pour confirmer le diagnostic ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Polysomnographie en laboratoire du sommeil",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Polygraphie ventilatoire ambulatoire",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Scanner cervical avec étude du pharynx",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Gaz du sang artériel au réveil",
+      "correct": false
+    }
+  ],
+  "expected": [
+    "b"
+  ],
+  "rationale": "La polygraphie ventilatoire est l'examen de 1ère intention chez un patient à forte suspicion clinique (ce qui est ici le cas : terrain + symptômes + Epworth pathologique). Si elle est positive, elle suffit. La polysomnographie est réservée aux cas discordants (clinique évocatrice mais polygraphie négative, ou suspicion d'un autre trouble du sommeil associé).",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

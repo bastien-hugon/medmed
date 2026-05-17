@@ -388,3 +388,74 @@
 | `gyneco-prevention`   | ~10-12                   | ~10-12 | HAS (×3), CNGOF                  | 33, 35, 297   |
 
 **Volume cible** : ~190-230 cartes ajoutées (au-delà des 15 HTA-C1 existantes).
+
+---
+
+# Phase A — Élargissement C1+C2 (8 topics supplémentaires)
+
+> Topics ajoutés pour couvrir la suite ECOGEN avant de basculer en C3/C4. Mêmes contraintes que les 10 premiers : C1 zéro-prérequis, C2 mécanismes + clinique de base, médias inclus dès la génération.
+
+## 11. `irc` — Insuffisance rénale chronique (C1 + C2)
+- **Items EDN** : 261, 264
+- C1 (~8-10) : reins (rôle filtre), créatinine et DFG, protéinurie (signal d'alarme), stades de la MRC (1 à 5), symptômes (souvent silencieuse), bandelette urinaire
+- C2 (~10-12) : eGFR (CKD-EPI), albuminurie A1/A2/A3, classification KDIGO, causes (diabète, HTA), surveillance MG, IEC/ARA2 néphroprotecteurs, adaptation posologique, quand orienter au néphro
+- Sources : HAS reco MRC 2012, KDIGO 2024, NICE NG203, Société Française Néphrologie
+
+## 12. `bpco` — BPCO (C1 + C2)
+- **Items EDN** : 209
+- C1 (~9-10) : poumons (alvéoles, bronches), tabac et inflammation chronique, dyspnée d'effort, toux chronique productive, spirométrie (concept), Tiffeneau, irréversibilité (vs asthme)
+- C2 (~10-12) : VEMS/CVF < 0,7 post-bronchodilatateur, classification GOLD A/B/E, exacerbations, traitements (LABA/LAMA, ICS), arrêt tabac priorité, vaccination grippe/pneumocoque, réhab respiratoire
+- Sources : HAS 2014, GOLD 2024 report, NICE NG115, SPLF (Société Pneumologie Langue Française)
+
+## 13. `asthme` — Asthme (C1 + C2)
+- **Items EDN** : 188
+- C1 (~9-10) : hyperréactivité bronchique, allergies/atopie, sibilants, crise vs asthme contrôlé, DEP (peak flow), réversibilité (vs BPCO), facteurs déclenchants
+- C2 (~10-12) : critères diagnostic (clinique + EFR avec réversibilité ≥ 12 %), GINA steps 1-5, ICS dose faible/moyenne/forte, SABA à la demande vs MART, asthme sévère, exacerbations, plan d'action écrit
+- Sources : HAS 2009, GINA 2024 report, NICE NG80
+
+## 14. `insuffisance-cardiaque` — Insuffisance cardiaque chronique (C1 + C2)
+- **Items EDN** : 234
+- C1 (~9-10) : cœur pompe (rappel HTA), dyspnée NYHA I-IV, œdèmes MI, orthopnée, fatigue, fraction d'éjection (concept), gauche vs droite, BNP/NT-proBNP
+- C2 (~10-12) : ICFEr (≤ 40 %) vs ICFEp (≥ 50 %), 4 piliers (IEC/ARNI, BB, MRA, SGLT2-i), titration progressive, surveillance poids, éducation patient (sel, activité), décompensation, hospitalisation
+- Sources : ESC 2021 (mise à jour 2023), HAS 2014, NICE NG106
+
+## 15. `depistage-cancer` — Dépistage cancer (sein + colorectal) (C1 + C2)
+- **Items EDN** : 290 (sein), 287 (colorectal)
+- C1 (~9-10) : concept de dépistage organisé, cancer sein (palpation, mammographie), cancer colorectal (test immunologique selles), population cible 50-74 ans, intervalle 2 ans, gratuité, faux positifs/négatifs
+- C2 (~10-12) : facteurs de risque sein (ATCD familiaux, BRCA), conduite si test positif (coloscopie / mammographie complémentaire), classification BI-RADS, ACR 0-6, dépistage en cas d'ATCD familiaux (avant 50 ans)
+- Sources : INCa, HAS dépistage sein 2016, HAS dépistage colorectal 2017
+
+## 16. `vaccination-adulte` — Vaccination adulte (C1 + C2)
+- **Items EDN** : 143
+- C1 (~9-10) : principe vaccinal (mémoire immunitaire), vaccins vivants vs inactivés, calendrier vaccinal, DTP rappel 25/45/65 ans puis tous 10 ans, ROR, grippe annuelle
+- C2 (~10-12) : grippe 65+ et FdR, pneumocoque (Prevnar 13 + Pneumovax 23), zona (Shingrix), Covid-19, HPV adulte (rattrapage), méningocoque ACWY/B (étudiants), tétanos blessure, recommandations particulières grossesse (coqueluche, grippe)
+- Sources : Calendrier vaccinal HAS 2025, Santé publique France
+
+## 17. `arret-tabac` — Sevrage tabagique (C1 + C2)
+- **Items EDN** : 75 (addictions)
+- C1 (~9-10) : nicotine et addiction, score de Fagerström (court), risques tabac (cancers, MCV, BPCO), bénéfices arrêt (chronologie), test CO expiré, syndrome de sevrage
+- C2 (~10-12) : entretien motivationnel (stades de Prochaska), substituts nicotiniques (patch + gomme/inhaleur, dosage), varénicline, bupropion, e-cigarette (controverse), grossesse (substituts seulement), suivi à 1/3/6 mois
+- Sources : HAS 2014, NICE NG209, Société Francophone de Tabacologie (SFT)
+
+## 18. `saos` — Syndrome d'apnées obstructives du sommeil (C1 + C2)
+- **Items EDN** : 108
+- C1 (~9-10) : sommeil et respiration, ronflement, apnée vs hypopnée (concept), somnolence diurne, Epworth, conséquences (HTA, AVC, accidents), profil typique (homme, surpoids)
+- C2 (~10-12) : polygraphie ventilatoire ambulatoire vs polysomnographie, IAH 5/15/30 (léger/modéré/sévère), PPC (CPAP), orthèse d'avancée mandibulaire, perte de poids, hygiène sommeil, retrait permis si non traité
+- Sources : HAS 2014, SFRMS (Société Française de Recherche et Médecine du Sommeil)
+
+---
+
+## Récapitulatif Phase A
+
+| Topic                       | C1   | C2   | Items EDN | Sources principales         |
+|-----------------------------|------|------|-----------|------------------------------|
+| `irc`                       | ~9   | ~11  | 261, 264  | HAS, KDIGO, NICE NG203       |
+| `bpco`                      | ~10  | ~11  | 209       | HAS, GOLD, NICE NG115, SPLF  |
+| `asthme`                    | ~10  | ~11  | 188       | HAS, GINA, NICE NG80         |
+| `insuffisance-cardiaque`    | ~9   | ~11  | 234       | ESC 2021, HAS, NICE NG106    |
+| `depistage-cancer`          | ~9   | ~11  | 287, 290  | INCa, HAS                    |
+| `vaccination-adulte`        | ~9   | ~11  | 143       | Calendrier vaccinal HAS 2025 |
+| `arret-tabac`               | ~9   | ~11  | 75        | HAS 2014, NICE NG209, SFT    |
+| `saos`                      | ~9   | ~11  | 108       | HAS 2014, SFRMS              |
+
+**Volume cible Phase A** : ~160-180 cartes (8 topics × ~20-22).

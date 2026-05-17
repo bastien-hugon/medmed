@@ -1,0 +1,19 @@
+{
+  "id": "depistage-cancer-c2-l03-brca-haut-risque-sein",
+  "kind": "lesson",
+  "prompt": "Toutes les femmes ne sont pas à risque égal de cancer du sein. Une minorité a un risque GÉNÉTIQUE très augmenté — et pour celles-là, le dépistage organisé classique (mammo à 50 ans) est insuffisant et trop tardif.\n\nDeux gènes principaux à connaître : BRCA1 et BRCA2 (de 'BReast CAncer'). Quand l'un de ces gènes est muté, le risque de cancer du sein au cours de la vie passe de ~12 % (population générale) à 50-80 %. Le risque de cancer de l'ovaire est aussi très augmenté.\n\nQUI EST CONCERNÉ ? Schématiquement, on suspecte une mutation BRCA en présence d'un ARBRE FAMILIAL ÉVOCATEUR :\n• Plusieurs cas de cancer du sein chez les apparentés au 1er ou 2e degré\n• Cancers du sein survenus jeunes (< 50 ans)\n• Association cancer du sein + cancer de l'ovaire dans la famille\n• Cancer du sein chez un homme apparenté\n• Bilatéralité (2 seins atteints) chez une apparentée\n• Origine ashkénaze (fréquence plus élevée de certaines mutations fondatrices)\n\nLa patiente est alors adressée à une CONSULTATION D'ONCOGÉNÉTIQUE. Si une mutation est confirmée, le suivi devient :\n• SURVEILLANCE PRÉCOCE ET RAPPROCHÉE dès 30 ans (parfois plus tôt)\n• IRM MAMMAIRE annuelle + mammographie + échographie (mais l'IRM est la pierre angulaire : très sensible chez les seins jeunes et denses où la mammographie voit mal)\n• Discussion d'une chirurgie prophylactique (mastectomie / annexectomie) au cas par cas\n\nLe dépistage organisé classique ne suffit donc PAS pour ces femmes : il commence trop tard et n'utilise pas l'IRM.",
+  "rationale": "Pourquoi l'IRM annuelle ? Les femmes BRCA développent leurs cancers tôt (parfois la trentaine), avec des seins denses où la mammographie est peu sensible. L'IRM, plus chère et moins spécifique (faux positifs fréquents), est ici justifiée par la très haute probabilité a priori. À retenir : la suspicion BRCA se fait à l'INTERROGATOIRE FAMILIAL — c'est un réflexe de médecin généraliste. Tous les antécédents familiaux ne déclenchent pas une consultation d'oncogénétique, mais une histoire familiale dense doit le faire.",
+  "tags": {
+    "system": ["oncologie", "prevention", "genetique"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/G%C3%A8nes_BRCA",
+    "version": "à vérifier"
+  },
+  "status": "active"
+}

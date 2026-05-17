@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c1-l03-sibilants",
+  "kind": "lesson",
+  "prompt": "Quand tu poses ton stéthoscope sur la poitrine d'un asthmatique en crise, tu entends un BRUIT particulier : un sifflement aigu, surtout à l'EXPIRATION. C'est ce qu'on appelle un SIBILANT (en anglais : wheeze).\n\nD'où vient ce son ? L'air passe à toute vitesse dans des bronches RÉTRÉCIES — comme quand tu pinces le bec d'un ballon pour le dégonfler en faisant siffler.\n\nDeux idées clés :\n• Le sibilant est surtout EXPIRATOIRE (sortie d'air). À l'inspiration, on entend moins (les bronches sont étirées par la cage qui s'ouvre).\n• Sibilants des deux côtés, diffus = très évocateur d'asthme. Sibilant localisé d'un seul côté = méfie-toi, ça peut être un corps étranger ou une tumeur qui bouche une bronche.\n\nEntre les crises, l'auscultation peut être TOTALEMENT NORMALE chez un asthmatique. C'est piégeux : ne pas entendre de sibilant n'élimine pas l'asthme.",
+  "rationale": "Le sibilant est un signe SPÉCIFIQUE mais peu sensible : présent = très évocateur, absent = n'élimine rien. C'est pour ça que NICE NG245 exige TOUJOURS un test objectif (FeNO, spirométrie, DEP) pour confirmer l'asthme, même si l'auscultation est typique. Astuce sémio : si tu doutes, demande au patient d'expirer FORT et longtemps — ça démasque parfois des sibilants discrets.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Stéthoscope sur le thorax\n         |\n   ╔═════v═════╗\n   ║  POUMON   ║  bronches RÉTRÉCIES\n   ║  ~~~~~~~~ ║       │\n   ║  ~~~~~~~~ ║   ─~~~┴~~~─   air à grande vitesse\n   ║  ~~~~~~~~ ║       │           dans un tuyau étroit\n   ╚═══════════╝       v\n                  >> sifflement <<\n\n   Inspiration  :  silence ou peu de bruit\n   Expiration   :  SIBILANT aigu, prolongé\n                   ~~~~~~~ww~ww~~ww~~~~",
+      "alt": "Schéma ASCII : un stéthoscope posé sur le poumon entend un sifflement (sibilant) produit par l'air qui passe à grande vitesse dans des bronches rétrécies, surtout à l'expiration.",
+      "caption": "Sibilant = sifflement aigu surtout expiratoire, généré par un flux d'air rapide dans des bronches rétrécies.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

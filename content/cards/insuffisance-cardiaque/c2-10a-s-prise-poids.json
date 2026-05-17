@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c2-s10-prise-poids",
+  "kind": "sct",
+  "prompt": "Hypothèse de départ : décompensation d'insuffisance cardiaque chronique. Information nouvelle : prise de 3 kg en 4 jours signalée par le patient à son suivi à domicile. Comment cette info modifie-t-elle la suspicion ?",
+  "hypothesis": "Décompensation d'insuffisance cardiaque chronique chez un patient connu IC",
+  "new_info": "Le patient signale une prise de poids de 3 kg en 4 jours sur sa pesée quotidienne",
+  "expected": "renforce",
+  "rationale": "Une prise de poids rapide et inattendue (> 2 kg en 3 jours, ici 3 kg en 4 jours) chez un patient IC est très évocatrice de rétention hydrique = début de décompensation. C'est précisément la raison pour laquelle on enseigne la pesée quotidienne : détecter cette surcharge AVANT que la dyspnée et les œdèmes ne deviennent invalidants. Donc la suspicion est RENFORCÉE.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

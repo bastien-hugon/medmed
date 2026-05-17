@@ -1,0 +1,26 @@
+{
+  "id": "irc-c1-q06-bandelette-protein",
+  "kind": "qcm-vignette",
+  "prompt": "Lors d'un dépistage chez un patient diabétique, la bandelette urinaire revient avec une croix dans la case 'protéines'. Quelle est la meilleure conduite ?",
+  "choices": [
+    { "id": "a", "text": "Conclure qu'il a une maladie rénale chronique et débuter un traitement", "correct": false },
+    { "id": "b", "text": "Considérer le test négatif tant qu'il n'y a pas de symptômes", "correct": false },
+    { "id": "c", "text": "Confirmer le résultat avec un rapport ACR sur prise d'urine au laboratoire", "correct": true },
+    { "id": "d", "text": "Réaliser immédiatement une biopsie rénale", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "La bandelette est un test de DÉPISTAGE. Un résultat positif doit être confirmé par un test plus précis : le rapport ACR (albumine/créatinine) sur un échantillon d'urine en laboratoire. C'est cette confirmation qui permet de quantifier la protéinurie et de décider d'agir. La biopsie reste rare et réservée aux situations spécialisées.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

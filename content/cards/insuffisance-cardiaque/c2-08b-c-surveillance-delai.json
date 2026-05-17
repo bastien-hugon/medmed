@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c2-q08-surveillance-delai",
+  "kind": "cloze",
+  "prompt": "Après l'introduction (ou l'augmentation) d'un IEC, ARNI, ARA2 ou MRA chez un patient IC, le contrôle de la créatinine et du potassium doit être fait dans un délai de ___ à 2 semaines.",
+  "expected": ["1"],
+  "rationale": "NICE NG106 : contrôle 1 à 2 semaines après chaque modification (introduction ou augmentation). Puis tous les 3-6 mois à dose stable maximale tolérée.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

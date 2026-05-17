@@ -1,0 +1,28 @@
+{
+  "id": "saos-c1-04a-l-somnolence-diurne",
+  "kind": "lesson",
+  "prompt": "Le symptôme PRINCIPAL du SAOS, c'est la SOMNOLENCE DIURNE EXCESSIVE.\n\nLa nuit, le sommeil est haché par des dizaines de microéveils (souvent inconscients) après chaque apnée. Résultat : le patient dort 7-8 heures mais ne récupère pas. La journée, il pique du nez.\n\nManifestations typiques :\n• S'endort devant la télé, en réunion, en lisant\n• Lutte contre le sommeil en voiture (très dangereux)\n• Sommeil non réparateur au réveil\n• Fatigue chronique inexpliquée\n• Céphalées matinales (souvent par hypercapnie nocturne)\n• Troubles de concentration, irritabilité\n\nC'est cette somnolence qu'on mesure avec le SCORE D'EPWORTH (8 questions, on verra plus tard). Et c'est elle qui motive le patient à consulter… ou qui le fait avoir un accident de la route.",
+  "rationale": "Piège fréquent : confondre fatigue et somnolence. Un patient déprimé est fatigué mais ne s'endort pas devant la télé. Un patient SAOS s'endort vraiment. La question clinique discriminante : « est-ce que vous tombez dans le sommeil sans le vouloir, à des moments où on ne devrait pas dormir ? »",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

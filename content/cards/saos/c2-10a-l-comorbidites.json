@@ -1,0 +1,29 @@
+{
+  "id": "saos-c2-10a-l-comorbidites",
+  "kind": "lesson",
+  "prompt": "Le SAOS marche très rarement seul : il fait partie d'un 'syndrome métabolique élargi' où plusieurs pathologies se renforcent mutuellement.\n\nLes COMORBIDITÉS à chercher SYSTÉMATIQUEMENT chez un patient SAOS :\n\n• HTA, surtout HTA RÉSISTANTE (non contrôlée malgré 3 antihypertenseurs dont un diurétique) → suspecter un SAOS sous-jacent dans ce cas. Inversement, devant un SAOS confirmé, mesurer la PA et faire MAPA / automesure.\n\n• FIBRILLATION AURICULAIRE (FA) : prévalence très augmentée. Le SAOS favorise la FA et la fait récidiver après cardioversion / ablation. Bilan SAOS recommandé chez tout FA récidivante.\n\n• DIABÈTE de TYPE 2 et SYNDROME MÉTABOLIQUE : prévalence ~30-50 % chez les SAOS. Lien bidirectionnel via obésité, inflammation, insulinorésistance.\n\n• INSUFFISANCE CARDIAQUE, CORONAROPATHIE.\n\n• AVC : risque augmenté, et inversement, à rechercher post-AVC.\n\n• DÉPRESSION, troubles cognitifs.\n\n• HYPOTHYROÏDIE et ACROMÉGALIE : à évoquer en cas de SAOS atypique ou sévère sans facteurs de risque clairs.\n\nÀ retenir : devant un SAOS confirmé, faire un bilan métabolique simple (PA, glycémie à jeun, bilan lipidique, TSH, ECG) et inversement, devant chacune de ces pathologies mal contrôlée, penser au SAOS.",
+  "rationale": "Le SAOS est un AMPLIFICATEUR de risque cardiométabolique. Le traiter ne 'guérit' pas l'HTA ni la FA, mais améliore leur contrôle. C'est un levier complémentaire — pas magique — qui rend la prise en charge globale plus cohérente.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "cardiovasculaire",
+      "endocrinologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "irc-c2-l05-surveillance-k-creat",
+  "kind": "lesson",
+  "prompt": "Après avoir initié un IEC ou un ARA2 (ou augmenté la dose), un contrôle biologique est OBLIGATOIRE. On vérifie deux choses : la kaliémie (K+) et le DFG (via la créat).\n\nQuand ?\n• Avant l'initiation (état de base)\n• 1 à 2 SEMAINES après l'initiation ou chaque hausse de dose\n• Puis à intervalle régulier selon le profil\n\nInterprétation, côté DFG :\n• Baisse < 25 % du DFG (ou hausse de créat < 30 %) → ATTENDUE, on continue\n• Baisse 25-30 % → recontrôler à 1-2 semaines, chercher une cause associée (déshydratation, AINS, diurétique)\n• Baisse > 30 % → arrêter ou réduire, chercher une sténose artère rénale\n\nInterprétation, côté K+ :\n• K+ < 5 mmol/L → continuer\n• K+ 5,0-5,9 mmol/L → corriger les facteurs (régime, autres médicaments hyperkaliémiants), recontrôler\n• K+ ≥ 6 mmol/L → ARRÊTER le médicament après avoir éliminé d'autres causes\n\nFacteurs aggravants à chasser avant d'arrêter : AINS, supplémentation potassique, spironolactone, régime trop riche en fruits, déshydratation, fausse hyperkaliémie (hémolyse au prélèvement).",
+  "rationale": "Beaucoup d'omnipraticiens arrêtent à tort l'IEC/ARA2 à la première petite hausse de créat — c'est une erreur fréquente qui prive le patient d'un médicament protecteur. La règle est claire : sous 30 % de hausse, on continue. La surveillance K+ est tout aussi cruciale car l'hyperkaliémie peut être asymptomatique jusqu'à l'arrêt cardiaque. Mnémo : 'IEC neuf → biologie à 2 sem'.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Après début ou hausse d'IEC/ARA2\n  ────────────────────────────────\n  → Contrôle K+ et créat à 1-2 SEMAINES\n\n  Créat (↑) /  DFG (↓)\n  ────────────────────\n    DFG ↓ < 25 %     →  poursuivre\n    DFG ↓ 25-30 %    →  recontrôler 1-2 sem,\n                        chercher AINS, déshyd.\n    DFG ↓ > 30 %     →  réduire/arrêter,\n                        évoquer sténose A. rénale\n\n  Kaliémie\n  ────────\n    K+ < 5,0   →  poursuivre\n    K+ 5,0-5,9 →  corriger facteurs, recontrôler\n    K+ ≥ 6,0   →  STOP médicament (après autres causes)",
+      "alt": "Tableau ASCII des seuils de surveillance après initiation d'un IEC ou ARA2 : seuils de baisse du DFG (25 % et 30 %) et de kaliémie (5,0 et 6,0 mmol/L).",
+      "caption": "Sous 30 % de baisse de DFG, on continue. K+ ≥ 6 → on arrête.",
+      "attribution": "ASCII: medmed, schéma original (d'après NICE NG203)"
+    }
+  ],
+  "status": "active"
+}

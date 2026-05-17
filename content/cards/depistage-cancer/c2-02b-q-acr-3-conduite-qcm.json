@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q02b-acr-3-conduite",
+  "kind": "qcm-vignette",
+  "prompt": "Une femme de 56 ans dans le cadre du dépistage organisé a une mammographie classée ACR 3 (probablement bénin). Quelle est la conduite à tenir RECOMMANDÉE ?",
+  "choices": [
+    { "id": "a", "text": "Aucun suivi particulier, retour à la mammographie dans 2 ans", "correct": false },
+    { "id": "b", "text": "Surveillance par imagerie rapprochée, typiquement à 6 mois", "correct": true },
+    { "id": "c", "text": "Biopsie chirurgicale immédiate", "correct": false },
+    { "id": "d", "text": "IRM mammaire annuelle à vie", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "ACR 3 signifie 'image probablement bénigne' mais pas tout à fait certaine (<2% de risque de malignité). On NE biopsie PAS systématiquement (taux de positivité trop bas pour le justifier), mais on NE retourne PAS non plus à 2 ans (on veut s'assurer que l'image ne grossit pas). Le compromis : nouveau cliché à 6 mois, généralement avec une échographie ciblée. Si stable, on reprend le rythme normal. Si l'image évolue, on passe en ACR 4 ou 5 et on biopsie.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

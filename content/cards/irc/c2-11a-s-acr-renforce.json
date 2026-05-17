@@ -1,0 +1,22 @@
+{
+  "id": "irc-c2-s11-acr-renforce",
+  "kind": "sct",
+  "prompt": "Vous suivez M. L., 64 ans, hypertendu, sans diabète. Sa dernière prise de sang montre un eGFR à 70 mL/min, stable depuis 3 ans. Vous suspectez une MRC débutante.",
+  "hypothesis": "M. L. a une MRC stade G2 à risque, justifiant un traitement néphroprotecteur par IEC.",
+  "new_info": "Un ACR sur urine matinale revient à 42 mg/mmol, confirmé sur un second prélèvement à 3 semaines d'intervalle.",
+  "expected": "renforce",
+  "rationale": "Le DFG seul (70 mL/min) ne suffit PAS à diagnostiquer une MRC. Un ACR ≥ 3 confirmé est un marqueur d'atteinte rénale, et 42 mg/mmol = stade A2 (modérément augmenté). On a donc G2 A2 — c'est une MRC confirmée à risque modéré, et l'ACR > 30 chez un hypertendu non diabétique est précisément le seuil NICE pour démarrer un IEC ou ARA2. L'information renforce franchement la suspicion ET indique le traitement.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q02-nyha-iii",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient se dit essoufflé en marchant tranquillement sur le trottoir, mais pas au repos. Quelle classe NYHA (échelle d'essoufflement dans l'insuffisance cardiaque) ?",
+  "choices": [
+    { "id": "a", "text": "NYHA I", "correct": false },
+    { "id": "b", "text": "NYHA II", "correct": false },
+    { "id": "c", "text": "NYHA III", "correct": true },
+    { "id": "d", "text": "NYHA IV", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Effort léger (marche à plat) = NYHA III. Effort intense uniquement = NYHA II. Au repos = NYHA IV.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

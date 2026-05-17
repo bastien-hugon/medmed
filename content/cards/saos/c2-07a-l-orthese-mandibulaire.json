@@ -1,0 +1,28 @@
+{
+  "id": "saos-c2-07a-l-orthese-mandibulaire",
+  "kind": "lesson",
+  "prompt": "Quand la CPAP est mal tolérée OU refusée, il existe une alternative en DEUXIÈME INTENTION : l'ORTHÈSE D'AVANCÉE MANDIBULAIRE (OAM).\n\nPrincipe : c'est un dispositif dentaire (un peu comme une gouttière), porté la nuit, qui avance légèrement la mâchoire inférieure. En avançant la mandibule, on tire la langue et les tissus mous vers l'avant, ce qui ÉLARGIT le pharynx et réduit son collapsus.\n\nCaractéristiques :\n• Réalisée sur mesure par un dentiste / orthodontiste formé\n• Titration progressive de l'avancée mandibulaire (en mm)\n• Surveillance : effets dentaires (modifications de l'occlusion, douleurs ATM)\n\nINDICATIONS :\n• SAOS léger à modéré (IAH 5-30)\n• SAOS sévère en cas de refus ou d'intolérance à la CPAP\n• PAS recommandée si édentement, parodontite sévère, troubles ATM\n\nEFFICACITÉ :\n• Améliore les symptômes dans environ 50 % des cas\n• Moins efficace que la CPAP sur l'IAH, mais MIEUX TOLÉRÉE\n• Donc l'observance est souvent supérieure → bénéfice net comparable pour certains patients\n\nC'est un bon outil de compromis : si le patient ne supporte pas le masque, mieux vaut une OAM bien utilisée qu'une CPAP qui dort dans le placard.",
+  "rationale": "Réflexe à avoir : ne pas proposer l'OAM en 1ère intention pour un SAOS sévère sauf refus/échec CPAP, mais y penser systématiquement pour les SAOS légers à modérés et chez les patients claustrophobes ou très réticents au masque. L'observance, en pratique, c'est souvent ce qui décide.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

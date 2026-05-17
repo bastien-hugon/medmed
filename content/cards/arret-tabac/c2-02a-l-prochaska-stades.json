@@ -1,0 +1,28 @@
+{
+  "id": "arret-tabac-c2-l02-prochaska-stades",
+  "kind": "lesson",
+  "prompt": "Un patient ne décide pas d'arrêter de fumer 'd'un coup'. Il passe par des STADES, modélisés par Prochaska et DiClemente (psychologues américains, années 80). Connaître ces stades = adapter ton accompagnement au lieu de tout balancer d'un bloc.\n\nCinq stades :\n\n1) PRÉ-CONTEMPLATION\nLe patient ne pense pas du tout à arrêter. 'Ça me détend, je gère.' Lui parler chiffres et risques l'agace. → Objectif : faire émerger une ambivalence (poser des questions ouvertes, sans culpabiliser).\n\n2) CONTEMPLATION\nLe patient y pense, mais hésite. Il voit les inconvénients ET les bénéfices de la cigarette. → Objectif : faire pencher la balance (peser ensemble avantages/inconvénients de l'arrêt, valoriser ce qu'il a déjà fait).\n\n3) PRÉPARATION\nLe patient décide d'arrêter dans le mois qui vient. Il fait des essais courts, cherche de l'aide. → Objectif : fixer une date, choisir une méthode (NRT ? entretien ? les deux ?), anticiper les déclencheurs.\n\n4) ACTION\nLe patient a arrêté (0-6 mois d'arrêt). Phase la plus dure : syndrome de sevrage, envies, gestion des déclencheurs. → Objectif : soutien rapproché (consultations 1/sem au début), ajustement NRT, repérer les premiers signes de rechute.\n\n5) MAINTIEN\n6 mois sans tabac et plus. La vigilance reste de mise, surtout en cas de stress, alcool, sortie. → Objectif : prévention de la rechute, normaliser la vie sans cigarette.\n\nC'est un CYCLE : la rechute n'est pas une sortie du modèle, elle ramène à 'préparation' avec l'apprentissage de la tentative précédente.",
+  "rationale": "Erreur classique du médecin : donner les mêmes conseils à tout le monde. Un patient en pré-contemplation à qui on prescrit du patch ne l'utilisera pas. Un patient en action à qui on fait un discours moralisateur va abandonner. Adapter le DISCOURS au stade = pierre angulaire de l'entretien motivationnel.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  STADES DE PROCHASKA — cycle du changement\n\n     ┌──────────────────────────────────┐\n     ▼                                  │\n   1. Pré-contemplation (n'y pense pas) │\n          │                             │\n     2. Contemplation (hésite) ◄── RECHUTE\n          │                             │\n     3. Préparation (décide, prépare)   │\n          │                             │\n     4. ACTION (arrête, 0-6 mois) ──────┤\n          │            (peut rechuter)  │\n     5. MAINTIEN (> 6 mois) ────────────┘\n\n  Cycle, pas ligne droite : la rechute\n  ramène à préparation, pas à zéro.",
+      "alt": "Schéma ASCII des cinq stades de Prochaska en cycle : pré-contemplation, contemplation, préparation, action, maintien, avec retour possible par rechute.",
+      "caption": "Cycle (pas une ligne droite) : la rechute renvoie à 'préparation', PAS à zéro. Chaque tour apprend.",
+      "attribution": "medmed, schéma original d'après Prochaska & DiClemente"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c1-q04b-colorectal-quel-test",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le test utilisé en première intention dans le dépistage ORGANISÉ du cancer colorectal en France, chez une personne de 60 ans SANS antécédent particulier ?",
+  "choices": [
+    { "id": "a", "text": "Coloscopie tous les 10 ans", "correct": false },
+    { "id": "b", "text": "Recherche de sang occulte dans les selles par test immunologique fécal (FIT)", "correct": true },
+    { "id": "c", "text": "Dosage sanguin du marqueur tumoral ACE", "correct": false },
+    { "id": "d", "text": "Scanner abdomino-pelvien tous les 5 ans", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Pour un asymptomatique à risque moyen, le FIT est le test de 1ʳᵉ intention : il est simple, gratuit, non invasif, et il a démontré une réduction de la mortalité par cancer colorectal. La coloscopie n'est PAS un test de dépistage de masse en France (elle est réservée au 2ᵉ niveau, après FIT positif, ou en dépistage individuel pour les sujets à risque élevé). Le marqueur ACE n'est pas un outil de dépistage (peu sensible, peu spécifique). Le scanner n'a pas non plus sa place ici.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "à vérifier"
+  },
+  "status": "active"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "depistage-cancer-c2-l06-surdiagnostic-debat",
+  "kind": "lesson",
+  "prompt": "Tous les dépistages ne sont pas que des bienfaits. Deux notions critiques à comprendre :\n\n• SURDIAGNOSTIC : on découvre un cancer que le patient avait, mais qui n'aurait JAMAIS provoqué de symptômes ni de décès dans sa vie. Ce cancer existe pour de vrai (histologie en main), mais il évoluait si lentement (ou pas du tout) qu'il serait passé inaperçu. Exemple typique : certains cancers du sein in situ très bien différenciés chez une femme âgée.\n\n• SURTRAITEMENT : conséquence logique du surdiagnostic. Une fois le cancer trouvé, on le traite (chirurgie, radiothérapie, hormonothérapie...) — avec leurs effets indésirables, parfois lourds — alors qu'il n'aurait jamais nui. Le patient subit un traitement dont il n'aurait jamais eu besoin.\n\nDans le cas du DÉPISTAGE DU CANCER DU SEIN, on estime que pour ≈ 1000 femmes dépistées pendant 10 ans :\n• quelques décès par cancer du sein sont évités\n• mais un nombre similaire (ordre de grandeur variable selon les études) reçoit un diagnostic et un traitement de cancer qui n'aurait jamais émergé\n\nC'est le grand DÉBAT des dépistages organisés : la balance bénéfice/risque est positive, mais elle n'est pas immense, et elle a un COÛT humain. D'où l'importance du CHOIX ÉCLAIRÉ : la patiente doit être informée du surdiagnostic possible, pas seulement de l'effet 'sauveur de vie' du dépistage. Les courriers d'invitation ont d'ailleurs évolué pour intégrer cette information.\n\nDans le cancer colorectal, la situation est un peu différente : la résection des polypes pendant la coloscopie diminue clairement les cancers à venir, et le surdiagnostic est probablement plus faible.\n\nÀ retenir : 'dépister sauve des vies' est vrai en moyenne. 'Dépister ne fait que du bien à chaque individu' est faux.",
+  "rationale": "Ce point est éthique autant que scientifique : il oppose la santé publique (bénéfice de groupe statistique) et la décision individuelle (qu'est-ce que CE patient veut faire avec sa probabilité ?). Le médecin généraliste a un rôle clé d'information balancée. Mnémo : 'dépistage = filet → on attrape des poissons utiles ET des cailloux qui ne devaient pas remonter à la surface'. Les ordres de grandeur (1 décès évité vs 1 surdiagnostic) varient selon les méta-analyses (Cochrane, NEJM…), restent à vérifier précisément.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Surdiagnostic",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

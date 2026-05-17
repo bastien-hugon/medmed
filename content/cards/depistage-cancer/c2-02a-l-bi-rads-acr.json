@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c2-l02-bi-rads-acr",
+  "kind": "lesson",
+  "prompt": "Quand un radiologue rend un compte-rendu de mammographie (ou d'échographie mammaire), il classe l'image selon une grille internationale : BI-RADS, de l'American College of Radiology. En France on l'appelle aussi 'classification ACR' (de 0 à 6).\n\nC'est un code commun, qui dit à la fois 'à quel point je suis inquiet' et 'qu'est-ce qu'on fait après'.\n\n• ACR 0 — INCOMPLET. Il manque des examens (clichés sup., échographie...). C'est un classement provisoire, le temps de compléter.\n• ACR 1 — NORMAL. Aucune anomalie. Retour au dépistage de routine.\n• ACR 2 — BÉNIN. Anomalie identifiée mais clairement non cancéreuse (kyste simple, calcifications vasculaires...). Retour au dépistage de routine.\n• ACR 3 — PROBABLEMENT BÉNIN. < 2 % de risque de malignité. Conduite typique : surveillance rapprochée par imagerie (souvent à 6 mois).\n• ACR 4 — SUSPECT. Probabilité intermédiaire de cancer. BIOPSIE recommandée. (Sous-divisé 4A / 4B / 4C selon le degré de suspicion).\n• ACR 5 — TRÈS ÉVOCATEUR DE CANCER. > 95 % de probabilité. BIOPSIE pour confirmation histologique avant traitement.\n• ACR 6 — CANCER DÉJÀ PROUVÉ par biopsie (utilisé pour les imageries de bilan ou de suivi post-traitement).\n\nCette grille n'est pas un diagnostic — c'est une orientation. Elle permet au généraliste, à la patiente et au gynécologue de parler le même langage.",
+  "rationale": "Le sens caché : ACR 0 = 'je ne sais pas encore' ; ACR 1-2 = 'rien à faire' ; ACR 3 = 'on regarde dans 6 mois' ; ACR 4-5 = 'on biopsie' ; ACR 6 = 'on a déjà la preuve'. Repère mnémo : à partir de 4, on PERCE (biopsie). Le piège classique : confondre ACR 3 (surveillance rapprochée) et ACR 4 (biopsie) — la frontière entre les deux est un jugement d'expert, parfois remis en cause par une 2ᵉ lecture.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  ACR  Sens                    Conduite\n  ───  ──────────────────────  ──────────────────────\n   0   Incomplet               compléter (écho, +clichés)\n   1   Normal                  dépistage de routine\n   2   Bénin certain           dépistage de routine\n   3   Probablement bénin      surveillance imagerie 6 mois\n   4   Suspect                 BIOPSIE\n   5   Très évocateur cancer   BIOPSIE\n   6   Cancer prouvé           bilan / traitement\n\n  Règle : à partir de ACR 4, on PERCE (biopsie).",
+      "alt": "Tableau ASCII de la classification BI-RADS / ACR 0 à 6 avec sens et conduite associée à chaque niveau.",
+      "caption": "BI-RADS / ACR : la grille commune pour parler de mammographie.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c2-l01-mammographie-deux-incidences-double-lecture",
+  "kind": "lesson",
+  "prompt": "Une MAMMOGRAPHIE de dépistage organisé n'est pas un cliché unique. Deux notions techniques à retenir :\n\n1) DEUX INCIDENCES PAR SEIN. On fait toujours au minimum :\n   • Une incidence CRANIO-CAUDALE (CC) : le sein est comprimé de haut en bas, l'image est vue du dessus.\n   • Une incidence OBLIQUE EXTERNE (MLO, médio-latérale oblique) : le sein est comprimé en biais, ce qui permet de voir le prolongement axillaire et la portion supérieure-externe (où siègent statistiquement la plupart des cancers).\n   Total : 4 clichés (2 par sein). Une lésion qui n'apparaît que sur une seule incidence est suspecte (artefact ? vraie lésion masquée ?), et fait répéter l'examen avec d'autres angles.\n\n2) DOUBLE LECTURE pour les mammographies classées 'normales'. Si le premier radiologue (qui a vu la patiente) trouve le cliché normal (ou à peu près), il envoie le dossier à un SECOND RADIOLOGUE indépendant, qui relit en aveugle. Cette double lecture diminue d'environ 6 à 10 % les cancers manqués. C'est une SPÉCIFICITÉ FRANÇAISE du dépistage organisé, peu pratiquée à l'étranger.\n\nEn revanche, si la 1ʳᵉ lecture trouve déjà une anomalie suspecte → on passe directement à des examens complémentaires (clichés supplémentaires, échographie, biopsie), sans 2ᵉ lecture (pas le temps de l'attendre, et la décision est prise).",
+  "rationale": "La double lecture est un filet de sécurité contre l'erreur humaine : interpréter une mammographie est subjectif, fatigant, et même un excellent radiologue peut rater 5-10 % des petites lésions. Avoir deux paires d'yeux indépendantes (la 2ᵉ ne connaît rien du dossier clinique) corrige une partie de ces 'misses'. À retenir : double lecture = MAMMO NORMALE seulement ; mammo anormale = circuit diagnostic immédiat.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Mammogram_showing_small_lesion.jpg",
+      "alt": "Mammographie sur laquelle une petite lésion suspecte est pointée par une flèche.",
+      "caption": "Une mammographie 'anormale' (ici, petite lésion pointée) sort du circuit double lecture et passe en bilan diagnostic.",
+      "attribution": "Wikimedia Commons — domaine public"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "arret-tabac-c1-l05-co-expire",
+  "kind": "lesson",
+  "prompt": "Quand on fume, on inhale du MONOXYDE DE CARBONE (CO) — le même gaz toxique que celui des moteurs thermiques. Ce CO se fixe sur l'hémoglobine des globules rouges À LA PLACE de l'oxygène, et bloque le transport d'O2.\n\nOn peut MESURER ce CO directement, dans l'air que le patient expire, avec un petit appareil appelé COTESTEUR (en anglais : Smokerlyzer ou CO-monitor). Le patient souffle 15 secondes dans un embout, et l'appareil affiche un chiffre en parties par million (ppm).\n\nValeurs repères :\n• < 5 ppm : non-fumeur\n• 5-10 ppm : fumeur occasionnel ou ancien fumeur récent\n• 10-20 ppm : fumeur régulier\n• > 20 ppm : gros fumeur\n\nÀ quoi ça sert en pratique :\n1) Mesure OBJECTIVE de la consommation récente (~24 dernières heures).\n2) Aide à doser les substituts nicotiniques au départ.\n3) Outil de motivation TRÈS efficace : 'Regardez, vous étiez à 22, vous êtes à 6 en 2 jours. Bravo.'\n\nLe CO disparaît en ~24 h après la dernière cigarette. C'est pour ça que c'est utile en début de sevrage mais pas pour évaluer un arrêt ancien.",
+  "rationale": "Le CO mesuré au cabinet est un des rares marqueurs OBJECTIFS du tabagisme (les autres : cotinine urinaire/salivaire, plus chère). C'est aussi le seul qu'on peut montrer au patient en temps réel. Effet motivationnel énorme : voir le chiffre baisser ancre la progression. Disponible dans la plupart des consultations dédiées au sevrage (Tabac Info Service, centres anti-tabac).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Smokerlyzers.jpg",
+      "alt": "Photographie de plusieurs cotesteurs de CO expiré (Smokerlyzer), petits appareils portables avec un embout sur lequel le patient souffle.",
+      "caption": "Cotesteurs de CO : le patient souffle 15 s, l'appareil affiche les ppm. Outil de mesure ET de motivation.",
+      "attribution": "Wikimedia Commons"
+    }
+  ],
+  "status": "active"
+}

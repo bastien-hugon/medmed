@@ -1,0 +1,28 @@
+{
+  "id": "arret-tabac-c2-l01-fagerstrom-seuils",
+  "kind": "lesson",
+  "prompt": "Tu connais déjà le test de Fagerström (score sur 10 — voir C1). En pratique, ce score se découpe en QUATRE PALIERS qui orientent la prise en charge :\n\n┌──────────┬─────────────────┬──────────────────────────────┐\n│ Score    │ Niveau          │ Implication clinique         │\n├──────────┼─────────────────┼──────────────────────────────┤\n│ 0 – 2    │ Pas de dépend.  │ Sevrage facile, pas de NRT   │\n│ 3 – 4    │ FAIBLE          │ NRT en option, doses faibles │\n│ 5 – 6    │ MOYENNE         │ NRT recommandé, doses moy.   │\n│ 7 – 10   │ FORTE           │ NRT obligatoire, fortes doses│\n└──────────┴─────────────────┴──────────────────────────────┘\n\n• 0-2 : le patient fume peu, sans dépendance physique réelle. Conseil minimal, pas besoin de substituts.\n• 3-4 : dépendance faible. On peut tenter sans substituts, mais ils aident.\n• 5-6 : dépendance moyenne. Substituts nicotiniques (NRT, en anglais Nicotine Replacement Therapy) à proposer systématiquement.\n• 7-10 : forte dépendance. NRT à dose pleine + envisager 2e ligne (varénicline ou bupropion) si NRT seul insuffisant.\n\nÀ CROISER avec le CO expiré : score Fagerström élevé + CO élevé → dosage de NRT plus haut.",
+  "rationale": "Pratique : noter le score Fagerström dans le dossier patient à chaque consultation initiale de sevrage. Permet (1) le dosage NRT initial, (2) un repère pour évaluer l'évolution, (3) la décision d'escalader vers une 2e ligne médicamenteuse. Erreur fréquente : utiliser le Fagerström seul pour estimer la 'gravité' — il faut aussi évaluer comorbidités, motivation et antécédents psy.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Fagerström — palier et prise en charge\n\n   Score   Niveau          NRT (substituts)\n   ─────   ─────────────   ──────────────────────\n   0 – 2   Pas de dép.     Non, conseil minimal\n   3 – 4   Faible          Optionnel, dose faible\n   5 – 6   Moyenne         Recommandé, dose moy.\n   7 – 10  FORTE           Obligatoire, dose pleine\n                           + 2e ligne si échec\n\n  Croiser avec CO expiré → dose initiale finale\n  NRT = Nicotine Replacement Therapy (substituts)",
+      "alt": "Tableau ASCII des quatre paliers du score de Fagerström et de l'orientation thérapeutique correspondante (rien, optionnel, recommandé, obligatoire).",
+      "caption": "Plus le score est haut, plus la NRT est cruciale. Au-delà de 7, on dose plein et on envisage une 2e ligne.",
+      "attribution": "medmed, schéma original d'après Wikipedia FR"
+    }
+  ],
+  "status": "active"
+}

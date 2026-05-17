@@ -1,0 +1,19 @@
+{
+  "id": "insuffisance-cardiaque-c2-l05-iec-vers-arni",
+  "kind": "lesson",
+  "prompt": "Optimisation du 1er pilier dans l'ICFEr : l'IEC (inhibiteur de l'enzyme de conversion) peut être REMPLACÉ par un ARNI quand le patient reste symptomatique malgré une dose max tolérée.\n\nARNI = Angiotensin Receptor / Neprilysin Inhibitor. La seule molécule disponible : sacubitril/valsartan (= valsartan, un ARA2, + sacubitril, qui bloque la neprilysine et augmente les peptides natriurétiques 'bons').\n\nIndications du switch IEC → ARNI (NICE) :\n• ICFEr (FEVG ≤ 35 % le plus souvent)\n• Toujours symptomatique (NYHA II-IV) malgré IEC à dose max tolérée\n• Stabilité clinique (pas en décompensation aiguë)\n\nMODALITÉ : ARRÊT de l'IEC + DÉLAI DE 36 HEURES (wash-out) avant la 1ère prise d'ARNI. Pourquoi ? Le sacubitril et un IEC pris simultanément majorent fortement le risque d'ANGIO-ŒDÈME (urgence ORL avec risque d'obstruction des voies aériennes).\n\nNe JAMAIS combiner IEC + ARNI.",
+  "rationale": "L'ARNI a montré une supériorité sur la survie et les hospitalisations par rapport à l'IEC seul (étude PARADIGM-HF). Mais il coûte cher et expose à l'angio-œdème. Le wash-out de 36 h n'est PAS optionnel — c'est une règle de sécurité absolue. Si le patient a déjà eu un angio-œdème sous IEC : ne PAS prescrire d'ARNI non plus.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

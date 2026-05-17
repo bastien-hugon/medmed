@@ -1,0 +1,28 @@
+{
+  "id": "arret-tabac-c1-l02-fagerstrom-concept",
+  "kind": "lesson",
+  "prompt": "Avant d'aider un patient à arrêter, on veut savoir : à quel point son corps est-il accro à la nicotine ?\n\nPour ça, on utilise le TEST DE FAGERSTRÖM. C'est un questionnaire court (6 questions, ~2 minutes) qui donne un SCORE de 0 à 10.\n\nLes questions portent sur les habitudes :\n• Combien de temps après le réveil fumes-tu ta 1ère cigarette ?\n• Combien de cigarettes par jour ?\n• Est-ce dur de t'abstenir dans les lieux où c'est interdit ?\n• etc.\n\nPlus le score est élevé, plus la dépendance physiologique est forte. Et plus on aura besoin d'un dosage élevé de substituts nicotiniques pour éviter le manque.\n\nLe Fagerström mesure SURTOUT l'axe physiologique (le corps), pas les autres axes (psy, comportemental). C'est un outil dosimétrique, pas un thermomètre global de motivation.",
+  "rationale": "Erreur classique : penser que Fagerström = motivation à arrêter. NON. Fagerström = intensité du manque physique. Un patient peut être très motivé ET très dépendant (Fagerström 9), ou peu motivé ET peu dépendant (Fagerström 1). Les deux échelles sont indépendantes. Pour la motivation, on utilise les stades de Prochaska (voir C2).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Test de Fagerström — score sur 10\n\n     0  1  2  3  4  5  6  7  8  9  10\n     ├──┼──┼──┼──┼──┼──┼──┼──┼──┼──┤\n     └─ pas ─┘└─ faible ┘└─ moyen ┘└─ FORT ─┘\n         0-2      3-4       5-6      7-10\n\n  Mesure : intensité de la DÉPENDANCE PHYSIQUE\n  (≠ motivation à arrêter, qui est une autre échelle)\n\n  Pratique : guide le dosage des substituts nicotiniques",
+      "alt": "Échelle ASCII du score de Fagerström de 0 à 10 avec quatre paliers : pas de dépendance (0-2), faible (3-4), moyenne (5-6), forte (7-10).",
+      "caption": "Le Fagerström range les fumeurs sur une échelle d'addiction physique. Détail des seuils → en C2.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "vaccination-adulte-c1-q03-ci-vivants",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente de 32 ans, sous immunosuppresseurs pour une maladie auto-immune, vous demande conseil. Parmi les vaccins suivants, lequel est CONTRE-INDIQUÉ chez elle ?",
+  "choices": [
+    { "id": "a", "text": "Vaccin contre l'hépatite B (recombinant)", "correct": false },
+    { "id": "b", "text": "Vaccin contre la grippe (inactivé)", "correct": false },
+    { "id": "c", "text": "Vaccin ROR — rougeole-oreillons-rubéole (vivant atténué)", "correct": true },
+    { "id": "d", "text": "Vaccin contre le pneumocoque (polysaccharidique conjugué)", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Les vaccins VIVANTS atténués (ROR, varicelle, BCG, fièvre jaune) sont contre-indiqués chez l'immunodéprimé car le microbe affaibli peut, dans ce contexte, redevenir pathogène. Les inactivés (hépatite B, grippe, pneumocoque, HPV...) sont autorisés et même souvent recommandés. Piège classique : ne pas confondre immunodépression (CI vivants) et simple comorbidité (diabète, BPCO → INDICATIONS supplémentaires, pas CI).",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  }
+}

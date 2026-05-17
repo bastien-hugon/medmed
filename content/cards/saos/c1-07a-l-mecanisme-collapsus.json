@@ -1,0 +1,37 @@
+{
+  "id": "saos-c1-07a-l-mecanisme-collapsus",
+  "kind": "lesson",
+  "prompt": "Pourquoi la gorge se ferme-t-elle pendant le sommeil ? C'est une question d'ANATOMIE + de MUSCLES.\n\nLe pharynx (le couloir derrière la langue) n'est pas un tube rigide comme la trachée — il est mou. Sa forme dépend des muscles autour qui le tiennent ouvert (un peu comme une tente est tenue par ses haubans).\n\nEn journée, ces muscles sont toniques : ils maintiennent le pharynx béant, l'air passe.\n\nLa nuit, surtout en sommeil profond, le tonus musculaire BAISSE. Chez la plupart des gens, ça reste suffisant pour maintenir le pharynx ouvert. Mais chez certains, le pharynx s'AFFAISSE — il se 'collabe'. C'est le COLLAPSUS DES VOIES AÉRIENNES SUPÉRIEURES (VAS).\n\nFacteurs qui favorisent ce collapsus :\n• Anatomie : cou épais (graisse), grosses amygdales, mâchoire reculée, langue volumineuse\n• Position : couché sur le dos (la langue retombe en arrière)\n• Substances : alcool, somnifères, myorelaxants (relâchent encore plus les muscles)\n\nL'air ne passe plus → apnée → désaturation → microéveil → respiration repart → puis recommence.",
+  "rationale": "Image utile : le pharynx, c'est comme un tuyau d'aspirateur en caoutchouc souple. Si tu aspires trop fort sans rigidité interne, ça se plaque. Pareil ici : à l'inspiration nocturne, la pression négative aspire les parois molles du pharynx qui se collent. Ça explique pourquoi le SAOS s'aggrave en décubitus dorsal et avec l'obésité (graisse → narrowing du tuyau).",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Obstruction_ventilation_apn%C3%A9e_sommeil.svg",
+      "alt": "Schéma anatomique en coupe sagittale montrant les voies aériennes supérieures : à gauche pharynx ouvert (air passe), à droite pharynx collabé par la langue et les tissus mous (air bloqué).",
+      "caption": "Collapsus des VAS : pendant le sommeil, les muscles du pharynx se relâchent ; chez certains, la langue et les tissus mous obstruent le passage de l'air.",
+      "attribution": "Wikimedia Commons — Habib M'henni, CC BY-SA"
+    }
+  ],
+  "status": "active"
+}

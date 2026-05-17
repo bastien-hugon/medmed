@@ -1,0 +1,27 @@
+{
+  "id": "vaccination-adulte-c2-l07-grossesse-vaccins",
+  "kind": "lesson",
+  "prompt": "Pendant la grossesse, deux logiques s'opposent :\n• Protéger la mère et son nouveau-né en stimulant les anticorps maternels (qui passent la barrière placentaire).\n• Éviter tout risque pour le fœtus — donc PAS de vaccin vivant atténué.\n\nVACCINS RECOMMANDÉS PENDANT LA GROSSESSE :\n\n1. dTcaP (coqueluche) — IDÉALEMENT entre la 20e et la 36e semaine d'aménorrhée (SA), de préférence au 2e trimestre. Objectif : protéger le nouveau-né dans ses premières semaines de vie, avant qu'il puisse être vacciné lui-même. La coqueluche du nourrisson peut être mortelle.\n\n2. GRIPPE — pendant la saison grippale (octobre à janvier en métropole), à TOUT moment de la grossesse. Le vaccin est inactivé, sans danger.\n\nVACCINS CONTRE-INDIQUÉS PENDANT LA GROSSESSE (vivants atténués) :\n• ROR (rougeole-oreillons-rubéole)\n• Varicelle\n• BCG\n• Fièvre jaune (exception possible bénéfice/risque si voyage indispensable en zone endémique)\n\nUne grossesse N'EST JAMAIS un argument pour différer un vaccin INACTIVÉ recommandé (grippe, dTcaP, hépatite B...). C'est même souvent l'inverse : la grossesse est une INDICATION.",
+  "rationale": "Mnémo : « 20-36 SA = dTcaP pour le bébé, grippe toute la grossesse, JAMAIS de vivants ». Cas pratique fréquent : femme enceinte qui doit voyager en zone fièvre jaune — discussion bénéfice/risque, l'idéal étant de différer le voyage si possible. Si vaccin vivant donné par erreur en début de grossesse : ne pas paniquer ; risque malformatif réel reste très faible, gestion en lien avec gynéco/CRAT (Centre de Référence sur les Agents Tératogènes).",
+  "tags": {
+    "system": ["infectieux", "prevention", "gynecologie"],
+    "sdd": ["vaccination", "grossesse"],
+    "item_edn": [143, 26],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  GROSSESSE — VACCINS RECOMMANDÉS / INTERDITS\n\n  SA :  0 ─── 14 ─── 20 ──────────── 36 ─── 41\n        T1     T2          T3\n               │            │\n               └────────────┘\n               dTcaP (coqueluche) 20-36 SA\n\n  Grippe : si saison grippale, à TOUT moment\n\n  CI absolues (vivants atténués) :\n     ROR    Varicelle    BCG    Fièvre jaune*\n     * exception bénéfice/risque\n\n  Inactivés (DTP, hépatite B, COVID...) : autorisés",
+      "alt": "Timeline ASCII de la grossesse en semaines d'aménorrhée montrant la fenêtre 20-36 SA pour dTcaP et la grippe possible à tout moment ; rappel des vaccins vivants contre-indiqués.",
+      "caption": "Fenêtre dTcaP : 20-36 SA. Grippe : toute la grossesse. Vaccins vivants : JAMAIS.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
+}

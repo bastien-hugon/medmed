@@ -1,0 +1,19 @@
+{
+  "id": "irc-c2-l10-depistage-cible",
+  "kind": "lesson",
+  "prompt": "Qui doit-on DÉPISTER pour une MRC ? Pas tout le monde — c'est inefficace et anxiogène. NICE NG203 cible les adultes ayant l'un des facteurs suivants :\n\n• DIABÈTE (type 1 ou 2)\n• HTA\n• Antécédent d'INSUFFISANCE RÉNALE AIGUË\n• Maladie cardiovasculaire (cardiopathie ischémique, insuffisance cardiaque chronique, AOMI, AVC)\n• Maladie rénale structurale : reflux, sténose pyélo-urétérale, lithiases urinaires récidivantes, hypertrophie bénigne de prostate avec obstruction\n• Maladies multi-systémiques avec atteinte rénale potentielle : lupus, vasculite, myélome\n• Goutte (uricémie élevée corrèle avec déclin rénal)\n• Antécédents familiaux d'IRT ou maladie rénale héréditaire (polykystose, Alport)\n• Découverte fortuite d'hématurie ou de protéinurie\n• Prise prolongée de médicaments néphrotoxiques (lithium, certains antiviraux, etc.)\n\nNE PAS UTILISER COMME SEUL FACTEUR DE RISQUE pour dépister :\n• L'âge (un septuagénaire sans autre facteur ne se dépiste pas systématiquement)\n• Le sexe\n• L'origine ethnique (depuis retrait du coefficient race)\n• L'obésité isolée (sans diabète, sans HTA, sans syndrome métabolique)\n\nComment dépiste-t-on ? Le combo simple et efficace :\n  → créatinine sanguine + eGFR calculé\n  → ACR sur urine du matin\n  → bandelette urinaire (recherche d'hématurie)\n\nFréquence : annuelle chez les patients à risque (diabète, HTA), plus rapprochée si MRC confirmée selon stade.",
+  "rationale": "Approche médicale française : dépister la MRC n'est pas un dépistage de population générale (faux positifs nombreux, pas de bénéfice prouvé chez les patients sans FdR). C'est un dépistage CIBLÉ sur les patients à risque. À retenir : tous les diabétiques + tous les hypertendus = 1 bilan rénal/an au minimum. C'est un acte simple qui change l'histoire de millions de patients.",
+  "tags": {
+    "system": ["nephrologie", "prevention"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

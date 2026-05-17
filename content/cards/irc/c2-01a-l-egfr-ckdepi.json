@@ -1,0 +1,19 @@
+{
+  "id": "irc-c2-l01-egfr-ckdepi",
+  "kind": "lesson",
+  "prompt": "On a vu en C1 que le DFG (débit de filtration glomérulaire) est estimé à partir de la créatinine sanguine. Voyons maintenant COMMENT.\n\nLa formule de référence actuelle s'appelle CKD-EPI (Chronic Kidney Disease Epidemiology Collaboration). Elle remplace les anciennes formules (MDRD, Cockcroft-Gault) parce qu'elle est plus précise, surtout pour les DFG proches de la normale.\n\nElle prend en compte :\n• La créatinine sanguine (en µmol/L ou mg/dL)\n• L'âge\n• Le sexe\n• (l'origine ethnique : retirée des versions récentes, NICE 2021)\n\nLa formule elle-même est complexe (puissances, constantes différentes selon sexe et niveau de créat). En pratique, le laboratoire la calcule AUTOMATIQUEMENT et te rend un eGFR (estimated GFR) directement sur le compte-rendu. Tu n'as pas à la calculer à la main.\n\nLe résultat est exprimé en mL/min/1.73 m² — c'est-à-dire 'normalisé' à une surface corporelle moyenne, pour pouvoir comparer entre patients de différentes corpulences.\n\nLimites à connaître :\n• Peu fiable quand la masse musculaire est extrême (sarcopénie sévère, body-builders, amputés)\n• Peu fiable en aigu (variations rapides de créat) : à utiliser en chronique sur valeur stable\n• Pour adaptation posologique précise (chimiothérapies), on préfère parfois Cockcroft-Gault ou un DFG mesuré (clairance iohexol).",
+  "rationale": "Pourquoi connaître CKD-EPI alors qu'on ne la calcule pas ? Parce que c'est cette formule qui définit les seuils des stades G (60, 45, 30, 15) — il faut comprendre que ces seuils ont du sens grâce à une formule validée. Évolutions notables : retrait du coefficient 'race' en 2021 (équations de l'élargi NICE 2021), pour éviter les biais et améliorer l'équité.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

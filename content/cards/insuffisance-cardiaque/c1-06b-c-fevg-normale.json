@@ -1,0 +1,20 @@
+{
+  "id": "insuffisance-cardiaque-c1-q06-fevg-normale",
+  "kind": "cloze",
+  "prompt": "Une FEVG (fraction d'éjection du ventricule gauche) est considérée NORMALE quand elle est ≥ ___ %.",
+  "expected": ["50"],
+  "rationale": "Seuil de référence : FEVG ≥ 50 % = fonction d'éjection préservée. Entre 41 et 49 % = légèrement réduite. ≤ 40 % = réduite (ICFEr).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

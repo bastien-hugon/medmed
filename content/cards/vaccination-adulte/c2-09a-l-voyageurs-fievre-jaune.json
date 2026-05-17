@@ -1,0 +1,27 @@
+{
+  "id": "vaccination-adulte-c2-l09-voyageurs-fievre-jaune",
+  "kind": "lesson",
+  "prompt": "Les vaccins du VOYAGEUR dépendent de la destination et du contexte (durée, conditions, état de santé du voyageur). Quelques piliers à connaître :\n\n1. FIÈVRE JAUNE — vaccin VIVANT atténué (donc CI grossesse, immunodéprimés).\n• Obligatoire pour entrer dans de nombreux pays d'Afrique sub-saharienne et d'Amérique du Sud tropicale.\n• Administré uniquement en centres de vaccination AGRÉÉS, ≥ 10 jours avant le départ.\n• Rappel actuel : dose unique considérée comme protectrice à vie (recommandations OMS modifiées en 2016). Certains pays continuent toutefois d'exiger un rappel à 10 ans — vérifier les exigences du pays de destination.\n\n2. HÉPATITE A — vaccin INACTIVÉ. Schéma 1 dose + 1 rappel 6-12 mois plus tard (immunité longue, possiblement à vie).\nIndiquée pour les voyages en zone d'endémie (Afrique, Asie, Amérique latine), tout particulièrement dans des conditions d'hygiène alimentaire douteuses.\n\n3. MÉNINGOCOQUE ACWY — exigé pour le pèlerinage à La Mecque (visa saoudien). À envisager aussi pour des séjours prolongés dans la « ceinture africaine de la méningite ».\n\n4. AUTRES selon contexte : typhoïde (séjour long, conditions précaires) ; rage (zones rurales/grottes/séjour long) ; encéphalite japonaise ; encéphalite à tiques (Europe centrale, est).\n\nUn principe global : prévoir la consultation voyage AU MOINS 4 à 6 SEMAINES avant le départ, pour avoir le temps des schémas en plusieurs doses.",
+  "rationale": "Mnémo voyage : « FJ (Afrique/Am. Sud trop.) — HépA partout zone tropicale — Méningo Mecque/Sahel — Rage/Typhoïde si conditions ». Centre de référence : Institut Pasteur, centres agréés de vaccination internationale. Conséquence pratique : un patient sous biothérapie qui veut aller au Sénégal — la fièvre jaune (vivant) lui est CI → discussion lourde, parfois renoncement au voyage ou immunoglobulines spécifiques.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "voyage"],
+    "item_edn": [143, 174],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/Yellow_fever_risk_countries_map.svg",
+      "alt": "Carte mondiale colorée des pays à risque de transmission de la fièvre jaune, principalement en Afrique sub-saharienne et en Amérique du Sud tropicale.",
+      "caption": "Zones de risque fièvre jaune : Afrique sub-saharienne et Amérique du Sud tropicale. Vaccin obligatoire pour entrer dans la plupart de ces pays.",
+      "attribution": "Wikimedia Commons — Yellow fever risk countries map"
+    }
+  ]
+}

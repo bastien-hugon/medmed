@@ -1,0 +1,19 @@
+{
+  "id": "arret-tabac-c2-l08-suivi-remboursement",
+  "kind": "lesson",
+  "prompt": "Le sevrage tabagique nécessite un SUIVI structuré — pas juste 'on essaie, on verra'. La rechute reste fréquente dans la 1ère année, surtout les 3 premiers mois.\n\nRythme de suivi recommandé :\n\n• J0 : date d'arrêt convenue, NRT déjà débuté la veille, mesure CO expiré, vérification compréhension.\n• 1 SEMAINE : tolérance, ajustement NRT si manque persistant, gestion 1ers déclencheurs.\n• 1 MOIS : si OK, encourager. Si difficile, intensifier (forme rapide en complément, EM).\n• 3 MOIS : passage stade ACTION → MAINTIEN qui se prépare. Réduire progressivement NRT.\n• 6 MOIS : risque de rechute encore présent (week-ends, alcool, stress). Vérifier vigilance.\n• 1 AN : objectif visé. Risque CV déjà ÷ 2. Patient officiellement 'ex-fumeur'.\n\nRemboursement NRT en France :\n• Depuis le 1ᵉʳ janvier 2019 : remboursement classique à 65 % par l'Assurance Maladie sur prescription, SANS plafond annuel (le forfait historique de 150 €/an a été supprimé).\n• Conditions : substituts inscrits sur la liste des spécialités remboursables, délivrés sur ordonnance.\n• Prescription possible par médecin, sage-femme, dentiste, masseur-kinésithérapeute, infirmier (élargissement progressif).\n• Tiers payant possible en pharmacie (dispense d'avance de frais).\n• Femmes enceintes : accès aux NRT depuis 2011, dans le même cadre.\n\nLes médicaments de 2e ligne (varénicline, bupropion) sont également remboursés par l'Assurance Maladie (sous conditions, à 65 %) — vérifier le statut au moment de la prescription.\n\nRessources gratuites pour le patient :\n• Tabac Info Service : 39 89 (appel non surtaxé) et application mobile.\n• Consultations dédiées dans certains centres hospitaliers (tabacologie).",
+  "rationale": "Pratique : programmer le rendez-vous suivant À LA FIN de la consultation actuelle, sinon le patient ne reviendra pas spontanément. Le suivi rapproché (1 sem, 1 mois, 3 mois) double les taux de réussite par rapport à 'revenez si besoin'. Piège mémoriel : l'ancien forfait de 150 €/an (en vigueur jusqu'en 2018) n'existe plus — depuis 2019, c'est un remboursement classique à 65 % sur ordonnance, sans plafond. Avantage : reste à charge réduit et fin de la rupture en cours d'année.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "sante-publique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c2-l04-air-mart",
+  "kind": "lesson",
+  "prompt": "RÉVOLUTION NICE NG245 (2024) : on ABANDONNE l'ancien standard « SABA seul à la demande + ICS de fond ». Le nouveau standard repose sur DEUX schémas.\n\nLEXIQUE INDISPENSABLE\n• SABA (Short-Acting Beta2 Agonist) : bronchodilatateur d'action rapide, courte durée. Ex : salbutamol (Ventoline®). C'est le « spray bleu » historique.\n• ICS (Inhaled CorticoSteroid) : corticoïde inhalé, anti-inflammatoire de fond. Ex : budésonide, fluticasone.\n• LABA (Long-Acting Beta2 Agonist) : bronchodilatateur d'action prolongée. Ex : formotérol, salmétérol.\n• Le FORMOTÉROL est un LABA particulier : il a un délai d'action court (~3 min, comme un SABA), donc il peut servir à la fois de fond ET de secours.\n\nLES DEUX SCHÉMAS NG245 (adulte / ado ≥ 12 ans)\n\n1. AIR THERAPY (Anti-Inflammatory Reliever) — pour le tout nouveau-diagnostiqué peu symptomatique.\n   • Un seul inhalateur : low-dose ICS + formotérol À LA DEMANDE.\n   • Pris UNIQUEMENT en cas de symptôme/secours (comme un SABA), mais comme il contient un ICS, chaque bouffée est aussi anti-inflammatoire.\n   • Pas de prise quotidienne fixe.\n\n2. MART (Maintenance And Reliever Therapy) — pour le patient plus symptomatique ou non contrôlé par AIR.\n   • Le MÊME inhalateur low-dose ICS/formotérol, mais cette fois pris DEUX FOIS PAR JOUR (maintenance) ET en plus à la demande (reliever).\n   • Si non contrôlé → moderate-dose MART (on augmente la dose d'ICS dans le même schéma).\n\nRÈGLE D'OR NG245 — à graver : « JAMAIS de SABA seul sans ICS concomitant. »\nAutrement dit : on ne prescrit plus de Ventoline® toute seule. Le SABA seul a été montré associé à une surmortalité quand il masque l'inflammation sous-jacente sans la traiter.",
+  "rationale": "Pourquoi ce virage ? Les études (SYGMA, Novel-START) ont montré que la combinaison ICS+formotérol à la demande réduit les exacerbations sévères autant que le traitement de fond quotidien — avec une meilleure observance. Le SABA seul, lui, soulage sans traiter le fond inflammatoire → patient confortable mais bronches qui continuent à s'enflammer → exacerbations graves. Pour le diplôme français, sache que la HAS / SPLF s'alignent progressivement sur cette philosophie GINA/NICE depuis 2019-2024. Le terme « ARRO » (Anti-Reflux Reliever Only) qui apparaît parfois dans NG245 est un faux ami : c'est en fait l'ancien schéma « SABA seul », qu'on remplace.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  PALIERS THÉRAPEUTIQUES — adulte ≥ 12 ans (NICE NG245)\n\n   ▲ +  Spécialiste (biothérapies, etc.)\n   │\n   │  Moderate MART  + LTRA  + LAMA\n   │       │              ↑ essais 8-12 sem\n   │       ▼\n   │  Low-dose MART  → Moderate-dose MART\n   │       │  (ICS/formotérol fond 2×/j + reliever)\n   │       ▼\n   │  AIR therapy  (low-dose ICS/formotérol à la demande)\n   │       ▲\n   │       │  point d'entrée nouveau diag peu symptomatique\n   │       │\n   └──── INTERDIT : SABA seul sans ICS\n",
+      "alt": "Schéma ASCII des paliers thérapeutiques NICE NG245 chez l'adulte : AIR therapy à la base, puis low-dose MART, moderate MART, ajout LTRA/LAMA, puis spécialiste ; mention SABA seul interdit.",
+      "caption": "Step-up NG245 : on entre par AIR therapy, on escalade vers MART low puis moderate ± LTRA/LAMA. SABA seul = banni.",
+      "attribution": "medmed, schéma original d'après NICE NG245"
+    }
+  ],
+  "status": "active"
+}

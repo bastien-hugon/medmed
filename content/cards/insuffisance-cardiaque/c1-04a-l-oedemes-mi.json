@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-l04-oedemes-mi",
+  "kind": "lesson",
+  "prompt": "L'autre grand signe de l'insuffisance cardiaque (IC) : les ŒDÈMES DES MEMBRES INFÉRIEURS (MI) — chevilles et jambes qui gonflent.\n\nMécanisme : quand le cœur droit ne propulse plus assez le sang, ce dernier stagne en amont — dans les veines qui ramènent le sang des jambes. Le liquide finit par sortir des veines et imbibe les tissus → la jambe gonfle.\n\nCaractéristiques typiques de l'œdème cardiaque :\n• BILATÉRAL (les 2 jambes)\n• SYMÉTRIQUE\n• prédomine en fin de journée (la gravité l'aggrave)\n• prend le GODET (on appuie 5 sec avec le pouce, il reste un creux quelques secondes)\n• indolore, peau souple, parfois légèrement froide\n\nAttention : un œdème d'UNE seule jambe, chaud et douloureux = penser PHLÉBITE (thrombose veineuse profonde) — c'est une urgence différente.\n\nLes œdèmes cardiaques s'accompagnent souvent d'une prise de poids rapide (+2-3 kg en quelques jours = alarme).",
+  "rationale": "Le 'signe du godet' est facile à montrer au patient : on lui apprend à se peser tous les jours. Une prise de 2 kg en 3 jours = appeler le médecin AVANT que l'œdème ne devienne énorme. C'est un des leviers d'éducation thérapeutique les plus puissants en IC.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Œdème cardiaque des MI — signe du godet\n\n  Jambe normale       Jambe œdématiée\n   ┃ ▓▓▓▓ ┃              ┃ ░░░░░░░░ ┃\n   ┃ ▓▓▓▓ ┃              ┃ ░░░░░░░░ ┃   tissus gonflés\n   ┃ ▓▓▓▓ ┃              ┃ ░░░░░░░░ ┃   par le liquide\n\n  Après 5 sec d'appui du pouce :\n   ┃ ▓▓▓▓ ┃              ┃ ░░╔══╗░░ ┃\n   ┃ ▓▓▓▓ ┃              ┃ ░░║  ║░░ ┃   ← creux qui PERSISTE\n   ┃ ▓▓▓▓ ┃              ┃ ░░╚══╝░░ ┃     = godet positif\n\n  Cardiaque = bilatéral, symétrique, indolore.\n  Phlébite  = UNE jambe, chaude, douloureuse → urgence.",
+      "alt": "Schéma ASCII montrant le signe du godet : un creux persistant après pression du pouce, caractéristique de l'œdème cardiaque bilatéral.",
+      "caption": "Le godet : creux qui reste après pression. Cardiaque = bilatéral et indolore ; phlébite = unilatéral et douloureux.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

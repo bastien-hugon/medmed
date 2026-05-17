@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c1-l03-sein-mammographie",
+  "kind": "lesson",
+  "prompt": "Le dépistage organisé du CANCER DU SEIN repose sur deux gestes simples, faits le même jour :\n\n1) UN EXAMEN CLINIQUE des seins par un radiologue ou un médecin : il regarde, il palpe (les seins, les creux des aisselles). C'est rapide, indolore, et ça peut détecter des anomalies que la mammographie laisserait passer.\n\n2) UNE MAMMOGRAPHIE — c'est une radiographie des seins, faite avec un appareil dédié appelé MAMMOGRAPHE. Le sein est posé puis comprimé quelques secondes entre deux plaques (c'est l'inconfortable du test, pas dangereux). Une dose très faible de rayons X traverse le sein et fabrique une image en noir et blanc.\n\nLe radiologue cherche sur cette image :\n• des MICROCALCIFICATIONS (petits points blancs groupés — signature fréquente d'un cancer débutant)\n• des MASSES suspectes (taches plus denses que le tissu autour)\n• une DÉSORGANISATION du tissu mammaire\n\nUne mammographie de dépistage ne 'fait pas mal' au sens propre, mais la compression peut être désagréable une dizaine de secondes par cliché. C'est pris en charge à 100 %, dans des centres agréés.",
+  "rationale": "La compression du sein, c'est ce qui inquiète le plus les patientes — il faut savoir l'expliquer : elle étale le tissu (donc améliore la qualité de l'image) ET réduit la dose de rayons reçue (le rayonnement traverse moins d'épaisseur). À retenir : examen clinique ET mammographie, pas l'un sans l'autre. L'examen clinique seul rate trop de petites lésions ; la mammographie seule rate certaines lésions palpables. Les deux ensemble couvrent mieux.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Mammographie",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Mammogram.jpg",
+      "alt": "Mammographie standard d'un sein en noir et blanc, montrant la structure du tissu glandulaire.",
+      "caption": "Mammographie de dépistage : radiographie en faible dose, image en noir et blanc lue par un radiologue.",
+      "attribution": "Wikimedia Commons — domaine public"
+    }
+  ],
+  "status": "active"
+}

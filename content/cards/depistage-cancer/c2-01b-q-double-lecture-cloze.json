@@ -1,0 +1,20 @@
+{
+  "id": "depistage-cancer-c2-q01b-double-lecture-cloze",
+  "kind": "cloze",
+  "prompt": "Dans le dépistage organisé du cancer du sein en France, une mammographie jugée ___ par le 1er radiologue est systématiquement relue, en aveugle, par un ___ radiologue indépendant.",
+  "expected": ["normale", "second"],
+  "rationale": "La double lecture concerne UNIQUEMENT les mammographies normales (ou très probablement normales) à la 1ʳᵉ lecture. Une mammographie déjà 'anormale' n'a pas besoin de 2ᵉ lecture : elle déclenche immédiatement les examens complémentaires. Cette double lecture est une particularité du programme organisé français, qu'on perd si on fait un dépistage individuel (hors programme).",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "à vérifier"
+  },
+  "status": "active"
+}

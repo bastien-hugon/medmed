@@ -1,0 +1,31 @@
+{
+  "id": "saos-c2-03b-q-iah-severite",
+  "kind": "cloze",
+  "prompt": "Sévérité du SAOS selon l'IAH (événements par heure de sommeil) : un IAH entre 5 et 15 définit un SAOS LÉGER ; entre 15 et 30, MODÉRÉ ; et à partir de ___ /h, on parle de SAOS SÉVÈRE.",
+  "expected": [
+    "30"
+  ],
+  "rationale": "Les trois seuils à retenir sont 5 - 15 - 30. Le palier 30 est crucial car il conditionne notamment la décision d'instaurer une PPC remboursée et le retrait du permis de conduire professionnel tant que le patient n'est pas traité.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

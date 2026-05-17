@@ -1,0 +1,37 @@
+{
+  "id": "saos-c1-03a-l-apnee-hypopnee",
+  "kind": "lesson",
+  "prompt": "Pendant le sommeil, le flux d'air peut être perturbé de deux façons :\n\n• APNÉE : arrêt COMPLET du flux d'air pendant > 10 secondes. La gorge est totalement fermée.\n\n• HYPOPNÉE : RÉDUCTION partielle du flux (au moins 30-50 % de moins que la normale) pendant > 10 secondes, avec une baisse de l'oxygène dans le sang OU un microéveil. La gorge est rétrécie mais pas complètement fermée.\n\nImagine un tuyau : tu peux le pincer un peu (hypopnée) ou le boucher totalement (apnée). Les deux gênent la respiration.\n\nDans le SAOS, on compte ENSEMBLE les apnées et les hypopnées, parce que les conséquences (manque d'oxygène, microéveils, fragmentation du sommeil) sont les mêmes. C'est ce comptage qui donne l'IAH (Index Apnée-Hypopnée), qu'on verra plus tard.",
+  "rationale": "Pourquoi compter ensemble apnées et hypopnées ? Parce que le cerveau et le cœur s'en fichent du détail anatomique : ils 'voient' la baisse d'oxygène et le microéveil. Une hypopnée mal tolérée peut être aussi délétère qu'une apnée franche.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Flux respiratoire pendant le sommeil\n\n  Normal     ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█▇▆▅▄▃▂▁\n\n  Hypopnée   ▁▂▃▄▅▆▇█▂▂▂▂▂▂▂▂▂█▇▆▅▄▃▂▁\n                       └──> 10 s, flux réduit ≥ 30 %\n\n  Apnée      ▁▂▃▄▅▆▇█·········█▇▆▅▄▃▂▁\n                       └──> 10 s, flux nul\n\n  Les 2 comptent dans l'IAH (Index Apnée-Hypopnée).",
+      "alt": "Tracé ASCII de la courbe de flux respiratoire montrant respiration normale, hypopnée (flux réduit) et apnée (flux nul) pendant plus de 10 secondes.",
+      "caption": "Apnée = flux nul. Hypopnée = flux réduit. Durée commune : > 10 s. Conséquences communes : désaturation + microéveil.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

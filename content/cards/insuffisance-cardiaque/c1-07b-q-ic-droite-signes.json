@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q07-ic-droite-signes",
+  "kind": "qcm-vignette",
+  "prompt": "Lequel de ces signes évoque le PLUS une insuffisance cardiaque DROITE prédominante ?",
+  "choices": [
+    { "id": "a", "text": "Dyspnée d'effort + orthopnée + crépitants pulmonaires", "correct": false },
+    { "id": "b", "text": "Œdèmes des chevilles + jugulaires saillantes + foie sensible", "correct": true },
+    { "id": "c", "text": "Toux nocturne + sifflements", "correct": false },
+    { "id": "d", "text": "Douleur thoracique en serrement à l'effort", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les signes 'bas' (œdèmes des MI, foie congestif, turgescence jugulaire) = stagnation dans les veines systémiques = IC droite. Les signes 'haut' (dyspnée, orthopnée, crépitants) = stagnation pulmonaire = IC gauche. (c) évoque un asthme ; (d) une angine de poitrine.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

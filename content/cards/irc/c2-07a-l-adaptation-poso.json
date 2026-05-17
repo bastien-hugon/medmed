@@ -1,0 +1,19 @@
+{
+  "id": "irc-c2-l07-adaptation-poso",
+  "kind": "lesson",
+  "prompt": "Beaucoup de médicaments sont ÉLIMINÉS par le rein. Quand le DFG baisse, ils s'accumulent — risque de surdosage et de toxicité.\n\nQuelques classes à connaître particulièrement chez un patient avec MRC :\n\n• ANTIBIOTIQUES : la plupart à élimination rénale (aminosides, vancomycine, certaines bêta-lactamines, fluoroquinolones, sulfamides). À adapter selon DFG.\n• ANTIDIABÉTIQUES : la metformine est contre-indiquée si DFG < 30, à dose réduite entre 30 et 45. Les sulfamides hypoglycémiants accumulent → risque d'hypoglycémie prolongée.\n• ANTICOAGULANTS : les AOD (apixaban, rivaroxaban, dabigatran) ont des seuils de DFG sous lesquels on adapte ou contre-indique. Le dabigatran est le plus rénal.\n• OPIOÏDES : morphine et codéine s'accumulent (métabolites actifs) → préférer tramadol prudent ou fentanyl ; éviter les hautes doses de morphine si DFG < 30.\n• DIGOXINE, LITHIUM : marges thérapeutiques étroites + élimination rénale → toxicité rapide.\n\nRéflexe pratique :\n1. Connaître le DFG du patient (et le ré-évaluer régulièrement)\n2. Vérifier sur Vidal / monographies les seuils d'adaptation pour CHAQUE médicament prescrit\n3. Privilégier des molécules à élimination hépatique quand c'est possible\n4. En cas d'épisode aigu (AINS, déshydratation, contraste iodé), réévaluer rapidement le DFG : un patient G3 peut basculer en G4 fonctionnel et accumuler ses médicaments.",
+  "rationale": "Cas clinique typique du piège : patient âgé en MRC G3b, prescrit de la metformine 'parce qu'il est diabétique'. Une gastro-entérite survient, il se déshydrate, son DFG chute à 22, la metformine s'accumule → ACIDOSE LACTIQUE, parfois mortelle. Règle : chez tout patient en MRC, lors d'un événement intercurrent, on revérifie la liste médicamenteuse.",
+  "tags": {
+    "system": ["nephrologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "iatrogenie"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

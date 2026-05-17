@@ -1,0 +1,22 @@
+{
+  "id": "insuffisance-cardiaque-c2-s10b-bnp-obese",
+  "kind": "sct",
+  "prompt": "Hypothèse : insuffisance cardiaque chez une patiente de 65 ans, IMC 38, dyspnée d'effort et orthopnée. Information nouvelle : son NT-proBNP revient à 350 ng/L. Comment cette donnée modifie-t-elle la suspicion ?",
+  "hypothesis": "Insuffisance cardiaque chez une patiente obèse (IMC 38) présentant dyspnée d'effort et orthopnée",
+  "new_info": "NT-proBNP mesuré à 350 ng/L (sous le seuil habituel de 400)",
+  "expected": "affaiblit",
+  "rationale": "Un NT-proBNP < 400 ng/L est en général un fort argument CONTRE l'IC : la suspicion est affaiblie. MAIS l'obésité est un facteur connu de FAUSSE BAISSE du NT-proBNP — la valeur réelle 'corrigée' pourrait être bien plus haute. La suspicion est donc affaiblie au niveau strictement biologique, mais à interpréter avec prudence : un complément (échographie cardiaque) reste justifié si la clinique est évocatrice (orthopnée notamment).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

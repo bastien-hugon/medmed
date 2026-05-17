@@ -1,0 +1,28 @@
+{
+  "id": "arret-tabac-c1-l04-benefices-arret",
+  "kind": "lesson",
+  "prompt": "Bonne nouvelle pour le patient : les bénéfices de l'arrêt commencent IMMÉDIATEMENT, et continuent pendant des décennies. Cette chronologie est un argument majeur en consultation.\n\nFlash sur la timeline :\n• 20 minutes : la fréquence cardiaque (FC) et la pression artérielle (PA) commencent à baisser.\n• 2 heures : les envies de cigarette diminuent (le pic de nicotine retombe).\n• 24 heures : le CO (monoxyde de carbone) expiré redevient normal.\n• 2 semaines : la circulation pulmonaire s'améliore, on respire mieux.\n• 1 an : le risque cardiovasculaire (infarctus, AVC) est divisé par DEUX.\n• 5-10 ans : le risque de cancer baisse significativement.\n• 15+ ans : si arrêt avant 35 ans, on récupère ~10 années d'espérance de vie.\n\nMessage clé : il n'est JAMAIS trop tard pour arrêter. Même à 60 ans, on gagne des années.",
+  "rationale": "Utile en consultation : un patient qui pense 'à 50 ans, c'est trop tard' a tort. Pour faire effet, raconter la chronologie courte (les premières 24-48 h sont très concrètes : FC qui baisse, CO qui dégringole, goût qui revient). Les bénéfices à long terme paraissent abstraits, ceux à 24 h sont tangibles. La motivation se construit sur le concret.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  TIMELINE des bénéfices après la dernière cigarette\n\n   20 min  ──►  FC et PA baissent\n    2 h   ──►  Envies de nicotine diminuent\n   24 h   ──►  CO expiré redevient normal\n   2 sem  ──►  Circulation pulmonaire ↑\n    1 an  ──►  Risque cardio-vasculaire ÷ 2\n  5-10 a  ──►  Risque cancer ↓ significatif\n   15+ a  ──►  ~ 10 ans d'espérance de vie\n              (si arrêt avant 35 ans)\n\n  Court terme = très concret (FC, CO, goût)\n  Long terme  = très puissant (CV, cancer)",
+      "alt": "Timeline ASCII des bénéfices de l'arrêt du tabac, allant de 20 minutes à 15 ans après la dernière cigarette.",
+      "caption": "Du tangible (20 min, FC qui baisse) au transformateur (15 ans, +10 ans de vie). À montrer en consultation.",
+      "attribution": "medmed, schéma original d'après Wikipedia FR"
+    }
+  ],
+  "status": "active"
+}

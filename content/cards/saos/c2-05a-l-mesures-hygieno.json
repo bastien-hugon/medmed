@@ -1,0 +1,29 @@
+{
+  "id": "saos-c2-05a-l-mesures-hygieno",
+  "kind": "lesson",
+  "prompt": "Quelle que soit la sévérité du SAOS, les MESURES HYGIÉNO-DIÉTÉTIQUES sont la BASE — toujours indispensables, jamais facultatives.\n\n1) PERTE DE POIDS (la plus efficace de toutes)\n• Le tissu adipeux péripharyngé rétrécit le 'tuyau'. Maigrir l'élargit.\n• Une perte de 10 % du poids peut réduire l'IAH de 25-50 %.\n• À toute sévérité : même en cas de SAOS sévère traité par CPAP, la perte de poids reste recommandée (et peut permettre de se passer de la CPAP).\n\n2) ARRÊT DE L'ALCOOL le soir\n• L'alcool relâche les muscles du pharynx → favorise le collapsus.\n• Au minimum : pas d'alcool 3 h avant le coucher.\n\n3) SEVRAGE DES SÉDATIFS / SOMNIFÈRES\n• Benzodiazépines et apparentés (zolpidem, zopiclone) : même effet myorelaxant que l'alcool.\n• À discuter avec le prescripteur, ne pas arrêter brutalement seul.\n\n4) ÉVITER LE DÉCUBITUS DORSAL\n• Sur le dos, la langue tombe en arrière → aggrave le collapsus.\n• Astuces : balle de tennis cousue dans le dos du pyjama, oreiller de position.\n\n5) EXERCICE PHYSIQUE RÉGULIER, ARRÊT DU TABAC.\n\nCes mesures suffisent parfois pour un SAOS léger. Pour les SAOS modérés/sévères, elles complètent la CPAP (qu'on verra ensuite).",
+  "rationale": "Le piège : annoncer la CPAP comme 'le traitement' et passer trop vite sur les MHD. Or perdre 10 kg peut faire passer un patient de SAOS sévère à modéré, voire léger. En MG, c'est le levier principal — long, mais durable, et il agit aussi sur HTA, diabète, etc.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques",
+      "prevention"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

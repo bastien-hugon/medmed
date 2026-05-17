@@ -1,0 +1,19 @@
+{
+  "id": "asthme-c2-l05-non-controle-definition",
+  "kind": "lesson",
+  "prompt": "Comment décider qu'il faut MONTER d'un palier de traitement ? On a besoin d'une définition objective du « non contrôlé ».\n\nNICE NG245 retient deux critères, dont UN SEUL suffit :\n\n1. SYMPTÔMES FRÉQUENTS\n   • Utilisation du reliever (spray de secours) ≥ 3 JOURS PAR SEMAINE, OU\n   • Au moins 1 RÉVEIL NOCTURNE PAR SEMAINE attribuable à l'asthme.\n\n2. EXACERBATION ayant nécessité une cure de corticoïdes oraux (prednisolone) dans les 12 derniers mois.\n\nSi l'un ou l'autre est présent → asthme NON contrôlé → on escalade (AIR → MART, low → moderate, etc.).\n\nÀ l'inverse, asthme CONTRÔLÉ = patient asymptomatique, pas de réveil, pas/peu de reliever, activité normale, souffle proche de la normale.\n\nAVANT D'ESCALADER (réflexe non négociable), vérifie les 4 \"basics\" :\n• ADHÉSION : compte les bouffées sur le compteur de doses, demande sans juger.\n• TECHNIQUE D'INHALATION : fait-il une vraie inspiration profonde ? coordonne-t-il ?\n• ENVIRONNEMENT : exposition à un allergène (chat récent, déménagement, moisissures) ? tabac, vapotage ?\n• DIAG DIFFÉRENTIEL : et si ce n'était pas (ou plus seulement) de l'asthme ? RGO, dysfonction cordes vocales, BPCO surajoutée chez le fumeur.\n\nUne fois ces 4 vérifiés, on peut monter d'un palier en toute sécurité.",
+  "rationale": "Le \"≥ 3 j/sem\" et \"≥ 1 nuit/sem\" sont des seuils OPÉRATIONNELS, faciles à demander au patient (\"combien de fois la semaine dernière as-tu utilisé ton spray ?\"). Note : un seul de ces critères suffit — on ne demande pas qu'ils soient cumulés. Erreur classique : un patient qui dit \"je vais bien\" peut quand même avoir un asthme non contrôlé si tu ne creuses pas ces questions précises. C'est aussi la valeur des questionnaires standardisés (ACQ, ACT) qui force à passer en revue chaque item.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

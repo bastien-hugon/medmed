@@ -1,0 +1,19 @@
+{
+  "id": "bpco-c2-l09-oxygenotherapie",
+  "kind": "lesson",
+  "prompt": "Aux stades avancés de la BPCO, le poumon n'oxygène plus assez le sang : on parle d'INSUFFISANCE RESPIRATOIRE CHRONIQUE.\n\nOn la mesure sur les GAZ DU SANG ARTÉRIEL (GDS), en regardant la PaO2 (pression partielle en oxygène dans le sang artériel).\n• Sang artériel normal : PaO2 ≈ 10-13 kPa (80-100 mmHg)\n• Insuffisance respiratoire chronique : PaO2 basse, durablement.\n\nQuand la PaO2 chute trop bas, le sang ne peut plus délivrer assez d'oxygène aux organes — et le cœur droit, qui pousse contre des poumons abîmés, finit par souffrir lui aussi (HTAP, cœur pulmonaire chronique).\n\nLe traitement spécifique = l'OXYGÉNOTHÉRAPIE LONGUE DURÉE (OLD).\n\nC'est l'apport d'oxygène à domicile (concentrateur ou bouteilles), par lunettes nasales.\n\nINDICATIONS (NICE NG115) chez un patient stable, NON FUMEUR :\n  • PaO2 < 7,3 kPa (≈ 55 mmHg)\n  • OU PaO2 entre 7,3 et 8 kPa AVEC l'un de :\n      - polyglobulie\n      - oedèmes des membres inférieurs (signe d'IC droite)\n      - HTAP\n      - saturation nocturne ≤ 92%\n\nDURÉE : AU MOINS 15 HEURES PAR JOUR pour avoir un bénéfice de survie. C'est la durée minimale validée par les études (NOTT, MRC).\n\nDeux GDS à AU MOINS 3 SEMAINES d'intervalle pour confirmer (pas sur une exacerbation aiguë).\n\nINTERDIT chez le fumeur ACTIF : risque d'incendie majeur (l'O2 entretient les flammes). Pas d'OLD avant sevrage tabagique strict.",
+  "rationale": "Mnémo 'O2 = 7,3 et 15' : seuil PaO2 < 7,3 kPa, durée >= 15h/j. C'est l'un des rares traitements de la BPCO qui prolonge la SURVIE (et pas seulement la qualité de vie), à condition d'être porté >= 15h/j. Moins de 15h/j = pas de bénéfice. D'où l'importance de l'observance, qu'on évalue par le compteur du concentrateur.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

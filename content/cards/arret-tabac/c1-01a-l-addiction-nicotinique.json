@@ -1,0 +1,28 @@
+{
+  "id": "arret-tabac-c1-l01-addiction-nicotinique",
+  "kind": "lesson",
+  "prompt": "Pourquoi est-ce SI dur d'arrêter de fumer ? Parce que la cigarette n'accroche pas le corps d'UNE seule façon, mais de TROIS, en même temps.\n\n1) Composante physiologique (le corps)\nLa nicotine inhalée arrive au cerveau en ~7 secondes. Elle active des récepteurs dits 'nicotiniques' qui libèrent de la dopamine (la molécule du plaisir). Le cerveau s'habitue : sans nicotine, il manque de dopamine → manque physique (irritabilité, envies, troubles du sommeil).\n\n2) Composante psychologique (la tête)\nLa cigarette devient un outil mental : 'elle me calme', 'elle me concentre', 'elle me récompense'. Le fumeur a appris à associer nicotine = gestion des émotions. Sans elle, il se sent démuni face au stress ou à l'ennui.\n\n3) Composante comportementale (les habitudes)\nLa cigarette est ritualisée : café du matin, pause boulot, après le repas, en conduisant. Le geste, le lieu, l'heure deviennent des déclencheurs. Le cerveau a câblé : 'café → cigarette' automatique, sans réfléchir.\n\nPour arrêter durablement, il faut agir sur les TROIS axes. Une seule, ça ne marche pas.",
+  "rationale": "Mémo : on parle d'addiction 'tri-dimensionnelle' (physio + psy + comportementale). C'est la raison pour laquelle on combine souvent : substituts nicotiniques (axe physio) + entretien motivationnel/TCC (axe psy) + identification des déclencheurs (axe comportemental). Un patient à qui on dit juste 'arrêtez' sans ces 3 axes a ~3-6 % de réussite/an. Avec aide : 20-30 %.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Nicotine-from-xtal-Mercury-3D-balls.png",
+      "alt": "Modèle 3D 'boules et bâtonnets' de la molécule de nicotine, avec ses atomes de carbone, azote et hydrogène.",
+      "caption": "La nicotine : petite molécule, mais ~7 secondes pour atteindre le cerveau après une bouffée. C'est la rapidité qui crée l'addiction physique.",
+      "attribution": "Wikimedia Commons — domaine public"
+    }
+  ],
+  "status": "active"
+}

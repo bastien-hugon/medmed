@@ -1,0 +1,19 @@
+{
+  "id": "insuffisance-cardiaque-c2-l09-education-patient",
+  "kind": "lesson",
+  "prompt": "L'éducation thérapeutique est un PILIER NON-MÉDICAMENTEUX de la prise en charge de l'IC. Elle réduit les hospitalisations autant que certains médicaments.\n\nCinq points-clés à transmettre :\n\n1. PESÉE QUOTIDIENNE\n• Même balance, même heure (matin, à jeun, après pipi)\n• Carnet ou app pour noter\n• Alerte : + 2 kg en 3 jours → contacter le médecin / ajuster diurétique selon protocole\n\n2. SEL\n• PAS de restriction sévère routinière (NICE NG106)\n• Mais éviter les EXCÈS (charcuterie, plats préparés, fromages affinés)\n• ÉVITER les sels potassiques de substitution (\"sel sans sodium\") → risque d'hyperkaliémie avec IEC/MRA\n\n3. ALCOOL\n• Si cardiomyopathie alcoolique : arrêt complet.\n• Sinon : modération stricte (< 1 verre/jour).\n\n4. ACTIVITÉ PHYSIQUE\n• Recommandée et bénéfique. Programme de réadaptation cardiaque si possible.\n• Adaptée à la NYHA, jamais en décompensation.\n\n5. VACCINATIONS\n• GRIPPE saisonnière annuelle\n• PNEUMOCOQUE (une fois, avec rappel selon schéma)\n→ Recommandées chez tout patient IC.\n\nSignes d'alerte à enseigner : prise de poids brutale, essoufflement crescendo, orthopnée nouvelle, syncope, palpitations soutenues.",
+  "rationale": "Le patient IC bien éduqué = un patient qui décompense MOINS. La pesée quotidienne est la mesure d'auto-surveillance la plus puissante : elle détecte la rétention hydrique AVANT que la dyspnée et les œdèmes ne deviennent évidents. Tu peux 'prescrire' la pesée comme tu prescris un médicament. Pour les vaccins, la place du MG est centrale — c'est rarement le cardiologue qui les fait.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

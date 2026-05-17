@@ -1,0 +1,37 @@
+{
+  "id": "saos-c2-01a-l-score-epworth",
+  "kind": "lesson",
+  "prompt": "Comment mesurer objectivement la somnolence diurne d'un patient ? Avec un auto-questionnaire de 8 questions appelé ÉCHELLE DE SOMNOLENCE D'EPWORTH.\n\nLe patient évalue de 0 à 3 sa probabilité de s'endormir dans 8 situations courantes :\n\n  0 = aucune chance / 1 = faible / 2 = moyenne / 3 = forte chance de s'endormir\n\nLes 8 situations :\n  1. Assis en train de lire\n  2. Regarder la télévision\n  3. Assis, inactif, dans un lieu public\n  4. Passager d'une voiture pendant 1 heure\n  5. Allongé pour se reposer l'après-midi\n  6. En parlant à quelqu'un assis\n  7. Assis au calme après un déjeuner SANS alcool\n  8. Au volant, immobilisé dans un embouteillage\n\nTotal : 0 à 24.\n\nINTERPRÉTATION :\n• < 8 : pas de somnolence anormale\n• 8-11 : somnolence légère / limite\n• ≥ 12 : SOMNOLENCE PATHOLOGIQUE → exploration du sommeil indiquée\n• > 16 : somnolence sévère\n\nNB : le score d'Epworth ne corrèle PAS avec la sévérité du SAOS. Un patient peut avoir un IAH très élevé et un Epworth bas (et inversement). C'est un outil de dépistage, pas un outil de gravité.",
+  "rationale": "Attention : les seuils varient selon les sources. La majorité de la littérature française (HAS, SFRMS) utilise ≥ 11 (somnolence anormale) avec une zone d'alerte dès > 10. Le score original de Johns (1991) considère 0-10 comme normal et ≥ 11 comme anormal. Le seuil ≥ 12 retenu ici (cohérent avec Wikipedia FR — SAOS) délimite la somnolence cliniquement pathologique justifiant une exploration. À l'EDN, l'idée centrale à retenir : le score normal va jusqu'à 10, au-delà la somnolence est anormale et au-delà de 16 elle est sévère. Et surtout : l'Epworth ne corrèle PAS avec la sévérité polysomnographique du SAOS.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  ÉCHELLE D'EPWORTH — 8 items × 0-3 = score 0-24\n\n  Probabilité de s'endormir dans :        0  1  2  3\n  1. Lire assis                           □  □  □  □\n  2. Regarder la TV                       □  □  □  □\n  3. Inactif en lieu public               □  □  □  □\n  4. Passager voiture 1 h                 □  □  □  □\n  5. Allongé l'après-midi                 □  □  □  □\n  6. Parler à qqn assis                   □  □  □  □\n  7. Après repas sans alcool              □  □  □  □\n  8. Volant, immobilisé (bouchon)         □  □  □  □\n\n  Total :   < 8  normal  │  8-11 limite  │  ≥ 12 PATHO",
+      "alt": "Tableau ASCII de l'échelle d'Epworth avec ses 8 situations à coter de 0 à 3, et le seuil pathologique à 12.",
+      "caption": "8 situations, score 0-3 chacun, total 0-24. Seuil pathologique : ≥ 12.",
+      "attribution": "medmed, schéma original d'après Epworth Sleepiness Scale"
+    }
+  ],
+  "status": "active"
+}

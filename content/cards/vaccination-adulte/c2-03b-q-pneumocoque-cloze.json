@@ -1,0 +1,21 @@
+{
+  "id": "vaccination-adulte-c2-q03-pneumocoque-cloze",
+  "kind": "cloze",
+  "prompt": "Chez l'adulte ≥ ___ ans ou à risque, le schéma pneumocoque 2025 a été simplifié : une ___ dose de vaccin conjugué ___ (Prevenar 20) ou VPC21 (Capvaxive).",
+  "expected": ["65", "unique", "VPC20"],
+  "rationale": "Depuis le calendrier vaccinal 2024-2025, fini le schéma séquentiel VPC13 → PPV23 à 8 semaines : on injecte UNE seule dose de vaccin conjugué à très large couverture (VPC20 ou VPC21). Acronyme : VPC = Vaccin Pneumococcique Conjugué ; le chiffre = nombre de sérotypes couverts. Indications : tous les adultes ≥ 65 ans, et les 18-64 ans à risque (immunodéprimés, asplénie, maladies chroniques majeures).",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "pneumocoque"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/Infections-a-pneumocoque",
+    "version": "consulté en 2026-05",
+    "note": "Schéma adulte 2025 = dose unique VPC20 ou VPC21. Le schéma séquentiel PCV13→PPV23 n'est plus la référence."
+  },
+  "status": "active"
+}

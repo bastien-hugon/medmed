@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-l02-dyspnee-nyha",
+  "kind": "lesson",
+  "prompt": "Le symptôme N°1 de l'insuffisance cardiaque (IC) : la DYSPNÉE — c'est-à-dire l'essoufflement, la sensation de manquer d'air.\n\nPourquoi ? Quand la pompe du cœur faiblit, le sang stagne dans les poumons en arrière du cœur. Du liquide passe dans les alvéoles pulmonaires : on respire moins bien.\n\nPour la quantifier de façon simple, on utilise la classification NYHA (New York Heart Association), de I à IV :\n\n• NYHA I — aucune limitation, l'activité normale ne donne pas d'essoufflement\n• NYHA II — essoufflé à l'effort important (monter 2 étages, courir)\n• NYHA III — essoufflé pour des efforts modestes (marcher à plat, s'habiller)\n• NYHA IV — essoufflé AU REPOS, le moindre geste est pénible\n\nC'est un outil de tri très utilisé : il décide souvent le niveau d'urgence et l'intensité du traitement.",
+  "rationale": "Truc mnémo : NYHA = échelle des marches. I = aucune gêne, IV = essoufflé sans bouger. À chaque consultation chez un patient IC, on REDEMANDE le NYHA — il bouge dans le temps, et c'est le baromètre clinique le plus utilisé.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Classification NYHA — l'échelle d'essoufflement\n\n  NYHA I    │ aucune gêne                 │  ░░░░░░░░░░  0%\n  NYHA II   │ essoufflé à l'effort ++     │  ████░░░░░░  modéré\n  NYHA III  │ essoufflé à l'effort léger  │  ████████░░  marqué\n  NYHA IV   │ essoufflé AU REPOS          │  ██████████  permanent\n\n  Test simple en consultation :\n    \"Monter un étage vous essouffle ?\"   non → I    oui → II\n    \"Marcher à plat ?\"                   non → II   oui → III\n    \"Au repos / s'habiller ?\"            non → III  oui → IV",
+      "alt": "Tableau ASCII des 4 classes NYHA avec barres de progression et questions cliniques pour les distinguer.",
+      "caption": "Plus on monte dans la classe, plus l'effort qui essouffle est petit.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

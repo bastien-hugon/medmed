@@ -1,0 +1,19 @@
+{
+  "id": "bpco-c2-l06-exacerbation-tt",
+  "kind": "lesson",
+  "prompt": "Une EXACERBATION de BPCO, c'est une aggravation aiguë et soutenue des symptômes au-delà des variations habituelles : plus de dyspnée, plus de toux, plus d'expectoration, parfois changement de couleur des crachats. C'est ce qui FAIT le pronostic à long terme : chaque exacerbation accélère la chute du VEMS.\n\nLe traitement de référence d'une exacerbation modérée (qu'on traite en ville) :\n\n=== 1. CORTICOÏDES SYSTÉMIQUES ===\nNICE NG115 [recommandation 1.3.16] :\n\n  PREDNISOLONE 30 mg per os par jour pendant 5 JOURS.\n\nC'est court, c'est simple, pas besoin de schéma dégressif. En France, on utilise plus volontiers la prednisone à dose équivalente. Effet : réduit l'inflammation bronchique, raccourcit l'exacerbation.\n\n=== 2. ANTIBIOTIQUES — si signes de surinfection bactérienne ===\nIndication : expectoration PURULENTE (jaune-verte) + au moins un autre signe (augmentation du volume des crachats, dyspnée majorée). On suit le NICE NG114 pour le choix : amoxicilline 500 mg ×3/j × 5 jours en 1ère intention chez la majorité des adultes.\nSi pas de purulence claire : pas d'antibiotique.\n\n=== 3. INHALÉS ===\nOn majore les bronchodilatateurs courte durée (SABA ± SAMA), à la chambre d'inhalation ou en nébulisation si besoin.\n\n=== 4. CRITÈRES D'HOSPITALISATION (ne pas rater) ===\n• Cyanose, troubles de conscience, signes de gravité respiratoire (FR >25, tirage)\n• Saturation < 90% en air ambiant\n• Comorbidités lourdes décompensées\n• Échec d'un premier traitement ambulatoire\n• Isolement social, terrain fragile",
+  "rationale": "Mnémo 'PRED-30-5' : Prednisolone 30 mg, 5 jours. Pas de cure plus longue (pas de bénéfice prouvé, plus d'effets secondaires). Antibiotique = uniquement si crachats purulents — la grande majorité des exacerbations sont virales. La règle des '3 signes d'Anthonisen' (dyspnée, volume, purulence) reste un repère clinique utile.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

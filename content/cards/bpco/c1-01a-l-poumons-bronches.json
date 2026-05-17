@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c1-l01-poumons-bronches",
+  "kind": "lesson",
+  "prompt": "Quand tu respires, l'air ne va pas directement dans les poumons en bloc. Il suit un chemin précis, comme un arbre à l'envers.\n\nL'air entre par le nez ou la bouche, descend dans la TRACHÉE (un gros tuyau central), puis cette trachée se divise en deux BRONCHES (une pour chaque poumon).\n\nChaque bronche se ramifie ensuite en bronches de plus en plus petites, comme les branches d'un arbre. On les appelle BRONCHIOLES quand elles deviennent fines.\n\nAu bout du chemin, l'air arrive dans de minuscules sacs : les ALVÉOLES. C'est LÀ que l'oxygène passe dans le sang.\n\nÀ retenir : air → trachée → bronches → bronchioles → alvéoles.",
+  "rationale": "Cette anatomie est la base de tout. La BPCO (bronchopneumopathie chronique obstructive) attaque deux étages de cet arbre : les bronches (qui s'enflamment et se rétrécissent) et les alvéoles (qui se détruisent — emphysème). Comprendre l'arbre, c'est comprendre pourquoi le souffle se bloque.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lungs_diagram_detailed.svg/960px-Lungs_diagram_detailed.svg.png",
+      "alt": "Schéma anatomique détaillé des poumons : trachée centrale qui se divise en deux bronches principales, ramifications bronchiques de plus en plus fines vers les alvéoles, lobes pulmonaires droit (3 lobes) et gauche (2 lobes).",
+      "caption": "L'arbre respiratoire : trachée -> bronches -> bronchioles -> alvéoles.",
+      "attribution": "Wikimedia Commons - Lungs diagram detailed, domaine public"
+    }
+  ],
+  "status": "active"
+}

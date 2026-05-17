@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c1-l08-irreversibilite",
+  "kind": "lesson",
+  "prompt": "BPCO et asthme se ressemblent au premier abord : tous deux donnent une dyspnée, une obstruction bronchique, parfois une toux. Mais il y a une différence fondamentale qu'il faut graver.\n\nDans l'ASTHME, les bronches se rétrécissent par CRISES, en réponse à un déclencheur (allergène, effort, froid, infection). Entre les crises, elles sont normales. Et surtout, donner un bronchodilatateur (Ventoline, par exemple) ROUVRE les bronches : l'obstruction est RÉVERSIBLE.\n\nDans la BPCO, c'est l'inverse. Les bronches sont rétrécies en PERMANENCE. Donner un bronchodilatateur les ouvre un peu, oui — mais l'obstruction NE DISPARAÎT PAS. Elle est FIXÉE, IRRÉVERSIBLE.\n\nC'est précisément à ça que sert le 'test de réversibilité' à la spirométrie : on mesure le VEMS, puis on donne un bronchodilatateur, puis on remesure. Chez l'asthmatique, le VEMS remonte fortement (≥ 12% ET ≥ 200 mL). Chez le BPCO, il bouge peu ou pas.\n\nEn résumé :\n• Asthme = obstruction RÉVERSIBLE, intermittente, souvent jeune, allergie\n• BPCO  = obstruction FIXÉE, permanente, souvent fumeur > 35 ans\n\nLes deux peuvent coexister chez la même personne (on parle alors de 'BPCO avec traits asthmatiques' — important pour le choix du traitement).",
+  "rationale": "Le mot 'irréversible' fait peur, mais il a un sens technique précis : l'OBSTRUCTION ne se rouvre pas avec un bronchodilatateur. La maladie, elle, peut être FREINÉE (arrêt tabac, traitement) — mais ce qui est perdu en VEMS ne reviendra pas. D'où l'urgence du diagnostic précoce : plus on dépiste tôt, plus on a de souffle à sauver.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flow-volume-loop.svg/960px-Flow-volume-loop.svg.png",
+      "alt": "Courbe débit-volume de spirométrie : axe horizontal volume, axe vertical débit, courbe normale en haut et courbe d'obstruction bronchique en bas montrant un débit expiratoire effondré (forme 'concave' typique de l'obstruction).",
+      "caption": "Courbe débit-volume : la BPCO 'creuse' l'expiration (débits effondrés), signe d'obstruction.",
+      "attribution": "Wikimedia Commons - Flow-volume loop SVG, domaine public"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-l04-4-piliers-icfer",
+  "kind": "lesson",
+  "prompt": "Pour l'IC à fraction d'éjection RÉDUITE (ICFEr, FEVG ≤ 40 %), le traitement repose sur 4 classes médicamenteuses à introduire d'emblée et à titrer ensemble. C'est ce qu'on appelle les 4 PILIERS.\n\n1. IEC (Inhibiteurs de l'Enzyme de Conversion) — ex. ramipril, périndopril\n   Détendent les artères, baissent la pression sur le cœur.\n\n2. BB (Béta-Bloquants spécifiques de l'IC) — bisoprolol, carvédilol, nébivolol\n   Ralentissent et reposent le cœur.\n\n3. MRA (Antagonistes des Récepteurs aux Minéralocorticoïdes) — spironolactone, éplérénone\n   Bloquent l'aldostérone, diurétiques épargneurs de potassium.\n\n4. SGLT2-i (Inhibiteurs du SGLT2) — dapagliflozine, empagliflozine\n   Initialement anti-diabétiques, ils réduisent les hospitalisations et la mortalité même chez le non-diabétique.\n\nObjectif : INTRODUIRE LES 4 RAPIDEMENT (en quelques semaines), puis TITRER chacun à dose max tolérée.\n\nPourquoi 4 et pas 1 seul ? Chaque pilier agit sur un mécanisme distinct de l'IC. Combinés, ils additionnent leurs effets bénéfiques sur survie et hospitalisations — sans simple addition des effets secondaires.",
+  "rationale": "Avant 2021 on introduisait les 4 piliers SÉQUENTIELLEMENT (IEC d'abord, puis BB, puis MRA, puis SGLT2-i), avec des semaines entre chaque. Les recos récentes (ESC 2021, NICE update) recommandent une introduction RAPIDE des 4, parce que chaque mois sans traitement complet = perte de chance. Le rôle du MG : reconnaître l'inertie thérapeutique et pousser pour la titration.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Les 4 PILIERS de l'ICFEr (FEVG ≤ 40 %)\n\n         ┌─────┐  ┌─────┐  ┌─────┐  ┌─────┐\n         │ IEC │  │ BB  │  │ MRA │  │SGLT2│\n         │     │  │     │  │     │  │ -i  │\n         │ ou  │  │     │  │     │  │     │\n         │ARNI │  │     │  │     │  │     │\n         └──┬──┘  └──┬──┘  └──┬──┘  └──┬──┘\n            │        │        │        │\n            └────────┴────┬───┴────────┘\n                          ▼\n                  ╔═══════════════╗\n                  ║   PATIENT     ║\n                  ║   ICFEr       ║\n                  ╚═══════════════╝\n   IEC : détend artères   BB : ralentit cœur\n   MRA : bloque aldost.   SGLT2-i : rein + cœur",
+      "alt": "Schéma ASCII des 4 piliers (IEC, BB, MRA, SGLT2-i) en colonnes au-dessus d'un patient ICFEr, chacun avec son rôle.",
+      "caption": "Les 4 piliers : à introduire d'emblée et ensemble, puis titrer à dose max tolérée.",
+      "attribution": "medmed, schéma original — données NICE NG106"
+    }
+  ],
+  "status": "active"
+}

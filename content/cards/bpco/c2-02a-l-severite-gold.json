@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c2-l02-severite-gold",
+  "kind": "lesson",
+  "prompt": "Une fois la BPCO confirmée (Tiffeneau < 0,70), il faut évaluer sa SÉVÉRITÉ.\n\nLa sévérité se mesure avec le VEMS — exprimé en POURCENTAGE de la valeur attendue chez un sujet sain de même âge, sexe et taille (= VEMS % prédit).\n\nClassification GOLD (Global Initiative for Chronic Obstructive Lung Disease) — c'est la nomenclature internationale :\n\n  GOLD 1 (LÉGÈRE) : VEMS ≥ 80% de la prédite\n  GOLD 2 (MODÉRÉE) : VEMS 50 - 79%\n  GOLD 3 (SÉVÈRE) : VEMS 30 - 49%\n  GOLD 4 (TRÈS SÉVÈRE) : VEMS < 30%\n\nÀ retenir : 80 / 50 / 30. Trois seuils, quatre stades.\n\nAttention : ce stade GOLD 1-4 ne reflète QUE l'obstruction. Il ne prédit pas tout : un patient GOLD 2 très symptomatique peut être plus malade qu'un GOLD 3 peu gêné. C'est pourquoi GOLD complète par une AUTRE classification basée sur les symptômes et les exacerbations (carte suivante : GOLD A/B/E).",
+  "rationale": "Mnémo : '80-50-30' comme les seuils de chute du VEMS. Le rapport Tiffeneau (< 0,70) sert à DIAGNOSTIQUER ; le VEMS % prédit sert à STADIFIER. Ne pas confondre.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Classification GOLD de severite (VEMS % predit)\n\n  +----------+----------------+--------------+\n  | Stade    | VEMS % predit  | Severite     |\n  +----------+----------------+--------------+\n  | GOLD 1   |     >= 80 %    | Legere       |\n  | GOLD 2   |     50 - 79 %  | Moderee      |\n  | GOLD 3   |     30 - 49 %  | Severe       |\n  | GOLD 4   |      < 30 %    | Tres severe  |\n  +----------+----------------+--------------+\n\n  Mnemo : 80 / 50 / 30 = 3 seuils, 4 stades\n\n  (Pre-requis : VEMS/CVF < 0.70 post-BD)",
+      "alt": "Tableau ASCII des quatre stades GOLD de severite de la BPCO selon le pourcentage de VEMS predit : GOLD 1 >=80%, GOLD 2 50-79%, GOLD 3 30-49%, GOLD 4 <30%.",
+      "caption": "Stades GOLD 1-4 : la severite se lit sur le VEMS % predit.",
+      "attribution": "medmed, schema original d'apres NICE NG115 / GOLD"
+    }
+  ],
+  "status": "active"
+}

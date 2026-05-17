@@ -1,0 +1,19 @@
+{
+  "id": "insuffisance-cardiaque-c2-l08-surveillance-iec-mra",
+  "kind": "lesson",
+  "prompt": "Quand on introduit ou qu'on AUGMENTE la dose d'un IEC, d'un ARNI, d'un ARA2 ou d'un MRA chez un patient IC, il faut surveiller la fonction rénale (créatinine) et le potassium (K+).\n\nRythme NICE NG106 :\n• Bilan AVANT l'introduction (créat + K+ + iono)\n• Bilan 1 à 2 SEMAINES après l'introduction\n• Bilan 1 à 2 semaines après CHAQUE augmentation de dose\n• Une fois à la dose max tolérée : tous les 3-6 mois\n\nSEUILS D'ALERTE :\n• Créatinine qui augmente de > 50 % par rapport à la base, OU\n• Kaliémie > 5,5 mmol/L\n→ STOP / réduction du médicament, adapter selon protocole local, avis spécialisé si nécessaire.\n\nPièges fréquents en MG :\n• Combiner IEC + ARA2 = hyperkaliémie + IR. INTERDIT.\n• Spironolactone + IEC + AINS = cocktail à risque d'IR aiguë et hyperkaliémie.\n• En cas de gastro / canicule / fièvre : déshydratation possible → suspendre TEMPORAIREMENT diurétique et IEC/MRA (\"sick day rules\").",
+  "rationale": "L'IRC progressive est la 1ère cause d'arrêt des piliers IC. Cette surveillance régulière est ennuyeuse mais sauve des vies (= moins d'hospitalisations pour IR aiguë). Les 'sick day rules' (pause temporaire des médicaments potentiellement néphrotoxiques en cas de maladie aiguë) sont à expliquer au patient dès la prescription.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

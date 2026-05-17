@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q04-nrt-combinaison",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente fumant 25 cigarettes/jour, Fagerström 8, vient pour un arrêt. Quelle prescription de substituts nicotiniques (NRT) est la plus appropriée en 1ère intention ?",
+  "choices": [
+    { "id": "a", "text": "Timbre transdermique 21 mg/24 h seul", "correct": false },
+    { "id": "b", "text": "Gomme à 4 mg seule, à la demande", "correct": false },
+    { "id": "c", "text": "Timbre transdermique 21 mg/24 h + gomme ou pastille 2-4 mg à la demande pour les envies", "correct": true },
+    { "id": "d", "text": "Varénicline d'emblée, sans NRT", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Fagerström 8 (forte dépendance) + 25 cig/j justifient (1) le timbre 21 mg pour couvrir le 'fond' biologique sur 24 h ET (2) une forme rapide (gomme/pastille) pour les envies aiguës (craving). La COMBINAISON est plus efficace que chaque forme seule (Cochrane). La varénicline est une 2e ligne, à réserver aux échecs de NRT bien conduite ou en cas de préférence/de comorbidités spécifiques.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

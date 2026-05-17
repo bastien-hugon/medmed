@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c2-q07-asthme-pro-2-questions",
+  "kind": "qcm-vignette",
+  "prompt": "Vous suivez un boulanger de 31 ans pour un asthme récent. Selon NICE NG245, quel binôme de questions de screening doit être posé systématiquement pour rechercher une composante professionnelle ?",
+  "choices": [
+    { "id": "a", "text": "« Avez-vous des allergies ? » et « Avez-vous un animal à la maison ? »", "correct": false },
+    { "id": "b", "text": "« Vos symptômes sont-ils meilleurs/pires les jours sans travail ? » et « Vos symptômes sont-ils meilleurs/pires pendant les vacances ou entre les shifts ? »", "correct": true },
+    { "id": "c", "text": "« Êtes-vous au chômage ? » et « Avez-vous un suivi par le médecin du travail ? »", "correct": false },
+    { "id": "d", "text": "« Toussez-vous le matin ? » et « Êtes-vous fumeur ? »", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les 2 questions NG245 sont conçues pour mettre en évidence un EFFET de l'exposition professionnelle, par contraste avec les périodes non-exposées (week-end, vacances). Réponse positive (\"meilleur hors travail\") → adresser en pneumo / méd. du travail pour confirmation et démarche de reconnaissance en maladie professionnelle. C'est rapide (< 30 s), à intégrer à toute consultation d'asthmatique actif.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

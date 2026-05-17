@@ -1,0 +1,19 @@
+{
+  "id": "arret-tabac-c2-l05-varenicline-bupropion",
+  "kind": "lesson",
+  "prompt": "Quand les substituts nicotiniques (NRT) bien menés échouent, ou en cas de préférence du patient, on dispose de DEUX médicaments oraux de 2e ligne. Ils nécessitent une ORDONNANCE et une surveillance.\n\n1) VARÉNICLINE (Champix® / Chantix®)\n• Mécanisme : agoniste PARTIEL des récepteurs nicotiniques α4β2 du cerveau. 'Partiel' signifie qu'elle stimule modérément le récepteur (→ moins de manque) MAIS bloque la nicotine de la cigarette en cas de rechute (→ moins de plaisir si on craque).\n• Efficacité : ~22 % d'abstinence à 12 mois (vs ~10 % placebo). C'est LE médicament le plus efficace en monothérapie.\n• Protocole : démarrer 1-2 semaines AVANT la date d'arrêt, puis 12 semaines.\n• Effets indésirables : nausées (très fréquentes, ~30 %), rêves intenses, troubles du sommeil. Surveillance PSY : antécédents de symptômes dépressifs/idées suicidaires (alerte FDA 2009, depuis nuancée mais à connaître).\n• CONTRE-INDICATION : grossesse, allaitement.\n\n2) BUPROPION (Zyban®)\n• Mécanisme : inhibiteur de la recapture de la noradrénaline (NA) et de la dopamine (DA). À l'origine un antidépresseur (Wellbutrin), dérivé amphétaminique.\n• Efficacité : ~15 % à 12 mois (~ × 2 placebo).\n• Protocole : démarrer 1-2 semaines avant arrêt, traitement 7-9 semaines.\n• Effets indésirables : insomnie, bouche sèche, agitation. RISQUE DE CONVULSIONS (rare mais sérieux) → CI si antécédents d'épilepsie, troubles alimentaires, sevrage alcoolique.\n• CONTRE-INDICATION : grossesse, allaitement, épilepsie, troubles alimentaires.\n\nLes deux molécules sont sur ordonnance, soumises à une évaluation médicale préalable.",
+  "rationale": "Mémo positionnement : NRT en 1ère ligne (bien tolérée, peu de CI, remboursée). Varénicline = la plus EFFICACE mais surveillance psy. Bupropion = utile si NRT et varénicline impossibles. Ni l'un ni l'autre n'est en 1ère intention 'd'emblée' : on commence presque toujours par NRT en France. Ne JAMAIS associer varénicline + bupropion (pas de bénéfice prouvé, EI cumulés).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

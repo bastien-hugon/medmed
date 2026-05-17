@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c2-q01-fagerstrom-seuil-fort",
+  "kind": "cloze",
+  "prompt": "Un score de Fagerström ≥ ___ indique une dépendance nicotinique FORTE, où les substituts nicotiniques sont obligatoires (à dose pleine) et où l'on envisage une 2e ligne médicamenteuse en cas d'échec.",
+  "expected": ["7"],
+  "rationale": "Les quatre paliers du Fagerström : 0-2 (rien), 3-4 (faible), 5-6 (moyenne), 7-10 (forte). À ≥ 7, le manque physique est intense → NRT plein dosage indispensable pour passer le pic de sevrage (J3-J5).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

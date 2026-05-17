@@ -1,0 +1,27 @@
+{
+  "id": "vaccination-adulte-c2-l01-calendrier-precis-25-45-65",
+  "kind": "lesson",
+  "prompt": "Maintenant le calendrier vaccinal adulte PRÉCIS pour le socle DTP — coqueluche.\n\nLes rappels obligatoires/recommandés à âges FIXES :\n\n• 25 ans : dTcaP (diphtérie-Tétanos-coqueluche-Polio, doses adultes réduites)\n• 45 ans : dTP\n• 65 ans : dTP\n• Puis tous les 10 ans à partir de 65 ans : dTP\n\nLes minuscules « d », « ca », « T » et « P » indiquent les composantes et leurs DOSES :\n• d (diphtérie) : minuscule = dose réduite adulte (l'adulte ne supporte pas la dose enfant)\n• T (tétanos) : majuscule = dose standard\n• ca (coqueluche acellulaire) : minuscule = dose réduite adulte\n• P (poliomyélite) : majuscule = dose standard\n\nDifférence entre dTcaP et dTP : dTcaP contient en plus la coqueluche. C'est précisément pour le rappel coqueluche du jeune adulte (et de l'entourage des nourrissons) qu'on prescrit la formule à 4 valences à 25 ans.\n\nLogique générale : entre 25 et 65 ans, on rappelle DTP tous les 20 ans. Après 65 ans, on resserre à tous les 10 ans car la réponse immunitaire diminue.",
+  "rationale": "Mnémo : 25-45-65 puis tous les 10 ans (25 / 45 / 65 / 75 / 85...). Piège classique : oublier la coqueluche à 25 ans (le « ca » de dTcaP) — pourtant essentielle, surtout chez les jeunes adultes en contact avec des nourrissons. Cas d'une plaie souillée chez un adulte non à jour : dose de rappel + sérum antitétanique selon protocole.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  RAPPELS DTP / COQUELUCHE — vie adulte\n\n  Âge :   25 ──── 45 ──── 65 ── 75 ── 85 ── ...\n          │       │       │     │     │\n          dTcaP   dTP     dTP   dTP   dTP\n          │\n          └─ coqueluche (ca) inclus à 25 ans\n\n  Intervalle : 20 ans  20 ans │ puis tous les 10 ans\n                              │\n                       (réponse immune diminue avec l'âge)\n\n  dTcaP = diphtérie, Tétanos, coqueluche, Polio (doses\n          minuscules = réduites pour l'adulte)\n  dTP   = même chose sans coqueluche",
+      "alt": "Timeline ASCII des rappels DTP chez l'adulte : 25 ans dTcaP, 45 ans dTP, 65 ans dTP puis tous les 10 ans.",
+      "caption": "25-45-65 puis tous les 10 ans. À 25 ans on ajoute la coqueluche (dTcaP).",
+      "attribution": "medmed, schéma original"
+    }
+  ]
+}

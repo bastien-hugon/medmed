@@ -1,0 +1,53 @@
+{
+  "id": "saos-c2-06b-q-cpap-observance",
+  "kind": "qcm-vignette",
+  "prompt": "Pour qu'une PPC (CPAP) soit considérée comme efficace et remboursée en France, quel SEUIL D'OBSERVANCE quotidienne le patient doit-il atteindre ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Au moins 1 heure par nuit",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Au moins 4 heures par nuit",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Au moins 7 heures par nuit",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Toute la nuit, sans interruption",
+      "correct": false
+    }
+  ],
+  "expected": [
+    "b"
+  ],
+  "rationale": "Le seuil consensuel d'observance utile et de remboursement est de ≥ 4 h/nuit, sur au moins 70 % des nuits. En-dessous, le bénéfice clinique (somnolence, qualité de vie, PA) est insuffisant. Au-dessus, l'efficacité croît avec la durée — d'où l'importance d'éducation thérapeutique et de prise en charge des effets indésirables (irritation cutanée, sécheresse) pour soutenir l'observance.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

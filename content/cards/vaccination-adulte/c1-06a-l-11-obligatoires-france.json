@@ -1,0 +1,27 @@
+{
+  "id": "vaccination-adulte-c1-l06-11-obligatoires-france",
+  "kind": "lesson",
+  "prompt": "En France, depuis 2018, ONZE vaccins sont OBLIGATOIRES pour tous les enfants nés à partir de cette date. C'est un cadre légal — pas d'obligation chez l'adulte déjà vacciné enfant, mais à connaître pour comprendre la population qui arrive aujourd'hui à l'âge adulte.\n\nLes 11 vaccins obligatoires :\n\n1-3. Diphtérie, Tétanos, Poliomyélite (le DTP)\n4. Coqueluche\n5. Hépatite B\n6. Hib (Haemophilus influenzae de type b)\n7. Pneumocoque\n8. Méningocoque C\n9. Rougeole\n10. Oreillons\n11. Rubéole\nLes 3 derniers forment le vaccin ROR.\n\nAvant 2018, seuls DTP étaient obligatoires ; les autres étaient « recommandés ». Cette extension visait à remonter la couverture vaccinale, en particulier pour la rougeole (qui faisait des bouffées épidémiques liées à la défiance vaccinale).\n\nChez l'adulte : ces vaccins ne sont pas exigés rétroactivement. En revanche, le médecin doit vérifier le statut vaccinal et compléter ce qui manque (rattrapage) — surtout pour le ROR chez les adultes nés après 1980 non vaccinés ou en couverture incomplète.",
+  "rationale": "Mnémo des 11 obligatoires : « DTP-Coqueluche-Hib-HBV-Pneumo-MéningoC-ROR » → 3 + 1 + 1 + 1 + 1 + 1 + 3 = 11. Sanction prévue par la loi : refus d'admission en collectivité (crèche, école) sans preuve vaccinale. Conséquence pratique en MG : devant un jeune adulte au statut flou, penser au rattrapage ROR (1 ou 2 doses si manquantes) et hépatite B.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  11 VACCINS OBLIGATOIRES — enfants nés en France depuis 2018\n\n   1. Diphtérie  ┐\n   2. Tétanos    ├─ DTP  (socle classique)\n   3. Polio      ┘\n   4. Coqueluche\n   5. Hépatite B\n   6. Hib  (Haemophilus influenzae b)\n   7. Pneumocoque\n   8. Méningocoque C\n   9. Rougeole   ┐\n  10. Oreillons  ├─ ROR\n  11. Rubéole    ┘\n\n  Avant 2018 : seuls DTP obligatoires.\n  Chez l'adulte : pas rétroactif → penser rattrapage.",
+      "alt": "Liste verticale des 11 vaccins obligatoires en France depuis 2018, regroupant DTP et ROR.",
+      "caption": "Les 11 obligatoires depuis 2018 = DTP + Coqueluche + Hib + HBV + Pneumo + Méningo C + ROR.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
+}

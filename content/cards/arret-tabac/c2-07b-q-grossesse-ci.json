@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q07-grossesse-ci",
+  "kind": "qcm-vignette",
+  "prompt": "Mme L., 28 ans, enceinte de 12 semaines, fume 15 cigarettes/jour. Elle a essayé 3 semaines d'entretien motivationnel et de TCC sans succès. Quelle est la conduite thérapeutique la plus appropriée ?",
+  "choices": [
+    { "id": "a", "text": "Introduire la varénicline (Champix®) — plus efficace en monothérapie", "correct": false },
+    { "id": "b", "text": "Introduire le bupropion (Zyban®) à faible dose", "correct": false },
+    { "id": "c", "text": "Proposer des substituts nicotiniques (NRT) — gomme/pastille en 1er, ± timbre si nécessaire", "correct": true },
+    { "id": "d", "text": "Aucun traitement, attendre la fin de la grossesse pour aider", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Chez la femme enceinte : entretien motivationnel/TCC en 1ère intention. En cas d'échec → NRT autorisée et remboursée en France (depuis 2011). La varénicline et le bupropion sont CONTRE-INDIQUÉS en grossesse (et en allaitement). Continuer à fumer (option D) est PIRE que la nicotine seule en NRT (rappel : la nocivité du tabac vient surtout du CO et des goudrons, pas de la nicotine).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "gynecologie", "obstetrique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

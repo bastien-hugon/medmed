@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q04-oedemes-cardiaques",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces caractéristiques d'œdème des jambes, laquelle évoque le PLUS un œdème d'origine cardiaque ?",
+  "choices": [
+    { "id": "a", "text": "Une seule jambe, rouge et chaude, douloureuse", "correct": false },
+    { "id": "b", "text": "Les deux jambes, symétrique, indolore, prend le godet, pire le soir", "correct": true },
+    { "id": "c", "text": "Œdème du visage le matin, peau cireuse", "correct": false },
+    { "id": "d", "text": "Œdème localisé à un coup d'insecte, qui gratte", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "L'œdème cardiaque est BILATÉRAL, SYMÉTRIQUE, INDOLORE, prend le godet, et s'aggrave en fin de journée (gravité). L'option (a) évoque une phlébite (urgence). L'option (c) évoque plutôt un œdème rénal. L'option (d) un œdème allergique.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

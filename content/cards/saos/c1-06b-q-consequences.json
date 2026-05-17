@@ -1,0 +1,54 @@
+{
+  "id": "saos-c1-06b-q-consequences",
+  "kind": "qcm-vignette",
+  "prompt": "Vous voyez en consultation un homme de 55 ans, en surpoids, ronfleur, somnolent en journée. Quelle complication À DISTANCE devez-vous lui expliquer pour qu'il accepte une exploration du sommeil ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Risque accru d'HTA, d'AVC, d'infarctus et d'accident de la route",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Risque accru de cancer du poumon",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Risque accru d'asthme allergique",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Risque accru d'ulcère gastrique",
+      "correct": false
+    }
+  ],
+  "expected": [
+    "a"
+  ],
+  "rationale": "Les conséquences à long terme du SAOS sont surtout cardiovasculaires (HTA, AVC, infarctus, FA) et liées à la somnolence (accidents). Le SAOS n'augmente pas le risque de cancer pulmonaire ni d'asthme. Ces conséquences justifient le dépistage actif chez les patients à risque.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie",
+      "cardiovasculaire"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

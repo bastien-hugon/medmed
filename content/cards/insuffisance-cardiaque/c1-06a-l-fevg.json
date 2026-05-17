@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-l06-fevg",
+  "kind": "lesson",
+  "prompt": "FEVG = FRACTION D'ÉJECTION DU VENTRICULE GAUCHE.\n\nDéfinition simple : à chaque battement, le ventricule gauche se remplit de sang, puis se contracte pour l'éjecter. La FEVG, c'est le POURCENTAGE de sang éjecté à chaque contraction.\n\nExemple : si le ventricule contient 100 mL de sang en fin de remplissage et qu'il en éjecte 60 mL, la FEVG = 60 %.\n\nVALEURS À RETENIR :\n• Normal : FEVG ≥ 50 %\n• Légèrement abaissée : 41-49 %\n• Réduite : ≤ 40 %\n\nLa FEVG se mesure principalement par ÉCHOGRAPHIE CARDIAQUE (l'écho est l'examen-clé en IC).\n\nElle sert à TOUT :\n• confirmer une IC (avec les symptômes)\n• classer le TYPE d'IC (on verra : ICFEr, ICFEmr, ICFEp en C2)\n• choisir le traitement (les médicaments efficaces varient selon la FEVG)\n• suivre l'évolution sous traitement",
+  "rationale": "Garde l'image du verre à moitié plein : un cœur qui éjecte 60 % de son contenu à chaque battement est en bonne santé ; un cœur qui n'en éjecte que 30 %, c'est de l'insuffisance systolique sévère. À noter : on peut avoir une IC AVEC une FEVG normale (≥50 %) — c'est l'IC à fonction préservée, où le problème est dans le remplissage, pas dans l'éjection. On y reviendra.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  FEVG = % de sang éjecté à chaque battement\n\n  Ventricule plein (100 mL)     Après contraction\n  ┌────────────┐                ┌────────────┐\n  │ ░░░░░░░░░░ │                │ ░░░░░░     │\n  │ ░░░░░░░░░░ │   contracte    │ ░░░░░░     │  reste 40 mL\n  │ ░░░░░░░░░░ │   ────────→    │            │  → FEVG = 60 %\n  │ ░░░░░░░░░░ │                │            │  (NORMAL)\n  └────────────┘                └────────────┘\n\n         Ventricule défaillant (FEVG 30 %)\n  ┌────────────┐                ┌────────────┐\n  │ ░░░░░░░░░░ │                │ ░░░░░░░░   │\n  │ ░░░░░░░░░░ │   ────────→    │ ░░░░░░░░   │  reste 70 mL\n  │ ░░░░░░░░░░ │   peu de force │ ░░░        │  → FEVG = 30 %\n  └────────────┘                └────────────┘  (BAS)",
+      "alt": "Schéma ASCII comparant deux ventricules avant et après contraction : l'un avec FEVG normale de 60 %, l'autre défaillant à 30 %.",
+      "caption": "FEVG normale = ≥50 %. Plus la FEVG baisse, plus la pompe est en panne.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

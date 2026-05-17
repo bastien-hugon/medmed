@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c2-q06-plan-action-quadruple",
+  "kind": "qcm-vignette",
+  "prompt": "Patiente de 35 ans, asthmatique connue sous low-dose MART (budésonide/formotérol 200/6 µg, 2 inh × 2/j). Depuis 3 jours, toux nocturne et oppression au réveil ; pas de signe de gravité. Selon NICE NG245, quel élément du plan d'action écrit est recommandé spécifiquement à ce stade chez l'adulte ?",
+  "choices": [
+    { "id": "a", "text": "Arrêter le traitement de fond et passer en SABA seul à la demande.", "correct": false },
+    { "id": "b", "text": "Quadrupler la dose d'ICS pendant 7 jours dans le cadre du plan d'action.", "correct": true },
+    { "id": "c", "text": "Doubler la dose d'ICS pendant 14 jours.", "correct": false },
+    { "id": "d", "text": "Prescrire d'emblée une corticothérapie orale de 40 mg/j pendant 5 jours.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NG245 chez l'adulte ≥ 17 ans : quadruple-dose d'ICS × 7 jours quand le contrôle se dégrade, dans le cadre d'un plan d'action écrit. Ne pas dépasser la dose maximale autorisée. (a) Banni — SABA seul jamais. (c) Le \"doubler\" était l'ancien réflexe, démontré insuffisamment efficace, remplacé par le quadruplage. (d) Corticothérapie orale = réservée aux exacerbations sévères (dyspnée importante, DEP < 50 % du meilleur, pas de réponse au reliever), pas à une dégradation modérée sans gravité.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

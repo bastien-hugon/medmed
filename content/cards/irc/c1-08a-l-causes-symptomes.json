@@ -1,0 +1,28 @@
+{
+  "id": "irc-c1-l08-causes-symptomes",
+  "kind": "lesson",
+  "prompt": "La maladie rénale chronique (MRC) est une maladie SILENCIEUSE. Au début, le patient ne ressent strictement rien. Pas de douleur, pas de signe visible. Les reins ont une grosse réserve : on peut en perdre la moitié sans s'en rendre compte.\n\nC'est pour ça qu'on la DÉPISTE chez les personnes à risque, sans attendre de symptôme.\n\nLes 3 grandes causes en France (et dans le monde) :\n\n1. DIABÈTE (environ 1/3 des cas) — le sucre élevé abîme les petits vaisseaux du glomérule (le tamis).\n2. HYPERTENSION ARTÉRIELLE (environ 1/4 des cas) — la pression élevée 'use' le rein.\n3. GLOMÉRULOPATHIES — maladies du glomérule lui-même (auto-immunes, infectieuses, héréditaires).\n\nÀ un stade avancé seulement (G4-G5), des symptômes apparaissent :\n• Fatigue (anémie : moins d'EPO fabriquée)\n• Œdèmes des chevilles, essoufflement (rétention d'eau)\n• Démangeaisons, nausées, perte d'appétit (déchets accumulés = urémie)\n• Mousse dans l'urine (protéinurie franche)\n\nLeçon centrale : NE PAS ATTENDRE LES SYMPTÔMES pour penser au rein. Chez tout patient diabétique ou hypertendu, on fait régulièrement créat + DFG + ACR.",
+  "rationale": "Pourquoi insister sur le caractère silencieux ? Parce qu'en médecine générale, c'est le médecin qui dépiste, pas le patient qui consulte pour 'mal aux reins'. Le rein ne fait quasi jamais mal (sauf colique néphrétique, qui est aiguë). Si tu ne le cherches pas systématiquement chez le diabétique et l'hypertendu, tu rates des années précieuses pendant lesquelles on aurait pu ralentir la maladie.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  3 grandes causes de MRC (FR / monde)\n  ─────────────────────────────────────\n     DIABÈTE      ~ 1/3   (sucre abîme le tamis)\n     HTA          ~ 1/4   (pression use le rein)\n     GLOMÉRULOP.  varié   (maladies du tamis)\n\n  Évolution clinique\n  ──────────────────\n   G1 ──── G2 ──── G3 ──── G4 ──── G5\n   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓▓▓▓\n   silencieuse  ←─────────────→   symptômes\n                                 (fatigue, œdèmes,\n                                  démangeaisons,\n                                  nausées)\n\n  ⚠ On dépiste, on n'attend pas les signes.",
+      "alt": "Schéma ASCII listant les trois grandes causes de MRC (diabète, HTA, glomérulopathies) et illustrant que les symptômes n'apparaissent qu'aux stades avancés G4-G5.",
+      "caption": "MRC = silencieuse jusqu'à G4-G5. Sans dépistage actif chez diabétique et hypertendu, on rate la fenêtre d'action.",
+      "attribution": "ASCII: medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

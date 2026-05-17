@@ -1,0 +1,19 @@
+{
+  "id": "depistage-cancer-c1-l02-depistage-organise-france",
+  "kind": "lesson",
+  "prompt": "En France, il existe TROIS dépistages ORGANISÉS du cancer, pilotés par l'Institut national du cancer (INCa) et la Caisse nationale d'assurance maladie :\n\n1) SEIN — mammographie tous les 2 ans, femmes de 50 à 74 ans.\n2) COLORECTAL — test immunologique fécal (FIT) tous les 2 ans, hommes et femmes de 50 à 74 ans.\n3) COL DE L'UTÉRUS — frottis / test HPV, femmes de 25 à 65 ans (rythme variable selon âge, vu dans le topic gynéco).\n\nCe que veut dire 'ORGANISÉ' :\n• Un COURRIER d'INVITATION arrive automatiquement au domicile à la bonne date.\n• Le test est GRATUIT (pris en charge à 100 % par l'Assurance maladie, sans avance de frais).\n• Une SECONDE LECTURE indépendante existe pour la mammographie normale (qualité contrôlée).\n• Un SUIVI organisé : si le test est positif, le patient est rappelé pour les examens complémentaires.\n\nÀ distinguer du DÉPISTAGE INDIVIDUEL : un patient à risque élevé (antécédents familiaux, maladie chronique du côlon…) sort du programme organisé et a un suivi sur mesure, prescrit par son médecin. Ce dépistage 'individuel' n'est pas gratuit de la même manière.\n\nLes 3 cancers dépistés en organisé partagent un point commun : il existe un test simple, peu coûteux, peu invasif, et un bénéfice prouvé sur la mortalité quand on le réalise à grande échelle.",
+  "rationale": "Pourquoi seulement trois cancers ? Parce que pour qu'un dépistage de masse soit éthique, il faut (critères de Wilson) : maladie fréquente et grave, phase préclinique détectable, test acceptable et précis, traitement plus efficace au stade précoce, balance bénéfice/risque favorable, coût soutenable. Le poumon, la prostate, l'ovaire ne remplissent pas tous ces critères en population générale (d'où l'absence de programme organisé). À retenir : 'organisé' = invitation + gratuit + qualité contrôlée. C'est l'inverse du 'check-up' opportuniste.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [287, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "à vérifier"
+  },
+  "status": "active"
+}

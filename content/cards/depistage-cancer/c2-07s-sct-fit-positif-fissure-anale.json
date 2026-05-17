@@ -1,0 +1,22 @@
+{
+  "id": "depistage-cancer-c2-s07-sct-fit-positif-fissure-anale",
+  "kind": "sct",
+  "prompt": "Monsieur F., 58 ans, sans antécédent particulier, dans le cadre du dépistage organisé : son test FIT revient POSITIF. Il est inquiet et vient en consultation. Vous lui expliquez la conduite à tenir.",
+  "hypothesis": "Il faut adresser ce patient pour une coloscopie diagnostique.",
+  "new_info": "À l'interrogatoire, il mentionne qu'il a une fissure anale connue, qui saigne régulièrement à la défécation depuis plusieurs mois.",
+  "expected": "neutre",
+  "rationale": "Piège classique. La tentation est de penser : 'il a une cause de saignement bénigne identifiée, le FIT est probablement faussement positif via la fissure, on peut surseoir à la coloscopie'. C'est une erreur. Le FIT a déclenché un signal positif, et la règle est claire : un FIT positif → coloscopie, indépendamment des co-explications plausibles. Pourquoi ? Parce que la fissure anale et le cancer colorectal peuvent parfaitement coexister chez le même patient (rien n'interdit les deux). Et un cancer du côlon caché par 'oui c'est sûrement les hémorroïdes/la fissure' est un piège diagnostique connu. L'information 'fissure anale' n'AFFAIBLIT donc PAS l'indication de coloscopie, et ne la RENFORCE pas non plus (elle était déjà claire) → NEUTRE. À retenir : aucune explication 'bénigne' du saignement ne dispense de la coloscopie après FIT positif.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "à vérifier"
+  },
+  "status": "active"
+}

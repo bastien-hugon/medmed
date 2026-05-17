@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c1-q02-fagerstrom-echelle",
+  "kind": "cloze",
+  "prompt": "Le test de Fagerström donne un score sur ___ qui mesure l'intensité de la dépendance physique à la nicotine.",
+  "expected": ["10"],
+  "rationale": "Score de 0 à 10, basé sur 6 questions courtes sur les habitudes de consommation. Ne mesure PAS la motivation à arrêter (à ne pas confondre).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

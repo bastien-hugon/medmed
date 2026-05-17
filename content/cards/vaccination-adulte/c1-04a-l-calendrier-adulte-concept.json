@@ -1,0 +1,27 @@
+{
+  "id": "vaccination-adulte-c1-l04-calendrier-adulte-concept",
+  "kind": "lesson",
+  "prompt": "Le « calendrier vaccinal » est un planning officiel des vaccins recommandés à chaque âge de la vie. Pour l'ADULTE, retenons d'abord la logique générale.\n\n1. PROTECTION DE BASE TOUTE LA VIE\nLe trio Diphtérie–Tétanos–Poliomyélite (DTP) est rappelé à intervalles fixes pendant toute la vie adulte. C'est le socle minimal de tout adulte vivant en France.\n\n2. VACCINS « PAR ÂGE »\nÀ partir d'un certain âge (souvent 65 ans), certains vaccins s'ajoutent automatiquement : grippe annuelle, pneumocoque, zona. La raison : avec l'âge, le système immunitaire vieillit (immunosénescence) et les infections deviennent plus graves.\n\n3. VACCINS « PAR SITUATION »\nDes vaccins supplémentaires sont recommandés selon des situations particulières : grossesse, immunodépression, voyage, professionnel exposé, rattrapage HPV chez le jeune adulte, etc.\n\n4. MISES À JOUR RÉGULIÈRES\nLe calendrier vaccinal est révisé chaque année par les autorités sanitaires (HAS / ministère de la Santé). Il faut donc le vérifier régulièrement — particulièrement pour les vaccins « récents » (COVID, zona) dont les recommandations bougent.\n\nDans les cartes qui suivent, on déroulera chaque pièce du puzzle.",
+  "rationale": "Trois axes à toujours garder en tête face à un patient adulte : (1) ses rappels DTP sont-ils à jour ? (2) est-il dans une tranche d'âge concernée (65+) ? (3) a-t-il une situation particulière (grossesse, immunodépression, voyage, profession) ? Cette grille de lecture suffit à structurer une consultation de prévention vaccinale en médecine générale.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  CALENDRIER VACCINAL ADULTE — vue d'ensemble\n\n  ┌──────────────────────────────────────────────┐\n  │ SOCLE  ▸  DTP rappels toute la vie           │\n  ├──────────────────────────────────────────────┤\n  │ ÂGE 65+▸  Grippe annuelle, Pneumocoque,      │\n  │           Zona (Shingrix)                    │\n  ├──────────────────────────────────────────────┤\n  │ SITU.  ▸  Grossesse  : dTcaP + grippe        │\n  │           Immunodép. : inactivés ; pas vivant│\n  │           Voyage     : fièvre jaune, hép. A  │\n  │           Rattrapage : HPV jeune adulte      │\n  └──────────────────────────────────────────────┘\n\n   Calendrier réactualisé chaque année par la HAS.",
+      "alt": "Vue d'ensemble en 3 blocs du calendrier vaccinal adulte : socle DTP, ajouts à partir de 65 ans, vaccins selon situation.",
+      "caption": "Grille de lecture en 3 axes : socle DTP, vaccins liés à l'âge (65+), vaccins liés à la situation.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "arret-tabac-c2-l07-grossesse",
+  "kind": "lesson",
+  "prompt": "Le tabagisme pendant la grossesse augmente le risque de fausse couche, prématurité, retard de croissance intra-utérin (RCIU), mort subite du nourrisson, troubles du développement. L'arrêt est PRIORITAIRE, à tous les stades de la grossesse — même tardif.\n\nPrise en charge : règles spécifiques très importantes.\n\n1) 1ère INTENTION : entretien motivationnel + TCC (Thérapie Cognitivo-Comportementale)\nApproches NON médicamenteuses, AUSSI EFFICACES que les médicaments dans cette population, sans risque pour le fœtus. Toujours essayer en premier.\n\n2) Si échec : SUBSTITUTS NICOTINIQUES (NRT) — OK\nLa nicotine seule, sans CO, sans goudrons, est moins toxique pour le fœtus que la cigarette complète. Bénéfices > risques. Préférer les formes orales (gomme, pastille) sur les timbres si possible, pour éviter une imprégnation continue. En France : NRT remboursés chez la femme enceinte depuis 2011.\n\n3) CONTRE-INDIQUÉS\n• VARÉNICLINE (Champix®) : CI grossesse, CI allaitement.\n• BUPROPION (Zyban®) : CI grossesse, CI allaitement.\n• E-cigarette : non recommandée (recul insuffisant pendant la grossesse).\n\nMnémo : 'pendant grossesse → MOT, GESTE, PATCH ; jamais varénicline ni bupropion.' MOT = entretien motivationnel, GESTE = TCC, PATCH = NRT.\n\nLe suivi doit être plus rapproché (≥ mensuel), avec mesure du CO expiré si possible — outil de motivation puissant pour la future mère.",
+  "rationale": "Erreur fréquente : ne pas oser proposer de NRT à une femme enceinte par peur de la 'nicotine pour le fœtus'. C'est une erreur — fumer (avec CO, goudrons, 70+ cancérogènes) est BIEN PIRE que d'avoir de la nicotine seule. Le rapport bénéfices/risques penche clairement pour le NRT si l'arrêt sans aide échoue. Référence : HAS 2014, repris par CNGOF.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "gynecologie", "obstetrique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

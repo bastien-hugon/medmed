@@ -1,0 +1,28 @@
+{
+  "id": "irc-c2-l02-kdigo-classification",
+  "kind": "lesson",
+  "prompt": "Classer la MRC uniquement par le stade G (DFG) est insuffisant. Deux patients avec le même DFG peuvent avoir des PRONOSTICS très différents si l'un a une protéinurie et l'autre non.\n\nLa classification KDIGO (Kidney Disease Improving Global Outcomes) propose une grille à DEUX AXES :\n• Axe vertical : stade G (G1 → G5) — la filtration\n• Axe horizontal : stade A (A1 → A3) — l'albuminurie\n\nPour chaque patient, on a donc UN BINÔME (ex : G3a A2). Plus on s'éloigne du coin G1A1 (en haut à gauche), plus le risque rénal ET cardiovasculaire augmente.\n\nC'est ce qu'on appelle parfois la 'matrice du risque' : on peut la colorer en vert / jaune / orange / rouge selon le niveau de risque, et la fréquence de surveillance + l'agressivité du traitement suivent.\n\nExemples concrets :\n• G1 A1 : pas de MRC\n• G2 A1 : pas de MRC (DFG légèrement bas mais sans atteinte rénale)\n• G2 A2 : MRC à bas risque, surveillance annuelle\n• G3a A2 : MRC à risque modéré\n• G3b A3 : MRC à haut risque\n• G4 A3 : MRC à très haut risque, orientation néphro\n\nRetiens la philosophie : le DFG dit COMBIEN il reste de filtre, l'ACR dit À QUELLE VITESSE le filtre s'use. Les deux ensemble = pronostic.",
+  "rationale": "Pourquoi la grille croisée est-elle décisive en pratique ? Parce que la décision de mettre un IEC ou un SGLT2-i dépend de l'ACR (pas du DFG seul), et parce que la cible tensionnelle change selon l'ACR. Un G3a A1 est surveillé tranquillement ; un G2 A3 reçoit déjà un IEC. Le DFG seul masquerait cette différence.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Classification KDIGO : croiser G (DFG) × A (ACR)\n\n                 A1     A2      A3\n               <3 mg  3-30   >30 mg/mmol\n              ┌──────┬──────┬──────┐\n   G1  ≥90    │  -   │ surv │ surv │\n   G2  60-89  │  -   │ surv │ +RX  │\n   G3a 45-59  │ surv │ +RX  │ +RX  │\n   G3b 30-44  │ +RX  │ +RX  │ NÉPHR│\n   G4  15-29  │ +RX  │ NÉPHR│ NÉPHR│\n   G5  <15    │ NÉPHR│ NÉPHR│ NÉPHR│\n              └──────┴──────┴──────┘\n\n   surv  = surveillance seule\n   +RX   = IEC/ARA2 ± SGLT2-i, suivi rapproché\n   NÉPHR = orienter au néphrologue\n\n   Plus on va vers le coin bas-droit, plus le risque ↑.",
+      "alt": "Tableau croisé KDIGO 5x3 : stades G (G1 à G5) en lignes, stades A (A1 à A3) en colonnes, indiquant trois niveaux de prise en charge (surveillance, traitement, orientation néphrologue).",
+      "caption": "La 'matrice du risque' MRC : pronostic = DFG × albuminurie, pas DFG seul.",
+      "attribution": "ASCII: medmed, schéma original (d'après NICE NG203 / KDIGO 2024)"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "insuffisance-cardiaque-c2-l06-diuretiques-congestion",
+  "kind": "lesson",
+  "prompt": "Les DIURÉTIQUES DE L'ANSE (furosémide, bumétanide) ne sont PAS un des 4 piliers de l'ICFEr — ils n'améliorent pas la survie. Mais ils sont indispensables pour soulager la CONGESTION : œdèmes des MI, dyspnée d'orthopnée, prise de poids hydrique.\n\nQui les reçoit ? TOUT patient avec signes de surcharge (œdèmes, crépitants, jugulaires saillantes, prise de poids).\n\nMode d'action : ils forcent les reins à éliminer plus de sel et d'eau → ils \"décongestionnent\" le patient.\n\nEn pratique :\n• Dose initiale modeste (furosémide 20-40 mg/j per os)\n• Adapter au poids quotidien et aux signes congestifs\n• La cible est la dose MINIMALE qui maintient le patient \"sec\" (euvolémique)\n• Ne pas confondre \"sec\" et \"déshydraté\" : un patient sous diurétique au long cours peut perdre trop d'eau et faire IR aiguë + hypokaliémie\n\nLeçon-clé pour le MG : éduquer le patient à AJUSTER seul la dose en cas de prise de poids brutale (\"+ 2 kg en 3 jours → on rajoute un comprimé et on me prévient\"). C'est de l'auto-titration encadrée.",
+  "rationale": "Les diurétiques sont SYMPTOMATIQUES (pas pronostiques). Quand un patient est stable et sec, on essaie de DIMINUER la dose, voire l'arrêter, pour éviter les effets secondaires (IR, hypoK+, déshydratation, hypoTA orthostatique). Surveiller créat et K+ régulièrement, surtout si combiné aux IEC/MRA.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

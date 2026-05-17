@@ -1,0 +1,19 @@
+{
+  "id": "depistage-cancer-c2-l05-haut-risque-colorectal-individuel",
+  "kind": "lesson",
+  "prompt": "Certaines personnes ne relèvent PAS du dépistage organisé par FIT — leur risque de cancer colorectal est trop élevé pour se contenter de ce filtre. Pour elles, le test n'est plus le FIT mais directement la COLOSCOPIE, à des rythmes adaptés. On parle alors de DÉPISTAGE INDIVIDUEL.\n\nTrois grandes situations à reconnaître :\n\n1) ANTÉCÉDENTS PERSONNELS\n   • Polype adénomateux déjà retiré → coloscopie de surveillance à intervalles définis (en général 3 à 5 ans selon nombre/taille des polypes)\n   • Cancer colorectal traité → suivi par coloscopie selon protocole oncologique\n\n2) ANTÉCÉDENTS FAMILIAUX\n   • Cancer colorectal chez un apparenté du 1er degré (parent, frère, sœur, enfant) avant 65 ans, OU au moins deux apparentés au 1er degré atteints quel que soit l'âge → coloscopie de dépistage dès 45 ans (ou 5 ans avant l'âge du cas familial le plus jeune), puis tous les 5 ans.\n   • Syndromes héréditaires : syndrome de Lynch (HNPCC), polypose adénomateuse familiale (PAF) → surveillance dédiée, oncogénétique.\n\n3) MALADIES INFLAMMATOIRES CHRONIQUES DE L'INTESTIN (MICI)\n   • Maladie de Crohn ou Rectocolite hémorragique évoluant depuis plusieurs années (≥ 8 ans environ, surtout si pancolite) → augmentation du risque de cancer colorectal sur muqueuse chroniquement inflammée. Surveillance par CHROMOENDOSCOPIE (coloscopie avec coloration ciblée) tous les 1 à 3 ans selon les facteurs de risque (cholangite sclérosante associée, antécédents familiaux, sténose...).\n\nDans toutes ces situations : le test FIT n'a PAS sa place. Ces patients SORTENT du programme organisé, et reçoivent un suivi personnalisé prescrit par leur médecin (souvent gastro-entérologue).",
+  "rationale": "Mnémo : 'qui sort du FIT ?' = les 3 P → Polype/cancer Personnel, Parents atteints, Pathologie inflammatoire chronique. La règle absolue : ne JAMAIS proposer un FIT à un patient à haut risque — il faut directement la coloscopie. Le risque d'un FIT négatif chez un sujet à haut risque, c'est la fausse réassurance et le diagnostic retardé. Les seuils d'âge et les rythmes exacts (45 ans, 5 ans avant le cas index, etc.) varient légèrement selon les recommandations — à vérifier dans les guides HAS/SNFGE.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290, 282],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "à vérifier"
+  },
+  "status": "active"
+}

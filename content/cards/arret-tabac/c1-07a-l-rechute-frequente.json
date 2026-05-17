@@ -1,0 +1,19 @@
+{
+  "id": "arret-tabac-c1-l07-rechute-frequente",
+  "kind": "lesson",
+  "prompt": "Statistique brute : la plupart des tentatives d'arrêt du tabac ÉCHOUENT. En moyenne, il faut 5 à 7 tentatives avant un arrêt définitif. Pourquoi ?\n\n1) L'addiction est TRI-DIMENSIONNELLE\nPhysio + psy + comportementale. Un seul axe traité = échec quasi-garanti. Les patchs seuls (axe physio) ne suffisent souvent pas.\n\n2) Le cerveau garde la 'mémoire' de la nicotine\nMême des années après l'arrêt, une cigarette = risque réel de réactivation des récepteurs et de rechute. C'est pourquoi un ancien fumeur reste vulnérable, surtout en cas de stress, alcool, fête.\n\n3) Les déclencheurs comportementaux sont partout\nCafé, alcool, sortie, conflit, ennui... chaque situation associée historiquement à la cigarette est un déclencheur. Désapprendre prend des mois.\n\n4) Le syndrome de sevrage est dur\nIrritabilité, troubles du sommeil, envies en vagues — beaucoup abandonnent dans les 2 premières semaines.\n\n5) La motivation FLUCTUE\nUn jour on est motivé, le lendemain non. Un stress majeur (deuil, licenciement) peut tout faire basculer.\n\nMessage CLÉ : la rechute n'est PAS un échec, c'est une étape. Chaque tentative apprend quelque chose. 'Vous avez tenu 3 mois ? C'est un acquis. On repart sur cette base, en ajustant.'",
+  "rationale": "À dire au patient : 'L'arrêt du tabac, c'est comme apprendre le vélo. On tombe plusieurs fois avant de tenir. Chaque chute n'efface pas ce qu'on a appris.' Cette posture (rechute = apprentissage, pas échec moral) est ESSENTIELLE : un patient culpabilisé arrête de consulter et ne réessaie pas. Un patient encouragé revient.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

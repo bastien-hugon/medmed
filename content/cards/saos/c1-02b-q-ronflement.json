@@ -1,0 +1,53 @@
+{
+  "id": "saos-c1-02b-q-ronflement",
+  "kind": "qcm-vignette",
+  "prompt": "Concernant le ronflement, quelle affirmation est exacte ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Le ronflement signe à lui seul un SAOS (syndrome d'apnées obstructives du sommeil).",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Le ronflement isolé est rare ; il témoigne presque toujours d'une pathologie grave.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Le ronflement est un signe d'alerte sensible mais peu spécifique du SAOS ; il faut chercher les pauses respiratoires rapportées par l'entourage.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "L'absence de ronflement permet d'écarter le diagnostic de SAOS.",
+      "correct": false
+    }
+  ],
+  "expected": [
+    "c"
+  ],
+  "rationale": "Beaucoup de gens ronflent sans avoir de SAOS (peu spécifique), mais la quasi-totalité des SAOS ronflent (sensible). Ce qui doit alerter, c'est le ronflement INTERROMPU par des silences avec reprise explosive — le 'roncho-apnée'. L'absence de ronflement n'exclut pas formellement le SAOS mais le rend très improbable.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

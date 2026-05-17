@@ -1,0 +1,19 @@
+{
+  "id": "bpco-c2-l01-diagnostic-vems-cvf",
+  "kind": "lesson",
+  "prompt": "Mettons les choses au clair sur LE critère diagnostique de la BPCO. La recommandation NICE NG115 est claire :\n\nDIAGNOSTIC DE BPCO = VEMS / CVF < 0,70 (= 70%) après bronchodilatateur.\n\nDécryptage :\n• On donne d'abord un bronchodilatateur (typiquement salbutamol, 4 bouffées).\n• On attend ~15 minutes.\n• On refait la spirométrie.\n• On lit le rapport VEMS/CVF (= Tiffeneau).\n• S'il est < 0,70 : c'est BPCO. Confirmé.\n\nPourquoi APRÈS bronchodilatateur ?\nPour éliminer un asthme. L'asthmatique va voir son obstruction se lever après bronchodilatateur (Tiffeneau remonte ≥ 0,70). Le BPCO non : son obstruction reste, c'est ce qu'on appelle l'obstruction FIXÉE.\n\nÀ qui faire cette spirométrie ?\n• Tout patient > 35 ans, ET\n• Avec facteur de risque (tabac actif/ancien, exposition professionnelle), ET\n• Avec au moins UN symptôme : dyspnée d'effort, toux chronique, expectoration chronique, bronchites hivernales à répétition, sibilants.\n\nDans le doute, on fait la spirométrie. C'est le seul examen qui tranche.",
+  "rationale": "Trois mots à mémoriser : '0,70, post-bronchodilatateur, fixée'. Ce seuil de 0,70 est consensuel (GOLD, NICE, SPLF). Certaines sociétés savantes proposent d'utiliser le LIN (limite inférieure de la normale) plutôt qu'un seuil fixe — mais en pratique courante, le 0,70 reste la référence.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

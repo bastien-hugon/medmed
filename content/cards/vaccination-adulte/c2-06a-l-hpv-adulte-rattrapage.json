@@ -1,0 +1,18 @@
+{
+  "id": "vaccination-adulte-c2-l06-hpv-adulte-rattrapage",
+  "kind": "lesson",
+  "prompt": "Le HPV (Human PapillomaVirus / papillomavirus humain) est un virus sexuellement transmis, responsable de la quasi-totalité des cancers du col de l'utérus, ainsi que d'une proportion importante des cancers anaux, ORL, du pénis et de la vulve. Certains sérotypes provoquent aussi les condylomes (verrues génitales).\n\nLa vaccination HPV est avant tout PÉDIATRIQUE : recommandée chez tous les enfants entre 11 et 14 ans (filles ET garçons depuis 2021), 2 doses suffisent à cet âge.\n\nCHEZ L'ADULTE JEUNE — situations de RATTRAPAGE :\n\n• Jusqu'à 19 ans révolus : rattrapage pour les filles et les garçons non vaccinés (schéma 3 doses si commencé après 14 ans).\n• HSH (Hommes ayant des rapports Sexuels avec des Hommes) : recommandé jusqu'à 26 ans révolus.\n• Personnes immunodéprimées : recommandé jusqu'à 26 ans (et parfois plus selon situations).\n\nPourquoi ces cibles ? Le vaccin est efficace AVANT exposition au virus. Plus on vaccine tôt, mieux c'est. Au-delà de 26 ans en population générale, l'efficacité prévisible chute (la plupart des personnes ont déjà été exposées).\n\nLe vaccin actuellement utilisé en France est Gardasil 9 (9 sérotypes couverts, dont les principaux oncogènes 16 et 18 + ceux des condylomes 6 et 11).",
+  "rationale": "Mnémo : « avant 19 — fille et garçon ; HSH jusque 26 ; immunodéprimé jusque 26 ». La couverture HPV en France reste insuffisante (~50 %) malgré la gratuité — discussion clé en consultation adolescent. Conséquence pratique : devant un jeune adulte de 18-19 ans non vacciné, c'est le DERNIER moment pour proposer le rattrapage classique.",
+  "tags": {
+    "system": ["infectieux", "prevention", "gynecologie"],
+    "sdd": ["vaccination", "HPV"],
+    "item_edn": [143, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  }
+}

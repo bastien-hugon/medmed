@@ -1,0 +1,20 @@
+{
+  "id": "depistage-cancer-c1-q03b-sein-rythme-cloze",
+  "kind": "cloze",
+  "prompt": "Dans le dépistage organisé du cancer du sein en France, la mammographie est proposée tous les ___ ans, entre ___ et ___ ans.",
+  "expected": ["2", "50", "74"],
+  "rationale": "Rythme bisannuel : assez fréquent pour rattraper un cancer qui aurait poussé depuis la dernière mammo, assez espacé pour limiter l'exposition aux rayons X et le surdiagnostic. La fourchette 50-74 ans correspond à l'âge où l'incidence du cancer du sein justifie le bénéfice du dépistage. Avant 50 ans, les seins sont plus denses (moins bonne sensibilité de la mammographie) ; après 74 ans, la balance bénéfice/risque devient incertaine — un suivi individuel reste possible.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "à vérifier"
+  },
+  "status": "active"
+}

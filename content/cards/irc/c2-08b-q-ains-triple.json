@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-q08-ains-triple",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient de 72 ans, MRC G3a sous ramipril (IEC) et furosémide (diurétique de l'anse), consulte pour douleurs lombaires. Il vous dit prendre 'de l'ibuprofène 400 mg trois fois par jour depuis une semaine'. Quelle combinaison est particulièrement dangereuse ici ?",
+  "choices": [
+    { "id": "a", "text": "IEC + ibuprofène + paracétamol", "correct": false },
+    { "id": "b", "text": "IEC + diurétique + AINS (la 'triple whammy' rénale)", "correct": true },
+    { "id": "c", "text": "Diurétique + paracétamol", "correct": false },
+    { "id": "d", "text": "IEC + diurétique seul est dangereux", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La 'triple whammy' = IEC (ou ARA2) + diurétique + AINS. Chacun seul est gérable ; les trois ensemble peuvent précipiter une insuffisance rénale aiguë par effondrement de la pression de filtration glomérulaire (déshydratation par le diurétique + dilatation efférente bloquée par l'IEC + vasoconstriction afférente par l'AINS). À reconnaître absolument en pratique : arrêter l'AINS immédiatement, hydrater, recontrôler créat à 48-72h.",
+  "tags": {
+    "system": ["nephrologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "iatrogenie"],
+    "item_edn": [261, 264, 326, 343],
+    "cnge_family": ["chroniques", "urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

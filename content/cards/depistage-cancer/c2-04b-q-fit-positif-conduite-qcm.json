@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q04b-fit-positif-conduite",
+  "kind": "qcm-vignette",
+  "prompt": "Monsieur D., 62 ans, sans antécédent personnel ou familial digestif, a réalisé un test FIT dans le cadre du dépistage organisé. Le résultat est POSITIF. Quelle est la conduite à tenir recommandée ?",
+  "choices": [
+    { "id": "a", "text": "Refaire un test FIT à 3 mois pour confirmer", "correct": false },
+    { "id": "b", "text": "Demander un scanner abdomino-pelvien injecté en 1ère intention", "correct": false },
+    { "id": "c", "text": "Adresser le patient pour une coloscopie", "correct": true },
+    { "id": "d", "text": "Rassurer le patient : le FIT a beaucoup de faux positifs, on attend 2 ans pour refaire", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Un FIT positif déclenche systématiquement une COLOSCOPIE (≈ 95 % des cas). Refaire un FIT à 3 mois (a) : ce n'est PAS la conduite — on perdrait du temps, et un saignement intermittent pourrait redonner un négatif faussement rassurant. Le scanner (b) ne voit pas bien la muqueuse colique et rate les polypes. Attendre 2 ans (d) : potentiellement dramatique si lésion réelle. Le FIT a en effet beaucoup de faux positifs (la majorité des coloscopies seront 'normales' ou ne montreront que des polypes bénins) — c'est précisément pour ça que la coloscopie est indispensable : elle TRANCHE.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "à vérifier"
+  },
+  "status": "active"
+}

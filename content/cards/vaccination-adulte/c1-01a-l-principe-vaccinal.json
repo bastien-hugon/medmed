@@ -1,0 +1,27 @@
+{
+  "id": "vaccination-adulte-c1-l01-principe-vaccinal",
+  "kind": "lesson",
+  "prompt": "Pourquoi vacciner ? Pour entraîner le système immunitaire AVANT de rencontrer un vrai microbe.\n\nLe principe en 3 temps :\n\n1. On injecte une forme INOFFENSIVE du microbe (mort, atténué, ou juste un morceau de sa coque).\n\n2. Le système immunitaire le reconnaît comme étranger et apprend à le combattre. Il fabrique des cellules spécialisées et garde tout ça en mémoire.\n\n3. Le jour où le VRAI microbe arrive, l'organisme le reconnaît instantanément et le neutralise avant qu'il ne fasse des dégâts. C'est la MÉMOIRE IMMUNITAIRE.\n\nL'OMS classe la vaccination parmi les interventions de santé publique les plus efficaces jamais inventées : elle a fait reculer la variole (éradiquée), la polio, la rougeole, la diphtérie.\n\nUn point important : la vaccination ne « renforce » pas le système immunitaire en général — elle l'entraîne SPÉCIFIQUEMENT contre un microbe précis.",
+  "rationale": "Image pratique : un vaccin, c'est comme un exercice incendie. On simule, on s'entraîne — pour que le jour J le corps sache déjà quoi faire. Mnémo : RECONNAÎTRE → RÉPONDRE → RETENIR. Le 3e R (retenir = mémoire) est la clé : sans mémoire, pas de protection durable.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  PRINCIPE VACCINAL — entraîner avant la bataille\n\n  [1] Injection forme inoffensive du microbe\n          │\n          ▼\n  [2] Reconnaissance → anticorps + cellules T spécifiques\n          │\n          ▼\n  [3] Mémoire immunitaire stockée (cellules mémoire)\n          │\n          ▼\n  ===  Exposition au vrai microbe (mois/années + tard)  ===\n          │\n          ▼\n  [4] Réponse rapide et forte → microbe neutralisé\n\n  Sans vaccin : 1ère rencontre = réponse lente → maladie possible.\n  Avec vaccin : 1ère vraie rencontre = comme une 2e → contrôle rapide.",
+      "alt": "Schéma ASCII en 4 étapes montrant le principe vaccinal : injection, reconnaissance, mémoire, puis réponse rapide à l'exposition au vrai microbe.",
+      "caption": "Le vaccin transforme la 1ère vraie rencontre en 2e rencontre — le système immunitaire connaît déjà l'ennemi.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
+}

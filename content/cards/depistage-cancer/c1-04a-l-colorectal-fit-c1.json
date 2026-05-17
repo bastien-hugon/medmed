@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c1-l04-colorectal-fit",
+  "kind": "lesson",
+  "prompt": "Le dépistage organisé du CANCER COLORECTAL repose sur un test très simple, qu'on fait CHEZ SOI : le TEST IMMUNOLOGIQUE FÉCAL, abrégé FIT (de l'anglais 'Fecal Immunochemical Test').\n\nL'idée : un cancer du côlon ou un gros polype saigne souvent, de manière minuscule et invisible à l'œil nu. Ce sang microscopique part dans les selles. Le test FIT cherche, dans un petit échantillon de selles, une protéine spécifique du sang humain : l'HÉMOGLOBINE.\n\nMode d'emploi (simplifié) :\n• Le médecin (ou la sage-femme) remet un kit gratuit.\n• Le patient prélève un échantillon de selles à la maison, avec une petite tige fournie.\n• Il dépose le tube prélevé dans une enveloppe pré-payée → laboratoire.\n• Résultat envoyé sous quelques jours.\n\nDeux résultats possibles :\n• NÉGATIF (≈ 96 % des cas) : on refait le test 2 ans plus tard, dans le cadre du dépistage.\n• POSITIF (≈ 4 % des cas) : ça ne veut PAS dire 'cancer'. Ça veut dire 'il y a du sang dans tes selles, on doit chercher pourquoi' → COLOSCOPIE proposée. La majorité des coloscopies trouvent soit rien, soit des polypes qu'on enlève dans le même temps (et qui auraient pu devenir cancéreux des années plus tard).\n\nÀ retenir : le FIT ne diagnostique PAS le cancer. Il SÉLECTIONNE les gens qui méritent une coloscopie.",
+  "rationale": "Le grand intérêt du test : il est non invasif, gratuit, fait à la maison, et il a remplacé l'ancien test au gaïac (Hemoccult) qui était moins sensible et exigeait des restrictions alimentaires. Important : un FIT positif n'est PAS un diagnostic, c'est un TRI. Le rôle du médecin généraliste est de bien expliquer ça avant de proposer le test ('le test va être positif chez 4 personnes sur 100, et la grande majorité n'auront pas de cancer'), pour éviter l'angoisse inutile et la mauvaise compréhension du résultat.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://en.wikipedia.org/wiki/Fecal_immunochemical_test",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Faecal_Immunochemical_Testing.jpg",
+      "alt": "Kit de test immunologique fécal (FIT) : tube collecteur, bâtonnet de prélèvement, mode d'emploi.",
+      "caption": "Le kit FIT : prélèvement à la maison, envoi postal pré-payé au laboratoire.",
+      "attribution": "Wikimedia Commons — Crown copyright UK NSC"
+    }
+  ],
+  "status": "active"
+}

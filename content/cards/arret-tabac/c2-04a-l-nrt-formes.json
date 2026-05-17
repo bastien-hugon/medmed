@@ -1,0 +1,35 @@
+{
+  "id": "arret-tabac-c2-l04-nrt-formes",
+  "kind": "lesson",
+  "prompt": "Les SUBSTITUTS NICOTINIQUES (NRT, Nicotine Replacement Therapy) sont la 1ère ligne médicamenteuse du sevrage. Principe : remplacer la nicotine de la cigarette par de la nicotine 'propre' (sans CO, sans goudrons, sans cancérogènes), à dose dégressive, le temps que le cerveau désaccoutume.\n\nDeux grandes familles, qui se COMBINENT :\n\n1) FORMES À DIFFUSION LENTE (24 h) — le 'fond'\n• TIMBRE TRANSDERMIQUE (patch) : à coller le matin, libère la nicotine sur 24 h.\n• Dose typique : 21 mg/24 h pour gros fumeurs, 14 mg pour moyens, 7 mg pour décrue.\n• Traitement : ~8 semaines en décroissance.\n\n2) FORMES À ACTION RAPIDE (~10 min) — les 'à la demande'\n• GOMME à mâcher (2 mg ou 4 mg)\n• PASTILLE / comprimé sublingual\n• INHALATEUR\n• SPRAY (vaporisateur) buccal\nÀ prendre lors des envies fortes (craving), ~10-15 fois/jour si besoin au début.\n\nLa COMBINAISON timbre + forme rapide est plus efficace que le timbre seul (Cochrane, niveau 1).\n\nDosage initial : guidé par le Fagerström + le CO expiré.\n\nEffets indésirables : irritation cutanée (timbre, changer de site), goût (gomme), hoquet (spray). Bien tolérés en général.\n\nEfficacité : × 1,5 - 1,7 par rapport au placebo. À 12 mois, ~15-20 % d'abstinence (vs ~10 % placebo).",
+  "rationale": "Pratique : prescrire TOUJOURS un timbre + une forme rapide (timbre seul = sous-dosage fréquent et craving non couvert). Vérifier que le patient sait MÂCHER la gomme correctement (mastiquer, puis 'parquer' contre la joue, alterner — pas comme un chewing-gum classique). En France : remboursement à 65 % sur prescription par l'Assurance Maladie (depuis 2019, sans plafond annuel — voir C2 — suivi/remboursement).",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/85/NicotinePatch.jpg",
+      "alt": "Photographie d'un timbre transdermique de nicotine (patch) appliqué sur la peau du bras.",
+      "caption": "Le timbre transdermique : diffusion lente sur 24 h, base du traitement. À combiner avec une forme rapide pour les envies.",
+      "attribution": "Wikimedia Commons"
+    },
+    {
+      "kind": "ascii",
+      "src": "  NRT — formes vs vitesse d'action\n\n   Forme         Action       Indication\n   ───────────   ──────────   ──────────────────────\n   Timbre 24 h   LENTE        Fond, taux stable jour\n   Gomme         Rapide ~10mn Envies brèves\n   Pastille      Rapide ~10mn Envies, discrétion\n   Inhalateur    Rapide ~10mn Garder un 'geste'\n   Spray buccal  Très rapide  Craving intense\n\n  Combo recommandé : Timbre + forme rapide\n  Dose ajustée selon Fagerström + CO expiré",
+      "alt": "Tableau ASCII des formes de substituts nicotiniques avec leur vitesse d'action et leurs indications principales.",
+      "caption": "Timbre = le fond, formes rapides = les pics d'envie. Toujours combiner.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

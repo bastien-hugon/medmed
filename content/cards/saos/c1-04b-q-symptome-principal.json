@@ -1,0 +1,53 @@
+{
+  "id": "saos-c1-04b-q-symptome-principal",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces symptômes, lequel est LE plus évocateur d'un SAOS (syndrome d'apnées obstructives du sommeil) et constitue son symptôme principal en journée ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Toux nocturne",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Somnolence diurne excessive (s'endort devant la TV, en voiture…)",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Insomnie d'endormissement",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Cauchemars répétés",
+      "correct": false
+    }
+  ],
+  "expected": [
+    "b"
+  ],
+  "rationale": "La somnolence diurne excessive est le maître-symptôme du SAOS : le sommeil nocturne est suffisant en durée mais haché par les microéveils consécutifs aux apnées, donc non réparateur. À distinguer de la simple fatigue (présente aussi, mais moins spécifique).",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

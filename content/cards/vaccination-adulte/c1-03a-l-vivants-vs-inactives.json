@@ -1,0 +1,27 @@
+{
+  "id": "vaccination-adulte-c1-l03-vivants-vs-inactives",
+  "kind": "lesson",
+  "prompt": "Tous les vaccins ne sont pas faits pareil. Deux grandes catégories à connaître :\n\n1. VACCINS VIVANTS ATTÉNUÉS\nLe microbe est vivant, mais affaibli en laboratoire pour qu'il ne puisse plus rendre malade. Il se multiplie un peu chez la personne vaccinée → réponse immunitaire forte et durable, souvent en 1 ou 2 doses pour la vie.\nExemples : ROR (rougeole-oreillons-rubéole), varicelle, BCG (tuberculose), fièvre jaune.\nMAIS : comme c'est du vivant, ces vaccins sont CONTRE-INDIQUÉS chez :\n• Les femmes enceintes (risque théorique pour le fœtus)\n• Les personnes immunodéprimées (chimio, corticothérapie au long cours, VIH avancé, greffe...)\n\n2. VACCINS INACTIVÉS (ou non vivants)\nLe microbe est mort, ou on n'en injecte qu'un morceau (sous-unité, protéine recombinante, ARNm, polysaccharide conjugué...). Aucun risque d'infection.\nRéponse immunitaire en général moins forte → souvent plusieurs doses + rappels périodiques.\nExemples : DTP (diphtérie-tétanos-polio), grippe, hépatite B, pneumocoque, HPV, COVID-19 ARNm.\nPas de CI liée à l'immunodépression ou la grossesse (sauf cas particuliers indépendants).\n\nRetenir : si quelqu'un est immunodéprimé ou enceint, on évite les VIVANTS. Les inactivés restent autorisés.",
+  "rationale": "Mnémo des vaccins vivants à éviter en grossesse/immunodépression : « ROR-VAR-BCG-FJ » (Rougeole-Oreillons-Rubéole, Varicelle, BCG, Fièvre Jaune). Pour la fièvre jaune : exception possible bénéfice/risque chez la femme enceinte voyageuse en zone endémique. Conséquence pratique : devant un patient sous immunosuppresseur, TOUJOURS vérifier ce qu'on injecte avant de prescrire un vaccin.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  VIVANTS ATTÉNUÉS         vs        INACTIVÉS\n  ─────────────────────────────────────────────────\n  Microbe vivant affaibli           Microbe mort\n                                    ou fragment\n  ─────────────────────────────────────────────────\n  Réponse forte & durable           Réponse moindre\n  1-2 doses suffisent souvent       Doses + rappels\n  ─────────────────────────────────────────────────\n  CI : grossesse                    Pas de CI\n  CI : immunodéprimés               majeure liée\n                                    au type\n  ─────────────────────────────────────────────────\n  Ex : ROR, varicelle,              Ex : DTP, grippe,\n  BCG, fièvre jaune                 hépatite B, HPV,\n                                    pneumocoque, ARNm",
+      "alt": "Tableau ASCII comparant vaccins vivants atténués et vaccins inactivés sur 4 critères : nature, intensité de réponse, contre-indications, exemples.",
+      "caption": "VIVANTS : forts mais contre-indiqués chez la femme enceinte et l'immunodéprimé. INACTIVÉS : plus doux, sans CI majeure, mais rappels nécessaires.",
+      "attribution": "medmed, schéma original"
+    }
+  ]
+}

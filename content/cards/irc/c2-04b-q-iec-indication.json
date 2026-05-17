@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-q04-iec-indication",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient de 58 ans, diabétique de type 2, a un eGFR à 72 mL/min et un ACR à 8 mg/mmol. Sa PA au cabinet est à 132/82. Quelle est l'indication selon NICE NG203 ?",
+  "choices": [
+    { "id": "a", "text": "Pas d'IEC/ARA2 indiqué tant que le DFG est > 60", "correct": false },
+    { "id": "b", "text": "IEC ou ARA2 indiqué car diabète + ACR ≥ 3 mg/mmol", "correct": true },
+    { "id": "c", "text": "IEC indiqué seulement si la PA dépasse 140/90", "correct": false },
+    { "id": "d", "text": "Attendre que l'ACR dépasse 30 avant de débuter", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Chez le diabétique, le seuil de mise sous IEC/ARA2 est ACR ≥ 3 mg/mmol (microalbuminurie), INDÉPENDAMMENT du DFG et de la PA. La protéinurie même modérée est en soi un facteur de risque rénal et cardiovasculaire que l'IEC réduit. C'est plus précoce que chez le non-diabétique (seuil 30).",
+  "tags": {
+    "system": ["nephrologie", "endocrinologie"],
+    "sdd": ["irc", "mrc", "diabete"],
+    "item_edn": [261, 264, 245],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

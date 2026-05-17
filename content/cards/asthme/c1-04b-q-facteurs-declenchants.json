@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c1-q04-facteurs-declenchants",
+  "kind": "qcm-vignette",
+  "prompt": "Lesquels parmi ces déclencheurs sont des facteurs classiques de crise d'asthme à interroger systématiquement ? (Plusieurs réponses possibles, choisis la plus complète.)",
+  "choices": [
+    { "id": "a", "text": "Allergènes (acariens, poils d'animaux, pollens) uniquement.", "correct": false },
+    { "id": "b", "text": "Infections virales respiratoires uniquement.", "correct": false },
+    { "id": "c", "text": "Allergènes, infections virales, effort, air froid, fumée/pollution, émotions/stress.", "correct": true },
+    { "id": "d", "text": "Seuls les facteurs allergiques sont en cause ; le reste est anecdotique.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Les déclencheurs d'asthme sont multiples — c'est pour ça qu'on parle de bronches HYPERRÉACTIVES (= qui réagissent à beaucoup de choses, pas qu'aux allergènes). À l'interrogatoire, balaie tous ces axes : allergènes, virus (les rhumes déclenchent une grande partie des crises), effort (asthme d'effort), air froid (course d'hiver), pollution/tabac, émotions. Identifier le ou les déclencheurs principaux permet d'agir dessus (éviction allergénique, ICS avant le sport, vaccin grippe, etc.).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

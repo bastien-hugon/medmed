@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c1-l05-faux-positifs-negatifs",
+  "kind": "lesson",
+  "prompt": "Aucun test de dépistage n'est parfait. Quatre situations sont possibles :\n\n• VRAI POSITIF (VP) : le test est positif, et le patient a effectivement la maladie. Cas qu'on cherche.\n• VRAI NÉGATIF (VN) : le test est négatif, et le patient n'a pas la maladie. Rassurant et juste.\n• FAUX POSITIF (FP) : le test est positif, mais le patient n'a PAS la maladie. Coût : examens complémentaires inutiles, stress, parfois biopsie évitable.\n• FAUX NÉGATIF (FN) : le test est négatif, mais la maladie est bien là (passée sous le radar). Coût : fausse réassurance, diagnostic retardé.\n\nDeux notions à connaître :\n• La SENSIBILITÉ d'un test = sa capacité à dire 'positif' quand la maladie est là. Une sensibilité élevée → peu de faux négatifs.\n• La SPÉCIFICITÉ d'un test = sa capacité à dire 'négatif' quand la maladie n'est pas là. Une spécificité élevée → peu de faux positifs.\n\nEn dépistage de masse, on accepte volontairement quelques faux positifs (que la 2ᵉ étape de l'algorithme corrige : coloscopie, biopsie…), parce que rater des cancers est jugé plus grave. Mais on garde la spécificité 'raisonnable' pour ne pas convoquer la moitié de la population en examen complémentaire.\n\nPiège pédagogique : un test négatif NE GARANTIT JAMAIS l'absence totale de maladie. C'est pour ça qu'on répète le dépistage tous les 2 ans.",
+  "rationale": "Mnémo utile : pense à un filtre à café. Un filtre à mailles très fines ne laisse rien passer (haute sensibilité, peu de FN) mais retient parfois du café trouble qui aurait été bon (FP). Un filtre lâche laisse passer du marc (FN) mais ne retient pas grand-chose à tort (peu de FP). Un test de dépistage est conçu pour pencher du côté 'sensibilité' — quitte à générer des faux positifs gérés ensuite.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 287],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sensibilit%C3%A9_et_sp%C3%A9cificit%C3%A9",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "                  Maladie\n                 PRÉSENTE     ABSENTE\n              ┌────────────┬────────────┐\n  Test        │            │            │\n  POSITIF     │  VRAI +    │  FAUX +    │\n              │  (cherché) │  (à gérer) │\n              ├────────────┼────────────┤\n  Test        │            │            │\n  NÉGATIF     │  FAUX -    │  VRAI -    │\n              │ (raté!)    │ (rassurant)│\n              └────────────┴────────────┘\n\n  Sensibilité = VP / (VP + FN) → 'rate-t-il peu ?'\n  Spécificité = VN / (VN + FP) → 'crie-t-il à raison ?'",
+      "alt": "Tableau ASCII 2x2 croisant le résultat du test (positif/négatif) avec la présence ou l'absence de maladie, et définissant sensibilité et spécificité.",
+      "caption": "Les 4 issues d'un test de dépistage : on cherche à maximiser les vrais positifs et limiter les faux négatifs.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

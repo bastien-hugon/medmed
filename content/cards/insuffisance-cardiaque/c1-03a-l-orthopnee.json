@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-l03-orthopnee",
+  "kind": "lesson",
+  "prompt": "ORTHOPNÉE = essoufflement qui apparaît dès qu'on s'allonge à plat, et qui force à se redresser (s'asseoir, mettre 2-3 oreillers).\n\nC'est un signe TRÈS évocateur d'insuffisance cardiaque (IC).\n\nMécanisme : en position allongée, tout le sang des jambes remonte vers le thorax. Si la pompe cardiaque est défaillante, ce surplus de sang s'accumule dans les poumons → étouffement.\n\nEn position assise, la gravité aide à retenir le sang dans les jambes → ça soulage.\n\nDeux questions à poser systématiquement :\n• \"Combien d'oreillers pour dormir ?\" (3, 4 oreillers = signe fort)\n• \"Êtes-vous parfois réveillé la nuit en suffoquant ?\" (= dyspnée paroxystique nocturne, DPN, même mécanisme)\n\nSi oui à l'un ou l'autre → suspecter IC, même sans autre symptôme.",
+  "rationale": "L'orthopnée est plus spécifique de l'IC que la dyspnée d'effort. Beaucoup de patients ne s'en plaignent pas spontanément — ils ont juste 'pris l'habitude' de dormir surélevés. Il faut poser la question explicitement. C'est aussi un excellent indicateur de décompensation : si un patient IC qui dormait à plat se met soudain à dormir assis, c'est une alerte.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Orthopnée : essoufflé dès qu'on s'allonge\n\n  Allongé (à plat)        Assis / oreillers\n  ──────────────────      ────────────────\n     ╔════════╗              ╔═══╗\n     ║ POUMON ║              ║ P ║\n     ║ ░░░░░░ ║ ←sang        ║░░░║\n     ║ ░░░░░░ ║              ║░░░║\n     ╚════════╝              ║   ║\n        ↓                    ║   ║\n     [jambes]                ║   ║\n                          [jambes ↓]\n   Le sang remonte        La gravité retient\n   → poumons noyés        → poumons soulagés\n\n   Demander : \"Combien d'oreillers pour dormir ?\"",
+      "alt": "Schéma ASCII comparant un patient allongé (poumon engorgé par le sang qui remonte) et un patient assis (poumon dégagé grâce à la gravité).",
+      "caption": "Plus on est plat, plus le sang noie les poumons. S'asseoir soulage instantanément.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

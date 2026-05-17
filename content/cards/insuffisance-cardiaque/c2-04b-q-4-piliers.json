@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q04-4-piliers",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces ensembles, lequel correspond aux 4 PILIERS du traitement de l'ICFEr (IC à fraction d'éjection réduite) ?",
+  "choices": [
+    { "id": "a", "text": "IEC + BB + MRA + SGLT2-i", "correct": true },
+    { "id": "b", "text": "Diurétique de l'anse + statine + aspirine + IEC", "correct": false },
+    { "id": "c", "text": "Inhibiteur calcique + BB + MRA + ARA2", "correct": false },
+    { "id": "d", "text": "BB + digoxine + ivabradine + diurétique", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Les 4 piliers (NICE / ESC) : IEC (ou ARNI), BB (bisoprolol / carvédilol / nébivolol), MRA (spironolactone / éplérénone), SGLT2-i (dapagliflozine / empagliflozine). Les inhibiteurs calciques (vérapamil, diltiazem, dihydropyridines courte action) sont à ÉVITER dans l'ICFEr. La digoxine et l'ivabradine sont des options additionnelles, pas un pilier de base.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

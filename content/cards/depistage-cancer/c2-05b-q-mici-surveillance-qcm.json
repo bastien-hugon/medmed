@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c2-q05b-mici-surveillance",
+  "kind": "qcm-vignette",
+  "prompt": "Mme L., 52 ans, suivie depuis 12 ans pour une RECTOCOLITE HÉMORRAGIQUE étendue (pancolite). Elle reçoit le courrier d'invitation au dépistage organisé du cancer colorectal par FIT. Que lui dites-vous ?",
+  "choices": [
+    { "id": "a", "text": "Elle peut faire le FIT comme tout le monde, tous les 2 ans", "correct": false },
+    { "id": "b", "text": "Elle est dispensée de tout dépistage car la MICI 'protège' du cancer", "correct": false },
+    { "id": "c", "text": "Le FIT n'est pas adapté pour elle : elle doit avoir une coloscopie de surveillance régulière, prescrite par son gastro-entérologue", "correct": true },
+    { "id": "d", "text": "Elle doit refaire un test FIT chaque année au lieu de tous les 2 ans", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Une MICI étendue et ancienne (≥ 8 ans, surtout pancolite) AUGMENTE le risque de cancer colorectal sur la muqueuse chroniquement inflammée. Cette patiente sort donc du programme organisé et entre dans le dépistage INDIVIDUEL : coloscopie de surveillance (souvent par chromoendoscopie) tous les 1 à 3 ans selon les facteurs de risque associés (cholangite sclérosante, antécédents familiaux, sténoses...). Faire un FIT n'a pas de sens ici : le test n'est ni assez sensible, ni adapté à un terrain qui peut saigner pour d'autres raisons (poussée inflammatoire). La 'protection' (b) est l'inverse de la vérité ; faire un FIT annuel (d) ne corrige pas le problème de fond — il faut voir la muqueuse.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290, 282],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "à vérifier"
+  },
+  "status": "active"
+}

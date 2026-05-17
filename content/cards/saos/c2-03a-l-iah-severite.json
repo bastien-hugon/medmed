@@ -1,0 +1,37 @@
+{
+  "id": "saos-c2-03a-l-iah-severite",
+  "kind": "lesson",
+  "prompt": "Une fois l'IAH (Index Apnée-Hypopnée) calculé, on classe la sévérité du SAOS en 3 paliers très simples :\n\n  IAH < 5/h     → pas de SAOS (normal)\n  IAH 5-15/h    → SAOS LÉGER\n  IAH 15-30/h   → SAOS MODÉRÉ\n  IAH ≥ 30/h    → SAOS SÉVÈRE\n\nCes seuils 5 / 15 / 30 sont à connaître par cœur — ils conditionnent l'indication thérapeutique et la prise en charge sociale (permis professionnel notamment).\n\nMais la sévérité du SAOS ne dépend pas QUE de l'IAH. On tient aussi compte de :\n• La sévérité des désaturations en oxygène pendant le sommeil\n• La somnolence diurne (Epworth)\n• Les comorbidités (HTA, FA, AVC…)\n\nC'est l'ensemble qui guide la décision de traiter par CPAP (référence) ou non.",
+  "rationale": "Mnémo : '5 - 15 - 30, c'est comme un trajet en bus : léger jusqu'au premier arrêt, modéré jusqu'au deuxième, sévère après'. Retiens aussi : un IAH ≥ 30 chez un conducteur professionnel → retrait du permis tant que non traité. Donc le 30 a une portée médico-légale, pas seulement clinique.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  SÉVÉRITÉ DU SAOS selon l'IAH (événements/heure)\n\n   IAH  │ 0 ── 5 ──── 15 ──── 30 ──────────►\n        │     │      │       │\n        │ ░░░ │ ▒▒▒  │ ▓▓▓   │ ████████\n        │ NL  │ LÉGER│ MODÉRÉ│ SÉVÈRE\n        │     │      │       │\n        │     │      │       └─► permis pro à\n        │     │      │           risque si non\n        │     │      │           traité\n\n  Seuils à retenir :  5  -  15  -  30",
+      "alt": "Échelle ASCII de sévérité du SAOS selon l'IAH avec seuils 5, 15, 30 délimitant normal / léger / modéré / sévère.",
+      "caption": "Sévérité IAH : < 5 normal · 5-15 léger · 15-30 modéré · ≥ 30 sévère.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

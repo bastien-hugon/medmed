@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c1-q02b-population-cible-tranche-age",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la tranche d'âge cible du dépistage ORGANISÉ du cancer du sein ET du cancer colorectal en France ?",
+  "choices": [
+    { "id": "a", "text": "40 - 65 ans", "correct": false },
+    { "id": "b", "text": "50 - 74 ans", "correct": true },
+    { "id": "c", "text": "45 - 70 ans", "correct": false },
+    { "id": "d", "text": "55 - 80 ans", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les deux programmes partagent la même fenêtre 50-74 ans. C'est le compromis entre incidence qui augmente avec l'âge (justifie de dépister) et bénéfice/risque qui se dégrade chez les très âgés (espérance de vie, comorbidités, surdiagnostic). Mnémo : 'cinquante-soixante-quatorze, deux cancers, un même créneau'. Le col de l'utérus, lui, vise une tranche bien plus jeune (25-65 ans).",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [287, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "à vérifier"
+  },
+  "status": "active"
+}

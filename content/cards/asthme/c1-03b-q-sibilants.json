@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c1-q03-sibilants",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle affirmation est VRAIE concernant les sibilants chez un asthmatique ?",
+  "choices": [
+    { "id": "a", "text": "Ils sont surtout audibles à l'inspiration.", "correct": false },
+    { "id": "b", "text": "Ils sont surtout audibles à l'expiration, des deux côtés du thorax.", "correct": true },
+    { "id": "c", "text": "Leur absence à l'auscultation élimine formellement l'asthme.", "correct": false },
+    { "id": "d", "text": "Un sibilant localisé à un seul endroit est typique de l'asthme.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Sibilants asthme = bilatéraux, diffus, expiratoires. À l'inverse, un sibilant unilatéral / localisé doit faire chercher un obstacle focal (corps étranger inhalé chez l'enfant, tumeur bronchique chez l'adulte fumeur). Et entre deux crises, l'auscultation peut être strictement normale : pas de sibilant ≠ pas d'asthme.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

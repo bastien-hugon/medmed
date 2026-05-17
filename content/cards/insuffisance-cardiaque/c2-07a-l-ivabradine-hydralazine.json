@@ -1,0 +1,19 @@
+{
+  "id": "insuffisance-cardiaque-c2-l07-ivabradine-hydralazine",
+  "kind": "lesson",
+  "prompt": "Trois options de TROISIÈME LIGNE dans l'ICFEr quand les 4 piliers ne suffisent pas (NICE NG106) :\n\n1. IVABRADINE\n• Indication : FEVG ≤ 35 %, en rythme sinusal, fréquence cardiaque > 70/min malgré béta-bloquant à dose max\n• Action : ralentit le nœud sinusal (effet \"chronotrope négatif\" pur, sans baisser la PA)\n• Démarrage et titration habituellement par cardiologue\n\n2. HYDRALAZINE + DÉRIVÉS NITRÉS (vasodilatateurs)\n• Indication : INTOLÉRANCE à IEC/ARNI/ARA2 (par ex. après angio-œdème), surtout patient d'origine afro-caribéenne avec symptômes NYHA III-IV\n• Action : détendent artères (hydralazine) et veines (nitrés)\n• Mauvaise tolérance fréquente (céphalées, hypoTA)\n\n3. DIGOXINE\n• Indication : IC sévère et persistante malgré 4 piliers + spécialiste\n• Action : ralentit la fréquence cardiaque et augmente légèrement la force de contraction\n• Marge thérapeutique étroite — risque de toxicité, surtout chez l'âgé, l'insuffisant rénal\n• Surveillance : digoxinémie, kaliémie, ECG\n\nCes 3 options ne sont JAMAIS des piliers de 1ère intention en MG. Mais il faut les reconnaître sur l'ordonnance et savoir POURQUOI elles ont été ajoutées.",
+  "rationale": "Repère : un patient sous les 4 piliers + ivabradine = il est tachycarde malgré la dose max de BB. Sous hydralazine + nitrés = il n'a pas toléré les IEC/ARNI. Sous digoxine = c'est une IC sévère sous spécialiste. Ces signaux d'ordonnance valent un compte-rendu d'évolution.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

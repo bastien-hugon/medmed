@@ -1,0 +1,20 @@
+{
+  "id": "bpco-c2-q01-vems-cvf-seuil",
+  "kind": "cloze",
+  "prompt": "Le diagnostic de BPCO est posé sur une spirométrie quand le rapport VEMS/CVF, mesuré après bronchodilatateur, est inférieur à ___.",
+  "expected": ["0,70"],
+  "rationale": "Seuil universel des recommandations NICE et GOLD : VEMS/CVF < 0,70 post-bronchodilatateur. Le caractère FIXE (qui ne se lève pas avec un bronchodilatateur) est ce qui distingue la BPCO de l'asthme. Variantes acceptées en pratique : 0.70, 70%.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

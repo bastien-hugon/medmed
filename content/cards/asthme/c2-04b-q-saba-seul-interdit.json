@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c2-q04-saba-seul-interdit",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient de 22 ans vient de recevoir un diagnostic d'asthme (FeNO 78 ppb, symptômes 1-2 fois/sem, jamais de réveil nocturne). Quelle prescription est CONFORME à NICE NG245 (2024) ?",
+  "choices": [
+    { "id": "a", "text": "Salbutamol (SABA) seul, à la demande.", "correct": false },
+    { "id": "b", "text": "Low-dose ICS/formotérol à la demande (AIR therapy).", "correct": true },
+    { "id": "c", "text": "Salmétérol (LABA) seul de fond, 2 fois/j.", "correct": false },
+    { "id": "d", "text": "Corticothérapie orale de fond, 5 mg/j de prednisone.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Règle NG245 : JAMAIS de SABA seul (a, exclu) — c'est même la nouveauté la plus marquante. LABA seul (c) est dangereux (risque connu de mortalité, doit toujours être associé à un ICS). Cortico orale de fond (d) : réservée aux asthmes sévères, hors-sujet ici. Réponse (b) : AIR therapy = low-dose ICS/formotérol à la demande, parfait point d'entrée pour un nouveau diag peu symptomatique. L'option \"low-dose MART\" serait acceptable si le patient était plus symptomatique ou avait déjà une exacerbation sévère.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

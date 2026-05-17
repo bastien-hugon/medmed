@@ -1,0 +1,27 @@
+{
+  "id": "vaccination-adulte-c1-l02-anticorps-cellules-t",
+  "kind": "lesson",
+  "prompt": "Quand un vaccin entraîne le système immunitaire, deux grandes armes sont fabriquées :\n\n1. LES ANTICORPS\nPetites protéines en forme de Y, produites par les LYMPHOCYTES B. Elles circulent dans le sang et se collent au microbe pour le neutraliser (l'empêcher d'infecter les cellules) et le marquer pour destruction. C'est l'immunité dite « humorale » (humeur = liquide).\n\n2. LES CELLULES T (lymphocytes T)\nElles ne fabriquent pas d'anticorps. Elles agissent directement :\n• Les T « tueurs » (cytotoxiques) détruisent les cellules infectées.\n• Les T « aides » (auxiliaires) coordonnent toute la réponse — elles activent les B et les T tueurs.\nC'est l'immunité dite « cellulaire ».\n\nAprès une exposition (vaccin ou maladie), une partie des cellules B et T devient CELLULES MÉMOIRE : elles persistent des années, parfois toute la vie. À la prochaine rencontre, elles redémarrent la réponse en quelques heures au lieu de quelques jours.\n\nC'est exactement ce mécanisme qui rend la vaccination protectrice à long terme.",
+  "rationale": "Mnémo : B comme « Balles à distance » (anticorps lancés dans le sang) ; T comme « Tueurs au contact » (action directe sur cellule infectée). Sans cellules T auxiliaires, pas de réponse efficace — c'est pourquoi le VIH (qui détruit ces cellules) est si dévastateur. Conséquence pratique : chez l'immunodéprimé, les cellules T sont souvent défaillantes → moins bonne réponse vaccinale, vaccins vivants contre-indiqués.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Immunit%C3%A9_acquise",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Antibody.svg",
+      "alt": "Schéma d'un anticorps en forme de Y avec ses deux chaînes lourdes, deux chaînes légères et ses sites de liaison à l'antigène aux extrémités des bras.",
+      "caption": "Un anticorps : protéine en Y, dont les deux extrémités se collent au microbe pour le neutraliser.",
+      "attribution": "Wikimedia Commons — Antibody.svg, domaine public"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-l05-meningocoque-acwy-b",
+  "kind": "lesson",
+  "prompt": "Le méningocoque (Neisseria meningitidis) est une bactérie qui peut provoquer méningite et purpura fulminans — infections rares mais souvent foudroyantes. Il existe plusieurs sérogroupes (A, B, C, W, Y, X).\n\nÉvolution MAJEURE du calendrier vaccinal français en 2025 : devant l'augmentation des cas (notamment W et Y), les vaccinations ACWY ET B sont devenues OBLIGATOIRES chez le nourrisson. Le méningocoque C isolé est remplacé par ACWY.\n\nCALENDRIER NOURRISSON / ADO (2025) :\n• Vaccin méningocoque B : OBLIGATOIRE, 3 doses (3 mois, 5 mois, 12 mois).\n• Vaccin méningocoque ACWY (tétravalent) : OBLIGATOIRE, 2 doses (6 mois et 12 mois).\n• Adolescent 11-14 ans : RAPPEL ACWY recommandé (rattrapage possible jusqu'à 24 ans).\n\nChez l'ADULTE hors rattrapage, ACWY et B restent des vaccinations CIBLÉES sur risque accru :\n\nVaccin ACWY chez l'adulte :\n• Voyageurs vers zones d'endémie (« ceinture de la méningite » en Afrique sub-saharienne, pèlerinage à La Mecque — obligatoire pour le visa saoudien).\n• Étudiants en formation médicale ou paramédicale, internat.\n• Personnels de laboratoire manipulant le méningocoque.\n• Immunodéprimés à risque (asplénie/splénectomie, déficit en complément, traitement par eculizumab).\n• Contacts proches d'un cas d'infection invasive (autour d'un cas index).\n\nVaccin B chez l'adulte :\n• Asplénie/splénectomie, déficit en complément, eculizumab.\n• Autour de certains cas de méningococcémie B (entourage d'un cas index).\n• Personnels de laboratoire exposés.\n\nLogique : depuis 2025, la « base immunitaire » contre méningocoque est posée dès la petite enfance ; chez l'adulte, on ajoute des doses selon le risque (voyage, métier, immunodépression).",
+  "rationale": "Mnémos clés :\n• Nourrisson 2025 : « B à 3-5-12 mois, ACWY à 6-12 mois » → tous OBLIGATOIRES.\n• Ado : « rappel ACWY 11-14 ans, rattrapage jusqu'à 24 ans ».\n• Adulte ciblé : « ACWY = ceinture africaine + Mecque + étudiants santé + immunodéprimés ; B = défauts d'immunité complément/asplénie ».\n\nAcronyme : IIM = Infection Invasive à Méningocoque. Conséquence pratique : avant un départ en pèlerinage à La Mecque, le méningo ACWY est OBLIGATOIRE pour obtenir le visa saoudien — point souvent oublié en consultation voyage. Eculizumab (anti-C5) : bloque le complément, donc fragilise spécifiquement contre méningocoque → vaccination préalable obligatoire.",
+  "tags": {
+    "system": ["infectieux", "prevention", "neurologie"],
+    "sdd": ["vaccination", "meningocoque"],
+    "item_edn": [143, 151],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-a-prevention-vaccinale/infections-invasives-a-meningocoque",
+    "version": "consulté en 2026-05",
+    "note": "Calendrier 2025 : ACWY obligatoire nourrisson (6 et 12 mois) + rappel ado 11-14 ans ; B obligatoire nourrisson (3, 5 et 12 mois). Indications adultes ciblées (voyage, métier, immunodépression)."
+  },
+  "status": "active"
+}

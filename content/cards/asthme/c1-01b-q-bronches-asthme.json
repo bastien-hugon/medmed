@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c1-q01-bronches-asthme",
+  "kind": "cloze",
+  "prompt": "Dans l'asthme, les ___ (les tuyaux qui amènent l'air aux poumons) se rétrécissent à cause d'un spasme du muscle, d'une inflammation de la paroi et d'un excès de mucus.",
+  "expected": ["bronches"],
+  "rationale": "Bronches = les tuyaux à air. Plus précisément les petites s'appellent bronchioles, mais le terme général « bronches » suffit ici. Garder en tête : asthme = maladie des bronches, pas des alvéoles (≠ pneumonie, ≠ emphysème).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

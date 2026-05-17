@@ -1,0 +1,22 @@
+{
+  "id": "arret-tabac-c2-s09-sct-varenicline-psy",
+  "kind": "sct",
+  "prompt": "Un homme de 50 ans, fumeur Fagerström 8, en stade de préparation, te demande conseil. Tu envisages la varénicline (Champix®) car il a échoué deux fois avec les NRT seuls. Tu lis dans son dossier qu'il a un antécédent d'épisode dépressif majeur traité il y a 3 ans (résolu, plus de traitement actuel). Comment cette nouvelle information modifie-t-elle ton indication de varénicline ?",
+  "hypothesis": "Indication de varénicline en 2e ligne après échec des NRT.",
+  "new_info": "Antécédent d'épisode dépressif majeur traité il y a 3 ans, actuellement résolu et sans traitement.",
+  "expected": "affaiblit",
+  "rationale": "La varénicline a fait l'objet d'une alerte FDA (2009) sur des symptômes neuropsychiatriques (dépression, idées suicidaires, troubles du comportement) chez certains patients. Bien que des études ultérieures (EAGLES, 2016) aient nuancé ce signal, la prudence reste de mise chez les patients avec antécédents psychiatriques. L'antécédent dépressif n'est pas une CI ABSOLUE, mais affaiblit l'indication relative : on va privilégier (a) NRT en combo plein (timbre + forme rapide) bien optimisée, (b) renforcer entretien motivationnel/TCC, (c) si on prescrit varénicline malgré tout, surveillance psy rapprochée et information explicite du patient et de l'entourage des signes d'alerte.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie", "psychiatrie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

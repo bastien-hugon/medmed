@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q03-tabac-fdr",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est, de très loin, le principal facteur de risque de BPCO ?",
+  "choices": [
+    { "id": "a", "text": "Une infection virale récente (grippe, COVID)", "correct": false },
+    { "id": "b", "text": "Le tabagisme chronique", "correct": true },
+    { "id": "c", "text": "L'hérédité familiale", "correct": false },
+    { "id": "d", "text": "L'âge avancé sans autre facteur", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le tabac (cigarette, mais aussi pipe, narguilé) est responsable d'environ 80% des BPCO. Les expositions professionnelles (poussières, fumées, silice) viennent loin derrière, puis la pollution urbaine. Le déficit génétique en alpha-1-antitrypsine est rare. L'âge n'est pas un facteur de risque en soi : un non-fumeur de 80 ans n'a pas de BPCO.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

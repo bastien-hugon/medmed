@@ -1,0 +1,26 @@
+{
+  "id": "irc-c2-q02-kdigo-couple",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient diabétique a un eGFR à 52 mL/min/1.73 m² confirmé, et un ACR à 45 mg/mmol. Quel binôme KDIGO le décrit ?",
+  "choices": [
+    { "id": "a", "text": "G2 A2", "correct": false },
+    { "id": "b", "text": "G3a A2", "correct": false },
+    { "id": "c", "text": "G3a A3", "correct": true },
+    { "id": "d", "text": "G3b A3", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "eGFR 52 → entre 45 et 59 → G3a. ACR 45 → > 30 → A3. Donc G3a A3. C'est un patient à HAUT risque rénal et cardiovasculaire qui justifie : IEC/ARA2 + SGLT2-i (diabétique), cible PA < 130/80 (ACR ≥ 70 mg/mmol non atteint mais protéinurie franche + diabète justifient une cible plus serrée), et discussion néphro selon évolution.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

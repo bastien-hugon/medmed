@@ -1,0 +1,18 @@
+{
+  "id": "vaccination-adulte-c2-l08-immunodeprimes",
+  "kind": "lesson",
+  "prompt": "Un patient IMMUNODÉPRIMÉ — chimiothérapie, greffe d'organe, biothérapies (anti-TNF, anti-CD20, anti-JAK...), corticothérapie au long cours forte dose, VIH avec CD4 bas — pose 3 problèmes spécifiques en matière de vaccination :\n\n1. RISQUE INFECTIEUX MAJORÉ\nIl fait des infections plus fréquentes et plus graves. La vaccination est donc PRIORITAIRE. Pneumocoque, grippe, zona (Shingrix), COVID, méningocoque selon protocole sont systématiquement à proposer.\n\n2. VACCINS VIVANTS = CONTRE-INDIQUÉS\nROR, varicelle, BCG, fièvre jaune sont INTERDITS — risque que le microbe « atténué » redevienne pathogène. Conséquence : penser à vacciner AVANT que l'immunodépression ne s'installe (par exemple avant chimiothérapie programmée), ou attendre une fenêtre de récupération (post-chimio, suspension biothérapie).\n\n3. RÉPONSE VACCINALE AMOINDRIE\nMême avec un vaccin inactivé autorisé, la réponse immunitaire peut être insuffisante. D'où :\n• Schémas RENFORCÉS (doses supplémentaires, intervalles adaptés).\n• Évaluation SÉROLOGIQUE post-vaccinale dans certains cas (hépatite B, ROR si doute, varicelle).\n• Stratégie de « COCON » : vacciner l'entourage proche (famille, soignants) pour réduire les expositions.\n\nUn principe à retenir : le SEUL vaccin zona utilisable chez l'immunodéprimé est SHINGRIX (recombinant adjuvanté, NON vivant) — l'ancien Zostavax était vivant et contre-indiqué.",
+  "rationale": "Mnémo : « PRIORITAIRES + INACTIVÉS + RENFORCÉS + COCON ». Penser à proposer la vaccination AVANT l'instauration d'une biothérapie ou d'une chimiothérapie programmée — c'est l'erreur classique. Acronyme : VIH = Virus de l'Immunodéficience Humaine ; CD20 / CD4 = marqueurs de cellules immunitaires. Lien clinique : un anti-CD20 (rituximab) prolonge sa déplétion B pendant 6-12 mois → la fenêtre vaccinale efficace est restreinte.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "immunodepression"],
+    "item_edn": [143, 187],
+    "cnge_family": ["prevention", "chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  }
+}

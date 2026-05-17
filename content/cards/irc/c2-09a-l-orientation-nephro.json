@@ -1,0 +1,19 @@
+{
+  "id": "irc-c2-l09-orientation-nephro",
+  "kind": "lesson",
+  "prompt": "Tous les patients avec MRC n'ont pas besoin d'aller voir un néphrologue. La plupart sont suivis en médecine générale. Mais certains profils relèvent du spécialiste.\n\nCritères d'orientation au néphrologue selon NICE NG203 :\n\n• Risque à 5 ans d'insuffisance rénale terminale > 5 % (calculé via la 4-variable KFRE — Kidney Failure Risk Equation)\n• ACR ≥ 70 mg/mmol (sauf si patient diabétique bien équilibré sans autre red flag)\n• ACR > 30 mg/mmol AVEC hématurie persistante\n• Baisse soutenue du DFG ≥ 25 % avec passage d'un stade à un autre (G3a → G3b par exemple) en < 12 mois\n• Baisse rapide du DFG ≥ 15 mL/min/1.73 m² PAR AN\n• HTA non contrôlée malgré ≥ 4 antihypertenseurs à doses optimales\n• Suspicion de cause génétique ou rare (antécédents familiaux d'IRT, polykystose)\n• Suspicion de sténose des artères rénales (souffle abdominal, OAP flash, dégradation brutale du DFG sous IEC)\n• Stade G4 (DFG < 30) — pour préparer la suppléance (dialyse / greffe / abstention)\n\nMessage clef : on n'oriente PAS sur le seul stade G isolé (un G3a A1 stable du sujet âgé reste en MG). On oriente sur la TRAJECTOIRE (vitesse de chute) et sur l'ACR (sévérité du tamis).\n\nEn pratique : demander un avis téléphonique ou par RCP avant la consultation est parfois suffisant. Le néphrologue ne remplace pas le MG : il vient en ajout pour les décisions complexes (suppléance, immunosuppresseurs, biopsie).",
+  "rationale": "Le critère 'baisse DFG > 25 % en 12 mois avec changement de stade' est plus parlant que 'DFG < tel chiffre'. Un patient à 50 mL/min stable depuis 5 ans est moins inquiétant qu'un patient passé de 75 à 55 en un an. La dynamique compte plus que le chiffre. L'orientation pour G4 (DFG < 30) sert à préparer la dialyse/greffe sereinement, plusieurs mois à l'avance.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

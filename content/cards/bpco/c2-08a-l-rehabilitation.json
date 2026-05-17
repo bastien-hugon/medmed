@@ -1,0 +1,19 @@
+{
+  "id": "bpco-c2-l08-rehabilitation",
+  "kind": "lesson",
+  "prompt": "La RÉHABILITATION RESPIRATOIRE, c'est l'intervention qui change le plus la vie quotidienne des patients BPCO symptomatiques. Et pourtant elle est sous-prescrite.\n\nÇa consiste en un PROGRAMME MULTIDISCIPLINAIRE, généralement sur 6 à 12 semaines, qui combine :\n• Exercice physique adapté (réentraînement à l'effort sur cycloergomètre, marche, renforcement)\n• Éducation thérapeutique (maladie, inhalateurs, exacerbations)\n• Soutien nutritionnel (dénutrition fréquente, ou obésité)\n• Soutien psychologique (anxiété, dépression très fréquentes)\n• Kiné respiratoire (drainage, ventilation dirigée)\n\nINDICATION selon NICE NG115 : on la propose à tout patient avec MRC dyspnée ≥ 3 (= s'arrête après ~100 m de marche sur le plat). En pratique, on l'envisage dès que la dyspnée gêne la vie quotidienne. Également indiquée après une exacerbation hospitalisée.\n\nLes bénéfices, démontrés par de nombreuses études :\n• ↓ dyspnée\n• ↑ tolérance à l'effort\n• ↑ qualité de vie\n• ↓ exacerbations\n• ↓ hospitalisations\n\nC'est UN DES RARES traitements qui agit sur tous ces axes en même temps. Plus rentable qu'un nouvel inhalé sur un patient sédentaire et déconditionné.",
+  "rationale": "Le piège : le patient pense qu'il est 'trop essoufflé pour faire du sport'. Or c'est INVERSÉ : c'est parce qu'il bouge moins qu'il se déconditionne et qu'il s'essouffle de plus en plus vite, dans un cercle vicieux. La réhab casse ce cercle. C'est pris en charge en France (centres SSR pneumo, certaines associations comme PRP).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

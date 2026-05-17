@@ -1,0 +1,28 @@
+{
+  "id": "arret-tabac-c1-l03-risques-tabac",
+  "kind": "lesson",
+  "prompt": "Le tabac est la 1ère cause de mortalité ÉVITABLE en France (~75 000 morts/an). Quatre grandes familles de maladies expliquent l'essentiel de cette mortalité :\n\n1) CANCERS\n• Poumon (~85 % des cancers du poumon = tabac)\n• Voies aéro-digestives supérieures : bouche, gorge, larynx, œsophage\n• Vessie, pancréas, rein, col utérin\n• Et plus : ~17 localisations reconnues\n\n2) MALADIES CARDIO-VASCULAIRES (MCV)\n• Infarctus du myocarde (le tabac multiplie par ~2-4 le risque)\n• Artériopathie des membres inférieurs (jambes qui font mal en marchant)\n• Anévrysme aortique\n\n3) BPCO (BronchoPneumopathie Chronique Obstructive)\n• ~80 % des BPCO sont liées au tabac\n• Essoufflement progressif, toux chronique, expectorations\n• Évolution vers insuffisance respiratoire et oxygénothérapie\n\n4) AVC (Accident Vasculaire Cérébral)\n• Tabac = facteur de risque majeur, équivalent à l'HTA\n• Risque doublé chez le fumeur, encore plus si pilule + tabac chez la femme\n\nMessage clé : le tabac ne 'tue pas que le poumon'. Il abîme TOUS les vaisseaux du corps, partout.",
+  "rationale": "Pour la consultation : éviter les listes décourageantes type 'le tabac cause 17 cancers'. Préférer un message ancré : '1 fumeur sur 2 meurt prématurément de son tabac.' Les patients sous-estiment systématiquement les risques CV et BPCO (ils pensent surtout cancer poumon). Or BPCO et infarctus arrivent souvent AVANT le cancer.",
+  "tags": {
+    "system": ["pneumologie", "cardiovasculaire", "cancerologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cancer_smoking_lung_cancer_correlation_from_NIH-zh.svg",
+      "alt": "Graphique de corrélation entre consommation de cigarettes et mortalité par cancer du poumon, montrant la courbe ascendante parallèle entre les deux variables sur plusieurs décennies.",
+      "caption": "Plus on fume dans une population, plus le cancer du poumon explose ~20 ans plus tard. La preuve épidémiologique qui a fondé toute la lutte anti-tabac.",
+      "attribution": "Wikimedia Commons / NIH — domaine public"
+    }
+  ],
+  "status": "active"
+}

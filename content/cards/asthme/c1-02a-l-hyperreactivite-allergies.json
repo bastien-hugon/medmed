@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c1-l02-hyperreactivite-allergies",
+  "kind": "lesson",
+  "prompt": "Pourquoi un asthmatique fait-il une crise alors qu'une personne sans asthme respire la même fumée sans broncher ?\n\nParce que ses bronches sont HYPERRÉACTIVES : elles réagissent à des stimuli (poussière, pollen, fumée, air froid, effort) que des bronches normales ignorent. Le moindre déclencheur fait se contracter le muscle bronchique et gonfler la paroi.\n\nD'où vient cette hyperréactivité ? Souvent d'un TERRAIN ATOPIQUE : une tendance, en partie héréditaire, à fabriquer trop d'anticorps allergiques (IgE = immunoglobulines E) contre des choses banales — acariens, poils de chat, pollens.\n\nLes trois maladies du terrain atopique vont souvent ensemble :\n• Asthme (bronches)\n• Rhinite allergique (nez qui coule, éternuements aux pollens)\n• Eczéma atopique (peau)\n\nQuand on demande à un patient suspect d'asthme : « as-tu des allergies ? de l'eczéma ? un parent asthmatique ? » — chaque \"oui\" augmente la probabilité.",
+  "rationale": "Atopie ≠ allergie. Atopie = la prédisposition à développer des allergies. Tous les atopiques ne font pas forcément d'asthme, et tous les asthmes ne sont pas allergiques (il existe des asthmes non-atopiques, déclenchés par l'effort, l'AINS, etc.). Mais en pratique, en médecine générale, l'asthme allergique de terrain atopique est la forme la plus fréquente.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Asthma_attack-illustration_NIH.jpg",
+      "alt": "Illustration anatomique NIH d'une bronche en crise d'asthme : muscle resserré, paroi inflammatoire, mucus encombrant la lumière.",
+      "caption": "Bronche en crise : ce que produit une bronche \"hyperréactive\" face à un déclencheur (NIH, domaine public).",
+      "attribution": "Wikimedia Commons — National Heart, Lung and Blood Institute (NIH), domaine public"
+    }
+  ],
+  "status": "active"
+}

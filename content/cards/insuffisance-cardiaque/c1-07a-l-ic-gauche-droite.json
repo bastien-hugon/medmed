@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-l07-ic-gauche-droite",
+  "kind": "lesson",
+  "prompt": "Le cœur a 2 ventricules : le GAUCHE envoie le sang dans tout le corps, le DROIT envoie le sang dans les poumons.\n\nQuand UN des deux faiblit, le sang stagne EN AMONT.\n\nINSUFFISANCE CARDIAQUE GAUCHE (IC gauche) :\n• le ventricule gauche faiblit\n• le sang stagne dans les POUMONS\n• signes : dyspnée, orthopnée, crépitants à l'auscultation pulmonaire\n\nINSUFFISANCE CARDIAQUE DROITE (IC droite) :\n• le ventricule droit faiblit\n• le sang stagne dans les VEINES SYSTÉMIQUES (jambes, foie, jugulaires)\n• signes : œdèmes des MI, foie sensible/gros, veines jugulaires saillantes\n\nIC GLOBALE = les deux côtés défaillent. C'est la situation la plus fréquente en pratique chez les patients chroniques : l'IC gauche, mal soignée, finit par fatiguer le côté droit → IC globale.\n\nMnémo : signes 'haut' (poumon) = gauche. Signes 'bas' (jambes, foie) = droit.",
+  "rationale": "En vrai, distinguer gauche/droite/globale est surtout un exercice pédagogique. En MG, on parle d'IC tout court et on regarde la FEVG + l'écho pour le détail. Mais ça aide à comprendre POURQUOI un patient a tel ou tel symptôme. Et ça oriente l'examen clinique : palper le foie, regarder les jugulaires, ausculter les bases pulmonaires.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  IC gauche vs IC droite — où stagne le sang ?\n\n        IC GAUCHE                      IC DROITE\n   ┌──────────────────┐           ┌──────────────────┐\n   │  POUMONS (≋≋≋)   │  ← stagne │   POUMONS        │\n   │   ▲              │           │     ▲            │\n   │   │ retour       │           │     │            │\n   │  [VG faible]     │           │  [VD faible]     │\n   │   │              │           │     │            │ ← stagne\n   │   ↓ corps        │           │  JAMBES (≋≋≋)    │\n   │                  │           │  FOIE   (≋≋)     │\n   │                  │           │  JUGUL. (≋)      │\n   └──────────────────┘           └──────────────────┘\n\n   Signes \"haut\" (dyspnée) = G ; signes \"bas\" (œdèmes) = D",
+      "alt": "Schéma ASCII comparant l'IC gauche (sang qui stagne dans les poumons) et l'IC droite (sang qui stagne dans les jambes, le foie, les jugulaires).",
+      "caption": "Côté défaillant = stagnation en amont. Gauche → poumons. Droite → veines systémiques.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

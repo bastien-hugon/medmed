@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c1-q05-dep",
+  "kind": "cloze",
+  "prompt": "Le ___ (Débit Expiratoire de Pointe, en anglais peak flow) est la vitesse maximale à laquelle un patient peut expirer ; il chute quand les bronches sont rétrécies.",
+  "expected": ["DEP"],
+  "rationale": "DEP = Débit Expiratoire de Pointe = peak flow. Mesuré avec un petit appareil portable, exprimé en L/min. Pratique à domicile pour suivre l'évolution (variabilité matin/soir, comparaison à la meilleure valeur personnelle du patient). Attention : NICE NG245 dit de ne PAS utiliser le DEP en monitoring de routine — il sert surtout au diagnostic (variabilité ≥ 20 % = en faveur) et au plan d'action quand les symptômes se dégradent.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

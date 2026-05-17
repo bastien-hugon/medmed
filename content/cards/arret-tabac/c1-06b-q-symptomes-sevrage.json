@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c1-q06-symptomes-sevrage",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient qui vient d'arrêter de fumer il y a 4 jours t'appelle : 'Docteur, je suis insupportable avec ma femme, je ne dors plus, j'ai envie de hurler. C'est peut-être pas pour moi finalement.' Que lui répondre ?",
+  "choices": [
+    { "id": "a", "text": "C'est anormal, il faut arrêter le sevrage et reprendre une cigarette.", "correct": false },
+    { "id": "b", "text": "C'est le syndrome de sevrage à son pic (J3-J5). C'est transitoire, ça va s'atténuer. On peut renforcer les substituts nicotiniques.", "correct": true },
+    { "id": "c", "text": "C'est une dépression, il faut un antidépresseur en urgence.", "correct": false },
+    { "id": "d", "text": "C'est un problème de couple, il faut consulter un psychologue.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le pic du syndrome de sevrage est à J3-J5 : irritabilité, troubles du sommeil, anxiété, envies. C'est BIOLOGIQUE, transitoire (presque fini à 4 semaines pour le manque physique). Réponse adaptée : rassurer + intensifier substituts si besoin (par exemple, ajouter des gommes au timbre). Ne JAMAIS dire 'reprenez une cigarette' : on annule tout le travail.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

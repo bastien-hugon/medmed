@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c2-q08-remboursement-nrt",
+  "kind": "cloze",
+  "prompt": "En France, depuis 2019, les substituts nicotiniques (NRT) sont pris en charge par l'Assurance Maladie sur prescription, par remboursement classique, au taux de ___ %, SANS plafond annuel (l'ancien forfait de 150 €/an a été supprimé).",
+  "expected": ["65"],
+  "rationale": "Depuis le 1ᵉʳ janvier 2019, remboursement de droit commun à 65 % sur ordonnance, sans plafond annuel. Prescription possible par médecin, sage-femme, dentiste, masseur-kinésithérapeute, infirmier. Dispense d'avance de frais en pharmacie. C'est un changement par rapport à l'ancien forfait limité de 150 €/an (étendu aux femmes enceintes en 2011), aujourd'hui supprimé. Source : ameli.fr.",
+  "tags": {
+    "system": ["addictologie", "prevention", "sante-publique"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

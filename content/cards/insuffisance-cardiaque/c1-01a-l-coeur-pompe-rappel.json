@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-l01-coeur-pompe-rappel",
+  "kind": "lesson",
+  "prompt": "Rappel : le cœur est une POMPE musculaire. Il aspire le sang qui revient des organes, puis le propulse à nouveau dans tout le corps, ~70 fois par minute.\n\nDans l'HYPERTENSION ARTÉRIELLE (HTA), le problème est dans le TUYAU : la pression contre la paroi des artères est trop haute. Le cœur, lui, fonctionne encore.\n\nDans l'INSUFFISANCE CARDIAQUE (IC), le problème est dans la POMPE elle-même : le cœur n'arrive plus à pousser assez de sang vers les organes. Soit il pompe moins fort (muscle affaibli), soit il n'arrive pas à bien se remplir entre deux battements.\n\nConséquence directe : le sang stagne en amont du cœur (poumons, jambes) et arrive en quantité insuffisante en aval (muscles, cerveau, reins). C'est de là que viennent TOUS les symptômes : essoufflement, œdèmes, fatigue.",
+  "rationale": "Garde l'image : HTA = tuyau sous trop de pression ; IC = pompe fatiguée. Les deux sont souvent liés (une HTA mal soignée fatigue le cœur et finit par causer une IC), mais ce sont deux mécaniques différentes. C'est aussi pour ça que le cœur a une 'fraction d'éjection' (FEVG) qu'on va apprendre à mesurer : c'est le pourcentage de sang qu'il arrive à éjecter à chaque battement.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/Anatomy_Heart_English_Tiesworks.jpg",
+      "alt": "Schéma anatomique d'un cœur humain en coupe avec ses quatre cavités (deux oreillettes en haut, deux ventricules en bas) et les gros vaisseaux qui en partent.",
+      "caption": "Le cœur, pompe à 4 cavités. Dans l'IC, c'est cette pompe qui faiblit — pas le tuyau.",
+      "attribution": "Wikimedia Commons — Tiesworks, domaine public"
+    }
+  ],
+  "status": "active"
+}

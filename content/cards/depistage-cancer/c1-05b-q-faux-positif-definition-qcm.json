@@ -1,0 +1,26 @@
+{
+  "id": "depistage-cancer-c1-q05b-faux-positif-definition",
+  "kind": "qcm-vignette",
+  "prompt": "Madame B., 58 ans, a réalisé un test FIT dans le cadre du dépistage du cancer colorectal. Le test est POSITIF. Une coloscopie est faite : elle ne retrouve aucun polype ni lésion suspecte. Comment qualifier ce résultat ?",
+  "choices": [
+    { "id": "a", "text": "Vrai positif", "correct": false },
+    { "id": "b", "text": "Vrai négatif", "correct": false },
+    { "id": "c", "text": "Faux positif", "correct": true },
+    { "id": "d", "text": "Faux négatif", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Le test FIT a annoncé 'positif' (présence de sang dans les selles), mais le bilan complémentaire (coloscopie) ne retrouve aucune lésion maligne. C'est un FAUX POSITIF du dépistage : le saignement venait probablement d'autre chose (hémorroïdes, fissure, lésion bénigne...). Important : ça ne veut pas dire que le test était 'mauvais' — il a joué son rôle de filtre. La coloscopie a corrigé le tir. C'est pour ça que le FIT n'est jamais à lui seul un diagnostic.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [3, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sensibilit%C3%A9_et_sp%C3%A9cificit%C3%A9",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

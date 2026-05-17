@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q01-ic-vs-hta",
+  "kind": "qcm-vignette",
+  "prompt": "Dans l'INSUFFISANCE CARDIAQUE (IC), qu'est-ce qui dysfonctionne en premier ?",
+  "choices": [
+    { "id": "a", "text": "Le tuyau (artère) qui est trop tendu", "correct": false },
+    { "id": "b", "text": "La pompe (le cœur) qui ne propulse plus assez de sang", "correct": true },
+    { "id": "c", "text": "Le sang lui-même devient trop visqueux", "correct": false },
+    { "id": "d", "text": "Les valves se ferment trop vite", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "HTA = problème de tuyau (pression contre la paroi). IC = problème de pompe (le cœur ne pousse plus assez). Les deux peuvent coexister, mais c'est bien la pompe qui faiblit dans l'IC.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "saos-c1-02a-l-ronflement",
+  "kind": "lesson",
+  "prompt": "Le RONFLEMENT, c'est le bruit que fait l'air quand il passe dans une gorge un peu trop étroite : les tissus mous (palais, luette, paroi du pharynx) vibrent au passage de l'air, comme une anche de clarinette.\n\nQuasiment tout le monde a ronflé un jour. Ce n'est pas en soi une maladie.\n\nMAIS : un ronflement INTENSE, QUOTIDIEN, INTERROMPU par des silences (avec parfois une reprise 'explosive' rapportée par le conjoint), c'est un SIGNE D'ALERTE pour le SAOS. La gorge n'est plus seulement étroite — elle se ferme par moments.\n\nÀ retenir :\n• Ronfler n'est PAS spécifique du SAOS (beaucoup ronflent sans en avoir)\n• Mais quasiment tous les SAOS ronflent (sensible, pas spécifique)\n• Le ronflement qui doit alerter, c'est celui avec PAUSES respiratoires entendues",
+  "rationale": "C'est souvent le conjoint qui amène le patient à consulter, pas le patient lui-même (qui dort pendant). Question clé en consultation MG : « est-ce que votre partenaire vous a déjà dit que vous arrêtiez de respirer la nuit ? » Cette question simple a une valeur prédictive forte.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

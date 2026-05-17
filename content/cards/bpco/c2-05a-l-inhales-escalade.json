@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c2-l05-inhales-escalade",
+  "kind": "lesson",
+  "prompt": "Le traitement médicamenteux de la BPCO repose sur des médicaments INHALÉS — on les fait inspirer pour qu'ils agissent directement dans les bronches. Cinq familles à connaître :\n\n• SABA (Short-Acting Beta-Agonist) : bronchodilatateur courte durée, ex. salbutamol. Effet rapide, durée 4-6h.\n• SAMA (Short-Acting Muscarinic Antagonist) : autre bronchodilatateur courte durée, ex. ipratropium.\n• LABA (Long-Acting Beta-Agonist) : bronchodilatateur LONGUE durée (12-24h), ex. formotérol, salmétérol, indacatérol.\n• LAMA (Long-Acting Muscarinic Antagonist) : bronchodilatateur LONGUE durée, ex. tiotropium, glycopyrronium.\n• ICS (Inhaled CorticoSteroid) : corticoïde inhalé, anti-inflammatoire, ex. budésonide, fluticasone.\n\nL'ESCALADE thérapeutique (logique NICE NG115) :\n\nÉtape 1 — SABA ou SAMA À LA DEMANDE pour soulager la dyspnée d'effort. On les garde TOUJOURS (même quand on rajoute du long-action) pour les urgences ponctuelles.\n\nÉtape 2 — Bithérapie longue durée si dyspnée persiste ou exacerbations malgré l'arrêt tabac + vaccins + SABA :\n  • LAMA + LABA (= base) chez la plupart des patients\n  • LABA + ICS si traits asthmatiques (= 'asthme-BPCO overlap') : antécédent d'asthme, éosinophiles élevés, variabilité du VEMS, réponse forte aux bronchodilatateurs\n\nÉtape 3 — Trithérapie LAMA + LABA + ICS si la bithérapie ne suffit pas (carte suivante).\n\nRetenir : court-action à la demande, long-action en fond, ICS uniquement si raison clinique de l'ajouter.",
+  "rationale": "Les ICS ne sont PAS systématiques en BPCO (différence majeure avec l'asthme). On les ajoute pour des indications précises : traits asthmatiques, éosinophilie, exacerbations récidivantes. Donner un ICS à un BPCO 'tout-venant' augmente le risque de pneumopathies sans bénéfice évident. Mnémo des classes : '-térol' = LABA, '-tropium / -ronium' = LAMA, '-asone / -sonide' = ICS.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Escalade inhalee BPCO (NICE NG115)\n\n  +---------------------------------------+\n  | 1. SABA ou SAMA a la demande          |\n  |    (salbutamol, ipratropium)          |\n  +---------------------------------------+\n          v si symptomes / exacerbations\n  +---------------------------------------+\n  | 2. Bitherapie longue duree            |\n  |    LAMA + LABA  (standard)            |\n  |    LABA + ICS   (traits asthmatiques) |\n  +---------------------------------------+\n          v si controle insuffisant\n  +---------------------------------------+\n  | 3. Tritherapie LAMA + LABA + ICS      |\n  +---------------------------------------+\n  Socle : arret tabac, vaccins, rehab.",
+      "alt": "Schema ASCII de l'escalade therapeutique de la BPCO : etape 1 SABA/SAMA a la demande, etape 2 bitherapie longue duree LAMA+LABA ou LABA+ICS, etape 3 tritherapie LAMA+LABA+ICS.",
+      "caption": "Escalade en trois etages : a la demande -> bitherapie longue -> tritherapie.",
+      "attribution": "medmed, schema original d'apres NICE NG115"
+    }
+  ],
+  "status": "active"
+}

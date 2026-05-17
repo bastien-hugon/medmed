@@ -1,0 +1,27 @@
+{
+  "id": "vaccination-adulte-c1-l05-grippe-annuelle-65",
+  "kind": "lesson",
+  "prompt": "La GRIPPE SAISONNIÈRE est une infection respiratoire fréquente, en général bénigne — mais elle peut devenir grave (hospitalisation, décès) chez certaines personnes plus fragiles.\n\nC'est pourquoi on recommande une vaccination ANNUELLE chez les personnes à risque :\n\n• Toutes les personnes de 65 ans ou plus.\n• Les personnes avec une maladie chronique : diabète, BPCO (bronchopneumopathie chronique obstructive), asthme sévère, insuffisance cardiaque, IRC (insuffisance rénale chronique), immunodépression, obésité importante.\n• Les femmes enceintes (à tout moment de la grossesse, pendant la saison grippale).\n• Les professionnels de santé (eux-mêmes exposés et pour ne pas transmettre aux patients fragiles).\n• L'entourage des nourrissons de moins de 6 mois (qui ne peuvent pas être vaccinés directement).\n\nPourquoi tous les ans ? Le virus de la grippe MUTE en permanence. Le vaccin est réadapté chaque année aux souches qui circulent.\n\nLe vaccin antigrippal est INACTIVÉ — pas de CI majeure liée à la grossesse ou à l'immunodépression. Au contraire : ces situations sont des INDICATIONS.",
+  "rationale": "Erreur fréquente du grand public : « j'ai eu la grippe l'année dernière, je suis tranquille ». Faux — chaque année c'est une nouvelle souche, l'immunité acquise ne couvre plus. Conséquence pratique : aborder systématiquement la grippe en consultation d'octobre à janvier chez les patients ciblés. Donnée : la vaccination réduit d'environ 30 % les hospitalisations grippales chez les sujets âgés.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Flu_vaccine_vial_%282021%29_A.jpg",
+      "alt": "Flacon de vaccin antigrippal saisonnier, dose multidose à l'usage des soignants.",
+      "caption": "Vaccin antigrippal saisonnier : 1 injection annuelle, réadaptée aux souches qui circulent chaque année.",
+      "attribution": "Wikimedia Commons — Flu vaccine vial (2021)"
+    }
+  ]
+}

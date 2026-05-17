@@ -1,0 +1,19 @@
+{
+  "id": "irc-c2-l04-iec-ara2",
+  "kind": "lesson",
+  "prompt": "Chez un patient avec MRC, les IEC (inhibiteurs de l'enzyme de conversion, ex. ramipril) et les ARA2 (antagonistes des récepteurs de l'angiotensine 2, ex. losartan) sont les médicaments NÉPHROPROTECTEURS de première ligne.\n\nLeur effet va au-delà de la baisse de la PA : ils dilatent SPÉCIFIQUEMENT l'artériole efférente du glomérule, ce qui baisse la pression intra-glomérulaire et donc l'usure du tamis. Conséquence : ils réduisent la protéinurie ET ralentissent la chute du DFG.\n\nIndications selon NICE NG203 :\n• Diabète + ACR ≥ 3 mg/mmol (= dès la microalbuminurie)\n• Pas de diabète + HTA + ACR > 30 mg/mmol\n• Pas de diabète + pas d'HTA + ACR ≥ 70 mg/mmol (et orientation néphro)\n\nRègles d'or :\n• Titrer la dose progressivement jusqu'au MAXIMUM TOLÉRÉ (la dose efficace, pas la dose minimale)\n• JAMAIS associer un IEC ET un ARA2 (double blocage SRAA = trop d'effets indésirables, sans bénéfice)\n• NE PAS débuter si K+ pré-traitement > 5,0 mmol/L (risque d'hyperkaliémie sévère)\n• Surveiller K+ et créat AVANT, puis 1 à 2 semaines APRÈS chaque changement de dose\n\nEffets indésirables à connaître : toux sèche (IEC seulement, due aux bradykinines), hyperkaliémie, hausse modérée de la créat (acceptable jusqu'à 30 %), angio-œdème (rare mais grave).",
+  "rationale": "Concept critique : la HAUSSE INITIALE de créat sous IEC/ARA2 est ATTENDUE et BÉNIGNE jusqu'à 30 % — c'est le signe que le médicament fait son travail (baisse de la pression intra-glomérulaire). Tant qu'on reste sous 30 %, on poursuit. Au-delà, on recontrôle et on cherche une cause (déshydratation, AINS, sténose artère rénale). Ne JAMAIS arrêter sur une hausse de créat de 10-20 %.",
+  "tags": {
+    "system": ["nephrologie", "cardiovasculaire"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

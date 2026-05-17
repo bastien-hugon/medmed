@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c1-l07-tiffeneau",
+  "kind": "lesson",
+  "prompt": "On a vu deux chiffres que mesure la spirométrie :\n• Le VEMS (air expiré en 1 seconde)\n• La CVF (air total expiré)\n\nLe COEFFICIENT DE TIFFENEAU, c'est juste leur rapport :\n\n  Tiffeneau = VEMS / CVF\n\nC'est un ratio. Il représente la fraction de l'air total que tu peux sortir en 1 seconde. Quand les bronches sont bien ouvertes, tu sors la quasi-totalité de l'air en 1 seconde — ce ratio est élevé (>= 0.75 normalement chez l'adulte sain).\n\nQuand les bronches sont rétrécies (BPCO), l'air sort lentement. Tu mets plusieurs secondes à tout expulser. Donc, en 1 seconde, tu ne sors qu'une petite fraction. Le ratio CHUTE.\n\nLe SEUIL DIAGNOSTIQUE : un Tiffeneau (VEMS/CVF) < 0,70 (soit 70%) signe une OBSTRUCTION bronchique.\n\nC'est LA clé du diagnostic de BPCO. Tout est résumé dans ce petit rapport.\n\nAttention au piège : on calcule ce rapport APRÈS avoir donné un bronchodilatateur (médicament qui ouvre les bronches). Si l'obstruction persiste après bronchodilatateur, elle est dite 'fixée' — c'est le propre de la BPCO.",
+  "rationale": "Mnémo Tiffeneau : 'le rapport qui doit dépasser 70%'. Sous la barre des 70%, le diagnostic d'obstruction est posé. C'est l'équivalent en pneumo du seuil 140/90 en HTA : un chiffre simple, validé, qui sépare le normal du pathologique. On reviendra en C2 sur les seuils précis et la classification GOLD.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Coefficient de Tiffeneau = VEMS / CVF\n\n  VEMS = Volume Expire Maximal en 1 Seconde\n  CVF  = Capacite Vitale Forcee (volume total)\n\n  ----------------------------------------------\n   Sujet sain :    VEMS = 3.5 L\n                   CVF  = 4.5 L\n                   ---> 3.5 / 4.5 = 0.78  OK\n\n   BPCO :          VEMS = 1.8 L (bronches retrecies)\n                   CVF  = 3.0 L\n                   ---> 1.8 / 3.0 = 0.60  OBSTRUCTION\n  ----------------------------------------------\n\n   SEUIL : Tiffeneau < 0.70 = obstruction\n           (apres bronchodilatateur = BPCO)",
+      "alt": "Schema ASCII montrant le calcul du coefficient de Tiffeneau VEMS/CVF chez un sujet sain (0.78) versus un patient BPCO (0.60), avec le seuil pathologique a 0.70.",
+      "caption": "Tiffeneau = VEMS / CVF. Sous 0.70 apres bronchodilatateur = BPCO.",
+      "attribution": "medmed, schema original d'apres NICE NG115"
+    }
+  ],
+  "status": "active"
+}

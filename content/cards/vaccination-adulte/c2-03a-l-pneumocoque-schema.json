@@ -1,0 +1,29 @@
+{
+  "id": "vaccination-adulte-c2-l03-pneumocoque-schema",
+  "kind": "lesson",
+  "prompt": "Le PNEUMOCOQUE (Streptococcus pneumoniae) est l'une des principales causes de pneumonie communautaire grave, de méningite et de bactériémie chez l'adulte âgé ou fragile.\n\nLe schéma de vaccination de l'adulte a été SIMPLIFIÉ en France (calendrier 2024-2025) : on est passé d'un schéma séquentiel en 2 temps (PCV13 → PPV23 à 8 semaines) à une DOSE UNIQUE de vaccin conjugué de nouvelle génération, à plus large couverture.\n\nVaccins actuellement recommandés chez l'adulte :\n\n• VPC20 — Prevenar 20 (vaccin CONJUGUÉ couvrant 20 sérotypes).\n• VPC21 — Capvaxive (vaccin CONJUGUÉ couvrant 21 sérotypes, ciblant les sérotypes adultes).\n\nSchéma recommandé :\n\n   UNE SEULE INJECTION de VPC20 ou VPC21\n   (la nécessité d'un rappel n'est pas établie à ce jour)\n\nIndications principales chez l'adulte (HAS / calendrier vaccinal en vigueur) :\n• Tous les adultes ≥ 65 ans (recommandation universelle).\n• Adultes 18-64 ans à risque élevé :\n   – Immunodéprimés (greffe, chimiothérapie, biothérapies, splénectomie/asplénie fonctionnelle, infection à VIH).\n   – Maladies chroniques majeures : cardiopathie, BPCO/asthme sévère, IRC, syndrome néphrotique, cirrhose, diabète, brèche ostéo-méningée, implant cochléaire.\n\nLes anciens vaccins PCV13 (Prevenar 13) et PPV23 (Pneumovax 23) restent disponibles mais ne sont plus le schéma de référence chez l'adulte non encore vacciné.\n\nLOGIQUE : un seul vaccin conjugué à très large couverture remplace le schéma en 2 temps — plus simple, meilleure observance, mémoire immunitaire de qualité.",
+  "rationale": "Mnémo : « 65 ans → 1 dose de VPC20 ou VPC21, point ». Acronymes : VPC = Vaccin Pneumococcique Conjugué ; le chiffre = nombre de sérotypes couverts ; PPV/VPP = polysaccharidique. Conséquence pratique : devant un patient de 65 ans ou un splénectomisé non vacciné, UNE seule injection de VPC20/VPC21 suffit aujourd'hui — plus besoin de programmer le rappel PPV23 à 8 semaines. Si le patient a déjà reçu un schéma séquentiel ancien, ne pas le refaire systématiquement, vérifier le carnet et discuter avec le calendrier en vigueur.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "pneumocoque"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/Infections-a-pneumocoque",
+    "version": "consulté en 2026-05",
+    "note": "Recommandations adultes 2025 : dose unique de VPC20 (Prevenar 20) ou VPC21 (Capvaxive) pour 65+ et 18-64 à risque. Schéma séquentiel PCV13→PPV23 à 8 sem retiré du schéma de référence adulte."
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Prevenar%2C_Pneumococcal_conjugate_vaccine_%28PCV13%29.jpg",
+      "alt": "Boîte d'un vaccin pneumococcique conjugué (Prevenar), illustrant la famille des vaccins conjugués utilisés contre Streptococcus pneumoniae.",
+      "caption": "Famille des vaccins pneumococciques conjugués. Aujourd'hui chez l'adulte : VPC20 ou VPC21 en dose unique.",
+      "attribution": "Wikimedia Commons — Prevenar"
+    }
+  ],
+  "status": "active"
+}

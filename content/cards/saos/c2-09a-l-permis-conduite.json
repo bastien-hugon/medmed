@@ -1,0 +1,29 @@
+{
+  "id": "saos-c2-09a-l-permis-conduite",
+  "kind": "lesson",
+  "prompt": "Le SAOS a des conséquences MÉDICO-LÉGALES importantes sur l'aptitude à la conduite, à cause du risque d'endormissement au volant.\n\nLa réglementation française (arrêté du 28 mars 2022) distingue :\n\nPERMIS NON PROFESSIONNEL (B, A, etc.) :\n• Pas d'incompatibilité automatique\n• Mais inaptitude TEMPORAIRE si SAOS NON traité avec somnolence sévère ou ATCD d'accident d'endormissement\n• Reprise après traitement efficace (CPAP avec observance documentée, par exemple)\n\nPERMIS PROFESSIONNEL (C, D, taxi, VTC, etc.) :\n• Inaptitude TEMPORAIRE en cas de SAOS MODÉRÉ à SÉVÈRE NON traité\n• Reprise après évaluation par un médecin agréé, démonstration d'un traitement efficace et observant\n• Réévaluations périodiques (tous les 1 à 3 ans selon situation)\n\nEN PRATIQUE MG :\n• Toujours interroger sur la profession dès la suspicion (chauffeur poids lourd ? bus ? taxi ?)\n• Conseiller au patient d'ARRÊTER la conduite à risque tant que le diagnostic n'est pas posé / le traitement pas instauré\n• Informer (et tracer dans le dossier) du risque accidentogène et de l'obligation de signaler\n• Adresser à un médecin agréé si nécessaire pour l'avis d'aptitude\n\nLe non-respect peut engager la responsabilité du conducteur en cas d'accident.",
+  "rationale": "Réflexe à avoir : la question du permis vient AVANT même les explorations chez un patient qui conduit pour vivre. Mieux vaut un arrêt de travail bref pendant le bilan qu'un accident grave non couvert par l'assurance. Cette dimension médico-légale fait partie intégrante de la prise en charge MG du SAOS.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques",
+      "prevention"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

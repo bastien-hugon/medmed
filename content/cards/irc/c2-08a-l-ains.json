@@ -1,0 +1,19 @@
+{
+  "id": "irc-c2-l08-ains",
+  "kind": "lesson",
+  "prompt": "Les AINS (anti-inflammatoires non stéroïdiens : ibuprofène, kétoprofène, naproxène, diclofénac, etc.) sont parmi les médicaments les plus consommés en France — et l'un des principaux poisons du rein chronique.\n\nMécanisme :\nLes AINS bloquent les prostaglandines, qui maintiennent la dilatation de l'artériole AFFÉRENTE du glomérule (l'entrée du tamis). Sans elles, l'artériole se serre → la pression de filtration chute → le DFG baisse.\n\nDeux effets distincts :\n\n1. AIGU — baisse réversible du DFG (en quelques jours)\n   • Risque majoré : déshydratation, IEC/ARA2 associé, diurétique associé (la 'triple whammy')\n   • Réversible à l'arrêt si pris à temps\n\n2. CHRONIQUE — usage prolongé → progression de la MRC, parfois irréversible\n\nRecommandation NICE NG203 : ÉVITER l'usage chronique d'AINS chez tout patient à risque de MRC (incluant tous les MRC connus). Pour les usages aigus (entorse, douleur dentaire), on les évite ou on les limite à 2-3 jours maximum, avec hydratation suffisante.\n\nPièges :\n• Ibuprofène EN VENTE LIBRE — le patient peut l'utiliser sans nous le dire\n• Topiques (gels) : passage systémique limité mais non nul, prudence chez MRC sévère\n• 'Anti-grippal' contenant un AINS : à dépister à l'interrogatoire\n• Coxibs (célécoxib) : même profil rénal que les AINS classiques",
+  "rationale": "Question à poser systématiquement chez tout patient MRC : 'Prenez-vous de l'ibuprofène, Doliprane CodéiNe + 1000, Advil, ou autre 'anti-douleur' acheté en pharmacie sans ordonnance ?'. L'éducation thérapeutique sur les AINS chez le MRC est souvent négligée — c'est une cible facile pour ralentir la progression. Alternative pour douleur aiguë : paracétamol seul (1g x 3-4/j max, à adapter si très bas DFG).",
+  "tags": {
+    "system": ["nephrologie", "pharmacologie"],
+    "sdd": ["irc", "mrc", "iatrogenie"],
+    "item_edn": [261, 264, 326],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

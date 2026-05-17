@@ -1,0 +1,37 @@
+{
+  "id": "saos-c2-06a-l-cpap",
+  "kind": "lesson",
+  "prompt": "Le traitement de RÉFÉRENCE du SAOS modéré à sévère, c'est la PPC ou CPAP (Continuous Positive Airway Pressure) — Pression Positive Continue en français.\n\nPrincipe : un petit appareil envoie de l'air sous pression dans le nez (via un masque) toute la nuit. Cette pression maintient le pharynx OUVERT — comme on gonflerait un ballon pour qu'il ne se dégonfle pas. L'air ne sert pas à respirer (le patient respire de lui-même), il sert à 'stenter' les voies aériennes.\n\nCaractéristiques techniques :\n• Pression : 4 à 20 cm H₂O (titrée individuellement, parfois auto-ajustable = APAP)\n• Masque : nasal ou facial selon le confort et la respiration buccale\n• Durée d'utilisation : recommandée ≥ 4 h par nuit pour être efficace (et pour le remboursement en France, le seuil minimal est ~4 h/nuit pendant ≥ 70 % des nuits)\n• Effets indésirables fréquents : sécheresse / irritation cutanée du masque, rhinite, conjonctivite (fuites)\n• Observance long terme : autour de 80 % à 1 an\n\nBénéfices PROUVÉS :\n• Réduction de la somnolence diurne\n• Amélioration qualité de vie\n• Baisse modeste de la PA (surtout HTA résistante)\n\nBénéfices DISCUTÉS (méta-analyses récentes) :\n• Réduction de la mortalité cardiovasculaire (effet moindre que prévu)\n\nC'est lourd au quotidien, mais c'est ce qu'on a de mieux pour les SAOS sévères symptomatiques.",
+  "rationale": "Image utile : la CPAP n'est pas un 'respirateur' (le patient respire seul). C'est une attelle pneumatique du pharynx. D'où l'importance d'expliquer au patient : 'cet appareil ne respire pas à votre place, il empêche votre gorge de se fermer'. Cette pédagogie améliore l'observance.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Schlafapnoe_cpap.svg",
+      "alt": "Schéma anatomique d'un patient porteur d'un masque CPAP : l'air sous pression (flèches bleues) traverse le pharynx et le maintient ouvert pendant l'inspiration.",
+      "caption": "CPAP : un flux d'air à pression positive (4-20 cm H₂O) maintient le pharynx ouvert pendant le sommeil.",
+      "attribution": "Wikimedia Commons — Michael Brenner, CC BY-SA"
+    }
+  ],
+  "status": "active"
+}

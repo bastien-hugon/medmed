@@ -1,0 +1,21 @@
+{
+  "id": "vaccination-adulte-c2-s10-nouvelle-info-vaccinale",
+  "kind": "sct",
+  "prompt": "Test de Concordance de Script — vaccination.\n\nUn patient de 68 ans, diabétique, BPCO modérée, vient pour une consultation de prévention en octobre. Vous envisagez de lui proposer la vaccination antigrippale annuelle.",
+  "hypothesis": "L'indication à vacciner contre la grippe cette saison est forte.",
+  "new_info": "À l'interrogatoire, il signale avoir présenté une réaction anaphylactique sévère, documentée et avérée, à une dose précédente du vaccin antigrippal il y a deux ans.",
+  "expected": "affaiblit",
+  "rationale": "Une anaphylaxie documentée à un vaccin (ou à un de ses composants, par exemple l'œuf pour certaines formulations) est une CONTRE-INDICATION ABSOLUE à une nouvelle administration du même vaccin. La nouvelle info AFFAIBLIT l'indication initialement forte. Conduite à tenir : discussion en milieu spécialisé (allergologue), vaccins alternatifs (formulations sans œuf, recombinantes), et stratégie de cocon (vacciner l'entourage). Distinguer une vraie anaphylaxie (Quincke, choc) d'effets indésirables banals (douleur locale, fébricule) qui ne sont PAS des contre-indications.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "vaccination-adulte-c1-q02-anticorps-roles",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi les propositions suivantes, laquelle décrit le mieux le rôle des ANTICORPS lors d'une réponse vaccinale ?",
+  "choices": [
+    { "id": "a", "text": "Ils détruisent directement les cellules de l'organisme déjà infectées par le microbe.", "correct": false },
+    { "id": "b", "text": "Ils circulent dans le sang et se fixent sur le microbe pour le neutraliser et le marquer pour destruction.", "correct": true },
+    { "id": "c", "text": "Ils produisent une chaleur locale qui inactive thermiquement le microbe.", "correct": false },
+    { "id": "d", "text": "Ils stockent l'information génétique du microbe dans le noyau des cellules immunitaires.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les anticorps (produits par les lymphocytes B) sont des protéines circulantes qui SE COLLENT au microbe : c'est l'immunité humorale. La destruction des cellules déjà infectées est le travail des cellules T cytotoxiques (immunité cellulaire). Distinguer ces deux versants est essentiel pour comprendre les vaccins (humoraux dominants), les CI chez l'immunodéprimé, et les sérologies post-vaccinales.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Immunit%C3%A9_acquise",
+    "version": "consulté en 2026-05"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c1-q02-atopie",
+  "kind": "qcm-vignette",
+  "prompt": "Une femme de 28 ans consulte pour une toux sèche nocturne récidivante depuis 6 mois. Elle a un eczéma depuis l'enfance, une rhinite saisonnière aux pollens de graminées, et son frère est asthmatique. Que disent ces antécédents ?",
+  "choices": [
+    { "id": "a", "text": "Rien de particulier, ce sont des problèmes indépendants.", "correct": false },
+    { "id": "b", "text": "Ils évoquent un terrain atopique, qui augmente la probabilité d'asthme.", "correct": true },
+    { "id": "c", "text": "Ils éliminent un asthme : on cherche autre chose.", "correct": false },
+    { "id": "d", "text": "Ils imposent un bilan allergologique en urgence avant toute autre démarche.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Eczéma + rhinite allergique + asthme familial = la triade atopique classique. Devant une toux nocturne récidivante chez une femme jeune avec ce terrain, l'asthme est l'hypothèse n°1. Ça ne dispense pas d'un test objectif (FeNO, spirométrie) pour confirmer — mais ça oriente fortement.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

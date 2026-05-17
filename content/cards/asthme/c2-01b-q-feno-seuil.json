@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c2-q01-feno-seuil",
+  "kind": "cloze",
+  "prompt": "Chez l'adulte (≥ 12 ans), NICE NG245 retient un FeNO (Fraction Exhalée de NO) comme positif pour l'asthme à partir de ___ ppb.",
+  "expected": ["50"],
+  "rationale": "Seuil adulte = 50 ppb (chez l'enfant 5-16 ans, le seuil est plus bas : 35 ppb). FeNO = marqueur d'inflammation bronchique éosinophilique, monte quand les bronches sont enflammées et n'ont pas reçu de corticoïdes inhalés. Sous traitement, le FeNO baisse — donc un FeNO normal sous ICS n'élimine PAS un asthme.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

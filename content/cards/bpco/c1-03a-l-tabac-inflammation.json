@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c1-l03-tabac-inflammation",
+  "kind": "lesson",
+  "prompt": "Voici l'idée centrale de la BPCO (Broncho-Pneumopathie Chronique Obstructive) :\n\nQuand on inhale de la fumée de tabac pendant des années, les bronches s'irritent. À chaque bouffée, des milliers de substances toxiques agressent la paroi des bronches.\n\nLe corps réagit par une INFLAMMATION : la paroi des bronches gonfle, fabrique beaucoup de mucus (= les glaires), et finit par s'épaissir. Les bronches deviennent plus étroites — l'air passe moins bien.\n\nEn parallèle, certaines parois d'alvéoles se détruisent (emphysème) : la surface d'échange diminue.\n\nRésultat, après 20-30 ans de tabac chez les personnes susceptibles : les bronches sont rétrécies en permanence, et c'est IRRÉVERSIBLE. Le souffle est durablement diminué.\n\nLe tabac est responsable d'environ 80% des BPCO. Les autres causes : poussières professionnelles, pollution, déficit génétique rare.",
+  "rationale": "À retenir : BPCO = inflammation chronique des bronches + destruction alvéolaire, causée surtout par le TABAC. Le mot 'obstructive' veut dire que l'air a du mal à sortir. Et 'chronique' veut dire que ça dure et que ça ne se guérit pas — on peut juste freiner. D'où l'urgence absolue d'arrêter de fumer dès qu'on diagnostique.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Copd_versus_healthy_lung.jpg",
+      "alt": "Comparaison anatomique entre un poumon sain (à gauche, tissu rose homogène) et un poumon de patient BPCO (à droite, tissu noirci par le tabac avec destruction du parenchyme et grandes bulles d'emphysème).",
+      "caption": "Poumon sain (gauche) vs poumon BPCO (droite) : noirci par le tabac, parenchyme détruit, bulles d'emphysème.",
+      "attribution": "Wikimedia Commons - Copd versus healthy lung"
+    }
+  ],
+  "status": "active"
+}

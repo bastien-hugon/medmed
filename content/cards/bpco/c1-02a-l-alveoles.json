@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c1-l02-alveoles",
+  "kind": "lesson",
+  "prompt": "Au bout des plus petites bronches, l'air arrive dans des micro-sacs : les ALVÉOLES.\n\nUne alvéole, c'est une bulle minuscule (~0,2 mm) dont la paroi est ultra-fine. Tout autour de cette paroi, il y a des capillaires sanguins — des micro-vaisseaux où circule le sang.\n\nDans une alvéole, il se passe LA chose essentielle de la respiration :\n• L'OXYGÈNE (O2) de l'air traverse la paroi et passe dans le sang.\n• Le DIOXYDE DE CARBONE (CO2), le déchet, fait le chemin inverse : il sort du sang et part avec l'air expiré.\n\nIl y a environ 300 MILLIONS d'alvéoles dans tes poumons. Mises bout à bout, leur surface ferait celle d'un terrain de tennis. Tout ça pour maximiser les échanges.\n\nC'est l'organe d'échange entre l'air et le sang.",
+  "rationale": "Dans la BPCO de type emphysème, les parois entre alvéoles se détruisent : 100 petites alvéoles fusionnent en une grosse bulle. La surface d'échange chute -> moins d'O2 passe dans le sang -> essoufflement. C'est mécanique : moins de surface, moins d'échange.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Alveolus_diagram.svg/500px-Alveolus_diagram.svg.png",
+      "alt": "Schéma d'une alvéole pulmonaire : sac aérien entouré de capillaires sanguins, montrant l'échange d'oxygène (O2) entrant dans le sang et de dioxyde de carbone (CO2) sortant du sang.",
+      "caption": "Une alvéole : sac d'air entouré de capillaires. O2 entre dans le sang, CO2 en sort.",
+      "attribution": "Wikimedia Commons - Alveolus diagram, domaine public"
+    }
+  ],
+  "status": "active"
+}

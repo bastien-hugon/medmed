@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q01-ntprobnp-urgent",
+  "kind": "qcm-vignette",
+  "prompt": "Mme P., 68 ans, consulte pour dyspnée et œdèmes des chevilles. Son NT-proBNP revient à 3 400 ng/L. Que faites-vous ?",
+  "choices": [
+    { "id": "a", "text": "Rassurer et recontrôler dans 3 mois", "correct": false },
+    { "id": "b", "text": "Demander une échographie cardiaque dans les 6 semaines", "correct": false },
+    { "id": "c", "text": "Demander une échographie cardiaque + bilan spécialisé en URGENCE (< 2 semaines)", "correct": true },
+    { "id": "d", "text": "Doser un BNP en complément avant toute décision", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "NT-proBNP > 2000 ng/L (ici 3400) chez un patient symptomatique = forte suspicion d'IC. NICE NG106 recommande une référence URGENTE pour écho cardiaque et bilan dans les 2 semaines. Pas de redoublage par BNP — les deux marqueurs disent la même chose.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

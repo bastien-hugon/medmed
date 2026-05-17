@@ -1,0 +1,28 @@
+{
+  "id": "arret-tabac-c1-l06-syndrome-sevrage",
+  "kind": "lesson",
+  "prompt": "Quand un fumeur dépendant arrête, le cerveau — habitué à recevoir sa dose de nicotine — proteste. C'est le SYNDROME DE SEVRAGE, qui apparaît en quelques heures et dure typiquement 2 à 4 semaines (pic à J3-J5).\n\nSymptômes classiques :\n• ENVIES IRRÉSISTIBLES de cigarette ('craving'), par vagues de quelques minutes\n• IRRITABILITÉ, nervosité, agressivité, conflits familiaux/au travail\n• ANXIÉTÉ, baisse de moral, parfois symptômes dépressifs\n• TROUBLES DU SOMMEIL : insomnie d'endormissement, réveils, rêves intenses\n• DIFFICULTÉS DE CONCENTRATION, impression de 'brouillard'\n• AUGMENTATION DE L'APPÉTIT et prise de poids (~2-5 kg en moyenne)\n• Constipation, parfois maux de tête\n\nC'est un syndrome RÉEL et BIOLOGIQUE, pas un manque de volonté. C'est pour ça qu'on propose des substituts nicotiniques : ils émoussent ces symptômes le temps que le cerveau se rééquilibre.\n\nPoint critique : prévenir le patient AVANT l'arrêt. Un patient qui sait que l'irritabilité de J3 est un signe que 'ça marche' la tolère mieux qu'un patient qui pense 'devenir fou'.",
+  "rationale": "Mnémo : I-A-S-C-A = Irritabilité, Anxiété, Sommeil, Concentration, Appétit. Toujours expliquer en consultation que ces symptômes sont TRANSITOIRES (pic à J3-J5, presque finis à 4 semaines pour le manque physique). Ce qui reste après 4 semaines = composante psy + comportementale, pas le manque physique.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  SYNDROME DE SEVRAGE — pic à J3-J5, ~4 semaines\n\n   Intensité\n     ▲\n     │      ███\n     │    █████\n     │   ███████\n     │  █████████\n     │ ███████████\n     │██████████████\n     │████████████████████\n     └──┬──┬──┬──┬──┬──┬──► temps\n        J0 J3 J7 2sem 4sem\n\n  Symptômes (mnémo I-A-S-C-A) :\n   I  rritabilité  A  nxiété  S  ommeil\n   C  oncentration  A  ppétit ↑",
+      "alt": "Courbe ASCII de l'intensité du syndrome de sevrage tabagique avec un pic à J3-J5 et un retour à la base à environ 4 semaines.",
+      "caption": "Le manque est réel mais transitoire : pic J3-J5, presque fini à 4 semaines. Prévenir le patient = clé de la tenue.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

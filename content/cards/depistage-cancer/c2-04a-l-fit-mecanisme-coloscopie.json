@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c2-l04-fit-mecanisme-coloscopie",
+  "kind": "lesson",
+  "prompt": "Le TEST IMMUNOLOGIQUE FÉCAL (FIT) cherche un saignement microscopique d'origine digestive. Quelques précisions techniques utiles :\n\n• Le test repose sur des ANTICORPS dirigés spécifiquement contre l'HÉMOGLOBINE HUMAINE. Avantage : il ne réagit ni à l'hémoglobine alimentaire (viande), ni à celle issue de l'estomac (l'Hb est digérée plus haut). Donc, contrairement à l'ancien test au gaïac, on ne demande PAS de régime alimentaire avant le test.\n• Un SEUIL DE DÉTECTION est fixé (en France, ≈ 30 µg d'Hb par g de selles). En dessous : test négatif. Au-dessus : positif.\n• Sensibilité ≈ 70-80 % pour un cancer, plus faible pour les polypes adénomateux (parce qu'ils saignent moins). Pas parfait, mais répété tous les 2 ans il capte la majorité des cancers en progression.\n• Taux de positifs en population générale ≈ 4 %.\n\nQUE FAIRE D'UN FIT POSITIF ?\nLa conduite est CLAIRE et CODIFIÉE : adressage à une consultation de gastro-entérologie pour COLOSCOPIE.\n• La coloscopie est réalisée dans ≈ 95 % des cas (les 5 % restants : refus, contre-indication, comorbidités).\n• Elle se fait sous anesthésie générale légère, après préparation colique (PEG).\n• Elle permet à la fois de VOIR (caméra dans tout le côlon) et d'AGIR (résection de polypes dans le même temps, biopsies si lésion suspecte).\n\nRésultats typiques d'une coloscopie après FIT positif :\n• Aucune lésion (≈ 50 %)\n• Polype(s) adénomateux retiré(s) (≈ 35-40 %) — geste de PRÉVENTION SECONDAIRE : on enlève la lésion avant qu'elle ne devienne un cancer\n• Cancer (≈ 5-10 %, souvent à un stade précoce, opérable)",
+  "rationale": "Le rôle clé : un FIT positif n'est qu'un FILTRE — la VRAIE étape diagnostique, c'est la coloscopie. Et la coloscopie a un double rôle : diagnostic ET thérapeutique (on retire les polypes). C'est ce qui explique le bénéfice de mortalité du dépistage : on intercepte des cancers en formation. Piège : un patient avec FIT positif et 'qui se sent bien' peut refuser la coloscopie. C'est le moment d'expliquer que la coloscopie n'est pas 'pour confirmer un cancer', c'est 'pour aller voir et nettoyer si nécessaire'. Les chiffres précis (sensibilité, % de positifs) sont des ordres de grandeur indicatifs — à vérifier dans la doc HAS officielle pour les valeurs exactes.",
+  "tags": {
+    "system": ["oncologie", "prevention", "digestif"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://en.wikipedia.org/wiki/Fecal_immunochemical_test",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "       FIT à domicile  (tous les 2 ans)\n                  │\n                  ▼\n         ┌────────┴────────┐\n      NÉGATIF (~96%)   POSITIF (~4%)\n         │                │\n         │                ▼\n         │         COLOSCOPIE (~95% cas)\n         │                │\n         │     ┌──────────┼──────────┐\n         │     ▼          ▼          ▼\n         │   Rien      Polype(s)   Cancer\n         │  (~50%)    réséqué(s)  (5-10%)\n         │             (~40%)\n         ▼\n   Re-test à 2 ans",
+      "alt": "Algorithme ASCII partant du test FIT, séparant négatif (re-test à 2 ans) et positif (coloscopie), avec les 3 issues typiques de la coloscopie : rien, polype, cancer.",
+      "caption": "Algorithme FIT positif → coloscopie. Chiffres indicatifs, à confirmer dans les sources HAS officielles.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

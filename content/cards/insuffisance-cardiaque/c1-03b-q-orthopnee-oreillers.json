@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q03-orthopnee-oreillers",
+  "kind": "qcm-vignette",
+  "prompt": "M. R., 72 ans, dit qu'il dort \"avec 3 oreillers, sinon je m'étouffe\". Comment s'appelle ce symptôme ?",
+  "choices": [
+    { "id": "a", "text": "Dyspnée d'effort", "correct": false },
+    { "id": "b", "text": "Orthopnée", "correct": true },
+    { "id": "c", "text": "Apnée du sommeil", "correct": false },
+    { "id": "d", "text": "Polypnée", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Orthopnée = essoufflement à plat soulagé en s'asseyant. Très évocateur d'IC. À ne pas confondre avec l'apnée du sommeil (pauses respiratoires pendant le sommeil, mécanisme tout différent).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

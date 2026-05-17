@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c1-l01-bronches-asthme",
+  "kind": "lesson",
+  "prompt": "Tes poumons sont une éponge dans laquelle entre de l'air. L'air arrive par la trachée, puis se divise en deux grosses BRONCHES (gauche/droite), qui se redivisent en branches de plus en plus fines, jusqu'aux minuscules BRONCHIOLES (≈ 1 mm de diamètre).\n\nNormalement, ces bronches sont des tuyaux souples et bien ouverts : l'air entre et sort sans effort.\n\nDans l'ASTHME, les bronches deviennent malades de trois façons :\n1. Le muscle qui entoure la bronche se contracte → la bronche se resserre (BRONCHOSPASME).\n2. La paroi interne s'enflamme et gonfle → encore moins de place.\n3. La paroi produit trop de mucus épais → ça bouche.\n\nRésultat : l'air a du mal à PASSER, surtout pour SORTIR (expirer). C'est ça qui siffle.",
+  "rationale": "Garde cette image : un tuyau souple normalement large, qui devient soudain rétréci de l'intérieur. Tous les médicaments de l'asthme cherchent à rouvrir ce tuyau (bronchodilatateurs) ou à éteindre l'inflammation qui l'épaissit (corticoïdes inhalés). Note : l'asthme est une maladie RÉVERSIBLE — c'est la différence majeure avec la BPCO, où le rétrécissement est en grande partie permanent.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Asthma_before-after-pl.svg",
+      "alt": "Schéma comparant une bronchiole normale ouverte (à gauche) à une bronchiole en crise d'asthme (à droite), avec muscle contracté, paroi épaissie et mucus dans la lumière.",
+      "caption": "Bronchiole normale (gauche) vs en crise (droite) : muscle contracté, paroi gonflée, mucus dans la lumière.",
+      "attribution": "Wikimedia Commons — domaine public (réf. NHLBI, NIH)"
+    }
+  ],
+  "status": "active"
+}

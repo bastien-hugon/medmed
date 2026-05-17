@@ -1,0 +1,28 @@
+{
+  "id": "irc-c1-l01-reins-roles",
+  "kind": "lesson",
+  "prompt": "Tu as DEUX reins, à peu près de la taille d'un poing chacun. Ils sont logés dans le bas du dos, de chaque côté de la colonne vertébrale, juste sous les dernières côtes.\n\nLeur rôle principal : FILTRER le sang. À chaque minute, environ un cinquième du sang qui sort du cœur passe dans les reins. Ils retirent les déchets et l'eau en trop, et tout ça part dans l'urine.\n\nMais filtrer, ce n'est pas leur SEUL boulot. Les reins :\n• Règlent la quantité d'eau et de sel dans le corps\n• Règlent la pression artérielle (avec des hormones)\n• Fabriquent l'EPO, l'hormone qui dit à la moelle osseuse de fabriquer des globules rouges\n• Activent la vitamine D (pour les os)\n\nQuand un rein va mal, ce n'est donc pas juste un problème de pipi : c'est tout le corps qui peut être touché.",
+  "rationale": "Garde cette image : deux filtres branchés sur la grande tuyauterie du sang. Quand on parle plus tard de 'maladie rénale chronique' (MRC) ou 'insuffisance rénale chronique' (IRC), c'est ce filtre qui s'abîme petit à petit — souvent en silence. Et comme les reins ne font pas que filtrer, leur défaillance touche le sang (anémie), les os, la pression, etc.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/2610_The_Kidney.jpg",
+      "alt": "Schéma anatomique du rein humain en coupe, montrant le cortex, la médullaire, les pyramides, le bassinet et l'uretère, ainsi que l'artère et la veine rénale.",
+      "caption": "Un rein en coupe : le sang entre par l'artère rénale, est filtré, et l'urine sort par l'uretère.",
+      "attribution": "Image: Wikimedia Commons — OpenStax College / Anatomy & Physiology, CC BY 3.0"
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "asthme-c2-q05-non-controle-seuil",
+  "kind": "cloze",
+  "prompt": "Selon NICE NG245, un asthme est considéré comme NON contrôlé dès lors que le patient utilise son reliever ≥ ___ jours par semaine, OU se réveille la nuit à cause de son asthme ≥ ___ fois par semaine.",
+  "expected": ["3", "1"],
+  "rationale": "Seuils opérationnels NG245 : 3 jours/semaine pour le reliever, 1 nuit/semaine avec réveil. UN SEUL des deux critères suffit à parler de non-contrôle. Avant d'escalader, vérifie systématiquement adhésion, technique d'inhalation, environnement (allergènes, tabac), et diag différentiel.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

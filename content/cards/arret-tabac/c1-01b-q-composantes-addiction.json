@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c1-q01-composantes-addiction",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient fumeur de 35 ans te dit : 'J'ai essayé les patchs pendant 1 mois, ça a marché 3 semaines, puis je suis allé en pause-café avec mes collègues et j'ai craqué.' À quelle composante de l'addiction nicotinique correspond le déclencheur 'pause-café' ?",
+  "choices": [
+    { "id": "a", "text": "Physiologique (manque biologique de nicotine au cerveau)", "correct": false },
+    { "id": "b", "text": "Psychologique (gestion des émotions et du stress)", "correct": false },
+    { "id": "c", "text": "Comportementale (rituel, association lieu / moment / cigarette)", "correct": true },
+    { "id": "d", "text": "Génétique (prédisposition héréditaire à l'addiction)", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "La pause-café est un DÉCLENCHEUR comportemental : le cerveau a câblé 'café + collègues = cigarette'. Même avec les patchs (qui couvrent la composante physiologique), le rituel reste. C'est pourquoi on dit aux patients : changez de lieu, changez de café, sortez du circuit habituel les premières semaines.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

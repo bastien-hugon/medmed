@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q03-icfemr-seuil",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient a une FEVG mesurée à 45 % sur son écho cardiaque. Comment classe-t-on son IC ?",
+  "choices": [
+    { "id": "a", "text": "ICFEr (FE réduite)", "correct": false },
+    { "id": "b", "text": "ICFEmr (FE modérément réduite, mid-range)", "correct": true },
+    { "id": "c", "text": "ICFEp (FE préservée)", "correct": false },
+    { "id": "d", "text": "Fonction normale, pas d'IC", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "ICFEr ≤ 40 %, ICFEmr 41-49 %, ICFEp ≥ 50 %. À 45 %, on est dans la zone mid-range. En pratique, on traite comme une ICFEr (4 piliers) mais avec un niveau de preuve un peu moins fort.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

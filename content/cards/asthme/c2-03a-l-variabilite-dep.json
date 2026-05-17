@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c2-l03-variabilite-dep",
+  "kind": "lesson",
+  "prompt": "Quand l'étape 2 (réversibilité spirométrique) reste négative mais que la clinique évoque toujours l'asthme, NICE NG245 demande l'étape 3 : surveillance du DEP à domicile.\n\nProtocole :\n• Le patient mesure son DEP au peak flow meter MATIN et SOIR, à heures fixes, pendant 2 SEMAINES.\n• On note les valeurs sur un cahier ou une appli.\n• On calcule la VARIABILITÉ quotidienne :\n\n   Variabilité (%) = (DEP_max - DEP_min) / DEP_max × 100\n\nUne variabilité moyenne ≥ 20 % sur les deux semaines est en faveur d'un asthme. Pourquoi 20 % ? Chez un sujet sain, les bronches restent stables et le DEP varie peu (< 10 %). Chez un asthmatique, les bronches « bougent » : elles se resserrent la nuit, se rouvrent le matin avec le bronchodilatateur — d'où des écarts marqués.\n\nMÉCANISME — pourquoi la nuit ?\n• Cycle circadien : tonus bronchoconstricteur (vagal) plus élevé entre 3 h et 5 h\n• Allergènes du lit (acariens)\n• Position couchée (drainage muqueux moins efficace)\nC'est pour ça que les réveils nocturnes sont un signal fort d'asthme MAL contrôlé.",
+  "rationale": "Pratique : donne au patient un peak flow meter + un tableau simple. Il note matin/soir + meilleure valeur du jour. À la consultation suivante, tu calcules. NICE précise (cf. couche monitoring) : ne PAS utiliser le DEP en routine pour suivre un asthme déjà diagnostiqué — il sert au diagnostic, et dans le plan d'action quand les symptômes se dégradent. Le suivi de routine repose sur les symptômes + l'usage du reliever + le FeNO chez l'adulte.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  DEP (L/min)  sur 2 semaines, matin & soir\n  600 ┤\n      │                  ●        ●\n  500 ┤  ●     ●        ●    ●  ●   ●     ●\n      │ ●  ●  ● ●   ●  ●   ●  ●  ●  ● ●   ●\n  400 ┤        ●    ●         ●           ●\n      │   ●        ●                  ●\n  300 ┤ ●                                  ●\n      └──────────────────────────────────────►\n         J1   J3   J5   J7   J9  J11  J13\n\n  Variabilité = (DEP_max - DEP_min) / DEP_max × 100\n  Asthme  →  variabilité ≥ 20 % en moyenne",
+      "alt": "Schéma ASCII d'une courbe de DEP matin/soir sur 14 jours montrant une forte variabilité jour-à-jour, signature d'un asthme.",
+      "caption": "Courbe DEP biquotidienne sur 2 semaines : variabilité ≥ 20 % en moyenne = en faveur d'asthme.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

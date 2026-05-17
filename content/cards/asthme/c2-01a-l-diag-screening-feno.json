@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c2-l01-diag-screening-feno",
+  "kind": "lesson",
+  "prompt": "Comment confirmer un asthme suspect cliniquement ? NICE NG245 (2024) impose une démarche en étapes, plus rigoureuse qu'avant. Étape 1 chez l'adulte (≥ 12 ans) : un test parmi deux, le moins invasif d'abord.\n\n• ÉOSINOPHILES SANGUINS (NFS) — au-dessus de la borne supérieure du labo (typiquement > 0,3 G/L), c'est en faveur d'un asthme à composante inflammatoire éosinophilique.\n• FeNO — Fraction Exhalée de monoxyde d'azote (NO), mesurée en partie par milliard (ppb). Le NO est produit par les bronches enflammées. Un patient souffle dans un petit appareil ; le résultat tombe en quelques minutes.\n   Seuil POSITIF : FeNO ≥ 50 ppb.\n\nSi un des deux est positif → diagnostic d'asthme retenu, on traite.\nSi les deux sont négatifs → on passe à l'étape 2 (spirométrie avec test de réversibilité).\n\nALGORITHME NG245 (adulte) :\n  Clinique évocatrice\n         │\n         ▼\n  Étape 1 : éosinos OU FeNO ≥ 50 ppb ?\n     ├─ OUI → ASTHME confirmé\n     └─ NON → Étape 2 : spirométrie + réversibilité\n               ├─ VEMS ↑ ≥ 12 % ET ≥ 200 mL → ASTHME\n               └─ NON → Étape 3 : variabilité DEP ≥ 20 %\n                         ├─ OUI → ASTHME\n                         └─ NON → Étape 4 : test de provocation (spé)\n\nCette logique repose sur l'idée qu'il faut TOUJOURS un test objectif + une clinique compatible. Pas de diag d'asthme sur la seule clinique.",
+  "rationale": "Avant NG245, on partait souvent direct sur la spirométrie. La nouveauté : on commence par un marqueur d'inflammation (éosinos ou FeNO), bien plus simple et accessible en MG. Le FeNO devient l'outil de première ligne en cabinet (quand on a l'appareil). Si tu n'as pas le FeNO : la NFS avec éosinos peut suffire à enclencher le diagnostic dans le bon contexte clinique. Piège fréquent : un patient sous corticoïdes inhalés depuis longtemps aura souvent des éosinos et un FeNO normalisés — ces tests ne sont fiables qu'en l'absence de traitement, ou interprétés avec prudence sinon.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Suspicion d'asthme (adulte ≥ 12 ans)\n              │\n              ▼\n  ÉTAPE 1   éosinos > seuil labo\n            OU  FeNO ≥ 50 ppb        ── + ── ASTHME\n              │ négatif\n              ▼\n  ÉTAPE 2   spirométrie + broncho-\n            dilatateur                ── ΔVEMS≥12% & 200mL ── ASTHME\n              │ négatif\n              ▼\n  ÉTAPE 3   DEP biquot. × 2 sem.     ── variab. ≥ 20 % ── ASTHME\n              │ négatif\n              ▼\n  ÉTAPE 4   test de provocation (spé)",
+      "alt": "Algorithme ASCII NICE NG245 du diagnostic d'asthme adulte en 4 étapes : éosinophiles ou FeNO, puis spirométrie avec réversibilité, puis variabilité DEP, puis test de provocation.",
+      "caption": "Algorithme NICE NG245 : 4 étapes successives, dès qu'un test est positif on s'arrête et on diagnostique.",
+      "attribution": "medmed, schéma original d'après NICE NG245"
+    }
+  ],
+  "status": "active"
+}

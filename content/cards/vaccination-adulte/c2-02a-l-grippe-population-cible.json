@@ -1,0 +1,27 @@
+{
+  "id": "vaccination-adulte-c2-l02-grippe-population-cible",
+  "kind": "lesson",
+  "prompt": "On a déjà vu que la grippe est recommandée chez les 65+ et les patients fragiles. En C2, on détaille la population cible EXACTE — celle qui justifie une prise en charge gratuite par l'Assurance Maladie.\n\nGroupes à risque éligibles à la vaccination antigrippale annuelle gratuite :\n\n• 65 ans et plus, systématiquement.\n• Maladies chroniques respiratoires : asthme persistant, BPCO, mucoviscidose, dilatations des bronches.\n• Maladies cardio-vasculaires : insuffisance cardiaque, cardiopathies congénitales mal tolérées, antécédent d'AVC.\n• Maladies métaboliques : diabète type 1 et 2.\n• Insuffisance rénale chronique sévère ; syndrome néphrotique.\n• Drépanocytose ; déficits immunitaires acquis (VIH, post-greffe, chimio en cours, biothérapies).\n• Obésité avec IMC ≥ 40.\n• Hépatopathie chronique (cirrhose...).\n• Femmes enceintes, à tout moment de la grossesse, pendant la saison grippale.\n• Entourage des nourrissons < 6 mois à risque, et entourage des immunodéprimés.\n• Professionnels de santé et de la petite enfance.\n\nLa stratégie globale : protéger ceux qui feraient une grippe grave, ET ceux qui pourraient la transmettre à un fragile.",
+  "rationale": "Astuce de consultation : devant tout patient présentant UNE de ces conditions, déclencher proactivement la discussion vaccination grippe d'octobre à janvier. L'efficacité du vaccin chez le sujet âgé reste imparfaite (souches mal anticipées certaines années), mais le bénéfice net est démontré (réduction des hospitalisations et de la mortalité toutes causes durant la saison).",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "grippe"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Influenza.jpg",
+      "alt": "Vue au microscope électronique de virions du virus influenza, l'agent de la grippe saisonnière.",
+      "caption": "Virus de la grippe — il mute chaque année, ce qui impose une nouvelle vaccination annuelle.",
+      "attribution": "Wikimedia Commons — Influenza.jpg"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c1-q06-spirometrie",
+  "kind": "qcm-vignette",
+  "prompt": "Mme L., 62 ans, ancienne fumeuse, consulte pour un essoufflement à la marche depuis 6 mois. Quel examen est INDISPENSABLE pour confirmer (ou éliminer) une BPCO ?",
+  "choices": [
+    { "id": "a", "text": "Une radiographie thoracique", "correct": false },
+    { "id": "b", "text": "Une spirométrie (avec test de réversibilité)", "correct": true },
+    { "id": "c", "text": "Une prise de sang avec gaz du sang", "correct": false },
+    { "id": "d", "text": "Un scanner thoracique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La spirométrie est le SEUL examen qui peut affirmer une obstruction bronchique fixée et donc poser le diagnostic de BPCO. La radio peut orienter (poumons distendus) mais ne tranche pas. Le scanner est utile pour évaluer l'emphysème ou éliminer un cancer, pas pour le diagnostic positif. Les gaz du sang interviennent à un stade plus tardif (hypoxémie, oxygénothérapie).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

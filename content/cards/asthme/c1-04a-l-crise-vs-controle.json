@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c1-l04-crise-vs-controle",
+  "kind": "lesson",
+  "prompt": "Un asthmatique a deux états très différents :\n\n1. ASTHME CONTRÔLÉ — au quotidien, presque rien.\n   • Pas de toux, pas d'oppression\n   • Pas de réveil nocturne\n   • Activité physique normale\n   • Pas (ou très peu) besoin du spray de secours\n   • Souffle (DEP, VEMS) proche de la normale\n   C'est l'objectif du traitement de fond.\n\n2. CRISE D'ASTHME (= exacerbation) — accès aigu.\n   Déclenché par : virus, allergène, effort intense, fumée, air froid, émotion.\n   Le patient présente :\n   • Toux + sifflements + oppression thoracique\n   • Dyspnée (sensation de manquer d'air)\n   • Parfois besoin de s'asseoir, de prendre son spray plusieurs fois\n   • Auscultation : sibilants bilatéraux\n   Une crise dure de quelques minutes à plusieurs heures, et peut s'aggraver jusqu'à l'urgence vitale (asthme aigu grave) si on ne la traite pas.\n\nDÉFINITION CLÉ (NICE NG245) : asthme NON contrôlé = utilisation du spray de secours ≥ 3 jours/semaine OU ≥ 1 réveil nocturne par semaine. Au-dessus de ce seuil, le traitement de fond est insuffisant — il faut l'ajuster.",
+  "rationale": "Beaucoup de patients (et de soignants) banalisent : « j'utilise mon Ventoline® 4 fois par semaine, ça va ». NON — c'est un asthme MAL contrôlé, qui expose à la crise grave. Le bon réflexe : compter le nombre de bouffées de reliever par semaine. Au-delà du seuil 3 j / sem ou 1 nuit / sem, on monte d'un palier de traitement.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  ┌──────────────────┐         ┌──────────────────┐\n  │ ASTHME CONTRÔLÉ  │   <-->  │  CRISE (exacerb.)│\n  └──────────────────┘         └──────────────────┘\n   • pas de toux                • toux + sibilants\n   • pas de réveil nuit         • dyspnée\n   • activité normale           • oppression\n   • 0 reliever (ou rare)       • besoin reliever ++\n   • souffle normal             • souffle baissé\n\n     Seuil NON-contrôlé :\n     reliever ≥ 3 j/sem  OU  ≥ 1 nuit/sem avec réveil\n     → faire monter d'un palier le traitement de fond",
+      "alt": "Tableau ASCII comparant un asthme contrôlé (peu de symptômes, peu de reliever, souffle normal) et une crise (toux, sibilants, dyspnée, besoin de reliever), avec le seuil de non-contrôle.",
+      "caption": "Deux états : contrôlé (objectif) vs crise (urgence) — avec le seuil clé du non-contrôle.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

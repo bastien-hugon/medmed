@@ -1,0 +1,28 @@
+{
+  "id": "irc-c1-l07-acr-concept",
+  "kind": "lesson",
+  "prompt": "L'ACR (Albumin-to-Creatinine Ratio) est la mesure de référence de la PROTÉINURIE en pratique courante. C'est un rapport entre deux choses, sur un échantillon d'urine du matin :\n\nACR = quantité d'albumine ÷ quantité de créatinine\n\nPourquoi un rapport et pas juste 'la quantité d'albumine' ?\n\nParce que la concentration d'albumine dans l'urine dépend de l'hydratation : urine concentrée (peu d'eau) = tout paraît plus concentré ; urine diluée (beaucoup d'eau) = tout paraît plus dilué. Si on mesurait l'albumine seule, on ferait des erreurs selon l'hydratation du patient.\n\nLa créatinine, elle, est éliminée à débit constant. Donc faire le rapport albumine / créatinine 'corrige' automatiquement la concentration. C'est une astuce élégante.\n\nValeurs à retenir (en mg/mmol, l'unité française) :\n• ACR < 3 → normal\n• ACR 3 à 30 → modérément augmenté (microalbuminurie)\n• ACR > 30 → sévèrement augmenté (protéinurie franche)\n\nUn ACR ≥ 3 confirmé est un marqueur de MRC, MÊME si le DFG est encore normal.",
+  "rationale": "L'ACR remplace les anciens dosages de 'microalbuminurie' sur 24h (compliqués, peu fiables). Idéal : faire l'ACR sur la première urine du matin, plus reproductible. Si on a un résultat entre 3 et 70, on confirme avec un deuxième prélèvement. Au-delà de 70, on confirme rarement — on agit. À retenir absolument : un ACR ≥ 3 + un DFG normal n'est PAS rassurant, c'est déjà une MRC.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "   ACR  =  Albumine urinaire (mg)\n          ─────────────────────────\n           Créatinine urinaire (mmol)\n\n   pourquoi un rapport ?\n   ─────────────────────\n   urine concentrée :  ●●●●●  /  ▲▲▲▲▲  =  même ACR\n   urine diluée     :   ●●    /   ▲▲    =  même ACR\n   (l'hydratation ne fausse plus le résultat)\n\n   Seuils (mg/mmol)\n   ────────────────\n      < 3     normal             (A1)\n      3-30    micro-albuminurie  (A2)\n      > 30    protéinurie franche (A3)",
+      "alt": "Formule ASCII de l'ACR (albumine / créatinine urinaire), illustration du fait qu'un rapport corrige l'effet de la concentration de l'urine, et les trois seuils A1, A2, A3.",
+      "caption": "Un rapport pour neutraliser l'effet de l'hydratation. Seuils ronds à retenir : 3 et 30.",
+      "attribution": "ASCII: medmed, schéma original (d'après NICE NG203)"
+    }
+  ],
+  "status": "active"
+}

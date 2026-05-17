@@ -1,0 +1,28 @@
+{
+  "id": "irc-c1-l02-nephron",
+  "kind": "lesson",
+  "prompt": "Comment un rein filtre-t-il, concrètement ?\n\nChaque rein contient environ UN MILLION de petites unités de filtration appelées NÉPHRONS. C'est l'usine de base du rein.\n\nUn néphron a deux parties :\n1. Un mini-tamis (le glomérule) : le sang arrive sous pression, l'eau et les petites molécules passent à travers, les grosses molécules (protéines, cellules sanguines) restent dans le sang. Ce qui passe = le 'filtrat'.\n2. Un long tube (le tubule) : il récupère ce qui est utile (eau, sel, sucre) et laisse partir ce qui est déchet. À la fin du tube : l'urine.\n\nDans la vie de tous les jours, le rein filtre environ 180 LITRES de plasma par jour. Tu n'urines qu'1,5 L : le reste est récupéré par les tubules. C'est un système de tri ultra-efficace.\n\nPourquoi c'est important pour la suite : quand on dit 'le rein s'abîme', cela veut dire que des néphrons MEURENT, un à un. On en a beaucoup en réserve, donc ça peut être longtemps silencieux. Mais une fois qu'un néphron est perdu, il ne repousse pas.",
+  "rationale": "Le néphron est l'analogue du cardiomyocyte pour le rein : l'unité fonctionnelle. Retiens deux choses : (1) il y en a beaucoup → on a une réserve, la maladie peut rester longtemps invisible ; (2) les néphrons morts ne se régénèrent pas → la MRC est par définition chronique et progressive, l'objectif est de RALENTIR la perte, pas de la réparer.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/Nephron.svg",
+      "alt": "Schéma simplifié d'un néphron : glomérule (le mini-tamis) en haut, suivi du tubule qui serpente, du tube collecteur, jusqu'à la sortie vers le bassinet.",
+      "caption": "Un néphron : un tamis (glomérule) + un long tube (tubule). Le rein en a ~1 million.",
+      "attribution": "Image: Wikimedia Commons — Madhero88, CC BY-SA 3.0"
+    }
+  ],
+  "status": "active"
+}

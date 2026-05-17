@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-l08-bnp-marqueur",
+  "kind": "lesson",
+  "prompt": "BNP (B-type natriuretic peptide) et NT-proBNP (N-terminal pro-BNP) : ce sont les MARQUEURS BIOLOGIQUES de l'insuffisance cardiaque.\n\nIdée simple : quand le cœur est trop \"étiré\" (par exemple parce qu'il se remplit trop, comme dans l'IC), ses cellules sécrètent une hormone, le BNP. Plus le cœur souffre, plus le sang en contient.\n\nUne prise de sang suffit pour les doser.\n\nUtilité clinique en MG :\n• Patient avec dyspnée + œdèmes mais on ne sait pas si c'est cardiaque ou pulmonaire → le NT-proBNP aide à trancher\n• NT-proBNP BAS chez patient non traité → IC peu probable (très bonne valeur prédictive négative)\n• NT-proBNP HAUT → suspicion d'IC à confirmer par une ÉCHOGRAPHIE cardiaque (la biologie ne suffit pas seule)\n\nOn utilise plutôt le NT-proBNP en pratique (plus stable, plus utilisé en France).\n\nLes seuils précis (>2000, 400-2000, <400 ng/L) viendront en C2.",
+  "rationale": "Le BNP/NT-proBNP est un OUTIL DE TRI, pas un diagnostic. Il ne remplace JAMAIS l'écho cardiaque. Beaucoup d'autres choses peuvent faire monter le BNP : insuffisance rénale, BPCO, sepsis, âge avancé. Et plusieurs choses le font BAISSER : obésité, traitements de l'IC (IEC, BB, MRA)… on en reparlera. Ce qu'il faut retenir maintenant : 'BNP bas = pas d'IC ; BNP haut = il faut investiguer'.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  NT-proBNP : marqueur de souffrance cardiaque\n\n     Cœur étiré (trop rempli, IC)\n     ╔═══════════╗\n     ║  ░░░░░░░  ║   →  sécrète NT-proBNP\n     ║  ░░░░░░░  ║          │\n     ║  ░░░░░░░  ║          ↓\n     ╚═══════════╝     SANG :\n          ↕             ┌───────────┐\n      cellules           │ NT-proBNP │\n      étirées            │     ↑↑    │\n                         └───────────┘\n                              │\n                          dosage simple\n                          (prise de sang)\n\n   BAS  →  IC peu probable.\n   HAUT →  écho cardiaque pour confirmer.",
+      "alt": "Schéma ASCII : un cœur étiré sécrète du NT-proBNP qui passe dans le sang ; un dosage sanguin sert d'outil de tri.",
+      "caption": "Le NT-proBNP est un marqueur d'étirement cardiaque. C'est un tri, pas un diagnostic — l'écho reste l'examen-clé.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

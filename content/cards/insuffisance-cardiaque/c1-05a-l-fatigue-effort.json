@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c1-l05-fatigue-effort",
+  "kind": "lesson",
+  "prompt": "Troisième symptôme classique d'insuffisance cardiaque (IC), après la dyspnée et les œdèmes : la FATIGUE — surtout à l'effort.\n\nMécanisme : si la pompe cardiaque envoie moins de sang vers les muscles, ces derniers manquent d'oxygène et de nutriments. Ils se mettent à \"râler\" plus vite. Le patient le décrit comme :\n• \"Je n'ai plus d'énergie\"\n• \"Mes jambes deviennent lourdes\"\n• \"Je dois m'arrêter au milieu de la rue\"\n\nC'est un symptôme TRÈS peu spécifique (anémie, dépression, hypothyroïdie, vieillissement… ça fatigue aussi). Mais quand elle s'installe progressivement chez un patient avec facteurs de risque cardiaque, ou qu'elle accompagne dyspnée + œdèmes, ça oriente fort.\n\nUtile pour distinguer :\n• Fatigue MUSCULAIRE d'effort (IC, débit insuffisant) → présente à l'effort, soulagée par le repos\n• Fatigue DÉPRESSIVE → présente dès le matin, indépendante de l'effort, avec autres signes (tristesse, anhédonie)",
+  "rationale": "La triade dyspnée + œdèmes + fatigue d'effort chez un patient de plus de 60 ans avec un antécédent cardiovasculaire = il faut SUSPECTER une IC et demander un NT-proBNP (qu'on verra dans une leçon dédiée). On ne diagnostique pas une IC sur la fatigue seule, mais c'est la 3e jambe du trépied symptomatique.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Triade symptomatique de l'IC chez l'adulte\n\n           ┌──────────────┐\n           │   DYSPNÉE    │  (essoufflement)\n           │  + orthopnée │\n           └──────┬───────┘\n                  │\n     ┌────────────┴────────────┐\n     │                         │\n  ┌──┴────────┐         ┌──────┴────┐\n  │  ŒDÈMES   │         │  FATIGUE  │\n  │   des MI  │         │  d'effort │\n  │ bilatéraux│         │ (muscles  │\n  │ + godet   │         │  sous-    │\n  │           │         │  perfusés)│\n  └───────────┘         └───────────┘\n\n  Les 3 ensemble = forte suspicion d'IC.",
+      "alt": "Schéma ASCII de la triade IC : dyspnée en haut, œdèmes des MI à gauche, fatigue d'effort à droite.",
+      "caption": "Trépied symptomatique. Aucun signe pris seul n'est spécifique ; ensemble, ils orientent fortement.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

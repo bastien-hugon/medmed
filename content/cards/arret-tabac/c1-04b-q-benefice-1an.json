@@ -1,0 +1,20 @@
+{
+  "id": "arret-tabac-c1-q04-benefice-1an",
+  "kind": "cloze",
+  "prompt": "Après 1 an d'arrêt du tabac, le risque cardio-vasculaire (infarctus, AVC) est divisé par ___.",
+  "expected": ["2"],
+  "rationale": "Chiffre puissant à retenir et à dire au patient. À 1 an, on n'efface pas tout, mais on coupe le risque CV de moitié — c'est énorme. Les bénéfices continuent ensuite : ~10-15 ans pour rejoindre quasiment le risque d'un non-fumeur.",
+  "tags": {
+    "system": ["cardiovasculaire", "prevention"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "bpco-c2-l07-plan-action",
+  "kind": "lesson",
+  "prompt": "Pour les patients BPCO qui font des exacerbations à répétition, on leur remet un PLAN D'ACTION ÉCRIT et on leur fournit, à GARDER À LA MAISON :\n• Une boîte de corticoïdes (prednisolone 30 mg × 5 j)\n• Une boîte d'antibiotiques (typiquement amoxicilline)\n\nL'idée : le patient les déclenche LUI-MÊME dès le début d'une exacerbation, sans attendre un rendez-vous médical (souvent trop tardif).\n\nCritères pour mettre en place ce plan d'action 'self-management' (NICE NG115) :\n• Exacerbation récente (signe que ça va recommencer)\n• Le patient COMPREND quand et comment utiliser les médicaments (éducation)\n• Le patient S'ENGAGE à notifier le soignant à chaque utilisation\n\nLe plan écrit doit préciser :\n• Quels symptômes déclenchent la prise (ex : crachats devenus jaunes, dyspnée majorée pendant >24h)\n• Quel médicament prendre, à quelle dose, combien de jours\n• Quand consulter quand même (signes d'alarme : fièvre élevée, gêne au repos, sang dans les crachats, confusion)\n\nC'est ce qu'on appelle l'auto-gestion. Ça réduit les hospitalisations et raccourcit la durée des exacerbations.",
+  "rationale": "Le plan d'action transforme le patient en acteur de son traitement. Il faut bien le distinguer du 'corticoïde de secours' donné à tout le monde : on ne le prescrit pas à un patient qui ne saura pas reconnaître ses signes, ni à un patient qui risque l'auto-médication abusive. C'est de l'éducation thérapeutique, et ça prend du temps en consultation — mais c'est très rentable.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

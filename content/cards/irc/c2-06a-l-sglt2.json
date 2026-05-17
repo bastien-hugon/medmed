@@ -1,0 +1,19 @@
+{
+  "id": "irc-c2-l06-sglt2",
+  "kind": "lesson",
+  "prompt": "Les SGLT2-i (inhibiteurs du cotransporteur sodium-glucose de type 2) sont une classe relativement nouvelle qui a transformé la prise en charge de la MRC. Les deux molécules avec indication MRC selon NICE : DAPAGLIFLOZINE et EMPAGLIFLOZINE.\n\nMécanisme simple : ils bloquent dans le tubule proximal du rein la réabsorption du sucre et du sodium. Conséquences :\n• Le sucre repart dans l'urine (effet anti-diabétique initial)\n• Le sodium aussi, ce qui baisse la pression intra-glomérulaire et la protéinurie (effet néphroprotecteur)\n• Effet bénéfique aussi sur l'insuffisance cardiaque (réduction d'hospitalisations)\n\nIndication NICE chez MRC : EN AJOUT d'un IEC/ARA2 déjà à dose maximale tolérée, chez des patients à risque (diabète T2 + ACR augmenté, ou MRC non diabétique avec albuminurie et DFG dans la fourchette d'AMM).\n\nPoints pratiques :\n• Hausse INITIALE de créat (5-10 %) attendue → ne pas arrêter\n• Risque de déshydratation (effet diurétique osmotique) → prudence avec les autres diurétiques, surtout en cas de gastro\n• Risque rare mais grave : acidocétose euglycémique (chez diabétique), infections génitales (mycoses)\n• Suspendre transitoirement en cas de chirurgie, jeûne prolongé, ou infection sévère\n\nAutre molécule à connaître : la FINÉRÉNONE (TA877, 2023) — antagoniste des minéralocorticoïdes non stéroïdien — indiquée en add-on chez diabète T2 + MRC stade 3-4 + ACR ≥ 3 mg/mmol.",
+  "rationale": "À retenir : les SGLT2-i ne remplacent PAS les IEC/ARA2, ils s'AJOUTENT. La séquence est : (1) optimiser PA + IEC/ARA2 → (2) si MRC évolutive ou diabétique avec ACR augmenté, ajouter SGLT2-i. Ce sont les médicaments qui ont produit les plus grands bénéfices rénaux des 20 dernières années (essais DAPA-CKD, EMPA-KIDNEY).",
+  "tags": {
+    "system": ["nephrologie", "endocrinologie"],
+    "sdd": ["irc", "mrc", "diabete"],
+    "item_edn": [261, 264, 245],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

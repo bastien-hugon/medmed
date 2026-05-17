@@ -1,0 +1,28 @@
+{
+  "id": "irc-c1-l06-bandelette",
+  "kind": "lesson",
+  "prompt": "La BANDELETTE URINAIRE est le test le plus simple pour explorer un rein. C'est une petite bandelette en plastique qu'on trempe dans un échantillon d'urine fraîche. Plusieurs petits carrés changent de couleur en quelques secondes, chacun renseignant sur un paramètre.\n\nLes deux paramètres importants pour la maladie rénale :\n\n• PROTÉINES — si positif, on cherche une protéinurie (souffrance du filtre). À confirmer avec le rapport ACR sur prise d'urine en laboratoire.\n• SANG — si positif (hématurie), il faut chercher pourquoi : infection urinaire, lithiase, glomérulopathie, ou parfois cancer urologique chez l'adulte.\n\nLes autres carrés (leucocytes, nitrites, glucose, cétones, etc.) servent à d'autres situations (infection urinaire, diabète, etc.).\n\nLa bandelette est un test de DÉPISTAGE, pas de DIAGNOSTIC. Une bandelette positive ne suffit pas : il faut confirmer par un examen plus précis (ACR pour les protéines, examen cyto-bactériologique pour le sang). À l'inverse, une bandelette négative n'élimine pas tout : elle peut rater une microalbuminurie débutante (l'ACR est plus sensible).",
+  "rationale": "C'est un outil de cabinet par excellence : rapide, peu cher, immédiat. Trois pièges à connaître. (1) Une bandelette positive aux protéines peut être un faux positif (urine très concentrée, hématurie macroscopique). (2) Les bandelettes détectent surtout l'albumine, pas toutes les protéines (la chaîne légère du myélome peut passer inaperçue). (3) Toujours croiser avec l'ACR avant de conclure.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Comp.Urine.Test.Strip.jpg",
+      "alt": "Photo de deux bandelettes urinaires côte à côte : à gauche, une bandelette ayant réagi à une urine pathologique (carrés colorés) ; à droite, une bandelette témoin sans réaction.",
+      "caption": "Une bandelette urinaire : chaque carré coloré renseigne sur un paramètre. À gauche : urine pathologique. À droite : témoin.",
+      "attribution": "Image: Wikimedia Commons — Bobjgalindo, CC BY-SA 3.0"
+    }
+  ],
+  "status": "active"
+}

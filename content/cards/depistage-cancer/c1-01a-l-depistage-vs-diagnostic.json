@@ -1,0 +1,28 @@
+{
+  "id": "depistage-cancer-c1-l01-depistage-vs-diagnostic",
+  "kind": "lesson",
+  "prompt": "DÉPISTER, ce n'est PAS DIAGNOSTIQUER.\n\nLe DÉPISTAGE s'adresse à des gens qui n'ont AUCUN SYMPTÔME. On va les chercher activement, par courrier ou en consultation, pour leur proposer un test. But : trouver un cancer (ou son précurseur) à un stade très précoce, avant qu'il ne se manifeste.\n\nLe DIAGNOSTIC s'adresse à des gens qui ont DES SIGNES inquiétants (boule au sein, saignement dans les selles, perte de poids inexpliquée…). Là on ne 'dépiste' plus, on ENQUÊTE. La démarche est urgente, les examens vont vite, et on ne suit pas les chiffres de population — on suit ce patient-là.\n\nTrois différences clés :\n• POPULATION : asymptomatique (dépistage) vs symptomatique (diagnostic)\n• OBJECTIF : trouver tôt dans une foule (dépistage) vs identifier la maladie chez UN patient (diagnostic)\n• OUTILS : tests simples et standardisés (dépistage) vs panel adapté au tableau clinique (diagnostic)\n\nPiège fréquent : une femme qui sent une boule au sein NE DOIT PAS attendre sa mammographie de dépistage. Elle relève du diagnostic immédiat → consultation, examen, imagerie ciblée.",
+  "rationale": "Cette distinction est fondamentale : confondre les deux mène à des erreurs graves. Un patient symptomatique qu'on rassure parce qu'il a 'fait son dépistage' il y a 6 mois passe à côté d'une urgence. À l'inverse, multiplier les examens 'pour dépister' chez un asymptomatique sans cadre organisé expose au surdiagnostic. Repère mental : 'symptôme = porte rouge diagnostic, pas de symptôme = file orange dépistage'.",
+  "tags": {
+    "system": ["oncologie", "prevention"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [287, 290],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.e-cancer.fr/Comprendre-prevenir-depister/Se-faire-depister",
+    "version": "à vérifier"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "    DÉPISTAGE                    DIAGNOSTIC\n  ────────────────             ────────────────\n   patient SANS                 patient AVEC\n   symptôme                     symptôme\n        │                            │\n        ▼                            ▼\n   test standard                examens ciblés\n   (mammo, FIT…)                (selon le signe)\n        │                            │\n        ▼                            ▼\n   tri d'une                    confirmer / écarter\n   population                   une maladie chez UN\n                                patient\n\n  Règle : un signe d'alerte SORT du dépistage.",
+      "alt": "Schéma ASCII opposant deux flèches : à gauche la voie dépistage pour les patients asymptomatiques, à droite la voie diagnostic pour les patients symptomatiques.",
+      "caption": "Deux logiques distinctes : on ne dépiste pas quelqu'un qui a déjà un symptôme.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

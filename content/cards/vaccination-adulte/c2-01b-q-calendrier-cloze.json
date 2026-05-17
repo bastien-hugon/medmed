@@ -1,0 +1,19 @@
+{
+  "id": "vaccination-adulte-c2-q01-calendrier-cloze",
+  "kind": "cloze",
+  "prompt": "Chez l'adulte, les rappels diphtérie-tétanos-polio se font à âges fixes : ___ ans, ___ ans, ___ ans, puis tous les ___ ans.",
+  "expected": ["25", "45", "65", "10"],
+  "rationale": "Le rythme officiel français : 25 / 45 / 65 puis tous les 10 ans. À 25 ans, on inclut la coqueluche (formule dTcaP). Mnémo arithmétique : intervalle de 20 ans tant qu'on est jeune, puis on resserre à 10 ans à partir de 65 ans car la réponse immunitaire diminue.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  }
+}

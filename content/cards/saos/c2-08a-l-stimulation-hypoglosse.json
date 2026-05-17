@@ -1,0 +1,28 @@
+{
+  "id": "saos-c2-08a-l-stimulation-hypoglosse",
+  "kind": "lesson",
+  "prompt": "Une alternative plus récente et plus 'high-tech' : la STIMULATION DU NERF HYPOGLOSSE.\n\nLe nerf hypoglosse (XIIe paire crânienne) commande les muscles de la langue. En le stimulant doucement à chaque inspiration, on contracte la langue, qui se 'rétracte' vers l'avant et libère le pharynx.\n\nPrincipe pratique :\n• Petit stimulateur IMPLANTÉ sous la peau (sous la clavicule), comme un pacemaker\n• Un capteur de respiration et une électrode reliée au nerf hypoglosse\n• Activation par télécommande au coucher, automatique pendant le sommeil\n\nINDICATIONS (très ciblées, pas pour tout le monde) :\n• SAOS modéré à sévère (IAH typiquement 15-65)\n• ÉCHEC ou intolérance à la CPAP malgré bonne prise en charge\n• IMC < 35 (au-delà, moins efficace)\n• Anatomie compatible (pas de collapsus concentrique du voile)\n\nC'est un traitement de RECOURS, pas de 1ère intention. Il est encore peu diffusé en France mais en développement.\n\nLes autres options chirurgicales (uvulopalatoplastie, chirurgie maxillo-faciale d'avancée bimaxillaire) existent mais sont réservées à des cas très sélectionnés.",
+  "rationale": "À retenir surtout : c'est une option de RECOURS qui montre que la prise en charge du SAOS peut aller jusqu'à une chirurgie implantée. Tu n'as pas à l'indiquer toi-même en MG, mais savoir qu'elle existe te permet de répondre à un patient qui ne supporte VRAIMENT pas la CPAP et qui demande 'il n'y a rien d'autre ?'.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

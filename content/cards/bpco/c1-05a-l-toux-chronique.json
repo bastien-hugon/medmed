@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c1-l05-toux-chronique",
+  "kind": "lesson",
+  "prompt": "Deuxième symptôme typique de la BPCO : une TOUX CHRONIQUE PRODUCTIVE.\n\nDécryptons les mots :\n• 'Chronique' = qui dure depuis longtemps. En pratique, on parle de chronique au-delà de 3 mois par an, ≥ 2 années de suite.\n• 'Productive' = qui ramène des crachats (les glaires, on dit 'expectoration').\n\nClassiquement, c'est la TOUX MATINALE DU FUMEUR. Le patient tousse en se levant et crache des glaires, souvent transparentes ou blanches. Beaucoup de patients banalisent : 'c'est ma toux de fumeur, c'est normal'. ERREUR — c'est précisément un des premiers signes de BPCO.\n\nQuand les glaires deviennent JAUNES ou VERTES (= purulentes), c'est souvent le signe d'une surinfection bactérienne et donc d'une exacerbation (poussée aiguë de la maladie).\n\nLes 'bronchites hivernales' à répétition (3, 4 fois par hiver) chez un fumeur sont aussi un signal d'alerte fort.",
+  "rationale": "La toux chronique du fumeur N'EST PAS normale. Toute toux > 8 semaines chez un fumeur > 35 ans doit faire évoquer la BPCO et faire pratiquer une spirométrie. Le piège : on banalise, on attend, et le patient consulte au stade de dyspnée déjà invalidante.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Triade clinique BPCO (fumeur > 35 ans)\n\n  +------------------------------------+\n  | 1. TOUX chronique                  |\n  |    >= 3 mois/an, >= 2 ans          |\n  +------------------------------------+\n              +\n  +------------------------------------+\n  | 2. EXPECTORATION (= glaires)       |\n  |    matinale, blanche/transparente  |\n  +------------------------------------+\n              +\n  +------------------------------------+\n  | 3. DYSPNEE d'effort                |\n  |    insidieuse, progressive         |\n  +------------------------------------+\n\n  -> Faire une spirometrie !",
+      "alt": "Triade clinique BPCO chez fumeur de plus de 35 ans : toux chronique, expectoration matinale, dyspnee d'effort, indiquant la necessite d'une spirometrie.",
+      "caption": "La triade : toux + crachats + essoufflement chez un fumeur -> spirometrie obligatoire.",
+      "attribution": "medmed, schema original d'apres NICE NG115"
+    }
+  ],
+  "status": "active"
+}

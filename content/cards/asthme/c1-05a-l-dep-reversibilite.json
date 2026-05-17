@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c1-l05-dep-reversibilite",
+  "kind": "lesson",
+  "prompt": "Comment MESURER objectivement à quel point les bronches sont rétrécies ? Avec deux outils simples.\n\n1. DEP — Débit Expiratoire de Pointe (en anglais : PEAK FLOW).\n   Tu prends une grande inspiration, puis tu souffles le plus FORT et le plus VITE possible dans un petit appareil portable (un PEAK FLOW METER). L'aiguille indique ta vitesse de pointe en litres/minute (L/min). Plus tes bronches sont rétrécies, plus le DEP chute.\n   • Valeur normale : ≈ 400-600 L/min chez l'adulte (varie avec âge, sexe, taille).\n   • Le patient peut le faire chez lui, matin et soir : c'est l'outil du suivi à domicile.\n\n2. SPIROMÉTRIE — examen plus précis, au cabinet ou en labo. Mesure le VEMS (volume expiré en 1 seconde) et la CVF (capacité vitale forcée). Dans l'asthme, le VEMS est diminué quand les bronches sont rétrécies.\n\nMAINTENANT, le concept-clé qui définit l'asthme : la RÉVERSIBILITÉ.\nOn donne au patient un bronchodilatateur inhalé (un spray qui ouvre les bronches, p. ex. salbutamol). On remesure 15 min plus tard. Si le souffle remonte clairement → les bronches étaient resserrées MAIS elles peuvent se rouvrir. C'est ÇA, l'asthme.\n\nDans la BPCO (autre maladie obstructive, liée au tabac chronique), le souffle est aussi bas, mais ne remonte PAS ou peu après le bronchodilatateur : l'obstruction est fixée. C'est la grande différence diagnostique : ASTHME = RÉVERSIBLE, BPCO = peu réversible.",
+  "rationale": "Le mot « réversibilité » est le pivot. Tout le diagnostic d'asthme repose dessus : montrer que l'obstruction n'est pas figée. NICE NG245 chiffre cette réversibilité (cf. couche C2) : augmentation du VEMS ≥ 12 % ET ≥ 200 mL après bronchodilatateur. À ton niveau, retiens d'abord l'idée : on cherche à VOIR le souffle remonter.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Peak_flow_meter_vert.jpg",
+      "alt": "Photo d'un peak flow meter, petit appareil cylindrique avec embout buccal et échelle graduée en L/min, utilisé pour mesurer le débit expiratoire de pointe (DEP).",
+      "caption": "Peak flow meter : on souffle le plus fort possible dans l'embout, l'aiguille indique le DEP en L/min.",
+      "attribution": "Wikimedia Commons — domaine public"
+    }
+  ],
+  "status": "active"
+}

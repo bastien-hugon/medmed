@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q02-gold-stage",
+  "kind": "qcm-vignette",
+  "prompt": "M. T., 65 ans, BPCO confirmée (Tiffeneau = 0,58). Sa spirométrie retrouve un VEMS à 60% de la valeur prédite. À quel stade GOLD le classez-vous ?",
+  "choices": [
+    { "id": "a", "text": "GOLD 1 (légère)", "correct": false },
+    { "id": "b", "text": "GOLD 2 (modérée)", "correct": true },
+    { "id": "c", "text": "GOLD 3 (sévère)", "correct": false },
+    { "id": "d", "text": "GOLD 4 (très sévère)", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "VEMS à 60% prédit tombe dans la tranche 50-79% = GOLD 2 (modérée). Rappel des seuils : ≥80 GOLD 1, 50-79 GOLD 2, 30-49 GOLD 3, <30 GOLD 4. On confirme bien le diagnostic d'abord (Tiffeneau < 0,70, ici 0,58), PUIS on stade par VEMS %.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

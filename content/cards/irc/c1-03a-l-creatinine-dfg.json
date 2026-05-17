@@ -1,0 +1,28 @@
+{
+  "id": "irc-c1-l03-creatinine-dfg",
+  "kind": "lesson",
+  "prompt": "Pour savoir si un rein filtre bien, on regarde DEUX choses dans la prise de sang :\n\n1. La CRÉATININE\nC'est un déchet musculaire. Tes muscles en fabriquent en permanence, à débit constant. Les reins l'éliminent en permanence. Donc :\n• Reins OK → créatinine évacuée → taux sanguin BAS\n• Reins moins bons → créatinine s'accumule → taux sanguin MONTE\n\nC'est notre 'jauge à déchets'.\n\n2. Le DFG (Débit de Filtration Glomérulaire)\nC'est le nombre de mL de sang filtrés par minute par les reins. C'est la mesure DIRECTE de la performance du filtre.\n• Adulte jeune en bonne santé : ~ 90-120 mL/min\n• En dessous de 60 mL/min sur plus de 3 mois : on parle de maladie rénale chronique (MRC)\n• En dessous de 15 : insuffisance rénale terminale (dialyse à envisager)\n\nEn pratique, on ne mesure pas le DFG directement (trop lourd). On l'ESTIME à partir de la créatinine + âge + sexe, via une formule. C'est pour ça que tu verras 'eGFR' (e pour 'estimé') ou 'DFG estimé' sur les comptes-rendus.\n\nRetiens la logique : créat élevée → DFG bas → reins en souffrance.",
+  "rationale": "Deux pièges classiques. (1) La créat est musculaire : un patient très musclé aura une créat 'normalement' un peu plus haute, et inversement chez un vieillard fragile une créat 'normale' peut cacher un mauvais DFG. C'est pourquoi on regarde le DFG estimé, pas la créat brute. (2) DFG = nombre, pas une fraction : 60 mL/min est un seuil, pas '60 %'. On verra plus tard la formule exacte (CKD-EPI).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Créatinine = déchet musculaire (production constante)\n\n  Reins OK    : sang ▓░░░░░░░░  →  filtre  →  urine ▓▓▓▓\n                créat sang BASSE (~70 µmol/L)\n\n  Reins KO    : sang ▓▓▓▓▓▓░░░  →  filtre  →  urine ▓\n                créat sang HAUTE (>120 µmol/L)\n\n  DFG = mL de sang filtré / minute (la vraie jauge)\n\n      DFG  ≥ 90   normal\n      DFG  60-89  légère baisse\n      DFG  < 60   MRC (si > 3 mois)\n      DFG  < 15   stade terminal",
+      "alt": "Schéma ASCII opposant un rein fonctionnel (créat basse dans le sang, urine concentrée en déchets) et un rein défaillant (créat haute dans le sang), avec une table des seuils de DFG.",
+      "caption": "Créat élevée + DFG bas = même information, vue côté déchet vs côté filtre.",
+      "attribution": "ASCII: medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

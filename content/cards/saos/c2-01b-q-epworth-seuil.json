@@ -1,0 +1,33 @@
+{
+  "id": "saos-c2-01b-q-epworth-seuil",
+  "kind": "cloze",
+  "prompt": "L'échelle de somnolence d'Epworth comporte ___ items cotés de 0 à 3, soit un score total de 0 à ___ . On considère la somnolence comme pathologique à partir d'un score ≥ ___ .",
+  "expected": [
+    "8",
+    "24",
+    "12"
+  ],
+  "rationale": "8 items × max 3 = 24. Seuils : ≥ 11 = somnolence anormale (Johns 1991, HAS) ; ≥ 12 = somnolence cliniquement pathologique justifiant une exploration (seuil retenu par Wikipedia FR — SAOS) ; ≥ 16 = somnolence sévère. Cette échelle est le standard de dépistage de la somnolence diurne dans le SAOS — mais elle ne reflète PAS la sévérité polysomnographique du syndrome.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

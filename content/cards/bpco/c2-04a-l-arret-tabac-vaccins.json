@@ -1,0 +1,19 @@
+{
+  "id": "bpco-c2-l04-arret-tabac-vaccins",
+  "kind": "lesson",
+  "prompt": "Avant tout médicament inhalé, deux interventions ont l'impact LE PLUS GRAND sur l'évolution d'une BPCO :\n\n=== 1. L'ARRÊT DU TABAC ===\n\nC'est la SEULE intervention qui ralentit la chute du VEMS sur le long terme. Aucun médicament ne fait mieux. À chaque consultation, chez chaque patient fumeur : on aborde le tabac. Recommandation NICE (NG115) : 'à chaque opportunité, conseiller et encourager toute personne BPCO encore fumeuse, quel que soit son âge, à arrêter, et lui offrir une aide.'\n\nConcrètement :\n• Documenter la consommation (paquets-années)\n• Repérer la motivation\n• Proposer une combinaison CONSEIL + SUPPORT pharmacologique (substituts nicotiniques, varénicline, bupropion)\n• Référer au tabacologue / consultation spécialisée si besoin\n\n=== 2. LES VACCINS ===\n\nLe BPCO est très fragile face aux infections respiratoires (qui peuvent déclencher des exacerbations graves). On recommande systématiquement :\n• VACCIN ANTIGRIPPAL annuel (chaque automne)\n• VACCIN ANTIPNEUMOCOCCIQUE (selon schéma en vigueur)\n• Plus récemment : vaccin COVID, vaccin VRS et vaccin coqueluche selon recommandations à jour\n\nC'est gratuit, ça sauve des hospitalisations, ça doit être proposé à CHAQUE BPCO, point.\n\nMnémo : 'avant les bouffées, le briquet et la seringue'.",
+  "rationale": "Beaucoup de jeunes médecins se focalisent sur les inhalés et oublient ces deux interventions, qui pèsent pourtant plus lourd sur le pronostic. L'arrêt du tabac, même tardif, est rentable : il fait stopper la dégringolade du VEMS. Aucun médicament n'a démontré cet effet.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

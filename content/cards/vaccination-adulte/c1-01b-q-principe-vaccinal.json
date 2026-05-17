@@ -1,0 +1,25 @@
+{
+  "id": "vaccination-adulte-c1-q01-principe-vaccinal",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le mécanisme central qui explique l'efficacité d'un vaccin ?",
+  "choices": [
+    { "id": "a", "text": "Le vaccin tue directement les microbes présents dans l'organisme au moment de l'injection.", "correct": false },
+    { "id": "b", "text": "Le vaccin crée une mémoire immunitaire spécifique du microbe ciblé, qui permettra une réponse rapide en cas d'exposition future.", "correct": true },
+    { "id": "c", "text": "Le vaccin renforce le système immunitaire de manière globale et non spécifique.", "correct": false },
+    { "id": "d", "text": "Le vaccin stérilise les voies respiratoires pour empêcher l'entrée des microbes.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le vaccin agit en amont : il ENTRAÎNE le système immunitaire contre un microbe précis. Pas de renforcement général (c'est un mythe), pas d'action sur les microbes déjà présents (sauf rares cas thérapeutiques). La mémoire immunitaire (cellules B et T mémoire) est le mécanisme clé.",
+  "tags": {
+    "system": ["infectieux", "prevention"],
+    "sdd": ["vaccination"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Vaccination",
+    "version": "consulté en 2026-05"
+  }
+}

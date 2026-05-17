@@ -1,0 +1,19 @@
+{
+  "id": "asthme-c2-l06-plan-action-quadruple-ics",
+  "kind": "lesson",
+  "prompt": "Tout asthmatique doit repartir du cabinet avec un PLAN D'ACTION ÉCRIT personnalisé. C'est un document court (1 page) qui décrit, en langage simple :\n• Le traitement de fond et la technique d'inhalation.\n• Les signes qui annoncent une dégradation : toux qui revient, oppression, réveils, baisse du DEP par rapport à la meilleure valeur perso.\n• Ce que le patient doit faire en cas de dégradation.\n• Quand appeler le médecin / se rendre aux urgences (signes de gravité : difficulté à parler, FC > 120, SpO2 < 92 %, pas d'amélioration après reliever).\n\nGESTE-CLÉ NG245 (adulte ≥ 17 ans) — quand le contrôle se dégrade dans le cadre du self-management :\n\n  QUADRUPLER LA DOSE D'ICS PENDANT 7 JOURS\n\nConcrètement : si le patient prend habituellement 200 µg de budésonide × 2/j (soit 400 µg/j), on lui demande de passer à 800 µg × 2/j (soit 1600 µg/j, × 4) pendant 7 jours, puis retour à la dose habituelle.\nLimites :\n• Ne PAS dépasser la dose maximale autorisée du médicament.\n• Donner le plan ÉCRIT — pas seulement verbal — avec timing précis, technique, et critères pour contacter le médecin si pas d'amélioration.\n• Programme d'éducation thérapeutique associé (compréhension de la maladie, des médicaments, des déclencheurs, réduction des expositions environnementales).\n\nC'est différent d'une cure de corticoïdes oraux : la quadruplée d'ICS sert à interrompre une dégradation MODÉRÉE avant la crise franche. En cas d'exacerbation SÉVÈRE (dyspnée importante, DEP < 50 %, pas de réponse), c'est une cure de prednisolone orale qui est indiquée.",
+  "rationale": "Le plan d'action écrit est l'outil le plus efficace pour réduire les hospitalisations dans l'asthme (méta-analyses Cochrane). Pourtant, en pratique française, il est très peu donné. NG245 insiste : personnalisé, écrit, intégré à l'éducation thérapeutique. Pour le quadruplage de l'ICS : c'est une recommandation NG245 spécifique à l'adulte ≥ 17 ans ; pas chez l'enfant. Et c'est dans le cadre d'un plan d'action structuré, pas une auto-augmentation sauvage.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

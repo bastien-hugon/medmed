@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c2-l03-gold-abe",
+  "kind": "lesson",
+  "prompt": "Le stade GOLD 1-4 ne dit pas tout : il ne mesure que l'obstruction (VEMS). Pour guider le TRAITEMENT, GOLD propose une deuxième classification basée sur DEUX axes cliniques :\n\n1. Le poids des SYMPTÔMES au quotidien (mesuré par MRC dyspnea ou CAT)\n2. L'historique d'EXACERBATIONS sur l'année passée\n\nC'est la classification GOLD A / B / E (mise à jour 2023).\n\n  GROUPE A : peu de symptômes (MRC 0-1)\n             ET 0-1 exacerbation modérée par an, sans hospit\n\n  GROUPE B : beaucoup de symptômes (MRC ≥ 2)\n             ET 0-1 exacerbation modérée par an, sans hospit\n\n  GROUPE E : ≥ 2 exacerbations modérées/an\n             OU ≥ 1 exacerbation qui a justifié une hospitalisation\n             (E pour Exacerbations, peu importe les symptômes)\n\nLe principe :\n• A = patient encore tranquille → SABA/SAMA à la demande\n• B = patient gêné mais stable → bithérapie longue (LAMA + LABA)\n• E = patient qui se décompense → bithérapie d'emblée, et trithérapie si récidive (LAMA + LABA + ICS)\n\nC'est la classification qui pilote les choix d'inhalés en pratique.",
+  "rationale": "Avant 2023, GOLD utilisait quatre groupes A/B/C/D. Depuis 2023, ils ont fusionné C et D en un seul groupe 'E' (Exacerbations) — parce que dès qu'on entre dans le rythme des exacerbations, le pronostic chute, indépendamment des symptômes. Mnémo : 'A léger, B symptomatique, E explose en exacerbations'.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  GOLD A / B / E (2023+)\n  Axes : symptomes (MRC) x exacerbations/an\n\n  Exacerbations\n  +-------------------------------------+\n  | >= 2 moderees OU >= 1 hospit  |  E  |\n  +-------------------------------------+\n  | 0 - 1 moderee, sans hospit    | A | B\n  +-------------------------------------+\n              MRC 0-1      MRC >= 2\n              peu sympt.   symptomat.\n\n  A -> SABA / SAMA a la demande\n  B -> LAMA + LABA\n  E -> LAMA + LABA (+ ICS si recidive)",
+      "alt": "Grille ASCII de la classification GOLD A/B/E : axe horizontal symptomes MRC, axe vertical exacerbations annuelles. Groupes A peu symptomatique, B symptomatique stable, E exacerbateur.",
+      "caption": "GOLD A/B/E : la grille qui pilote le choix des inhalés.",
+      "attribution": "medmed, schema original d'apres GOLD 2023"
+    }
+  ],
+  "status": "active"
+}

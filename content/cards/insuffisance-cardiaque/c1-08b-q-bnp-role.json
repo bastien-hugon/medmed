@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c1-q08-bnp-role",
+  "kind": "qcm-vignette",
+  "prompt": "À quoi sert le dosage sanguin du NT-proBNP en pratique de médecine générale chez un patient essoufflé ?",
+  "choices": [
+    { "id": "a", "text": "À poser le diagnostic définitif d'insuffisance cardiaque", "correct": false },
+    { "id": "b", "text": "À orienter : un résultat bas rend l'IC peu probable, un résultat haut pousse à demander une écho", "correct": true },
+    { "id": "c", "text": "À mesurer la pression artérielle indirectement", "correct": false },
+    { "id": "d", "text": "À remplacer l'échographie cardiaque", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le NT-proBNP est un outil de TRI, à très bonne valeur prédictive négative. Bas → IC peu probable, pas besoin d'écho. Haut → suspicion à confirmer par échographie cardiaque (l'examen-clé). Il ne pose PAS le diagnostic à lui seul.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

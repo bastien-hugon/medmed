@@ -1,0 +1,19 @@
+{
+  "id": "insuffisance-cardiaque-c2-l02-echo-cardiaque",
+  "kind": "lesson",
+  "prompt": "L'ÉCHOGRAPHIE CARDIAQUE TRANSTHORACIQUE (ETT) est l'examen-clé de l'insuffisance cardiaque. C'est elle qui CONFIRME le diagnostic et oriente le traitement.\n\nElle est faite par un cardiologue, sans douleur, sans irradiation, avec une sonde sur le thorax (comme une écho de grossesse). Elle dure 15-30 min.\n\nCe qu'elle évalue (NICE NG106) :\n• La FONCTION SYSTOLIQUE du ventricule gauche → mesure de la FEVG (le %, vu en C1)\n• La FONCTION DIASTOLIQUE → est-ce que le ventricule se remplit bien entre 2 battements ?\n• Les VALVES (rétrécissement ? fuite ?)\n• Les CAVITÉS (dilatées ? hypertrophiées ?)\n• La PRESSION PULMONAIRE (pour repérer une hypertension artérielle pulmonaire, HTAP)\n• Les SHUNTS éventuels (communications anormales entre cavités)\n\nC'est la mesure de la FEVG sur cette écho qui permet de classer l'IC en :\n• ICFEr (FEVG réduite, ≤ 40 %)\n• ICFEmr (modérément réduite, 41-49 %)\n• ICFEp (préservée, ≥ 50 %)\n\nLes 4 piliers du traitement (qu'on verra) dépendent de cette classification.",
+  "rationale": "L'écho cardiaque n'est PAS un examen de débrouillage en médecine générale — on la prescrit, le cardiologue la fait. Mais il faut savoir POURQUOI on la demande et SAVOIR LIRE le compte-rendu : la valeur de la FEVG est le chiffre-clé. Les délais NICE (2 ou 6 semaines selon NT-proBNP) sont rarement tenus en France, mais le principe d'urgence relative tient.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

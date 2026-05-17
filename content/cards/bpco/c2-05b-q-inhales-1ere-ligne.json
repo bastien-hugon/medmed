@@ -1,0 +1,26 @@
+{
+  "id": "bpco-c2-q05-inhales-1ere-ligne",
+  "kind": "qcm-vignette",
+  "prompt": "M. R., 58 ans, BPCO modérée nouvellement diagnostiquée (GOLD 2, groupe A : peu de symptômes, 0 exacerbation). Il vient d'arrêter le tabac et est vacciné. Il rapporte juste un essoufflement quand il porte ses courses. Quel traitement INHALÉ proposer en 1ère intention ?",
+  "choices": [
+    { "id": "a", "text": "Un corticoïde inhalé (ICS) au long cours", "correct": false },
+    { "id": "b", "text": "Une trithérapie LAMA + LABA + ICS d'emblée", "correct": false },
+    { "id": "c", "text": "Un bronchodilatateur courte durée (SABA ou SAMA) à la demande", "correct": true },
+    { "id": "d", "text": "Un corticoïde oral à faible dose au long cours", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Patient peu symptomatique, GOLD A, exacerbations 0 : on reste à l'étape 1 = bronchodilatateur courte durée À LA DEMANDE. Pas d'ICS systématique (réservé aux traits asthmatiques ou exacerbations). Pas de trithérapie tant qu'on n'a pas essayé la bithérapie. Et les corticoïdes oraux au long cours sont formellement NON recommandés (effets indésirables majeurs : diabète, ostéoporose, infections...).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "saos-c1-01a-l-sommeil-respiration",
+  "kind": "lesson",
+  "prompt": "Quand tu dors, ton corps se met au ralenti, mais une chose ne s'arrête JAMAIS : la respiration. Le diaphragme continue à pomper, et l'air entre/sort par le nez et la bouche, en passant par un couloir : la gorge (le pharynx).\n\nChez certaines personnes, ce couloir se ferme temporairement pendant le sommeil. L'air ne passe plus. C'est une APNÉE.\n\nDéfinition médicale : une apnée = arrêt du flux d'air pendant PLUS DE 10 SECONDES.\n\nPas de panique : le cerveau finit toujours par réagir (microéveil) et la respiration repart. Mais si ça se répète des dizaines, voire des centaines de fois par nuit, le sommeil devient haché et le corps subit des conséquences à long terme. C'est ça, le SAOS (Syndrome d'Apnées Obstructives du Sommeil).",
+  "rationale": "Retiens deux choses : (1) le seuil temporel — 10 secondes, c'est la définition consensuelle — et (2) le mot 'obstructif' : ici l'arrêt vient d'un blocage mécanique (la gorge se ferme), pas d'un défaut de commande nerveuse (qui serait une apnée 'centrale'). 90 % des apnées du sommeil sont obstructives.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  RESPIRATION NORMALE                  APNÉE OBSTRUCTIVE\n  pendant le sommeil                   (> 10 secondes)\n\n    nez/bouche ──┐                        nez/bouche ──┐\n                  ▼                                     ▼\n              ┌───────┐                             ┌═══════┐\n              │pharynx│  ◄─ air passe              │ ░░░░░ │  ◄─ pharynx\n              └───┬───┘   librement                 └═══════┘     COLLABÉ\n                  ▼                                     ✕\n               poumons                              poumons\n               ↓↑ ↓↑ ↓↑  (continu)                  ──  ──  (pause)",
+      "alt": "Schéma ASCII comparant respiration normale (air passe par le pharynx ouvert) et apnée obstructive (pharynx fermé, pas de passage d'air vers les poumons).",
+      "caption": "Apnée = arrêt du flux d'air > 10 secondes, ici par fermeture mécanique du pharynx.",
+      "attribution": "medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

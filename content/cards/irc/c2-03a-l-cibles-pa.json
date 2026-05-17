@@ -1,0 +1,28 @@
+{
+  "id": "irc-c2-l03-cibles-pa",
+  "kind": "lesson",
+  "prompt": "Chez un patient avec MRC, la pression artérielle (PA) est l'un des leviers les plus puissants pour ralentir la progression. Mais la CIBLE dépend de l'albuminurie.\n\nDeux situations selon NICE NG203 :\n\n1. ACR < 70 mg/mmol\n   → Cible : PAS entre 120 et 139 mmHg, et PAD < 90\n   (autrement dit : PA < 140/90 au cabinet)\n\n2. ACR ≥ 70 mg/mmol (protéinurie sévère)\n   → Cible plus serrée : PAS entre 120 et 129 mmHg, et PAD < 80\n   (autrement dit : PA < 130/80 au cabinet)\n\nPourquoi cette différence ? Parce que plus la protéinurie est élevée, plus le rein progresse vite vers l'insuffisance. La pression haute est un AMPLIFICATEUR : plus on serre la PA, plus on freine la perte de filtre. Mais 'serrer plus' a aussi des effets indésirables (hypotension, chutes, syncopes chez le sujet âgé). NICE équilibre les deux en réservant la cible serrée à ceux qui en bénéficient le plus, c'est-à-dire les protéinuries franches.\n\nNote : un patient diabétique + MRC est souvent dans la situation 2 (ACR ≥ 70) car les diabétiques font les protéinuries les plus fortes. D'autres recos (ESC, HAS) proposent des cibles parfois proches mais pas identiques. La logique 'plus de protéines = cible plus serrée' est partagée.",
+  "rationale": "Piège classique : confondre 'cible PA chez tout MRC' = 130/80. C'est faux. La cible standard reste 140/90 ; on serre uniquement si ACR ≥ 70. Pour le sujet âgé fragile, on tolère même un peu plus haut (risque de chute). Toujours individualiser. Outil mnémonique : '70 mg/mmol = passer à 130/80'.",
+  "tags": {
+    "system": ["nephrologie", "cardiovasculaire"],
+    "sdd": ["irc", "mrc", "hta"],
+    "item_edn": [224, 261, 264],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Cible de PA chez un patient avec MRC\n  ─────────────────────────────────────\n\n     ACR < 70 mg/mmol\n         → PAS  120-139 mmHg\n         → PAD     < 90 mmHg\n         (cible 'standard' : < 140/90)\n\n     ACR ≥ 70 mg/mmol  (protéinurie sévère)\n         → PAS  120-129 mmHg\n         → PAD     < 80 mmHg\n         (cible 'serrée'  : < 130/80)\n\n  Logique :\n     plus de protéines  ⇒  rein s'use plus vite\n                         ⇒  on serre plus la PA",
+      "alt": "Tableau ASCII des deux cibles tensionnelles chez le patient avec MRC selon le niveau d'ACR (seuil 70 mg/mmol).",
+      "caption": "Une seule clef : ACR 70 = bascule vers la cible serrée 130/80.",
+      "attribution": "ASCII: medmed, schéma original (d'après NICE NG203)"
+    }
+  ],
+  "status": "active"
+}

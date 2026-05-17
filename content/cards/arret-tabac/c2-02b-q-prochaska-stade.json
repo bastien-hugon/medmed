@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q02-prochaska-stade",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient de 45 ans, fumeur depuis 25 ans, te dit en consultation : 'Je sais bien que je devrais arrêter, ma femme aussi me le dit. Mais bon, ça me détend après le boulot, et là c'est pas le bon moment. Je verrai plus tard.' À quel stade de Prochaska est-il ?",
+  "choices": [
+    { "id": "a", "text": "Pré-contemplation (n'y pense pas du tout)", "correct": false },
+    { "id": "b", "text": "Contemplation (y pense, ambivalence, pèse le pour et le contre)", "correct": true },
+    { "id": "c", "text": "Préparation (a décidé, planifie un arrêt dans le mois)", "correct": false },
+    { "id": "d", "text": "Action (a déjà arrêté)", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Il EXPRIME une ambivalence : conscience du problème (côté santé, conjoint) + bénéfices perçus (détente) + report ('pas le bon moment'). C'est le profil typique de la contemplation. Conduite à tenir : entretien motivationnel pour faire pencher la balance, SANS prescrire de NRT (il n'est pas prêt à l'action). Lui prescrire du patch maintenant = échec garanti.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "asthme-c2-l02-reversibilite-spirometrie",
+  "kind": "lesson",
+  "prompt": "Si l'étape 1 (éosinos / FeNO) est négative, NICE NG245 passe à la SPIROMÉTRIE AVEC TEST DE RÉVERSIBILITÉ.\n\nDéroulé :\n1. Le patient souffle dans le spiromètre → mesure du VEMS de base.\n   • VEMS = Volume Expiratoire Maximal en 1 Seconde (en litres). Ce qu'on expulse de force pendant la 1re seconde après une inspiration maximale.\n2. On lui donne un BRONCHODILATATEUR inhalé (typiquement salbutamol 400 µg).\n3. On attend 15-20 minutes.\n4. Nouvelle mesure du VEMS.\n\nRÉVERSIBILITÉ POSITIVE = test d'asthme positif si :\n   • VEMS augmente de ≥ 12 % par rapport à la valeur initiale\n   ET\n   • VEMS augmente de ≥ 200 mL en valeur absolue.\n\nLes DEUX critères doivent être remplis. Le double-critère évite de surdiagnostiquer chez les petits gabarits (où 12 % peuvent ne représenter que 100 mL, peu significatifs).\n\nExemples :\n• VEMS 2,00 L → 2,30 L : +15 % et +300 mL → POSITIF.\n• VEMS 1,00 L → 1,15 L : +15 % mais seulement +150 mL → NÉGATIF (faute des 200 mL).\n• VEMS 3,00 L → 3,25 L : +8 % et +250 mL → NÉGATIF (faute des 12 %).\n\nGrande différence avec la BPCO : dans la BPCO, le VEMS bouge peu (< 12 % ou < 200 mL) après bronchodilatateur — obstruction fixée.",
+  "rationale": "Le double critère 12 % ET 200 mL est NG245-spécifique pour l'adulte. Important à connaître : un patient peut avoir une réversibilité fluctuante (positive à un jour, négative à un autre) — c'est pour ça qu'on a une cascade de 4 tests. Si la spiro est négative mais clinique forte, on ne s'arrête pas : on continue (variabilité DEP, provocation). Note : chez l'enfant 5-16 ans, NG245 retient un seuil unique de réversibilité ≥ 12 %, sans condition de mL.",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Spirometer.svg",
+      "alt": "Schéma d'un spiromètre : le patient souffle dans un embout relié à un appareil qui mesure et trace le volume d'air expiré en fonction du temps.",
+      "caption": "Spiromètre : on mesure VEMS et CVF avant puis 15 min après bronchodilatateur pour évaluer la réversibilité.",
+      "attribution": "Wikimedia Commons — domaine public"
+    }
+  ],
+  "status": "active"
+}

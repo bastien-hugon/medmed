@@ -1,0 +1,20 @@
+{
+  "id": "vaccination-adulte-c2-l11-covid-rappels",
+  "kind": "lesson",
+  "prompt": "Le vaccin contre la COVID-19 (Coronavirus Disease 2019, causé par le SARS-CoV-2) est un cas un peu particulier : recommandations en évolution PERMANENTE depuis 2020. État 2025-2026 :\n\n1. TYPE DE VACCIN : majoritairement ARNm (Pfizer-BioNTech, Moderna) — donc INACTIVÉ au sens immunologique (pas de microbe vivant), utilisable chez l'immunodéprimé et la femme enceinte. Vaccins recombinants protéiques alternatifs disponibles.\n\n2. CAMPAGNE ANNUELLE D'AUTOMNE (octobre-novembre) — population cible :\n• Personnes de 65 ans et plus.\n• Personnes à risque de forme grave (mêmes comorbidités que pour la grippe : maladie cardiaque, BPCO, diabète, immunodépression, obésité, IRC, etc.).\n• Femmes enceintes.\n• Professionnels de santé et entourage de personnes fragiles.\n→ La vaccination COVID est COUPLÉE à la campagne grippe (mêmes vaccinateurs, mêmes lieux, possible même jour, sites d'injection différents).\n\n3. RAPPEL DE PRINTEMPS (dose supplémentaire) chez les plus fragiles :\n• Personnes de 80 ans et plus.\n• Personnes immunodéprimées.\n• Résidents d'EHPAD / USLD.\n• Personnes à très haut risque.\n→ Intervalle minimum de 3 mois depuis la dernière dose ou la dernière infection.\n\n4. SOUCHES : les formulations sont mises à jour chaque saison pour cibler les variants circulants (XBB, JN.1, etc.).\n\n5. Toute personne qui le souhaite peut être vaccinée, même hors population cible.\n\nPrincipe pratique : la stratégie COVID s'est calquée sur la grippe (campagne annuelle ciblée), avec en plus un rappel printemps pour les plus vulnérables.",
+  "rationale": "Mnémo : « COVID 2.0 = comme la grippe → automne 65+, couplée grippe ; + printemps 80+/immunodéprimés ». Acronymes : SARS-CoV-2 = Severe Acute Respiratory Syndrome Coronavirus 2 ; ARNm = ARN messager ; EHPAD = Établissement d'Hébergement pour Personnes Âgées Dépendantes ; USLD = Unité de Soins de Longue Durée. Conséquence pratique : les recommandations COVID bougent à chaque saison — toujours vérifier le DGS-Urgent ou calendrier HAS en vigueur avant de répondre à un patient. C'est typiquement le vaccin où il faut un peu d'humilité sur la version « définitive » des recommandations.",
+  "tags": {
+    "system": ["infectieux", "prevention", "respiratoire"],
+    "sdd": ["vaccination", "covid"],
+    "item_edn": [143],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/COVID-19",
+    "version": "consulté en 2026-05",
+    "note": "Recommandations 2025-2026 : campagne automne 65+/FdR/femmes enceintes couplée à la grippe ; rappel printemps pour 80+, immunodéprimés, résidents EHPAD/USLD, très haut risque (intervalle min 3 mois)."
+  },
+  "status": "active"
+}

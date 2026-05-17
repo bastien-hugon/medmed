@@ -1,0 +1,28 @@
+{
+  "id": "irc-c1-l05-proteinurie",
+  "kind": "lesson",
+  "prompt": "Normalement, l'urine ne contient PAS (ou quasi pas) de protéines. C'est logique : le glomérule, le mini-tamis du rein, retient les grosses molécules dans le sang. Les protéines (comme l'albumine) sont trop grosses pour passer.\n\nDonc si on retrouve des protéines dans l'urine, c'est un SIGNAL D'ALARME : ça veut dire que le tamis fuit. C'est ce qu'on appelle la PROTÉINURIE.\n\nDeux choses à comprendre :\n\n1. La protéinurie est un marqueur très précoce de maladie rénale. Elle peut apparaître AVANT que le DFG ne chute. C'est pour ça qu'on la cherche systématiquement chez les patients à risque (diabète, HTA).\n\n2. Plus la protéinurie est importante, plus le risque que le rein s'abîme vite est élevé. Et plus le risque cardiovasculaire (infarctus, AVC) est élevé aussi.\n\nEn pratique, on peut la chercher de deux façons :\n• Bandelette urinaire au cabinet (simple, rapide, dépistage)\n• Prise de sang/urine pour mesurer le rapport ACR (qu'on verra après) — c'est la mesure de référence.\n\nRetiens l'image : la protéinurie est comme un voyant rouge sur le tableau de bord du rein. Un rein qui 'pleure des protéines' va mal.",
+  "rationale": "Pourquoi la protéinurie compte autant ? D'abord parce qu'elle DÉTECTE la MRC à un stade où le DFG est encore normal (et donc où on peut agir tôt). Ensuite parce qu'elle PRONOSTIQUE : à DFG égal, un patient avec protéinurie va plus mal qu'un sans. Enfin parce qu'elle GUIDE le traitement : c'est elle qui pèse dans la décision de mettre un IEC/ARA2 (médicaments qui protègent le rein), ce qu'on voit en C2.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Glomérule sain (tamis intact)\n  ─────────────────────────────\n  sang : albumine ●●●●  glucose ○○  eau ░░░░\n          │\n          ▼  filtration\n  filtrat :          glucose ○○   eau ░░░░\n                  (protéines retenues)\n\n  Glomérule abîmé (tamis percé)\n  ─────────────────────────────\n  sang : albumine ●●●●  glucose ○○  eau ░░░░\n          │\n          ▼  filtration\n  filtrat : albumine ●●  glucose ○○   eau ░░░░\n                  ↑\n         PROTÉINURIE = voyant rouge",
+      "alt": "Schéma ASCII opposant un glomérule sain qui retient les protéines à un glomérule abîmé qui laisse fuir l'albumine dans le filtrat, illustrant la protéinurie comme signal d'alarme.",
+      "caption": "Tamis qui fuit → albumine dans l'urine = protéinurie. Marqueur précoce de souffrance du filtre.",
+      "attribution": "ASCII: medmed, schéma original"
+    }
+  ],
+  "status": "active"
+}

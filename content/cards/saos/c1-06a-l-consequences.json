@@ -1,0 +1,29 @@
+{
+  "id": "saos-c1-06a-l-consequences",
+  "kind": "lesson",
+  "prompt": "Le SAOS n'est pas qu'un problème de confort nocturne. Non traité, il a des CONSÉQUENCES réelles sur la santé :\n\n• HTA : très fréquemment associée au SAOS (les pics de tension nocturnes liés aux apnées finissent par rendre la TA durablement élevée). À chercher systématiquement.\n\n• AVC et INFARCTUS : risque cardiovasculaire augmenté (jusqu'à 4× pour les ronfleurs apnéiques).\n\n• ACCIDENTS DE LA ROUTE ET DU TRAVAIL : à cause de la somnolence. Le risque d'accident routier serait multiplié par 2 à 7 chez les SAOS non traités.\n\n• TROUBLES DU RYTHME (fibrillation auriculaire), insuffisance cardiaque.\n\n• DIABÈTE de type 2 (lien bidirectionnel avec l'obésité).\n\n• DÉPRESSION, troubles cognitifs, baisse de libido.\n\nC'est pour TOUTES ces raisons que le SAOS, même asymptomatique du point de vue du patient, mérite d'être recherché et traité. Le traitement (CPAP, perte de poids) réduit significativement la somnolence et améliore la TA. Sur la mortalité, les données sont plus discutées mais le bénéfice fonctionnel est constant.",
+  "rationale": "Le SAOS est un MULTIPLICATEUR de risque cardiovasculaire. C'est pour ça qu'on le cherche devant : (1) une HTA mal contrôlée (en particulier résistante à 3 traitements), (2) un patient avec FA récidivante, (3) un accident de la route inexpliqué. Ces 3 situations sont des 'red flags' qui doivent faire évoquer un SAOS.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie",
+      "cardiovasculaire"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

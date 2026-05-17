@@ -1,0 +1,26 @@
+{
+  "id": "asthme-c2-q02-reversibilite-criteres",
+  "kind": "qcm-vignette",
+  "prompt": "Adulte de 45 ans, toux sifflante chronique. Éosinos et FeNO normaux. Spirométrie : VEMS de base 2,40 L. Après salbutamol inhalé, VEMS = 2,70 L. Comment interpréter cette spirométrie selon NICE NG245 ?",
+  "choices": [
+    { "id": "a", "text": "Réversibilité positive : ΔVEMS = +12,5 % et +300 mL, les deux seuils sont remplis.", "correct": true },
+    { "id": "b", "text": "Réversibilité négative : il faut au moins 20 % d'augmentation.", "correct": false },
+    { "id": "c", "text": "Réversibilité négative : il faut au moins 500 mL d'augmentation.", "correct": false },
+    { "id": "d", "text": "Test ininterprétable, il aurait fallu utiliser le FeNO à la place.", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Calcul : ΔVEMS = (2,70 - 2,40) / 2,40 = 0,125 = 12,5 % (≥ 12 % ✓) ET +300 mL (≥ 200 mL ✓). Les deux critères NG245 adulte sont remplis → asthme confirmé. Le seuil est bien 12 % ET 200 mL, pas 20 % (qui est le seuil de variabilité DEP, à ne pas confondre).",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["asthme"],
+    "item_edn": [188],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+    "version": "2024"
+  },
+  "status": "active"
+}

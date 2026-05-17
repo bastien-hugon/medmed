@@ -1,0 +1,29 @@
+{
+  "id": "vaccination-adulte-c2-l04-zona-shingrix",
+  "kind": "lesson",
+  "prompt": "Le ZONA est la réactivation tardive du virus varicelle-zona (VZV) qui dormait dans un ganglion nerveux depuis l'enfance. Il cause des douleurs neuropathiques très intenses, parfois persistantes pendant des mois (« algies post-zostériennes »). Le risque augmente fortement avec l'âge.\n\nLe vaccin SHINGRIX :\n\n• Type : protéine RECOMBINANTE ADJUVANTÉE (donc NON vivant — utilisable chez l'immunodéprimé, c'est l'un de ses gros avantages).\n• Schéma : 2 DOSES espacées de 2 mois (M0, M2).\n• Indication en France (calendrier vaccinal 2024-2025) :\n   – Tous les adultes ≥ 65 ans.\n   – Adultes immunodéprimés à partir de 18 ans (cancer, greffe, biothérapies, VIH...).\n• Remboursement à 65 % par l'Assurance Maladie depuis le 14 décembre 2024 pour ces deux populations.\n• Efficacité : très élevée (~ 90 %) sur la prévention du zona et de ses complications, supérieure à l'ancien vaccin vivant (Zostavax) — désormais déconseillé.\n\nLe Shingrix a remplacé Zostavax en France. Si le patient a déjà eu un zona ou reçu Zostavax, on peut lui proposer Shingrix après un intervalle minimum d'un an.\n\nEffets indésirables : assez fréquents et marqués (douleur au site d'injection, fatigue, fébricule 24-48 h). Prévenir le patient évite la surprise et améliore l'observance de la 2e dose.",
+  "rationale": "Mnémo : « Shingrix = SHINGLES (zona en anglais) → 2 doses, 2 mois d'écart, ≥ 65 ans ou immunodéprimé ≥ 18 ans ». Acronyme VZV : Varicelle-Zona Virus. Conséquence pratique : devant un patient de 65+ qui consulte pour préventif, penser à proposer Shingrix s'il n'est pas vacciné. Pour l'immunodéprimé : c'est le SEUL vaccin zona utilisable (contrairement à l'ancien Zostavax vivant).",
+  "tags": {
+    "system": ["infectieux", "prevention", "dermatologie"],
+    "sdd": ["vaccination", "zona"],
+    "item_edn": [143, 167],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://vaccination-info-service.fr/Les-maladies-et-leurs-vaccins/Zona",
+    "version": "consulté en 2026-05",
+    "note": "Recommandations 2025 : adultes ≥ 65 ans et adultes immunodéprimés ≥ 18 ans. Schéma 2 doses à 2 mois d'intervalle (M0-M2). Remboursé à 65 % depuis le 14 décembre 2024."
+  },
+  "media": [
+    {
+      "kind": "image",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Herpes_zoster_neck.png",
+      "alt": "Éruption typique de zona sur le cou, suivant un dermatome, avec vésicules groupées en bouquet sur fond érythémateux.",
+      "caption": "Zona — éruption douloureuse en bande sur un dermatome. Le vaccin Shingrix prévient la maladie dans ~90 % des cas.",
+      "attribution": "Wikimedia Commons — Herpes zoster neck"
+    }
+  ],
+  "status": "active"
+}

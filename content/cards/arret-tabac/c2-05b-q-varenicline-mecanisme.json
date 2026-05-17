@@ -1,0 +1,26 @@
+{
+  "id": "arret-tabac-c2-q05-varenicline-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "La varénicline (Champix®) agit sur l'addiction nicotinique en tant que :",
+  "choices": [
+    { "id": "a", "text": "Agoniste TOTAL des récepteurs nicotiniques α4β2", "correct": false },
+    { "id": "b", "text": "Agoniste PARTIEL des récepteurs nicotiniques α4β2", "correct": true },
+    { "id": "c", "text": "Antagoniste pur des récepteurs nicotiniques α4β2", "correct": false },
+    { "id": "d", "text": "Inhibiteur de la recapture de la noradrénaline et de la dopamine", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La varénicline est un AGONISTE PARTIEL : elle stimule le récepteur α4β2 (→ moins de manque, moins de craving) MAIS de façon incomplète, ce qui bloque l'effet plein de la nicotine de la cigarette si le patient craque (→ pas de récompense, démotive la rechute). Le mécanisme du choix D (inhibiteur recapture NA + DA) correspond au BUPROPION (Zyban®), à ne pas confondre.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "pharmacologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "arret-tabac-c2-l03-entretien-motivationnel",
+  "kind": "lesson",
+  "prompt": "L'ENTRETIEN MOTIVATIONNEL (EM) est une approche de communication développée par Miller & Rollnick (années 80). Principe contre-intuitif : on N'IMPOSE PAS le changement, on AIDE le patient à formuler lui-même ses raisons d'arrêter.\n\nQuatre principes :\n\n1) Empathie\nPas de jugement. 'Je comprends que la cigarette ait été importante pour vous toutes ces années.'\n\n2) Faire émerger l'ambivalence\nQuestions ouvertes : 'Qu'est-ce qui vous plaît dans la cigarette ?' ET 'Qu'est-ce qui vous gêne ?'. Laisser le patient peser lui-même.\n\n3) Rouler avec la résistance\nSi le patient se braque ('je ne veux pas qu'on me dise comment vivre'), ne pas pousser. Reformuler, valoriser son autonomie.\n\n4) Soutenir l'auto-efficacité\nValoriser les essais précédents, même ratés. 'Vous avez tenu 3 mois la dernière fois — c'est une compétence acquise.'\n\nLa TCC (Thérapie Cognitivo-Comportementale) est une approche structurée proche : identifier pensées automatiques liées à la cigarette, modifier les comportements, gérer les déclencheurs.\n\nEfficacité : EM/TCC seuls ont une efficacité comparable aux médicaments (selon Cochrane), SANS effets secondaires. C'est pour ça qu'ils sont la 1ère intention en grossesse (où varénicline et bupropion sont contre-indiqués).",
+  "rationale": "Erreur la plus fréquente du médecin : conseil PASSIF ('vous devriez vraiment arrêter') ou COERCITIF ('vous allez crever') → ne marche pas, voire renforce la résistance. L'EM demande un changement de POSTURE : on accompagne, on ne dirige pas. Quelques minutes en consultation, plusieurs fois, valent mieux qu'un sermon de 30 min.",
+  "tags": {
+    "system": ["pneumologie", "addictologie", "prevention", "psychologie"],
+    "sdd": ["arret-tabac"],
+    "item_edn": [75],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Sevrage_tabagique",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

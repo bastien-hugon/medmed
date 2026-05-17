@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-l03-classification-fevg",
+  "kind": "lesson",
+  "prompt": "La FEVG mesurée à l'écho cardiaque sert à CLASSER l'insuffisance cardiaque en 3 catégories. Cette classification commande TOUT le traitement.\n\n• ICFEr (= IC à Fraction d'Éjection Réduite) : FEVG ≤ 40 %\n  → la pompe se contracte mal (problème de SYSTOLE)\n  → c'est l'IC \"classique\" et la mieux étudiée\n  → traitement = les 4 piliers (à venir)\n\n• ICFEmr (= IC à FE modérément réduite, mid-range) : FEVG entre 41 % et 49 %\n  → zone grise, on traite comme ICFEr mais avec moins de certitude\n\n• ICFEp (= IC à FE préservée) : FEVG ≥ 50 % + anomalie structurelle (oreillette gauche dilatée, hypertrophie VG, etc.)\n  → la pompe se contracte bien, mais le ventricule est RAIDE et ne se remplit pas correctement\n  → traitement plus limité : MRA, SGLT2-i\n  → fréquente chez les femmes âgées, hypertendues, diabétiques\n\nEn pratique : on regarde la FEVG dans le compte-rendu d'écho, on classe, et on prescrit en conséquence.",
+  "rationale": "Avant 2016 on parlait juste de 'IC systolique' (FEVG basse) et 'IC diastolique' (FEVG préservée). Les guidelines ont changé pour cette classification en 3 sous-types parce que les traitements efficaces ne sont PAS les mêmes selon le sous-type. Mémo : 'r' = reduced, 'mr' = mid-range, 'p' = preserved. La frontière à retenir : 40 / 50.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Classification de l'IC selon la FEVG\n\n   FEVG (%)     0───────────40───49───50───────100\n                │           │    │    │\n   Type         │  ICFEr    │ICFEmr│   ICFEp    │\n                │ (réduite) │ mid- │ (préservée)│\n                │           │range │            │\n                ────────────────────────────────\n   Mécanisme    │ pompe     │mixte │ pompe ok   │\n                │ faible    │      │ remplissage│\n                │           │      │ mauvais    │\n                ────────────────────────────────\n   Traitement   │ 4 piliers │idem  │ MRA +      │\n                │ d'emblée  │      │ SGLT2-i    │",
+      "alt": "Échelle ASCII de la FEVG en pourcentage avec les 3 zones ICFEr (≤40), ICFEmr (41-49), ICFEp (≥50) et leur traitement.",
+      "caption": "Les frontières : 40 et 50. ICFEr = pompe faible. ICFEp = pompe ok mais ventricule raide.",
+      "attribution": "medmed, schéma original — données NICE NG106"
+    }
+  ],
+  "status": "active"
+}

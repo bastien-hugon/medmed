@@ -1,0 +1,26 @@
+{
+  "id": "irc-c1-q01-reins-roles",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi les rôles suivants, lequel n'est PAS un rôle des reins ?",
+  "choices": [
+    { "id": "a", "text": "Filtrer le sang et fabriquer l'urine", "correct": false },
+    { "id": "b", "text": "Régler la quantité d'eau et de sel dans le corps", "correct": false },
+    { "id": "c", "text": "Pomper le sang dans tout l'organisme", "correct": true },
+    { "id": "d", "text": "Fabriquer l'EPO (hormone des globules rouges)", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Pomper le sang est le rôle du CŒUR, pas des reins. Les reins reçoivent le sang pompé par le cœur (environ 20 % du débit cardiaque) et le filtrent. Bien dissocier : cœur = pompe, reins = filtre + régulateur (eau, sel, PA, EPO, vitamine D).",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

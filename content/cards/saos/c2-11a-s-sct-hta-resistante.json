@@ -1,0 +1,31 @@
+{
+  "id": "saos-c2-11a-s-sct-hta-resistante",
+  "kind": "sct",
+  "prompt": "Vous suspectez un SAOS chez M. T., 58 ans, IMC 31, ronfleur connu mais sans somnolence diurne nette (Epworth = 9). Vous hésitez à demander une polygraphie. Vous apprenez ensuite à l'interrogatoire que sa PA reste à 158/96 mmHg malgré l'association ramipril + amlodipine + indapamide à doses optimales, et qu'il prend ces 3 médicaments depuis 6 mois.",
+  "hypothesis": "M. T. présente un SAOS justifiant une exploration par polygraphie ventilatoire.",
+  "new_info": "PA non contrôlée à 158/96 mmHg sous trithérapie antihypertensive incluant un diurétique (= HTA résistante).",
+  "expected": "renforce",
+  "rationale": "L'HTA résistante (PA non contrôlée malgré ≥ 3 antihypertenseurs dont un diurétique à dose optimale) est l'une des causes secondaires d'HTA dont le SAOS est l'étiologie la plus fréquente. Devant une HTA résistante, le SAOS doit être recherché systématiquement, même en l'absence de somnolence diurne marquée. L'information renforce donc fortement l'hypothèse d'un SAOS et justifie de demander la polygraphie ventilatoire sans attendre une majoration des symptômes.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "cardiovasculaire"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 3,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

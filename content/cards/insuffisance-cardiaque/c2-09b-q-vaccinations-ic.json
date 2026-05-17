@@ -1,0 +1,26 @@
+{
+  "id": "insuffisance-cardiaque-c2-q09-vaccinations-ic",
+  "kind": "qcm-vignette",
+  "prompt": "Quelles vaccinations sont recommandées de routine chez un patient insuffisant cardiaque chronique (NICE NG106) ?",
+  "choices": [
+    { "id": "a", "text": "Aucune vaccination spécifique au-delà du calendrier standard", "correct": false },
+    { "id": "b", "text": "Grippe saisonnière annuelle + pneumocoque", "correct": true },
+    { "id": "c", "text": "Grippe + méningocoque + hépatite B", "correct": false },
+    { "id": "d", "text": "Uniquement le pneumocoque, une fois", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE recommande explicitement vaccin antigrippal (annuel) + vaccin antipneumococcique (une fois, avec rappel selon schéma local) chez tout patient IC. Une grippe ou une pneumonie peut déclencher une décompensation aiguë.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "status": "active"
+}

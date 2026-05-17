@@ -1,0 +1,28 @@
+{
+  "id": "saos-c1-05a-l-profil-type",
+  "kind": "lesson",
+  "prompt": "Il y a un profil 'caricatural' du SAOS qu'il faut savoir reconnaître au premier coup d'œil :\n\n• HOMME (le sexe masculin est un facteur de risque, même si après la ménopause les femmes rattrapent)\n• SURPOIDS / OBÉSITÉ (facteur majeur : ~90 % des SAOS sont en surpoids)\n• ÂGE > 50 ANS (pic 60-70 ans)\n• Cou large (tour de cou > 43 cm chez l'homme)\n• Souvent : HTA associée, ronfleur connu, sa femme se plaint…\n\nMais ATTENTION : le SAOS existe aussi chez des gens MINCES (rétrognathie, palais étroit, ATCD familiaux), chez la FEMME (sous-diagnostiquée, symptômes plus atypiques : fatigue, insomnie, dépression) et chez le SUJET JEUNE. Donc ne pas l'écarter sur l'apparence seule.\n\nLes terrains à risque supplémentaires : alcool/sédatifs (relâchent les muscles du pharynx), tabac, hypothyroïdie, acromégalie.",
+  "rationale": "Mnémo terrain SAOS : 'HOMSO' = Homme, Obèse, > 50 ans, Surpoids cou, Œstrogène-faible (post-ménopause). Mais retenir surtout : le pattern le plus typique ne doit pas faire oublier les présentations atypiques, notamment féminines, longtemps sous-diagnostiquées.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

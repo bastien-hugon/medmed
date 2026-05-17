@@ -1,0 +1,20 @@
+{
+  "id": "depistage-cancer-c2-q03b-brca-suivi-cloze",
+  "kind": "cloze",
+  "prompt": "Chez une femme porteuse d'une mutation BRCA1 ou BRCA2, le dépistage des cancers du sein repose principalement sur une ___ mammaire annuelle, démarrée dès l'âge de ___ ans environ.",
+  "expected": ["IRM", "30"],
+  "rationale": "L'IRM est l'examen pivot : elle voit ce que la mammographie rate dans les seins jeunes et denses. L'âge de début (≈ 30 ans) est volontairement précoce, parce que les cancers BRCA surviennent fréquemment avant 40 ans. On garde quand même une mammographie + échographie périodiques en complément (souvent décalées de 6 mois pour densifier la surveillance).",
+  "tags": {
+    "system": ["oncologie", "prevention", "genetique"],
+    "sdd": ["depistage-cancer"],
+    "item_edn": [290, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/G%C3%A8nes_BRCA",
+    "version": "à vérifier"
+  },
+  "status": "active"
+}

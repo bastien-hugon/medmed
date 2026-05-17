@@ -1,0 +1,28 @@
+{
+  "id": "saos-c2-04a-l-polygraphie-polysomno",
+  "kind": "lesson",
+  "prompt": "Comment confirmer un SAOS ? Il faut ENREGISTRER le sommeil. Deux examens disponibles, complémentaires :\n\n1) POLYGRAPHIE VENTILATOIRE (1ère intention)\n• Examen AMBULATOIRE : le patient rentre chez lui avec un boîtier portatif et dort à domicile\n• Mesure : flux nasobuccal (canule narinaire), saturation en oxygène (oxymètre au doigt), efforts respiratoires (sangles thorax + abdomen), parfois fréquence cardiaque et position\n• PAS d'EEG → on ne mesure pas le sommeil lui-même, on estime à partir du flux\n• Suffisant si elle est POSITIVE chez un patient à forte probabilité clinique\n• Moins coûteux, plus accessible\n\n2) POLYSOMNOGRAPHIE (2ème intention)\n• Examen plus complet, souvent en milieu hospitalier (laboratoire du sommeil)\n• Ajoute EEG (stades de sommeil), EOG (mouvements oculaires), EMG du menton et des jambes\n• On mesure VRAIMENT le sommeil, donc l'IAH est calculé sur les heures de sommeil réelles (et non sur le temps passé au lit)\n• Indiquée si la polygraphie est négative malgré une forte suspicion clinique (discordance), ou si on suspecte un autre trouble du sommeil (jambes sans repos, narcolepsie, etc.)\n\nEn pratique MG : tu adresses au pneumologue / médecin du sommeil → il choisit l'examen.",
+  "rationale": "Mnémo : POLYgraphie = POchette ambulatoire (poids léger, à la maison). POLYSOMNographie = POLYvalente avec EEG, en hospit. Le piège : ne pas demander d'emblée la polysomno (lourd, cher, long délai) si la polygraphie suffit. Stratégie en escalier : commencer simple, monter en complexité si besoin.",
+  "tags": {
+    "system": [
+      "pneumologie",
+      "neurologie"
+    ],
+    "sdd": [
+      "saos"
+    ],
+    "item_edn": [
+      108
+    ],
+    "cnge_family": [
+      "chroniques"
+    ]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Syndrome_d%27apn%C3%A9es_obstructives_du_sommeil",
+    "version": "consulté en 2026-05"
+  },
+  "status": "active"
+}

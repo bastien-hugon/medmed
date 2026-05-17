@@ -1,0 +1,26 @@
+{
+  "id": "irc-c1-q03-dfg-bas",
+  "kind": "qcm-vignette",
+  "prompt": "Sur une prise de sang, un patient a une créatinine plus haute que la normale et un DFG estimé à 45 mL/min. Que signifie ce résultat ?",
+  "choices": [
+    { "id": "a", "text": "Les reins fonctionnent mieux que la moyenne", "correct": false },
+    { "id": "b", "text": "Les reins filtrent moins bien que la normale", "correct": true },
+    { "id": "c", "text": "Le cœur ne pompe pas assez fort", "correct": false },
+    { "id": "d", "text": "Le patient a forcément un diabète", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Créat élevée et DFG bas pointent dans la même direction : moins de filtration. Un DFG de 45 mL/min, s'il est confirmé > 3 mois, place le patient au stade G3a de MRC (modérée). Le diabète est UNE cause possible (la plus fréquente) mais pas la seule — HTA, glomérulopathie, médicaments, etc.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "status": "active"
+}

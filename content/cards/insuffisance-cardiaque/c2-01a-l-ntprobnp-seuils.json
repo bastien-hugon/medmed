@@ -1,0 +1,28 @@
+{
+  "id": "insuffisance-cardiaque-c2-l01-ntprobnp-seuils",
+  "kind": "lesson",
+  "prompt": "On a vu en C1 que le NT-proBNP est un marqueur biologique d'insuffisance cardiaque. Voici les SEUILS opérationnels (recommandations NICE NG106), chez un patient symptomatique non traité :\n\n• NT-proBNP > 2000 ng/L (≈ 236 pmol/L) → URGENCE : référer en cardiologie pour échographie + bilan dans les 2 SEMAINES.\n\n• NT-proBNP entre 400 et 2000 ng/L → référer pour échographie + bilan dans les 6 SEMAINES (non urgent).\n\n• NT-proBNP < 400 ng/L → IC peu probable. Pas d'écho systématique, chercher une autre cause à la dyspnée (poumon, anémie, déconditionnement…).\n\nATTENTION : plusieurs facteurs FAUSSENT le NT-proBNP :\n• Le BAISSENT (faux négatifs) : obésité, ethnie afro-caribéenne, traitements de l'IC (IEC, ARNI, ARA2, BB, MRA, diurétiques)\n• L'AUGMENTENT (faux positifs) : âge avancé, insuffisance rénale, BPCO, sepsis, hépatopathie, embolie pulmonaire\n\nDonc : un NT-proBNP à 350 chez un patient obèse sous IEC ne RASSURE PAS complètement.",
+  "rationale": "Garde le réflexe pratique : 'NT-proBNP haut chez patient suspect d'IC → écho. Très haut (>2000) → écho urgente.' La biologie ne fait que prioriser le délai d'écho. Les seuils sont ceux du NICE NG106 ; en France, la HAS et l'ESC utilisent des seuils légèrement différents, mais l'idée et l'ordre de grandeur sont les mêmes.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["insuffisance-cardiaque"],
+    "item_edn": [234],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng106/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  NT-proBNP — décision pratique\n\n  Valeur (ng/L)        Conduite                 Délai écho\n  ───────────────────────────────────────────────────────\n  > 2000               réfère cardio URGENT       < 2 sem\n  400 – 2000           réfère cardio              < 6 sem\n  < 400                IC peu probable            inutile\n\n  ── Baissent le NT-proBNP (attention faux négatifs) ──\n     obésité, ethnie afro-caribéenne,\n     IEC, ARNI, ARA2, BB, MRA, diurétiques\n\n  ── Augmentent le NT-proBNP (faux positifs) ──\n     âge, IRC, BPCO, sepsis, cirrhose, embolie pulm.",
+      "alt": "Tableau ASCII des trois seuils décisionnels NT-proBNP et liste des facteurs qui faussent le dosage.",
+      "caption": "Plus le NT-proBNP est haut, plus l'écho est urgente. Toujours interpréter avec le contexte clinique.",
+      "attribution": "medmed, schéma original — données NICE NG106"
+    }
+  ],
+  "status": "active"
+}

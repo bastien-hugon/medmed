@@ -1,0 +1,28 @@
+{
+  "id": "irc-c1-l04-mrc-stades",
+  "kind": "lesson",
+  "prompt": "Quand le DFG baisse, on classe la maladie rénale chronique (MRC) en 5 STADES, de G1 (le moins grave) à G5 (le plus grave). Le 'G' veut dire 'GFR', l'autre nom du DFG en anglais.\n\nLa logique est simple : plus le DFG baisse, plus le stade monte.\n\n• G1 : DFG ≥ 90 → filtration normale (mais il y a déjà un signe d'atteinte rénale, ex. protéinurie)\n• G2 : DFG 60-89 → légère baisse\n• G3a : DFG 45-59 → légère à modérée\n• G3b : DFG 30-44 → modérée à sévère\n• G4 : DFG 15-29 → sévère\n• G5 : DFG < 15 → insuffisance rénale terminale (dialyse / greffe à envisager)\n\nPiège à éviter : un DFG < 60 isolé ne suffit PAS à parler de MRC. Il faut que ce soit confirmé pendant plus de 3 MOIS. Un DFG bas ponctuel peut juste être une déshydratation, un médicament, une infection.\n\nPourquoi cette classification ? Parce que la prise en charge change selon le stade : G1-G2 → surveillance + facteurs de risque ; G3 → bilan complet ; G4-G5 → préparation à la suppléance (dialyse / greffe) et orientation au néphrologue.",
+  "rationale": "Mnémo : 'G' comme Gravité croissante. Le stade G3 est divisé en G3a et G3b parce que c'est là que la prise en charge se complexifie : à partir de G3b (< 45), on commence à adapter les médicaments éliminés par le rein, et le risque cardiovasculaire monte fortement. Note : on combine toujours ce stade G avec le stade A (albuminurie) — on le voit en C2.",
+  "tags": {
+    "system": ["nephrologie"],
+    "sdd": ["irc", "mrc"],
+    "item_edn": [261, 264],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+    "version": "2021 updated 2025"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Stades de la MRC selon le DFG (en mL/min/1.73 m²)\n\n  ┌───────┬──────────┬─────────────────────────────────┐\n  │ Stade │   DFG    │  Description                    │\n  ├───────┼──────────┼─────────────────────────────────┤\n  │  G1   │  ≥ 90    │  normal (mais atteinte rénale)  │\n  │  G2   │  60-89   │  légère baisse                  │\n  │  G3a  │  45-59   │  légère à modérée               │\n  │  G3b  │  30-44   │  modérée à sévère               │\n  │  G4   │  15-29   │  sévère                         │\n  │  G5   │  < 15    │  insuffisance rénale terminale  │\n  └───────┴──────────┴─────────────────────────────────┘\n\n  Règle : doit durer > 3 mois pour parler de MRC.",
+      "alt": "Tableau ASCII des cinq stades de la maladie rénale chronique selon le DFG, du stade G1 (≥90) au stade G5 (<15), avec la description clinique correspondante.",
+      "caption": "Plus le DFG chute, plus le stade monte. G3 est divisé en G3a et G3b car la prise en charge bascule à 45.",
+      "attribution": "ASCII: medmed, schéma original (d'après NICE NG203)"
+    }
+  ],
+  "status": "active"
+}

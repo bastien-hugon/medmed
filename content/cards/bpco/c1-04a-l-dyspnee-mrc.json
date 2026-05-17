@@ -1,0 +1,28 @@
+{
+  "id": "bpco-c1-l04-dyspnee-mrc",
+  "kind": "lesson",
+  "prompt": "DYSPNÉE = sensation de manquer d'air, essoufflement. C'est le symptôme N°1 de la BPCO.\n\nElle a une caractéristique typique : elle apparaît à L'EFFORT. Au repos tout va bien ; mais dès qu'on bouge, on souffle. Et avec le temps, l'effort qui déclenche la dyspnée devient de plus en plus petit (monter un étage devient dur, puis marcher, puis s'habiller).\n\nPour QUANTIFIER cette dyspnée, on utilise une échelle simple, l'échelle MRC (Medical Research Council), graduée de 0 à 4 :\n\n  Grade 0 : pas de dyspnée, sauf gros effort\n  Grade 1 : essoufflé en montant une côte rapidement\n  Grade 2 : marche plus lentement que les gens de son âge sur du plat\n  Grade 3 : doit s'arrêter pour souffler après ~100 m sur du plat\n  Grade 4 : trop essoufflé pour sortir de chez soi, ou pour s'habiller\n\nC'est un outil clé : on peut suivre la maladie dans le temps avec un seul chiffre, et c'est lui qui décide quand on propose la réhabilitation respiratoire (à partir du grade 3).",
+  "rationale": "Mnémo : '0 jamais, 1 côte rapide, 2 plat lent, 3 100 m, 4 sort plus'. La dyspnée d'effort est INSIDIEUSE : le patient s'adapte sans s'en rendre compte (il prend l'ascenseur, ralentit, évite les escaliers). C'est souvent le conjoint qui s'inquiète avant lui. Toujours demander à un patient fumeur : 'qu'est-ce que vous ne faites plus, qu'avant vous faisiez ?'",
+  "tags": {
+    "system": ["pneumologie"],
+    "sdd": ["bpco"],
+    "item_edn": [209],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng115/chapter/Recommendations",
+    "version": "2018 updated"
+  },
+  "media": [
+    {
+      "kind": "ascii",
+      "src": "  Echelle MRC dyspnea (0 a 4)\n\n  Grade 0  Pas essouffle sauf gros effort\n  Grade 1  Essouffle en montant une cote rapide\n           ou en pressant le pas\n  Grade 2  Marche moins vite sur du plat\n           que les gens de son age\n  Grade 3  S'arrete apres ~100 m sur le plat\n           pour reprendre son souffle\n  Grade 4  Trop essouffle pour sortir\n           ou pour s'habiller\n\n  -> Rehabilitation respiratoire des grade >= 3",
+      "alt": "Echelle MRC dyspnea en cinq lignes, du grade 0 (pas d'essoufflement) au grade 4 (trop essouffle pour sortir), avec mention que la rehabilitation est indiquee a partir du grade 3.",
+      "caption": "Echelle MRC : un chiffre pour suivre l'essoufflement du patient.",
+      "attribution": "medmed, schema original d'apres NICE NG115"
+    }
+  ],
+  "status": "active"
+}
