@@ -119,6 +119,68 @@ export async function getDrillSessionStats(
   };
 }
 
+// Streak de jours consécutifs avec ≥ 1 drill (depuis aujourd'hui ou hier).
+export type DrillStreak = {
+  current: number;
+  longest: number;
+  lastDrillAt: number | null;
+  totalDays: number;
+};
+
+export async function getDrillStreak(): Promise<DrillStreak> {
+  const sql = db();
+  const rows = (await sql`
+    SELECT DATE(to_timestamp(attempted_at / 1000)) AS day,
+           MAX(attempted_at)::bigint AS last_ms
+    FROM drill_attempts
+    GROUP BY day
+    ORDER BY day DESC
+  `) as Array<{ day: string; last_ms: string }>;
+
+  if (rows.length === 0) {
+    return { current: 0, longest: 0, lastDrillAt: null, totalDays: 0 };
+  }
+
+  const days = rows.map((r) => new Date(r.day + "T00:00:00Z").getTime());
+  const DAY_MS = 86400000;
+  const today = Math.floor(Date.now() / DAY_MS) * DAY_MS;
+  const yesterday = today - DAY_MS;
+
+  // Streak en cours : on accepte que la dernière soit aujourd'hui ou hier
+  let current = 0;
+  if (days[0] === today || days[0] === yesterday) {
+    let expected = days[0];
+    for (const d of days) {
+      if (d === expected) {
+        current++;
+        expected -= DAY_MS;
+      } else {
+        break;
+      }
+    }
+  }
+
+  // Plus longue streak historique
+  let longest = 1;
+  let run = 1;
+  for (let i = 1; i < days.length; i++) {
+    if (days[i - 1] - days[i] === DAY_MS) {
+      run++;
+    } else {
+      longest = Math.max(longest, run);
+      run = 1;
+    }
+  }
+  longest = Math.max(longest, run);
+
+  return {
+    current,
+    longest,
+    lastDrillAt: rows[0] ? Number(rows[0].last_ms) : null,
+    totalDays: rows.length,
+  };
+}
+
 // Stats cumulées historique (toutes les drills confondues).
 export async function getDrillHistoryStats(): Promise<DrillTopicStats[]> {
   const sql = db();

@@ -7,6 +7,41 @@ export type LessonNote = {
   generatedAt: number;
 };
 
+export type LessonNoteWithCard = LessonNote & {
+  topic: string | null;
+  cardPrompt: string;
+};
+
+// Toutes les notes générées, jointes avec la carte source.
+// Sert à construire la page /notes (groupage par topic).
+export async function getAllNotes(): Promise<LessonNoteWithCard[]> {
+  const sql = db();
+  const rows = (await sql`
+    SELECT ln.card_id, ln.content, ln.model, ln.generated_at,
+           (c.tags->'sdd'->>0) AS topic,
+           c.prompt AS card_prompt,
+           c.created_at AS card_created_at
+    FROM lesson_notes ln
+    JOIN cards c ON c.id = ln.card_id
+    ORDER BY topic, c.created_at
+  `) as Array<{
+    card_id: string;
+    content: string;
+    model: string;
+    generated_at: string;
+    topic: string | null;
+    card_prompt: string;
+  }>;
+  return rows.map((r) => ({
+    cardId: r.card_id,
+    content: r.content,
+    model: r.model,
+    generatedAt: Number(r.generated_at),
+    topic: r.topic,
+    cardPrompt: r.card_prompt,
+  }));
+}
+
 export async function getNote(cardId: string): Promise<LessonNote | null> {
   const sql = db();
   const rows = (await sql`

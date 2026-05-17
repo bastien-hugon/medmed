@@ -2,9 +2,9 @@
 
 import { useEffect, useRef, useState, useTransition } from "react";
 import Link from "next/link";
-import { startDrill, submitDrillAttempt } from "@/actions/drill";
+import { startDrill, submitDrillAttempt, getDrillRecap } from "@/actions/drill";
 import type { CardRow } from "@/lib/cards";
-import type { DrillTopic, DrillTopicStats } from "@/lib/drill";
+import type { DrillStreak, DrillTopic, DrillTopicStats } from "@/lib/drill";
 
 type Phase = "select" | "run" | "summary";
 type Step = "prompt" | "reveal";
@@ -569,7 +569,7 @@ function SummaryPhase({ results }: { results: RunResult[] }) {
   const correct = results.filter((r) => r.correct === 1).length;
   const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
 
-  // Aggrégation par topic
+  // Aggrégation par topic (cette session)
   const byTopicMap = new Map<string, { attempts: number; correct: number }>();
   for (const r of results) {
     const cur = byTopicMap.get(r.topic) ?? { attempts: 0, correct: 0 };
@@ -590,6 +590,18 @@ function SummaryPhase({ results }: { results: RunResult[] }) {
     })
     .sort((a, b) => a.accuracy - b.accuracy);
 
+  // Recap historique (streak + cumul par topic) — fetch après mount
+  const [streak, setStreak] = useState<DrillStreak | null>(null);
+  const [history, setHistory] = useState<DrillTopicStats[] | null>(null);
+
+  useEffect(() => {
+    (async () => {
+      const r = await getDrillRecap();
+      setStreak(r.streak);
+      setHistory(r.history);
+    })().catch(() => {});
+  }, []);
+
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col gap-6 px-6 py-10">
       <header className="space-y-1 text-center">
@@ -601,17 +613,31 @@ function SummaryPhase({ results }: { results: RunResult[] }) {
         </h1>
       </header>
 
+      {streak && streak.current > 0 && <StreakBadge streak={streak} />}
+
       <section className="space-y-2">
         <p className="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
-          À réviser en priorité (du plus faible au plus solide)
+          Cette session — à réviser en priorité (du plus faible au plus solide)
         </p>
         {byTopic.length === 0 && (
           <p className="text-sm text-zinc-500">Aucune donnée — étrange.</p>
         )}
-        {byTopic.map((t) => (
-          <TopicRow key={t.topic} stats={t} />
-        ))}
+        {byTopic.map((t) => {
+          const histo = history?.find((h) => h.topic === t.topic);
+          return <TopicRow key={t.topic} stats={t} historical={histo} />;
+        })}
       </section>
+
+      {history && history.length > 0 && (
+        <section className="space-y-2 border-t border-zinc-200 pt-5 dark:border-zinc-800">
+          <p className="text-xs uppercase tracking-wide text-zinc-500 dark:text-zinc-400">
+            Tendance globale (cumul tous les drills)
+          </p>
+          {history.map((h) => (
+            <TopicRow key={h.topic} stats={h} dim />
+          ))}
+        </section>
+      )}
 
       <footer className="flex justify-center gap-3">
         <Link
@@ -631,7 +657,37 @@ function SummaryPhase({ results }: { results: RunResult[] }) {
   );
 }
 
-function TopicRow({ stats }: { stats: DrillTopicStats }) {
+function StreakBadge({ streak }: { streak: DrillStreak }) {
+  return (
+    <div className="rounded-xl border border-orange-200 bg-orange-50 px-4 py-3 dark:border-orange-800 dark:bg-orange-950/40">
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <span aria-hidden className="text-2xl">
+            🔥
+          </span>
+          <div>
+            <p className="text-sm font-semibold text-orange-900 dark:text-orange-100">
+              {streak.current} jour{streak.current > 1 ? "s" : ""} d&apos;affilée
+            </p>
+            <p className="text-xs text-orange-800/80 dark:text-orange-200/80">
+              Record : {streak.longest} · {streak.totalDays} jours au total
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TopicRow({
+  stats,
+  historical,
+  dim,
+}: {
+  stats: DrillTopicStats;
+  historical?: DrillTopicStats;
+  dim?: boolean;
+}) {
   const tone =
     stats.level === "good"
       ? "border-emerald-200 bg-emerald-50 dark:border-emerald-800 dark:bg-emerald-950/40"
@@ -641,25 +697,42 @@ function TopicRow({ stats }: { stats: DrillTopicStats }) {
   const icon = stats.level === "good" ? "🟢" : stats.level === "mid" ? "🟡" : "🔴";
   const label =
     stats.level === "good" ? "Bien" : stats.level === "mid" ? "Moyen" : "À revoir en prio";
-  const topicLabel = TOPIC_LABELS[stats.topic] ?? stats.topic;
+  const topicL = TOPIC_LABELS[stats.topic] ?? stats.topic;
   const pct = Math.round(stats.accuracy * 100);
+  const histoPct = historical ? Math.round(historical.accuracy * 100) : null;
+  const delta = histoPct !== null ? pct - histoPct : null;
 
   return (
-    <div className={`flex items-center justify-between rounded-xl border px-4 py-3 ${tone}`}>
+    <div
+      className={`flex items-center justify-between rounded-xl border px-4 py-3 ${tone} ${
+        dim ? "opacity-90" : ""
+      }`}
+    >
       <div className="flex items-center gap-3">
         <span aria-hidden className="text-lg">
           {icon}
         </span>
         <div>
-          <p className="text-sm font-semibold">{topicLabel}</p>
+          <p className="text-sm font-semibold">{topicL}</p>
           <p className="text-xs opacity-75">{label}</p>
         </div>
       </div>
       <div className="text-right text-sm">
-        <span className="font-semibold tabular-nums">{pct} %</span>
-        <span className="ml-2 text-xs opacity-70">
-          ({stats.correct} / {stats.attempts})
-        </span>
+        <div>
+          <span className="font-semibold tabular-nums">{pct} %</span>
+          <span className="ml-2 text-xs opacity-70">
+            ({stats.correct} / {stats.attempts})
+          </span>
+        </div>
+        {!dim && delta !== null && Math.abs(delta) >= 5 && (
+          <p className="mt-0.5 text-[10px] opacity-70">
+            cumul : {histoPct} %
+            <span className={delta > 0 ? "ml-1 text-emerald-700" : "ml-1 text-red-700"}>
+              ({delta > 0 ? "+" : ""}
+              {delta})
+            </span>
+          </p>
+        )}
       </div>
     </div>
   );

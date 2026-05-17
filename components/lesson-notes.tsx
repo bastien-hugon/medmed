@@ -87,7 +87,7 @@ export default function LessonNotes({ cardId, prompt, rationale }: Props) {
 }
 
 // Mini renderer markdown : puces "- " avec indentation 2 espaces, gras **texte**.
-function Markdown({ text }: { text: string }) {
+export function Markdown({ text }: { text: string }) {
   const lines = text.split("\n").filter((l) => l.trim().length > 0);
   return (
     <ul className="space-y-1.5">

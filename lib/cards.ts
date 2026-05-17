@@ -119,6 +119,87 @@ export async function getReviewedCardIdsInSession(sessionId: string): Promise<st
 }
 
 const MASTERY_THRESHOLD = 0.8;
+export const MASTERY_THRESHOLD_PCT = 80;
+
+export type TopicLayerState = {
+  difficulty: number;
+  deck: number;
+  introduced: number;
+  mastered: number;
+  masteryPct: number;
+  locked: boolean; // verrouillée si la couche précédente n'est pas mastered
+};
+
+export type TopicState = {
+  topic: string;
+  layers: TopicLayerState[];
+  totalDeck: number;
+  totalIntroduced: number;
+  totalMastered: number;
+};
+
+// État global par topic : pour chaque couche, deck/introduced/mastered + verrouillage.
+// Utilisé sur le dashboard pour montrer "où tu en es" et "ce qui reste à débloquer".
+export async function getTopicStates(): Promise<TopicState[]> {
+  const sql = db();
+  const rows = (await sql`
+    SELECT
+      (c.tags->'sdd'->>0) AS topic,
+      c.difficulty::int AS difficulty,
+      COUNT(*)::int AS deck,
+      COUNT(f.card_id)::int AS introduced,
+      COALESCE(SUM(CASE WHEN (f.state->>'state')::int >= 2 THEN 1 ELSE 0 END), 0)::int AS mastered
+    FROM cards c
+    LEFT JOIN fsrs_state f ON f.card_id = c.id
+    WHERE c.status = 'active'
+    GROUP BY topic, c.difficulty
+  `) as Array<{
+    topic: string | null;
+    difficulty: number;
+    deck: number;
+    introduced: number;
+    mastered: number;
+  }>;
+
+  const map = new Map<string, TopicState>();
+  for (const r of rows) {
+    if (!r.topic) continue;
+    if (!map.has(r.topic)) {
+      map.set(r.topic, {
+        topic: r.topic,
+        layers: [],
+        totalDeck: 0,
+        totalIntroduced: 0,
+        totalMastered: 0,
+      });
+    }
+    const t = map.get(r.topic)!;
+    const masteryPct = r.deck > 0 ? (r.mastered / r.deck) * 100 : 0;
+    t.layers.push({
+      difficulty: r.difficulty,
+      deck: r.deck,
+      introduced: r.introduced,
+      mastered: r.mastered,
+      masteryPct,
+      locked: false,
+    });
+    t.totalDeck += r.deck;
+    t.totalIntroduced += r.introduced;
+    t.totalMastered += r.mastered;
+  }
+
+  // Verrouillage : une couche L est locked si la couche L-1 n'est pas mastered (≥ 80 %)
+  for (const state of map.values()) {
+    state.layers.sort((a, b) => a.difficulty - b.difficulty);
+    for (let i = 1; i < state.layers.length; i++) {
+      if (state.layers[i - 1].masteryPct < MASTERY_THRESHOLD_PCT) {
+        state.layers[i].locked = true;
+      }
+    }
+  }
+
+  return Array.from(map.values()).sort((a, b) => a.topic.localeCompare(b.topic));
+}
 
 export async function getCurrentLayerDifficulty(): Promise<number | null> {
   const sql = db();
@@ -159,12 +240,28 @@ export async function getNewCardsAtDifficulty(
   `) as unknown as CardRow[];
 }
 
+// Plafond strict de lessons par session : creuser et prendre des notes prend
+// du temps. Au-delà, l'attention chute (cf. l'analyse session anxiete qui a été
+// skipée par fatigue). Quizzes ne sont pas capés.
+export const MAX_LESSONS_PER_SESSION = 4;
+
+function capLessons(cards: CardRow[], maxLessons: number): CardRow[] {
+  let n = 0;
+  return cards.filter((c) => {
+    if (c.kind !== "lesson") return true;
+    n++;
+    return n <= maxLessons;
+  });
+}
+
 export async function pickSessionBatch(
-  target: number = 20,
+  target: number = 10,
   excludeIds: string[] = [],
 ): Promise<CardRow[]> {
   const dueLimit = 80;
-  const newLimit = 15;
+  // On fetch plus de cartes que nécessaire pour pouvoir capper les lessons sans
+  // tomber sous le target s'il y a beaucoup de quizzes derrière chaque lesson.
+  const newLimit = 25;
   const exclude = new Set(excludeIds);
 
   // 1. Due cards (toutes difficultés — déjà introduites)
@@ -175,25 +272,31 @@ export async function pickSessionBatch(
 
   // 2. New cards: uniquement depuis la couche courante (gating)
   const remaining = Math.max(target - filteredDue.length, 0);
-  const newCap = Math.min(remaining, newLimit);
+  const newCap = Math.min(remaining + 5, newLimit); // marge pour le cap lessons
   let filteredNew: CardRow[] = [];
 
   if (newCap > 0) {
     const currentDifficulty = await getCurrentLayerDifficulty();
     if (currentDifficulty !== null) {
       const fresh = await getNewCardsAtDifficulty(currentDifficulty, newCap);
-      filteredNew = fresh.filter((c) => !exclude.has(c.id)).slice(0, newCap);
+      filteredNew = fresh.filter((c) => !exclude.has(c.id));
     }
   }
 
-  // Dues : on shuffle les GROUPES de concept (pour varier d'un jour à l'autre)
-  // mais on préserve l'ordre lesson → quiz à l'intérieur de chaque groupe
-  // (BLUEPRINT pilier #2 / Partie 1bis : pas 2 lessons consécutives sans quiz).
+  // Dues : shuffle les GROUPES de concept (pour varier d'un jour à l'autre)
+  // mais on préserve l'ordre lesson → quiz à l'intérieur de chaque groupe.
   const dueGroups = groupByConceptOrdered(filteredDue);
   const dueOrdered = shuffle(dueGroups).flat();
-  // Nouvelles : déjà ordonnées par created_at ASC (= ordre alphabétique du seed,
-  // donc lesson avant quiz du même concept).
-  return [...dueOrdered, ...filteredNew];
+  // Nouvelles : déjà ordonnées par created_at ASC (lesson avant quiz du même concept).
+  const combined = [...dueOrdered, ...filteredNew];
+
+  // Cap lessons : on garde les MAX_LESSONS_PER_SESSION premières lessons,
+  // les autres sont reportées à la prochaine session. Les quizzes "orphelins"
+  // (dont la lesson est coupée) sont gardés — la lesson était dans une session
+  // précédente ou viendra plus tard, le quiz peut être révisé en attendant.
+  const capped = capLessons(combined, MAX_LESSONS_PER_SESSION);
+
+  return capped.slice(0, target);
 }
 
 export async function getFsrsState(cardId: string): Promise<unknown | null> {

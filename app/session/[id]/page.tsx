@@ -16,7 +16,9 @@ export default async function SessionPage({
   if (session.ended_at) redirect("/dashboard");
 
   const reviewedIds = await getReviewedCardIdsInSession(id);
-  const cards = await pickSessionBatch(20, reviewedIds);
+  // Target volontairement bas : 10 cartes, dont max 4 lessons (cf. lib/cards.ts).
+  // L'apprentissage profond + prise de notes demande du temps par lesson.
+  const cards = await pickSessionBatch(10, reviewedIds);
 
   return <SessionRunner sessionId={id} cards={cards} />;
 }
