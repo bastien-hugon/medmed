@@ -8,7 +8,13 @@ import type { LibraryLessonRow } from "@/lib/cards";
 // Page lecture pleine d'une lesson en mode bibliothèque.
 // Read-only : pas de FSRS, pas de rating, pas de submitReview.
 // Réutilise LessonNotes (fiche markdown) et LessonChat (Opus contextualisé).
-export default function LessonReader({ lesson }: { lesson: LibraryLessonRow }) {
+export default function LessonReader({
+  lesson,
+  initialNote,
+}: {
+  lesson: LibraryLessonRow;
+  initialNote?: string | null;
+}) {
   const topic = (lesson.tags.sdd?.[0] as string) ?? "?";
   const { label: topicLabel, tone, gradient } = topicChip(topic);
   const title = titleFromCardId(lesson.id);
@@ -59,7 +65,7 @@ export default function LessonReader({ lesson }: { lesson: LibraryLessonRow }) {
       {/* Hero illustration (si image/diagram) */}
       {lesson.media?.some((m) => m.kind === "image" || m.kind === "diagram") && (
         <div
-          className={`-mx-5 sm:-mx-6 aspect-[16/9] overflow-hidden bg-linear-to-br ${gradient}`}
+          className={`-mx-5 sm:-mx-6 aspect-video overflow-hidden bg-linear-to-br ${gradient}`}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -96,12 +102,14 @@ export default function LessonReader({ lesson }: { lesson: LibraryLessonRow }) {
         </aside>
       )}
 
-      {/* Fiche de notes (bouton génère si absente, affiche le cache sinon) */}
+      {/* Fiche de notes : pré-hydratée côté serveur si une fiche existe déjà,
+          sinon bouton "Prendre des notes" pour la générer. */}
       <LessonNotes
         key={`notes-${lesson.id}`}
         cardId={lesson.id}
         prompt={lesson.prompt}
         rationale={lesson.rationale}
+        initialContent={initialNote}
       />
 
       {/* Chat Opus contextualisé */}

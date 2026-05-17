@@ -6,6 +6,9 @@ type Props = {
   cardId: string;
   prompt: string;
   rationale: string;
+  // Si la fiche existe déjà en DB, le serveur peut la passer ici pour qu'elle
+  // s'affiche directement sans clic ni round-trip API.
+  initialContent?: string | null;
 };
 
 type NoteResponse = {
@@ -15,9 +18,9 @@ type NoteResponse = {
   generatedAt: number;
 };
 
-export default function LessonNotes({ cardId, prompt, rationale }: Props) {
-  const [content, setContent] = useState<string | null>(null);
-  const [cached, setCached] = useState(false);
+export default function LessonNotes({ cardId, prompt, rationale, initialContent }: Props) {
+  const [content, setContent] = useState<string | null>(initialContent ?? null);
+  const [cached, setCached] = useState(Boolean(initialContent));
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
