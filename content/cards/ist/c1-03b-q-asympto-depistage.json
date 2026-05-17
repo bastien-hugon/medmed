@@ -1,0 +1,25 @@
+{
+  "id": "ist-c1-q03-asympto-depistage",
+  "kind": "qcm-vignette",
+  "prompt": "Pourquoi propose-t-on un dépistage IST à des patients qui ne se plaignent de rien ?",
+  "choices": [
+    { "id": "a", "text": "Parce que la loi l'impose à tout le monde", "correct": false },
+    { "id": "b", "text": "Parce que beaucoup d'IST sont asymptomatiques mais peuvent transmettre et provoquer des complications silencieuses", "correct": true },
+    { "id": "c", "text": "Parce que c'est rentable pour le laboratoire", "correct": false },
+    { "id": "d", "text": "Parce que les patients asymptomatiques sont plus contagieux que les symptomatiques", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le dépistage existe précisément parce que ressentir 'rien' n'élimine pas l'infection. Chlamydia, gonocoque, VIH peuvent évoluer en silence pendant des mois ou des années. Attendre les symptômes = rater les cas et laisser apparaître complications (infertilité, transmission, immunodépression).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

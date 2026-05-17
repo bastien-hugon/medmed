@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c2-l07-contraception-urgence",
+  "kind": "lesson",
+  "prompt": "La CONTRACEPTION D'URGENCE (CU) est utilisée APRÈS un rapport non protégé ou en cas d'accident contraceptif (oubli de pilule, préservatif déchiré, etc.). Elle ne remplace pas une contraception régulière.\n\nTROIS OPTIONS, par ordre croissant d'efficacité :\n\n1) LÉVONORGESTREL (LNG, Norlevo) 1,5 mg en dose unique — la 'pilule du lendemain' historique.\n   • Délai : à prendre jusqu'à 72h (3 jours) après le rapport. Plus c'est tôt, plus c'est efficace : ~95 % d'efficacité dans les 24h, ~85 % à 24-48h, ~63 % à 49-72h.\n   • Disponible sans ordonnance en pharmacie, gratuite pour les mineures.\n   • Tolérance habituellement bonne.\n\n2) ULIPRISTAL ACÉTATE (UPA, EllaOne) 30 mg en dose unique — la 'pilule des 5 jours'.\n   • Délai : jusqu'à 120h (5 jours) après le rapport.\n   • Statistiquement plus efficace que le LNG, surtout après 72h.\n   • Sans ordonnance en France depuis 2015, gratuit pour les mineures.\n\n3) DIU AU CUIVRE — posé dans les 120h (5 jours) après le rapport.\n   • C'est la méthode la PLUS efficace de contraception d'urgence (taux d'échec ~0,14 %).\n   • Avantage supplémentaire : il devient ensuite la contraception régulière (pour 5-10 ans).\n   • Nécessite un médecin formé à la pose, donc moins accessible en urgence.\n\nMÉCANISME : les méthodes hormonales (LNG, UPA) retardent ou empêchent l'ovulation — elles ne sont PAS abortives et sont inefficaces une fois l'implantation commencée.\n\nMESSAGE CLÉ : 'plus tôt = plus efficace'. La CU est une ROUE DE SECOURS, pas une méthode régulière (efficacité bien inférieure à une contraception classique).",
+  "rationale": "En pratique MG : la CU doit être systématiquement évoquée chez les jeunes femmes lors d'une consultation contraception, avec l'information sur la délivrance sans ordonnance et gratuite pour les mineures. Bien rappeler que la CU n'est PAS abortive (méprise fréquente) — elle agit AVANT l'implantation.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention", "urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Contraception_d%27urgence",
+    "version": "consulté en 2026-05"
+  }
+}

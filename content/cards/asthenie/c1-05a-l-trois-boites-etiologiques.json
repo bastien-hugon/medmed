@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c1-l05a-trois-boites-etiologiques",
+  "kind": "lesson",
+  "prompt": "Pour ne pas se noyer dans les dizaines de causes possibles de fatigue, on les range dans 3 grandes BOÎTES.\n\nBOÎTE 1 — ORGANIQUE\nUne maladie du corps abîme l'énergie : anémie, hypothyroïdie, diabète déséquilibré, cancer, insuffisance rénale, infection chronique, effet de médicament… On la suspecte quand il y a des signes physiques associés (perte de poids, fièvre, pâleur, anomalie biologique).\n\nBOÎTE 2 — PSYCHIQUE\nL'esprit pèse sur le corps : dépression, anxiété, stress chronique, burn-out. La fatigue est typiquement présente dès le matin, présente même au repos, et s'accompagne souvent d'une perte d'envie (anhédonie) ou de ruminations.\n\nBOÎTE 3 — FONCTIONNELLE\nNi maladie organique évidente, ni cause psychique pure. Le système est dérégulé sans qu'on identifie un coupable précis : syndrome de fatigue chronique (SFC), fibromyalgie, fatigue idiopathique. Diagnostic posé APRÈS avoir éliminé les deux premières boîtes.\n\nUne fatigue peut bien sûr appartenir à plusieurs boîtes en même temps (un diabétique déprimé, c'est possible).",
+  "rationale": "Cette tripartition est un cadre mental, pas une vérité absolue. Elle aide à structurer l'enquête : on cherche d'abord des arguments pour la boîte 1 (anamnèse + examen + bilan ciblé), puis la boîte 2 (questionnaires de santé mentale), et la boîte 3 ne se diagnostique qu'en dernier, après élimination raisonnable des deux autres.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

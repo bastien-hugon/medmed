@@ -1,0 +1,18 @@
+{
+  "id": "hta-c2-l02-sraa",
+  "kind": "lesson",
+  "prompt": "Voici LE système hormonal central de la régulation de la PA. Il s'appelle SRAA pour Système Rénine-Angiotensine-Aldostérone.\n\nLe scénario, étape par étape :\n\n1. Le REIN détecte une PA basse (ou un volume sanguin bas, ou peu de sodium).\n\n2. Il libère une enzyme appelée RÉNINE dans le sang.\n\n3. La rénine transforme une protéine inactive (angiotensinogène, fabriquée par le foie) en ANGIOTENSINE I.\n\n4. L'angiotensine I traverse les poumons, où une enzyme — l'ENZYME DE CONVERSION DE L'ANGIOTENSINE (ECA) — la transforme en ANGIOTENSINE II.\n\n5. L'angiotensine II est l'effecteur. Elle fait deux choses qui font monter la PA :\n   • Elle CONTRACTE les artérioles (↑ R dans PA = Q × R)\n   • Elle stimule la glande surrénale qui libère l'ALDOSTÉRONE\n\n6. L'aldostérone fait retenir le SEL (sodium) et donc l'EAU par les reins → augmentation du volume sanguin → ↑ Q.\n\nRésultat global : PA remonte.\n\nC'est un système de SECOURS magnifique en cas d'hémorragie ou de déshydratation. Mais quand il s'emballe à tort (chez l'hypertendu), il faut le bloquer. Et c'est exactement ce que font deux grandes familles de médicaments :\n\n• Les IEC (Inhibiteurs de l'Enzyme de Conversion) bloquent l'étape 4 (ECA)\n• Les ARA2 (Antagonistes des Récepteurs de l'Angiotensine 2) bloquent l'étape 5, au niveau des récepteurs.",
+  "rationale": "Mnémo : 'rein crie → rénine → angio I → poumon (ECA) → angio II → vasoconstriction + aldostérone → retient eau et sel → PA monte'. Conséquence pratique : on connaît les IEC à leur suffixe en '-pril' (énalapril, ramipril, périndopril). On connaît les ARA2 à leur suffixe en '-sartan' (losartan, valsartan, irbésartan). Effet indésirable typique des IEC : toux sèche (à cause des kinines).",
+  "tags": {
+    "system": ["cardiovasculaire", "endocrinologie", "rénal"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

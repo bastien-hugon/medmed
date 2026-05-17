@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c2-l08-indications-imagerie",
+  "kind": "lesson",
+  "prompt": "Question piège classique : 'Faut-il faire une IRM ?'. La réponse, en lombalgie commune, est presque toujours NON.\n\nLes recommandations HAS 2019 et NICE NG59 sont claires :\n\nEN POUSSÉE AIGUË (< 4-6 semaines) :\n• AUCUNE imagerie systématique\n• Sauf si un drapeau rouge est présent\n• Justification : l'imagerie ne change PAS la prise en charge dans la grande majorité des cas, et elle expose au risque de SURDIAGNOSTIC (trouver une 'hernie' qui n'est pas la cause de la douleur et angoisser le patient inutilement)\n\nEN CHRONIQUE (> 3 mois) :\n• IRM en 1ère intention (ou scanner si IRM impossible)\n• Justification : à ce stade, on cherche à éliminer une cause secondaire passée inaperçue et à orienter une PEC plus spécialisée\n\nEN PRÉSENCE D'UN DRAPEAU ROUGE :\n• Imagerie sans délai, adaptée au contexte (IRM si suspicion de queue de cheval, tumeur, infection ; radiographie + IRM si fracture suspectée)\n\nIRM signifie 'Imagerie par Résonance Magnétique' — examen non irradiant qui montre très bien les disques, les racines nerveuses et les parties molles.\n\nLA RADIOGRAPHIE SIMPLE n'est PAS recommandée en routine : peu informative, irradiante.",
+  "rationale": "Pourquoi ne pas faire d'IRM 'pour être sûr' ? Parce que ~50 % des adultes asymptomatiques ont une 'hernie discale' visible à l'IRM. Si on en trouve une chez quelqu'un qui a mal, on est tenté de l'incriminer — alors qu'elle n'est probablement pas la cause. Résultat : le patient est terrifié, il évite de bouger, il chronicise. Moralité : l'imagerie n'aide que si elle peut CHANGER quelque chose.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "imagerie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

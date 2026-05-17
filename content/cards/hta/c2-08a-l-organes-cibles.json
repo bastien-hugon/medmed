@@ -1,0 +1,18 @@
+{
+  "id": "hta-c2-l08-organes-cibles",
+  "kind": "lesson",
+  "prompt": "L'HTA n'est pas dangereuse en soi : les chiffres élevés ne tuent personne immédiatement (sauf urgence hypertensive). Ce qui tue, ce sont les COMPLICATIONS sur les organes que l'HTA abîme silencieusement, année après année. On les appelle les ORGANES CIBLES.\n\nQuatre territoires principaux :\n\n1. CERVEAU\n   • AVC ischémique (artère qui se bouche) ou hémorragique (artère qui éclate)\n   • Démence vasculaire (microlésions cérébrales accumulées)\n   L'HTA est LA première cause d'AVC.\n\n2. CŒUR\n   • Hypertrophie ventriculaire gauche (le ventricule s'épaissit à force de lutter contre une PA élevée)\n   • Insuffisance cardiaque (le cœur fatigue à long terme)\n   • Coronaropathie / infarctus (l'HTA accélère l'athérosclérose des coronaires)\n   • Fibrillation atriale\n\n3. REINS\n   • Néphroangiosclérose : les petits vaisseaux du rein se rigidifient, la filtration baisse, on évolue vers une INSUFFISANCE RÉNALE CHRONIQUE (IRC)\n   • Protéinurie : signe de souffrance glomérulaire\n   L'HTA est, avec le diabète, l'une des 2 grandes causes d'IRC terminale (dialyse).\n\n4. YEUX (RÉTINE)\n   • Rétinopathie hypertensive : croisements artério-veineux, hémorragies, exsudats, œdème papillaire dans les formes sévères\n   • Visible au fond d'œil, qui sert d'indicateur du retentissement vasculaire.\n\nDeux autres territoires à connaître : les GROSSES ARTÈRES (anévrysme de l'aorte) et les ARTÈRES DES MEMBRES INFÉRIEURS (artérite oblitérante des membres inférieurs).\n\nMnémo : 'Cerveau, Cœur, Reins, Yeux' — les 4 zones où l'HTA fait des dégâts.",
+  "rationale": "C'est ce qui explique pourquoi le bilan initial inclut iono/créat/DFG/protéinurie (rein), ECG (cœur), et pourquoi on cherche les antécédents d'AVC/IDM à l'interrogatoire. Traiter l'HTA = retarder ou éviter ces complications. La HAS rappelle que la PEC de l'HTA réduit AVC, démence, insuffisance cardiaque, IDM, mortalité CV, et retarde l'IRC terminale.",
+  "tags": {
+    "system": ["cardiovasculaire", "rénal", "neurologie", "ophtalmologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

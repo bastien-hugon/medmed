@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c1-l02-insuline",
+  "kind": "lesson",
+  "prompt": "Le glucose circule dans le sang — mais comment entre-t-il DANS les cellules pour leur servir de carburant ? Il faut une clé.\n\nCette clé s'appelle l'INSULINE. C'est une hormone (une petite molécule messagère) fabriquée par un organe situé derrière l'estomac : le PANCRÉAS.\n\nImage simple : chaque cellule a une serrure à sa porte. Le glucose attend dehors. Quand l'insuline arrive et tourne dans la serrure, la porte s'ouvre — et le glucose peut entrer pour être brûlé en énergie.\n\nQuand tu manges, ta glycémie monte → ton pancréas libère de l'insuline → les cellules ouvrent leurs portes → le glucose entre → la glycémie redescend.\n\nSans insuline (ou si elle marche mal), le glucose reste bloqué dehors, dans le sang. Il s'accumule. C'est ça, le diabète.",
+  "rationale": "L'image clé/serrure est volontairement simplifiée mais juste : l'insuline se fixe à un récepteur (la serrure) sur la cellule, ce qui déclenche l'entrée du glucose. Garde aussi en tête : pancréas = chef d'orchestre du sucre. C'est lui qui détecte la glycémie et libère l'insuline en réponse.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

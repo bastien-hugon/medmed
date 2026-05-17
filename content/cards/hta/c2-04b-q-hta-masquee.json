@@ -1,0 +1,25 @@
+{
+  "id": "hta-c2-q04-hta-masquee",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient diabétique a une PA à 130/82 au cabinet, mais son AMT montre une moyenne à 142/88. Comment appelle-t-on cette situation ?",
+  "choices": [
+    {"id": "a", "text": "HTA blouse blanche", "correct": false},
+    {"id": "b", "text": "PA normale, rien à signaler", "correct": false},
+    {"id": "c", "text": "HTA masquée", "correct": true},
+    {"id": "d", "text": "Hypotension orthostatique", "correct": false}
+  ],
+  "expected": ["c"],
+  "rationale": "HTA masquée = PA normale au cabinet (< 140/90) mais ÉLEVÉE en dehors (≥ 135/85). Particulièrement fréquente chez le diabétique. Risque cardiovasculaire comparable à une HTA permanente. À traiter comme telle. Inverse : 'blouse blanche' = haute cabinet, normale maison (généralement pas de traitement, mais surveillance annuelle).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

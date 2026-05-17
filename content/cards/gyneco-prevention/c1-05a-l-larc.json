@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c1-l05-larc",
+  "kind": "lesson",
+  "prompt": "LARC = Long-Acting Reversible Contraception. En français : contraception réversible de longue durée d'action.\n\nDeux méthodes principales rentrent dans cette catégorie :\n• Le DIU (DIU au cuivre OU DIU hormonal au lévonorgestrel) — posé dans l'utérus, dure 3 à 10 ans selon le modèle.\n• L'IMPLANT sous-cutané — un petit bâtonnet glissé sous la peau du bras, dure ~3 ans.\n\nDeux idées-clés derrière le mot LARC :\n\n1) 'Long-Acting' : une fois en place, on n'a plus rien à faire au quotidien. Pas de pilule à penser, pas de pose de préservatif à négocier dans la chambre. L'efficacité 'usage typique' = efficacité 'usage parfait' (cf. carte sur typical vs perfect use), parce qu'il n'y a quasiment plus d'erreur d'utilisation possible.\n\n2) 'Reversible' : à la différence de la stérilisation, on peut tout retirer du jour au lendemain et la fertilité revient.\n\nC'est pour ça que les LARC sont aujourd'hui mis en avant comme méthodes de 1ère intention chez beaucoup de femmes, y compris les adolescentes et les nullipares (qui n'ont jamais eu d'enfant).",
+  "rationale": "Le concept LARC est venu changer la pratique : avant, on hésitait à poser un DIU chez une jeune femme. Aujourd'hui, les recommandations internationales considèrent que c'est l'une des meilleures options, justement parce que l'efficacité réelle (typical use) est superbe. À retenir comme un mot-outil : si une patiente dit 'je n'ai pas envie de penser à ma contraception', tu penses LARC.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

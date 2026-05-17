@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c2-l03-stepped-care",
+  "kind": "lesson",
+  "prompt": "NICE structure la prise en charge du TAG selon un modèle de SOINS PAR PALIERS (stepped care). Idée : commencer le moins invasif possible, et N'ESCALADER QUE SI ÇA NE MARCHE PAS.\n\nQuatre paliers :\n\nÉTAPE 1 — IDENTIFICATION & ÉVALUATION\nRepérer le trouble, évaluer la sévérité (GAD-7), chercher les comorbidités. Information, psychoéducation, rassurance. Surveillance active sur quelques semaines pour les formes mineures.\n\nÉTAPE 2 — INTERVENTIONS DE FAIBLE INTENSITÉ\nSi les symptômes persistent ou retentissement modéré. Au choix :\n• Auto-aide non guidée (livres, applis, supports écrits)\n• Auto-aide guidée (5-7 séances courtes avec un thérapeute)\n• Groupes psychoéducatifs (6 séances de 2h)\n\nÉTAPE 3 — INTERVENTIONS DE HAUTE INTENSITÉ\nSi retentissement marqué OU échec de l'étape 2. Au choix :\n• Thérapie cognitivo-comportementale (CBT) — 12 à 15 séances hebdomadaires\n• OU médicament : SSRI (sertraline en 1ère intention)\n\nÉTAPE 4 — SOINS SPÉCIALISÉS COMPLEXES\nFormes très sévères, résistantes, comorbidités multiples, risque suicidaire. Adressage à un psychiatre / centre spécialisé. Combinaison psychothérapie + médicament possible, sous supervision experte.\n\nLogique : on graduate, on ne saute pas les étapes — sauf urgence (idées suicidaires, retentissement massif).",
+  "rationale": "Le stepped care est plus qu'un protocole — c'est une PHILOSOPHIE de soin : ne pas sur-traiter, respecter le rythme du patient, valoriser les interventions non médicamenteuses. En MG française, l'étape 2 (auto-aide guidée, groupes) est encore peu développée — on saute souvent directement de l'étape 1 à l'étape 3 (CBT ou SSRI). À garder en tête : le GAD-7 sert à juger si on a besoin d'escalader (score ≥ 10 → step 3 souvent justifié).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

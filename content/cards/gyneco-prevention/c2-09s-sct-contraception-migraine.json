@@ -1,0 +1,21 @@
+{
+  "id": "gyneco-prevention-c2-s09-sct-contraception-migraine",
+  "kind": "sct",
+  "prompt": "Vous suivez une femme de 28 ans, non fumeuse, en bonne santé, pour qui vous envisagez la prescription d'une pilule œstro-progestative. Vous l'interrogez sur ses antécédents.",
+  "hypothesis": "La pilule œstro-progestative est une bonne option de 1ère intention pour cette patiente.",
+  "new_info": "Elle vous précise qu'elle a des migraines AVEC AURA visuelle (scotomes scintillants) plusieurs fois par an depuis l'adolescence.",
+  "expected": "affaiblit",
+  "rationale": "La migraine AVEC aura est une contre-indication classique aux œstro-progestatifs : la combinaison aura + œstrogènes augmente significativement le risque d'AVC ischémique. C'est l'aura qui change la donne (pas la migraine 'simple' sans aura, qui n'est qu'une précaution). L'hypothèse 'pilule combinée OK' est donc affaiblie : on s'orientera vers un progestatif seul ou un DIU. À ne pas confondre : céphalées de tension ou migraines SANS aura → pas de contre-indication formelle.",
+  "tags": {
+    "system": ["gynecologie-urologie", "neurologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 98],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

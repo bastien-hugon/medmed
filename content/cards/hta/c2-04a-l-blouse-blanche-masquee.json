@@ -1,0 +1,18 @@
+{
+  "id": "hta-c2-l04-blouse-blanche-masquee",
+  "kind": "lesson",
+  "prompt": "Maintenant qu'on a deux endroits où mesurer (cabinet et domicile), il y a 4 combinaisons possibles. Deux sont 'simples', deux ont un nom particulier :\n\n1. PA NORMALE au cabinet ET à la maison → tout va bien.\n\n2. PA HAUTE au cabinet ET à la maison → HTA permanente, vraie HTA. À traiter.\n\n3. PA HAUTE au cabinet, NORMALE à la maison → HTA BLOUSE BLANCHE.\n   Le patient stresse au cabinet, c'est tout. PA diurne moyenne hors cabinet < 135/85. \n   En général PAS de traitement médicamenteux, mais :\n   • Mise en place de mesures hygiéno-diététiques\n   • Surveillance tensionnelle ANNUELLE\n   • Car risque de passer à une vraie HTA dans le temps\n\n4. PA NORMALE au cabinet, HAUTE à la maison → HTA MASQUÉE.\n   La plus piégeuse : on rate le diagnostic si on ne sort pas du cabinet. Plus fréquente chez le diabétique. À traiter comme une vraie HTA car risque cardiovasculaire élevé.\n\nMoralité : sans mesure hors cabinet (AMT ou MAPA), on passe à côté de catégories entières de patients.",
+  "rationale": "Mnémo : 'Blouse blanche = peur du médecin (haute seulement chez lui). Masquée = se cache du médecin (haute partout sauf chez lui).' Conséquence pratique : tout patient avec une PA limite au cabinet (ou des signes d'atteinte d'organes sans HTA évidente, comme une hypertrophie ventriculaire à l'écho) devrait avoir une AMT pour démasquer une HTA masquée.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

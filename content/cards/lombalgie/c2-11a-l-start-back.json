@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c2-l11-start-back",
+  "kind": "lesson",
+  "prompt": "Comment prédire qu'une lombalgie aiguë va se chroniciser ? Avec un outil simple, court, validé : le SCORE STARTBACK (en anglais 'STarT Back screening tool', développé par l'université de Keele, UK).\n\nC'est un questionnaire de 9 items que le patient remplit en 2 minutes. Il évalue à la fois :\n• Des éléments physiques (irradiation à la jambe, intensité)\n• Surtout des éléments PSYCHOSOCIAUX (peur, catastrophisme, retentissement humeur)\n\nLe score classe le patient en 3 GROUPES :\n\n• RISQUE FAIBLE → prise en charge simple : info + maintien d'activité + AINS courte durée si besoin. Le pronostic est bon, pas besoin d'en faire plus.\n\n• RISQUE MOYEN → ajouter kinésithérapie active.\n\n• RISQUE ÉLEVÉ → prise en charge intensive : kiné active + approche cognitivo-comportementale (TCC) + suivi rapproché. Ce sont les patients à 'sauver' de la chronicisation.\n\nLa HAS et NICE recommandent d'utiliser cet outil dès le premier contact pour CHAQUE nouvel épisode. Il guide la PEC en fonction du risque, plutôt que de traiter tout le monde de la même façon.",
+  "rationale": "STarT Back = StratifiedTreatment for Back pain. Idée centrale : stratifier le risque pour ne pas sur-traiter les patients à faible risque (qui vont guérir spontanément) et ne pas sous-traiter les patients à risque élevé (qui auraient besoin d'une PEC plus complète). TCC = Thérapie Cognitivo-Comportementale, approche psychothérapeutique courte axée sur les pensées et les comportements liés à la douleur.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendations",
+    "version": "2016 amended 2020"
+  }
+}

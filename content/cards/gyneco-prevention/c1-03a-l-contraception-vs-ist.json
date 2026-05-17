@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c1-l03-contraception-vs-ist",
+  "kind": "lesson",
+  "prompt": "Deux risques différents, deux préventions différentes — il faut bien les séparer dans la tête.\n\n1) Éviter une GROSSESSE non désirée → contraception (pilule, DIU, implant, etc.)\n2) Éviter une IST (infection sexuellement transmissible : VIH, chlamydia, gonocoque, syphilis, HPV, etc.) → barrière physique\n\nUne pilule, un DIU, un implant : ça empêche la grossesse, mais ÇA NE PROTÈGE PAS DES IST. Zéro.\n\nLe PRÉSERVATIF (externe ou interne) est le SEUL moyen qui fait les deux à la fois : il bloque les spermatozoïdes ET il bloque le passage des microbes.\n\nDonc en pratique : avec un nouveau partenaire ou en cas de partenaires multiples → préservatif systématique, même si la femme est sous pilule.",
+  "rationale": "C'est une confusion très fréquente en médecine générale, notamment chez les ados. 'Je suis sous pilule donc je suis tranquille' — non, tu es protégée contre la grossesse, mais pas contre une chlamydia ou une infection à HPV. Le message de santé publique 'double protection' (pilule + préservatif) est central jusqu'à ce que les partenaires soient stables et testés.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

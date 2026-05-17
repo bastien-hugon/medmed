@@ -1,0 +1,18 @@
+{
+  "id": "hta-c1-l04-mmhg",
+  "kind": "lesson",
+  "prompt": "On mesure la PA en MILLIMÈTRES DE MERCURE — noté 'mmHg'.\n\nC'est une vieille unité, qui vient des premiers appareils : on mettait du mercure (un liquide très dense) dans un tube vertical, et la pression du sang faisait monter la colonne de mercure. Si elle montait à 120 mm de haut, on disait que la pression était de '120 mmHg'.\n\nAujourd'hui on n'utilise plus de mercure (toxique), mais l'unité est restée. Tu verras toujours : 120 mmHg, 140 mmHg, etc.\n\nRepère utile : une PA normale, c'est environ 120/80 mmHg.",
+  "rationale": "Ne te laisse pas intimider par l'unité. mmHg = juste un nombre. 120 = normal, 140 = limite haute. Et le pourquoi historique (colonne de mercure de tant de mm) explique aussi le 'Hg' qui est le symbole chimique du mercure.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

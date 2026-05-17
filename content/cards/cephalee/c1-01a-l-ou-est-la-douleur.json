@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c1-l01-ou-est-la-douleur",
+  "kind": "lesson",
+  "prompt": "Tu te dis sûrement que quand on a 'mal à la tête', c'est le cerveau qui fait mal. Et bien... non.\n\nLe cerveau lui-même est INCAPABLE de ressentir la douleur. Il n'a pas de récepteurs nociceptifs (les capteurs de douleur). Un neurochirurgien peut littéralement couper dans du tissu cérébral sur un patient éveillé sans qu'il ne sente rien.\n\nAlors qui fait mal quand on a la migraine ou la 'tête qui cogne' ?\n• Les MÉNINGES (les enveloppes qui entourent le cerveau) — très innervées\n• Les VAISSEAUX SANGUINS du crâne et des méninges\n• Les MUSCLES du cuir chevelu, du cou, des tempes\n• Les NERFS de la face (trijumeau ++) et du cou\n• La PEAU et les os du crâne\n\nDonc 'mal à la tête' = douleur des structures AUTOUR du cerveau, pas du cerveau lui-même. Garde cette image : le cerveau est un passager silencieux dans une boîte (le crâne) entourée de structures sensibles.",
+  "rationale": "Cette idée est contre-intuitive mais fondamentale : elle explique pourquoi une migraine peut être intense sans qu'il y ait de 'lésion cérébrale', et pourquoi la cause d'une céphalée est souvent vasculaire, musculaire ou méningée. Elle explique aussi pourquoi une raideur de nuque (méninges enflammées = méningite) est un signal d'alarme.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c1-l03-triglycerides",
+  "kind": "lesson",
+  "prompt": "À côté du cholestérol, il existe un autre type de graisse dans ton sang : les TRIGLYCÉRIDES (souvent abrégés TG).\n\nC'est quoi, simplement ?\nC'est la forme sous laquelle ton corps STOCKE l'énergie. Quand tu manges plus de sucres et de graisses que tu n'en brûles, ton foie transforme l'excédent en triglycérides, qui partent se stocker dans tes cellules graisseuses (le 'gras' qu'on voit sous la peau ou autour du ventre).\n\nDans le sang aussi, il y en a en permanence — surtout après un repas. C'est pour ça qu'on demande au patient d'être à JEUN avant le bilan lipidique : sinon les TG sont artificiellement élevés.\n\nPourquoi ça compte ?\nDes triglycérides élevés sont souvent le marqueur :\n• D'un régime trop sucré ou trop alcoolisé,\n• D'un surpoids, d'un syndrome métabolique,\n• D'un diabète mal équilibré.\n\nQuand ils sont VRAIMENT très élevés (>10 mmol/L), ils peuvent déclencher une pancréatite aiguë — une urgence. Mais on en reparlera plus tard.\n\nRetiens pour l'instant : cholestérol (LDL + HDL) ET triglycérides — ce sont les trois 'graisses du sang' qu'on mesure dans le bilan.",
+  "rationale": "Les TG sont une fenêtre sur le mode de vie : un patient avec TG élevés a souvent une consommation excessive de sucres rapides, d'alcool, ou un syndrome métabolique. Contrairement au LDL, le TG est très influencé par le repas récent — d'où l'importance du jeûne pour un dosage interprétable. NICE rappelle que les TG >20 mmol/L imposent une consultation spécialisée urgente (risque de pancréatite).",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

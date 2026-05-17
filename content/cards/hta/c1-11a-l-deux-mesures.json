@@ -1,0 +1,18 @@
+{
+  "id": "hta-c1-l11-deux-mesures",
+  "kind": "lesson",
+  "prompt": "Quand un médecin prend ta PA en consultation, il en prend en réalité PLUSIEURS de suite. Pourquoi ?\n\nParce qu'une seule mesure ne suffit JAMAIS.\n\nLa PA n'est pas une valeur fixe : elle varie d'une minute à l'autre selon le stress, la respiration, la position. La première mesure est presque toujours la plus haute (effet 'tiens je suis au cabinet, ça me stresse un peu').\n\nLa recommandation HAS : effectuer AU MOINS 2 mesures espacées d'environ 1 minute, et garder la MOYENNE (ou les deux dernières si la première est aberrante).\n\nEn pratique :\n• 1ère mesure : souvent un peu haute (stress du début)\n• 2ème mesure (1 min plus tard) : plus représentative\n• On peut faire une 3ème si écart important entre les deux\n\nEn plus, lors d'une PREMIÈRE consultation, on mesure aux DEUX BRAS. Si l'un donne un chiffre plus haut, c'est ce bras-là qu'on utilisera pour toutes les mesures suivantes (un écart > 15 mmHg entre les deux bras peut signaler un problème vasculaire à explorer).",
+  "rationale": "Pourquoi la 1ère est souvent fausse-haute : 'effet blouse blanche' atténué, vasoconstriction d'arrivée, posture pas encore relâchée. C'est aussi pour ça qu'avant de poser un diagnostic d'HTA, on confirme sur PLUSIEURS consultations (et idéalement par MAPA ou automesure). Une seule consultation = pas de diagnostic.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

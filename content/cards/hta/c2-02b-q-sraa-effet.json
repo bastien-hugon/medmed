@@ -1,0 +1,25 @@
+{
+  "id": "hta-c2-q02-sraa-effet",
+  "kind": "qcm-vignette",
+  "prompt": "L'angiotensine II, hormone clé du système rénine-angiotensine-aldostérone (SRAA), exerce quels effets principaux ?",
+  "choices": [
+    {"id": "a", "text": "Vasodilatation et perte de sel — elle FAIT BAISSER la PA", "correct": false},
+    {"id": "b", "text": "Vasoconstriction des artérioles et stimulation de la sécrétion d'aldostérone (rétention de sel et d'eau) — elle FAIT MONTER la PA", "correct": true},
+    {"id": "c", "text": "Augmente la fréquence cardiaque uniquement", "correct": false},
+    {"id": "d", "text": "Elle dilue le sodium dans le sang", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "L'angiotensine II = effecteur final du SRAA. Double action : vasoconstriction (↑ R) + stimulation aldostérone qui fait retenir Na et eau (↑ volume → ↑ Q). Les IEC empêchent sa fabrication (blocage de l'ECA), les ARA2 bloquent son récepteur. Les deux baissent la PA et protègent le rein, particulièrement utile chez le diabétique et l'insuffisant rénal.",
+  "tags": {
+    "system": ["cardiovasculaire", "endocrinologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

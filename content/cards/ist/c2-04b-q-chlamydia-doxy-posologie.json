@@ -1,0 +1,19 @@
+{
+  "id": "ist-c2-q04-chlamydia-doxy-posologie",
+  "kind": "cloze",
+  "prompt": "Traitement de 1ère ligne d'une chlamydia génitale non compliquée chez l'adulte non enceinte : doxycycline ___ mg PO, ___ fois par jour, pendant ___ jours.",
+  "expected": ["100", "2", "7"],
+  "rationale": "Doxy 100/2/7 : 100 mg deux fois par jour pendant 7 jours. BID = bis in die = 2 fois/jour. PO = per os = voie orale. Régime devenu 1ère ligne (CDC 2021) car supérieur à l'azithromycine en dose unique sur les infections rectales et oropharyngées.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  }
+}

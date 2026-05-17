@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c2-l07-bilan-annuel",
+  "kind": "lesson",
+  "prompt": "Le suivi du diabétique de type 2 obéit à un calendrier précis. Chaque année, un BILAN ANNUEL standardisé permet de dépister TÔT les complications — donc d'agir avant qu'elles ne soient irréversibles.\n\nCONTENU DU BILAN ANNUEL (HAS) :\n\n1. ŒIL — Fond d'œil ou rétinographie\n   → Dépiste la rétinopathie diabétique\n   → Annuel (parfois tous les 2 ans si bien équilibré)\n\n2. REIN — Bilan rénal\n   → Créatinine sanguine + estimation du DFG (débit de filtration glomérulaire)\n   → RAPPORT ALBUMINE/CRÉATININE URINAIRE (RAC) — recherche de microalbuminurie\n   → Annuel\n\n3. PIEDS — Examen clinique + test au monofilament 10 g\n   → Dépiste la neuropathie périphérique\n   → Évalue le RISQUE PODOLOGIQUE (gradation 0 à 3 selon la HAS)\n   → Annuel, plus souvent si pied à risque\n\n4. CŒUR — Évaluation cardiovasculaire\n   → ECG de repos annuel\n   → Discussion d'examens complémentaires (épreuve d'effort, échographie, IPS — Index de Pression Systolique cheville/bras) selon le profil de risque\n   → Bilan lipidique annuel (cholestérol total, HDL, LDL, triglycérides)\n\n5. DENTS — Examen bucco-dentaire annuel\n   → Le diabète favorise les parodontites, qui à leur tour aggravent le diabète (cercle vicieux)\n\n6. POIDS / IMC / TOUR DE TAILLE — à chaque consultation\n7. PRESSION ARTÉRIELLE — à chaque consultation (cible souvent ≤ 130/80 chez le diabétique)\n8. TABAC / ALCOOL — évalués et accompagnés\n\nEN PARALLÈLE, RYTHME RAPPROCHÉ :\n• HbA1c : tous les 3 mois\n• Consultation médecin traitant : tous les 3 mois\n\nL'idée : transformer une maladie chronique potentiellement dévastatrice en une maladie SURVEILLÉE, avec des points d'inflexion précoces.",
+  "rationale": "Mnémo des cibles annuelles : 'YEUX – REINS – PIEDS – CŒUR – DENTS' (= 5 organes). Astuce pratique pour le MG : tenir un tableau de bord patient avec les dates des derniers examens — fond d'œil il y a > 12 mois ? on prescrit. Microalbuminurie pas faite cette année ? on prescrit. Le bilan annuel est PRÉCIEUX justement parce qu'il est ritualisé : il évite d'oublier.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

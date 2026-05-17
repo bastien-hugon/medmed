@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c2-l05-drapeau-queue-de-cheval",
+  "kind": "lesson",
+  "prompt": "Quatrième drapeau rouge — LE plus urgent : le SYNDROME DE LA QUEUE DE CHEVAL.\n\nLa moelle épinière s'arrête vers L1-L2. En dessous, elle se prolonge par un faisceau de racines nerveuses qui ressemble à une queue de cheval (d'où le nom). Ce faisceau innerve les jambes, la vessie, les sphincters et le périnée.\n\nSi quelque chose vient COMPRIMER massivement ce faisceau (grosse hernie discale, tumeur, hématome, abcès), on a une URGENCE NEUROCHIRURGICALE : sans décompression rapide (idéalement < 24-48h), les déficits deviennent définitifs.\n\nLes 4 signes à connaître ABSOLUMENT :\n\n• ANESTHÉSIE EN SELLE : perte de sensibilité dans la zone qui touche la selle de vélo (périnée, fesses, intérieur des cuisses). Le patient ne sent plus quand il s'essuie.\n• TROUBLES SPHINCTÉRIENS : rétention urinaire récente, incontinence urinaire ou fécale, perte du contrôle.\n• DÉFICIT MOTEUR DES MEMBRES INFÉRIEURS : faiblesse aux deux jambes, surtout difficulté à marcher sur les talons ou les pointes.\n• DOULEUR + IRRADIATIONS BILATÉRALES : sciatique des deux côtés simultanément.\n\nUn seul de ces signes, surtout les deux premiers (anesthésie en selle, troubles sphinctériens), impose un transfert en urgence vers un service de neurochirurgie.",
+  "rationale": "Le réflexe à avoir devant TOUTE lombalgie : poser DEUX questions systématiques — 'Avez-vous remarqué des fuites urinaires ou une difficulté à uriner ?' et 'Avez-vous une zone insensible quand vous vous essuyez ?'. Ces deux questions filtrent l'urgence absolue. Rater une queue de cheval = handicap définitif. C'est LE drapeau rouge à ne JAMAIS manquer.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

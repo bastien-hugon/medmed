@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c2-l08a-sujet-age",
+  "kind": "lesson",
+  "prompt": "RÈGLE D'OR EN GÉRIATRIE : la fatigue n'est PAS un vieillissement normal. Chez le sujet âgé, c'est souvent le PREMIER signe d'une maladie sérieuse.\n\nPourquoi cette particularité ? Parce que les personnes âgées présentent moins souvent les symptômes classiques. Une pneumopathie chez un sujet de 30 ans donne fièvre + toux ; chez un sujet de 85 ans, elle peut se présenter par une simple fatigue avec confusion, sans fièvre ni toux. Idem pour l'infarctus du myocarde, qui chez le sujet âgé est plus volontiers \"silencieux\" et se manifeste par une asthénie inhabituelle.\n\nDIAGNOSTICS À NE PAS MANQUER chez le sujet âgé fatigué :\n\n• INFECTIONS \"silencieuses\" — pneumopathie, infection urinaire, endocardite. Souvent sans fièvre franche.\n\n• MALADIE DE HORTON (artérite à cellules géantes) — chez sujet > 60 ans, à éliminer en cas de céphalée nouvelle, douleurs au cuir chevelu, claudication de la mâchoire, troubles visuels. Risque de cécité brutale. VS très élevée.\n\n• PSEUDO-POLYARTHRITE RHIZOMÉLIQUE (PPR) — douleurs des ceintures (épaules + hanches) avec raideur matinale, chez sujet > 60 ans. VS élevée. Associée à Horton dans 15 % des cas.\n\n• CANCER OCCULTE — colorectal, prostate, poumon, hémopathies.\n\n• HYPOTHYROÏDIE — fréquente après 65 ans.\n\n• DÉPRESSION MASQUÉE — la dépression du sujet âgé se présente souvent comme une fatigue, des plaintes somatiques, sans plainte explicite de tristesse.\n\n• IATROGÉNIE — polymédication fréquente, élimination rénale ralentie : la fatigue iatrogène est encore plus fréquente.\n\nMESSAGE PRATIQUE : devant une fatigue d'apparition récente chez le sujet âgé, le bilan doit être plus complet et plus rapide que chez le sujet jeune.",
+  "rationale": "Cette idée \"la fatigue n'est pas un vieillissement normal\" combat un biais d'âgisme courant : on attribue à tort à l'âge ce qui est en fait une maladie traitable. Une simple anémie ou une hypothyroïdie corrigée peut transformer la vie d'un sujet âgé. Le seuil de prescription du bilan biologique de 1ère intention doit être bas chez les > 65 ans.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

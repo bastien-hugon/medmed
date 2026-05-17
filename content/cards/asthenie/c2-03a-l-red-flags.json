@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c2-l03a-red-flags",
+  "kind": "lesson",
+  "prompt": "Une fatigue isolée chez un sujet jeune sans autre symptôme = situation banale. Mais certains DRAPEAUX ROUGES (\"red flags\") doivent faire accélérer le bilan et redouter une cause grave.\n\nDRAPEAUX ROUGES À RETENIR :\n\n• PERTE DE POIDS INVOLONTAIRE — surtout si rapide (> 5 % du poids en quelques mois). Évoque cancer, infection chronique, hyperthyroïdie, maladie inflammatoire.\n\n• FIÈVRE prolongée ou inexpliquée — infection occulte, hémopathie, maladie systémique.\n\n• SUEURS NOCTURNES — qui mouillent le pyjama, classiques dans les lymphomes, la tuberculose, l'endocardite.\n\n• ADÉNOPATHIES (ganglions augmentés) généralisées ou persistantes — infections, hémopathies.\n\n• DOULEURS MUSCULAIRES ou FAIBLESSE associées — pseudo-polyarthrite rhizomélique chez sujet > 60 ans, maladie de Horton, myopathie, polymyosite.\n\n• ATTEINTE DE PLUSIEURS APPAREILS (peau + articulations, etc.) — maladie systémique (lupus, vascularite).\n\n• CÉPHALÉE NOUVELLE ou modifiée, + troubles visuels, chez sujet > 50 ans — maladie de Horton à éliminer en urgence (risque de cécité).\n\n• IDÉES SUICIDAIRES ou détresse psychique majeure — urgence à part entière.\n\nUn seul red flag suffit à transformer la consultation : on passe d'un bilan d'orientation simple à une enquête active, parfois urgente.",
+  "rationale": "Les red flags sont des balises de tri. Sans red flag : on peut se permettre une démarche progressive (anamnèse + examen + bilan biologique de base). Avec red flag : pas de tergiversation, on cherche activement l'origine, et certains nécessitent un avis spécialisé ou un bilan en urgence (Horton +++ chez le sujet âgé).",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "anxiete-c2-q07-cbt-panique-duree",
+  "kind": "qcm-vignette",
+  "prompt": "Selon NICE, quelle est la durée totale recommandée pour une thérapie cognitivo-comportementale (CBT) destinée à un trouble panique modéré à sévère ?",
+  "choices": [
+    { "id": "a", "text": "1 à 3 heures, en une ou deux séances", "correct": false },
+    { "id": "b", "text": "7 à 14 heures, à compléter en maximum 4 mois", "correct": true },
+    { "id": "c", "text": "12 à 15 séances hebdomadaires d'1 heure (comme pour le TAG)", "correct": false },
+    { "id": "d", "text": "Au moins 50 heures sur 1 an", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Pour le trouble panique, NICE précise 7 à 14 heures totales de CBT, en séances hebdomadaires d'1 à 2h, à compléter en max 4 mois. C'est PLUS COURT et plus intensif que la CBT du TAG (12-15 séances hebdo d'1h, soit ~3-4 mois). Raison : la CBT du trouble panique est très structurée autour d'objectifs précis (exposition interoceptive, restructuration des interprétations catastrophiques) et peut être délivrée en format bref.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

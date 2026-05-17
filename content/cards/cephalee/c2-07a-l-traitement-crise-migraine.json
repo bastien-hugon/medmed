@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c2-l07-traitement-crise-migraine",
+  "kind": "lesson",
+  "prompt": "Une fois la migraine diagnostiquée, le traitement se joue à deux niveaux : la CRISE et le FOND (prophylaxie). On parle ici de la crise.\n\nPRINCIPES\n• Traiter TÔT (dès le début de la crise) — plus efficace qu'attendu que la douleur soit maximale\n• Voie ORALE si pas de vomissements ; sinon nasale, sous-cutanée ou rectale\n• Limiter pour ne PAS créer une céphalée par abus médicamenteux (voir carte dédiée)\n\nOPTIONS DE 1ʳᵉ INTENTION (NICE)\nThérapie COMBINÉE recommandée :\n• Triptan oral + AINS, OU triptan oral + paracétamol\n\nOu en MONOTHÉRAPIE :\n• Triptan oral\n• AINS (ibuprofène, naproxène, kétoprofène)\n• Aspirine 900 mg\n• Paracétamol\n\nTRIPTANS — la classe spécifique des anti-migraineux\n• Mécanisme : agonistes des récepteurs 5-HT1B/1D (sérotonine) → vasoconstriction des vaisseaux méningés et inhibition de la libération de neuropeptides douloureux\n• Exemples : sumatriptan, zolmitriptan, élétriptan, rizatriptan...\n• Commencer par le moins cher ; si inefficace, essayer un autre triptan\n• Contre-indications : antécédent cardiovasculaire (infarctus, AVC, coronaropathie), HTA non contrôlée, grossesse (en général)\n\nANTIÉMÉTIQUES\n• Métoclopramide ou dompéridone : considérer même sans nausée (favorise l'absorption des autres traitements)\n• En IM ou IV si vomissements\n\nNE JAMAIS DONNER pour une migraine aiguë :\n• ERGOTS (ergotamine, dihydroergotamine en monothérapie ambulatoire) → vasoconstriction trop forte, effets secondaires\n• OPIOÏDES (codéine, tramadol, morphine) → inefficaces sur la migraine + risque majeur de céphalée par abus et de dépendance\n\nPièges fréquents\n• Donner un triptan pendant l'AURA d'un AVC pris pour une migraine → catastrophique\n• Répéter le triptan plus de 2 fois par crise → inefficace\n• Cumuler les antalgiques → on entre dans l'abus médicamenteux",
+  "rationale": "L'interdiction des opioïdes est un message clé NICE/HAS : les opioïdes sont une cause MAJEURE de céphalée chronique iatrogène et n'apportent rien sur la physiopathologie migraineuse. L'idée que 'plus c'est puissant, mieux c'est' est fausse pour la migraine : le triptan adapté au bon moment > la morphine.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

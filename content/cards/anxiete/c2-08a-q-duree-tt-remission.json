@@ -1,0 +1,19 @@
+{
+  "id": "anxiete-c2-q08-duree-tt-remission",
+  "kind": "cloze",
+  "prompt": "Pour un TAG traité efficacement par SSRI, NICE recommande de poursuivre le traitement au moins ___ an(s) APRÈS l'obtention de la rémission, avant d'envisager une décroissance progressive.",
+  "expected": ["1"],
+  "rationale": "Cette durée minimale d'un an après rémission est cruciale : un arrêt précoce expose à un taux élevé de rechute. Le délai inclut le temps pour consolider la réponse et permettre au patient d'acquérir d'autres ressources (psychothérapie, hygiène de vie). Au-delà : décroissance LENTE (semaines à mois) pour limiter le syndrome de discontinuation (sensations de décharge électrique, vertiges, troubles GI, irritabilité). Suivi recommandé : à 2-4 semaines pendant les 3 premiers mois, puis tous les 3 mois.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

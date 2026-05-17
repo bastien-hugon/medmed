@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c1-l02-disque-intervertebral",
+  "kind": "lesson",
+  "prompt": "Entre chaque vertèbre, il y a un disque : le DISQUE INTERVERTÉBRAL. Son rôle, c'est d'amortir les chocs.\n\nImagine un petit coussin gélatineux, plat, coincé entre deux cubes. Quand tu sautes, quand tu portes une charge, quand tu marches — chaque pas envoie un choc dans la colonne. Sans disque, les vertèbres taperaient l'une contre l'autre. Le disque encaisse, comme un amortisseur de voiture.\n\nDeux parties dans le disque :\n• Au centre, un noyau mou (le nucleus pulposus, sorte de gel)\n• Autour, un anneau fibreux solide (l'annulus fibrosus) qui retient le noyau\n\nQuand le disque vieillit ou est trop sollicité, l'anneau peut se fissurer et le noyau peut faire saillie : c'est la HERNIE DISCALE. Mais ce n'est pas la cause de la plupart des lombalgies — on y reviendra.",
+  "rationale": "Le disque = amortisseur. Cette image résume sa fonction. À retenir : avoir une 'hernie discale' à l'IRM ne veut pas dire qu'on a forcément mal — beaucoup de gens en ont sans aucune douleur. C'est pourquoi l'imagerie n'est PAS systématique en cas de lombalgie commune.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "depression-c2-l01-phq9",
+  "kind": "lesson",
+  "prompt": "Quand on suspecte une dépression, on aime bien avoir un OUTIL DE MESURE — pour objectiver la sévérité au départ, et pour suivre l'évolution sous traitement.\n\nL'outil de référence : le PHQ-9 (Patient Health Questionnaire — 9 items).\n\nC'est un AUTO-QUESTIONNAIRE — c'est le patient qui le remplit, en 2-3 minutes, dans la salle d'attente ou pendant la consultation.\n\nIl pose 9 questions, qui correspondent aux 9 symptômes du DSM-5 (humeur, anhédonie, sommeil, appétit, fatigue, concentration, ralentissement, dévalorisation, idées de mort). Pour chaque question, le patient note la fréquence sur les 2 dernières semaines :\n• 0 = jamais\n• 1 = plusieurs jours\n• 2 = plus de la moitié des jours\n• 3 = presque tous les jours\n\nLe score total va donc de 0 à 27 (9 items × max 3).\n\nÀ quoi sert ce score ?\n• Estimer la SÉVÉRITÉ (plus le score est haut, plus c'est grave)\n• Choisir le TRAITEMENT (les recos NICE distinguent < 16 et ≥ 16)\n• Suivre l'ÉVOLUTION (re-mesurer à 2 sem, 4 sem, 8 sem… ça aide à voir si ça va mieux)\n\nC'est imparfait — un chiffre ne remplace pas une consultation — mais c'est un bon repère reproductible.",
+  "rationale": "PHQ-9 = Patient Health Questionnaire (9 items). Acronyme essentiel à mémoriser. Validé en français, gratuit, libre de droits. Disponible en ligne (HAS, AMELI). À l'item 9 (idées suicidaires), une réponse positive impose une exploration immédiate, indépendamment du score total. NICE NG222 utilise le PHQ-9 comme outil de référence pour stratifier la sévérité.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

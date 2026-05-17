@@ -1,0 +1,25 @@
+{
+  "id": "hta-c2-q03-seuil-amt",
+  "kind": "qcm-vignette",
+  "prompt": "Quels sont les seuils d'HTA en automesure tensionnelle (AMT) ou MAPA diurne ?",
+  "choices": [
+    {"id": "a", "text": "PA ≥ 140/90 mmHg, comme au cabinet", "correct": false},
+    {"id": "b", "text": "PA ≥ 135/85 mmHg", "correct": true},
+    {"id": "c", "text": "PA ≥ 130/80 mmHg", "correct": false},
+    {"id": "d", "text": "PA ≥ 150/95 mmHg", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "À la maison, on est moins stressé, donc le seuil est abaissé de 5 mmHg : 135/85 au lieu de 140/90 au cabinet. Mnémo : '135/85 à la maison' ↔ '140/90 au cabinet'. Pour la MAPA on a aussi un seuil sur 24 h (≥ 130/80) et un seuil nocturne (≥ 120/70), mais le seuil diurne est celui qui compte d'abord.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

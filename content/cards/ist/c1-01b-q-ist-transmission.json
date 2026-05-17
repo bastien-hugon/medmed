@@ -1,0 +1,25 @@
+{
+  "id": "ist-c1-q01-ist-transmission",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces situations, laquelle PEUT transmettre une IST ?",
+  "choices": [
+    { "id": "a", "text": "Partager une bouteille d'eau", "correct": false },
+    { "id": "b", "text": "Un rapport oral sans préservatif", "correct": true },
+    { "id": "c", "text": "Se serrer la main", "correct": false },
+    { "id": "d", "text": "Utiliser les mêmes toilettes publiques", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les IST se transmettent par contact muqueux ou sanguin lors d'un rapport sexuel — vaginal, anal OU oral. Le rapport oral non protégé peut transmettre gonocoque pharyngé, chlamydia, syphilis, HPV, HSV. La salive partagée (bouteille) ou le contact cutané banal (poignée de main, toilettes) ne transmet pas d'IST.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

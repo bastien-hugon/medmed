@@ -1,0 +1,18 @@
+{
+  "id": "depression-c2-l06-delai-efficacite",
+  "kind": "lesson",
+  "prompt": "Un point ESSENTIEL à expliquer au patient AVANT de commencer un antidépresseur — sinon on perd la moitié des patients dans la 1ère semaine.\n\nUN ANTIDÉPRESSEUR NE FAIT PAS EFFET TOUT DE SUITE.\n\n• Les premiers jours : pas d'effet sur l'humeur. Parfois même, on se sent un peu moins bien (effets secondaires en début : nausées, anxiété, troubles du sommeil).\n• Vers 2 semaines : on commence à voir des micro-changements (énergie, sommeil).\n• Vers 4 semaines : c'est à ce moment qu'on doit avoir le BÉNÉFICE sur l'humeur si l'AD va marcher.\n\nLa formule NICE est explicite : \"benefits will usually be seen within 4 weeks if the antidepressant is going to work\".\n\nPourquoi cette latence ?\n\nParce que l'effet ne vient pas de l'augmentation immédiate de sérotonine (qui a lieu en quelques heures), mais des CHANGEMENTS NEUROPLASTIQUES qui suivent : adaptation des récepteurs, neurogenèse hippocampique, modification des circuits. Ça prend du TEMPS biologique. Comme un sportif qui s'entraîne : la séance se fait en 1 heure, l'adaptation musculaire en 6 semaines.\n\nConséquences pratiques :\n• Toujours PRÉVENIR le patient au moment de la prescription (sinon arrêt à J3)\n• Toujours ENCOURAGER à tenir 4 semaines pour juger\n• Ne pas changer de molécule trop tôt (sauf intolérance majeure)\n\nSi à 4 semaines à dose efficace il n'y a aucune amélioration → réévaluer (observance ? dose ? changement de molécule ?).",
+  "rationale": "C'est la cause n°1 d'arrêt prématuré des AD. La psychoéducation \"ça prend 4 semaines\" sauve des traitements. Effets secondaires précoces (nausées, anxiété transitoire) peuvent paradoxalement faire arrêter avant que l'effet thérapeutique n'arrive. NICE Rec 1.4.11 : information patient explicite sur le délai.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

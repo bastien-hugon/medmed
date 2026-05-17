@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c2-l03-drapeau-infection",
+  "kind": "lesson",
+  "prompt": "Deuxième drapeau rouge : l'INFECTION vertébrale ou discale (spondylodiscite). Rare mais grave : un germe (souvent bactérien) colonise un disque ou une vertèbre.\n\nLe contexte qui doit alerter :\n\n• FIÈVRE associée à la lombalgie (mais elle peut manquer)\n• ALTÉRATION DE L'ÉTAT GÉNÉRAL : fatigue inhabituelle, perte de poids, sueurs nocturnes\n• USAGE DE DROGUES INTRAVEINEUSES (IDM IV — voie d'entrée bactérienne)\n• IMMUNODÉPRESSION : VIH, chimiothérapie, corticothérapie au long cours, diabète mal équilibré\n• INFECTION RÉCENTE traitée ou en cours (urinaire, cutanée, dentaire — porte d'entrée possible)\n• INTERVENTION RACHIDIENNE RÉCENTE (infiltration, chirurgie)\n\nLe caractère typique de la douleur infectieuse : elle est INFLAMMATOIRE (réveille la nuit, ne cède pas au repos), souvent intense et progressive sur quelques semaines.\n\nDevant ces signes : prise de sang (NFS, CRP) et imagerie (IRM en 1ère intention) en urgence relative. Une spondylodiscite non traitée peut détruire la vertèbre et comprimer la moelle.",
+  "rationale": "Mnémo : 'la triade fièvre + dos + drogues IV / immunodépression' doit allumer le voyant rouge. Le piège : la fièvre manque dans ~50 % des cas. C'est souvent l'altération de l'état général ou le caractère inflammatoire de la douleur qui doit alerter. À retenir aussi : tuberculose vertébrale (mal de Pott) chez patients à risque.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "infectiologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "anxiete-c1-q04-symptomes-physiques",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces manifestations, laquelle N'EST PAS un symptôme physique typique d'une crise d'anxiété ?",
+  "choices": [
+    { "id": "a", "text": "Tachycardie et palpitations", "correct": false },
+    { "id": "b", "text": "Sueurs et tremblements", "correct": false },
+    { "id": "c", "text": "Bradycardie marquée avec hypotension", "correct": true },
+    { "id": "d", "text": "Oppression thoracique et sensation d'étouffement", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "L'anxiété ACTIVE le système sympathique (l'accélérateur), donc elle ACCÉLÈRE le cœur — elle ne le ralentit pas. Une bradycardie avec hypotension oriente vers une cause cardiaque, vagale, ou médicamenteuse, pas vers l'anxiété. Mnémo : 'sympathique = symptômes en + ' (accélération, sueurs, tension).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

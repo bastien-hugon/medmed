@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c2-l04-intensite-statines",
+  "kind": "lesson",
+  "prompt": "Toutes les statines ne se valent pas en termes d'efficacité. NICE et l'ESC les classent en 3 niveaux d'INTENSITÉ, selon la baisse moyenne de LDL attendue :\n\n• HAUTE INTENSITÉ — baisse du LDL ≥ 40 %\n  - Atorvastatine 20 à 80 mg\n  - Rosuvastatine 10 à 40 mg\n\n• INTENSITÉ MOYENNE — baisse du LDL 30-40 %\n  - Atorvastatine 10 mg\n  - Rosuvastatine 5 mg\n  - Simvastatine 20-40 mg\n  - Fluvastatine 80 mg\n\n• INTENSITÉ FAIBLE — baisse du LDL <30 %\n  - Simvastatine 10 mg\n  - Pravastatine 5-40 mg\n  - Fluvastatine 20-40 mg\n\nÀ retenir en pratique :\n• Pour la PRÉVENTION PRIMAIRE (risque ≥10 %) : atorvastatine 20 mg en 1re intention.\n• Pour la PRÉVENTION SECONDAIRE (MCV établie) : atorvastatine 80 mg en 1re intention.\n• Si effets indésirables ou interactions : on baisse l'intensité ou on change de statine (souvent rosuvastatine, qui interfère moins avec d'autres médicaments).\n\nLa simvastatine et la pravastatine sont les plus 'anciennes' et les moins puissantes. La rosuvastatine et l'atorvastatine dominent aujourd'hui.\n\nNotion-clé : toute dose de statine APPORTE un bénéfice CV. Mieux vaut une statine faible bien tolérée qu'une statine forte abandonnée.",
+  "rationale": "Cette classification permet de choisir RAPIDEMENT le bon médicament selon l'indication. Atorvastatine 20 mg / 80 mg sont les deux 'doses-réflexes' à retenir : 20 mg en primaire, 80 mg en secondaire. NICE rappelle qu'il vaut mieux une dose modérée tolérée qu'une dose élevée arrêtée — l'observance prime sur la puissance théorique.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

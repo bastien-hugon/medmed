@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c1-l06-durees",
+  "kind": "lesson",
+  "prompt": "On classe les lombalgies selon depuis COMBIEN DE TEMPS elles durent. Cette durée change tout : le pronostic, la prise en charge, l'utilité de l'imagerie.\n\nTrois catégories (HAS) :\n\n• LOMBALGIE AIGUË : douleur récente, intense, qui dure moins de 4 à 6 semaines. C'est le 'tour de reins' classique : ça arrive d'un coup, ça fait très mal, et ça passe tout seul dans la grande majorité des cas.\n\n• LOMBALGIE SUBAIGUË : entre 6 semaines et 3 mois. Zone de transition. C'est à ce stade qu'on commence à se poser la question : pourquoi ça ne passe pas ? Y a-t-il des facteurs qui font traîner la douleur ?\n\n• LOMBALGIE CHRONIQUE : douleur qui dure plus de 3 mois. Là, le problème n'est plus seulement mécanique : il devient bio-psycho-social (corps + tête + environnement).\n\nLe seuil de 3 mois n'est pas magique, c'est un repère pratique : passé ce délai, le risque que la douleur s'installe durablement augmente nettement.",
+  "rationale": "Le chiffre clé à retenir : 3 mois pour la chronicité. C'est un seuil universel en médecine de la douleur. Le passage à la chronicité n'est pas juste 'la douleur continue' — c'est un changement de nature : le cerveau apprend la douleur, l'évite, et l'entretient. D'où l'importance d'intervenir avant ce seuil avec exercice et réassurance.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

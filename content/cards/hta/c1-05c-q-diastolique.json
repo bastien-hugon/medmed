@@ -1,0 +1,25 @@
+{
+  "id": "hta-c1-q06-diastolique",
+  "kind": "qcm-vignette",
+  "prompt": "Quand le cœur SE RELÂCHE entre deux battements, la pression dans les artères atteint son MINIMUM. Comment s'appelle précisément cette pression minimale ?",
+  "choices": [
+    { "id": "a", "text": "Pression systolique", "correct": false },
+    { "id": "b", "text": "Pression diastolique", "correct": true },
+    { "id": "c", "text": "Pression artérielle moyenne", "correct": false },
+    { "id": "d", "text": "Pression veineuse", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Diastolique = pression minimale, quand le cœur se relâche et se remplit. C'est toujours le chiffre du BAS dans une PA notée '120/80'. À l'inverse, la systolique est le maximum (chiffre du haut). Important : une diastolique trop haute (>90 mmHg) est aussi de l'HTA, même si la systolique est normale.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

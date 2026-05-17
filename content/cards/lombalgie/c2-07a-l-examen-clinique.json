@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c2-l07-examen-clinique",
+  "kind": "lesson",
+  "prompt": "L'examen clinique du lombalgique n'a pas pour but de poser un diagnostic anatomique précis (mission souvent impossible). Il a deux buts simples :\n\n1. CHERCHER UN DRAPEAU ROUGE NEUROLOGIQUE\n2. RASSURER le patient en lui montrant ce qui FONCTIONNE\n\nLes 4 gestes de base :\n\n• MANŒUVRE DE LASÈGUE : patient allongé sur le dos, on lève sa jambe tendue. Si ça reproduit une douleur qui descend dans la jambe AVANT 60° → suspicion de compression d'une racine (sciatique). Sinon, négatif = pas de compression nerveuse significative.\n\n• ÉVALUATION DE LA FORCE musculaire des jambes : marche sur la pointe des pieds (teste S1) et sur les talons (teste L5). Faiblesse asymétrique = drapeau rouge neurologique.\n\n• ROT (réflexes ostéo-tendineux) : on tape sous le genou (réflexe rotulien, racine L4) et derrière la cheville (réflexe achilléen, racine S1). Une réflexe absent d'un côté = compression de la racine correspondante.\n\n• SENSIBILITÉ : on demande au patient de comparer la sensation à droite et à gauche le long de la jambe et au niveau du périnée. Une zone insensible = drapeau rouge (et anesthésie en selle = urgence absolue).\n\nUn examen NORMAL est rassurant et fait partie du traitement : le patient voit qu'il n'a 'rien de cassé'.",
+  "rationale": "Mnémo : 'Lasègue, Force, ROT, Sensibilité' — les 4 gestes en moins de 5 minutes. ROT = abréviation de Réflexes Ostéo-Tendineux (réflexes au marteau). Le point clé : un examen neurologique NORMAL est une information POSITIVE qu'on partage avec le patient : 'Tout bouge, tout sent, tout réagit comme il faut'. C'est concret et rassurant.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "neurologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

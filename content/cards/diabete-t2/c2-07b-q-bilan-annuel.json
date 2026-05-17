@@ -1,0 +1,25 @@
+{
+  "id": "diabete-t2-c2-q05-bilan-annuel",
+  "kind": "qcm-vignette",
+  "prompt": "Quel examen NE fait PAS partie du bilan annuel standard du diabétique de type 2 ?",
+  "choices": [
+    { "id": "a", "text": "Fond d'œil", "correct": false },
+    { "id": "b", "text": "Microalbuminurie (rapport albumine/créatinine urinaire)", "correct": false },
+    { "id": "c", "text": "Examen des pieds avec monofilament", "correct": false },
+    { "id": "d", "text": "Scanner thoracique de dépistage du cancer du poumon", "correct": true }
+  ],
+  "expected": ["d"],
+  "rationale": "Le bilan annuel cible les complications du diabète : œil (fond d'œil), rein (microalbuminurie + créatinine), pieds (monofilament), cœur (ECG, bilan lipidique), dents. Le scanner thoracique n'est pas un examen standard chez le diabétique — il peut être indiqué chez le fumeur dans un cadre indépendant (dépistage de cancer bronchique chez certains profils selon HAS/USPSTF), mais pas spécifique au diabète.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

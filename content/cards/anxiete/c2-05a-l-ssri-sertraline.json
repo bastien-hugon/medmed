@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c2-l05-ssri-sertraline",
+  "kind": "lesson",
+  "prompt": "Si le patient préfère un traitement MÉDICAMENTEUX, ou si la CBT n'est pas accessible / inefficace, NICE recommande comme PREMIÈRE LIGNE pharmacologique :\n\nUN INHIBITEUR SÉLECTIF DE LA RECAPTURE DE LA SÉROTONINE (en abrégé : SSRI — Selective Serotonin Reuptake Inhibitor).\n\nLa SÉROTONINE est un neurotransmetteur impliqué dans la régulation de l'humeur et de l'anxiété. Les SSRI augmentent sa disponibilité dans les synapses du cerveau.\n\nLa MOLÉCULE PRÉFÉRÉE en 1ère intention : la SERTRALINE.\nRaisons : efficacité démontrée, profil de tolérance favorable, COÛT le plus avantageux (cost-effective selon NICE).\n\nÀ savoir AVANT de prescrire :\n• Délai d'action LENT : 4 à 6 semaines pour un effet anxiolytique stable. Prévenir le patient !\n• AGGRAVATION TRANSITOIRE possible la 1ère semaine (anxiété, agitation) — paradoxal mais classique. Doit régresser.\n• Effets indésirables fréquents : troubles digestifs initiaux, troubles sexuels (baisse de libido, anorgasmie), céphalées, troubles du sommeil.\n• Surveillance renforcée chez les < 30 ans : risque d'IDÉATION SUICIDAIRE en début de traitement. NICE recommande : revoir à 1 semaine, puis hebdomadaire pendant 1 mois.\n• Sevrage progressif à l'arrêt (jamais brutal) pour éviter le syndrome de discontinuation.\n\nAlternatives si sertraline inefficace ou mal tolérée : autre SSRI (paroxétine, escitalopram, citalopram), puis SNRI (venlafaxine, duloxétine), puis prégabaline (réservée si intolérance aux SSRI/SNRI, attention au mésusage).",
+  "rationale": "La sertraline est devenue le 'cheval de trait' des SSRI : pas la plus puissante, pas la moins chère partout — mais le meilleur compromis efficacité/tolérance/coût/interactions. Points clés pour le patient : (1) ce n'est PAS un anxiolytique 'à la demande', il faut le prendre tous les jours ; (2) l'effet vient en plusieurs semaines, ne pas arrêter trop tôt ; (3) avertir d'une possible aggravation au début. Surveillance suicidaire chez les jeunes adultes : NON négociable.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

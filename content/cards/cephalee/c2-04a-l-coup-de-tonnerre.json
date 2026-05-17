@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c2-l04-coup-de-tonnerre",
+  "kind": "lesson",
+  "prompt": "LA CÉPHALÉE EN COUP DE TONNERRE (thunderclap headache) est probablement LE drapeau rouge le plus urgent à reconnaître. Elle peut signer une hémorragie sous-arachnoïdienne (HSA) — saignement entre les méninges, souvent par rupture d'anévrysme.\n\nDÉFINITION\n• Céphalée d'apparition BRUTALE\n• Atteignant son INTENSITÉ MAXIMALE en moins de 5 MINUTES (souvent en < 1 minute, parfois quelques secondes)\n• Très intense — 'la pire céphalée de ma vie' (le 'worst headache ever' des Anglo-Saxons)\n\nPHRASES TYPIQUES DU PATIENT\n• 'J'ai reçu un coup de marteau sur la tête'\n• 'C'est arrivé d'un coup, j'étais en train de [tousser / aller aux toilettes / faire l'amour / faire un effort]'\n• 'Ça a tout de suite été insupportable'\n\nLA RÈGLE D'OR\nToute céphalée brutale et sévère atteignant son maximum en < 5 minutes = scanner cérébral SANS injection EN URGENCE, même si le patient va apparemment bien. La fenêtre de visibilité du saignement au scanner est meilleure dans les 6 premières heures.\n\nSi le scanner est négatif et que la suspicion reste forte → ponction lombaire pour rechercher du sang ou de la xanthochromie dans le LCR.\n\nDIAGNOSTICS DIFFÉRENTIELS d'un 'thunderclap' au-delà de l'HSA :\n• Thrombose veineuse cérébrale\n• Dissection des artères cervicales\n• Syndrome de vasoconstriction cérébrale réversible (SVCR)\n• Apoplexie hypophysaire\n• AVC ischémique cérébelleux\n\nMais l'HSA reste la cause à ne PAS rater : mortalité ~30 % et complications majeures si méconnue.",
+  "rationale": "Une 'migraine soudaine très forte' peut être un piège : la migraine n'est PAS thunderclap typiquement, son pic de douleur s'installe en minutes à heures. Si une 'migraine' atteint le maximum en quelques secondes, c'est jusqu'à preuve du contraire une HSA. Vitesse d'installation > intensité elle-même comme critère d'alarme.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "hsa"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

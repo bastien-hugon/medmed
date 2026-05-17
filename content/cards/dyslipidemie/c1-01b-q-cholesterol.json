@@ -1,0 +1,25 @@
+{
+  "id": "dyslipidemie-c1-q01-cholesterol-role",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi les affirmations suivantes sur le cholestérol, laquelle est VRAIE ?",
+  "choices": [
+    { "id": "a", "text": "Le cholestérol est un déchet toxique que le corps doit éliminer.", "correct": false },
+    { "id": "b", "text": "Le cholestérol est une graisse indispensable, utile à la fabrication des membranes cellulaires et de certaines hormones.", "correct": true },
+    { "id": "c", "text": "Le cholestérol vient uniquement de l'alimentation.", "correct": false },
+    { "id": "d", "text": "Le cholestérol circule librement dans le sang sans transporteur.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le cholestérol est un lipide indispensable (membranes, hormones stéroïdiennes, vitamine D, sels biliaires). Il est majoritairement fabriqué par le foie (~70 %) et seulement minoritairement issu de l'alimentation. Comme il ne se dissout pas dans l'eau, il a besoin de transporteurs (LDL, HDL) pour circuler dans le sang.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

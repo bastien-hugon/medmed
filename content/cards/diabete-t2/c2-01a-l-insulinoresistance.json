@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c2-l01-insulinoresistance",
+  "kind": "lesson",
+  "prompt": "L'INSULINORÉSISTANCE est LE mécanisme central du diabète de type 2. Décortiquons-la.\n\nNormalement : insuline arrive → se fixe sur son récepteur (la serrure) à la surface de la cellule → ouvre la porte → le glucose entre.\n\nDans le T2 : l'insuline arrive bien, mais la serrure ne réagit plus. Comme si elle était encrassée. Il faut beaucoup plus d'insuline pour faire entrer la même quantité de glucose. On dit que les cellules sont 'résistantes' à l'insuline.\n\nLes principaux tissus concernés :\n• MUSCLE — normalement gros consommateur de glucose, devient mauvais à le capter\n• FOIE — non seulement il prend mal le glucose, mais il continue à en FABRIQUER même quand il y en a déjà trop dans le sang (néoglucogenèse non freinée)\n• TISSU ADIPEUX — surtout la graisse abdominale, qui sécrète des substances pro-inflammatoires aggravant la résistance\n\nRéponse du pancréas : il compense en sécrétant DE PLUS EN PLUS d'insuline. Tant qu'il y arrive, la glycémie reste normale (mais avec une insulinémie élevée — c'est le stade pré-diabète). Au bout de plusieurs années, le pancréas s'épuise → il n'arrive plus à compenser → la glycémie monte → diabète installé.\n\nFacteurs qui aggravent l'insulinorésistance : surpoids/obésité (surtout abdominale), sédentarité, alimentation riche en sucres rapides et graisses saturées, prédisposition génétique.",
+  "rationale": "Conséquence clinique majeure : le T2 est en grande partie réversible aux stades précoces. Perte de poids + activité physique = diminution de l'insulinorésistance = la glycémie peut se renormaliser sans aucun médicament. C'est pour ça que les règles hygiéno-diététiques sont la PREMIÈRE étape de traitement (et restent à VIE, même sous médicaments). Mnémo : 'Résistance précoce = compensable. Épuisement tardif = irréversible.'",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

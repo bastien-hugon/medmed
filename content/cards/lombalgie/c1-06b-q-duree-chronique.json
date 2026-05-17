@@ -1,0 +1,19 @@
+{
+  "id": "lombalgie-c1-q06-duree-chronique",
+  "kind": "cloze",
+  "prompt": "On parle de lombalgie CHRONIQUE quand la douleur dure plus de ___ mois.",
+  "expected": ["3"],
+  "rationale": "3 mois : le seuil universel de la chronicité, en lombalgie comme dans la plupart des douleurs. Avant : aiguë (< 4-6 sem) ou subaiguë (6 sem-3 mois). Repère pratique pour décider d'intensifier la PEC et de discuter l'imagerie.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

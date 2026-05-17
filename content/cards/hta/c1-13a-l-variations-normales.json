@@ -1,0 +1,18 @@
+{
+  "id": "hta-c1-l13-variations-normales",
+  "kind": "lesson",
+  "prompt": "La PA n'est PAS une valeur constante. Elle bouge tout le temps, et c'est NORMAL.\n\nQuelques variations physiologiques à connaître :\n\n• JOUR vs NUIT : la PA baisse de 10 à 20 % la nuit pendant le sommeil (on appelle ça le 'dipping' nocturne). Elle remonte au petit matin avant le réveil.\n\n• EFFORT physique : à l'effort intense, la PA systolique peut grimper à 180-200 mmHg, c'est normal. La diastolique, elle, varie peu.\n\n• STRESS, émotions, peur : la PA monte en quelques secondes. C'est le système nerveux sympathique qui contracte les vaisseaux et accélère le cœur ('fight or flight').\n\n• POSITION : debout, la PA baisse légèrement par rapport à allongé (le sang doit lutter contre la gravité). Une baisse trop importante en se levant = hypotension orthostatique.\n\n• APRÈS UN REPAS copieux : légère baisse (le sang afflue vers la digestion).\n\nDONC : un chiffre isolé un peu haut, dans un contexte de stress ou juste après un effort, ne veut RIEN dire. Le diagnostic d'HTA repose sur des mesures répétées, au repos, dans de bonnes conditions, à plusieurs consultations.",
+  "rationale": "Le 'non-dipping' nocturne (PA qui ne baisse pas la nuit) est associé à un risque cardiovasculaire accru et se voit en MAPA (qu'on verra en C2). Côté pratique : si un patient arrive en consultation après avoir couru pour ne pas être en retard, ou après une dispute, ce n'est pas la peine de poser un diagnostic sur cette mesure-là.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

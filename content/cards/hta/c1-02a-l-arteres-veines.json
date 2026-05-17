@@ -1,0 +1,18 @@
+{
+  "id": "hta-c1-l02-arteres-veines",
+  "kind": "lesson",
+  "prompt": "Il y a deux types de tuyaux dans le système circulatoire :\n\n• Les ARTÈRES — elles PARTENT du cœur et apportent le sang riche en oxygène vers les organes (muscles, cerveau, reins…). Ce sont des tuyaux costauds, élastiques, qui supportent la pression que le cœur leur envoie.\n\n• Les VEINES — elles REVIENNENT vers le cœur, ramenant le sang appauvri (qui a livré son oxygène) pour qu'il aille se recharger aux poumons. Les veines sont moins solides — il y a beaucoup moins de pression dedans.\n\nMoyen mnémo : Artère = part Au loin. Veine = reVient Vers le cœur.",
+  "rationale": "Cette distinction artère / veine est la base. En HTA on parle TOUJOURS de la pression dans les artères (jamais des veines). Les complications de l'HTA touchent les artères : artères du cerveau (AVC), du cœur (infarctus), des reins, des yeux.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.fedecardio.org/je-m-informe/le-coeur/",
+    "version": "généralités"
+  }
+}

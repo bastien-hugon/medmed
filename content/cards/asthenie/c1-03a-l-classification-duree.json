@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c1-l03a-classification-duree",
+  "kind": "lesson",
+  "prompt": "Devant une fatigue qui semble pathologique, la première question est : depuis QUAND ?\n\nLa durée oriente fortement vers des causes différentes. Trois catégories à retenir :\n\n• FATIGUE RÉCENTE : moins de 1 mois\n• FATIGUE PROLONGÉE : entre 1 et 6 mois\n• FATIGUE CHRONIQUE : plus de 6 mois\n\nPourquoi cette classification ? Parce que les causes les plus probables ne sont pas les mêmes. Une fatigue d'une semaine évoque plus volontiers un effet de médicament récent ou une infection ; une fatigue qui traîne depuis un an évoque plus volontiers une dépression, un trouble du sommeil chronique ou un syndrome de fatigue chronique.\n\nC'est l'équivalent d'un panneau d'aiguillage : la durée ne donne pas le diagnostic, mais elle dit dans quelle direction chercher en priorité.",
+  "rationale": "La durée est l'information la plus rentable de l'anamnèse devant une fatigue. À retenir comme un réflexe : récent < 1 mois, prolongé 1-6 mois, chronique > 6 mois. On verra en C2 les causes typiques de chaque catégorie.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

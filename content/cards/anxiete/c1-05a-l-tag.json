@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c1-l05-tag",
+  "kind": "lesson",
+  "prompt": "Le TROUBLE ANXIEUX GÉNÉRALISÉ (en abrégé : TAG) est l'un des troubles anxieux les plus fréquents en médecine générale.\n\nL'idée centrale : la personne S'INQUIÈTE TROP, DE BEAUCOUP DE CHOSES, TOUT LE TEMPS.\n\nLes inquiétudes portent sur des sujets variés et 'banals' du quotidien : santé, travail, famille, finances, retards, météo, examens, le moindre événement à venir. Pas une obsession précise — un BRUIT DE FOND permanent d'inquiétude.\n\nCaractéristiques typiques :\n• Soucis EXCESSIFS et INCONTRÔLABLES (la personne n'arrive pas à 'arrêter de penser')\n• Sur de MULTIPLES sujets (pas un seul)\n• DURÉE prolongée (les recommandations exigent ≥ 6 mois — on précisera ça en C2)\n• Accompagnés de symptômes physiques chroniques : fatigue, tension musculaire, troubles du sommeil, irritabilité, difficultés de concentration\n\nC'est différent d'une crise brutale (attaque de panique, carte suivante). Le TAG, c'est un FOND continu — pas un PIC.",
+  "rationale": "Image-clé : le TAG, c'est de l'anxiété 'météo' (un fond grisâtre permanent) ; l'attaque de panique, c'est de l'anxiété 'orage' (une décharge brève et violente). Les deux peuvent coexister chez un même patient. En MG, le TAG est souvent diagnostiqué tardivement : les patients consultent plutôt pour fatigue chronique, insomnie, ou douleurs diffuses.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

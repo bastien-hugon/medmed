@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c2-l02-drapeau-fracture",
+  "kind": "lesson",
+  "prompt": "Premier drapeau rouge à connaître : la FRACTURE vertébrale. Une vertèbre peut se tasser ou se casser, et provoquer une lombalgie aiguë intense.\n\nTrois contextes typiques à dépister :\n\n• TRAUMATISME RÉCENT IMPORTANT : chute de hauteur, accident de la route, choc violent. Évident chez le jeune, mais attention : chez la personne âgée, une simple chute de sa hauteur peut suffire à fracturer une vertèbre ostéoporotique.\n\n• OSTÉOPOROSE connue ou suspectée : os fragilisé (femme ménopausée, ATCD de fracture du col, petit gabarit). Une vertèbre peut se tasser SANS choc, juste en se baissant ou en toussant.\n\n• CORTICOTHÉRAPIE PROLONGÉE : les corticoïdes au long cours (ex : prednisone > 3 mois) fragilisent l'os et favorisent les fractures vertébrales.\n\nSignes pratiques : douleur d'apparition brutale, intense, souvent localisée à un étage précis ; douleur reproductible à la pression d'une apophyse épineuse (la 'bosse' qu'on sent au milieu du dos).",
+  "rationale": "Mnémo : 'TOC' → Trauma, Ostéoporose, Corticoïdes. Ce sont les 3 contextes qui doivent faire évoquer une fracture vertébrale. Quand un de ces contextes est présent, l'imagerie (radio puis IRM ou scanner) est légitime, même précocement. À ne pas confondre avec la lombalgie commune où l'imagerie n'apporte rien.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

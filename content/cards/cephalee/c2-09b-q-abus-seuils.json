@@ -1,0 +1,19 @@
+{
+  "id": "cephalee-c2-q09b-abus-seuils",
+  "kind": "cloze",
+  "prompt": "Céphalée par abus médicamenteux (NICE / ICHD-3) — on parle d'abus quand un patient céphalalgique chronique consomme ≥ ___ jours/mois de paracétamol/AINS/aspirine en monothérapie, OU ≥ ___ jours/mois de triptans, opioïdes, ergots ou antalgiques combinés, et ce pendant plus de ___ mois.",
+  "expected": ["15", "10", "3"],
+  "rationale": "Les seuils 15 / 10 / 3 mois sont des chiffres à connaître par cœur — ils définissent une entité diagnostique précise (ICHD-3 8.2). Mnémo : '15 pour les simples (paracétamol/aspirine/AINS), 10 pour les forts ou combinés (triptan, opioïde, ergot, combinés), pendant 3 mois minimum'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "cam"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

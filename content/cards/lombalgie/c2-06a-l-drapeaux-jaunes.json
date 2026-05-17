@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c2-l06-drapeaux-jaunes",
+  "kind": "lesson",
+  "prompt": "Si les drapeaux rouges cherchent une cause GRAVE, les DRAPEAUX JAUNES cherchent un risque de CHRONICISATION. Autrement dit : pourquoi cette lombalgie, banale au départ, risque-t-elle de durer plus de 3 mois et de pourrir la vie du patient ?\n\nLes drapeaux jaunes sont des facteurs PSYCHOSOCIAUX, pas physiques. Ils incluent :\n\n• Croyances inadaptées sur la douleur : 'J'ai le dos en miettes', 'Je vais finir en fauteuil', 'Le mouvement va aggraver la lésion'\n• Comportement d'évitement par PEUR : le patient arrête de bouger pour ne pas avoir mal — ce qui paradoxalement entretient la douleur\n• Comportement passif : attente d'une solution externe (médicament miracle, intervention, arrêt de travail prolongé)\n• Détresse émotionnelle : dépression, anxiété, stress, isolement social\n• Insatisfaction au travail, conflit professionnel, problèmes d'indemnisation\n\nPourquoi c'est central ? Parce que ces facteurs prédisent mieux le passage à la chronicité QUE LES LÉSIONS visibles à l'IRM. Une 'belle' hernie discale chez quelqu'un qui bouge et pense positivement ira beaucoup mieux qu'un dos 'sans rien' chez quelqu'un de découragé et terrifié par sa douleur.\n\nLa HAS recommande d'évaluer ces facteurs avec un outil simple : le STARTBACK (cf. carte dédiée).",
+  "rationale": "Tournant pédagogique : la lombalgie chronique n'est PAS une maladie du dos, c'est une maladie BIO-PSYCHO-SOCIALE. Les drapeaux jaunes guident vers une PEC qui inclut éducation, TCC (thérapie cognitivo-comportementale), reprise progressive du travail — pas seulement antalgiques et kiné. Identifier ces drapeaux tôt = pouvoir agir avant la chronicisation.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "psychiatrie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

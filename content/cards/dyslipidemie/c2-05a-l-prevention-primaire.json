@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c2-l05-prevention-primaire",
+  "kind": "lesson",
+  "prompt": "On parle de PRÉVENTION PRIMAIRE quand le patient n'a JAMAIS eu d'événement cardiovasculaire (pas d'infarctus, pas d'AVC, pas d'AOMI). L'objectif : empêcher le premier événement.\n\nLa décision se base sur le risque CV à 10 ans (calculé par QRISK3 ou SCORE2).\n\nLa règle NICE (claire, à retenir) :\n• Si risque CV ≥ 10 % à 10 ans → proposer ATORVASTATINE 20 mg / jour.\n• Si risque < 10 % → pas de statine en routine ; insister sur les règles hygiéno-diététiques (RHD).\n\nExceptions où l'on peut/doit traiter même si <10 % :\n• Le patient le souhaite (préférence éclairée).\n• On estime que le risque est SOUS-ESTIMÉ par l'outil (cf. VIH, polyarthrite rhumatoïde, maladie mentale sévère).\n• Patient ≥85 ans : automatiquement à risque accru, considérer atorvastatine 20 mg surtout si tabac ou HTA.\n• Diabète de type 1 avec : âge >40 ans, OU durée >10 ans, OU néphropathie, OU autres FdR.\n• Insuffisance rénale chronique : atorvastatine 20 mg en 1re intention.\n\nCible biologique en prévention primaire :\n→ Réduction de >40 % du non-HDL cholestérol à 3 mois.\n\nAvant d'initier, NICE recommande un bilan de base : tabac, alcool, PA, IMC, profil lipidique complet, statut diabétique, fonction rénale, transaminases (ALT/AST), TSH si symptômes thyroïdiens.\n\nEt toujours, avant de prescrire : discuter le bénéfice/risque, parler des effets indésirables possibles, encourager les RHD en parallèle.",
+  "rationale": "Le seuil de 10 % est arbitraire mais validé : c'est le niveau à partir duquel le bénéfice de la statine surpasse clairement les risques d'effets indésirables. NICE adopte un seuil unique simplifié ; l'ESC découpe plus finement. En France, la HAS suit globalement l'ESC. À retenir : atorvastatine 20 mg = la 'dose-réflexe' en primaire. La cible 'baisse >40 %' du non-HDL est plus simple à suivre qu'une cible LDL absolue en primaire.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

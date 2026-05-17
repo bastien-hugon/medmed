@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c1-l02-ldl-hdl",
+  "kind": "lesson",
+  "prompt": "On a vu que le cholestérol a besoin d'un transporteur pour voyager dans le sang. Il en existe principalement DEUX, et c'est là que tout se joue.\n\nLE LDL — 'low-density lipoprotein'\nImagine un camion de livraison qui part du foie et DÉPOSE du cholestérol partout dans le corps, y compris dans la paroi de tes artères. C'est utile en petite quantité (les cellules en ont besoin). Mais s'il y a trop de camions LDL, ils déchargent du cholestérol en excès dans les artères → la plaque commence à se former. C'est pour ça qu'on appelle le LDL le 'MAUVAIS cholestérol'.\n\nLE HDL — 'high-density lipoprotein'\nImagine un camion-poubelle qui passe partout et RAMASSE le cholestérol en excès dans les artères pour le ramener au foie (qui l'élimine). Plus tu as de HDL, mieux les artères sont nettoyées. C'est le 'BON cholestérol'.\n\nL'image à garder :\n• LDL = camion qui DÉPOSE → mauvais si trop élevé.\n• HDL = camion qui RAMASSE → bon si suffisamment élevé.\n\nQuand on dit 'cholestérol total', c'est la somme de tout. Mais ce qui compte vraiment, c'est l'équilibre LDL/HDL.",
+  "rationale": "Astuce mnémonique : LDL = 'Lousy' (mauvais en anglais), HDL = 'Healthy' (bon). Ou encore : L comme 'Loue un local' (dépose), H comme 'Helps' (aide). En pratique, presque toutes les cibles thérapeutiques (statines, etc.) visent à BAISSER le LDL, pas à monter le HDL (les médicaments qui montent le HDL n'ont pas montré de bénéfice). Le LDL est le vrai coupable de l'athérosclérose.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

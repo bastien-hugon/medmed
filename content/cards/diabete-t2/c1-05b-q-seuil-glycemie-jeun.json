@@ -1,0 +1,19 @@
+{
+  "id": "diabete-t2-c1-q06-seuil-glycemie-jeun",
+  "kind": "cloze",
+  "prompt": "On parle de diabète quand la glycémie à jeun est ≥ ___ g/L, confirmée sur deux dosages.",
+  "expected": ["1,26"],
+  "rationale": "1,26 g/L (= 7,0 mmol/L) : seuil universel à jeun, validé par WHO et ADA depuis 1997. Toujours confirmer sur une 2ème prise un autre jour, sauf si symptômes francs avec glycémie aléatoire ≥ 2 g/L. Sous 1,26 mais ≥ 1,10 → prédiabète.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

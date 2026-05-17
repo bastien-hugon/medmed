@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c1-l04-familles-contraception",
+  "kind": "lesson",
+  "prompt": "Pour ne pas se noyer dans les noms de marques, on range la contraception en GRANDES FAMILLES.\n\n1) ŒSTRO-PROGESTATIFS (combinés) — Contiennent les deux hormones, œstrogène + progestatif. Formes : pilule combinée, patch, anneau vaginal. Le plus efficace en perfect use, mais avec un peu plus de contre-indications (notamment risque de thrombose).\n\n2) PROGESTATIFS SEULS — Seulement de la progestérone (de synthèse). Formes : pilule micro-dosée, implant, injection, DIU hormonal. Utiles quand les œstrogènes sont contre-indiqués (tabac > 35 ans, allaitement, antécédent de phlébite…).\n\n3) DIU AU CUIVRE — Un petit dispositif posé dans l'utérus. Pas d'hormone du tout. Le cuivre rend l'environnement utérin toxique pour les spermatozoïdes.\n\n4) MÉTHODES BARRIÈRE — Préservatif, diaphragme, cape cervicale. Le préservatif a en plus le rôle anti-IST.\n\n(Il existe aussi la stérilisation — vasectomie, ligature des trompes — et les méthodes naturelles, beaucoup moins fiables.)",
+  "rationale": "Ranger les méthodes par famille évite la confusion 'pilule = contraception'. En pratique : si une patiente ne tolère pas les œstrogènes, on a TOUTE une famille (progestatifs seuls) à proposer. Si elle veut zéro hormone, on a le DIU cuivre ou les méthodes barrière. Ce 'menu' de familles est la base de l'entretien contraception en MG.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

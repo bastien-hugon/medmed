@@ -1,0 +1,19 @@
+{
+  "id": "asthenie-c1-q03b-duree-chronique",
+  "kind": "cloze",
+  "prompt": "On parle de fatigue CHRONIQUE quand elle dure plus de ___ mois.",
+  "expected": ["6"],
+  "rationale": "Le seuil de 6 mois est un repère consensuel. En dessous : récente (< 1 mois) ou prolongée (1-6 mois). Au-dessus : chronique. Ce seuil est aussi celui retenu dans les critères diagnostiques du syndrome de fatigue chronique (SFC / ME/CFS).",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "lombalgie-c1-q08-pronostic",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient de 35 ans consulte pour une lombalgie aiguë apparue il y a 3 jours après avoir porté un carton. Pas de drapeau rouge. Que lui dire sur son pronostic ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Il aura probablement besoin d'une chirurgie dans les semaines à venir",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Il a 9 chances sur 10 de voir sa douleur s'améliorer en 4 à 6 semaines",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Sans IRM, impossible de se prononcer sur l'évolution",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Il doit s'attendre à des douleurs permanentes à vie",
+      "correct": false
+    }
+  ],
+  "expected": ["b"],
+  "rationale": "Le message à donner systématiquement en lombalgie commune aiguë : ≥ 90 % d'évolution favorable en 4-6 semaines. C'est la pierre angulaire de la réassurance, qui est elle-même un acte thérapeutique. Pas besoin d'IRM pour le dire — l'absence de drapeau rouge suffit.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

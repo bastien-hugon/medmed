@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c2-l06-prevention-secondaire",
+  "kind": "lesson",
+  "prompt": "On parle de PRÉVENTION SECONDAIRE quand le patient a DÉJÀ eu un événement cardiovasculaire :\n• Infarctus du myocarde, angine de poitrine, revascularisation coronaire (stent, pontage).\n• AVC ou AIT (accident ischémique transitoire).\n• AOMI (artériopathie oblitérante des membres inférieurs).\n\nObjectif : empêcher la RÉCIDIVE. Le risque est très élevé (jusqu'à 20-30 % à 10 ans), donc on traite FORT et SANS DÉLAI.\n\nRègle NICE simple :\n→ ATORVASTATINE 80 mg / jour, d'emblée, QUEL QUE SOIT le LDL initial.\n\nC'est important : on ne réfléchit pas. Même si le LDL est 'normal', le patient bénéficie de la statine forte (effet pléiotrope, stabilisation des plaques). Exception : si interactions médicamenteuses, risque élevé d'effet indésirable, ou préférence du patient, on peut commencer plus bas (atorvastatine 40 mg par exemple) et ré-évaluer.\n\nCIBLES biologiques en prévention secondaire (très strictes) :\n• LDL ≤ 2,0 mmol/L (= 0,77 g/L), OU\n• Non-HDL ≤ 2,6 mmol/L (= 1,0 g/L).\n\nSi la cible n'est pas atteinte avec la statine au max toléré, on ajoute de l'ézétimibe, puis éventuellement un anti-PCSK9 (cf. carte ezetimibe-pcsk9).\n\nQuand l'initier après un infarctus ? Le plus tôt possible — dès l'hospitalisation (pas de retard). Profil lipidique à l'admission, puis recontrôlé 2-3 mois après initiation.",
+  "rationale": "La règle 'atorvastatine 80 mg en secondaire d'emblée' est l'un des dogmes les plus solides de la cardiologie moderne. Étude PROVE-IT, IMPROVE-IT, etc. Le LDL initial n'importe pas : le bénéfice est constant. C'est un piège classique de penser 'son LDL est à 0,9 g/L donc pas la peine' — FAUX. Le seuil 2,0 mmol/L (LDL) ≈ 0,77 g/L est la cible standardisée à retenir.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

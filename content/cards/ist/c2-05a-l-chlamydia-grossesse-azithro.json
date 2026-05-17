@@ -1,0 +1,18 @@
+{
+  "id": "ist-c2-l05-chlamydia-grossesse-azithro",
+  "kind": "lesson",
+  "prompt": "Cas particulier : femme ENCEINTE avec chlamydia. Le traitement change.\n\nRECOMMANDÉ : AZITHROMYCINE 1 g PO en DOSE UNIQUE.\n\nAlternative : amoxicilline 500 mg PO TID (= 3 fois par jour) × 7 jours.\n\nPourquoi pas la doxycycline ? Elle est CONTRE-INDIQUÉE pendant la grossesse (2ème et 3ème trimestre surtout) car elle se fixe sur l'os et les dents fœtales en formation, provoquant une coloration jaune-grise définitive des dents de lait et permanentes.\n\nPourquoi pas la lévofloxacine ? Risque cartilagineux fœtal (données animales).\n\nAutre spécificité en grossesse : on fait un TEST DE GUÉRISON (test of cure) à 4 semaines post-traitement, par NAAT. Logique : éviter une transmission néonatale et contrôler que l'antibiotique a marché (azithromycine dose unique étant moins efficace que doxy 7 j).",
+  "rationale": "Cette carte est l'exception qui confirme la règle. Le réflexe à retenir : 'femme enceinte = pas de doxy, azithro dose unique + retest à 4 semaines'. L'amoxicilline reste une alternative française classique, bien tolérée, équivalente en efficacité. La présence d'une chlamydia en grossesse impose aussi de traiter le partenaire et de proposer un dépistage des autres IST.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  }
+}

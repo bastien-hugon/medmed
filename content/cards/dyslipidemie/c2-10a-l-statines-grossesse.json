@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c2-l10-statines-grossesse",
+  "kind": "lesson",
+  "prompt": "Les statines sont CONTRE-INDIQUÉES pendant la GROSSESSE et l'ALLAITEMENT.\n\nPourquoi ?\nLe cholestérol est INDISPENSABLE au développement du fœtus :\n• Construction des membranes cellulaires (le fœtus fait des milliards de cellules).\n• Synthèse des hormones stéroïdiennes nécessaires à la croissance.\n• Développement du système nerveux (le cerveau est très riche en cholestérol).\n\nUne statine traverse le placenta et inhibe la synthèse de cholestérol chez le fœtus. Les études animales suggèrent un risque malformatif (notamment du système nerveux et squelettique). Chez l'humain, les données sont limitées mais le principe de précaution prime.\n\nRecommandations NICE :\n• STOPPER la statine au moins 3 MOIS AVANT une grossesse planifiée.\n• Si grossesse non planifiée : arrêter dès découverte.\n• NE PAS REPRENDRE tant que l'allaitement se poursuit (la statine passe dans le lait).\n• Reprise possible après le sevrage.\n\nEn pratique chez une femme en âge de procréer :\n• Aborder la contraception au moment de prescrire la statine.\n• Discuter d'une fenêtre thérapeutique en cas de projet de grossesse.\n• Renforcer les RHD pendant la pause médicamenteuse.\n\nQu'en est-il des autres hypolipémiants pendant la grossesse ?\n• Ézétimibe : pas recommandé (peu de données).\n• Anti-PCSK9 : pas recommandé (anticorps monoclonaux, données limitées).\n• Pour les hypertriglycéridémies sévères pendant la grossesse (risque de pancréatite) : suivi spécialisé, oméga-3 parfois utilisés au cas par cas.\n\nMessage-clé à donner à la patiente : 'Pour le bébé, on suspend la statine. Pour vous, on garde un œil sur les chiffres et on reprend après l'allaitement.'",
+  "rationale": "C'est une CI absolue à connaître. Le cholestérol étant essentiel au développement fœtal (surtout SNC), bloquer sa synthèse est délétère. La fenêtre des 3 mois avant conception est importante : la statine et ses métabolites doivent être éliminés. Question à toujours poser à une femme en âge de procréer avant de prescrire : 'Projet de grossesse ?' Cas particulier : l'hypercholestérolémie familiale homozygote — discussion au cas par cas avec spécialiste.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dyslipidemie-c1-q02-ldl-hdl",
+  "kind": "qcm-vignette",
+  "prompt": "Lequel de ces deux transporteurs du cholestérol est considéré comme le 'MAUVAIS cholestérol' ?",
+  "choices": [
+    { "id": "a", "text": "Le HDL, car il dépose du cholestérol dans les artères.", "correct": false },
+    { "id": "b", "text": "Le LDL, car il dépose du cholestérol dans les artères et favorise la plaque.", "correct": true },
+    { "id": "c", "text": "Le HDL, car il ramasse le cholestérol en excès.", "correct": false },
+    { "id": "d", "text": "Le LDL, car il ramasse le cholestérol en excès pour le ramener au foie.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le LDL ('low-density') dépose le cholestérol partout dans le corps, y compris dans la paroi artérielle — c'est le moteur de l'athérosclérose. Le HDL ('high-density') fait l'inverse : il récupère le cholestérol en excès et le ramène au foie. D'où LDL = mauvais, HDL = bon. Toutes les thérapies de dyslipidémie ciblent surtout la baisse du LDL.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

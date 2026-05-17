@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c2-l04-drapeau-tumeur",
+  "kind": "lesson",
+  "prompt": "Troisième drapeau rouge : la TUMEUR. Le rachis lombaire est un site fréquent de métastases osseuses (sein, prostate, poumon, rein, thyroïde). Plus rarement, il peut s'agir d'une tumeur primitive (myélome, lymphome).\n\nLes contextes qui doivent alerter :\n\n• ATCD PERSONNEL DE CANCER, même ancien et 'guéri' (les métastases osseuses peuvent apparaître des années plus tard)\n• PERTE DE POIDS INEXPLIQUÉE, fatigue, altération de l'état général\n• DOULEUR NOCTURNE qui réveille (douleur inflammatoire), ne cède pas au repos, plutôt PROGRESSIVE sur plusieurs semaines/mois\n• ÂGE > 50 ans avec premier épisode de lombalgie\n• ÉCHEC D'UN TRAITEMENT ANTALGIQUE BIEN CONDUIT\n\nAttention : la douleur peut être au début banale, mécanique, puis devenir inflammatoire en quelques semaines. C'est ce changement de profil qui doit alerter.\n\nDevant ces signes : bilan biologique (NFS, CRP, calcémie, électrophorèse des protéines) et IRM rachidienne.",
+  "rationale": "Mnémo : 'le cancer fait toujours plus mal la nuit'. La douleur progressive, nocturne, chez un patient avec ATCD de cancer ou > 50 ans, est le tableau classique. Piège fréquent : un patient avec un cancer du sein traité il y a 5 ans qui consulte pour 'un mal de dos qui ne passe pas' — c'est une métastase jusqu'à preuve du contraire.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "oncologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

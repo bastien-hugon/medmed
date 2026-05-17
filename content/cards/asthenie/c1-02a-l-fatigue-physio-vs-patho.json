@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c1-l02a-fatigue-physio-vs-patho",
+  "kind": "lesson",
+  "prompt": "Toute fatigue n'est pas pathologique. Distinguer deux situations.\n\nFATIGUE PHYSIOLOGIQUE (normale) :\n• Après un effort physique inhabituel (déménagement, randonnée)\n• Après une nuit courte ou une privation de sommeil\n• Après une période de stress intense\n• Se règle avec du repos, du sommeil, le retour à la normale\n\nFATIGUE PATHOLOGIQUE (à explorer) :\n• Disproportionnée par rapport à l'activité (\"je suis crevé alors que je n'ai rien fait\")\n• Persistante malgré un repos suffisant\n• Retentit sur la vie quotidienne, le travail, les relations\n• S'associe parfois à d'autres symptômes (perte de poids, fièvre, douleurs…)\n\nImage : la batterie qui se vide après une grosse journée → normal. La batterie qui se vide en 2 heures sur un téléphone neuf → quelque chose ne va pas.",
+  "rationale": "C'est LE premier tri en consultation. Une fatigue qui se règle avec une bonne nuit ne mérite pas un bilan extensif. Une fatigue qui dure, qui se majore, qui retentit sur la vie est un signal à prendre au sérieux et à explorer.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

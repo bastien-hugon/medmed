@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c1-l07-autres-troubles-anxieux",
+  "kind": "lesson",
+  "prompt": "Au-delà du TAG et du trouble panique, la 'famille' des troubles anxieux comprend plusieurs autres entités. À ce stade, juste les RECONNAÎTRE de loin, sans entrer dans le détail :\n\n• PHOBIE SPÉCIFIQUE — peur intense et irrationnelle d'un objet ou d'une situation précise (araignées, avion, sang, ascenseurs…). La personne est OK tant qu'elle n'y est pas confrontée.\n\n• PHOBIE SOCIALE (ou anxiété sociale) — peur du regard des autres, du jugement. Éviter de prendre la parole, de manger en public, de rougir.\n\n• AGORAPHOBIE — peur des situations où il serait difficile de s'enfuir ou d'être secouru (transports, foules, espaces ouverts). Souvent associée au trouble panique.\n\n• TROUBLE OBSESSIONNEL COMPULSIF (TOC) — pensées intrusives répétitives (obsessions : 'et si je m'étais contaminé(e) ?') compensées par des rituels (compulsions : se laver les mains 30 fois).\n\n• ÉTAT DE STRESS POST-TRAUMATIQUE (ESPT) — après un événement traumatique (accident, agression, guerre) : reviviscences (cauchemars, flashbacks), évitement, hypervigilance.\n\nDans le DSM-5 récent, TOC et ESPT ont été sortis de la catégorie 'troubles anxieux' (classification distincte), mais en pratique clinique ils restent très liés.",
+  "rationale": "Ce panorama sert juste à ne pas mélanger les entités. À retenir : (1) le TAG et le trouble panique sont les deux entités centrales en MG ; (2) la phobie sociale est sous-diagnostiquée et fréquente ; (3) ESPT et TOC ont leurs prises en charge propres. En C2 et au-delà, on approfondira les critères diagnostiques précis. Ne pas s'inquiéter de tout retenir maintenant — l'important c'est de savoir que le 'spectre anxieux' existe.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

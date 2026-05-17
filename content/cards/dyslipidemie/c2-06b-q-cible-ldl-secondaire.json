@@ -1,0 +1,25 @@
+{
+  "id": "dyslipidemie-c2-q06-cible-ldl-secondaire",
+  "kind": "qcm-vignette",
+  "prompt": "Selon NICE NG238, quelle est la cible de LDL cholestérol en prévention secondaire (post-infarctus, post-AVC, AOMI) ?",
+  "choices": [
+    { "id": "a", "text": "LDL ≤ 3,5 mmol/L (≈ 1,35 g/L).", "correct": false },
+    { "id": "b", "text": "LDL ≤ 2,6 mmol/L (≈ 1,0 g/L).", "correct": false },
+    { "id": "c", "text": "LDL ≤ 2,0 mmol/L (≈ 0,77 g/L), ou non-HDL ≤ 2,6 mmol/L.", "correct": true },
+    { "id": "d", "text": "Il n'y a pas de cible chiffrée, on traite seulement par atorvastatine 80 mg sans surveiller le LDL.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Cibles NICE en prévention secondaire : LDL ≤ 2,0 mmol/L (≈ 0,77 g/L) OU non-HDL ≤ 2,6 mmol/L (≈ 1,0 g/L). Important : on ne 'jette pas' la cible chiffrée même si on traite d'emblée par atorvastatine 80 mg ; on s'en sert pour décider d'AJOUTER ézétimibe puis anti-PCSK9 si elle n'est pas atteinte. À noter que l'ESC va parfois plus bas (LDL < 1,4 mmol/L pour les très haut risque) — mais NICE garde 2,0 mmol/L.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

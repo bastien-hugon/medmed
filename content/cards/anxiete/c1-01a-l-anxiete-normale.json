@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c1-l01-anxiete-normale",
+  "kind": "lesson",
+  "prompt": "L'ANXIÉTÉ, à la base, c'est UTILE.\n\nImagine : tu marches dans la rue, une voiture déboule. En une fraction de seconde, ton cœur s'accélère, tes muscles se tendent, tu sautes en arrière. Cette réaction t'a peut-être sauvé la vie.\n\nC'est ça l'anxiété 'normale' : un SYSTÈME D'ALARME qui se déclenche face à un danger réel ou supposé. Il prépare ton corps à agir vite (fuir, se défendre, se figer).\n\nÉmotions du même registre : la peur, le stress avant un examen, le trac avant une prise de parole. Désagréable, oui — mais proportionné, transitoire, et souvent utile (ça pousse à se préparer, à éviter les risques).",
+  "rationale": "Point de départ crucial pour déstigmatiser : l'anxiété n'est pas une 'tare', c'est une fonction. Ce qui pose problème, c'est quand le système d'alarme se déclenche TROP, TROP LONGTEMPS, ou SANS RAISON. On le verra dans la carte suivante. Garde l'image du système d'alarme : utile quand il sonne pour un vrai feu, problématique quand il sonne à chaque grille-pain.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

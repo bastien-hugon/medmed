@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c2-l06-implant-efficacite",
+  "kind": "lesson",
+  "prompt": "L'IMPLANT SOUS-CUTANÉ est un petit bâtonnet souple (la taille d'une allumette), placé sous la peau de la face interne du bras non dominant, sous anesthésie locale, par un médecin formé. Il contient un progestatif (étonogestrel) qui diffuse en continu pendant ~3 ans.\n\nMÉCANISMES :\n• Blocage de l'ovulation (constant — c'est le mécanisme principal pour l'implant, contrairement à beaucoup de pilules micro-dosées).\n• Épaississement de la glaire cervicale.\n• Amincissement de l'endomètre.\n\nEFFICACITÉ : ~0,05 % de grossesses la 1ère année (cf. tableau MSD) — c'est l'une des contraceptions LES PLUS EFFICACES qui existent, équivalent à une stérilisation, mais RÉVERSIBLE.\n\nPourquoi cette efficacité quasi-parfaite ? Parce que c'est une LARC : aucune action quotidienne, aucun oubli possible. Le typical use est EXACTEMENT le perfect use.\n\nEFFETS INDÉSIRABLES (à annoncer avant la pose) :\n• PROFIL DES SAIGNEMENTS IMPRÉVISIBLE — c'est la principale cause d'arrêt précoce : aménorrhée chez environ 20 %, saignements peu fréquents chez beaucoup, saignements fréquents/prolongés chez une minorité. Impossible de prédire à l'avance pour une patiente donnée.\n• Céphalées, acné, prise de poids modeste, mastodynies, sautes d'humeur (effets progestatifs systémiques).\n\nINTÉRÊT particulier : excellente option chez les adolescentes / jeunes femmes où l'observance d'une pilule quotidienne est fragile, ou en post-IVG / post-partum.",
+  "rationale": "L'implant a l'efficacité réelle la plus élevée de toute la contraception réversible. L'argument-clé en counseling : 'tu n'as plus rien à penser pendant 3 ans'. Le contre-argument à annoncer honnêtement : l'imprévisibilité des saignements (20 % d'aménorrhée mais 20 % de saignements gênants — c'est la loterie). Mieux vaut prévenir avant pour éviter une demande de retrait précoce.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

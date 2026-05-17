@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c2-l08-cibles-hba1c",
+  "kind": "lesson",
+  "prompt": "Quelle HbA1c viser chez un diabétique de type 2 ? Surprise : la cible n'est PAS la même pour tout le monde. La HAS recommande une CIBLE INDIVIDUALISÉE selon le profil du patient.\n\nLe principe : plus on baisse l'HbA1c, moins il y a de complications microvasculaires — MAIS plus on baisse, plus on prend de risque d'hypoglycémie (surtout sous insuline ou sulfamides). Donc il faut trouver le bon équilibre.\n\nCIBLES INDICATIVES (HAS) :\n\n• ≤ 7 % — Cible STANDARD\n  Pour la plupart des diabétiques de type 2 (espérance de vie > 5 ans, sans complications majeures, sans risque élevé d'hypoglycémie).\n\n• ≤ 6,5 % — Cible STRICTE\n  Pour les patients récemment diagnostiqués, jeunes, sans antécédent cardiovasculaire, sous traitement n'induisant pas d'hypoglycémie (metformine seule, par exemple).\n\n• ≤ 8 % — Cible ASSOUPLIE\n  Pour les patients avec :\n   – Complications macrovasculaires évoluées\n   – Comorbidité grave (insuffisance cardiaque, IRC sévère, cancer évolutif)\n   – Espérance de vie limitée\n   – Risque élevé d'hypoglycémie\n   – Diabète très ancien et difficile à équilibrer\n\n• ≤ 9 % (parfois plus souple encore) — chez la personne ÂGÉE FRAGILE / poly-pathologique\n  Priorité absolue : éviter les hypoglycémies, qui sont à très haut risque chez ces patients (chutes, troubles cognitifs).\n\nIDÉE CLÉ : ne pas être MOINS strict qu'il ne faudrait, mais surtout ne pas être PLUS strict que le bénéfice attendu. Une HbA1c à 6 % chez une dame de 85 ans sous sulfamides → hypoglycémies répétées → chute → fracture du col → décès. C'est l'iatrogénie d'un excès de zèle.\n\nC'est aussi pour ça que la décision se prend AVEC le patient : ses préférences, ses craintes, sa capacité à gérer le traitement comptent autant que les chiffres.",
+  "rationale": "Mnémo : '6,5 — 7 — 8 — 9' selon profil. La cible n'est pas une note à atteindre — c'est un OUTIL pour décider du traitement. Si le patient est à 7,5 % et qu'on a fixé une cible à 7 %, on intensifie. S'il est à 7,5 % et qu'on a fixé une cible à 8 %, on est BON. Attention au piège fréquent : viser 6,5 % partout aboutit à de l'iatrogénie chez le sujet âgé.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/H%C3%A9moglobine_glyqu%C3%A9e",
+    "version": "consulté en 2026-05"
+  }
+}

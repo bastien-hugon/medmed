@@ -1,0 +1,18 @@
+{
+  "id": "ist-c2-l04-chlamydia-tt-doxy",
+  "kind": "lesson",
+  "prompt": "Traitement de la chlamydia génitale non compliquée, chez l'adulte non enceinte :\n\n1ère LIGNE : DOXYCYCLINE 100 mg PO BID × 7 JOURS.\n\nDécryptage des abréviations :\n• PO = Per Os = par la bouche (comprimé à avaler).\n• BID = Bis In Die = 2 fois par jour (matin + soir, espacés de ~12 h).\n• Donc : 1 comprimé matin + 1 comprimé soir, pendant 7 jours d'affilée.\n\nPourquoi 7 jours et pas une dose unique ? La doxycycline en cure courte (7 j) est supérieure à l'azithromycine en dose unique pour 2 raisons :\n• Meilleure éradication des infections RECTALES et OROPHARYNGÉES.\n• Moindre risque de sélection de résistances bactériennes.\n\nAlternatives (si CI à doxy) :\n• Azithromycine 1 g PO dose unique.\n• Lévofloxacine 500 mg PO 1×/j × 7 j (rarement utilisé, fluoroquinolone).\n\nEffets secondaires courants doxycycline : photosensibilité (éviter expositions solaires prolongées), troubles digestifs, prise debout avec un grand verre d'eau (risque d'œsophagite).",
+  "rationale": "Mnémo : 'Doxy 100/2/7' = 100 mg, 2 fois par jour, 7 jours. C'est devenu la 1ère ligne (2021) à la place de l'azithromycine dose unique, justement parce que la guérison microbiologique est meilleure (essai randomisé : 100% doxy vs 74% azithro sur chlamydia rectale chez HSH). Pas de test of cure systématique chez non-enceinte après traitement bien conduit — on retest à 3 mois pour la réinfection.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  }
+}

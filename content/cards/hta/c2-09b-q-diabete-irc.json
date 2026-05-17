@@ -1,0 +1,25 @@
+{
+  "id": "hta-c2-q09-diabete-irc",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient de 60 ans, hypertendu, diabétique de type 2 avec une microalbuminurie. Quelle classe d'antihypertenseur privilégier en 1ère intention ?",
+  "choices": [
+    {"id": "a", "text": "Bêtabloquant en monothérapie", "correct": false},
+    {"id": "b", "text": "IEC ou ARA2", "correct": true},
+    {"id": "c", "text": "Diurétique de l'anse", "correct": false},
+    {"id": "d", "text": "Alpha-bloquant", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Chez le diabétique avec microalbuminurie (ou IRC, ou protéinurie), les IEC et ARA2 sont les molécules de choix : ils baissent la PA ET protègent le rein de manière spécifique (effet néphroprotecteur indépendant de l'effet tensionnel, lié à la dilatation de l'artériole efférente glomérulaire). À surveiller : iono/créat à 1-4 semaines après mise en route (risque hyperkaliémie, IRA fonctionnelle).",
+  "tags": {
+    "system": ["cardiovasculaire", "rénal", "endocrinologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

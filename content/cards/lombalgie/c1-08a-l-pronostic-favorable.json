@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c1-l08-pronostic-favorable",
+  "kind": "lesson",
+  "prompt": "La nouvelle la plus importante à dire au patient qui consulte pour une lombalgie commune aiguë :\n\n90 % DES CAS ÉVOLUENT FAVORABLEMENT EN 4 À 6 SEMAINES.\n\nCette phrase change tout. Elle :\n• rassure le patient (la peur entretient la douleur)\n• justifie de ne PAS faire d'imagerie en urgence\n• justifie de ne PAS prescrire d'arrêt de travail long\n• justifie de remettre le patient EN MOUVEMENT plutôt qu'au repos\n\nLa douleur s'atténue tout seule, comme un bleu : ça fait mal, puis ça passe. Le rôle du médecin n'est pas de 'soigner' au sens de réparer (il n'y a rien à réparer dans la grande majorité des cas) — c'est d'accompagner le passage de la crise et d'éviter qu'elle ne se transforme en douleur chronique.\n\nCe pronostic favorable est UN DES MESSAGES CLÉS de toutes les recommandations modernes (HAS 2019, NICE NG59).",
+  "rationale": "Conséquence pratique : la réassurance n'est pas une formalité polie, c'est un acte THÉRAPEUTIQUE. Un patient à qui on dit 'on va faire une IRM, on va vous arrêter, c'est sérieux' a paradoxalement un risque accru de chronicisation, car cela renforce ses croyances de gravité et son comportement d'évitement.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "gyneco-prevention-c1-q03-preservatif-double-role",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces moyens contraceptifs, lequel est le SEUL à protéger à la fois contre la grossesse ET contre les IST (infections sexuellement transmissibles) ?",
+  "choices": [
+    { "id": "a", "text": "La pilule œstro-progestative", "correct": false },
+    { "id": "b", "text": "Le DIU au cuivre (stérilet)", "correct": false },
+    { "id": "c", "text": "Le préservatif (externe ou interne)", "correct": true },
+    { "id": "d", "text": "L'implant sous-cutané", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Pilule, DIU et implant n'agissent que sur la fécondation/nidation : ils n'opposent aucune barrière au passage des microbes. Seul le préservatif (latex ou polyuréthane) forme une barrière physique qui bloque à la fois les spermatozoïdes et la majorité des agents d'IST (VIH, chlamydia, gonocoque). C'est pour ça qu'on parle de 'double protection' : pilule + préservatif tant que les partenaires ne sont pas stables et testés.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

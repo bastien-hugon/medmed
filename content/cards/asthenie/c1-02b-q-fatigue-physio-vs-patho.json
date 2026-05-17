@@ -1,0 +1,25 @@
+{
+  "id": "asthenie-c1-q02b-fatigue-physio-vs-patho",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces 4 patients, lequel décrit une fatigue qui doit alerter le médecin (fatigue pathologique) ?",
+  "choices": [
+    { "id": "a", "text": "Étudiant de 22 ans, fatigué après avoir révisé jusqu'à 3 h du matin. Se sent mieux après une grasse matinée.", "correct": false },
+    { "id": "b", "text": "Femme de 45 ans, courbatue le lendemain d'une randonnée de 20 km. Récupère en 2 jours.", "correct": false },
+    { "id": "c", "text": "Homme de 55 ans, épuisé en permanence depuis 4 mois, malgré 8 h de sommeil par nuit ; a maigri de 4 kg sans le vouloir.", "correct": true },
+    { "id": "d", "text": "Père de jeunes jumeaux, fatigué pendant les semaines où l'un d'eux fait ses dents. Récupère dès que les nuits redeviennent normales.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "La réponse (c) coche les trois critères de fatigue pathologique : durée prolongée, non soulagée par le repos, et symptômes associés (amaigrissement involontaire = drapeau rouge). Les trois autres situations sont des fatigues physiologiques qui se règlent avec du repos et le retour à une vie normale.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

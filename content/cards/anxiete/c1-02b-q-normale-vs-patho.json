@@ -1,0 +1,25 @@
+{
+  "id": "anxiete-c1-q02-normale-vs-patho",
+  "kind": "qcm-vignette",
+  "prompt": "Mme L., 38 ans, consulte. Depuis 8 mois, elle est inquiète en permanence pour son fils (12 ans, en bonne santé, sans difficulté à l'école). Elle vérifie son téléphone 20 fois par jour, dort mal, a maigri de 4 kg et a arrêté de voir ses amies. Quelle situation décrit-elle le mieux ?",
+  "choices": [
+    { "id": "a", "text": "Une anxiété normale, proportionnée à un risque parental", "correct": false },
+    { "id": "b", "text": "Une anxiété pathologique : disproportionnée, persistante, avec retentissement", "correct": true },
+    { "id": "c", "text": "Un simple stress passager qui passera avec du repos", "correct": false },
+    { "id": "d", "text": "Une réaction adaptée qu'il faut respecter sans intervenir", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les trois critères du trépied sont là : (1) DISPROPORTION — l'enfant va bien, le risque est faible ; (2) PERSISTANCE — 8 mois ; (3) RETENTISSEMENT — perte de poids, sommeil dégradé, isolement social. On est clairement dans le trouble anxieux, pas dans l'anxiété adaptative.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

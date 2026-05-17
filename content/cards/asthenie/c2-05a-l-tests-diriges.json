@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c2-l05a-tests-diriges",
+  "kind": "lesson",
+  "prompt": "Au-delà du bilan biologique de base, certains examens ne se prescrivent QUE si la clinique les justifie. C'est le principe du test DIRIGÉ par l'orientation.\n\nQUAND PRESCRIRE QUOI :\n\n• CK (Créatine Kinase, enzyme musculaire) — si MYALGIES (douleurs musculaires) ou faiblesse musculaire. Recherche une atteinte musculaire (myosite, rhabdomyolyse iatrogène sous statine…).\n\n• SÉROLOGIE VIH — si facteurs de risque (rapports non protégés, partenaires multiples, usage de drogues injectables, origine d'une zone à forte prévalence). La fatigue chronique inexpliquée chez un sujet à risque doit faire dépister.\n\n• RADIOGRAPHIE DE THORAX — si TOUX persistante, DYSPNÉE, ou suspicion d'infection chronique (tuberculose chez sujet à risque, BPCO, cancer chez fumeur).\n\n• MAPA / polygraphie / polysomnographie — si SOMNOLENCE diurne, ronflements, pauses respiratoires nocturnes signalées par l'entourage (suspicion d'apnée du sommeil — SAOS).\n\n• ÉCHO ABDOMINALE, scanner, etc. — uniquement sur point d'appel.\n\nLA RÈGLE D'OR : pas de test sans hypothèse. Prescrire 15 examens \"pour voir\" augmente surtout le nombre de faux positifs, l'anxiété du patient, et le coût pour la collectivité.\n\nEN PARTICULIER, IL NE FAUT PAS prescrire systématiquement :\n• Sérologies infectieuses multiples sans signe d'appel\n• Bilan immunologique (ANA, FR, etc.) sans signe de maladie auto-immune\n• Marqueurs tumoraux sans contexte",
+  "rationale": "C'est l'application directe de la médecine fondée sur les preuves (EBM) : la valeur prédictive positive d'un test dépend de la probabilité pré-test. Prescrire un test sur une population à faible probabilité = mauvais ratio bénéfice/risque. Cette retenue est aussi une preuve de qualité : un médecin qui prescrit moins et mieux est souvent un meilleur diagnosticien.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

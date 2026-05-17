@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c2-l05-diu-hormonal",
+  "kind": "lesson",
+  "prompt": "Le DIU HORMONAL libère localement, dans l'utérus, un progestatif : le LÉVONORGESTREL (abrégé LNG). C'est donc à la fois une LARC et une contraception progestative — mais avec une diffusion essentiellement LOCALE.\n\nMÉCANISMES :\n• Épaississement intense de la glaire cervicale (effet majeur).\n• Atrophie de l'endomètre.\n• Blocage de l'ovulation inconstant (variable selon la dose).\n\nVARIANTES — durée selon la dose de LNG (cf. MSD) :\n• Doses faibles (ex. LNG 13,5 mg) : durée 3 ans.\n• Doses standards (ex. LNG 19,5 mg) : durée 5 ans.\n• Doses élevées (ex. LNG 52 mg) : durée jusqu'à 8 ans selon les modèles.\n\nEFFICACITÉ : ~0,2 % de grossesses la 1ère année (LARC : typical use = perfect use).\n\nBÉNÉFICES vs DIU CUIVRE — c'est souvent le critère de choix :\n• Diminue beaucoup l'abondance et la durée des règles (parfois jusqu'à l'aménorrhée), à l'inverse du DIU cuivre.\n• Diminue les douleurs de règles.\n• Indication thérapeutique au-delà de la contraception : ménorragies fonctionnelles, endométriose.\n\nINCONVÉNIENTS :\n• Saignements irréguliers / spotting fréquents les 3-6 premiers mois.\n• Effets progestatifs systémiques possibles (faible diffusion, mais existante) : acné, mastodynies, sautes d'humeur — rares.\n\nCONTRE-INDICATIONS communes aux DIU : grossesse, infection génitale haute en cours, cancer génital évolutif, malformation utérine empêchant la pose.",
+  "rationale": "Le 'match' DIU cuivre vs DIU hormonal se joue principalement sur le profil des règles : règles abondantes/douloureuses → DIU hormonal ; volonté de zéro hormone → DIU cuivre. À mémoriser : LNG = lévonorgestrel, progestatif de référence (on le retrouvera dans la contraception d'urgence).",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

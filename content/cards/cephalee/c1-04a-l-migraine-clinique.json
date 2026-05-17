@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c1-l04-migraine-clinique",
+  "kind": "lesson",
+  "prompt": "La MIGRAINE, vraie crise neurologique, a un tableau très reconnaissable.\n\nDOULEUR\n• Souvent UNILATÉRALE (un seul côté de la tête), mais peut être bilatérale\n• PULSATILE : la douleur bat au rythme du cœur, 'comme un marteau'\n• Intensité MODÉRÉE À SÉVÈRE — souvent invalidante\n• Aggravée par l'effort (monter un escalier, se pencher) → le patient veut s'allonger dans le noir\n\nSYMPTÔMES ASSOCIÉS\n• PHOTOPHOBIE (la lumière fait mal)\n• PHONOPHOBIE (le bruit fait mal)\n• NAUSÉES, parfois vomissements\n\nDURÉE\n• 4 à 72 heures sans traitement (chez l'adulte)\n• Donc une 'migraine de 2 h' n'en est probablement pas une\n\nIl peut aussi y avoir des signes neurologiques transitoires AVANT la crise : c'est l'aura (on en parle dans une autre carte). Mais on peut très bien avoir une migraine SANS aura — c'est même la forme la plus fréquente.\n\nImage clinique typique : femme jeune (3 fois plus de femmes que d'hommes), antécédents familiaux, crises stéréotypées qui se ressemblent, déclenchées par stress, règles, sommeil perturbé, vin rouge, etc.",
+  "rationale": "Retiens 4 traits NICE pour la douleur (unilatérale, pulsatile, modérée/sévère, aggravée par l'effort) + 2 traits associés (photo/phonophobie OU nausée/vomissement). Ces critères sont la base des critères ICHD-3 qu'on verra en C2. La latéralité n'est pas obligatoire : 'migraine bilatérale' existe, surtout chez l'enfant.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

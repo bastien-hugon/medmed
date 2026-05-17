@@ -1,0 +1,21 @@
+{
+  "id": "asthenie-c2-s09a-orientation-organique",
+  "kind": "sct",
+  "prompt": "Une femme de 52 ans consulte pour une fatigue depuis 3 mois, sans cause évidente à l'anamnèse. Vous évoquez en priorité une cause organique (par exemple une anémie ou une hypothyroïdie).",
+  "hypothesis": "La fatigue de cette patiente est d'origine organique.",
+  "new_info": "À l'interrogatoire dirigé, elle précise que sa fatigue s'aggrave nettement quand elle fait des efforts et qu'elle se sent mieux après quelques heures de repos.",
+  "expected": "renforce",
+  "rationale": "Le pattern \"aggravée par l'effort, soulagée par le repos\" est l'un des plus rentables en clinique : il oriente fortement vers une cause organique (anémie, hypothyroïdie, insuffisance cardiaque, BPCO…). À l'inverse, une fatigue constante, non soulagée par le repos, avec parfois des bouffées d'énergie, orienterait plutôt vers une cause psychique. Ce nouvel élément renforce donc l'hypothèse organique sans la prouver — il oriente l'enquête biologique vers le pack standard (NFS, ferritine, TSH, glycémie…).",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

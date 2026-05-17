@@ -1,0 +1,18 @@
+{
+  "id": "depression-c1-l02-deux-symptomes-coeur",
+  "kind": "lesson",
+  "prompt": "Une dépression, ce n'est pas une liste à la Prévert. Il y a DEUX symptômes \"cœur\" — les deux clés qui ouvrent le diagnostic. Pour parler d'épisode dépressif, il faut au moins UN des deux.\n\n1. L'HUMEUR TRISTE persistante. Pas \"je n'ai pas le moral aujourd'hui\". Une tristesse qui colle à la peau, du matin au soir, presque tous les jours. Le patient dit souvent : \"je suis vide\", \"je suis dans le brouillard\", \"je n'ai plus de goût\".\n\n2. L'ANHÉDONIE — un mot compliqué pour une chose simple : la perte du plaisir. Plus rien ne fait plaisir. Les choses qu'on aimait avant (manger, sortir, faire l'amour, jouer avec ses enfants, écouter de la musique) deviennent fades, vides, mécaniques.\n\nMétaphore : la vie est un film. La tristesse, c'est regarder un film triste. L'anhédonie, c'est regarder le même film en noir et blanc, sans le son, sans rien ressentir.\n\nSans au moins UN de ces deux symptômes, on ne parle PAS de dépression.",
+  "rationale": "Ce point est crucial : l'anhédonie est sous-diagnostiquée parce que le patient ne s'en plaint pas spontanément (\"je suis triste\" est plus facile à dire que \"plus rien ne me fait plaisir\"). Question-clé à poser : \"Y a-t-il des choses qui vous faisaient plaisir avant et qui ne vous en font plus ?\". Anhédonie = an (sans) + hédonè (plaisir, grec).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

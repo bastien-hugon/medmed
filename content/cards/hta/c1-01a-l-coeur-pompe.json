@@ -1,0 +1,18 @@
+{
+  "id": "hta-c1-l01-coeur-pompe",
+  "kind": "lesson",
+  "prompt": "Le cœur est une pompe musculaire, à peu près de la taille de ton poing.\n\nSon rôle : envoyer du sang dans tout ton corps, en permanence. Sans relâche, ~70 fois par minute, 100 000 fois par jour. Si le cœur s'arrête, le sang n'arrive plus aux organes — et en quelques minutes, le cerveau souffre.\n\nLe sang circule dans des tuyaux (les vaisseaux). Le cœur les remplit en se contractant.",
+  "rationale": "Cette idée toute simple — 'le cœur est une pompe qui envoie le sang dans des tuyaux' — est le point de départ de tout. Tout ce qu'on va apprendre sur l'HTA, c'est de la mécanique des fluides appliquée au corps.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.fedecardio.org/je-m-informe/le-coeur/",
+    "version": "généralités"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c2-l01-risque-cv-global",
+  "kind": "lesson",
+  "prompt": "On a vu en C1 que le risque cardiovasculaire (CV) dépend d'un faisceau de facteurs. La question pratique est : COMMENT le quantifier pour un patient donné ?\n\nOn utilise un OUTIL de calcul du risque CV à 10 ans. Il combine les facteurs du patient pour estimer sa probabilité de faire un infarctus ou un AVC dans les 10 années à venir.\n\nDeux outils dominants :\n\n• QRISK3 (recommandé par NICE au Royaume-Uni)\n  Adapté aux adultes de 25 à 84 ans SANS maladie CV établie.\n  Intègre âge, sexe, ethnie, tabac, PA, diabète, antécédents familiaux, IMC, mais aussi des facteurs souvent oubliés : corticoïdes au long cours, antipsychotiques atypiques, lupus, migraine, maladie mentale sévère, dysfonction érectile, polyarthrite rhumatoïde.\n  → https://www.qrisk.org\n\n• SCORE2 / SCORE2-OP (recommandé par la Société Européenne de Cardiologie — ESC)\n  Adapté aux adultes de 40 à 89 ans. SCORE2-OP pour les ≥70 ans ('OP' = older persons). Calibré sur les populations européennes (zone basse à très haute en risque). En France, on utilise la zone à faible/modéré risque.\n\nLe résultat est un POURCENTAGE — par exemple : 'risque de 15 % d'événement CV majeur à 10 ans'.\n\nCe chiffre détermine ensuite la conduite à tenir (traiter ou non, à quelle intensité). On verra dans la carte suivante comment on classe ce risque en niveaux.",
+  "rationale": "À retenir : on ne traite pas un LDL isolé, on traite un patient avec un risque CV global. C'est le grand changement conceptuel des 20 dernières années. En France, le tableau de bord du médecin généraliste calcule souvent automatiquement le SCORE2. À noter : ces outils SOUS-ESTIMENT le risque dans certaines situations (VIH traité, traitement CV en cours, maladies auto-immunes, schizophrénie) — il faut alors les ajuster à la hausse cliniquement.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

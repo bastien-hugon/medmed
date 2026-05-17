@@ -1,0 +1,25 @@
+{
+  "id": "diabete-t2-c2-q03-depistage",
+  "kind": "qcm-vignette",
+  "prompt": "Quel examen biologique simple est recommandé en première intention pour dépister un diabète de type 2 chez un adulte à risque ?",
+  "choices": [
+    { "id": "a", "text": "Une hyperglycémie provoquée orale (HGPO/OGTT)", "correct": false },
+    { "id": "b", "text": "Une glycémie à jeun en laboratoire", "correct": true },
+    { "id": "c", "text": "Un dosage de l'insulinémie", "correct": false },
+    { "id": "d", "text": "Un dosage du peptide C", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Glycémie à jeun = test de dépistage standard (HAS). Simple, peu coûteux, largement disponible. L'HGPO est plus sensible mais lourde (boire 75 g de glucose puis 2 prises de sang) — réservée à des cas particuliers (grossesse, doute persistant). Insulinémie et peptide C servent au bilan étiologique d'un diabète déjà diagnostiqué (différencier T1/T2/MODY), pas au dépistage de masse.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

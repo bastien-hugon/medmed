@@ -1,0 +1,19 @@
+{
+  "id": "hta-c2-q06-suffixe-iec",
+  "kind": "cloze",
+  "prompt": "Les IEC (Inhibiteurs de l'Enzyme de Conversion) se reconnaissent à leur suffixe en '-___' (ex : énalapril, ramipril). Les ARA2 se reconnaissent au suffixe en '-___' (ex : losartan, valsartan).",
+  "expected": ["pril", "sartan"],
+  "rationale": "Astuce de reconnaissance ultra-rapide. IEC = -pril (énalapril, ramipril, périndopril, lisinopril). ARA2 = -sartan (losartan, valsartan, irbésartan, candésartan, telmisartan). IC dihydropyridines = -dipine (amlodipine, nifédipine). Bêtabloquants = -olol (bisoprolol, aténolol). Repérer ces suffixes permet de classer une ordonnance en quelques secondes.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "anxiete-c2-q02-seuils-gad7",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient remplit le GAD-7 et obtient un score de 12/21. À quelle catégorie de sévérité correspond ce score selon les seuils NICE ?",
+  "choices": [
+    { "id": "a", "text": "Anxiété légère (mild)", "correct": false },
+    { "id": "b", "text": "Anxiété modérée (moderate)", "correct": true },
+    { "id": "c", "text": "Anxiété sévère (severe)", "correct": false },
+    { "id": "d", "text": "Score normal, pas d'anxiété significative", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Seuils GAD-7 à mémoriser : ≥ 5 = légère (mild), ≥ 10 = modérée (moderate), ≥ 15 = sévère (severe). Un score de 12 tombe donc dans la catégorie modérée. Mnémo : '5-10-15' comme une échelle régulière. Implication pratique : au-delà de 10, NICE recommande d'envisager une intervention de step 3 (CBT ou SSRI), pas seulement de l'auto-aide.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

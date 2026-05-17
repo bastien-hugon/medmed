@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c2-l02-niveaux-risque",
+  "kind": "lesson",
+  "prompt": "Une fois calculé le risque CV à 10 ans, on le classe en 4 NIVEAUX (selon l'ESC 2021, repris en France) :\n\n• RISQUE FAIBLE — <2,5 % à 10 ans (SCORE2 chez <50 ans, sinon <5 %).\n  → Pas de traitement médicamenteux d'emblée. RHD seules (= règles hygiéno-diététiques).\n\n• RISQUE MODÉRÉ — 2,5 à <7,5 % (<50 ans) / 5 à <10 % (50-69 ans) / 7,5 à <15 % (≥70 ans).\n  → Discuter le traitement selon le contexte, encourager fortement les RHD.\n\n• RISQUE ÉLEVÉ — 7,5 à <15 % (<50 ans) / 10 à <20 % (50-69 ans) / 15 à <25 % (≥70 ans) ;\n  OU diabète sans atteinte d'organe, OU LDL ≥ 4,9 mmol/L (hypercholestérolémie sévère),\n  OU HTA sévère, OU insuffisance rénale modérée.\n  → Traitement par statine indiqué.\n\n• RISQUE TRÈS ÉLEVÉ — ≥15 % (<50 ans) / ≥20 % (50-69 ans) / ≥25 % (≥70 ans) ;\n  OU maladie CV établie (post-infarctus, post-AVC, AOMI), OU diabète avec complication,\n  OU insuffisance rénale sévère.\n  → Traitement INTENSIF, cibles LDL strictes.\n\nDeux situations 'automatiquement très élevées' à connaître :\n• Tout patient avec une MCV (maladie cardiovasculaire) AVÉRÉE = prévention SECONDAIRE.\n• Tout patient diabétique avec atteinte d'organe ou plusieurs FdR associés.\n\nMémo : plus le risque est élevé, plus la cible LDL est BASSE et plus l'intensité du traitement est HAUTE.",
+  "rationale": "La logique est PROPORTIONNELLE : on individualise l'intensité du traitement au risque réel. Cette gradation explique pourquoi un patient à 8 % de risque peut s'en sortir avec des RHD, alors qu'un patient à 25 % a besoin d'une statine forte d'emblée. NICE simplifie le découpage avec un seuil unique à 10 % (cf. carte prévention primaire). En France/Europe, on suit plutôt l'ESC, plus granulaire.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

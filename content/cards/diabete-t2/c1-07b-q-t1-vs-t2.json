@@ -1,0 +1,25 @@
+{
+  "id": "diabete-t2-c1-q09-t1-vs-t2",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle proposition décrit le MIEUX le diabète de type 2 ?",
+  "choices": [
+    { "id": "a", "text": "Le pancréas ne fabrique plus du tout d'insuline, traitement par insuline à vie", "correct": false },
+    { "id": "b", "text": "Le pancréas fabrique de l'insuline, mais les cellules y répondent mal (insulinorésistance)", "correct": true },
+    { "id": "c", "text": "Maladie qui survient uniquement pendant la grossesse", "correct": false },
+    { "id": "d", "text": "Maladie infectieuse causée par un virus du pancréas", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "T2 = insuline présente mais inefficace (cellules 'sourdes'). Le pancréas compense en surproduisant, puis s'épuise. À l'inverse, T1 = plus du tout d'insuline (destruction auto-immune). Le diabète gestationnel est une 3ème forme, transitoire (option c partiellement vraie mais ne décrit pas le T2). Aucune cause virale n'est établie comme mécanisme principal.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

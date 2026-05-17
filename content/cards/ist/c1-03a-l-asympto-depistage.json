@@ -1,0 +1,18 @@
+{
+  "id": "ist-c1-l03-asympto-depistage",
+  "kind": "lesson",
+  "prompt": "Une donnée à graver : la plupart des IST sont ASYMPTOMATIQUES.\n\nUne personne porteuse de chlamydia, de gonocoque ou de VIH peut se sentir parfaitement bien — aucune douleur, aucune perte, aucune fièvre. Mais l'infection est là, peut se transmettre à d'autres, et peut faire des dégâts à bas bruit (infertilité chez la femme avec chlamydia, par exemple).\n\nConséquence pratique : on ne peut pas se fier aux symptômes. Si on attendait que les gens viennent consulter pour des plaintes, on raterait la majorité des cas.\n\nD'où le DÉPISTAGE : on cherche l'infection chez des gens qui n'ont rien. C'est l'inverse du diagnostic classique (= chercher la cause de symptômes). Le dépistage cible des populations à risque (par exemple : toute femme < 25 ans sexuellement active pour la chlamydia).",
+  "rationale": "Asymptomatique ne veut pas dire bénin. Une chlamydia silencieuse pendant 2 ans peut laisser des trompes obstruées et une infertilité définitive. Cette idée que 'pas de symptôme = pas de problème' est exactement ce que le dépistage cherche à corriger.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

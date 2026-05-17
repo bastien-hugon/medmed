@@ -1,0 +1,25 @@
+{
+  "id": "gyneco-prevention-c2-q01-oestroprogestatifs-ci",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente de 38 ans, fumeuse à 10 cigarettes/jour, vient renouveler sa pilule œstro-progestative. Que faites-vous ?",
+  "choices": [
+    { "id": "a", "text": "Vous renouvelez sans modification, son tabagisme est modéré.", "correct": false },
+    { "id": "b", "text": "Vous renouvelez et conseillez une diminution du tabac, sans urgence.", "correct": false },
+    { "id": "c", "text": "Vous arrêtez la pilule œstro-progestative : l'association tabac + œstrogènes après 35 ans est une contre-indication. Vous proposez une alternative (progestatif seul, DIU…).", "correct": true },
+    { "id": "d", "text": "Vous demandez d'abord un bilan cardiologique, et reconduisez en attendant.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Le tabac et les œstrogènes augmentent tous les deux le risque thrombotique (artériel et veineux). Leur combinaison après 35 ans multiplie franchement le risque d'AVC et d'infarctus. C'est une CONTRE-INDICATION classique aux œstro-progestatifs. Autres contre-indications majeures à retenir : migraine AVEC AURA, antécédent personnel de thrombose veineuse profonde / embolie pulmonaire, antécédent de cancer du sein, HTA mal contrôlée. Dans ces situations, on bascule vers progestatif seul ou DIU.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 224],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

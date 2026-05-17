@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c2-l01-criteres-ichd-migraine-sans-aura",
+  "kind": "lesson",
+  "prompt": "Pour poser officiellement le diagnostic de MIGRAINE SANS AURA, on utilise les critères ICHD-3 (International Classification of Headache Disorders, 3ᵉ édition) — la nomenclature internationale de toutes les céphalées. Bonne nouvelle : c'est très structuré et facile à retenir.\n\nIl faut TOUTES les conditions ci-dessous (A à E) :\n\nA. Au moins 5 CRISES répondant aux critères B-D\n   (1-2 crises ne suffisent pas — il faut la stéréotypie)\n\nB. DURÉE 4 à 72 heures (sans traitement, ou traitées sans succès)\n\nC. La céphalée a au moins 2 des 4 caractéristiques suivantes :\n   1. UNILATÉRALE\n   2. PULSATILE\n   3. Intensité MODÉRÉE à SÉVÈRE\n   4. Aggravée par / fait éviter l'activité physique de routine\n\nD. Pendant la crise, au moins 1 des 2 éléments suivants :\n   1. NAUSÉE et/ou vomissement\n   2. PHOTOPHOBIE ET phonophobie\n\nE. Non mieux expliqué par un autre diagnostic ICHD-3\n\nMnémonique rapide : '5 crises, 4-72 h, 2 sur 4 (UPMA = Unilatéral, Pulsatile, Modéré-à-sévère, Aggravé), 1 sur 2 (Nausée OU PhotoPhono)'.\n\nNB : on parle de migraine PROBABLE quand presque tous les critères sont remplis mais qu'il manque un seul élément.",
+  "rationale": "Ces critères sont l'outil clinique central : ils permettent de diagnostiquer une migraine SANS imagerie ni examen complémentaire. NICE rappelle que l'imagerie n'a aucune place pour 'rassurer' une migraine typique. Connaître ces 5 crités structurés évite le piège de diagnostiquer 'migraine' à toute céphalée vaguement sévère.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

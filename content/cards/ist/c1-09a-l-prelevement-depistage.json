@@ -1,0 +1,18 @@
+{
+  "id": "ist-c1-l09-prelevement-depistage",
+  "kind": "lesson",
+  "prompt": "Pour dépister une IST, on utilise un de ces 3 types de prélèvement, selon le microbe cherché :\n\n• SANG (sérologies) — VIH, syphilis, hépatites B et C. Une simple prise de sang au pli du coude.\n\n• URINES (1er jet) — chlamydia et gonocoque chez l'homme surtout. C'est le tout début du jet d'urine, riche en cellules de l'urètre, qui contient l'éventuel microbe. Ne pas uriner pendant les 1-2 h avant.\n\n• MUQUEUX (écouvillon) — un coton-tige stérile passé sur la muqueuse. Sites possibles : vagin (auto-prélèvement +++), col utérin, urètre, rectum, gorge. Indispensable pour chlamydia/gonocoque chez la femme et pour les sites extragénitaux (anus, gorge) chez les HSH (Hommes ayant des rapports Sexuels avec des Hommes).\n\nLa technique de référence pour chlamydia et gonocoque s'appelle NAAT (Nucleic Acid Amplification Test) — un test qui détecte l'ADN du microbe, beaucoup plus sensible qu'une culture.",
+  "rationale": "Une erreur courante : croire qu'une 'prise de sang pour les IST' suffit. NON — la prise de sang dépiste VIH/syphilis/hépatites, mais pas chlamydia ni gonocoque. Pour ces deux dernières (les plus fréquentes !), il faut un prélèvement urines ou muqueux. C'est pour ça qu'un bilan IST complet combine 2 ou 3 types de prélèvement.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  }
+}

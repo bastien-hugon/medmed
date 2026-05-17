@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c1-l06-attaque-de-panique",
+  "kind": "lesson",
+  "prompt": "L'ATTAQUE DE PANIQUE, c'est l'inverse du TAG dans son rythme : une CRISE BRÈVE, mais INTENSE.\n\nScénario classique : en quelques minutes (souvent < 10 min jusqu'au pic), la personne est submergée par :\n• Un cœur qui s'emballe, des sueurs, des tremblements\n• Une oppression thoracique, l'impression d'étouffer\n• Une sensation de TÊTE VIDE, de vertige, parfois d'être 'à côté' (déréalisation)\n• Des fourmillements aux mains et autour de la bouche\n• UNE PEUR INTENSE : peur de mourir, de devenir fou, de perdre le contrôle\n\nLa crise dure en général 20-30 minutes, puis tout retombe. La personne reste épuisée, parfois honteuse.\n\nEXTRÊMEMENT impressionnant — pour celui qui la vit, pour ses proches, pour les urgentistes qui voient arriver le patient persuadé de faire un infarctus.\n\nQuand les attaques se répètent, et que la personne vit dans la PEUR D'AVOIR UNE NOUVELLE ATTAQUE, on parle de TROUBLE PANIQUE (différent d'une attaque isolée).",
+  "rationale": "Deux pièges classiques : (1) la première attaque amène quasi toujours aux urgences avec suspicion d'infarctus — bilan négatif rassurant ; (2) la 'peur d'avoir peur' (anxiété anticipatoire) est ce qui transforme des attaques isolées en TROUBLE panique chronique avec parfois agoraphobie. Distinguer attaque (événement) vs trouble panique (syndrome chronique avec récurrence + anxiété anticipatoire).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

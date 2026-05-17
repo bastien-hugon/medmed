@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c2-l01-criteres-tag",
+  "kind": "lesson",
+  "prompt": "Pour poser le diagnostic de TROUBLE ANXIEUX GÉNÉRALISÉ (TAG), trois exigences à valider :\n\n1. SOUCIS EXCESSIFS sur de MULTIPLES sujets (pas un seul thème).\n\n2. DURÉE ≥ 6 MOIS — c'est le critère temporel essentiel. Quelques semaines d'inquiétudes intenses dans un contexte de stress aigu (deuil, licenciement) ne suffisent pas pour parler de TAG.\n\n3. AU MOINS 3 SYMPTÔMES associés parmi cette liste : agitation/tension intérieure, fatigabilité, difficultés de concentration, irritabilité, tension musculaire, troubles du sommeil.\n\nEt bien sûr : un RETENTISSEMENT fonctionnel (vie pro, sociale, familiale, sommeil).\n\nNICE insiste : 'Conduct a comprehensive assessment that does not rely solely on the number, severity and duration of symptoms'. Autrement dit, NE PAS se contenter de cocher la liste. Il faut explorer :\n• Antécédents (troubles anxieux antérieurs, dépression)\n• Comorbidités psychiatriques (dépression +++, mésusage de substances)\n• Causes médicales (hyperthyroïdie, anémie, médicaments, caféine)\n• Contexte de vie (deuil, isolement, précarité)",
+  "rationale": "La trilogie 'soucis multiples / ≥ 6 mois / ≥ 3 symptômes' est l'ossature du diagnostic. NICE met en garde contre le diagnostic purement 'cochage de cases' : la dépression coexiste avec un TAG dans ~50% des cas et doit toujours être recherchée. Penser aussi à l'hyperthyroïdie (TSH systématique en bilan), à la caféine, et à un alcoolisme masqué (parfois auto-traitement de l'anxiété).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

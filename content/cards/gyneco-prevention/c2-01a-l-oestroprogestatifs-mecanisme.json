@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c2-l01-oestroprogestatifs-mecanisme",
+  "kind": "lesson",
+  "prompt": "Les ŒSTRO-PROGESTATIFS (combinés) — pilule combinée, patch transdermique, anneau vaginal — contiennent les deux hormones du cycle : un œstrogène (souvent l'éthinylestradiol) et un progestatif de synthèse.\n\nTrois mécanismes simultanés expliquent l'efficacité :\n\n1) BLOCAGE DE L'OVULATION — c'est le mécanisme principal. En maintenant des taux constants d'œstrogène et de progestatif, on 'trompe' le cerveau (hypothalamus + hypophyse) qui arrête d'envoyer les pics hormonaux (FSH, LH) nécessaires à l'ovulation. Pas d'ovulation = pas d'ovule à féconder.\n\n2) ÉPAISSISSEMENT DE LA GLAIRE CERVICALE — la glaire devient hostile aux spermatozoïdes, qui ont du mal à remonter.\n\n3) AMINCISSEMENT DE L'ENDOMÈTRE — la muqueuse utérine devient peu accueillante pour une éventuelle nidation.\n\nIndications principales : femme jeune sans facteur de risque cardiovasculaire, qui souhaite une méthode quotidienne. Bénéfice annexe : régularise les cycles, diminue les douleurs de règles, peut améliorer une acné.\n\nEFFICACITÉ : ~0,3 % de grossesses en perfect use, ~9 % en typical use (la 1ère année).",
+  "rationale": "Comprendre les 3 mécanismes en parallèle aide à expliquer pourquoi l'oubli est risqué : si le blocage d'ovulation 'lâche' à cause d'un oubli, il reste les deux autres mécanismes mais qui sont insuffisants seuls. L'œstrogène est ce qui distingue cette famille des progestatifs seuls — c'est lui qui apporte le bénéfice 'régularisation des cycles' mais aussi le risque thromboembolique principal.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

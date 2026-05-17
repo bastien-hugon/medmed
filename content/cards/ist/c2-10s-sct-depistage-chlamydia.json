@@ -1,0 +1,21 @@
+{
+  "id": "ist-c2-s10-sct-depistage-chlamydia",
+  "kind": "sct",
+  "prompt": "Vous voyez en consultation Léa, 23 ans, en couple stable depuis 2 ans. Vous évaluez l'indication d'un dépistage chlamydia annuel.",
+  "hypothesis": "Indication de dépistage chlamydia chez Léa cette année.",
+  "new_info": "Léa précise qu'elle et son partenaire ont commencé à pratiquer un couple ouvert depuis 3 mois, avec plusieurs nouveaux partenaires chacun.",
+  "expected": "renforce",
+  "rationale": "L'indication de base était déjà solide (femme sexuellement active < 25 ans = dépistage annuel par défaut). La nouvelle information ajoute un facteur de risque majeur (nouveaux partenaires + partenaires multiples côté patient ET côté partenaire principal), ce qui RENFORCE encore l'indication. C'est typiquement le cas où on pourrait même discuter un dépistage plus rapproché (tous les 6 mois) plutôt que strictement annuel, et étendre le bilan à VIH, syphilis, gonocoque (et discuter la PrEP selon le profil). Le SCT (Script Concordance Test) entraîne ce raisonnement bayésien : 'l'info nouvelle augmente / diminue / ne change pas ma probabilité initiale ?'",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ist-c2-l06-vih-depistage-pep-prep",
+  "kind": "lesson",
+  "prompt": "Trois niveaux de gestion du VIH en MG, qu'il faut connaître par leurs sigles :\n\n1) DÉPISTAGE UNIVERSEL — proposer une sérologie VIH au moins une fois dans sa vie à tout adulte 15-70 ans, indépendamment du risque. Modèle 'opt-out' = on l'inclut par défaut dans le bilan ; le patient peut refuser. Lever la honte normalise le test.\n\n2) PEP (Post-Exposure Prophylaxis) = traitement APRÈS une exposition à risque (rapport non protégé avec un partenaire séropositif ou de statut inconnu, AES = accident d'exposition au sang). Trithérapie antirétrovirale pendant 28 jours, à débuter le PLUS TÔT POSSIBLE et IDÉALEMENT < 48 h, au plus tard < 72 h. Accès en URGENCE hospitalière, jamais en différé.\n\n3) PrEP (Pre-Exposure Prophylaxis) = traitement AVANT exposition, en continu ou à la demande, chez des personnes VIH- à haut risque (HSH multipartenaires, partenaire séropositif non virologiquement contrôlé, travailleur·euse du sexe). Comprimé combinant 2 antirétroviraux (ténofovir + emtricitabine). Très efficace si bien pris.\n\nPEP = pompier après l'incendie. PrEP = paratonnerre avant l'orage.",
+  "rationale": "Confusion classique PEP / PrEP — le préfixe le dit : Post (après) vs Pré (avant). Erreur fréquente : adresser un patient en PEP 5 jours après l'exposition — trop tard, fenêtre dépassée. À l'inverse, ne pas penser PrEP chez un HSH qui revient régulièrement avec des IST = occasion ratée. Aujourd'hui, un patient VIH+ sous traitement avec charge virale indétectable depuis ≥ 6 mois NE TRANSMET PAS sexuellement (I=I, données 2016+).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

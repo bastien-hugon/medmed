@@ -1,0 +1,18 @@
+{
+  "id": "depression-c1-l04-critere-temporel",
+  "kind": "lesson",
+  "prompt": "Pour parler d'épisode dépressif caractérisé (EDC), il y a un critère TEMPS — sans lui, on ne fait pas le diagnostic.\n\nLes symptômes doivent être présents :\n• Pendant au moins 2 SEMAINES consécutives\n• PRESQUE TOUS LES JOURS\n• Pendant la PLUS GRANDE PARTIE DE LA JOURNÉE\n\nPourquoi ces critères stricts ?\n\nParce que tout le monde a des coups de mou. Un jour, deux jours, une semaine — ça peut arriver après une mauvaise nouvelle, un manque de sommeil, une grippe. Ce n'est pas une dépression.\n\nLa dépression-maladie, c'est une humeur QUI NE BOUGE PAS. Le patient pourrait gagner au loto le matin, le soir il serait encore dans le même brouillard. C'est ce qui la distingue de la tristesse normale, qui fluctue avec les événements.\n\nEt c'est pour ça qu'on n'enclenche pas tout après une consultation : si quelqu'un est triste depuis 5 jours, on revoit dans 2-3 semaines. Si à ce moment-là c'est toujours là, presque tous les jours, du matin au soir → là on parle de dépression.",
+  "rationale": "Les 3 sous-critères (≥ 2 sem + presque tous les jours + grande partie de la journée) doivent être ALL réunis. Piège fréquent : un patient qui dit \"je suis déprimé depuis 3 mois\" mais qui en réalité a des phases — c'est plus probablement un trouble de l'adaptation ou un trouble anxieux. À l'inverse, ne pas attendre 2 mois \"pour être sûr\" si tableau franc : 2 semaines suffisent.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

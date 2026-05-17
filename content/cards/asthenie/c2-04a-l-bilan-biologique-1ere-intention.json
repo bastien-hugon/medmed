@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c2-l04a-bilan-biologique-1ere-intention",
+  "kind": "lesson",
+  "prompt": "Quand l'anamnèse et l'examen n'ont pas livré un diagnostic clair, un BILAN BIOLOGIQUE DE 1ère INTENTION est raisonnable. Il est volontairement court et standardisé.\n\nLE PACK STANDARD à connaître par cœur :\n\n• NFS (Numération Formule Sanguine) — pour repérer une anémie ou une anomalie des globules blancs / plaquettes.\n\n• FERRITINE — reflet des réserves de fer. Une carence martiale est la cause #1 d'anémie chez la femme en âge de procréer.\n\n• VS et/ou CRP — VS = Vitesse de Sédimentation ; CRP = Protéine C-Réactive. Deux marqueurs d'INFLAMMATION ou d'INFECTION. Une élévation oriente vers une maladie inflammatoire, infectieuse ou tumorale.\n\n• TSH (Thyréo-Stimuline Hormone) — pour dépister une hypothyroïdie (cause sournoise et fréquente).\n\n• GLYCÉMIE à jeun — pour dépister un diabète.\n\n• IONOGRAMME (Na, K, Cl) — sodium, potassium, chlorures. Hypokaliémie iatrogène à ne pas manquer.\n\n• CRÉATININE (fonction rénale) — pour repérer une insuffisance rénale chronique débutante.\n\n• BILAN HÉPATIQUE (transaminases, gamma-GT, phosphatases alcalines) — atteinte hépatique chronique, alcoolisme.\n\nCe bilan, en France, tient sur une seule ordonnance et coûte peu cher. Il dépiste l'essentiel des causes organiques fréquentes.",
+  "rationale": "Réflexe pratique : devant une fatigue sans orientation, ce bilan d'entrée suffit dans la majorité des cas. Ne PAS prescrire d'emblée des examens d'imagerie ou des sérologies (VIH, hépatites, EBV, CMV…) en l'absence de point d'appel clinique : la rentabilité est très faible et on s'expose à des résultats incidents qui inquiètent inutilement.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

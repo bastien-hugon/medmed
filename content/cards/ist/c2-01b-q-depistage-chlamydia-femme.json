@@ -1,0 +1,25 @@
+{
+  "id": "ist-c2-q01-depistage-chlamydia-femme",
+  "kind": "qcm-vignette",
+  "prompt": "Une jeune femme de 22 ans, sans plainte, vient pour un renouvellement de contraception. Quelle recommandation appliquer au dépistage de la chlamydia ?",
+  "choices": [
+    { "id": "a", "text": "Aucun dépistage : elle est asymptomatique", "correct": false },
+    { "id": "b", "text": "Dépistage annuel par NAAT, idéalement par auto-prélèvement vaginal", "correct": true },
+    { "id": "c", "text": "Dépistage uniquement si elle a un nouveau partenaire", "correct": false },
+    { "id": "d", "text": "Sérologie chlamydia sur prise de sang", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Femme sexuellement active < 25 ans = dépistage annuel SYSTÉMATIQUE, indépendamment des plaintes ou du nombre de partenaires. La méthode de référence est le NAAT par auto-prélèvement vaginal (ou 1er jet d'urine en alternative). La sérologie chlamydia n'a pas sa place dans le dépistage de l'infection génitale — elle est utilisée pour des situations rares (LGV, formes invasives).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  }
+}

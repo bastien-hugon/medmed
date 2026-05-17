@@ -1,0 +1,25 @@
+{
+  "id": "gyneco-prevention-c2-q02-tev-signes",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente de 26 ans sous pilule œstro-progestative depuis 2 ans vous appelle : depuis ce matin, son mollet droit est devenu douloureux, chaud, et plus volumineux que le gauche. Conduite immédiate ?",
+  "choices": [
+    { "id": "a", "text": "Repos, surélever la jambe et anti-inflammatoires per os ; revoir dans 48h.", "correct": false },
+    { "id": "b", "text": "Suspecter une thrombose veineuse profonde (TVP) sous œstro-progestatifs : adresser en urgence pour écho-doppler veineux et évaluation. Arrêt de la pilule.", "correct": true },
+    { "id": "c", "text": "Probable claquage musculaire ; conseiller la kinésithérapie.", "correct": false },
+    { "id": "d", "text": "Renouveler la pilule en passant à un progestatif seul, sans bilan.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Mollet douloureux + chaud + augmenté de volume, chez une femme sous œstro-progestatifs, c'est le tableau classique de TVP jusqu'à preuve du contraire. C'est une urgence : risque d'embolie pulmonaire si le caillot migre. L'écho-doppler veineux confirme le diagnostic. Arrêt immédiat de la pilule, et on basculera plus tard vers une contraception sans œstrogène (progestatif seul ou DIU). Ne JAMAIS banaliser un signe d'appel veineux chez une femme sous œstro-progestatifs.",
+  "tags": {
+    "system": ["gynecologie-urologie", "cardiovasculaire"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 226],
+    "cnge_family": ["prevention", "urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

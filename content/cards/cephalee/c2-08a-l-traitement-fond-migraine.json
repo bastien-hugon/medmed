@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c2-l08-traitement-fond-migraine",
+  "kind": "lesson",
+  "prompt": "Quand un patient a des crises trop FRÉQUENTES (≥ 4 jours par mois en pratique) ou trop INVALIDANTES malgré un bon traitement de crise, on introduit un TRAITEMENT DE FOND (prophylaxie). But : réduire la fréquence et l'intensité des crises, pas les supprimer toutes.\n\nOPTIONS DE 1ʳᵉ INTENTION (NICE CG150)\nChoisir parmi :\n• PROPRANOLOL (bêtabloquant)\n   - Surveiller : asthme (CI), bradycardie, hypotension. Prudence en cas de dépression (risque de gestes auto-agressifs).\n• TOPIRAMATE (antiépileptique)\n   - Effets secondaires : paresthésies, troubles cognitifs, perte de poids, calculs rénaux.\n   - CI absolue : femme en âge de procréer sans programme de prévention de grossesse (tératogène).\n• AMITRIPTYLINE (antidépresseur tricyclique, à faible dose)\n   - Effets secondaires : somnolence, sécheresse buccale, prise de poids, troubles cardiaques (rares).\n\nÉlections selon profil :\n• Femme en âge de procréer : éviter topiramate → propranolol ou amitriptyline\n• Insomnie associée : amitriptyline le soir\n• HTA associée : propranolol (double bénéfice)\n• Asthme : éviter propranolol → topiramate ou amitriptyline\n\nNON RECOMMANDÉ\n• Gabapentine : PAS d'efficacité prouvée sur la migraine → ne pas prescrire\n\nAUTRES OPTIONS\n• ACUPUNCTURE : jusqu'à 10 séances sur 5-8 semaines si échec des 1ʳᵉ lignes\n• RIBOFLAVINE (vitamine B2) 400 mg/jour : peut réduire fréquence/intensité (option simple, bien tolérée)\n• Anti-CGRP (érenumab, fremanezumab, galcanezumab, eptinezumab, atogépant, rimégépant) : après échec d'au moins 3 traitements de fond, ≥ 4 jours de migraine/mois\n• TOXINE BOTULIQUE A : migraine chronique réfractaire après ≥ 3 prophylactiques + abus médicamenteux pris en charge\n\nSUIVI\n• RÉÉVALUER à 3-6 MOIS : si réduction nette des crises → continuer, sinon switcher\n• Pour les anti-CGRP : arrêter si réduction < 50 % (épisodique) ou < 30 % (chronique) à 12 semaines\n\nMENSTRUATIONS\n• Migraine cataméniale : frovatriptan 2,5 mg ×2/j ou zolmitriptan 2,5 mg ×2-3/j sur les jours à risque\n\nCONTRACEPTION\n• Migraine AVEC AURA + contraceptif œstroprogestatif = risque d'AVC accru → contraception œstroprogestative À ÉVITER (préférer progestatif seul ou DIU).",
+  "rationale": "Le choix de la 1ʳᵉ ligne se fait sur le terrain, pas par efficacité supérieure (les 3 ont une efficacité comparable). Le délai de jugement à 3-6 mois est fondamental : un traitement de fond ne se juge JAMAIS sur 2 semaines. La règle 'aura + œstroprogestatifs = stop' est un des messages de sécurité les plus importants à retenir.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

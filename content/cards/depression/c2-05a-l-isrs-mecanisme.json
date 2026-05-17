@@ -1,0 +1,18 @@
+{
+  "id": "depression-c2-l05-isrs-mecanisme",
+  "kind": "lesson",
+  "prompt": "Quand on choisit un antidépresseur, la 1ère ligne aujourd'hui = les ISRS (Inhibiteurs Sélectifs de la Recapture de la Sérotonine).\n\nLe mécanisme, en image :\n\nLa sérotonine est un MESSAGER CHIMIQUE du cerveau. Elle circule entre les neurones — un neurone la \"crache\" dans l'espace entre les deux (la synapse), et le suivant la capte. C'est comme ça que l'information passe.\n\nDans la dépression, on observe un déficit fonctionnel de cette transmission sérotoninergique.\n\nNormalement, après avoir transmis le message, la sérotonine est RÉASPIRÉE par le neurone qui l'a crachée — c'est la \"recapture\" (un système de recyclage). Les ISRS BLOQUENT cette recapture. Conséquence : la sérotonine reste plus longtemps dans la synapse, et le message passe mieux.\n\n\"Sélectifs\" = ils agissent surtout sur la sérotonine, et peu sur les autres neurotransmetteurs → moins d'effets secondaires que les vieux antidépresseurs (les TCA — Tricycliques).\n\nExemples d'ISRS courants en France :\n• Fluoxétine (Prozac®)\n• Sertraline (Zoloft®)\n• Paroxétine (Deroxat®)\n• Citalopram, escitalopram (Seropram®, Seroplex®)\n\nPourquoi NICE les recommande en 1ère ligne ?\n• Bonne tolérance\n• Bon profil de sécurité (peu de risque de toxicité en cas d'overdose, contrairement aux TCA)\n• Efficacité prouvée\n\nIls ne créent pas de dépendance au sens des benzodiazépines (mais on doit arrêter PROGRESSIVEMENT — voir carte sevrage).",
+  "rationale": "Acronymes : ISRS (Inhibiteurs Sélectifs de la Recapture de la Sérotonine ; SSRI en anglais), TCA (Tricycliques). Le \"déficit sérotoninergique\" est une simplification — la dépression est multifactorielle (sérotonine + noradrénaline + dopamine + plasticité neuronale + inflammation…) mais cette image suffit en 1ère approche. Important : les ISRS ne créent pas d'addiction, mais leur arrêt brutal provoque un syndrome de sevrage (≠ dépendance).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

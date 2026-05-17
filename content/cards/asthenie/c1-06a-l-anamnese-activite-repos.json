@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c1-l06a-anamnese-activite-repos",
+  "kind": "lesson",
+  "prompt": "Devant une fatigue, l'ANAMNÈSE (l'interrogatoire) fait 80 % du diagnostic. Bien plus que les prises de sang.\n\nUne question simple est particulièrement rentable : que se passe-t-il quand vous bougez, et quand vous vous reposez ?\n\nRÈGLE PRATIQUE :\n\n• FATIGUE AGGRAVÉE PAR L'EFFORT, SOULAGÉE PAR LE REPOS → oriente vers une cause ORGANIQUE (anémie, hypothyroïdie, insuffisance cardiaque, BPCO…). Le corps a un problème mécanique, donc l'activité l'use et le repos le recharge.\n\n• FATIGUE CONSTANTE, MÊME AU REPOS, AVEC PARFOIS DES BOUFFÉES D'ÉNERGIE → oriente vers une cause PSYCHIQUE (dépression typique). La batterie semble vide en permanence, mais il y a parfois des moments où elle remonte sans raison apparente.\n\nAutres pistes à creuser :\n• Début (brutal ? progressif ?)\n• Pattern : matin / soir, semaine / week-end, lien avec le travail\n• Sommeil (durée, qualité, ronflements, somnolence en journée)\n• Médicaments en cours (cause majeure)\n• Humeur, plaisir, idées noires\n• Perte de poids ? Fièvre ? Sueurs nocturnes ?",
+  "rationale": "Le rapport activité/repos est un raccourci puissant. Bien sûr il y a des exceptions (le déprimé qui marche pour se changer les idées, l'anémique qui se sent un peu mieux quand son cœur s'adapte), mais comme heuristique d'orientation, c'est très rentable et coûte zéro examen complémentaire.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

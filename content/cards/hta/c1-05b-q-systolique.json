@@ -1,0 +1,25 @@
+{
+  "id": "hta-c1-q05-systolique",
+  "kind": "qcm-vignette",
+  "prompt": "Sur une PA de 120/80, le chiffre du HAUT (120) correspond à quelle pression ?",
+  "choices": [
+    { "id": "a", "text": "La pression systolique (cœur qui se contracte)", "correct": true },
+    { "id": "b", "text": "La pression diastolique (cœur qui se relâche)", "correct": false },
+    { "id": "c", "text": "La pression moyenne", "correct": false },
+    { "id": "d", "text": "La pression veineuse", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Le chiffre du haut = systolique = quand le cœur EXPULSE le sang (pression max). Le chiffre du bas = diastolique = quand le cœur SE REMPLIT (pression min). Astuce : 'Système' qui pousse en haut.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

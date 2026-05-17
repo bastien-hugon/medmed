@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c2-l04-diu-cuivre",
+  "kind": "lesson",
+  "prompt": "DIU = Dispositif Intra-Utérin (parfois appelé 'stérilet' — terme à éviter car trompeur, il ne stérilise rien). C'est un petit dispositif en forme de T, posé dans la cavité utérine par un médecin.\n\nLE DIU AU CUIVRE est ENTIÈREMENT NON HORMONAL. Le cuivre relâché localement crée plusieurs effets :\n• Toxicité directe sur les spermatozoïdes (qui n'arrivent plus à remonter / féconder).\n• Réaction inflammatoire stérile dans l'endomètre, hostile aux gamètes et à une éventuelle nidation.\n\nDURÉE : 5 à 10 ans selon les modèles. Très long-terme.\n\nEFFICACITÉ : ~0,6 % de grossesses la 1ère année, en perfect ET typical use (rien à 'faire' au quotidien → LARC).\n\nINDICATIONS principales :\n• Femme qui veut zéro hormone.\n• Contre-indication aux œstrogènes ET souhait de ne pas prendre de progestatif.\n• Excellente option chez la nullipare également (les anciennes restrictions ne tiennent plus).\n• Aussi utilisable comme CONTRACEPTION D'URGENCE si posé dans les 5 jours après un rapport non protégé (méthode d'urgence la plus efficace).\n\nEFFETS SECONDAIRES typiques :\n• RÈGLES PLUS ABONDANTES et plus longues (élément majeur à annoncer).\n• Règles plus douloureuses chez certaines.\n• Risque rare : expulsion, perforation à la pose, augmentation transitoire du risque d'infection génitale haute dans les semaines suivant la pose.",
+  "rationale": "Le DIU cuivre est la seule contraception très efficace ET sans hormone. Argument fort pour les patientes qui ne veulent pas d'effets hormonaux. Le contre-argument classique = règles plus abondantes — il faut le dire clairement avant la pose pour éviter une déception. Pour une patiente avec règles déjà très abondantes/douloureuses, on penchera plutôt vers le DIU hormonal.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

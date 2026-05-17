@@ -1,0 +1,19 @@
+{
+  "id": "depression-c1-q04-duree-minimum",
+  "kind": "cloze",
+  "prompt": "Pour parler d'épisode dépressif caractérisé, les symptômes doivent être présents pendant au moins ___ semaines, presque tous les jours, la plus grande partie de la journée.",
+  "expected": ["2"],
+  "rationale": "Le seuil de 2 semaines vient du DSM. Avant 2 semaines, on parle plutôt de réaction transitoire (deuil, trouble de l'adaptation). Ce n'est pas un seuil arbitraire : la majorité des tristesses réactionnelles se résolvent en moins de 2 semaines. Au-delà, le risque de chronicisation augmente.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

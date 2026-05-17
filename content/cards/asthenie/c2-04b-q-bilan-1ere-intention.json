@@ -1,0 +1,25 @@
+{
+  "id": "asthenie-c2-q04b-bilan-1ere-intention",
+  "kind": "qcm-vignette",
+  "prompt": "Devant une fatigue prolongée sans orientation clinique évidente, quel bilan biologique de 1ère intention prescrivez-vous ?",
+  "choices": [
+    { "id": "a", "text": "NFS, ferritine, VS ou CRP, TSH, glycémie à jeun, ionogramme, créatinine, bilan hépatique.", "correct": true },
+    { "id": "b", "text": "Sérologies EBV, CMV, VIH, hépatites B et C, Lyme, toxoplasmose, parvovirus B19.", "correct": false },
+    { "id": "c", "text": "Scanner thoraco-abdomino-pelvien d'emblée à la recherche d'un cancer occulte.", "correct": false },
+    { "id": "d", "text": "Aucun bilan : la fatigue isolée ne nécessite jamais d'examen complémentaire.", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Le pack standard (réponse a) dépiste les grandes causes organiques fréquentes : anémie, carence martiale, inflammation, hypothyroïdie, diabète, troubles ioniques iatrogènes, atteinte rénale ou hépatique. Les sérologies multiples (b) sont peu rentables sans point d'appel et exposent à des faux positifs. L'imagerie systématique (c) n'a pas sa place sans signe d'orientation. Une absence totale de bilan (d) ferait passer à côté de causes facilement curables.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

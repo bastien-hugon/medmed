@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c1-l01-cholesterol",
+  "kind": "lesson",
+  "prompt": "Le CHOLESTÉROL est une graisse (un lipide). On en entend beaucoup de mal, mais en réalité, ton corps en a besoin pour vivre.\n\nÀ quoi il sert ?\n• À fabriquer la membrane de chacune de tes cellules (un peu comme le ciment d'un mur).\n• À fabriquer des hormones (testostérone, œstrogènes, cortisol).\n• À fabriquer la vitamine D et les sels biliaires (pour digérer les graisses).\n\nD'où vient-il ?\n• Surtout de ton foie, qui en fabrique ~70 %.\n• Le reste vient de l'alimentation (œufs, viande, fromage, etc.).\n\nLe cholestérol ne se dissout pas dans l'eau, donc il ne peut pas voyager 'tout seul' dans le sang (qui est essentiellement de l'eau). Il a besoin d'un transporteur — une sorte de camion — pour circuler. C'est l'idée à retenir, on l'utilisera dans la carte suivante.",
+  "rationale": "Le cholestérol n'est PAS un poison à éradiquer. C'est un nutriment indispensable. Le problème, c'est quand il y en a trop dans le sang, et surtout sous une forme particulière (LDL, qu'on verra ensuite). Cette nuance est cruciale : un patient qui croit que 'cholestérol = mal' va paniquer pour rien quand on lui parle de cibles. Le vrai sujet, c'est l'équilibre entre 'bon' et 'mauvais' transporteur.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c2-l09-cephalee-abus-medicamenteux",
+  "kind": "lesson",
+  "prompt": "La CÉPHALÉE PAR ABUS MÉDICAMENTEUX (CAM, en anglais 'medication overuse headache' / MOH) est un piège iatrogène majeur : à force de prendre des antalgiques pour traiter ses crises, le patient finit par s'auto-entretenir une céphalée chronique quotidienne.\n\nQUAND L'ÉVOQUER\nChez un patient avec céphalée pré-existante (migraine, tension), céphalée présente ≥ 15 jours/mois, dans le contexte d'une CONSOMMATION MÉDICAMENTEUSE EXCESSIVE pendant > 3 mois.\n\nSEUILS À RETENIR (NICE / ICHD-3)\n• PARACÉTAMOL, ASPIRINE, AINS (seuls ou en combinaison) : ≥ 15 JOURS / MOIS\n• TRIPTANS, OPIOÏDES, ERGOTS, ANTALGIQUES COMBINÉS (= associations type paracétamol + codéine + caféine) : ≥ 10 JOURS / MOIS\n\nMnémo : 15 / 10 (simples / spécifiques ou combinés)\n\nMÉCANISME\nLa prise répétée déclenche une sensibilisation centrale et une dysrégulation des voies de la douleur. Paradoxalement, le médicament censé soulager devient lui-même le générateur de la céphalée.\n\nPRISE EN CHARGE\n1. SEVRAGE BRUTAL du médicament en cause, pendant ≥ 1 MOIS (PAS de sevrage progressif)\n2. PRÉVENIR le patient : la céphalée va PIRE pendant quelques jours à 1-2 semaines, puis amélioration\n3. Considérer un traitement PROPHYLACTIQUE concomitant pour la céphalée primaire sous-jacente\n4. NE PAS hospitaliser systématiquement\n5. RÉÉVALUER à 4-8 SEMAINES après le début du sevrage\n6. Adresser un spécialiste si :\n   • Abus d'opioïdes forts\n   • Comorbidités psychiatriques sévères\n   • Échecs répétés de sevrage ambulatoire\n\nPRÉVENTION\nDès qu'un patient migraineux passe à 2-3 prises de triptan ou AINS par semaine, en parler : tenir un agenda des céphalées (8 semaines minimum) et discuter d'un traitement de fond.",
+  "rationale": "La CAM est sous-diagnostiquée — beaucoup de patients étiquetés 'migraine chronique' sont en réalité en CAM, et leur prise en charge passe par le sevrage AVANT d'ajouter un nouveau médicament. Le sevrage BRUT (vs progressif) peut surprendre : c'est validé NICE. L'autre piège est de ne pas reconnaître les antalgiques 'banals' (paracétamol-caféine en pharmacie) comme une cause possible.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "cam"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "diabete-t2-c1-q07-seuil-hba1c",
+  "kind": "cloze",
+  "prompt": "Une HbA1c ≥ ___ % suffit (après confirmation) à diagnostiquer un diabète.",
+  "expected": ["6,5"],
+  "rationale": "6,5 % : seuil international (WHO/ADA) pour l'HbA1c. C'est l'un des trois critères diagnostiques, indépendant de la glycémie à jeun. Sous 6,5 mais ≥ 5,7 → prédiabète. Astuce : entre 6,5 et 7 %, on est juste au-dessus du seuil — chez beaucoup de patients, des règles hygiéno-diététiques suffisent à repasser sous la barre.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

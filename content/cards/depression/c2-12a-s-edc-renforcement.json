@@ -1,0 +1,21 @@
+{
+  "id": "depression-c2-s12-edc-renforcement",
+  "kind": "sct",
+  "prompt": "Vous évaluez M. Bernard, 52 ans, en consultation. Il décrit une humeur basse et une anhédonie depuis 3 semaines, presque tous les jours, avec retentissement professionnel (en arrêt de travail). Vous évoquez un épisode dépressif caractérisé.",
+  "hypothesis": "Diagnostic d'épisode dépressif caractérisé (EDC).",
+  "new_info": "En complétant l'interrogatoire, M. Bernard rapporte également des troubles du sommeil avec réveils précoces, une perte de poids de 4 kg en 3 semaines sans régime, une fatigue intense l'empêchant de faire ses tâches habituelles, et un sentiment de dévalorisation (\"je suis un poids pour ma famille\").",
+  "expected": "renforce",
+  "rationale": "Au tableau initial (humeur triste + anhédonie + durée ≥ 2 sem + retentissement) viennent s'ajouter 4 symptômes du registre EDC : insomnie (réveil précoce typique), perte d'appétit/poids, fatigue, dévalorisation. On dépasse largement le seuil 5/9 du DSM, avec un des 2 symptômes \"cœur\" présent. Le diagnostic d'EDC est conforté — l'hypothèse est RENFORCÉE. À noter : il faudra aussi explorer activement les idées suicidaires (dévalorisation = facteur de risque).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

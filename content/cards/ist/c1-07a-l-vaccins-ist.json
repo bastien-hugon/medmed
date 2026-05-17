@@ -1,0 +1,18 @@
+{
+  "id": "ist-c1-l07-vaccins-ist",
+  "kind": "lesson",
+  "prompt": "Bonne nouvelle : 3 IST peuvent être prévenues par un vaccin.\n\n• HPV (Human Papillomavirus) — vaccin recommandé aux filles ET aux garçons, idéalement vers 11-14 ans (avant les premiers rapports). Protège contre les types qui causent verrues génitales et cancers (col, anus, gorge).\n\n• Hépatite B (HBV) — vaccin obligatoire chez le nourrisson en France depuis 2018. Très efficace, immunité quasi à vie après schéma complet.\n\n• Hépatite A (HAV) — vaccin recommandé pour certains groupes à risque (HSH, voyageurs en zone endémique, certaines hépatopathies chroniques).\n\nPour les autres IST (chlamydia, gonocoque, syphilis, VIH, herpès), AUCUN vaccin n'existe à ce jour.\n\nÀ retenir : 'HBV, HPV, HAV — les 3 vaccins IST. Tout ce qui commence par H... sauf HSV et HIV.'",
+  "rationale": "La vaccination est une intervention populationnelle puissante : plus la couverture vaccinale HPV est haute, moins la circulation du virus est forte, moins de cancers du col. La France a longtemps eu une couverture HPV faible (~30%), en progression depuis la campagne en milieu scolaire de 5ème (2023).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

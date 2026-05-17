@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c1-l05-cephalee-de-tension",
+  "kind": "lesson",
+  "prompt": "La CÉPHALÉE DE TENSION est la céphalée la plus banale et la plus fréquente. C'est le 'mal de tête de fin de journée' que presque tout le monde a déjà eu.\n\nDOULEUR\n• BILATÉRALE — des deux côtés, souvent décrite comme un 'casque' ou un 'bandeau qui serre'\n• Qualité PRESSIVE / SERRANTE, NON pulsatile (ça ne bat pas)\n• Intensité LÉGÈRE À MODÉRÉE — pas invalidante\n• PAS aggravée par l'effort physique de routine (le patient peut continuer à travailler, à marcher)\n\nSYMPTÔMES ASSOCIÉS\n• Aucun, ou au pire une légère gêne à la lumière OU au bruit (mais jamais les deux ensemble dans la définition stricte)\n• PAS de nausée, PAS de vomissement\n\nDURÉE\n• 30 minutes à plusieurs jours, parfois 'continue de fond'\n\nDeux formes :\n• ÉPISODIQUE : < 15 jours par mois\n• CHRONIQUE : ≥ 15 jours par mois pendant > 3 mois (souvent associée à l'anxiété, à un trouble du sommeil, à un abus médicamenteux)\n\nFacteurs déclenchants typiques : stress, fatigue, mauvaise posture (écran, voiture), bruxisme. C'est la céphalée 'sociétale' moderne par excellence.",
+  "rationale": "L'opposition à la migraine est mnémotechnique : tension = Bilatérale, Banale, Bandeau qui serre, pas d'effet sur l'effort, pas de nausée. Migraine = Hémicrânie, pulsatile, sévère, photo/phono/nausée. Si tu coches les critères de migraine, ce n'est plus une céphalée de tension.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

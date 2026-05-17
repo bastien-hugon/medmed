@@ -1,0 +1,41 @@
+{
+  "id": "depression-c2-q04-pec-more-severe",
+  "kind": "qcm-vignette",
+  "prompt": "M. Dubois, 45 ans, consulte pour une humeur triste, une anhédonie majeure et un retentissement professionnel (en arrêt depuis 3 sem). PHQ-9 à 19. Pas d'idée suicidaire active. Que proposez-vous en 1ère ligne, selon NICE 2022 ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Surveillance active seule pendant 4 semaines, sans aucun traitement",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Au choix avec le patient : combinaison TCC + antidépresseur, OU TCC seule, OU antidépresseur seul",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Hospitalisation immédiate en psychiatrie",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Millepertuis (St John's Wort) en automédication",
+      "correct": false
+    }
+  ],
+  "expected": ["b"],
+  "rationale": "PHQ-9 à 19 = more severe (≥ 16). NICE 2022 propose 3 options équivalentes en 1ère ligne, à choisir avec le patient : combinaison TCC + AD, TCC seule, ou AD seul. Le millepertuis est explicitement DÉCONSEILLÉ par NICE (interactions médicamenteuses, dosage variable). L'hospitalisation n'est indiquée que si risque immédiat important. La surveillance seule n'est pas une option pour un more severe avec retentissement majeur.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

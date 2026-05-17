@@ -1,0 +1,18 @@
+{
+  "id": "ist-c1-l08-fenetre-sero",
+  "kind": "lesson",
+  "prompt": "Quand on fait une prise de sang pour chercher une IST (VIH, syphilis, hépatites), on ne cherche pas le microbe directement — on cherche des ANTICORPS, c'est-à-dire la trace de réaction du système immunitaire.\n\nProblème : les anticorps mettent du temps à apparaître après l'infection. Pendant ce délai, l'infection est là mais la prise de sang sort négative. Ce délai s'appelle la FENÊTRE SÉROLOGIQUE.\n\nExemples (ordres de grandeur) :\n• VIH (test combiné Ag/Ac 4ème génération) : ~6 semaines après l'exposition pour exclure raisonnablement.\n• Syphilis : ~3-6 semaines.\n• Hépatite C : ~3 mois pour les anticorps.\n\nConséquence pratique : si une personne fait une exposition à risque mardi et vient se faire dépister jeudi, le test peut être négatif alors qu'elle est infectée. Il faut RECONTRÔLER après la fenêtre.\n\nAttention : les tests PAR ANTIGÈNE/ADN (NAAT chlamydia, charge virale VIH) ont une fenêtre beaucoup plus courte, car ils détectent directement le microbe.",
+  "rationale": "Cette notion explique pourquoi on dit 'recontrôler à 6 semaines / 3 mois'. Elle évite l'erreur classique : 'mon test était négatif il y a 3 jours, je suis tranquille' — non, si l'exposition est récente, le test peut faussement rassurer. C'est aussi pourquoi on fait souvent 2 sérologies à distance pour conclure définitivement.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

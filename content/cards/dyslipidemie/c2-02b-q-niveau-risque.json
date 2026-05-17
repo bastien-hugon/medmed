@@ -1,0 +1,25 @@
+{
+  "id": "dyslipidemie-c2-q02-niveau-risque",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient de 62 ans a déjà fait un infarctus du myocarde il y a 2 ans. Sans même calculer son SCORE2, dans quelle catégorie de risque CV le classez-vous ?",
+  "choices": [
+    { "id": "a", "text": "Risque faible.", "correct": false },
+    { "id": "b", "text": "Risque modéré.", "correct": false },
+    { "id": "c", "text": "Risque élevé.", "correct": false },
+    { "id": "d", "text": "Risque très élevé (prévention secondaire).", "correct": true }
+  ],
+  "expected": ["d"],
+  "rationale": "Tout patient avec une maladie cardiovasculaire AVÉRÉE (infarctus, AVC, AOMI, revascularisation) est par définition en PRÉVENTION SECONDAIRE et classé d'emblée à RISQUE TRÈS ÉLEVÉ — quel que soit son score calculé. Inutile de re-calculer le SCORE2 : la décision thérapeutique (statine haute intensité, cible LDL stricte) est automatique. Réflexe-clé : maladie CV connue = risque très élevé = traiter fort.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

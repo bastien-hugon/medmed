@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c2-q01b-criteres-migraine-nombre",
+  "kind": "qcm-vignette",
+  "prompt": "Selon les critères ICHD-3, combien de crises au minimum sont nécessaires pour poser le diagnostic de migraine sans aura ?",
+  "choices": [
+    { "id": "a", "text": "1 crise typique suffit", "correct": false },
+    { "id": "b", "text": "2 crises", "correct": false },
+    { "id": "c", "text": "5 crises", "correct": true },
+    { "id": "d", "text": "10 crises sur 1 an", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "ICHD-3 exige AU MOINS 5 crises répondant aux critères de durée (4-72 h), de qualité (≥ 2 sur 4 : unilatéral, pulsatile, modéré/sévère, aggravé par l'effort) et des symptômes associés (≥ 1 sur 2 : nausée/vomi OU photophobie+phonophobie). C'est cette répétition qui distingue la 'maladie migraineuse' d'une céphalée isolée.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

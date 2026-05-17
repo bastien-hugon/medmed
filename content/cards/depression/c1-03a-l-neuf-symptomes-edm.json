@@ -1,0 +1,18 @@
+{
+  "id": "depression-c1-l03-neuf-symptomes-edm",
+  "kind": "lesson",
+  "prompt": "L'épisode dépressif caractérisé (EDC), c'est une liste précise de 9 symptômes. Pour faire le diagnostic, il faut au moins 5 sur 9, dont au moins un des deux \"cœur\".\n\nLES 2 SYMPTÔMES CŒUR (au moins UN obligatoire) :\n1. Humeur triste persistante\n2. Anhédonie (perte du plaisir)\n\nLES 7 AUTRES SYMPTÔMES :\n3. Trouble du SOMMEIL (insomnie ou hypersomnie)\n4. Trouble de l'APPÉTIT ou du poids (perte ou gain)\n5. Fatigue / perte d'ÉNERGIE — \"même les petites choses pèsent une tonne\"\n6. Trouble de la CONCENTRATION — \"je relis 3 fois le même paragraphe\"\n7. Agitation ou ralentissement PSYCHOMOTEUR (visible de l'extérieur)\n8. Sentiment de CULPABILITÉ excessive ou de dévalorisation — \"je ne vaux rien\", \"c'est de ma faute\"\n9. Idées de MORT ou de suicide récurrentes\n\nMoyen mnémo (en français) : SAFE-CCAM\nSommeil, Appétit, Fatigue, Énergie — Concentration, Culpabilité, Agitation/ralentissement, Mort.\n\nPour parler d'EDC : 5 symptômes sur 9, presque tous les jours, pendant au moins 2 semaines.",
+  "rationale": "C'est la grille DSM-5 classique. À retenir : 5/9 + ≥ 1 cœur + 2 semaines + retentissement. En pratique, en MG, on n'a pas besoin de cocher comme un robot — on écoute le patient et on vérifie. Mais la liste sert d'aide-mémoire pour ne rien oublier (typiquement la concentration ou le ralentissement psychomoteur).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

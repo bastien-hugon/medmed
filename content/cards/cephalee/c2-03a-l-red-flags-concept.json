@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c2-l03-red-flags-concept",
+  "kind": "lesson",
+  "prompt": "Devant TOUTE céphalée, le généraliste a un seul vrai job initial : décider 'primaire bénigne' OU 'secondaire dangereuse'. C'est le rôle des DRAPEAUX ROUGES (red flags).\n\nUn drapeau rouge, c'est un signal clinique qui doit te faire abandonner l'hypothèse 'migraine/tension banale' et déclencher une démarche d'urgence (imagerie, biologie, hospitalisation, avis spécialisé).\n\nLa liste à connaître par cœur (NICE CG150) :\n\n1. CÉPHALÉE BRUTALE 'EN COUP DE TONNERRE' (intensité maximale en < 5 min) → évoque hémorragie sous-arachnoïdienne (HSA)\n2. CÉPHALÉE + FIÈVRE (surtout avec raideur de nuque ou signes méningés) → méningite, encéphalite\n3. DÉFICIT NEUROLOGIQUE NOUVEAU et persistant (paralysie, trouble du langage non transitoire...) → AVC, masse intracrânienne\n4. TROUBLE DE LA CONSCIENCE ou cognition / personnalité altérée\n5. CÉPHALÉE NOUVELLE chez un patient > 50 ans → toujours penser Horton (artérite à cellules géantes), tumeur\n6. CÉPHALÉE déclenchée par TOUX, VALSALVA, EFFORT → masse intracrânienne, malformation\n7. CÉPHALÉE ORTHOSTATIQUE (apparaît debout, disparaît couché) → hypotension du LCR\n8. TRAUMATISME crânien récent (< 3 mois)\n9. CHANGEMENT MAJEUR des caractéristiques d'une céphalée connue ('ma migraine d'habitude... mais cette fois c'est différent')\n10. IMMUNODÉPRESSION (VIH, traitement immunosuppresseur, cancer)\n11. Antécédent de CANCER susceptible de métastaser au cerveau\n12. VOMISSEMENTS sans cause évidente, persistants\n\nMnémonique anglo-saxonne : SNNOOP10 (Systemic symptoms, Neurologic symptoms, Onset sudden, Older >50, Pattern change, Positional, Precipitated by Valsalva, Papilloedema, Pregnancy, Painful eye, Posttraumatic).",
+  "rationale": "Ces signaux ne posent PAS le diagnostic — ils OUVRENT la porte aux examens complémentaires. Aucun drapeau rouge = imagerie inutile (rappel NICE : pas de scanner pour rassurer une migraine ou une céphalée de tension typique). Un seul drapeau rouge = exploration immédiate.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

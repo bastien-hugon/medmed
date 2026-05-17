@@ -1,0 +1,25 @@
+{
+  "id": "hta-c2-q10-hta-resistante-def",
+  "kind": "qcm-vignette",
+  "prompt": "Comment définit-on une HTA résistante selon la HAS ?",
+  "choices": [
+    {"id": "a", "text": "Une HTA qui réapparaît à l'arrêt du traitement", "correct": false},
+    {"id": "b", "text": "Une PA non contrôlée malgré les RHD et une trithérapie incluant un diurétique thiazidique à dose optimale", "correct": true},
+    {"id": "c", "text": "Une PA > 180/110 mmHg sans atteinte d'organe", "correct": false},
+    {"id": "d", "text": "Une HTA présente uniquement la nuit", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "HTA résistante = échec malgré RHD + trithérapie optimale, dont un diurétique thiazidique. Avant d'étiqueter résistante, vérifier : observance, apport sodé, facteurs aggravants (AINS, alcool, SAHOS…), HTA secondaire. Puis 4e médicament : SPIRONOLACTONE 12,5-50 mg/j (sauf DFG < 30 → bêtabloquant).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

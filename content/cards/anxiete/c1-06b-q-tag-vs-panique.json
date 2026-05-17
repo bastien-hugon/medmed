@@ -1,0 +1,25 @@
+{
+  "id": "anxiete-c1-q06-tag-vs-panique",
+  "kind": "qcm-vignette",
+  "prompt": "M. T., 42 ans, raconte : depuis plus d'un an, il est 'tendu en permanence', se fait du souci pour son travail, pour la santé de ses parents, pour son budget, pour l'avenir de ses enfants. Il dort mal, est fatigué, irritable, a souvent mal au cou et aux épaules. Il ne décrit AUCUNE crise brutale avec sensation de mort imminente. Quel diagnostic évoquer en priorité ?",
+  "choices": [
+    { "id": "a", "text": "Trouble panique avec attaques récurrentes", "correct": false },
+    { "id": "b", "text": "Phobie spécifique", "correct": false },
+    { "id": "c", "text": "Trouble anxieux généralisé (TAG)", "correct": true },
+    { "id": "d", "text": "Anxiété normale et adaptée", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Tableau typique de TAG : soucis EXCESSIFS, MULTIPLES (travail, parents, budget, enfants), PROLONGÉS (> 6 mois), avec symptômes physiques chroniques (tension musculaire, fatigue, troubles du sommeil, irritabilité). Pas de crise paroxystique → ce n'est pas un trouble panique. Mnémo : TAG = anxiété 'météo' (fond continu) ; panique = anxiété 'orage' (pic bref).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

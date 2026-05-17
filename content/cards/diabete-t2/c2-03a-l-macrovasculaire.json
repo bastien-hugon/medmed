@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c2-l03-macrovasculaire",
+  "kind": "lesson",
+  "prompt": "Les complications MACROVASCULAIRES touchent les GROSSES ARTÈRES. Le mécanisme central : ATHÉROSCLÉROSE accélérée. Du cholestérol et des cellules inflammatoires se déposent dans la paroi des artères, formant des plaques qui rétrécissent puis bouchent les vaisseaux.\n\nLe diabète ne cause pas une maladie 'spécifique' macrovasculaire — il ACCÉLÈRE l'athérosclérose qui existe chez tout le monde. Un diabétique a un risque d'infarctus comparable à celui d'un non-diabétique ayant déjà eu un infarctus. C'est pour ça qu'on parle du diabète comme d'un 'équivalent de maladie coronaire'.\n\nTrois localisations classiques :\n\n1. CORONAROPATHIE — artères du cœur\n   → Angine de poitrine (douleur thoracique à l'effort), infarctus du myocarde.\n   → Particularité chez le diabétique : les infarctus peuvent être SILENCIEUX (peu ou pas de douleur, à cause de la neuropathie associée).\n\n2. AVC (accident vasculaire cérébral) — artères du cerveau\n   → Ischémique (caillot qui bouche) ou hémorragique (rupture).\n\n3. AOMI — Artériopathie Oblitérante des Membres Inférieurs (artères des jambes)\n   → Douleur du mollet à la marche cédant au repos (claudication intermittente).\n   → Stade évolué : douleurs au repos, plaies qui ne cicatrisent pas, gangrène, amputation.\n   → Co-existe souvent avec la neuropathie diabétique → pied du diabétique en grand danger.\n\nLes complications macrovasculaires sont la PREMIÈRE CAUSE DE MORTALITÉ chez les diabétiques. C'est pour ça que le contrôle de la glycémie ne suffit PAS : il faut aussi traiter la PA, le cholestérol, et arrêter le tabac. On parle de prise en charge GLOBALE du risque cardiovasculaire.",
+  "rationale": "À retenir : le diabète tue surtout par le cœur et les vaisseaux, pas par le sucre lui-même. Conséquence pratique : chez tout diabétique, on doit toujours évaluer ET traiter les autres facteurs de risque CV (HTA, dyslipidémie, tabac). C'est ce qu'on appelle l'approche multifactorielle (étude STENO-2). Astuce : un diabétique sans HTA ni dyslipidémie connues mérite quand même des objectifs PA et LDL plus stricts que la population générale.",
+  "tags": {
+    "system": ["endocrinologie", "cardiovasculaire"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

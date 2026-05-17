@@ -1,0 +1,25 @@
+{
+  "id": "hta-c1-q02-arteres-veines",
+  "kind": "qcm-vignette",
+  "prompt": "Quels vaisseaux PARTENT du cœur pour amener le sang riche en oxygène vers les organes ?",
+  "choices": [
+    { "id": "a", "text": "Les veines", "correct": false },
+    { "id": "b", "text": "Les artères", "correct": true },
+    { "id": "c", "text": "Les nerfs", "correct": false },
+    { "id": "d", "text": "Les ganglions", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Artères = partent du cœur (sang oxygéné). Veines = reviennent au cœur (sang pauvre en oxygène). Quand on parle d'HTA, c'est de la pression dans les ARTÈRES.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.fedecardio.org/je-m-informe/le-coeur/",
+    "version": "généralités"
+  }
+}

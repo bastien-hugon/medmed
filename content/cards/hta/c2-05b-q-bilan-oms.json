@@ -1,0 +1,25 @@
+{
+  "id": "hta-c2-q05-bilan-oms",
+  "kind": "qcm-vignette",
+  "prompt": "Quel examen NE FAIT PAS partie du bilan initial obligatoire (bilan OMS) chez un patient hypertendu nouvellement diagnostiqué ?",
+  "choices": [
+    {"id": "a", "text": "Ionogramme sanguin (Na, K)", "correct": false},
+    {"id": "b", "text": "Créatinine + estimation du DFG", "correct": false},
+    {"id": "c", "text": "Échographie cardiaque systématique", "correct": true},
+    {"id": "d", "text": "ECG de repos", "correct": false}
+  ],
+  "expected": ["c"],
+  "rationale": "Bilan OMS = iono Na/K, créat/DFG, glycémie à jeun, EAL, protéinurie, ECG. L'ÉCHOGRAPHIE cardiaque n'est PAS systématique : elle se discute en seconde intention si l'ECG montre une hypertrophie ventriculaire gauche, ou en cas d'insuffisance cardiaque suspectée, ou chez le patient à haut risque. Idem pour le fond d'œil ou le doppler des troncs supra-aortiques : pas systématiques.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

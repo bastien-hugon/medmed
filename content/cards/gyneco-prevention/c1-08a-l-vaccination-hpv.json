@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c1-l08-vaccination-hpv",
+  "kind": "lesson",
+  "prompt": "La vaccination HPV est une prévention PRIMAIRE du cancer du col de l'utérus (et d'autres cancers : anus, oropharynx, vulve, vagin, pénis).\n\nLE VACCIN UTILISÉ EN FRANCE\nGardasil 9 — couvre 9 types de HPV : 6, 11 (condylomes), et 16, 18, 31, 33, 45, 52, 58 (haut risque). Il prévient environ 70 % des cancers du col, plus la grande majorité des condylomes.\n\nÀ RETENIR\n\n1) ELLE CONCERNE LES FILLES ET LES GARÇONS. Longtemps perçue comme 'le vaccin des filles', elle est recommandée pour les deux sexes depuis 2021. Les garçons aussi attrapent le HPV, peuvent développer des cancers liés (anus, gorge), et leur vaccination réduit la circulation du virus dans la population (immunité de groupe).\n\n2) ELLE EST D'AUTANT PLUS EFFICACE QU'ELLE EST FAITE TÔT, AVANT LES PREMIERS RAPPORTS SEXUELS. En France : recommandée dès 11 ans, idéalement entre 11 et 14 ans (rattrapage possible jusqu'à 19 ans, et jusqu'à 26 ans chez les hommes ayant des relations sexuelles avec des hommes).\n\nSCHÉMA VACCINAL\n• Avant 15 ans : 2 doses espacées de 6 mois\n• À partir de 15 ans : 3 doses (à 0, 2 et 6 mois)\n\nLe vaccin n'élimine PAS le besoin de dépistage : il couvre les types de HPV les plus dangereux, mais pas TOUS. Une femme vaccinée fera quand même un frottis / test HPV au calendrier recommandé.",
+  "rationale": "Message essentiel en MG : (1) rassurer sur le profil de sécurité du vaccin (très bien documenté, environ 82 % d'effets indésirables bénins et transitoires, pas de lien avec maladies auto-immunes établi en France), (2) déconstruire l'idée 'c'est un vaccin pour les filles', (3) rappeler que vaccin ≠ dispense de frottis. Couverture vaccinale française historiquement basse (~30-37 % chez les adolescentes) — d'où l'importance de la promouvoir activement.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [143, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Gardasil",
+    "version": "consulté en 2026-05"
+  }
+}

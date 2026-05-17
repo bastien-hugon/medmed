@@ -1,0 +1,25 @@
+{
+  "id": "ist-c1-q07-vaccins-ist",
+  "kind": "qcm-vignette",
+  "prompt": "Pour laquelle de ces IST AUCUN vaccin n'est disponible aujourd'hui ?",
+  "choices": [
+    { "id": "a", "text": "Hépatite B", "correct": false },
+    { "id": "b", "text": "HPV", "correct": false },
+    { "id": "c", "text": "Chlamydia", "correct": true },
+    { "id": "d", "text": "Hépatite A", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Les 3 vaccins IST disponibles : HBV, HPV, HAV. Pour chlamydia, gonocoque, syphilis, VIH, herpès — aucun vaccin commercialisé. La recherche sur le vaccin chlamydia avance (essais de phase 1) mais rien en pratique.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

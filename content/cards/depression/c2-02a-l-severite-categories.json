@@ -1,0 +1,18 @@
+{
+  "id": "depression-c2-l02-severite-categories",
+  "kind": "lesson",
+  "prompt": "Les recos NICE (2022) ont SIMPLIFIÉ la classification de la sévérité de la dépression. Avant, il y avait 4 niveaux (sous-seuil, légère, modérée, sévère) — c'était lourd et peu utile.\n\nMaintenant, DEUX catégories suffisent, basées sur le score PHQ-9 :\n\n1. LESS SEVERE DEPRESSION (dépression \"moins sévère\")\n   = sous-seuil + légère\n   = PHQ-9 < 16\n   = patient qui souffre mais qui fonctionne encore, sans risque immédiat\n\n2. MORE SEVERE DEPRESSION (dépression \"plus sévère\")\n   = modérée + sévère\n   = PHQ-9 ≥ 16\n   = patient avec retentissement marqué, risque suicidaire potentiel, symptômes intenses\n\nPourquoi cette simplification ?\n\nParce que le traitement de 1ère ligne change selon la catégorie :\n• LESS SEVERE → on commence par la PSYCHOTHÉRAPIE (pas d'antidépresseur d'emblée)\n• MORE SEVERE → on peut combiner PSYCHOTHÉRAPIE + ANTIDÉPRESSEUR, ou l'un des deux seul\n\nC'est une grille simple pour orienter une décision concrète : \"qu'est-ce que je propose à ce patient ?\".\n\nAttention : le score PHQ-9 ne remplace pas le jugement clinique. Un patient à 14 avec des idées suicidaires actives doit être traité comme more severe. Le chiffre aide, ne décide pas seul.",
+  "rationale": "Évolution importante NICE 2022 : passage de 4 à 2 catégories. Le seuil 16 est issu de la validation du PHQ-9. À utiliser en complément du tableau clinique (retentissement, idées suicidaires, comorbidités), pas comme une vérité absolue.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

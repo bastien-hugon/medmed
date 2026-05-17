@@ -1,0 +1,25 @@
+{
+  "id": "anxiete-c2-q06-bzd-tag",
+  "kind": "qcm-vignette",
+  "prompt": "Un confrère propose de prescrire de l'alprazolam (Xanax) au long cours à un patient TAG, en disant 'ça marche bien et il est demandeur'. Quelle est la position de NICE sur les benzodiazépines dans le TAG ?",
+  "choices": [
+    { "id": "a", "text": "Recommandées en 2ème intention si les SSRI sont inefficaces", "correct": false },
+    { "id": "b", "text": "Recommandées au long cours à faible dose chez les personnes âgées", "correct": false },
+    { "id": "c", "text": "Ne pas prescrire en traitement du TAG, sauf en court terme en crise", "correct": true },
+    { "id": "d", "text": "Recommandées en association systématique au SSRI au démarrage", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "NICE est très clair : 'Do not offer a benzodiazepine for the treatment of GAD... except as a short-term measure during crises'. Raisons : dépendance rapide, troubles cognitifs, chutes (sujet âgé +++), aggravation du trouble à long terme. Si on prescrit malgré tout en crise, court terme uniquement (idéalement < 2-4 semaines), avec sortie planifiée. Le sujet âgé est PARTICULIÈREMENT vulnérable — chutes, confusion, accidents.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

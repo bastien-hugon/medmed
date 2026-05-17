@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c1-q02b-primaire-vs-secondaire",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente de 30 ans a depuis 10 ans des crises stéréotypées de céphalées pulsatiles avec photophobie. Son examen neurologique est normal, son IRM cérébrale (faite à tort pour rassurance) est normale. Comment classer sa céphalée ?",
+  "choices": [
+    { "id": "a", "text": "Céphalée secondaire à une cause non identifiée", "correct": false },
+    { "id": "b", "text": "Céphalée primaire (la douleur est la maladie)", "correct": true },
+    { "id": "c", "text": "Céphalée d'origine psychogène", "correct": false },
+    { "id": "d", "text": "Indéterminée tant qu'un scanner n'a pas été fait", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Une céphalée primaire (ici, vraisemblablement migraine) est définie cliniquement, SANS recours systématique à l'imagerie. NICE rappelle explicitement de ne pas faire d'imagerie 'pour rassurer' devant une céphalée primaire reconnue. La normalité de l'IRM ne change rien au diagnostic — il est clinique.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

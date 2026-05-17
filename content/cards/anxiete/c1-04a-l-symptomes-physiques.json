@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c1-l04-symptomes-physiques",
+  "kind": "lesson",
+  "prompt": "L'anxiété ne se vit pas QUE dans la tête. Le corps en prend une grande part.\n\nLes SYMPTÔMES PHYSIQUES classiques (conséquences directes du système sympathique vu à la carte précédente) :\n\n• Cœur qui s'accélère, palpitations (TACHYCARDIE)\n• Respiration courte, sensation d'étouffement\n• Oppression ou douleur thoracique\n• Sueurs, mains moites\n• Tremblements\n• Bouche sèche\n• Nausées, 'nœud' à l'estomac, diarrhées\n• Tension musculaire, douleurs de dos/épaules/mâchoire\n• Vertiges, sensation de tête qui tourne\n• Fourmillements aux mains, autour de la bouche\n\nDeux pièges classiques :\n\n1. Le patient ne dit PAS 'je suis anxieux'. Il dit 'j'ai mal à la poitrine', 'je n'arrive plus à respirer', 'mon cœur s'emballe'. C'est un motif de consultation EXTRÊMEMENT fréquent.\n\n2. Avant d'attribuer ces symptômes à l'anxiété, il faut d'abord ÉLIMINER une cause physique (cœur, thyroïde, anémie…). Surtout pour la première crise.",
+  "rationale": "Cette carte est centrale en pratique de MG : beaucoup de consultations 'somatiques' (douleur thoracique, dyspnée, vertiges) sont en fait des manifestations d'anxiété. Mais l'inverse est aussi vrai : ne JAMAIS attribuer trop vite à l'anxiété sans bilan organique de base. Règle pratique : penser anxiété APRÈS avoir éliminé l'urgent (SCA, EP, hypoglycémie, hyperthyroïdie).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

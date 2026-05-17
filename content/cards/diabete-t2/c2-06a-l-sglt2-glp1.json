@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c2-l06-sglt2-glp1",
+  "kind": "lesson",
+  "prompt": "Depuis ~2015, deux NOUVELLES classes d'antidiabétiques ont bouleversé la prise en charge du T2 — non pas tellement par leur effet sur la glycémie, mais par leur BÉNÉFICE CARDIOVASCULAIRE ET RÉNAL démontré dans de grandes études.\n\n1. INHIBITEURS DU SGLT2 (= gliflozines)\nExemples : dapagliflozine, empagliflozine.\nMécanisme : ils BLOQUENT la réabsorption du glucose dans le rein. Résultat : le sucre en excès est éliminé dans les urines → glycémie baisse, et petite perte de poids.\nBénéfices supplémentaires majeurs :\n• Réduction des décès cardiovasculaires et des hospitalisations pour insuffisance cardiaque\n• Ralentissement de la progression de l'insuffisance rénale chronique (IRC)\n→ Indications privilégiées : diabétique avec maladie cardiovasculaire établie, insuffisance cardiaque, ou maladie rénale chronique.\nEffets secondaires : infections génitales (mycoses), risque d'acidocétose (rare), déshydratation.\n\n2. AGONISTES DU RÉCEPTEUR GLP-1 (= GLP-1 RA)\nExemples : sémaglutide (Ozempic®), liraglutide, dulaglutide. Voie injectable (1×/semaine pour la plupart), désormais aussi orale pour le sémaglutide.\nMécanisme : ils miment une hormone intestinale (le GLP-1) qui stimule la sécrétion d'insuline UNIQUEMENT quand la glycémie est haute, freine la vidange gastrique, et coupe l'appétit.\nBénéfices supplémentaires majeurs :\n• PERTE DE POIDS importante (souvent 5-15 kg)\n• Réduction des événements cardiovasculaires majeurs\n→ Indications privilégiées : diabétique en surpoids/obésité, ou avec maladie cardiovasculaire.\nEffets secondaires : nausées (souvent passagères), risque rare de pancréatite.\n\nPLACE DANS LA STRATÉGIE THÉRAPEUTIQUE (HAS / ADA-EASD)\nMetformine reste 1ère ligne. Mais en présence de comorbidités CV ou rénales, on AJOUTE rapidement un SGLT2-i ou un GLP-1 RA — parfois directement en bithérapie, sans attendre l'échec de la metformine seule.",
+  "rationale": "Astuce : retenir surtout que ces 2 classes ne servent PAS qu'à baisser la glycémie — elles protègent le cœur et les reins, ce qui change radicalement l'approche par rapport aux anciens médicaments (sulfamides, glitazones). Le détail des indications précises (HAS 2023-2024, ADA-EASD 2022) évolue rapidement : à recroiser avec la reco HAS au moment du suivi.",
+  "tags": {
+    "system": ["endocrinologie", "cardiovasculaire", "néphrologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Antidiab%C3%A9tique",
+    "version": "consulté en 2026-05"
+  }
+}

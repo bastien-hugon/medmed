@@ -1,0 +1,21 @@
+{
+  "id": "cephalee-c2-s10-migraine-vs-hsa",
+  "kind": "sct",
+  "prompt": "Vous voyez en consultation une patiente de 35 ans, connue migraineuse depuis 15 ans, pour une céphalée évoluant depuis 2 heures. Vous évoquez initialement une crise migraineuse typique. Comment cette nouvelle information modifie-t-elle votre hypothèse ?",
+  "hypothesis": "Il s'agit d'une crise de migraine typique chez cette patiente migraineuse connue.",
+  "new_info": "La patiente précise que cette céphalée s'est installée 'd'un coup' pendant qu'elle riait avec une amie, atteignant son maximum en moins d'une minute, et qu'elle est différente de ses migraines habituelles : 'celle-ci n'est pas comme d'habitude, j'ai l'impression d'avoir reçu un coup de poignard'.",
+  "expected": "affaiblit",
+  "rationale": "Deux drapeaux rouges majeurs sont ici présents : (1) céphalée 'thunderclap' atteignant le max en < 1 min — évocatrice d'HSA, (2) changement caractéristique d'une céphalée habituelle ('pas comme d'habitude') — chez un patient céphalalgique connu, cela doit faire reconsidérer le diagnostic. L'antécédent de migraine NE PROTÈGE PAS contre une HSA. La conduite est l'imagerie en urgence (scanner non injecté), pas un triptan. Cette nouvelle info affaiblit fortement l'hypothèse 'migraine simple'.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "hsa"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

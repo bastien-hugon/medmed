@@ -1,0 +1,25 @@
+{
+  "id": "diabete-t2-c2-q01-insulinoresistance",
+  "kind": "qcm-vignette",
+  "prompt": "Dans le diabète de type 2 à un stade précoce, comment évoluent l'insuline et la glycémie sanguines ?",
+  "choices": [
+    { "id": "a", "text": "Insuline basse, glycémie normale", "correct": false },
+    { "id": "b", "text": "Insuline HAUTE (hyperinsulinisme compensateur), glycémie d'abord normale puis qui monte", "correct": true },
+    { "id": "c", "text": "Insuline absente, glycémie très élevée d'emblée", "correct": false },
+    { "id": "d", "text": "Insuline et glycémie toutes les deux basses", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Phase précoce du T2 = HYPERINSULINISME COMPENSATEUR. Le pancréas surproduit pour vaincre la résistance des tissus. Tant qu'il y arrive, glycémie normale ou peu élevée. Plus tard, épuisement bêta-cellulaire → l'insuline finit par baisser, la glycémie monte franchement. Réponse a (insuline basse) = T1. Réponse c (absence d'insuline) = T1 avancé.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

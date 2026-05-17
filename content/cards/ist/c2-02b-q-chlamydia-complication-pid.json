@@ -1,0 +1,25 @@
+{
+  "id": "ist-c2-q02-chlamydia-complication-pid",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle est la complication la plus redoutée d'une chlamydia non traitée chez la femme jeune ?",
+  "choices": [
+    { "id": "a", "text": "Un cancer du col utérin", "correct": false },
+    { "id": "b", "text": "Une infection génitale haute (PID) avec risque d'infertilité tubaire", "correct": true },
+    { "id": "c", "text": "Une cystite récidivante", "correct": false },
+    { "id": "d", "text": "Une candidose chronique", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "PID (Pelvic Inflammatory Disease = salpingite / infection génitale haute) est le couloir d'évolution redouté. Mécanisme : la bactérie remonte du col vers les trompes, cicatrice les trompes → infertilité tubaire et GEU (grossesse extra-utérine). Le cancer du col est lié à HPV (autre virus), pas à la chlamydia.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "depression-c2-q07-premier-suivi",
+  "kind": "qcm-vignette",
+  "prompt": "Vous prescrivez un ISRS à Marie, 22 ans, pour un épisode dépressif caractérisé. Pas d'idées suicidaires actives. Quand la revoyez-vous pour la première fois, selon NICE 2022 ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "À 1 mois, le temps que l'AD fasse effet",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "À 1 semaine, car elle a entre 18 et 25 ans (population à risque de majoration transitoire d'agitation/anxiété/idées suicidaires en début de traitement)",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "À 2 semaines, comme pour tous les patients",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Seulement si elle appelle pour signaler un problème",
+      "correct": false
+    }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE Rec 1.4.22 : suivi à 1 SEMAINE pour les 18-25 ans (et pour les patients à risque suicidaire), 2 semaines pour les autres. Justification : risque connu de majoration transitoire d'agitation, anxiété et idées suicidaires en début de traitement, particulièrement marqué chez les jeunes adultes (cerveau en maturation, dissociation possible entre levée de l'inhibition motrice et amélioration de l'humeur).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

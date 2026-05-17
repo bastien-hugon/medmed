@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c1-l03-fight-or-flight",
+  "kind": "lesson",
+  "prompt": "POURQUOI le corps réagit-il comme ça quand on est anxieux ?\n\nAu fond du cerveau, il y a une petite zone qui détecte les menaces (l'amygdale). Dès qu'elle sonne l'alarme, elle active une voie nerveuse appelée SYSTÈME SYMPATHIQUE. Pense-y comme l'accélérateur du corps.\n\nCet accélérateur libère deux hormones : l'ADRÉNALINE et la NORADRÉNALINE. Elles préparent le corps à deux choses : COMBATTRE ou FUIR (en anglais : 'fight or flight').\n\nEffets concrets, en quelques secondes :\n• Cœur qui s'accélère → plus de sang vers les muscles\n• Respiration plus rapide → plus d'oxygène disponible\n• Sueurs → refroidissement anticipé de l'effort\n• Pupilles dilatées → meilleure vision\n• Digestion qui s'arrête → pas le moment\n\nC'est une machinerie ancienne, héritée de l'évolution. Très utile face à un prédateur. Beaucoup moins utile face à un mail du chef ou à une pensée intrusive.",
+  "rationale": "Cette physiologie est LA clé pour comprendre les symptômes physiques de l'anxiété. Quand un patient panique parce qu'il a les mains moites et le cœur qui s'emballe, l'expliquer en termes de 'système d'alarme + accélérateur sympathique' est souvent très apaisant. Ça donne du sens, ça normalise, ça déstigmatise.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

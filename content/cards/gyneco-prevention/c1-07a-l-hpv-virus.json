@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c1-l07-hpv-virus",
+  "kind": "lesson",
+  "prompt": "HPV = Human Papillomavirus (papillomavirus humain). C'est une famille de plus de 200 types de virus à ADN très répandue : la grande majorité des personnes sexuellement actives en attrapent au moins une fois dans leur vie, souvent sans le savoir.\n\nDeux idées centrales :\n\n1) Transmission : par CONTACT (cutané, muqueux), pas seulement par pénétration. Le préservatif réduit le risque mais ne le supprime pas (le virus se transmet aussi par les muqueuses non couvertes).\n\n2) Il y a plein de 'types' (sérotypes) de HPV :\n   • Certains causent des verrues banales (mains, pieds).\n   • Les types 6 et 11 causent les condylomes (verrues génitales).\n   • Les types dits 'à haut risque', surtout HPV 16 et HPV 18 (auxquels s'ajoutent 31, 33, 45, 52, 58…) — peuvent, sur 10-30 ans, transformer les cellules du col de l'utérus en cellules précancéreuses, puis cancéreuses. À eux seuls, HPV 16 et 18 sont responsables d'environ 70 % des cancers du col.\n\nDans 80-90 % des cas, l'organisme élimine spontanément le virus en 1-2 ans. C'est l'INFECTION PERSISTANTE par un HPV à haut risque qui est dangereuse — et c'est elle qu'on cherche à détecter avant qu'elle ne donne un cancer.",
+  "rationale": "Le HPV n'est pas qu'un 'virus sexuel honteux' — c'est un virus quasi universel. Le démystifier (la plupart des gens l'attrapent, la plupart guérissent seuls) aide à dédramatiser le dépistage et la vaccination. La logique clinique : on ne peut pas empêcher l'infection (trop fréquente), mais on peut empêcher qu'elle se transforme en cancer en (1) vaccinant et (2) dépistant régulièrement.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Papillomavirus_humain",
+    "version": "consulté en 2026-05"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "depression-c1-q01-tristesse-vs-depression",
+  "kind": "qcm-vignette",
+  "prompt": "Léa, 28 ans, vient de se faire larguer il y a 4 jours. Elle pleure beaucoup, n'a pas le moral, mais arrive encore à travailler et à voir ses amis. Elle dit \"je suis en pleine dépression\". Quelle est l'attitude la plus juste ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Prescrire un antidépresseur en urgence",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Lui expliquer qu'il s'agit probablement d'une tristesse réactionnelle normale, et la revoir si ça dure plus de 2 semaines ou si elle n'arrive plus à fonctionner",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Lui dire que ce n'est rien et qu'elle exagère",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "L'adresser immédiatement à un psychiatre",
+      "correct": false
+    }
+  ],
+  "expected": ["b"],
+  "rationale": "La tristesse réactionnelle (après une rupture, un deuil, un échec) est une réaction NORMALE, pas une dépression. Trois critères pour évoquer un EDC plutôt qu'une tristesse normale : durée ≥ 2 semaines, intensité qui empêche de fonctionner, retentissement sur la vie quotidienne. Banaliser (\"c'est rien\") est aussi piégeux que sur-traiter : on accueille la souffrance ET on rassure sur le caractère probablement transitoire, en proposant un revoyure.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

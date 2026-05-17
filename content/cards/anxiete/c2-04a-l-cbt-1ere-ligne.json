@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c2-l04-cbt-1ere-ligne",
+  "kind": "lesson",
+  "prompt": "À l'étape 3 (haute intensité) du TAG, la PREMIÈRE OPTION recommandée est PSYCHOLOGIQUE, pas médicamenteuse.\n\nDeux psychothérapies validées par NICE :\n\n• THÉRAPIE COGNITIVO-COMPORTEMENTALE (CBT en anglais, TCC en français)\n  Travail combiné sur les pensées (identifier et restructurer les schémas anxieux) et sur les comportements (exposition graduelle, gestion de l'évitement).\n\n• RELAXATION APPLIQUÉE (applied relaxation)\n  Apprentissage progressif de techniques de relaxation musculaire, puis utilisation dans des situations anxiogènes.\n\nMODALITÉS pratiques :\n• Format : SÉANCES INDIVIDUELLES, en général HEBDOMADAIRES\n• Durée par séance : ~1 heure\n• Nombre total : 12 à 15 séances\n• Délivrées par un professionnel formé (psychologue, parfois infirmier formé)\n\nPourquoi PRIVILÉGIER la psychothérapie au médicament ?\n• Efficacité au moins équivalente sur le moyen terme\n• Pas d'effets indésirables (sexuels, sevrage, sédation)\n• EFFETS PERSISTANTS APRÈS L'ARRÊT — les outils acquis restent\n• Préférence souvent exprimée par les patients\n\nLimite : accès difficile (délais, coût, peu de psychologues remboursés en France hors dispositifs spécifiques).",
+  "rationale": "Le réflexe 'TAG → ordonnance d'anxiolytique' est culturellement très ancré en France, mais NICE place clairement la psychothérapie en 1ère intention au step 3 (au même niveau que le SSRI, voire avant). Argument central : la CBT modifie durablement les schémas de pensée, alors qu'un SSRI ne traite que tant qu'il est pris. À retenir : 12-15 séances hebdomadaires d'1h — un engagement de 3-4 mois minimum. Pas une 'pilule miracle' rapide.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

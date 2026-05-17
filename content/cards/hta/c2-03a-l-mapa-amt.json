@@ -1,0 +1,18 @@
+{
+  "id": "hta-c2-l03-mapa-amt",
+  "kind": "lesson",
+  "prompt": "Le cabinet médical, c'est un environnement stressant pour beaucoup de patients (l'effet 'blouse blanche'). Pour confirmer un diagnostic d'HTA, on cherche donc à mesurer la PA EN DEHORS du cabinet.\n\nDeux méthodes officielles :\n\n• AMT — AUTOMESURE TENSIONNELLE\nLe patient mesure lui-même sa PA à la maison avec un tensiomètre validé.\nLa technique HAS : la 'règle des 3' = 3 mesures le matin avant le petit-déjeuner, 3 mesures le soir avant le coucher, pendant 3 jours de suite. On fait la moyenne de toutes ces mesures (sauf la première de chaque série, souvent un peu haute).\n\n• MAPA — MESURE AMBULATOIRE DE LA PRESSION ARTÉRIELLE\nLe patient porte pendant 24 heures un appareil qui mesure la PA automatiquement toutes les 15 à 30 min, jour et nuit. Plus complet (donne la PA nocturne, repère le 'non-dipping') mais plus contraignant. Réalisé en cabinet de cardio.\n\nPOINT CRUCIAL : les SEUILS DE DÉFINITION de l'HTA ne sont PAS les mêmes qu'au cabinet, parce qu'à la maison on est moins stressé donc les chiffres sont plus bas.\n\nSeuil HTA en AMT/MAPA diurne : PA ≥ 135/85 mmHg\n(à comparer aux 140/90 en cabinet)\n\nC'est 5 mmHg de moins. À retenir : '135/85 à la maison, 140/90 au cabinet'.",
+  "rationale": "Pourquoi confirmer hors cabinet ? Pour éliminer l'HTA blouse blanche (haute au cabinet, normale ailleurs → ne nécessite pas de médicament) et pour démasquer l'HTA masquée (normale au cabinet, haute ailleurs → à risque CV). La HAS recommande de confirmer le diagnostic d'HTA hors cabinet avant tout traitement médicamenteux, SAUF urgence hypertensive.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

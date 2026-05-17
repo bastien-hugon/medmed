@@ -1,0 +1,25 @@
+{
+  "id": "hta-c1-q09-bras-vs-poignet",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient veut acheter un tensiomètre pour mesurer sa PA à la maison. Quel type lui conseilles-tu en première intention ?",
+  "choices": [
+    {"id": "a", "text": "Un appareil au poignet, plus pratique à utiliser", "correct": false},
+    {"id": "b", "text": "Un appareil au bras, électronique et validé", "correct": true},
+    {"id": "c", "text": "Un appareil manuel à mercure, plus précis", "correct": false},
+    {"id": "d", "text": "Une application smartphone via la caméra", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Le standard HAS : appareil au BRAS (l'artère humérale, plus large et plus stable que celle du poignet), ÉLECTRONIQUE (plus simple d'usage qu'un manuel à colonne de mercure désormais interdit en raison de la toxicité du mercure), et VALIDÉ (liste officielle, marquage CE médical). Les apps smartphones via caméra ne sont pas validées pour le diagnostic.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

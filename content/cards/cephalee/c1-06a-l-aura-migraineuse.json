@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c1-l06-aura-migraineuse",
+  "kind": "lesson",
+  "prompt": "L'AURA MIGRAINEUSE, c'est un phénomène neurologique BREF et RÉVERSIBLE qui précède (ou accompagne) la crise migraineuse. Environ 1 migraineux sur 3 en a.\n\nIMAGE\nImagine un orage qui se prépare : avant le tonnerre (la douleur), il y a des éclairs (l'aura). Le 'tonnerre' arrive ensuite.\n\nCARACTÉRISTIQUES CLEFS\n• ENTIÈREMENT RÉVERSIBLE — tout rentre dans l'ordre après\n• Installation GRADUELLE, sur au moins 5 minutes (pas brutale comme un AVC)\n• Durée totale de 5 à 60 MINUTES\n• Le plus souvent suivie de la céphalée dans l'heure\n\nFORMES TYPIQUES (rassurantes, compatibles avec migraine)\n• VISUELLE (la plus fréquente) : taches lumineuses qui scintillent, lignes en zigzag, point aveugle qui s'étend (scotome scintillant). Souvent on commence à voir 'flou par bouts' puis ça grandit.\n• SENSITIVE : fourmillements, engourdissement qui remontent par exemple de la main vers le bras puis la bouche.\n• PAROLE : difficulté brève à trouver ses mots.\n\nFORMES ATYPIQUES (qui doivent FAIRE PEUR et orienter vers un avis neurologique)\n• Faiblesse motrice (paralysie d'un membre)\n• Vision double\n• Symptômes visuels d'UN SEUL ŒIL (et pas d'un côté du champ visuel)\n• Trouble de l'équilibre majeur\n• Trouble de la conscience\nCes signes là évoquent plutôt un AVC ou autre cause neurologique grave, surtout si c'est la première fois.",
+  "rationale": "Distinguer aura typique vs atypique est crucial : une aura visuelle scintillante qui s'installe en 10 min chez quelqu'un qui en a déjà eu = banal. Une hémiparésie brutale = potentiellement un AVC. Règle d'or : toute aura nouvelle ou atypique → consultation/avis neurologique. L'aura est le diagnostic différentiel classique avec un accident ischémique transitoire (AIT).",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dyslipidemie-c1-q05-rupture-plaque",
+  "kind": "qcm-vignette",
+  "prompt": "Quand une plaque d'athérome se rompt dans une artère coronaire, que se passe-t-il dans les minutes qui suivent ?",
+  "choices": [
+    { "id": "a", "text": "L'artère se cicatrise spontanément, sans conséquence.", "correct": false },
+    { "id": "b", "text": "Un caillot se forme au niveau de la rupture, bouche l'artère, et provoque un infarctus du myocarde.", "correct": true },
+    { "id": "c", "text": "Le cholestérol de la plaque est immédiatement éliminé par le HDL.", "correct": false },
+    { "id": "d", "text": "Le rétrécissement progresse lentement sur plusieurs années.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Une plaque rompue expose son contenu lipidique au sang, qui réagit comme face à une blessure et forme un thrombus (caillot) en quelques secondes à minutes. Si la coronaire est bouchée, le muscle cardiaque en aval s'asphyxie : c'est l'infarctus du myocarde, une urgence vitale. Idem dans le cerveau (AVC ischémique) ou dans une artère périphérique. C'est cette CATASTROPHE soudaine — pas le rétrécissement lent — qui tue.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

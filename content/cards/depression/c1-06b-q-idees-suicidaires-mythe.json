@@ -1,0 +1,41 @@
+{
+  "id": "depression-c1-q06-idees-suicidaires-mythe",
+  "kind": "qcm-vignette",
+  "prompt": "Un confrère vous dit : \"Je n'ose jamais demander à mes patients s'ils ont des idées suicidaires — j'ai peur de leur en donner l'idée.\" Que lui répondez-vous ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Il a raison, mieux vaut attendre que le patient en parle de lui-même",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Les études montrent que poser la question ne provoque PAS le passage à l'acte ; au contraire, ne pas la poser laisse les patients seuls avec leurs idées. NICE recommande explicitement de demander directement.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Il vaut mieux poser la question seulement aux patients qui ont l'air vraiment très déprimés",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Il faut d'abord prescrire un antidépresseur, puis poser la question",
+      "correct": false
+    }
+  ],
+  "expected": ["b"],
+  "rationale": "Mythe tenace mais infirmé par la littérature. Poser la question est un acte de soin, pas un risque. Les patients qui ont des idées suicidaires se sentent souvent isolés ; la question légitime le sujet et ouvre la porte à l'aide. Recommandation NICE Rec 1.2.8 : \"Always ask people with depression directly about suicidal ideation and intent\".",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ist-c1-l02-sti-vs-std",
+  "kind": "lesson",
+  "prompt": "Deux mots qui se ressemblent mais ne disent pas la même chose :\n\n• IST (Infection Sexuellement Transmissible) = le microbe est là, dans le corps. Peut être totalement silencieux. C'est juste de l'infection.\n\n• MST (Maladie Sexuellement Transmissible) = l'infection a causé des symptômes ou des complications visibles. C'est la maladie déclarée.\n\nExemple : une personne porteuse de chlamydia sans symptôme = elle a une IST mais pas (encore) une MST. Si la chlamydia remonte et provoque une douleur pelvienne avec fièvre, c'est devenu une MST.\n\nDepuis ~2015, on dit plutôt IST (et en anglais STI) que MST/STD. Pourquoi ? Parce qu'on insiste sur l'idée que beaucoup d'infections sont silencieuses — donc on dépiste sans attendre les symptômes.",
+  "rationale": "Cette distinction n'est pas qu'académique : c'est tout l'argumentaire du dépistage systématique. Si on attendait les symptômes (MST), on raterait la majorité des cas. C'est pour ça qu'on propose la prise de sang VIH ou le NAAT chlamydia à des gens qui se sentent en pleine forme.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

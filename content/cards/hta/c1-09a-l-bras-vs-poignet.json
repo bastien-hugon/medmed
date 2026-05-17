@@ -1,0 +1,18 @@
+{
+  "id": "hta-c1-l09-bras-vs-poignet",
+  "kind": "lesson",
+  "prompt": "En pharmacie tu vois deux types d'appareils :\n\n• Les tensiomètres au BRAS (la manchette se met autour du biceps)\n• Les tensiomètres au POIGNET (un bracelet qui se gonfle au poignet)\n\nPour l'apprentissage, retiens UNE règle : on recommande l'appareil au BRAS, pas au poignet.\n\nPourquoi ?\n\nL'artère du poignet est petite, mobile, et plus loin du cœur. La moindre flexion du poignet, la moindre erreur de position fausse complètement la mesure. Les études montrent que les appareils au poignet, même validés, sont moins fiables en pratique quotidienne.\n\nLa HAS recommande explicitement un appareil AU BRAS, électronique et VALIDÉ (= testé scientifiquement, on peut trouver la liste sur le site officiel des tensiomètres validés).\n\nEn gros : si quelqu'un te demande quel appareil acheter, dis 'au bras, électronique, validé'. C'est moins cher qu'on croit, et c'est ce que ton médecin utilise.",
+  "rationale": "Cas particulier : chez les personnes très obèses où aucune manchette de bras ne convient, on peut être obligé d'utiliser le poignet — mais c'est l'exception. Dans 95 % des cas, bras = bonne réponse. À retenir : 'au bras' = fiable, 'au poignet' = pratique mais douteux.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

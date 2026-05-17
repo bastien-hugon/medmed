@@ -1,0 +1,25 @@
+{
+  "id": "gyneco-prevention-c1-q06-typical-use-pilule",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente vous dit : 'On m'a expliqué que la pilule est efficace à 99,7 % — donc je n'ai presque aucun risque de grossesse'. Quelle est la nuance importante à lui apporter ?",
+  "choices": [
+    { "id": "a", "text": "C'est exact, 99,7 % d'efficacité quel que soit l'usage.", "correct": false },
+    { "id": "b", "text": "Ce chiffre correspond à l'usage parfait ; en usage typique (vraie vie, avec oublis), l'efficacité tombe autour de 91 %.", "correct": true },
+    { "id": "c", "text": "L'efficacité de la pilule est en réalité d'environ 50 % en vraie vie.", "correct": false },
+    { "id": "d", "text": "La pilule est plus efficace que l'implant ou le DIU en usage réel.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les 99,7 % (= 0,3 % de grossesses) correspondent au PERFECT USE — pilule prise tous les jours à heure régulière, sans oubli, sans interaction. Dans la vraie vie, le taux de grossesse est d'environ 9 % la 1ère année. C'est pour ça que les LARC (implant, DIU) sont supérieurs : leur efficacité typical et perfect sont quasi identiques (~0,05-0,6 %), parce qu'il n'y a aucune action quotidienne à oublier.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "depression-c2-l09-tapering",
+  "kind": "lesson",
+  "prompt": "Quand vient le moment d'arrêter un antidépresseur, on ne stoppe JAMAIS d'un coup. On fait un SEVRAGE PROGRESSIF (en anglais : tapering).\n\nPourquoi ?\n\nParce que l'arrêt brutal d'un AD provoque un SYNDROME DE SEVRAGE (à ne pas confondre avec une rechute) :\n• Vertiges, sensations de \"choc électrique\"\n• Anxiété, irritabilité, larmes, panique\n• Troubles du sommeil, sueurs, nausées\n• Fatigue, céphalées\n\nCe syndrome est désagréable, fait croire à une rechute (\"je ne peux pas m'en passer\"), et peut être évité.\n\nLE PROTOCOLE DE BASE (NICE 2022) :\n\n1. Diminuer la dose progressivement par paliers — typiquement de 50 % à chaque étape.\n2. À mesure que la dose baisse, faire des paliers PLUS PETITS (25 % en fin de sevrage) — car la sensibilité augmente quand la dose diminue.\n3. Espacer chaque palier d'1 à 2 semaines (parfois plus selon la molécule).\n4. Utiliser des formes liquides si besoin pour faire de petits paliers.\n5. Adapter à la DEMI-VIE de la molécule :\n   - Demi-vie courte (paroxétine, venlafaxine) → sevrage plus difficile, plus lent\n   - Demi-vie longue (fluoxétine) → sevrage plus facile, parfois en alternant un jour sur deux\n\nLe sevrage peut durer plusieurs SEMAINES à plusieurs MOIS.\n\nMessage clé au patient : \"L'arrêt sera lent et planifié. Si vous ressentez quelque chose de désagréable, on ralentit. L'objectif n'est pas la vitesse, c'est de ne pas revivre une mauvaise expérience.\"",
+  "rationale": "Le \"discontinuation syndrome\" est sous-reconnu et confondu avec une rechute. La paroxétine et la venlafaxine sont les pires (demi-vie courte) ; la fluoxétine est la plus facile à arrêter (demi-vie longue qui fait \"auto-tapering\"). NICE 2022 a mis l'accent sur le caractère LENT du sevrage (vs des recos plus anciennes qui parlaient de 2-4 sem seulement).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

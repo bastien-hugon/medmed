@@ -1,0 +1,19 @@
+{
+  "id": "lombalgie-c1-q02-disque-role",
+  "kind": "cloze",
+  "prompt": "Entre deux vertèbres, le disque intervertébral joue le rôle d'___ : il encaisse les chocs de la marche, des sauts, des charges.",
+  "expected": ["amortisseur"],
+  "rationale": "Amortisseur : un mot mécanique qui résume parfaitement la fonction du disque. Sans lui, les vertèbres se cogneraient à chaque pas.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

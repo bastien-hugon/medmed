@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c1-l04-racines-nerveuses",
+  "kind": "lesson",
+  "prompt": "À l'intérieur de la colonne, dans un canal creusé au centre des vertèbres, passe la MOELLE ÉPINIÈRE : un gros câble nerveux qui descend du cerveau.\n\nÀ chaque étage de vertèbre, deux 'fils' sortent de cette moelle, un à droite et un à gauche : ce sont les RACINES NERVEUSES. Elles s'échappent par de petites fenêtres entre les vertèbres et vont innerver une zone précise du corps (les jambes, les pieds, le périnée).\n\nAu niveau lombaire, ces racines portent un nom : L1, L2, L3, L4, L5, puis S1 (S pour 'sacrée', juste en dessous des lombaires).\n\nPourquoi c'est important pour la lombalgie ? Parce que si quelque chose comprime une racine (par exemple une hernie discale), la douleur descend dans la jambe. C'est ce qu'on appelle une SCIATIQUE (si c'est L5 ou S1) ou une CRURALGIE (si c'est L3 ou L4).",
+  "rationale": "Mnémo : 'racine' comme une racine de plante qui sort du tronc (la moelle) et va alimenter une feuille (un territoire de la peau). Quand on pince la racine, toute la 'feuille' souffre. C'est ce qui explique qu'une douleur lombaire puisse irradier jusqu'au pied : ce n'est pas que le dos qui parle, c'est la racine pincée à l'étage lombaire.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c2-l02-risque-tev",
+  "kind": "lesson",
+  "prompt": "TEV = Thrombo-Embolie Veineuse. Ça regroupe deux entités :\n• Thrombose veineuse profonde (TVP) — un caillot dans une veine, classiquement du mollet.\n• Embolie pulmonaire (EP) — le caillot migre et bouche une artère pulmonaire. Potentiellement mortel.\n\nPourquoi les œstrogènes augmentent ce risque ?\n\nL'œstrogène modifie la balance des facteurs de coagulation hépatiques : il augmente certains pro-coagulants (II, VII, X, fibrinogène) et diminue certains anti-coagulants. Résultat : le sang devient un peu plus 'collant', plus enclin à former des caillots dans les veines.\n\nQUELQUES REPÈRES (ordres de grandeur) :\n• Femme sans pilule : risque de TEV ≈ 2 cas / 10 000 / an.\n• Femme sous œstro-progestatif : risque environ 3 à 6 fois plus élevé (selon le progestatif associé). Le risque reste FAIBLE en absolu mais augmenté en relatif.\n• Grossesse / post-partum : risque encore plus élevé que sous pilule.\n\nCe risque explique les principales contre-indications : tabac + 35 ans (potentialise), migraine avec aura, antécédent personnel de TEV, thrombophilie connue, immobilisation prolongée, post-partum immédiat.\n\nSIGNES À CONNAÎTRE pour une patiente sous œstro-progestatifs : mollet brutalement douloureux/chaud/gonflé → urgence (TVP probable) ; douleur thoracique soudaine + essoufflement → urgence (EP probable).",
+  "rationale": "C'est la complication redoutée, et c'est elle qui structure toutes les contre-indications. À retenir : risque relatif augmenté, mais risque absolu qui reste faible chez une jeune femme sans facteur de risque — d'où l'importance de l'évaluation individuelle plutôt que d'un refus systématique. Le passage à un progestatif seul ou à un DIU élimine ce risque (les progestatifs seuls n'augmentent pas le risque de TEV).",
+  "tags": {
+    "system": ["gynecologie-urologie", "cardiovasculaire"],
+    "sdd": ["contraception"],
+    "item_edn": [35, 226],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

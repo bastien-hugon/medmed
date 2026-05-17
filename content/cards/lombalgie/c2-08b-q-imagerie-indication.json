@@ -1,0 +1,41 @@
+{
+  "id": "lombalgie-c2-q08-imagerie-indication",
+  "kind": "qcm-vignette",
+  "prompt": "Un homme de 40 ans consulte pour une lombalgie aiguë apparue il y a 5 jours après avoir bricolé. Examen neurologique normal, pas de drapeau rouge, douleur mécanique. Il demande une IRM 'pour être sûr'. Quelle est la conduite recommandée ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Prescrire une IRM lombaire en urgence",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Prescrire une radiographie du rachis lombaire",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Pas d'imagerie : expliquer pourquoi elle n'apporterait rien et risque même de nuire",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Prescrire une IRM dans 1 mois en l'absence d'amélioration",
+      "correct": false
+    }
+  ],
+  "expected": ["c"],
+  "rationale": "Lombalgie commune aiguë sans drapeau rouge = pas d'imagerie (HAS 2019, NICE NG59). Le piège est de céder à la demande du patient. Au contraire, expliquer pourquoi l'imagerie n'aide pas (anomalies fréquentes asymptomatiques, surdiagnostic, anxiogène) fait partie du traitement. L'imagerie n'est légitime qu'en cas de drapeau rouge, ou après 4-6 semaines de douleur persistante avec impact fonctionnel important.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "imagerie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

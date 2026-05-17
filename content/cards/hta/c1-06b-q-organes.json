@@ -1,0 +1,19 @@
+{
+  "id": "hta-c1-q07-organes",
+  "kind": "free-recall",
+  "prompt": "L'HTA non traitée fait des dégâts silencieux dans 4 organes principaux. Cite-les (un mot par organe suffit).",
+  "expected": ["cerveau (AVC)", "cœur (infarctus, insuffisance cardiaque)", "reins (insuffisance rénale)", "yeux (rétinopathie)"],
+  "rationale": "Les 4 organes-cibles de l'HTA. Moyen mnémo : les organes les plus vascularisés sont les plus touchés — c'est par leurs petites artères que les dégâts arrivent. 'Tueur silencieux' = aucun symptôme avant que l'accident arrive (AVC, infarctus).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

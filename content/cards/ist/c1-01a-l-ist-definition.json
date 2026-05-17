@@ -1,0 +1,18 @@
+{
+  "id": "ist-c1-l01-ist-definition",
+  "kind": "lesson",
+  "prompt": "Une IST, c'est quoi ?\n\nIST = Infection Sexuellement Transmissible. Un microbe (bactérie, virus, parasite) passe d'une personne à une autre pendant un rapport sexuel — vaginal, anal, ou oral.\n\nLe microbe se transmet par contact avec du sang, du sperme, des sécrétions vaginales, ou simplement par contact peau-peau au niveau des zones génitales. Pas besoin de pénétration : un contact muqueux suffit pour certaines IST (HPV, herpès).\n\nIST ≠ maladie 'sale' ou 'honteuse'. C'est une infection comme une angine, sauf que la voie d'entrée est sexuelle. Tout le monde peut en attraper une, et la majorité se traitent bien quand elles sont détectées tôt.",
+  "rationale": "Comprendre le mécanisme retire la honte. Le but du dépistage n'est pas de juger mais d'attraper l'infection avant les complications (infertilité, transmission à d'autres). On parle aussi parfois d'IST 'sexuellement transmissibles' au sens large, incluant des infections qui peuvent aussi passer par d'autres voies (hépatite B par le sang, par exemple).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

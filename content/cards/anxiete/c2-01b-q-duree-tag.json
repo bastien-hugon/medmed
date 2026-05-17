@@ -1,0 +1,19 @@
+{
+  "id": "anxiete-c2-q01-duree-tag",
+  "kind": "cloze",
+  "prompt": "Pour poser le diagnostic de TAG, la durée minimale de soucis excessifs requise par les recommandations est de ___ mois.",
+  "expected": ["6"],
+  "rationale": "Le seuil de 6 mois est partagé par NICE, DSM-5 et CIM-11. Ce délai sert à distinguer un TAG vrai (chronique) d'une réaction anxieuse aiguë à un stress identifiable. Au-dessous de 6 mois, on parlera plutôt de trouble de l'adaptation avec humeur anxieuse, ou d'anxiété réactionnelle.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

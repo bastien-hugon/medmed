@@ -1,0 +1,25 @@
+{
+  "id": "ist-c2-q06-pep-delai",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient consulte en urgence pour un rapport non protégé avec un partenaire séropositif. À partir de quel délai la PEP VIH n'est-elle plus indiquée ?",
+  "choices": [
+    { "id": "a", "text": "Au-delà de 24 h", "correct": false },
+    { "id": "b", "text": "Au-delà de 72 h", "correct": true },
+    { "id": "c", "text": "Au-delà de 7 jours", "correct": false },
+    { "id": "d", "text": "Au-delà de 28 jours", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "La PEP (Post-Exposure Prophylaxis) doit être débutée le plus tôt possible, idéalement dans les 48 h, et au plus tard dans les 72 h après l'exposition. Au-delà, l'efficacité n'est plus prouvée et la PEP n'est plus indiquée. C'est une URGENCE — orientation immédiate aux urgences ou CeGIDD. La durée du traitement, elle, est de 28 jours (ne pas confondre délai d'initiation et durée du traitement).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

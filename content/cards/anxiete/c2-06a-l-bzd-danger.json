@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c2-l06-bzd-danger",
+  "kind": "lesson",
+  "prompt": "Les BENZODIAZÉPINES (BZD) sont une classe d'anxiolytiques très puissants : alprazolam, bromazépam, diazépam, oxazépam, lorazépam, clonazépam, prazépam, etc. Souvent reconnaissables aux suffixes en '-azépam' ou '-azolam'.\n\nElles agissent en quelques dizaines de minutes — d'où leur efficacité IMPRESSIONNANTE en CRISE aiguë.\n\nMAIS — et c'est LE message-clé — NICE est très explicite :\n\n« Ne pas prescrire de benzodiazépine pour le traitement du TAG en soins primaires ou secondaires, SAUF comme mesure DE COURT TERME pendant une CRISE. »\n\nPourquoi cette mise en garde ferme ?\n\n• DÉPENDANCE physique et psychique installée en QUELQUES SEMAINES seulement. Sevrage très difficile, parfois pire que l'anxiété initiale (rebond, convulsions chez le grand consommateur).\n• TROUBLES COGNITIFS : altération de la mémoire, de l'attention, des réflexes. Particulièrement dangereux chez la personne âgée.\n• CHUTES et fractures (notamment col du fémur) — augmentation marquée du risque chez le sujet âgé.\n• Risque d'ACCIDENTS de la route (somnolence, baisse des réflexes).\n• AGGRAVENT le trouble anxieux à long terme : la BZD masque le symptôme sans traiter le fond, et le patient devient incapable d'apprendre à gérer son anxiété autrement.\n• Risque accru de DÉCÈS en cas d'association à l'alcool ou aux opioïdes (dépression respiratoire).\n\nEn pratique : si on doit prescrire une BZD pour une crise, FAIRE COURT (idéalement < 2-4 semaines), à la PLUS PETITE dose efficace, en expliquant d'emblée la sortie.",
+  "rationale": "La sur-prescription chronique de BZD est un PROBLÈME MAJEUR de santé publique en France (l'un des pays les plus consommateurs au monde). Beaucoup de patients TAG sont sous BZD depuis des années — sortie progressive très difficile. À retenir : BZD = pompiers pour un feu aigu, JAMAIS pour le chauffage central. Le 'fond' du TAG se traite par CBT ou SSRI, pas par BZD. Réflexe d'ordonnance : si on prescrit une BZD, planifier la sortie d'emblée et la noter dans le dossier.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

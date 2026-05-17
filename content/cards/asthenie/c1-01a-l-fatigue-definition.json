@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c1-l01-fatigue-definition",
+  "kind": "lesson",
+  "prompt": "La FATIGUE (en jargon médical : ASTHÉNIE) est un symptôme universel. Presque tout le monde la ressent un jour ou l'autre.\n\nDéfinition simple : c'est la difficulté à démarrer une activité et à la tenir dans la durée, par manque d'énergie, avec un désir de repos.\n\nImage utile : ta batterie interne est faible. Allumer la machine demande un effort, et elle se vide vite.\n\nC'est un symptôme SUBJECTIF — on ne le mesure pas avec un appareil. Le patient le dit, le médecin l'écoute. Du coup, deux personnes peuvent appeler 'fatigue' deux choses très différentes (manque de force, envie de dormir, essoufflement…). Première mission du médecin : faire préciser ce que le patient veut dire.",
+  "rationale": "Retenir trois choses : (1) la fatigue est un motif de consultation très fréquent en médecine générale ; (2) c'est subjectif, donc il faut TOUJOURS faire reformuler le patient ; (3) ce n'est pas une maladie en soi, c'est un signal qu'il faut décoder.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

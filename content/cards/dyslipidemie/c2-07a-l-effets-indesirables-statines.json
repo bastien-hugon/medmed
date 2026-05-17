@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c2-l07-effets-indesirables-statines",
+  "kind": "lesson",
+  "prompt": "Les statines ont mauvaise presse à cause d'EFFETS INDÉSIRABLES (EI) souvent surestimés par les patients et les médias. Voici la réalité clinique.\n\nEFFETS MUSCULAIRES (les plus connus)\n• Myalgies (douleurs musculaires) : fréquentes, souvent bénignes, parfois liées à un effet nocebo.\n• Myosite avec élévation des CPK : rare.\n• Rhabdomyolyse (destruction massive du muscle) : EXTRÊMEMENT rare (~1/10 000 patients-année). C'est l'EI grave à connaître.\n\nConduite à tenir face à des douleurs musculaires sous statine :\n• Vérifier qu'elles ne sont pas explicables autrement (effort inhabituel, infection virale, hypothyroïdie).\n• Doser les CPK SEULEMENT si symptômes persistants inexpliqués.\n• Si CPK >5× la normale → arrêter, recontrôler à 7 jours, ne pas réintroduire si toujours élevées.\n• Si CPK <5× normale + symptômes : rassurer, chercher d'autres causes, ou changer de statine (souvent rosuvastatine).\n• NE PAS doser les CPK chez un patient ASYMPTOMATIQUE.\n\nEFFETS HÉPATIQUES\n• Élévation des transaminases (ALAT / ASAT) : modérée, transitoire le plus souvent.\n• Hépatite médicamenteuse : rare.\n• Règle : ne pas démarrer si transaminases >3× la normale ; sinon, on peut y aller.\n\nAUTRES\n• Augmentation modeste du risque de diabète (≈ +9 % chez les patients à risque) : NE JUSTIFIE PAS l'arrêt — le bénéfice CV est nettement supérieur.\n• Symptômes digestifs, céphalées : rares et bénins.\n\nMessage à transmettre au patient :\n'Les douleurs musculaires sont possibles et souvent bénignes. La rhabdomyolyse, l'effet grave, est extrêmement rare. Tout symptôme musculaire inexpliqué : on en parle, on adapte. Mais on ne stoppe pas par peur d'un risque qui est en fait beaucoup plus faible que celui de l'infarctus qu'on cherche à éviter.'",
+  "rationale": "L'effet nocebo est massif sur les statines : des études en double-aveugle (SAMSON 2020) ont montré que la majorité des 'douleurs sous statine' surviennent aussi sous placebo. À retenir : ne pas arrêter par réflexe, dialoguer, baisser la dose ou changer de molécule (rosuvastatine bien tolérée). NICE insiste : 'Le risque de douleur, sensibilité ou faiblesse musculaire associé à la statine est faible, et la rhabdomyolyse est extrêmement rare.'",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

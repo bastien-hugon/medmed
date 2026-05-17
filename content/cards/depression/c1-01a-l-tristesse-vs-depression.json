@@ -1,0 +1,18 @@
+{
+  "id": "depression-c1-l01-tristesse-vs-depression",
+  "kind": "lesson",
+  "prompt": "Tout le monde est triste, parfois. Une rupture, un deuil, un échec, une mauvaise journée — c'est normal, c'est sain, ça passe.\n\nLa DÉPRESSION (au sens médical), c'est autre chose. Ce n'est pas \"être triste\". C'est une MALADIE du cerveau, qui dure dans le temps et qui empêche de fonctionner.\n\nTrois différences à retenir :\n• La DURÉE — la tristesse dure quelques heures ou quelques jours, la dépression dure des SEMAINES (au moins 2).\n• L'INTENSITÉ — la tristesse laisse encore goûter aux choses, la dépression aspire la couleur de la vie entière.\n• Le RETENTISSEMENT — avec la tristesse, on continue à travailler, manger, voir ses proches. Avec la dépression, on n'y arrive plus.\n\nC'est pour ça qu'on parle d'ÉPISODE DÉPRESSIF CARACTÉRISÉ (EDC) — \"caractérisé\" = qui a des caractéristiques bien précises, pas un simple coup de blues.",
+  "rationale": "Cette distinction est fondamentale en médecine générale : 90 % des patients qui disent \"je suis déprimé\" ne le sont pas au sens médical. Et 30 % de ceux qui ne le disent pas le sont. Le MG doit savoir creuser. EDC = épisode dépressif caractérisé (le terme français pour MDD / Major Depressive Disorder).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

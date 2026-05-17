@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c2-l02-microvasculaire",
+  "kind": "lesson",
+  "prompt": "Les complications MICROVASCULAIRES touchent les TRÈS PETITS vaisseaux (capillaires). Elles sont quasi spécifiques au diabète — la plupart des autres maladies n'abîment pas les microvaisseaux comme ça. Trois cibles emblématiques :\n\n1. RÉTINOPATHIE DIABÉTIQUE (œil)\n   → Les capillaires de la rétine se fragilisent, se bouchent, fuient.\n   → Évolution silencieuse pendant des années.\n   → Stade avancé : néovaisseaux fragiles → hémorragies → cécité.\n   → 1ère cause de cécité chez l'adulte de 20-65 ans dans les pays riches.\n   → SURVEILLANCE : fond d'œil ANNUEL (parfois rétinographie).\n\n2. NÉPHROPATHIE DIABÉTIQUE (rein)\n   → Le filtre du rein (glomérule) s'abîme.\n   → 1er signe : apparition d'albumine (protéine) dans les urines (microalbuminurie).\n   → Évolue vers insuffisance rénale chronique → parfois dialyse.\n   → 1ère cause d'insuffisance rénale terminale en France.\n   → SURVEILLANCE : dosage annuel du rapport albumine/créatinine urinaire + créatinine sanguine.\n\n3. NEUROPATHIE DIABÉTIQUE (nerfs)\n   → Atteinte des nerfs périphériques, surtout les plus longs : ceux des pieds.\n   → Picotements, brûlures, douleurs, puis PERTE DE SENSIBILITÉ.\n   → Conséquence dramatique : on ne sent plus une petite plaie au pied → elle s'infecte sans qu'on s'en rende compte → ulcère → parfois amputation.\n   → SURVEILLANCE : examen annuel des pieds + test au monofilament.\n\nLe risque commence à partir de ~10 ans de diabète mal équilibré, mais peut être beaucoup plus précoce si l'HbA1c est très haute.",
+  "rationale": "Mnémo : '3 organes en R' — Rétine, Rein, neRfs. Tous trois ont en commun d'avoir des CAPILLAIRES TRÈS FINS très exposés à l'hyperglycémie chronique. Le contrôle glycémique strict (HbA1c proche de la cible) divise par 2 à 3 le risque de ces complications selon les études (UKPDS, DCCT). C'est l'argument central pour traiter activement le diabète, même s'il n'a aucun symptôme aujourd'hui.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

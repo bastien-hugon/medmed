@@ -1,0 +1,25 @@
+{
+  "id": "hta-c1-q11-nombre-mesures",
+  "kind": "qcm-vignette",
+  "prompt": "À chaque consultation de mesure de la PA, combien de mesures consécutives le médecin doit-il effectuer au minimum ?",
+  "choices": [
+    {"id": "a", "text": "Une seule, si elle est < 140/90", "correct": false},
+    {"id": "b", "text": "Au moins 2 mesures, espacées d'environ 1 minute", "correct": true},
+    {"id": "c", "text": "Exactement 5 mesures à la suite", "correct": false},
+    {"id": "d", "text": "Une mesure debout, une couchée — c'est tout", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Au minimum 2 mesures espacées d'environ 1 minute (HAS). La première mesure est souvent surestimée par le stress initial. La 2ème (ou la moyenne des 2 dernières si on en fait plus) est plus représentative. À la PREMIÈRE consultation on prend aussi la PA aux DEUX BRAS pour repérer un écart.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

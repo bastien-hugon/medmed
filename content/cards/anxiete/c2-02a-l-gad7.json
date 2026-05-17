@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c2-l02-gad7",
+  "kind": "lesson",
+  "prompt": "Pour ÉVALUER LA SÉVÉRITÉ d'un TAG (et suivre l'évolution), il existe un questionnaire court et validé : le GAD-7 (Generalised Anxiety Disorder 7-item scale).\n\nFonctionnement :\n• 7 items très simples (nervosité, incapacité à arrêter de s'inquiéter, soucis sur trop de sujets, difficulté à se détendre, agitation, irritabilité, peur que quelque chose de grave arrive)\n• Pour chaque item, le patient cote de 0 (jamais) à 3 (presque chaque jour) sur les 2 dernières semaines\n• Score total : 0 à 21\n\nIntérêts du GAD-7 :\n• Rapide (~2 minutes en autoquestionnaire)\n• Validé en MG\n• Sert AUSSI au screening initial (cut-off 8-10 selon les études) ET au monitoring de la réponse au traitement\n• Existe en version courte GAD-2 (les 2 premiers items) pour un dépistage ultra-rapide\n\nC'est un OUTIL D'AIDE — pas un diagnostic à lui seul. Un score élevé doit déclencher un entretien complet ; un score bas n'élimine pas un autre trouble anxieux.",
+  "rationale": "Le GAD-7 est devenu l'outil standard en MG anglo-saxonne et de plus en plus en France. Il a deux atouts majeurs : (1) il rend l'évaluation reproductible entre consultations (utile pour suivre une réponse à un SSRI sur 4-12 semaines) ; (2) il transforme une plainte 'floue' en chiffre tangible — précieux pour la motivation du patient. Limite : il ne dit RIEN sur le trouble panique ou les phobies — pour ça, il faudrait d'autres échelles.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

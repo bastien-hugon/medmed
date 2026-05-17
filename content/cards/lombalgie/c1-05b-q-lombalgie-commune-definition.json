@@ -1,0 +1,41 @@
+{
+  "id": "lombalgie-c1-q05-lombalgie-commune-definition",
+  "kind": "qcm-vignette",
+  "prompt": "Que veut dire 'lombalgie commune' ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Une lombalgie causée par une hernie discale visible à l'IRM",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Une douleur lombaire sans signe d'alerte de cause grave (≥ 90 % des cas)",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Une lombalgie qui dure plus de 3 mois",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Une lombalgie qui nécessite forcément une imagerie",
+      "correct": false
+    }
+  ],
+  "expected": ["b"],
+  "rationale": "Lombalgie 'commune' = sans drapeau rouge (sans signe d'alerte). C'est la grande majorité des cas. La durée (aiguë / chronique) est une AUTRE classification, indépendante : on peut avoir une lombalgie commune aiguë comme chronique.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

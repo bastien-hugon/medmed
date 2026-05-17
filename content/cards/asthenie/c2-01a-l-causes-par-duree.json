@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c2-l01a-causes-par-duree",
+  "kind": "lesson",
+  "prompt": "Reprenons les trois durées et associons à chacune ses causes les plus probables. C'est une carte de probabilités, pas de certitudes.\n\nFATIGUE RÉCENTE (< 1 mois)\n• Effets indésirables d'un médicament récemment introduit\n• Anémie (hémorragie aiguë, carence martiale rapide…)\n• Stress / dépression débutante\n• Infection virale en cours ou récente\n\nFATIGUE PROLONGÉE (1 à 6 mois)\n• Diabète mal équilibré\n• Hypothyroïdie (glande thyroïde qui tourne au ralenti)\n• Apnée du sommeil (SAOS) — fragmentation chronique du sommeil\n• Cancer occulte (à évoquer surtout après 50 ans avec amaigrissement)\n• Dépression installée\n\nFATIGUE CHRONIQUE (> 6 mois)\n• Encéphalomyélite myalgique / syndrome de fatigue chronique (ME/CFS, SFC)\n• Fatigue post-virale (post-COVID, post-mononucléose…)\n• Dépression chronique\n• Médicaments pris au long cours\n\nÀ ces étiologies par catégorie s'ajoutent toujours les causes plus rares à ne pas oublier (maladies systémiques, infections chroniques type VIH ou tuberculose, troubles du sommeil non-SAOS…).",
+  "rationale": "Ce mapping durée → causes typiques est un raccourci utile pour orienter l'enquête, pas une checklist exhaustive. Les médicaments traversent toutes les colonnes : c'est LA cause iatrogène à toujours rechercher quel que soit le délai. Le diabète et l'hypothyroïdie sont particulièrement insidieux : ils s'installent en mois.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

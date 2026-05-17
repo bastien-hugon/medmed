@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c2-l05-meningite-deficit-50ans",
+  "kind": "lesson",
+  "prompt": "Trois drapeaux rouges fréquents en médecine générale qui ne pardonnent pas si on les rate.\n\n1) CÉPHALÉE + FIÈVRE + RAIDEUR DE NUQUE → MÉNINGITE\nLa triade méningée historique (céphalée, fièvre, raideur nucale) est l'urgence absolue. Y penser dès deux signes sur trois. Signes complémentaires : photophobie, vomissements, troubles de conscience, purpura cutané (méningococcémie → urgence vitale, antibiothérapie immédiate avant transfert). Toute céphalée + fièvre = examen neurologique soigneux + recherche d'un syndrome méningé.\n\n2) CÉPHALÉE + DÉFICIT NEUROLOGIQUE PERSISTANT → IMAGERIE EN URGENCE\nUn déficit focal qui ne se résout pas en quelques minutes (hémiparésie, aphasie, hémianopsie, ataxie) associé à une céphalée évoque : AVC ischémique ou hémorragique, thrombose veineuse cérébrale, tumeur, abcès. À distinguer de l'aura migraineuse qui est PAR DÉFINITION transitoire (< 60 min) et réversible. Une 'aura' qui persiste au-delà d'une heure → ce n'est plus une aura. Imagerie obligatoire.\n\n3) CÉPHALÉE NOUVELLE CHEZ > 50 ANS → HORTON À ÉLIMINER\nL'artérite à cellules géantes (maladie de Horton) est une vascularite des grosses artères qui touche surtout l'artère temporale après 50 ans (pic 70-80 ans). Signes :\n   • Céphalée nouvelle, souvent temporale, avec hyperesthésie du cuir chevelu ('mal de tête quand je me coiffe')\n   • Claudication de la mâchoire en mâchant\n   • Altération de l'état général, fièvre modérée\n   • Parfois symptômes visuels (cécité monoculaire transitoire ou définitive)\n   • Artère temporale dure, douloureuse, sans pouls à la palpation\nExamens : VS et CRP très augmentées. Confirmation par biopsie d'artère temporale.\nUrgence : risque de CÉCITÉ DÉFINITIVE par névrite optique ischémique. Corticothérapie à débuter SANS attendre la biopsie dès la forte suspicion.\n\nRègle pratique : toute nouvelle céphalée chez > 50 ans = VS/CRP en premier recours.",
+  "rationale": "Ces trois situations partagent une logique : la céphalée n'est pas la maladie, c'est le SYMPTÔME d'une autre maladie potentiellement mortelle ou invalidante (méningite, AVC, Horton). Le 'piège du généraliste' est de banaliser une céphalée 'qui ressemble' parce que la cause systémique (fièvre, âge, déficit) n'a pas été cherchée.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "horton", "meningite"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

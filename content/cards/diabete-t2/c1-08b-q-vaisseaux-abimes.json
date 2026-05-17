@@ -1,0 +1,25 @@
+{
+  "id": "diabete-t2-c1-q10-vaisseaux-abimes",
+  "kind": "qcm-vignette",
+  "prompt": "Sur le long terme, pourquoi le diabète provoque-t-il des complications graves (cécité, infarctus, AVC, amputations) ?",
+  "choices": [
+    { "id": "a", "text": "Parce que le sucre détruit directement les organes par toxicité aiguë", "correct": false },
+    { "id": "b", "text": "Parce que l'excès de sucre prolongé abîme les vaisseaux sanguins, petits et gros", "correct": true },
+    { "id": "c", "text": "Parce que le diabète affaiblit le système immunitaire", "correct": false },
+    { "id": "d", "text": "Parce que les médicaments antidiabétiques sont toxiques", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le mécanisme central des complications du diabète = atteinte des vaisseaux. Microvasculaires (yeux, reins, nerfs) + macrovasculaires (cœur, cerveau, jambes). C'est pour ça que la surveillance du diabétique inclut : fond d'œil annuel, analyse d'urine (rein), examen des pieds (neuropathie), bilan cardio. Le diabète favorise aussi les infections, mais c'est secondaire par rapport à l'atteinte vasculaire.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

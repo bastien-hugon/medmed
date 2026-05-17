@@ -1,0 +1,18 @@
+{
+  "id": "hta-c1-l08-prise-pa-tensiometre",
+  "kind": "lesson",
+  "prompt": "Comment on mesure ta pression artérielle, concrètement ?\n\nAvec un appareil qui s'appelle un TENSIOMÈTRE. La partie qui te serre le bras s'appelle la MANCHETTE (ou brassard) : c'est un coussin en tissu qu'on gonfle autour du bras nu.\n\nLe principe : la manchette se gonfle assez fort pour BOUCHER l'artère du bras, puis se dégonfle doucement. L'appareil 'écoute' (ou détecte les vibrations) à quel moment le sang recommence à passer — ça donne la pression systolique — et à quel moment le flux redevient continu — la diastolique.\n\nDeux règles techniques qui changent tout :\n\n• La manchette se met sur le BRAS NU, à mi-hauteur entre l'épaule et le coude. Pas par-dessus un pull. Pas sur l'avant-bras.\n\n• Le bras doit être posé sur une table, à la HAUTEUR DU CŒUR. Si le bras pend en bas, le résultat est faussement haut. S'il est levé, faussement bas.\n\nEt la taille de la manchette doit être adaptée à la circonférence de ton bras. Un brassard trop petit sur un gros bras surestime la PA.",
+  "rationale": "Pourquoi c'est important : une PA mal mesurée peut faire diagnostiquer une HTA à quelqu'un qui n'en a pas (et l'envoyer à vie sous médicaments), ou rater un vrai hypertendu. La HAS insiste sur 'brassard adapté à la circonférence du bras' et 'mesure au bras de préférence'. La hauteur du cœur, c'est de la physique : 10 cm en dessous = +8 mmHg environ.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

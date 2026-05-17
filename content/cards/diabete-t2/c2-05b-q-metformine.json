@@ -1,0 +1,25 @@
+{
+  "id": "diabete-t2-c2-q04-metformine",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le mécanisme d'action principal de la metformine ?",
+  "choices": [
+    { "id": "a", "text": "Elle stimule le pancréas à sécréter plus d'insuline", "correct": false },
+    { "id": "b", "text": "Elle diminue la production hépatique de glucose (néoglucogenèse)", "correct": true },
+    { "id": "c", "text": "Elle bloque l'absorption intestinale du glucose", "correct": false },
+    { "id": "d", "text": "Elle augmente l'élimination du glucose dans les urines", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Metformine = action principale HÉPATIQUE : elle freine la fabrication de glucose par le foie. Donc PAS d'augmentation de la sécrétion d'insuline (= sulfamides, réponse a), PAS de blocage intestinal (= acarbose, réponse c), PAS d'élimination urinaire (= inhibiteurs SGLT2, réponse d). C'est précisément parce qu'elle n'agit PAS sur l'insuline qu'elle ne provoque pas d'hypoglycémie en monothérapie.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

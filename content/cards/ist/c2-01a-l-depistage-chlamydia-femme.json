@@ -1,0 +1,18 @@
+{
+  "id": "ist-c2-l01-depistage-chlamydia-femme",
+  "kind": "lesson",
+  "prompt": "Le dépistage de la chlamydia est une des recommandations les plus solides en médecine générale.\n\nCible principale : TOUTE FEMME SEXUELLEMENT ACTIVE < 25 ANS, dépistage ANNUEL.\n\nPourquoi cette cible ? La prévalence est maximale dans cette tranche d'âge, et les complications (infertilité par atteinte des trompes) sont précisément ce que le dépistage cherche à éviter.\n\nÀ 25 ans et au-delà, on dépiste les femmes ayant un facteur de risque : nouveau partenaire récent, partenaires multiples, partenaire ayant lui-même plusieurs partenaires, ou partenaire connu IST.\n\nGrossesse : dépistage à la 1ère consultation prénatale si < 25 ans ou à risque, puis au 3ème trimestre si exposition récente.\n\nTechnique : NAAT (Nucleic Acid Amplification Test), sur AUTO-PRÉLÈVEMENT VAGINAL (idéal) OU 1er jet d'urine. L'auto-prélèvement vaginal est aussi performant qu'un prélèvement fait par le clinicien — moins gênant pour la patiente.",
+  "rationale": "L'auto-prélèvement vaginal change la donne : pas besoin d'examen au spéculum pour dépister. La patiente fait elle-même son écouvillon en cabine ou à domicile. Levier d'acceptabilité majeur — c'est pour ça qu'on le préfère au 1er jet d'urine chez la femme (un peu plus sensible). La doxycycline (= traitement, vu après) ne fonctionne PAS en prévention systématique du dépistage : on dépiste, on traite si positif.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c1-l05-rupture-plaque",
+  "kind": "lesson",
+  "prompt": "On a vu qu'une plaque d'athérome rétrécit progressivement une artère. Mais le vrai drame ne vient pas du rétrécissement seul — il vient de la RUPTURE DE LA PLAQUE.\n\nQue se passe-t-il ?\n1. Une plaque, c'est un dépôt fragile, recouvert d'une fine 'pellicule' (la chape fibreuse).\n2. Un jour, sous l'effet du stress mécanique, de l'inflammation, ou d'un pic de tension, cette pellicule SE FISSURE.\n3. Le contenu graisseux de la plaque entre en contact avec le sang.\n4. Le sang réagit comme face à une blessure : il forme un CAILLOT (thrombus) en quelques secondes.\n5. Le caillot bouche brutalement l'artère.\n6. L'organe en aval ne reçoit plus de sang — il s'asphyxie et meurt.\n\nC'est ce qui provoque :\n• L'INFARCTUS DU MYOCARDE — une coronaire bouchée, le muscle du cœur meurt.\n• L'AVC ischémique — une artère cérébrale bouchée, une partie du cerveau meurt.\n• L'ischémie aiguë de membre — une artère de la jambe bouchée.\n\nDifférence cruciale :\n• Le RÉTRÉCISSEMENT chronique (la plaque qui grossit) donne des symptômes lents (douleur à l'effort, fatigue) — c'est l'angine, la claudication.\n• La RUPTURE soudaine donne une urgence absolue, sans prévenir — c'est l'infarctus, l'AVC.\n\nC'est pour ça qu'on traite le LDL longtemps AVANT que ça arrive : on essaie de stabiliser les plaques pour qu'elles ne rompent jamais.",
+  "rationale": "Cette distinction 'plaque stable qui rétrécit' vs 'plaque qui rompt brutalement' est centrale pour comprendre l'urgence des syndromes coronariens aigus. Les statines ne font pas que baisser le LDL : elles stabilisent aussi la chape fibreuse de la plaque (effet pléiotrope), réduisant le risque de rupture. C'est l'argument-clé à donner au patient sceptique : 'on traite pour éviter l'infarctus du jour où on ne s'y attend pas'.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

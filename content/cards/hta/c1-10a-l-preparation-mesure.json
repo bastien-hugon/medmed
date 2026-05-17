@@ -1,0 +1,18 @@
+{
+  "id": "hta-c1-l10-preparation-mesure",
+  "kind": "lesson",
+  "prompt": "Avant de mesurer ta PA, il y a quelques règles. Si tu les oublies, le chiffre peut grimper de 10 à 20 mmHg pour rien.\n\nLes conditions à respecter :\n\n• ASSIS et au repos pendant au moins 3 à 5 MINUTES avant la mesure. Pas juste 'tu t'es assis il y a 30 secondes'.\n\n• VESSIE VIDE. Une vessie pleine, ça envoie un signal de stress au système nerveux qui fait monter la PA.\n\n• PAS DE TABAC ni DE CAFÉ dans les 30 minutes qui précèdent (la nicotine et la caféine sont des stimulants qui font grimper la PA temporairement).\n\n• DANS LE CALME, SANS PARLER pendant la mesure. Parler peut faire monter la PA de 10 mmHg.\n\n• Dans une pièce à température normale (le froid contracte les vaisseaux et fait monter la PA).\n\nEn résumé : on ne mesure pas une PA à la va-vite entre deux portes. Si on veut un chiffre fiable, on prend le temps de poser le patient.",
+  "rationale": "Beaucoup de 'fausses HTA' viennent de mesures faites dans de mauvaises conditions. Si la PA est haute à la première mesure et que les conditions n'étaient pas bonnes, on REPREND la PA 5 minutes plus tard dans le calme. C'est la base de la mesure standardisée HAS.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "anxiete-c2-s09-tag-hypothese",
+  "kind": "sct",
+  "prompt": "Vous voyez en consultation Mme D., 52 ans, qui décrit depuis 8 mois des soucis envahissants, des troubles du sommeil, une tension musculaire et une fatigue marquée. Vous évoquez en première hypothèse un TROUBLE ANXIEUX GÉNÉRALISÉ.",
+  "hypothesis": "Le diagnostic est un trouble anxieux généralisé (TAG)",
+  "new_info": "Le bilan biologique de débrouillage révèle une TSH effondrée à 0,01 mUI/L avec T4 libre très élevée, en faveur d'une hyperthyroïdie franche.",
+  "expected": "affaiblit",
+  "rationale": "L'hyperthyroïdie est une cause organique CLASSIQUE qui mime un TAG : nervosité, palpitations, tremblements, troubles du sommeil, perte de poids, irritabilité. NICE rappelle d'explorer les comorbidités et causes médicales avant d'arrêter un diagnostic de TAG. Une TSH effondrée affaiblit donc nettement l'hypothèse TAG : il faut traiter la cause thyroïdienne d'abord, puis réévaluer l'anxiété. Ce n'est pas 'neutre' (ce résultat change la PEC) ni 'renforce' (au contraire, il oriente vers une autre cause). Mnémo des causes médicales d'anxiété : hyperthyroïdie, hypoglycémie, phéochromocytome (rare), anémie, sevrage (alcool, BZD), médicaments (corticoïdes, salbutamol, caféine).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

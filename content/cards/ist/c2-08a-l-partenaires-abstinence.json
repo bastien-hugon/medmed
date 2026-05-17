@@ -1,0 +1,18 @@
+{
+  "id": "ist-c2-l08-partenaires-abstinence",
+  "kind": "lesson",
+  "prompt": "Diagnostiquer une IST chez le patient ne suffit pas — il faut casser la chaîne de transmission.\n\n1) GESTION DES PARTENAIRES :\n• Notifier et traiter tous les partenaires sexuels des 60 DERNIERS JOURS avant le diagnostic ou les symptômes.\n• Si pas de partenaire dans les 60 jours, traiter le partenaire LE PLUS RÉCENT, quel que soit le délai.\n• Soit le partenaire vient se faire dépister et traiter (idéal), soit on utilise l'EPT (Expedited Partner Therapy) = remettre au patient l'ordonnance pour le partenaire, sans consultation préalable. Pratique nord-américaine, encadrée diversement en France.\n\n2) ABSTINENCE SEXUELLE pendant le traitement :\n• Après dose unique (azithromycine 1 g) : ABSTINENCE 7 JOURS après la prise.\n• Après cure de 7 jours (doxycycline) : abstinence pendant toute la cure ET 7 jours après la dernière prise.\n• ET tant que tous les partenaires ne sont pas traités.\n\nObjectif : éviter le 'ping-pong' (réinfection mutuelle) et la transmission à de nouveaux partenaires.",
+  "rationale": "La règle des 60 jours est arbitraire mais pratique : elle attrape la grande majorité des partenaires contaminés, sans imposer de rappels impossibles à très long terme. L'EPT (Expedited Partner Therapy) est une innovation de santé publique : on traite une personne qu'on n'a pas vue, en se basant sur le diagnostic du partenaire — accepté en cas de chlamydia simple, plus contesté pour syphilis ou gonocoque.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  }
+}

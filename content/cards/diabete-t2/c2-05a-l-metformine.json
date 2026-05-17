@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c2-l05-metformine",
+  "kind": "lesson",
+  "prompt": "Quand les règles hygiéno-diététiques (alimentation, activité physique, perte de poids) ne suffisent pas pour atteindre la cible d'HbA1c, on ajoute UN médicament. Lequel ? La METFORMINE — incontestablement, en 1ère ligne, partout dans le monde.\n\nPourquoi elle ?\n• Efficace (baisse HbA1c ~1 à 1,5 %)\n• Pas de prise de poids (au contraire, parfois petite perte)\n• PAS d'hypoglycémie en monothérapie (énorme avantage)\n• Très bon recul (utilisée depuis les années 1950)\n• Pas chère\n• Données de bénéfice cardiovasculaire (étude UKPDS)\n\nMÉCANISME D'ACTION (à connaître) :\nLa metformine agit PRINCIPALEMENT SUR LE FOIE. Elle DIMINUE la NÉOGLUCOGENÈSE (= fabrication de glucose par le foie). Rappel : chez le diabétique T2, le foie continue à fabriquer du sucre même quand la glycémie est déjà haute. La metformine freine ce processus → la glycémie à jeun baisse.\n\nElle améliore aussi un peu la sensibilité à l'insuline dans les muscles. Elle n'augmente PAS la sécrétion d'insuline (à la différence des sulfamides) → pas de risque d'hypoglycémie.\n\nEFFETS SECONDAIRES principaux :\n• Digestifs : nausées, diarrhées, douleurs abdo (très fréquents au début) → s'estompent souvent en 2-4 semaines, surtout si on commence à faible dose et qu'on prend les comprimés au milieu du repas\n• Carence en vitamine B12 (à long terme, à surveiller)\n• Acidose lactique : RARE mais grave, surtout si insuffisance rénale → contre-indication si fonction rénale très altérée (DFG < 30 ml/min)\n\nÀ ARRÊTER TEMPORAIREMENT en cas de : déshydratation aiguë, injection de produit de contraste iodé, intervention chirurgicale, insuffisance rénale aiguë.",
+  "rationale": "Mnémo : 'Metformine = freine le FOIE'. C'est l'antidiabétique oral à connaître AVANT tous les autres. Pour aller plus loin : dose habituelle 1500-2000 mg/j en 2-3 prises. Commencer à 500 mg/j et titrer progressivement pour limiter les effets digestifs. Contre-indications principales : DFG < 30, insuffisance hépatique sévère, situations d'hypoxie aiguë.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

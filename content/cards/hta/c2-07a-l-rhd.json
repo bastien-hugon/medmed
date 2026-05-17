@@ -1,0 +1,18 @@
+{
+  "id": "hta-c2-l07-rhd",
+  "kind": "lesson",
+  "prompt": "Avant (et toujours pendant) tout traitement médicamenteux de l'HTA, il y a les RHD — Règles Hygiéno-Diététiques. La HAS les recommande systématiquement.\n\nEn pratique, 5 leviers :\n\n1. SEL : limiter à ≤ 6 g/jour (soit ~100-150 mmol de sodium urinaire/jour). En pratique : pas de salière à table, lire les étiquettes (charcuterie, pain, plats industriels, fromage), cuisiner maison. Une baisse de 5 g/j de sel = ~5 mmHg de PAS en moins.\n\n2. ACTIVITÉ PHYSIQUE : 30 minutes/jour d'endurance, au moins 3 fois/semaine (marche rapide, vélo, natation, jardinage actif). Effet propre : -5 à -10 mmHg.\n\n3. POIDS : si surpoids ou obésité, perdre 5-10 % du poids fait baisser la PA significativement.\n\n4. ALCOOL : limiter à ≤ 3 verres/jour pour l'homme, ≤ 2 verres/jour pour la femme. Au-delà = facteur d'HTA.\n\n5. TABAC : arrêt obligatoire. Le tabac ne fait pas vraiment monter la PA sur le long terme, mais il MULTIPLIE le risque cardiovasculaire de l'hypertendu (infarctus, AVC).\n\nBONUS : alimentation type 'méditerranéenne / DASH' (fruits, légumes, peu de viande rouge, peu d'aliments transformés), réduction de la réglisse (qui contient un dérivé qui mime l'aldostérone et fait monter la PA).",
+  "rationale": "Les RHD seules peuvent baisser la PA de 10-20 mmHg cumulés — l'équivalent d'un antihypertenseur. Ne JAMAIS les zapper, même quand on prescrit des médicaments. Et c'est OBLIGATOIRE chez l'HTA blouse blanche (qui ne nécessite pas de médicament mais qui doit changer son mode de vie pour ne pas basculer).",
+  "tags": {
+    "system": ["cardiovasculaire", "nutrition"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

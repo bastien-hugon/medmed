@@ -1,0 +1,19 @@
+{
+  "id": "hta-c2-q10-spironolactone",
+  "kind": "cloze",
+  "prompt": "Le médicament recommandé en 4e ligne dans l'HTA résistante (chez le patient < 80 ans avec DFG ≥ 30 ml/min/1,73 m², après échec de la trithérapie optimale et élimination d'une HTA secondaire) est la ___.",
+  "expected": ["spironolactone"],
+  "rationale": "Spironolactone 12,5 à 50 mg/j en 4e ligne (HAS). C'est un anti-aldostérone (bloque le récepteur minéralocorticoïde du tubule rénal → diurétique épargneur de potassium). Contre-indications principales : DFG < 30 ml/min/1,73 m² et hyperkaliémie. Si CI, alternative = bêtabloquant en 4e ligne. Surveillance : kaliémie et créatinine, surtout en association à un IEC/ARA2.",
+  "tags": {
+    "system": ["cardiovasculaire", "endocrinologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

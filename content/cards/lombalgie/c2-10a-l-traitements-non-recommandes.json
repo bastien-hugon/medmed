@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c2-l10-traitements-non-recommandes",
+  "kind": "lesson",
+  "prompt": "Autant le savoir : beaucoup de traitements qu'on a longtemps utilisés en lombalgie ne sont PLUS recommandés, faute de preuves ou en raison de leurs risques.\n\nÀ ÉVITER :\n\n• REPOS AU LIT prolongé → entretient la douleur, augmente le risque de chronicité.\n\n• OPIOÏDES en lombalgie CHRONIQUE → NICE 2016 : 'do not offer opioids for managing chronic low back pain'. Pas d'efficacité au long cours, risque d'accoutumance et de mésusage. En aigu, à réserver aux échecs des AINS, durée courte.\n\n• GABAPENTINOÏDES (prégabaline, gabapentine) → contre-indiqués en poussée aiguë (Grade A, HAS). Pas d'efficacité en lombalgie commune. Risque de sédation et de mésusage. À réserver à la radiculalgie chronique à composante neuropathique avérée.\n\n• ANTIDÉPRESSEURS (tricycliques, IRSNa) en poussée aiguë → contre-indiqués (Grade A, HAS).\n\n• PARACÉTAMOL SEUL selon NICE : 'do not offer paracetamol alone'. La HAS le maintient à visée symptomatique mais reconnaît son efficacité limitée. À utiliser en complément, pas en monothérapie.\n\n• MYORELAXANTS, NÉFOPAM, CORTICOÏDES ORAUX, PATCH LIDOCAÏNE, ANTI-TNFα : pas de bénéfice démontré.\n\n• ULTRASONS, TRACTIONS, SEMELLES ORTHOPÉDIQUES, ACUPUNCTURE SEULE : pas d'efficacité (Grade B, HAS / NICE).\n\n• CEINTURE LOMBAIRE seule : pas de bénéfice prouvé. Tolérée pour aider à la reprise d'activité, courte durée.\n\nLE FIL CONDUCTEUR : moins on prescrit, mieux on agit. Le vrai traitement = bouger + rassurer.",
+  "rationale": "IRSNa = Inhibiteurs de la Recapture de la Sérotonine et de la NorAdrénaline (ex. duloxétine, venlafaxine). Beaucoup de patients arrivent avec une ordonnance qui mélange paracétamol + tramadol + myorelaxant + AINS — héritage des années 2000. Aujourd'hui, on simplifie radicalement : un AINS court, et basta. Plus la liste de médicaments est longue, plus le risque d'effets indésirables et de dépendance est élevé.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

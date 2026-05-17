@@ -1,0 +1,19 @@
+{
+  "id": "hta-c1-q04-mmhg",
+  "kind": "cloze",
+  "prompt": "L'unité utilisée pour mesurer la pression artérielle est le ___ (millimètre de mercure).",
+  "expected": ["mmHg"],
+  "rationale": "mmHg = millimètre de mercure. Hg vient de 'Hydrargyrum', l'ancien nom latin du mercure. Une PA normale est autour de 120/80 mmHg.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

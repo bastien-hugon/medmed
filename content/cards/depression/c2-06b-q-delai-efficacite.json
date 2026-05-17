@@ -1,0 +1,19 @@
+{
+  "id": "depression-c2-q06-delai-efficacite",
+  "kind": "cloze",
+  "prompt": "Selon NICE 2022, l'effet thérapeutique d'un antidépresseur (s'il doit marcher) apparaît habituellement dans un délai d'environ ___ semaines après l'initiation.",
+  "expected": ["4"],
+  "rationale": "4 semaines = repère clinique. Avant : éducation et soutien. Après 4 sem sans effet à dose adéquate : réévaluation (observance, dose, switch). Ce délai s'explique par les changements neuroplastiques qui prennent du temps biologique, indépendamment de l'élévation rapide de sérotonine synaptique.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

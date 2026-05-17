@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c1-l05-seuils-diagnostic",
+  "kind": "lesson",
+  "prompt": "À partir de quels chiffres dit-on qu'un patient a un DIABÈTE ?\n\nIl existe trois manières indépendantes de poser le diagnostic. UNE SEULE suffit (mais il faut la confirmer).\n\n1. GLYCÉMIE À JEUN ≥ 1,26 g/L (7,0 mmol/L)\n   → confirmée par une deuxième mesure un autre jour\n\n2. HbA1c ≥ 6,5 %\n   → également confirmée par une deuxième mesure\n\n3. GLYCÉMIE ALÉATOIRE (n'importe quand, à jeun ou pas) ≥ 2,0 g/L (11,1 mmol/L) + symptômes typiques (soif intense, urines abondantes, amaigrissement)\n   → là, pas besoin de confirmer, le diagnostic est posé\n\nEntre les valeurs normales et ces seuils, il y a une zone grise appelée PRÉDIABÈTE (par ex. glycémie à jeun 1,10 – 1,25 g/L, ou HbA1c 5,7 – 6,4 %). Pas encore un diabète, mais un fort risque d'en devenir un.\n\nPourquoi 1,26 et pas 1,30 ? C'est arbitraire mais validé : au-dessus de ce seuil, le risque de complications oculaires (rétinopathie) augmente nettement dans les études.",
+  "rationale": "À mémoriser : trois portes d'entrée vers le diagnostic — 1,26 / 6,5 / 2,0. Toutes valides indépendamment, et toutes doivent être confirmées SAUF la 3ème quand il y a des symptômes francs (urgence diagnostique). Note pédago : un patient peut avoir une HbA1c à 6,8 % et une glycémie à jeun normale — ça reste un diabète. Pas besoin que les trois soient anormaux.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

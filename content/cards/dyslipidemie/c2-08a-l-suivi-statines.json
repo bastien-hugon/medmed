@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c2-l08-suivi-statines",
+  "kind": "lesson",
+  "prompt": "Une fois la statine prescrite, on ne 'lâche' pas le patient. Voici le calendrier de SUIVI selon NICE.\n\nBilan biologique de SUIVI :\n\n• À 2-3 MOIS après l'initiation (ou après tout changement de dose) :\n  → Profil lipidique complet (chol total, HDL, LDL, TG, non-HDL).\n  → Transaminases (ALT/AST).\n  C'est le moment-clé : on vérifie l'efficacité (cible atteinte ?) et la tolérance hépatique.\n\n• À 12 MOIS :\n  → Transaminases.\n  → Profil lipidique : OBLIGATOIRE en prévention secondaire ; À CONSIDÉRER en prévention primaire.\n\n• ANNUELLEMENT ensuite :\n  → Revue médicamenteuse.\n  → Profil lipidique (annuel en prévention secondaire, à considérer en primaire).\n  → Discuter observance, RHD, autres FdR CV.\n  → Pour les patients stables sous intensité moyenne/faible : envisager un passage à l'intensité haute.\n\nCK (créatine kinase) : SEULEMENT si symptômes musculaires inexpliqués — JAMAIS en routine asymptomatique.\n\nGlucose / HbA1c : on ne stoppe PAS la statine pour une glycémie ou une HbA1c élevée.\n\nSi la cible LDL n'est pas atteinte à 3 mois :\n1. Discuter l'observance (médicament vraiment pris ?).\n2. Vérifier les RHD (régime, activité physique).\n3. Augmenter l'intensité ou la dose (si pas au max toléré).\n4. Si max toléré atteint et cible non atteinte : ajouter de l'ézétimibe, puis éventuellement un anti-PCSK9 (cf. carte suivante).\n\nÀ ne pas oublier : encourager les RHD à CHAQUE consultation. La statine ne dispense pas du mode de vie sain.",
+  "rationale": "Le rendez-vous à 3 mois est central : sans contrôle biologique précoce, on rate l'occasion d'ajuster une dose ou d'identifier une non-observance. À 12 mois et au-delà, le suivi devient annuel. NICE est clair sur le fait de NE PAS doser les CPK en routine — c'est un test à réserver aux patients symptomatiques. Astuce mnémonique : '3 / 12 / annuel'.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

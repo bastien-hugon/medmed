@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c1-l01-colonne-lombaire",
+  "kind": "lesson",
+  "prompt": "Imagine une pile de gros cubes posés les uns sur les autres : c'est ta colonne vertébrale. Chaque cube s'appelle une VERTÈBRE.\n\nLa colonne a plusieurs étages, mais ce qui nous intéresse ici, c'est la zone du bas du dos : la région LOMBAIRE. Elle compte 5 vertèbres, qu'on numérote L1, L2, L3, L4, L5 (L pour 'lombaire'). Ce sont les plus grosses de la colonne, parce que c'est elles qui supportent presque tout le poids du tronc.\n\nEntre deux vertèbres, il y a un coussin souple : le DISQUE INTERVERTÉBRAL. Et autour, des LIGAMENTS (cordes solides) tiennent l'ensemble.\n\nLa lombalgie, c'est une douleur qui vient de cette zone-là.",
+  "rationale": "Garde l'image de la pile de cubes amortis. Toute la mécanique du dos en découle : la colonne doit être à la fois rigide (pour porter) et souple (pour bouger). Les 5 vertèbres lombaires sont les plus sollicitées du corps — c'est pour ça que la lombalgie est si fréquente : 80 % des gens en auront au moins une fois dans leur vie.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

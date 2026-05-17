@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c1-l08-vaisseaux-abimes",
+  "kind": "lesson",
+  "prompt": "Pourquoi le diabète est-il une maladie aussi grave ? Parce que trop de sucre dans le sang, pendant longtemps, ABÎME LES VAISSEAUX SANGUINS.\n\nImage simple : imagine du sirop trop concentré qui circule en permanence dans des tuyaux. Au fil des années, il colle aux parois, encrasse, fragilise. Les tuyaux deviennent rigides, rétrécis, parfois bouchés.\n\nDans le corps, ça se passe à deux échelles :\n\n• Les TRÈS PETITS vaisseaux (microvaisseaux) : ceux qui irriguent les yeux, les reins, les nerfs. Quand ils s'abîment, on parle de complications MICROVASCULAIRES (= 'micro = petit').\n   → Yeux qui perdent la vue (rétinopathie diabétique)\n   → Reins qui filtrent moins bien (néphropathie)\n   → Nerfs qui ne transmettent plus bien (neuropathie, surtout aux pieds)\n\n• Les GROS vaisseaux (artères du cœur, du cerveau, des jambes) : quand ils s'abîment, on parle de complications MACROVASCULAIRES (= 'macro = gros').\n   → Infarctus du myocarde\n   → AVC (accident vasculaire cérébral)\n   → Artérite des membres inférieurs (douleurs en marchant, plaies qui ne cicatrisent pas)\n\nC'est ÇA qui tue les diabétiques. Pas l'hyperglycémie elle-même la plupart du temps — mais ses conséquences sur les vaisseaux, 10, 20, 30 ans après. D'où l'importance ABSOLUE de bien équilibrer son diabète tôt, pour retarder ou éviter ces complications.",
+  "rationale": "À retenir : 'sucre + temps = vaisseaux abîmés'. Le mécanisme biochimique précis (glycation, stress oxydatif, inflammation chronique) est de niveau supérieur — pas besoin maintenant. Garde l'image du sirop qui encrasse les tuyaux. Conséquence directe : un diabète bien équilibré (HbA1c proche de la cible) protège les vaisseaux ; un diabète négligé pendant 10 ans, c'est presque garanti d'avoir des complications.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

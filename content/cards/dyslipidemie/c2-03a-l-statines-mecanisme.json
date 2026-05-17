@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c2-l03-statines-mecanisme",
+  "kind": "lesson",
+  "prompt": "Les STATINES sont la classe-phare du traitement de la dyslipidémie. Comment fonctionnent-elles ?\n\nRappel : le foie fabrique ~70 % du cholestérol qui circule dans ton sang. Pour le fabriquer, il utilise une enzyme-clé appelée HMG-CoA RÉDUCTASE (acronyme à connaître : 3-hydroxy-3-méthyl-glutaryl-coenzyme A réductase).\n\nLes statines BLOQUENT cette enzyme.\n\nConséquence en cascade :\n1. Le foie fabrique MOINS de cholestérol.\n2. Pour compenser, ses cellules expriment plus de récepteurs au LDL à leur surface.\n3. Ces récepteurs CAPTURENT le LDL qui circule dans le sang et le ramènent dans le foie.\n4. Résultat : le LDL sanguin BAISSE — typiquement de 30 à 50 %, parfois plus avec les hautes doses.\n\nMais ce n'est pas tout. Les statines ont aussi des effets dits 'pléiotropes' :\n• Elles stabilisent la chape fibreuse des plaques (moins de rupture).\n• Elles ont une légère action anti-inflammatoire au niveau de l'artère.\n• Elles améliorent la fonction de l'endothélium (la 'paroi interne' des artères).\n\nC'est pour ça qu'elles réduisent les événements CV même quand le LDL initial n'était pas si élevé — ce n'est pas QUE de la baisse de chiffres.\n\nNoms à retenir (ordre d'intensité décroissant grossièrement) :\nrosuvastatine, atorvastatine (les deux principales), simvastatine, pravastatine, fluvastatine.",
+  "rationale": "L'HMG-CoA réductase est l'enzyme limitante de la synthèse du cholestérol — la bloquer est donc très efficace. L'idée à retenir : les statines ne 'lavent' pas le sang du cholestérol existant, elles empêchent le foie d'en fabriquer + boostent l'élimination via les récepteurs LDL. C'est cette double action qui explique leur efficacité. Astuce mnémonique : 'statines = STop ATorvastatine fabrique du cholestérol'.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

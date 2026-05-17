@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c1-l01-sucre-sang",
+  "kind": "lesson",
+  "prompt": "Dans ton sang circule en permanence un petit peu de SUCRE. Plus précisément du GLUCOSE — c'est le mot scientifique pour ce sucre-là.\n\nÀ quoi il sert ? C'est le carburant principal de toutes tes cellules. Comme l'essence pour une voiture. Sans glucose, tes muscles ne se contractent pas, ton cerveau ne pense pas, ton cœur ne bat pas.\n\nD'où vient-il ? De ce que tu manges. Le pain, les pâtes, le riz, les fruits, le sucre lui-même... tout ça est transformé par la digestion en glucose, puis envoyé dans le sang.\n\nL'image à retenir : ton sang est comme une autoroute qui livre du carburant (le glucose) à toutes les cellules-usines de ton corps.",
+  "rationale": "Pourquoi commencer par ça ? Parce que le diabète, c'est avant tout une maladie du glucose dans le sang. Si tu ne sais pas ce qu'est le glucose, tu ne peux pas comprendre pourquoi 'trop de sucre dans le sang' devient un problème. Note : glucose et 'sucre sanguin' = même chose dans ce cours.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

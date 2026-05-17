@@ -1,0 +1,18 @@
+{
+  "id": "ist-c2-l02-chlamydia-complications",
+  "kind": "lesson",
+  "prompt": "Pourquoi la chlamydia mérite-t-elle qu'on s'embête à la dépister ? À cause de ses complications, qui touchent surtout la fertilité.\n\nCHEZ LA FEMME :\n• PID (Pelvic Inflammatory Disease, en français : salpingite/infection génitale haute) — la bactérie remonte du col vers les trompes, provoque inflammation et destruction tissulaire. Souvent silencieuse ou peu bruyante.\n• Infertilité tubaire — séquelle d'une PID, les trompes obstruées empêchent la fécondation. Définitive.\n• GEU (Grossesse Extra-Utérine) — l'œuf reste bloqué dans une trompe cicatricielle. Urgence (rupture, hémorragie).\n\nCHEZ L'HOMME :\n• Épididymite — inflammation de l'épididyme (canal au-dessus du testicule), douleur scrotale.\n• Arthrite réactionnelle (ancien syndrome de Reiter) — arthrite stérile post-infection, parfois associée conjonctivite + urétrite.\n\nClé pédagogique : la complication infertilité féminine se construit en SILENCE pendant des années. C'est pour ça qu'on dépiste les femmes asymptomatiques < 25 ans — pour intercepter l'infection avant qu'elle remonte.",
+  "rationale": "PID = Pelvic Inflammatory Disease = infection génitale haute en français. C'est LA complication redoutée parce qu'elle conditionne le pronostic fertile. 10-15 % des chlamydia non traitées évolueraient vers une PID, et chaque épisode de PID double le risque d'infertilité tubaire. D'où la logique : 'dépiste tôt, traite simple, évite l'irréversible'.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  }
+}

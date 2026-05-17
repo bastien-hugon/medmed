@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c1-l07-facteurs-risque-cv",
+  "kind": "lesson",
+  "prompt": "Le cholestérol élevé n'agit pas seul. Il s'additionne à d'autres facteurs qui, ensemble, déterminent le RISQUE CARDIOVASCULAIRE GLOBAL — c'est-à-dire la probabilité de faire un infarctus ou un AVC dans les années à venir.\n\nLes principaux FACTEURS DE RISQUE CARDIOVASCULAIRES (souvent abrégés FdR CV) sont :\n\nNon modifiables (on ne peut rien y faire) :\n• L'ÂGE — le risque augmente nettement après 50 ans chez l'homme, 60 ans chez la femme.\n• Le SEXE masculin — risque CV plus précoce que chez la femme.\n• Les ANTÉCÉDENTS FAMILIAUX — infarctus ou AVC chez un parent du 1er degré (père, mère, frère, sœur) avant 55 ans (homme) ou 65 ans (femme).\n\nModifiables (on peut agir dessus) :\n• Le TABAGISME — actif ou récent.\n• L'HYPERTENSION ARTÉRIELLE (HTA) — PA ≥ 140/90 mmHg.\n• Le DIABÈTE — type 1 ou type 2.\n• Le CHOLESTÉROL ÉLEVÉ (LDL élevé, HDL bas).\n• L'OBÉSITÉ et la SÉDENTARITÉ.\n• Le STRESS chronique, l'ALCOOL excessif.\n\nL'idée à retenir : ces facteurs ne s'additionnent pas, ils SE MULTIPLIENT. Un fumeur diabétique hypertendu a un risque bien plus élevé que la simple somme des trois.\n\nC'est pour ça qu'on ne traite jamais un patient sur son seul taux de cholestérol — on calcule toujours son risque CV GLOBAL avant de décider d'une statine.",
+  "rationale": "Cette notion de risque MULTIPLICATIF est essentielle : c'est elle qui justifie qu'on traite parfois un patient avec un LDL 'limite' mais beaucoup d'autres FdR, et qu'on s'abstienne chez un patient avec un LDL un peu élevé mais aucun autre FdR. On verra en C2 les outils qui font ce calcul (QRISK3, SCORE2). En pratique : à chaque consultation chez un patient à risque, on revoit la liste des FdR.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

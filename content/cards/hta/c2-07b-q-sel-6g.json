@@ -1,0 +1,19 @@
+{
+  "id": "hta-c2-q07-sel-6g",
+  "kind": "cloze",
+  "prompt": "Dans les règles hygiéno-diététiques de l'HTA, l'apport en sel est recommandé à un maximum de ___ g/jour.",
+  "expected": ["6"],
+  "rationale": "Seuil HAS : 6 à 8 g/jour maximum, soit une natriurèse d'environ 100-150 mmol/j. En pratique on cible 6 g/j. Sources cachées : pain, charcuterie, fromage, plats préparés (~75 % du sel ingéré vient des aliments transformés, pas de la salière). Une baisse de 5 g/j de sel = environ -5 mmHg de PAS.",
+  "tags": {
+    "system": ["cardiovasculaire", "nutrition"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

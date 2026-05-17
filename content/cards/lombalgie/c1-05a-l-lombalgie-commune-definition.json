@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c1-l05-lombalgie-commune-definition",
+  "kind": "lesson",
+  "prompt": "Tout le monde, ou presque, a mal au bas du dos un jour. Mais derrière cette douleur, il y a deux mondes très différents :\n\n• Soit la douleur vient d'une cause grave qu'il faut absolument trouver (fracture, infection, cancer, compression nerveuse sévère) — c'est rare.\n• Soit elle vient d'un mélange flou de muscles, de disques, de ligaments et de stress — sans cause grave identifiable. C'est ÉCRASANT MAJORITAIRE : ≥ 90 % des cas.\n\nCe deuxième cas s'appelle la LOMBALGIE COMMUNE.\n\nDéfinition officielle (HAS) : douleur lombaire qui NE COMPORTE PAS de signes d'alerte (pas de fracture, pas d'infection, pas de cancer, pas de compression nerveuse sévère). On l'appelait avant 'lombalgie non spécifique' — le terme 'commune' est préféré aujourd'hui, parce qu'il insiste sur le fait que c'est la situation NORMALE quand on a mal au dos.\n\nLa première mission du médecin n'est donc PAS de trouver la cause exacte (souvent impossible), mais d'ÉLIMINER les causes graves.",
+  "rationale": "Concept clé : la lombalgie commune est un diagnostic d'exclusion. On ne 'voit' rien de précis, mais c'est rassurant — c'est la situation la plus fréquente et la plus bénigne. Le piège, c'est de paniquer le patient en cherchant à tout prix une 'cause' (avec des examens souvent inutiles). Au contraire : rassurer + faire bouger = la base du traitement.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "anxiete-c1-q08-attaque-panique-duree",
+  "kind": "cloze",
+  "prompt": "L'attaque de panique atteint son pic d'intensité en moins de ___ minutes, puis l'épisode retombe en général en quelques dizaines de minutes.",
+  "expected": ["10"],
+  "rationale": "Le pic en < 10 min est un critère sémiologique-clé. Une 'crise d'anxiété' qui monte progressivement sur plusieurs heures n'est PAS une attaque de panique typique — chercher autre chose (cause organique, autre trouble anxieux, intoxication/sevrage). Mnémo : 'panique = pic rapide, retombée rapide'.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

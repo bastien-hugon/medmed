@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c2-l07a-me-cfs-sfc",
+  "kind": "lesson",
+  "prompt": "L'ENCÉPHALOMYÉLITE MYALGIQUE (ME) / SYNDROME DE FATIGUE CHRONIQUE (SFC), aussi appelé ME/CFS en anglais (Myalgic Encephalomyelitis / Chronic Fatigue Syndrome), est un diagnostic d'élimination, à évoquer devant une fatigue inexpliquée prolongée.\n\nCRITÈRES DIAGNOSTIQUES (résumé pratique) :\n\n• Fatigue invalidante depuis plus de 6 mois\n• Retentissement marqué sur l'activité antérieure (travail, loisirs)\n• Pas d'explication par une autre maladie identifiée\n• Et la signature centrale : le MALAISE POST-EFFORT (PEM, post-exertional malaise) = aggravation très marquée et prolongée des symptômes après un effort, même modéré, avec un délai parfois différé de 24-48 h.\n\nAUTRES SYMPTÔMES ÉVOCATEURS :\n• Sommeil non récupérateur\n• Troubles de la concentration / mémoire à court terme (\"brain fog\")\n• Intolérance orthostatique (vertiges en position debout)\n• Douleurs musculaires, articulaires, céphalées\n• Mal de gorge, ganglions sensibles\n\nPRISE EN CHARGE :\n• Pas de traitement médicamenteux spécifique approuvé\n• Approche multimodale : pacing (gérer son énergie sans dépasser le seuil de PEM), soutien psychologique (TCC = Thérapie Cognitivo-Comportementale), prise en charge du sommeil, antalgie\n• ATTENTION : le \"graded exercise therapy\" (réactivation progressive forcée) est désormais controversé car il peut aggraver les symptômes. Préférer une approche respectant les limites du patient.\n• Posture du soignant : reconnaître la réalité de la souffrance, ne pas psychiatriser à tort, accompagner sur la durée.",
+  "rationale": "Le SFC reste mal compris physiopathologiquement. Deux écueils classiques : (1) le poser trop vite sans avoir éliminé les causes organiques ; (2) le rejeter en disant au patient \"il n'y a rien\", ce qui est faux et délétère. La pandémie de COVID-19 a remis ce syndrome au premier plan via le COVID-long, dont les recouvrements cliniques avec le ME/CFS sont importants.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

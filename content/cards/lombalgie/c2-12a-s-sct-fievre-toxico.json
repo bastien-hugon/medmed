@@ -1,0 +1,21 @@
+{
+  "id": "lombalgie-c2-s12-sct-fievre-toxico",
+  "kind": "sct",
+  "prompt": "Un homme de 38 ans consulte aux urgences pour une lombalgie évoluant depuis 3 semaines, en aggravation. Examen neurologique normal, pas de traumatisme. Devant ce tableau, vous évoquez en première hypothèse une LOMBALGIE COMMUNE. On vous rapporte alors une nouvelle information clinique : le patient est consommateur de drogues injectables par voie IV et présente une température à 38,5 °C depuis 4 jours. Cette information renforce-t-elle, affaiblit-elle, ou est-elle neutre vis-à-vis de l'hypothèse de lombalgie commune ?",
+  "hypothesis": "Lombalgie commune (sans cause grave identifiable)",
+  "new_info": "Consommation de drogues injectables par voie IV + fièvre à 38,5 °C depuis 4 jours",
+  "expected": "affaiblit",
+  "rationale": "La lombalgie commune est par définition SANS drapeau rouge. Or l'usage de drogues IV (porte d'entrée bactérienne classique) associé à une fièvre fait suspecter une SPONDYLODISCITE infectieuse, qui est un drapeau rouge majeur. Cette nouvelle information disqualifie l'hypothèse 'lombalgie commune' et impose un bilan en urgence : NFS, CRP, hémocultures, IRM rachidienne. L'hypothèse à explorer prioritairement devient : infection vertébrale (germe pyogène, parfois Staphylococcus aureus chez les toxicomanes IV).",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique", "infectiologie"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

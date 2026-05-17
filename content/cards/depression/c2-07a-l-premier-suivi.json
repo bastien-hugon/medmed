@@ -1,0 +1,18 @@
+{
+  "id": "depression-c2-l07-premier-suivi",
+  "kind": "lesson",
+  "prompt": "On a prescrit un antidépresseur. Quand revoit-on le patient ?\n\nLa règle NICE 2022 :\n\n• PREMIER SUIVI à 2 SEMAINES pour la majorité des patients\n• PREMIER SUIVI à 1 SEMAINE si situation à risque :\n  - 18-25 ans (jeunes adultes)\n  - Risque suicidaire évalué\n\nPourquoi un suivi rapproché chez les jeunes ?\n\nDans les premières semaines d'un AD, AVANT que l'effet thérapeutique n'arrive, on observe parfois une AUGMENTATION TRANSITOIRE :\n• De l'anxiété\n• De l'agitation\n• Des idées suicidaires\n\nC'est un phénomène connu, surtout marqué chez les < 25 ans (cerveau encore en maturation). On suppose que l'AD lève d'abord l'inhibition (énergie, capacité d'action) AVANT de lever l'humeur — d'où une fenêtre dangereuse où un patient suicidaire trouve la \"force\" d'agir alors qu'il était encore désespéré.\n\nD'où la nécessité d'un suivi rapproché + d'une INFORMATION explicite au patient et à l'entourage : \"si vous vous sentez plus agité, plus anxieux, plus suicidaire dans les premiers jours, prévenez-moi immédiatement\".\n\nAprès le 1er suivi, espacement progressif : 4 sem, 8 sem, 12 sem, puis 3 mois.\n\nNe JAMAIS prescrire un AD à un patient à risque sans une date de revoyure proche et claire.",
+  "rationale": "NICE Rec 1.4.22 : pour 18-25 ans ou patient à risque suicidaire → review à 1 semaine. Pour les autres → 2 semaines. Cette \"black box warning\" sur la majoration possible des idées suicidaires en début de traitement est documentée pour TOUS les AD chez les jeunes adultes — c'est une vigilance, pas une contre-indication.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

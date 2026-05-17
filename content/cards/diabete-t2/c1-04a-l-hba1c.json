@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c1-l04-hba1c",
+  "kind": "lesson",
+  "prompt": "Problème : la glycémie change toutes les heures. Une seule prise de sang ne dit pas si quelqu'un a 'globalement' trop de sucre.\n\nSolution : l'HÉMOGLOBINE GLYQUÉE, abrégée HbA1c (qu'on prononce 'A-un-C').\n\nL'idée. Le sucre qui circule dans le sang se 'colle' lentement aux globules rouges (plus précisément à l'hémoglobine, la protéine qui transporte l'oxygène). Plus il y a de sucre dans le sang en moyenne, plus de globules rouges sont 'sucrés'.\n\nLes globules rouges vivent environ 3 mois. Donc mesurer le pourcentage de globules rouges 'sucrés', c'est mesurer la glycémie moyenne des 3 derniers mois.\n\nC'est une MOYENNE, pas une photo instantanée. Une sorte de mémoire chimique du sucre.\n\nValeurs repères :\n• < 5,7 % → normal\n• 5,7 – 6,4 % → prédiabète\n• ≥ 6,5 % → diabète\n\nL'HbA1c est l'outil n°1 pour suivre un diabétique au long cours.",
+  "rationale": "Mnémo : '3 mois, comme la durée de vie d'un globule rouge'. C'est exactement la même logique qu'une éponge qui absorbe lentement : si tu plonges une éponge sèche dans un verre de sirop pendant 3 mois, elle deviendra plus ou moins sucrée selon la concentration moyenne du sirop sur la période. Bien comprendre : l'HbA1c ne reflète PAS un pic ponctuel — elle reflète une tendance.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

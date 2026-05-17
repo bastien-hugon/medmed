@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c1-l06-typical-vs-perfect-use",
+  "kind": "lesson",
+  "prompt": "Quand on parle de l'efficacité d'une contraception, on donne TOUJOURS deux chiffres — et ils peuvent être très différents.\n\n• PERFECT USE (usage parfait) : si la méthode est utilisée exactement comme prévue, à chaque rapport, sans oubli, sans erreur. Ce sont les conditions de laboratoire.\n\n• TYPICAL USE (usage typique) : la vraie vie. On oublie une pilule, le préservatif glisse, on prend un antibiotique qui interagit, on commence l'anneau avec 3 jours de retard.\n\nExemple concret avec la pilule :\n• Perfect use : 0,3 % de grossesses la 1ère année (excellent)\n• Typical use : 9 % de grossesses la 1ère année (presque 1 femme sur 10)\n\nExemple avec le préservatif :\n• Perfect use : 2 %\n• Typical use : 18 %\n\nExemple avec l'implant ou le DIU :\n• Perfect use ≈ Typical use ≈ 0,05 à 0,6 %. Pas de différence, parce qu'il n'y a rien à 'utiliser' au quotidien — c'est posé une fois, ça marche tout le temps.\n\nMORALE : les méthodes 'oubliables' (LARC) ont la meilleure efficacité réelle. Les méthodes qui demandent une action à chaque rapport (préservatif) ou chaque jour (pilule) perdent beaucoup en vraie vie.",
+  "rationale": "Le décalage typical/perfect est la clé du counseling. Quand une patiente dit 'la pilule est efficace à 99 %', c'est vrai en perfect use seulement. En vraie vie, c'est plutôt 91 %. Si elle a un mode de vie chaotique (horaires décalés, voyages), parler du chiffre typical use peut être plus honnête et l'orienter vers une LARC.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

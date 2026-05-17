@@ -1,0 +1,25 @@
+{
+  "id": "hta-c1-q13-variations-normales",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle affirmation sur les variations PHYSIOLOGIQUES de la PA est exacte ?",
+  "choices": [
+    {"id": "a", "text": "La PA reste stable toute la journée chez un sujet sain", "correct": false},
+    {"id": "b", "text": "La PA baisse normalement la nuit pendant le sommeil", "correct": true},
+    {"id": "c", "text": "Le stress fait baisser la PA", "correct": false},
+    {"id": "d", "text": "À l'effort, seule la diastolique grimpe", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Baisse nocturne physiologique de 10-20 % ('dipping'). Le stress et l'effort font MONTER la PA (système sympathique). À l'effort, c'est surtout la SYSTOLIQUE qui grimpe ; la diastolique varie peu. Ces variations expliquent pourquoi un diagnostic d'HTA exige des mesures répétées dans des conditions standardisées.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c1-l01-col-uterus",
+  "kind": "lesson",
+  "prompt": "L'utérus, c'est l'organe en forme de poire renversée où se développe un futur bébé pendant la grossesse.\n\nLe COL DE L'UTÉRUS, c'est la partie basse de l'utérus — un petit cylindre de quelques centimètres qui fait la jonction entre l'utérus (en haut) et le vagin (en bas).\n\nDeux choses importantes à retenir :\n• C'est par le col que passent les spermatozoïdes pour remonter féconder un ovule.\n• C'est aussi par le col que passe le bébé au moment de l'accouchement.\n\nLe col est tapissé d'une muqueuse (un revêtement fragile). Cette muqueuse peut subir des modifications anormales — c'est pour ça qu'on la surveille avec le frottis.",
+  "rationale": "Visualiser l'anatomie de base permet de comprendre POURQUOI on fait un frottis (on prélève des cellules à la surface du col), et POURQUOI le col est une porte d'entrée pour le HPV (le virus contamine directement cette muqueuse exposée). Image utile : l'utérus = la poire ; le col = le 'pédoncule' qui plonge dans le vagin.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col", "contraception"],
+    "item_edn": [33, 35, 297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

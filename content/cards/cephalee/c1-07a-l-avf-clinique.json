@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c1-l07-avf-clinique",
+  "kind": "lesson",
+  "prompt": "L'ALGIE VASCULAIRE DE LA FACE (AVF) — en anglais 'cluster headache' — est la plus rare et la plus violente des céphalées primaires. On la surnomme 'céphalée du suicide' tant elle est intense.\n\nDOULEUR\n• STRICTEMENT UNILATÉRALE, toujours du même côté chez un patient donné\n• Localisée autour de l'œil, au-dessus de l'œil, sur la tempe\n• Qualité : LANCINANTE, en coup de poignard, en brûlure ou pulsatile\n• Intensité SÉVÈRE À TRÈS SÉVÈRE — le patient ne peut PAS rester immobile (à l'inverse du migraineux qui veut s'allonger). Il marche, se cogne la tête contre le mur, est agité.\n\nSIGNES AUTONOMIQUES — DU MÊME CÔTÉ que la douleur (homolatéraux)\n• Œil ROUGE, qui LARMOIE\n• Nez bouché ou qui coule\n• Paupière qui TOMBE (ptosis) et/ou pupille RÉTRÉCIE (myosis)\n• Sueur du front\nC'est ce cortège autonomique qui signe le diagnostic.\n\nDURÉE\n• 15 à 180 minutes par crise (donc BRÈVE, contrairement à la migraine)\n\nMODE D'ÉVOLUTION 'EN SALVE' (cluster)\n• Plusieurs crises par jour (1 tous les 2 jours à 8 par jour) pendant des SEMAINES\n• Puis rémission de plusieurs mois à plusieurs années\n• Les crises arrivent souvent à la même heure (souvent la nuit)\n\nTERRAIN : HOMME jeune (30-40 ans), fumeur, alcool comme déclencheur classique.",
+  "rationale": "Trois éléments doivent te faire évoquer une AVF : (1) douleur péri-orbitaire ultra-sévère unilatérale, (2) signes autonomiques homolatéraux (œil rouge/larmes/nez bouché), (3) brève (<3 h) et survenant en salves. Importance pratique : c'est urgent — la 1ère AVF d'un patient peut justifier une imagerie pour éliminer un anévrysme ou une dissection.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "avf"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

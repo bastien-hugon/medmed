@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c1-l07-t1-vs-t2",
+  "kind": "lesson",
+  "prompt": "Tous les diabètes ne se ressemblent pas. Les deux grandes formes :\n\nTYPE 1 (T1) — Le pancréas ne fabrique PLUS d'insuline.\nC'est une maladie auto-immune : le système immunitaire détruit les cellules du pancréas qui font l'insuline. Sans insuline, le glucose ne peut plus entrer dans les cellules — c'est dramatique et rapide.\n• Survient surtout chez l'enfant, l'ado, le jeune adulte\n• Souvent mince\n• Début brutal, symptômes francs (les 3 P), parfois découverte aux urgences\n• Traitement OBLIGATOIRE : injection d'insuline À VIE\n\nTYPE 2 (T2) — Le pancréas fabrique de l'insuline, mais elle ne marche PLUS BIEN.\nLes cellules deviennent 'sourdes' au signal de l'insuline — on appelle ça l'INSULINORÉSISTANCE. Le pancréas en fabrique de plus en plus pour compenser, jusqu'à s'épuiser.\n• Survient surtout après 40-50 ans (mais de plus en plus tôt)\n• Souvent en surpoids/obésité, sédentaire\n• Début progressif, parfois silencieux pendant des années\n• Traitement : règles hygiéno-diététiques d'abord, puis comprimés (la metformine en 1ère ligne), parfois insuline en dernier recours\n\nProportion : >95 % des diabétiques sont de type 2.\n\nLe diabète gestationnel (de grossesse) et quelques formes rares existent aussi, mais 99 % du temps en médecine générale, c'est T1 ou T2.",
+  "rationale": "Image simple : T1 = la pompe à insuline est CASSÉE (panne sèche). T2 = la pompe marche mais les serrures sont rouillées (résistance). Conséquence pratique majeure : le T1 a TOUJOURS besoin d'insuline (sinon décès en quelques jours par acidocétose). Le T2 peut souvent s'améliorer avec l'hygiène de vie + comprimés, sans insuline.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

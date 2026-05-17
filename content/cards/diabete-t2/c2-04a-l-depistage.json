@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c2-l04-depistage",
+  "kind": "lesson",
+  "prompt": "Le diabète de type 2 évolue souvent SILENCIEUSEMENT pendant des années. Quand on le diagnostique sur symptômes, il est parfois déjà compliqué. D'où l'intérêt d'un DÉPISTAGE actif chez les personnes à risque.\n\nQUI DÉPISTER ? (recommandations HAS) :\n\n• Toute personne de ≥ 45 ans avec ≥ 1 facteur de risque :\n   – Surpoids (IMC ≥ 25 kg/m²) ou obésité abdominale (tour de taille élevé)\n   – Sédentarité\n   – Antécédent familial de diabète au 1er degré\n   – Origine non-caucasienne (risque génétique plus élevé)\n   – HTA, dyslipidémie connue\n   – Antécédent personnel de diabète gestationnel\n   – Antécédent de prédiabète\n\n• Toute personne plus jeune si plusieurs facteurs de risque cumulés\n\nCOMMENT DÉPISTER ?\nUne simple GLYCÉMIE À JEUN, en laboratoire. C'est tout. Pas besoin de tests sophistiqués au dépistage.\n\nRYTHME : si le test est normal, le refaire tous les 1 à 3 ans selon le profil.\n\nINTERPRÉTATION :\n• < 1,10 g/L → normal, refaire dans 1-3 ans\n• 1,10 – 1,25 g/L → PRÉDIABÈTE : renforcer les règles hygiéno-diététiques, recontrôler à 1 an\n• ≥ 1,26 g/L → suspicion de diabète, à CONFIRMER par une 2ème glycémie à jeun\n\nLe dépistage du diabète est gratuit, simple, et a un impact majeur : le diagnostiquer 5 ans plus tôt = 5 ans de prévention des complications.",
+  "rationale": "L'HbA1c peut aussi être utilisée pour le dépistage selon les recommandations, mais la HAS française reste sur la glycémie à jeun comme test de référence (plus disponible, mieux remboursée). Note : le diabète gestationnel chez la mère = risque ×7 de T2 dans les 10 ans suivants — à dépister activement chez ces femmes.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["chroniques", "prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

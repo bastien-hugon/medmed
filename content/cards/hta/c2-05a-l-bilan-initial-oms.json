@@ -1,0 +1,18 @@
+{
+  "id": "hta-c2-l05-bilan-initial-oms",
+  "kind": "lesson",
+  "prompt": "Une fois le diagnostic d'HTA confirmé, on ne se contente pas de prescrire un traitement. On fait un BILAN INITIAL, parfois appelé 'bilan OMS' (recommandé par l'Organisation Mondiale de la Santé et repris par la HAS).\n\nObjectifs :\n• Chercher si l'HTA a déjà ABÎMÉ des organes (cœur, reins, etc.)\n• Identifier les autres FACTEURS de risque cardiovasculaire (diabète, cholestérol, tabac…)\n• Évaluer le risque cardiovasculaire global\n• Chercher une cause secondaire (rare mais à ne pas rater)\n\nLes EXAMENS À FAIRE D'EMBLÉE (les 'PARACLINIQUES OBLIGATOIRES') :\n\n1. IONOGRAMME sanguin : sodium (Na+) et potassium (K+)\n2. CRÉATININE plasmatique + estimation du DFG (Débit de Filtration Glomérulaire = mesure de la fonction rénale)\n3. GLYCÉMIE à jeun (dépistage diabète)\n4. EAL = Exploration d'une Anomalie Lipidique à jeun (cholestérol total, HDL, LDL, triglycérides)\n5. PROTÉINURIE (recherche de protéines dans les urines, signe d'atteinte rénale)\n6. ECG de repos (cherche une hypertrophie du ventricule gauche, des troubles du rythme)\n\nMnémo : 'Iono, créat, glycémie, EAL, protéinurie, ECG' — les 6 examens à demander à TOUT nouveau hypertendu, sans exception.",
+  "rationale": "Pourquoi ce bilan ? Parce qu'on doit savoir AVANT de traiter : (1) si le rein va supporter un IEC/ARA2 (créat + iono), (2) si on a un diabète associé (qui change la cible et le choix de molécule), (3) si le cœur souffre déjà (ECG → hypertrophie). Une HTA traitée sans bilan, c'est conduire dans le noir.",
+  "tags": {
+    "system": ["cardiovasculaire", "rénal", "endocrinologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

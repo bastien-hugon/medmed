@@ -1,0 +1,25 @@
+{
+  "id": "diabete-t2-c1-q01-sucre-sang",
+  "kind": "qcm-vignette",
+  "prompt": "Le glucose qui circule dans ton sang sert principalement à :",
+  "choices": [
+    { "id": "a", "text": "Hydrater les organes", "correct": false },
+    { "id": "b", "text": "Servir de carburant aux cellules", "correct": true },
+    { "id": "c", "text": "Lutter contre les microbes", "correct": false },
+    { "id": "d", "text": "Transporter l'oxygène", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Glucose = carburant. C'est l'essence des cellules. Le transport de l'oxygène, c'est le rôle des globules rouges (via l'hémoglobine), pas du glucose. La lutte contre les microbes, c'est les globules blancs.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

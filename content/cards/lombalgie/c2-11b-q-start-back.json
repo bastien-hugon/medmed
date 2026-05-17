@@ -1,0 +1,19 @@
+{
+  "id": "lombalgie-c2-q11-start-back",
+  "kind": "cloze",
+  "prompt": "Le score ___ ___ permet de stratifier le risque de chronicisation d'une lombalgie en 3 niveaux (faible, moyen, élevé) à partir d'un questionnaire de 9 items.",
+  "expected": ["STarT", "Back"],
+  "rationale": "STarT Back (Keele University, UK) = outil de stratification le plus recommandé (HAS 2019, NICE NG59). 9 items, 2 minutes. Permet d'adapter l'intensité de la PEC au profil de risque du patient plutôt que de prescrire la même chose à tout le monde. À utiliser dès le 1er contact pour chaque nouvel épisode.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng59/chapter/Recommendations",
+    "version": "2016 amended 2020"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "depression-c2-l11-eval-risque-suicidaire",
+  "kind": "lesson",
+  "prompt": "L'évaluation du risque suicidaire fait partie de TOUTE consultation pour suspicion de dépression. Pas \"si on en a le temps\", pas \"si le patient en parle\" — TOUJOURS.\n\nNICE Rec 1.2.8 : \"Always ask people with depression directly about suicidal ideation and intent.\"\n\nCOMMENT POSER LA QUESTION (gradation, du moins direct au plus direct) :\n\n1. \"Quand on traverse ce que vous traversez, il arrive d'avoir des idées sombres. Est-ce votre cas ?\"\n2. \"Avez-vous pensé que la vie ne valait plus la peine d'être vécue ?\"\n3. \"Avez-vous pensé à mettre fin à vos jours ?\"\n4. \"Avez-vous imaginé COMMENT vous pourriez le faire ?\"\n5. \"Avez-vous fait des préparatifs concrets ?\"\n\nPlus on monte dans l'échelle, plus le risque immédiat est élevé.\n\nLES SIGNAUX D'ALERTE qui font basculer vers une urgence psychiatrique :\n• Idées suicidaires ACTIVES (pas juste \"je pense à la mort\" mais \"je veux mourir\")\n• PLAN précis (méthode, lieu, moment)\n• MOYEN accessible (arme, médicaments, hauteur)\n• Tentatives ANTÉCÉDENTES (le meilleur prédicteur)\n• ISOLEMENT social\n• Désespoir massif (\"plus rien à perdre\")\n• Souffrance morale extrême\n• Consommation d'alcool/substances\n\nQUE FAIRE EN PRATIQUE ?\n\n• Idées suicidaires PASSIVES sans plan → suivi rapproché, AD si indiqué, mobilisation des proches, numéros d'urgence (3114 en France)\n• Idées ACTIVES avec plan, ou risque élevé → adresser en urgence en milieu spécialisé (CMP, urgences psy, SAMU 15 si imminent)\n• En attendant : ne pas laisser seul, retirer les moyens accessibles (médicaments, armes), contrat de non-passage à l'acte (contestable mais utile en pratique).\n\nNE JAMAIS minimiser. NE JAMAIS faire honte. NE JAMAIS dire \"vous avez tout pour être heureux\".",
+  "rationale": "Le 3114 est le numéro national de prévention du suicide en France (24h/24, gratuit, mis en place en 2021). À donner systématiquement. \"Always ask\" = principe fondamental NICE — la question fait partie du soin, pas du risque. Évaluation du risque immédiat conditionne l'orientation (ambulatoire vs hospitalisation).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 351],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

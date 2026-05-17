@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c2-l09-ezetimibe-pcsk9",
+  "kind": "lesson",
+  "prompt": "Quand les statines au maximum toléré ne suffisent pas pour atteindre la cible LDL, on monte d'un cran avec d'autres médicaments.\n\nÉZÉTIMIBE — l'add-on simple\nMécanisme : bloque l'absorption intestinale du cholestérol (au niveau de l'entérocyte). Réduit le LDL de ~15-20 % en ADDITION à la statine.\nIndication NICE : à AJOUTER à la statine au max toléré, même si la cible est atteinte (le bénéfice CV supplémentaire de l'ézétimibe a été démontré dans IMPROVE-IT).\nProfil : peu d'effets indésirables, bien toléré, oral, 1 cp/jour.\n\nANTI-PCSK9 — les biothérapies\nMécanisme : la PCSK9 (proprotein convertase subtilisin/kexin type 9) est une protéine qui DÉGRADE les récepteurs au LDL à la surface des hépatocytes. La bloquer = plus de récepteurs LDL actifs = capture massive du LDL sanguin. Réduit le LDL de 50-60 % EN PLUS de la statine.\nMolécules :\n• ALIROCUMAB (TA393) — anticorps monoclonal, injection sous-cutanée 2x/mois.\n• EVOLOCUMAB (TA394) — idem.\n• INCLISIRAN (TA733, 2021) — petit ARN interférent, injection 2x/an seulement (très adhérent).\n\nIndications NICE : prévention SECONDAIRE quand statine + ézétimibe ne suffisent pas à atteindre les cibles. Coûteux, prescription souvent hospitalière.\n\nAUTRES OPTIONS\n• Acide bempédoïque + ézétimibe (TA694) : si statine non tolérée.\n• Icosapent éthylique (TA805) : oméga-3 'haute pureté' pour hypertriglycéridémie résiduelle (cas particulier).\n\nNON RECOMMANDÉS EN ROUTINE par NICE :\n• Fibrates, niacine, résines biliaires, oméga-3 standard, CoQ10, vitamine D, phytostérols.\n\nORDRE LOGIQUE de l'escalade en prévention secondaire :\n1. Statine haute intensité (atorvastatine 80 mg).\n2. + Ézétimibe si cible non atteinte ou pour bénéfice supplémentaire.\n3. + Anti-PCSK9 (alirocumab/evolocumab/inclisiran) si toujours non atteint.",
+  "rationale": "L'ézétimibe est le 'compagnon naturel' des statines : bon marché, bien toléré, bénéfice CV démontré (IMPROVE-IT). Les anti-PCSK9 sont des armes lourdes mais très efficaces — réservés au max toléré + ézétimibe insuffisants. Inclisiran (2 injections/an) est particulièrement intéressant pour l'observance. À noter : NICE BANNIT les fibrates et la niacine en routine — ne pas s'y égarer.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

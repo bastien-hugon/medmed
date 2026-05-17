@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c2-l09-pec-aigue",
+  "kind": "lesson",
+  "prompt": "Comment prendre en charge une lombalgie commune aiguë sans drapeau rouge ? Les recommandations HAS 2019 sont devenues étonnamment simples — et radicalement différentes de ce qu'on faisait il y a 20 ans.\n\nLES 4 PILIERS :\n\n1. RÉASSURANCE ET INFORMATION\n   → Expliquer que c'est bénin, que 90 % vont mieux en 4-6 semaines, qu'il n'y a 'rien de cassé'.\n\n2. MAINTIEN DE L'ACTIVITÉ\n   → Pas de repos au lit. Continuer à bouger autant que possible, reprendre les activités quotidiennes, reprendre le travail dès que faisable (même partiellement). Le mouvement est THÉRAPEUTIQUE.\n\n3. ANTALGIQUES SI NÉCESSAIRE — courte durée, à dose minimale efficace\n   → AINS (anti-inflammatoires non stéroïdiens, ex. ibuprofène) en 1ère intention, à la dose la plus faible efficace et la plus courte durée possible (Grade A, HAS 2019).\n   → Paracétamol : à visée symptomatique selon HAS (utile en complément), mais à noter que NICE le déconseille en monothérapie (peu efficace en lombalgie).\n   → Opioïdes faibles (codéine, tramadol) : seulement en 2e intention, si AINS insuffisants ou contre-indiqués, et pour une durée la plus courte possible.\n\n4. KINÉSITHÉRAPIE ACTIVE si la douleur persiste ou si lombalgie à risque de chronicité\n   → Exercices actifs supervisés, à poursuivre en autonomie. Les massages SEULS et les thérapies passives n'ont aucune efficacité.\n\nCE QU'ON NE FAIT PLUS : repos au lit prolongé, arrêt de travail systématique long, ceinture lombaire seule, examens d'imagerie systématiques.",
+  "rationale": "Le grand basculement des 20 dernières années : on est passé de 'reposez-vous, on va vous arrêter, on fait une IRM' à 'bougez, on rassure, on attend'. AINS = Anti-Inflammatoires Non Stéroïdiens (ibuprofène, naproxène, kétoprofène...). Le maintien d'activité est le traitement principal — bien plus important que la pilule. La pilule est juste là pour rendre le mouvement supportable.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

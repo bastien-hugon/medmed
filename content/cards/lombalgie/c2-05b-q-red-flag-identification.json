@@ -1,0 +1,41 @@
+{
+  "id": "lombalgie-c2-q05-red-flag-identification",
+  "kind": "qcm-vignette",
+  "prompt": "Une femme de 72 ans consulte pour une lombalgie aiguë apparue il y a 3 jours. Elle est sous prednisone 15 mg/jour depuis 2 ans pour une pseudo-polyarthrite rhizomélique. La douleur est intense, localisée à un étage précis du rachis lombaire. Quel drapeau rouge évoquer en priorité ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Syndrome de la queue de cheval",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Spondylodiscite infectieuse",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Fracture vertébrale (tassement)",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Métastase osseuse",
+      "correct": false
+    }
+  ],
+  "expected": ["c"],
+  "rationale": "Femme âgée + corticothérapie prolongée = combinaison classique pour une fracture vertébrale ostéoporotique. Le 'TOC' (Trauma / Ostéoporose / Corticoïdes) est ici fortement positif sur deux items. Une radiographie du rachis lombaire (± IRM si doute) est légitime, et un bilan d'ostéoporose s'impose. À noter : la fracture peut survenir sans choc, juste en se baissant ou en toussant.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

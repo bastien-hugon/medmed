@@ -1,0 +1,18 @@
+{
+  "id": "depression-c2-l04-pec-more-severe",
+  "kind": "lesson",
+  "prompt": "Pour la dépression MORE SEVERE (PHQ-9 ≥ 16), NICE 2022 propose trois options de 1ère ligne, à choisir avec le patient :\n\n1. COMBINAISON : Psychothérapie (TCC ou BA) + Antidépresseur (AD)\n   → Souvent l'option la plus efficace, surtout en cas de retentissement marqué.\n\n2. PSYCHOTHÉRAPIE SEULE : TCC individuelle (16 séances) ou activation comportementale individuelle (12-16 séances)\n   → Pour patients réticents aux médicaments ou avec contre-indication.\n\n3. ANTIDÉPRESSEUR SEUL\n   → Si la psychothérapie n'est pas accessible, ou refusée, ou en attendant son démarrage.\n\nLe choix se fait avec le patient (\"shared decision-making\") :\n• Préférences personnelles\n• Antécédents de réponse à un traitement précédent\n• Comorbidités\n• Tolérance aux effets secondaires\n• Accessibilité (combien de temps avant un RDV chez un psy ?)\n\nDans tous les cas — même si on n'introduit pas d'AD — on revoit le patient à 2 semaines (1 semaine si 18-25 ans ou risque suicidaire).\n\nAttention : NICE ne hiérarchise pas ces 3 options entre elles pour le more severe — il y a 3 options équivalentes en 1ère ligne. C'est l'inverse du less severe où l'AD est explicitement en dernier choix.",
+  "rationale": "Acronymes : AD (antidépresseur), CBT/TCC (thérapie cognitivo-comportementale), BA (behavioural activation, activation comportementale). Le \"shared decision-making\" est central NICE 2022 : pas de protocole rigide, on co-construit le plan. Important : les 3 options sont équivalentes en 1ère ligne pour more severe — le choix dépend du patient et du contexte.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

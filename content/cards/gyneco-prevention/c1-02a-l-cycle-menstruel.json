@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c1-l02-cycle-menstruel",
+  "kind": "lesson",
+  "prompt": "Le cycle menstruel dure environ 28 jours (souvent entre 25 et 35). On compte le jour 1 = premier jour des règles.\n\nEn 1 minute, trois phases :\n\n• PHASE FOLLICULAIRE (jours 1 à 14) — Dans l'ovaire, un follicule (petit sac qui contient un ovule) grossit. L'œstrogène monte.\n\n• OVULATION (vers le jour 14) — Le follicule éclate, l'ovule est libéré. Il peut être fécondé pendant ~24h. C'est LA fenêtre de fertilité.\n\n• PHASE LUTÉALE (jours 14 à 28) — Le follicule vidé devient le corps jaune, qui fabrique de la progestérone. Si pas de grossesse, le corps jaune meurt, la progestérone chute, et la muqueuse de l'utérus se détache : ce sont les règles. Retour au jour 1.\n\nDeux hormones-clés : ŒSTROGÈNES (1ère moitié) et PROGESTÉRONE (2e moitié). Toute la contraception hormonale joue sur ces deux-là.",
+  "rationale": "Cette base est indispensable pour comprendre la contraception. La pilule combinée bloque l'ovulation en saturant l'organisme d'œstrogène + progestatif (le cerveau pense qu'il y a déjà une grossesse et arrête d'envoyer le signal d'ovulation). Les progestatifs seuls épaississent la glaire cervicale et amincissent la muqueuse utérine. Tout part du cycle.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [33, 35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

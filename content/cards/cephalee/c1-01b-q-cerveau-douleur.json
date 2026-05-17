@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c1-q01b-cerveau-douleur",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces structures de la tête, laquelle est INCAPABLE de ressentir directement la douleur ?",
+  "choices": [
+    { "id": "a", "text": "Les méninges (enveloppes du cerveau)", "correct": false },
+    { "id": "b", "text": "Le tissu cérébral lui-même", "correct": true },
+    { "id": "c", "text": "Les vaisseaux sanguins du crâne", "correct": false },
+    { "id": "d", "text": "Les muscles du cuir chevelu", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le tissu cérébral n'a pas de récepteurs nociceptifs. La douleur d'une céphalée vient des structures PÉRIPHÉRIQUES : méninges, vaisseaux, muscles, nerfs faciaux (trijumeau ++) et peau du scalp. Une douleur 'dans la tête' n'implique donc pas une atteinte du cerveau lui-même.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

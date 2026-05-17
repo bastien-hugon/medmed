@@ -1,0 +1,25 @@
+{
+  "id": "dyslipidemie-c2-q03-statines-mecanisme",
+  "kind": "qcm-vignette",
+  "prompt": "Quelle enzyme hépatique les statines inhibent-elles pour réduire le cholestérol sanguin ?",
+  "choices": [
+    { "id": "a", "text": "L'HMG-CoA réductase, l'enzyme-clé de la synthèse hépatique du cholestérol.", "correct": true },
+    { "id": "b", "text": "La lipoprotéine lipase, qui dégrade les triglycérides.", "correct": false },
+    { "id": "c", "text": "La PCSK9, qui régule le récepteur au LDL.", "correct": false },
+    { "id": "d", "text": "La lécithine-cholestérol acyltransférase (LCAT), qui estérifie le cholestérol HDL.", "correct": false }
+  ],
+  "expected": ["a"],
+  "rationale": "Les STATines bloquent l'HMG-CoA réductase, étape limitante de la synthèse de cholestérol dans le foie. La baisse de production intracellulaire pousse les hépatocytes à exprimer plus de récepteurs LDL → capture accrue du LDL sanguin → LDL plasmatique en baisse. Pièges : la PCSK9 est la cible des anti-PCSK9 (alirocumab, evolocumab) ; la lipoprotéine lipase agit sur les TG ; la LCAT participe au métabolisme HDL.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

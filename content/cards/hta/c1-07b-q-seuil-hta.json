@@ -1,0 +1,19 @@
+{
+  "id": "hta-c1-q08-seuil-hta",
+  "kind": "cloze",
+  "prompt": "Au cabinet médical, on parle d'hypertension artérielle quand la PA est ≥ ___ / ___ mmHg, confirmée à plusieurs consultations.",
+  "expected": ["140", "90"],
+  "rationale": "140/90 mmHg est LE seuil universel en cabinet. Si soit la systolique soit la diastolique le dépasse, c'est HTA. Toujours confirmer sur plusieurs consultations (ou par MAPA/automesure) pour éliminer un stress passager.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

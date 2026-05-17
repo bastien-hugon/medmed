@@ -1,0 +1,18 @@
+{
+  "id": "depression-c1-l06-idees-suicidaires-mythe",
+  "kind": "lesson",
+  "prompt": "Il y a un mythe à démolir tout de suite, parce qu'il tue des gens chaque année :\n\n\"Si je demande à quelqu'un s'il pense au suicide, je risque de lui en donner l'idée.\"\n\nC'EST FAUX. Toutes les études le montrent : poser la question NE PROVOQUE PAS le passage à l'acte. Au contraire, elle SAUVE des vies.\n\nPourquoi ?\n\nUne personne qui a des idées suicidaires se sent souvent SEULE avec elles. Elle n'ose pas en parler — par honte, par peur d'inquiéter, par peur d'être jugée. La question du soignant lui dit : \"on peut en parler ici, je vais pas paniquer\". C'est un soulagement, pas un déclencheur.\n\nUne personne qui n'a PAS d'idées suicidaires ne va pas s'en inventer parce qu'on lui demande. La question fait \"non, pas du tout\" — et on passe à autre chose.\n\nDans une consultation pour suspicion de dépression, il FAUT poser la question. Directement. Calmement. Sans détour. Recommandation NICE explicite : \"Always ask people with depression directly about suicidal ideation and intent\".\n\nFormulation possible :\n• \"Est-ce qu'il vous arrive de penser que ça ne vaut plus le coup de vivre ?\"\n• \"Pensez-vous parfois à mettre fin à vos jours ?\"\n• \"Avez-vous des idées de mort ?\"\n\nNe pas demander, c'est laisser le patient seul avec sa souffrance.",
+  "rationale": "Ce mythe est encore très répandu dans le grand public ET chez certains soignants peu formés. Le réfuter explicitement est un enjeu de santé publique : en France, ~9 000 suicides/an, et la dépression est la 1re cause. Le simple fait d'en parler ouvre la porte à la prévention. NICE Rec 1.2.8.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

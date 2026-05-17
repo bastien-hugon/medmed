@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c2-l02a-medicaments-pourvoyeurs",
+  "kind": "lesson",
+  "prompt": "La fatigue d'origine MÉDICAMENTEUSE (iatrogène) est la cause oubliée numéro un. Devant toute fatigue, regarder l'ordonnance avant la prise de sang.\n\nFAMILLES À MÉMORISER :\n\n• ANTIDÉPRESSEURS — particulièrement en début de traitement, et surtout les tricycliques et la mirtazapine (sédatifs).\n\n• ANTIHISTAMINIQUES DE 1ère GÉNÉRATION (hydroxyzine, dexchlorphéniramine…) — passent la barrière du cerveau et endorment. Les antiH1 de 2e génération (cétirizine, loratadine) sont moins concernés.\n\n• ANTIHYPERTENSEURS — surtout les bêta-bloquants (qui ralentissent le cœur) et les antihypertenseurs centraux.\n\n• DIURÉTIQUES — peuvent provoquer une HYPOKALIÉMIE (baisse du potassium dans le sang), qui entraîne fatigue et crampes.\n\n• MYORELAXANTS (thiocolchicoside, tétrazépam jadis…) — relâchent les muscles mais endorment.\n\n• SÉDATIFS et HYPNOTIQUES (benzodiazépines, zolpidem…) — fatigue résiduelle au réveil, surtout chez le sujet âgé qui élimine plus lentement.\n\nQuestion-clé à poser : \"Quels médicaments prenez-vous, même ceux sans ordonnance, et depuis quand ?\"",
+  "rationale": "L'iatrogène est sous-diagnostiqué parce que le médecin pense rarement à se relire. Astuce pratique : refaire chronologiquement la liste des traitements et corréler avec l'apparition de la fatigue. Si la fatigue a démarré 2 semaines après l'introduction d'un nouveau médicament, c'est probablement lui. Avant de prescrire un bilan large, vérifier si on peut alléger l'ordonnance.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

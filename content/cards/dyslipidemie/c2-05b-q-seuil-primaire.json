@@ -1,0 +1,19 @@
+{
+  "id": "dyslipidemie-c2-q05-seuil-primaire",
+  "kind": "cloze",
+  "prompt": "En prévention primaire, NICE recommande de proposer une statine (atorvastatine ___ mg) lorsque le risque cardiovasculaire à 10 ans est ≥ ___ %.",
+  "expected": ["20", "10"],
+  "rationale": "Atorvastatine 20 mg si QRISK3 ≥ 10 % à 10 ans : c'est LA règle NICE en prévention primaire. À ne pas confondre avec la prévention SECONDAIRE qui démarre d'emblée à atorvastatine 80 mg, indépendamment du LDL initial. Le couple '20 mg / 10 %' est le réflexe à mémoriser.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

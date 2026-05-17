@@ -1,0 +1,18 @@
+{
+  "id": "ist-c2-l03-chlamydia-neonatale",
+  "kind": "lesson",
+  "prompt": "Quand une femme accouche par voie basse avec une chlamydia cervicale non traitée, le bébé peut être contaminé au passage. Deux tableaux possibles, à des âges différents :\n\n• CONJONCTIVITE NÉONATALE — apparition entre J5 et J12 de vie. Œil rouge, sécrétions purulentes, paupières gonflées. Diagnostic = écouvillon conjonctival (NAAT ou culture). Traitement = érythromycine PO 14 jours (PAS de doxycycline chez le nouveau-né).\n\n• PNEUMOPATHIE NÉONATALE — apparition entre 1 et 3 mois. Tableau sub-aigu, afébrile (souvent). Toux 'staccato' (sèche, répétitive), polypnée (= respiration rapide), parfois éosinophilie sanguine > 400/mm³. Radio : infiltrats bilatéraux, hyperinflation. Traitement = érythromycine PO 14 jours OU azithromycine 3 jours.\n\nPourquoi cette double présentation dans le temps ? La conjonctivite reflète une inoculation directe (œil-sécrétions cervicales) ; la pneumopathie reflète une colonisation nasopharyngée plus diffuse qui descend secondairement.",
+  "rationale": "Piège classique : conjonctivite du nouveau-né < J3 = gonocoque (urgence ophtalmo) ; J5-J12 = chlamydia. La pneumopathie afébrile à toux staccato chez un nourrisson de 6 semaines doit faire évoquer la chlamydia même longtemps après la naissance. Surveillance d'une sténose hypertrophique du pylore si érythromycine < 6 semaines de vie.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  }
+}

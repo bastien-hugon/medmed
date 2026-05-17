@@ -1,0 +1,25 @@
+{
+  "id": "diabete-t2-c1-q08-symptomes-cardinaux",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces signes, lequel ne fait PAS partie des trois symptômes cardinaux du diabète ?",
+  "choices": [
+    { "id": "a", "text": "Soif intense (polydipsie)", "correct": false },
+    { "id": "b", "text": "Urines abondantes (polyurie)", "correct": false },
+    { "id": "c", "text": "Amaigrissement involontaire", "correct": false },
+    { "id": "d", "text": "Maux de tête pulsatiles", "correct": true }
+  ],
+  "expected": ["d"],
+  "rationale": "Les 3 P : Polyurie, Polydipsie, Perte de poids. Les céphalées ne font PAS partie de la triade. Note : dans le T2, ces symptômes sont souvent absents/discrets — la maladie peut évoluer silencieusement pendant des années avant d'être détectée (parfois par hasard lors d'une prise de sang).",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

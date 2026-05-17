@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c1-l04a-confusions-faiblesse-somnolence",
+  "kind": "lesson",
+  "prompt": "Quand un patient dit \"je suis fatigué\", il peut vouloir dire 4 choses très différentes. Le médecin doit faire le tri.\n\n1) FATIGUE VRAIE (asthénie) — manque d'énergie pour démarrer et tenir une activité. \"Je n'ai envie de rien.\"\n\n2) FAIBLESSE MUSCULAIRE — manque de force réelle dans les muscles. \"Je n'arrive plus à monter les escaliers, mes jambes lâchent.\" Évoque un problème neurologique ou musculaire (myasthénie, neuropathie…).\n\n3) SOMNOLENCE — envie irrépressible de dormir, avec bâillements, endormissements en journée. \"Je m'endors devant la télé / au volant.\" Évoque un trouble du sommeil, notamment l'apnée du sommeil.\n\n4) DYSPNÉE D'EFFORT — essoufflement qui empêche d'aller au bout d'un effort. \"Je suis essoufflé en montant deux étages.\" Évoque un problème cardiaque ou pulmonaire.\n\nLes patients utilisent souvent \"fatigué\" pour les quatre sans distinguer. Faire reformuler avec des exemples concrets : \"Quand vous dites fatigué, qu'est-ce qui vous arrive précisément ?\"",
+  "rationale": "C'est une des compétences les plus utiles en médecine générale : décoder ce que le patient appelle 'fatigue'. Une faiblesse musculaire vraie ou une dyspnée d'effort cachée derrière le mot 'fatigue' changent complètement la prise en charge. Toujours faire préciser avec des situations concrètes du quotidien.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

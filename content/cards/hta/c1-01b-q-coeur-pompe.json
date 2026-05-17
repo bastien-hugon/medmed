@@ -1,0 +1,19 @@
+{
+  "id": "hta-c1-q01-coeur-pompe",
+  "kind": "cloze",
+  "prompt": "Le cœur est une ___ musculaire qui envoie le sang dans tout le corps.",
+  "expected": ["pompe"],
+  "rationale": "Pompe : un mot mécanique qui résume parfaitement la fonction du cœur. C'est l'image à garder en tête.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.fedecardio.org/je-m-informe/le-coeur/",
+    "version": "généralités"
+  }
+}

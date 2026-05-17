@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c1-l03-muscles-paravertebraux",
+  "kind": "lesson",
+  "prompt": "La colonne, toute seule, est une pile instable. Pour qu'elle tienne debout, elle a besoin de muscles tout autour, comme les haubans qui tiennent un mât de bateau.\n\nLes plus importants pour le bas du dos s'appellent les MUSCLES PARAVERTÉBRAUX. 'Para' veut dire 'à côté de', 'vertébraux' = des vertèbres. Donc : les muscles juste à côté des vertèbres, qui longent la colonne de part et d'autre.\n\nQuand tu te penches, te redresses, portes une caisse — ce sont eux qui travaillent. S'ils sont fatigués, contractés, ou mal entraînés, ils peuvent envoyer un signal de douleur : c'est ce qu'on appelle parfois familièrement un 'tour de reins' ou 'lumbago'.\n\nLa plupart des lombalgies communes viennent en partie de ces muscles, et/ou des disques, et/ou des ligaments — sans qu'on puisse toujours dire précisément lequel.",
+  "rationale": "Image : les haubans d'un mât. Pas de haubans solides, le mât tombe. C'est pour ça que le traitement principal de la lombalgie commune, c'est le mouvement et le renforcement musculaire — pas le repos. Plus tu gardes ces muscles actifs et souples, moins tu auras mal et moins tu récidiveras.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

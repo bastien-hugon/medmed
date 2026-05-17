@@ -1,0 +1,18 @@
+{
+  "id": "depression-c2-l10-tca-overdose",
+  "kind": "lesson",
+  "prompt": "Pourquoi les ISRS sont préférés aux TCA (Tricycliques) en 1ère ligne ?\n\nLes TCA (Tricycliques — comme amitriptyline, clomipramine, imipramine) sont les antidépresseurs \"historiques\" des années 60. Ils sont efficaces — souvent au moins autant que les ISRS — mais ils ont DEUX gros défauts :\n\n1. EFFETS SECONDAIRES nombreux : bouche sèche, constipation, prise de poids, somnolence, hypotension orthostatique, troubles cognitifs (par effet anticholinergique).\n\n2. DANGER MAJEUR EN CAS D'OVERDOSE.\n\nC'est ce 2e point qui est CRUCIAL chez un patient déprimé.\n\nUn patient qui a des idées suicidaires PEUT utiliser son traitement pour passer à l'acte. Et avec les TCA, une dose de 1 à 2 semaines de traitement (≈ 1-2 boîtes) peut être LÉTALE — par arrêt cardiaque, troubles du rythme, convulsions. Les ISRS, en comparaison, sont quasi non létaux en monothérapie même à très haute dose.\n\nNICE 2022 (Rec 1.4.20) : \"Do not routinely start treatment with TCAs, except LOFEPRAMINE, as they are associated with the greatest risk in overdose.\"\n\nEXCEPTION : la LOFÉPRAMINE — un TCA particulier qui a un bien meilleur profil de sécurité en overdose. Si on veut absolument un TCA, c'est celui-là.\n\nMessage pratique :\n• 1ère ligne = ISRS (sécurité)\n• TCA = 2e ligne, et de préférence lofépramine\n• Toujours évaluer le risque suicidaire AVANT toute prescription d'AD\n• Limiter la quantité prescrite chez patient à risque (1-2 semaines à chaque ordonnance)",
+  "rationale": "Acronyme : TCA = Tricycliques. Décision pragmatique de NICE : on choisit l'AD aussi en fonction du \"risque de l'avoir dans la pharmacie\". Lofépramine = exception notable, presque jamais prescrite en France en pratique courante mais à connaître. En pratique française, ISRS et ISRSNA dominent largement.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

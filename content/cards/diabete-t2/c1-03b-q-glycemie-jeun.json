@@ -1,0 +1,25 @@
+{
+  "id": "diabete-t2-c1-q04-glycemie-jeun",
+  "kind": "qcm-vignette",
+  "prompt": "Que veut dire 'glycémie à jeun' ?",
+  "choices": [
+    { "id": "a", "text": "Glycémie mesurée juste après un repas", "correct": false },
+    { "id": "b", "text": "Glycémie mesurée le soir avant de dormir", "correct": false },
+    { "id": "c", "text": "Glycémie mesurée le matin, sans avoir mangé depuis au moins 8 heures", "correct": true },
+    { "id": "d", "text": "Glycémie moyenne sur 24 heures", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "À jeun = pas mangé depuis ≥ 8 h (en pratique : prise de sang du matin avant le petit-déjeuner). C'est LE moment de référence pour évaluer la glycémie de base, sans interférence digestive. Toutes les valeurs seuils du diagnostic du diabète à jeun (1,26 g/L) supposent ces conditions.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "depression-c1-q02-deux-symptomes-coeur",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces deux symptômes, lesquels sont les DEUX symptômes \"cœur\" de l'épisode dépressif caractérisé (dont au moins UN doit être présent pour évoquer le diagnostic) ?",
+  "choices": [
+    {
+      "id": "a",
+      "text": "Humeur triste persistante + troubles du sommeil",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Humeur triste persistante + anhédonie (perte du plaisir)",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Fatigue + perte d'appétit",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Idées suicidaires + culpabilité",
+      "correct": false
+    }
+  ],
+  "expected": ["b"],
+  "rationale": "Les 2 symptômes cardinaux de l'EDC sont : (1) humeur dépressive et (2) anhédonie. Au moins UN des deux doit être présent — sans eux, ce n'est pas une dépression. Les autres symptômes (sommeil, appétit, fatigue, etc.) sont les symptômes \"associés\" — ils étoffent le tableau mais ne suffisent pas seuls.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

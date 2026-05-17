@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c2-l07-panique-pec",
+  "kind": "lesson",
+  "prompt": "Pour le TROUBLE PANIQUE (attaques répétées + anxiété anticipatoire), la prise en charge ressemble à celle du TAG, avec quelques nuances.\n\nDIAGNOSTIC : NICE insiste — pas de questionnaire de screening bien validé pour le trouble panique. Le diagnostic repose sur l'ENTRETIEN clinique (récit typique de crise, fréquence, retentissement, comorbidités).\n\nPRISE EN CHARGE en cas de trouble panique modéré à sévère, DEUX OPTIONS de 1ère ligne (au choix) :\n\n1. PSYCHOTHÉRAPIE — CBT spécifique du trouble panique\n   • Durée totale : 7 à 14 HEURES de thérapie\n   • Séances hebdomadaires d'1 à 2 heures\n   • À compléter en MAXIMUM 4 MOIS\n   • Travail spécifique : exposition aux sensations corporelles (interoception), restructuration des interprétations catastrophiques ('mon cœur bat → je vais mourir')\n\n2. ANTIDÉPRESSEUR — SSRI ayant l'autorisation pour le trouble panique\n   • Molécules licenciées : escitalopram, sertraline, citalopram, paroxétine, et la venlafaxine (SNRI)\n   • Démarrer à DOSE BASSE (le trouble panique est très sensible à une aggravation initiale, plus que le TAG) puis augmenter progressivement\n   • Si inefficace après 12 semaines à dose adéquate : changer pour imipramine ou clomipramine (off-label, antidépresseurs tricycliques)\n\nÀ NE PAS FAIRE dans le trouble panique :\n• BENZODIAZÉPINES : NICE déconseille — associées à un MOINS BON pronostic à long terme.\n• Antihistaminiques sédatifs et antipsychotiques : à ÉVITER aussi.\n\nÀ l'AUTO-MÉDICATION : éviter la caféine (favorise les crises) et l'alcool (auto-traitement classique qui empire la dépendance et l'anxiété).",
+  "rationale": "Trois nuances importantes vs TAG : (1) la CBT panique est PLUS COURTE (7-14h vs 12-15 séances d'1h pour le TAG) car ciblée et structurée différemment ; (2) la liste des SSRI est plus restreinte — seuls ceux licenciés pour le panic ; (3) NICE va jusqu'à dire que les BZD font ACTIVEMENT EMPIRER le pronostic à long terme du trouble panique, pas seulement qu'elles sont 'à éviter'. Penser aussi à dépister une AGORAPHOBIE associée (très fréquente avec le trouble panique).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

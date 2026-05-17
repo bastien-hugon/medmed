@@ -1,0 +1,19 @@
+{
+  "id": "gyneco-prevention-c2-q06-implant-efficacite-cloze",
+  "kind": "cloze",
+  "prompt": "Le taux de grossesses la 1ère année sous implant sous-cutané est d'environ ___ % (typical use = perfect use, car c'est une LARC).",
+  "expected": ["0,05"],
+  "rationale": "0,05 % la 1ère année, soit 1 grossesse pour 2000 femmes. C'est l'une des contraceptions réversibles les plus efficaces (équivalent à la stérilisation, en réversible). Cette efficacité 'parfaite' tient au fait qu'il n'y a aucune action quotidienne — pas d'oubli possible. À comparer aux ~9 % en typical use de la pilule combinée.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "depression-c2-q02-seuil-phq9",
+  "kind": "cloze",
+  "prompt": "Selon NICE 2022, on parle de dépression \"more severe\" (plus sévère) à partir d'un score PHQ-9 ≥ ___.",
+  "expected": ["16"],
+  "rationale": "Seuil 16 sur le PHQ-9 = bascule entre less severe (< 16) et more severe (≥ 16). Cette dichotomie détermine la 1ère ligne thérapeutique (psychothérapie seule vs psychothérapie ± antidépresseur). Score PHQ-9 va de 0 à 27.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

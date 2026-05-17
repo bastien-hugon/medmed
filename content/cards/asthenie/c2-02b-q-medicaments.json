@@ -1,0 +1,25 @@
+{
+  "id": "asthenie-c2-q02b-medicaments",
+  "kind": "qcm-vignette",
+  "prompt": "Un homme de 62 ans, hypertendu, vous consulte pour une fatigue d'apparition récente. Vous suspectez une cause iatrogène.\n\nParmi ces médicaments qu'il prend, lequel est le PLUS susceptible d'expliquer sa fatigue par un mécanisme d'hypokaliémie (baisse du potassium) ?",
+  "choices": [
+    { "id": "a", "text": "Paracétamol 1 g si douleur.", "correct": false },
+    { "id": "b", "text": "Furosémide (diurétique de l'anse) 40 mg/j.", "correct": true },
+    { "id": "c", "text": "Loratadine 10 mg/j (antihistaminique de 2e génération).", "correct": false },
+    { "id": "d", "text": "Oméprazole 20 mg/j (inhibiteur de la pompe à protons).", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Les diurétiques (notamment de l'anse comme le furosémide, et thiazidiques) font éliminer le potassium par les reins. Une hypokaliémie se traduit par fatigue, crampes, parfois troubles du rythme cardiaque. Toujours doser le potassium chez un patient sous diurétique qui se plaint de fatigue. Les antiH1 de 2e génération comme la loratadine sont peu sédatifs (contrairement aux 1ère génération). Paracétamol et oméprazole ne sont pas des causes habituelles de fatigue.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

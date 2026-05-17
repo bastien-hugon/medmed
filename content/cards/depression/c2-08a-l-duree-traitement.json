@@ -1,0 +1,18 @@
+{
+  "id": "depression-c2-l08-duree-traitement",
+  "kind": "lesson",
+  "prompt": "Combien de temps doit-on prendre un antidépresseur ?\n\nLa règle NICE 2022 — à graver :\n\nAU MOINS 6 MOIS APRÈS LA RÉMISSION.\n\nNotez bien : 6 mois APRÈS la rémission, pas 6 mois au total.\n\nExemple concret :\n• Début AD : janvier\n• Rémission (= disparition franche des symptômes) : avril (~3 mois)\n• Poursuite obligatoire jusqu'à : octobre (6 mois après avril)\n• Durée totale : ~9 mois minimum\n\nPourquoi cette règle ?\n\nParce que le risque de RECHUTE est ÉLEVÉ dans les mois qui suivent la rémission. Le cerveau a besoin de temps pour stabiliser les nouveaux circuits. Arrêter trop tôt = revenir à la case départ pour 1 patient sur 2.\n\nCas particuliers — durée prolongée (souvent 2 ans ou plus, parfois à vie) :\n• Antécédents d'épisodes dépressifs multiples (≥ 3)\n• Épisode sévère initial (idées suicidaires, retentissement majeur)\n• Comorbidités psychiatriques\n• Patient à haut risque de rechute → maintenir la dose ayant fait la rémission\n\nLE MESSAGE AU PATIENT, AU DÉPART :\n\"Ce traitement n'est pas une cure de 1 mois. Vous allez probablement le prendre 9 à 18 mois en tout, et on l'arrêtera ensemble, progressivement. Arrêter trop tôt, c'est s'exposer à une rechute.\"\n\nC'est pour ça qu'on parle de \"phase aiguë\" (jusqu'à rémission) puis \"phase de consolidation\" (les 6 mois après) puis \"phase d'entretien\" (au-delà, si indiqué).",
+  "rationale": "Erreur fréquente : patient \"qui va mieux à 2 mois\" et qui arrête de lui-même. 50 % de rechute. La psychoéducation initiale (\"on va prendre 9-18 mois en tout\") évite ce piège. NICE Rec 1.4.11 explicite : 6 mois après rémission.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

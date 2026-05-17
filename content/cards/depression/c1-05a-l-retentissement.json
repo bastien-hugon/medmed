@@ -1,0 +1,18 @@
+{
+  "id": "depression-c1-l05-retentissement",
+  "kind": "lesson",
+  "prompt": "Avoir 5 symptômes sur 9 ne suffit PAS. Il manque un dernier critère, peut-être le plus important : le RETENTISSEMENT.\n\nLe retentissement, c'est l'IMPACT que les symptômes ont sur la vie du patient. Concrètement :\n• Famille — ne plus jouer avec ses enfants, ne plus parler à son conjoint, s'isoler\n• Travail — arriver en retard, ne plus tenir le rythme, faire des erreurs, ne plus y aller\n• Vie quotidienne — ne plus se laver, ne plus faire les courses, ne plus payer les factures, ne plus sortir\n• Social — ne plus voir ses amis, refuser les invitations, couper les liens\n\nUne personne qui coche les 9 symptômes mais qui continue à fonctionner normalement n'a probablement pas un EDC.\n\nUne personne qui coche \"seulement\" 5 symptômes mais qui ne peut plus travailler, ne sort plus, ne parle plus à personne : oui, EDC.\n\nC'est ça la différence entre une liste de cases cochées et une vraie MALADIE : la maladie EMPÊCHE DE VIVRE.\n\nQuestion-clé en consultation : \"Comment ça se passe au travail ? à la maison ? avec vos proches ? Qu'est-ce que vous arriviez à faire avant et que vous n'arrivez plus à faire ?\"",
+  "rationale": "Le retentissement est un critère diagnostique à part entière (critère C du DSM-5). C'est aussi le meilleur indicateur de sévérité, et le critère qui pousse à proposer un arrêt de travail, à intensifier le traitement, ou à adresser au psychiatre. En consultation, le décrire concrètement (\"avant je faisais X, maintenant je ne fais plus\") est plus parlant qu'un score.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

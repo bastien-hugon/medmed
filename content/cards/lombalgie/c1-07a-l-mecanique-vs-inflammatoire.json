@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c1-l07-mecanique-vs-inflammatoire",
+  "kind": "lesson",
+  "prompt": "Quand un patient dit 'j'ai mal au dos', la première question utile, ce n'est pas 'où exactement', c'est 'QUAND ça vous fait mal ?'. Parce qu'il y a deux profils très différents :\n\nDOULEUR MÉCANIQUE (la plus fréquente)\n• Apparaît ou s'aggrave en BOUGEANT, en se penchant, en portant\n• Soulagée par le REPOS\n• Pas (ou peu) de réveil la nuit, sauf en changeant de position\n• Pas de raideur matinale prolongée\n• → C'est le profil typique de la lombalgie commune\n\nDOULEUR INFLAMMATOIRE (plus rare, plus inquiétante)\n• Pire la NUIT, surtout deuxième partie de nuit, réveille le patient\n• Raideur le matin qui dure > 30 minutes ('on est rouillé' au lever)\n• Souvent S'AMÉLIORE en bougeant (paradoxal)\n• → Évoque une cause inflammatoire (spondyloarthrite) ou autre cause non commune\n\nL'horaire de la douleur est donc un tri grossier mais utile : mécanique = banal, inflammatoire = à creuser.",
+  "rationale": "Mnémo : la douleur mécanique 'aime le repos', la douleur inflammatoire 'aime le mouvement'. C'est contre-intuitif mais c'est le signe le plus discriminant à l'interrogatoire. Une douleur lombaire qui réveille à 4h du matin chez un jeune de 25 ans avec raideur matinale prolongée doit faire évoquer une spondyloarthrite — pas une lombalgie commune.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

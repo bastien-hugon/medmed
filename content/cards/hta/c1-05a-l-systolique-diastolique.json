@@ -1,0 +1,18 @@
+{
+  "id": "hta-c1-l05-systolique-diastolique",
+  "kind": "lesson",
+  "prompt": "Pourquoi on donne TOUJOURS deux chiffres pour la PA ? Genre '120/80'.\n\nParce que le cœur n'envoie pas le sang de manière constante : il fait des battements. Entre chaque battement, il y a deux moments :\n\n• Le cœur SE CONTRACTE (il pousse le sang dehors) → pression MAX dans les artères → c'est le chiffre du HAUT, appelé pression SYSTOLIQUE.\n\n• Le cœur SE RELÂCHE (il se remplit pour le prochain battement) → pression MIN dans les artères → c'est le chiffre du BAS, appelé pression DIASTOLIQUE.\n\nDonc '120/80' veut dire : 120 mmHg quand le cœur pousse, 80 mmHg quand il se repose.\n\nEn consultation on dit souvent juste '12/8' — on enlève le zéro, mais c'est la même chose.",
+  "rationale": "Astuce mnémo : SYStolique = SYStème qui SUSpend la circulation (le cœur expulse en force). DIAstolique = DIlatation (le cœur se relâche). Les deux chiffres comptent : un patient à 160/80 est hypertendu (systolique haute), pareil pour 130/95 (diastolique haute).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

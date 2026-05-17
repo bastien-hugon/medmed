@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c1-l02-primaire-vs-secondaire",
+  "kind": "lesson",
+  "prompt": "En médecine, on classe TOUTES les céphalées en deux grands groupes. C'est LA distinction qui change toute la prise en charge.\n\n1) CÉPHALÉE PRIMAIRE\nLa douleur est la maladie. Il n'y a PAS de cause organique sous-jacente identifiable (pas de tumeur, pas d'infection, pas d'hémorragie...). Le cerveau, les vaisseaux, les méninges sont 'normaux' à l'imagerie. C'est un dysfonctionnement de la machinerie de la douleur elle-même.\nExemples : migraine, céphalée de tension, algie vasculaire de la face.\n\n2) CÉPHALÉE SECONDAIRE\nLa douleur est un SYMPTÔME d'autre chose : une cause organique qu'il faut trouver et traiter.\nExemples : méningite (infection), hémorragie sous-arachnoïdienne (saignement), artérite à cellules géantes (Horton), tumeur cérébrale, glaucome aigu, sinusite, abus médicamenteux.\n\nLa très grande majorité (>90 %) des céphalées vues en médecine générale sont primaires. Mais l'enjeu absolu du généraliste est de NE PAS rater une céphalée secondaire grave — d'où l'importance des 'drapeaux rouges' (red flags) qu'on verra plus tard.\n\nMnémonique : primaire = la douleur EST la maladie ; secondaire = la douleur SIGNALE la maladie.",
+  "rationale": "Cette dichotomie structure tout le raisonnement face à un patient céphalalgique. La question n'est jamais 'quelle céphalée primaire ?' avant d'avoir éliminé une secondaire dangereuse. C'est le squelette du diagnostic en C1.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hta-c2-l09-adaptation-comorbidites",
+  "kind": "lesson",
+  "prompt": "Tous les antihypertenseurs baissent la PA. Mais le CHOIX entre eux dépend des autres maladies du patient. Voici les associations préférentielles selon la HAS :\n\n• DIABÈTE avec microalbuminurie ou IRC → IEC ou ARA2 en 1ère intention. Pourquoi ? Ils protègent le rein indépendamment de leur effet sur la PA (en relâchant l'artériole efférente du glomérule, ils diminuent l'hyperfiltration).\n\n• IRC (Insuffisance Rénale Chronique) ou PROTÉINURIE → IEC ou ARA2. Même logique néphroprotectrice.\n\n• INSUFFISANCE CARDIAQUE → IEC (sinon ARA2) + bêtabloquants avec AMM dans cette indication + diurétiques. Ici les bêtabloquants reviennent car ils protègent le cœur défaillant.\n\n• MALADIE CORONARIENNE (angor, post-infarctus) → IEC + bêtabloquants. Les BB diminuent la consommation d'oxygène du myocarde.\n\n• POST-AVC → diurétiques thiazidiques, IEC (sinon ARA2), inhibiteurs calciques. Pas les BB en 1ère intention.\n\nCAS PARTICULIER : si DFG < 30 ml/min/1,73 m² (IRC sévère), syndrome néphrotique, ou insuffisance cardiaque → on remplace le diurétique thiazidique par un diurétique de l'ANSE (ex : furosémide), plus efficace en cas de filtration rénale très basse.\n\nIDÉE CLÉ : 'on traite l'HTA, mais on adapte le médicament au patient entier'. Une HTA du diabétique n'a pas le même traitement qu'une HTA banale du quadragénaire en bonne santé.",
+  "rationale": "Mnémo : 'rein/diabète → bloquer SRAA (IEC/ARA2). Cœur coronarien/insuffisant → bêtabloquant revient. AVC → tout sauf BB en 1ère.' À noter : SURVEILLANCE biologique sous IEC/ARA2 : ionogramme + créatinine 1-4 semaines après l'introduction (risque d'hyperkaliémie et d'insuffisance rénale aiguë, surtout si association à AINS + diurétique = 'triple whammy' à éviter).",
+  "tags": {
+    "system": ["cardiovasculaire", "rénal", "endocrinologie"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

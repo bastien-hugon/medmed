@@ -1,0 +1,18 @@
+{
+  "id": "asthenie-c2-l06a-evaluation-mentale-sommeil",
+  "kind": "lesson",
+  "prompt": "Deux pistes à explorer SYSTÉMATIQUEMENT devant une fatigue persistante : la santé mentale et la qualité du sommeil. Toutes deux sous-diagnostiquées car peu visibles à l'œil nu.\n\nSANTÉ MENTALE — des questionnaires validés et rapides :\n\n• PHQ-9 (Patient Health Questionnaire-9) — 9 questions pour dépister une dépression. Cote 0 à 27. Un score ≥ 10 oriente fortement vers un épisode dépressif caractérisé.\n\n• GAD-7 (Generalized Anxiety Disorder-7) — 7 questions pour dépister un trouble anxieux généralisé. Cote 0 à 21. Score ≥ 10 = trouble anxieux probable.\n\nCes outils peuvent être passés en 3 minutes en consultation. Ils ne remplacent pas le jugement clinique, mais ils standardisent le dépistage.\n\nSOMMEIL — l'apnée du sommeil (SAOS) en priorité :\n\nLe SAOS (Syndrome d'Apnée Obstructive du Sommeil) est une cause fréquente et sous-diagnostiquée de fatigue. Quatre signes d'appel à rechercher :\n• RONFLEMENTS sonores, signalés par le partenaire\n• PAUSES RESPIRATOIRES nocturnes constatées par l'entourage\n• SOMMEIL non récupérateur, sensation de fatigue dès le réveil\n• SOMNOLENCE DIURNE — endormissements en réunion, devant la télé, au volant (Échelle d'Epworth ≥ 11 anormale)\n\nFacteurs favorisants : surpoids/obésité, cou court et large, sexe masculin, âge > 50 ans, ménopause, alcool et sédatifs le soir.\n\nConfirmation : polygraphie ventilatoire ou polysomnographie.",
+  "rationale": "Le piège : un patient déprimé n'évoque pas spontanément ses ruminations, un patient apnéique ne se souvient pas de ses apnées. Sans poser activement les bonnes questions, on passe à côté. Les questionnaires structurés réduisent le biais du \"je me sens fatigué de poser la question\". Pour le SAOS, le ronflement seul ne suffit pas — c'est l'association ronflement + somnolence diurne + témoin d'apnées qui doit alerter.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "lombalgie-c2-l01-drapeaux-rouges-concept",
+  "kind": "lesson",
+  "prompt": "Quand un patient consulte pour mal de dos, la mission n°1 du médecin n'est PAS de poser un diagnostic précis. C'est de répondre à une question binaire : 'Y a-t-il une cause GRAVE derrière ?'\n\nPour ça, on cherche systématiquement des DRAPEAUX ROUGES (en anglais : red flags). Ce sont des signes ou des contextes qui doivent faire suspecter une cause sérieuse :\n\n• Une FRACTURE (vertèbre cassée)\n• Une INFECTION (spondylodiscite : infection d'un disque ou d'une vertèbre)\n• Une TUMEUR (métastase osseuse ou tumeur primitive)\n• Un SYNDROME DE LA QUEUE DE CHEVAL (compression nerveuse sévère — urgence)\n\nUn drapeau rouge ne PROUVE pas la cause grave, il fait juste passer la lombalgie de 'commune' (banale) à 'à explorer' (imagerie, biologie, parfois urgence).\n\nLa HAS recommande de rechercher les drapeaux rouges À TOUS LES STADES de la prise en charge, pas seulement à la première consultation. Une lombalgie peut être commune au début, et un drapeau rouge apparaître plus tard.",
+  "rationale": "Drapeau rouge = alerte, pas certitude. Une analogie : c'est comme un voyant 'check engine' qui s'allume sur le tableau de bord. Il ne dit pas que le moteur est cassé — il dit 'va voir'. Le rôle du médecin de famille, c'est d'avoir ces voyants en tête à chaque consultation pour lombalgie, et de ne pas les rater.",
+  "tags": {
+    "system": ["rhumatologie", "musculosquelettique"],
+    "sdd": ["lombalgie"],
+    "item_edn": [93],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2961499/fr/prise-en-charge-du-patient-presentant-une-lombalgie-commune",
+    "version": "2019"
+  }
+}

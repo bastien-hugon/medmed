@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c2-l08-frottis-hpv-depistage",
+  "kind": "lesson",
+  "prompt": "Le DÉPISTAGE DU CANCER DU COL DE L'UTÉRUS est une prévention SECONDAIRE : on cherche à détecter des lésions précancéreuses (avant qu'elles ne deviennent un cancer) ou un cancer débutant.\n\nDEUX TESTS À CONNAÎTRE, prélevés tous les deux par grattage de la surface du col (frottis cervico-utérin) :\n\n1) EXAMEN CYTOLOGIQUE — on regarde au microscope si les cellules du col ont une morphologie anormale. C'est le 'frottis' historique.\n\n2) TEST HPV-HR — on cherche directement la présence d'ADN de papillomavirus à haut risque. Plus sensible pour identifier les femmes à risque de progression vers un cancer.\n\nSCHÉMA DE DÉPISTAGE EN FRANCE (HAS 2019/2020) :\n• 25-29 ans : EXAMEN CYTOLOGIQUE — 2 examens à 1 an d'intervalle au démarrage, puis tous les 3 ans si normaux.\n• 30-65 ans : TEST HPV en 1ère intention, tous les 5 ans si négatif (a remplacé la cytologie depuis 2020).\n• Arrêt après 65 ans si dépistage régulier antérieur normal.\n\nCONDUITE SI TEST HPV POSITIF : cytologie réflexe obligatoire (le test HPV est sensible mais peu spécifique) ; colposcopie en fonction des résultats.\n\nRÉSULTATS CYTOLOGIQUES (classification Bethesda 2014) :\n• ASC-US : cellules anormales d'importance indéterminée\n• LSIL : lésion de bas grade\n• HSIL : lésion de haut grade\n• CIN1 / CIN2 / CIN3 : néoplasie cervicale intra-épithéliale\n\nFEMMES VACCINÉES CONTRE LE HPV : elles suivent EXACTEMENT le même calendrier — le vaccin ne couvre pas 100 % des types HPV à haut risque.\n\nPOPULATION-CIBLE : toute femme ayant déjà eu des rapports sexuels, dans la tranche d'âge, sans symptôme. Si symptômes (saignements anormaux, dyspareunie…) → démarche diagnostique, pas dépistage.",
+  "rationale": "Le passage du 'tout frottis' vers le 'test HPV après 30 ans' (HAS 2019, déploiement 2020) est l'évolution majeure récente — c'est cohérent avec la biologie (l'infection HPV persistante précède la transformation cellulaire, donc la chercher directement est plus précoce). À retenir : avant 30 ans, le test HPV est trop souvent positif et transitoire pour être informatif → on garde la cytologie. Après 30 ans, une positivité HPV reflète plus souvent une infection persistante.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["depistage-col"],
+    "item_edn": [297],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://fr.wikipedia.org/wiki/Cancer_du_col_de_l%27ut%C3%A9rus",
+    "version": "consulté en 2026-05"
+  }
+}

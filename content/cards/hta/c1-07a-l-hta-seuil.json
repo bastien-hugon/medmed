@@ -1,0 +1,18 @@
+{
+  "id": "hta-c1-l07-hta-seuil",
+  "kind": "lesson",
+  "prompt": "À partir de quel chiffre on dit qu'un patient a de l'HYPERTENSION ARTÉRIELLE (HTA) ?\n\nLe seuil officiel, mesuré au cabinet médical : PA ≥ 140/90 mmHg.\n\nÇa veut dire :\n• Soit la systolique (haut) est ≥ 140\n• Soit la diastolique (bas) est ≥ 90\n• Soit les deux\n\nExemples :\n• 130/80 → normal\n• 145/85 → HTA (la systolique dépasse)\n• 130/95 → HTA (la diastolique dépasse)\n• 160/100 → HTA franche\n\nIMPORTANT : on ne diagnostique pas l'HTA sur UNE mesure. Il en faut PLUSIEURS, à des consultations différentes, pour éliminer un stress passager. On confirme aussi souvent avec des mesures hors cabinet (on verra ça après).",
+  "rationale": "Pourquoi 140/90 ? Au-dessus de ces chiffres, les études montrent une nette augmentation du risque d'AVC, d'infarctus, et de complications rénales. C'est un seuil arbitraire mais validé par des décennies de recherche. Au-dessus de ce seuil, traiter réduit prouvée le risque.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

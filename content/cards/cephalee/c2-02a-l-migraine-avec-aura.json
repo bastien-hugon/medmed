@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c2-l02-migraine-avec-aura",
+  "kind": "lesson",
+  "prompt": "La MIGRAINE AVEC AURA a des critères ICHD-3 spécifiques qui ciblent surtout les caractéristiques de l'aura elle-même.\n\nIl faut :\n\nA. Au moins 2 CRISES répondant aux critères B-C\n   (Plus permissif que 'sans aura' qui en demande 5)\n\nB. Au moins 1 symptôme d'aura RÉVERSIBLE parmi :\n   • Visuel (scotome scintillant, lignes en zigzag, perte partielle de vision)\n   • Sensitif (paresthésies / engourdissement)\n   • Parole / langage (dysphasie)\n   • Moteur (= migraine hémiplégique, plus rare, classification à part)\n   • Tronc cérébral (vertige, diplopie, ataxie)\n   • Rétinien (atteinte monoculaire — RARE et nécessite bilan)\n\nC. Au moins 3 des 6 caractéristiques suivantes :\n   1. Au moins 1 symptôme d'aura s'INSTALLE GRADUELLEMENT sur ≥ 5 minutes\n   2. Plusieurs symptômes d'aura se succèdent\n   3. Chaque symptôme d'aura dure 5 à 60 MINUTES\n   4. Au moins 1 symptôme est UNILATÉRAL\n   5. Au moins 1 symptôme est POSITIF (= ajoute quelque chose, ex. lumière scintillante) — pas seulement un déficit\n   6. L'aura est accompagnée ou suivie dans les 60 min d'une céphalée\n\nD. Non mieux expliqué par un autre diagnostic, et exclusion d'un AIT.\n\nLe gros piège pratique : différencier l'aura migraineuse d'un AIT/AVC. L'aura migraineuse s'installe LENTEMENT (≥ 5 min), avec souvent des symptômes POSITIFS (scintillement) AVANT le déficit. L'AVC, lui, est BRUTAL et plutôt 'négatif' (déficit pur). Mais devant la moindre incertitude, c'est l'imagerie en urgence.",
+  "rationale": "L'aura installée 'sur 30 secondes' n'est PAS une aura migraineuse — c'est jusqu'à preuve du contraire un événement vasculaire. La marche progressive (le scintillement qui grandit puis le scotome qui s'étend) est la signature de la dépression corticale envahissante de Leão, le mécanisme physiopathologique de l'aura.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "migraine"],
+    "item_edn": [100],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

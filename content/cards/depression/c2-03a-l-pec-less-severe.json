@@ -1,0 +1,18 @@
+{
+  "id": "depression-c2-l03-pec-less-severe",
+  "kind": "lesson",
+  "prompt": "Pour la dépression LESS SEVERE (PHQ-9 < 16), la reco NICE 2022 est CLAIRE : on commence PAR LA PSYCHOTHÉRAPIE, pas par l'antidépresseur.\n\nLa hiérarchie des options 1ère ligne (par ordre de coût-efficacité croissante) :\n\n1. SELF-HELP GUIDÉ — 6 à 8 séances structurées avec un soignant qui accompagne. Le patient travaille des outils chez lui (livres, applications validées) et fait le point avec le soignant. Ça marche.\n\n2. TCC EN GROUPE ou INDIVIDUELLE — 8 séances. La TCC (Thérapie Cognitivo-Comportementale, en anglais CBT) apprend à repérer les pensées négatives automatiques et à les modifier.\n\n3. ACTIVATION COMPORTEMENTALE (BA, Behavioural Activation) — 8 séances. Principe : la dépression fait fuir l'activité ; l'activité programmée fait reculer la dépression. On programme des activités plaisantes, même quand on n'en a pas envie.\n\n4. EXERCICE PHYSIQUE EN GROUPE — > 1 fois/sem pendant 10 sem, aérobie modéré. Effet antidépresseur démontré.\n\n5. THÉRAPIE INTERPERSONNELLE (IPT) — 8-16 séances, centrée sur les relations.\n\nQuand peut-on proposer un antidépresseur en less severe ?\n• Si le patient le DEMANDE après info éclairée (recommandation NICE 1.5.3)\n• Si la psychothérapie n'est pas accessible ou refusée\n• En cas d'épisode antérieur ayant bien répondu à un AD\n\nMessage clé : pour une dépression peu sévère, l'antidépresseur N'EST PAS la 1ère ligne.",
+  "rationale": "Changement majeur de paradigme NICE 2022 : déprescription dans le less severe. En France, on reste pourtant un des plus gros prescripteurs d'AD en Europe. Acronymes : CBT (Cognitive Behavioural Therapy, équivalent français TCC), BA (Behavioural Activation, activation comportementale), IPT (Interpersonal Psychotherapy, thérapie interpersonnelle).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

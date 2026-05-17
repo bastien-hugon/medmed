@@ -1,0 +1,18 @@
+{
+  "id": "ist-c1-l06-preservatif",
+  "kind": "lesson",
+  "prompt": "Le préservatif (externe ou interne) est aujourd'hui le SEUL moyen qui combine prévention IST + contraception en une seule barrière.\n\nIl agit comme une barrière physique entre les muqueuses et les fluides (sperme, sécrétions vaginales, sang). Si rien ne passe, le microbe ne passe pas.\n\nBien utilisé, il réduit substantiellement le risque pour les IST transmises par fluides : VIH, chlamydia, gonocoque, hépatite B, trichomonase.\n\nIl est MOINS protecteur — sans être inutile — contre les IST transmises par contact peau-peau au-delà de la zone couverte : HPV, herpès, syphilis. Le microbe peut être présent sur du tissu non couvert (pubis, scrotum, cuisse).\n\nAutres barrières existantes : digues dentaires pour rapports oraux.",
+  "rationale": "Le préservatif n'est pas parfait, mais c'est le seul outil 'multi-cibles' (IST + grossesse). La PrEP protège du VIH mais pas des autres IST. La pilule protège de la grossesse mais pas du tout des IST. Cette spécificité du préservatif explique pourquoi il reste recommandé en première ligne en éducation sexuelle, même chez les couples sous pilule.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

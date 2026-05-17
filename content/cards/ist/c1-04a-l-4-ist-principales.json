@@ -1,0 +1,18 @@
+{
+  "id": "ist-c1-l04-4-ist-principales",
+  "kind": "lesson",
+  "prompt": "En médecine générale, 4 IST reviennent tout le temps :\n\n1. CHLAMYDIA (Chlamydia trachomatis) — bactérie. La plus fréquente chez les < 25 ans. Le plus souvent silencieuse. Se traite avec un antibiotique simple (doxycycline).\n\n2. GONOCOQUE (Neisseria gonorrhoeae) — bactérie. Donne des écoulements purulents quand elle parle ; sinon silencieuse. Pose un problème croissant de résistance aux antibiotiques.\n\n3. SYPHILIS (Treponema pallidum) — bactérie. Évolue en plusieurs phases (chancre indolore → éruption → latence → atteintes neuro/cardio si non traitée). Traitement = pénicilline.\n\n4. VIH (Virus de l'Immunodéficience Humaine) — virus. Détruit progressivement le système immunitaire. Aucun traitement curatif, mais des antirétroviraux qui rendent la maladie chronique et stoppent la transmission.\n\nChlamydia + gonocoque sont souvent recherchées ensemble (même prélèvement, NAAT combinée). Syphilis + VIH sont recherchés par prise de sang.",
+  "rationale": "Ces 4 forment le 'cœur' du dépistage IST. En pratique courante, on propose souvent un 'bilan IST' qui inclut ces 4 + hépatite B (et parfois C). Le réflexe : devant tout symptôme génital ou comportement à risque, penser à ces 4 d'abord.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

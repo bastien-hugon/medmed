@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c1-l06-eal",
+  "kind": "lesson",
+  "prompt": "Comment sait-on si quelqu'un a une dyslipidémie (= un déséquilibre des graisses du sang) ?\n\nOn fait un BILAN LIPIDIQUE — en France on l'appelle aussi l'EAL : Exploration d'une Anomalie Lipidique.\n\nC'est une prise de sang qui mesure 4 valeurs :\n• Le cholestérol TOTAL (toutes formes confondues).\n• Le HDL ('bon cholestérol').\n• Le LDL ('mauvais cholestérol') — souvent calculé à partir des autres.\n• Les TRIGLYCÉRIDES.\n\nConditions de réalisation :\n• Idéalement À JEUN depuis 12 heures (eau autorisée), surtout pour les triglycérides qui montent après les repas.\n• Loin d'un événement aigu (infection, chirurgie) qui modifie temporairement les valeurs.\n• Sur une période 'stable' du patient.\n\nQuand le prescrire ?\n• Dans le cadre d'une évaluation du risque cardiovasculaire (par ex. à partir de 40 ans, ou plus tôt s'il y a des antécédents familiaux).\n• Si on suspecte un diabète, un syndrome métabolique.\n• Après un événement CV (infarctus, AVC) pour cibler le traitement.\n• Avant de débuter une statine (et pour le suivi).\n\nLes valeurs s'expriment en France soit en g/L (grammes par litre), soit en mmol/L (millimoles par litre). Les deux unités existent côte à côte — on apprendra à les reconnaître.",
+  "rationale": "EAL = nomenclature de la sécurité sociale française pour le bilan lipidique complet. Important : NICE (au Royaume-Uni) ne demande plus le jeûne obligatoire pour un premier dépistage (total + HDL suffisent), mais en France et pour un bilan complet incluant LDL et TG, le jeûne reste la règle. Les triglycérides peuvent doubler après un repas. À retenir : conversion grossière LDL g/L × 2,58 ≈ mmol/L. Donc cible LDL prévention secondaire de 0,77 g/L ≈ 2,0 mmol/L.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

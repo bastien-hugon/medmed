@@ -1,0 +1,25 @@
+{
+  "id": "dyslipidemie-c1-q07-facteurs-risque-cv",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi les éléments suivants, lequel N'EST PAS un facteur de risque cardiovasculaire reconnu ?",
+  "choices": [
+    { "id": "a", "text": "Le tabagisme actif.", "correct": false },
+    { "id": "b", "text": "Le diabète de type 2.", "correct": false },
+    { "id": "c", "text": "Un taux de HDL ('bon cholestérol') élevé.", "correct": true },
+    { "id": "d", "text": "Un antécédent d'infarctus chez le père avant 55 ans.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Un HDL ÉLEVÉ est plutôt protecteur — c'est le 'camion-poubelle' qui nettoie les artères. À l'inverse, un HDL BAS est un facteur de risque. Les autres items (tabac, diabète, antécédents familiaux précoces) sont tous des facteurs de risque CV classiques. Piège fréquent : confondre 'cholestérol total élevé' (FdR) et 'HDL élevé' (protecteur).",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "diabete-t2-c1-q03-insuline-role",
+  "kind": "qcm-vignette",
+  "prompt": "Quel est le rôle principal de l'insuline ?",
+  "choices": [
+    { "id": "a", "text": "Faire monter la glycémie quand on a faim", "correct": false },
+    { "id": "b", "text": "Permettre au glucose d'entrer dans les cellules (et donc faire baisser la glycémie)", "correct": true },
+    { "id": "c", "text": "Digérer les aliments dans l'estomac", "correct": false },
+    { "id": "d", "text": "Transporter l'oxygène dans le sang", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Insuline = clé qui ouvre les cellules au glucose → la glycémie baisse. Mnémo : 'INsuline fait rentrer le sucre DEDANS la cellule'. L'hormone qui fait MONTER la glycémie (l'inverse) s'appelle le glucagon — on n'a pas besoin de la retenir maintenant.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c1-l03-trois-cephalees-primaires",
+  "kind": "lesson",
+  "prompt": "Il existe trois grandes céphalées primaires à connaître. À elles trois, elles couvrent l'écrasante majorité des consultations pour mal de tête.\n\n1) CÉPHALÉE DE TENSION\nLa plus fréquente de toutes (prévalence vie entière ~70 %). Le 'mal de tête banal' de fin de journée. Sensation de casque qui serre, des deux côtés, légère à modérée. N'empêche pas de travailler.\n\n2) MIGRAINE\nUne crise neurologique réelle, pas un 'gros mal de tête'. Souvent d'un seul côté, pulsatile (ça bat avec le pouls), modérée à sévère, avec photophobie (gêne à la lumière), nausée, parfois vomissements. Dure 4 à 72 h. L'effort aggrave. ~15 % des adultes en France.\n\n3) ALGIE VASCULAIRE DE LA FACE (AVF)\nRare mais spectaculaire. Crises BRÈVES (15-180 min) mais d'une intensité extrême ('céphalée du suicide'), strictement d'un seul côté, autour de l'œil, avec côté du même côté : œil rouge, qui pleure, nez bouché ou qui coule, paupière qui tombe. Survient en 'salves' (clusters) : plusieurs crises par jour pendant des semaines, puis rémission. Touche surtout l'homme jeune.\n\nQuestion à toujours se poser : c'est quel pattern ? Bilatéral en casque léger → tension. Hémicrânie pulsatile avec photophobie → migraine. Hémicrânie péri-oculaire ultra-sévère avec œil rouge → AVF.",
+  "rationale": "Ces trois entités se distinguent par 4 critères simples : latéralité (bilatéral / unilatéral), qualité (pression / pulsatile / lancinant), intensité (légère / modérée à sévère / extrême), et durée (30 min à continu / 4-72 h / 15-180 min). Tu peux trier 95 % des céphalées primaires avec ce tableau mental.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee"],
+    "item_edn": [100],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

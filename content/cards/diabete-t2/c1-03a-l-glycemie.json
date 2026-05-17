@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c1-l03-glycemie",
+  "kind": "lesson",
+  "prompt": "La GLYCÉMIE, c'est simplement la quantité de glucose dans le sang. Un chiffre.\n\nEn France on la mesure en grammes par litre (g/L). Ailleurs (et de plus en plus en France) en millimoles par litre (mmol/L). Les deux unités existent — pas grave, on convertit.\n\nDeux moments importants pour la mesurer :\n\n• À JEUN (le matin, sans avoir mangé depuis au moins 8 h) → c'est la valeur de base, quand le corps n'a rien à digérer. Normale : entre 0,70 et 1,00 g/L environ.\n\n• APRÈS UN REPAS (en postprandial, ~2 h après) → la glycémie monte temporairement le temps que l'insuline fasse son travail. Normale : reste sous 1,40 g/L.\n\nChez une personne sans diabète, la glycémie oscille toute la journée dans une fourchette étroite : le pancréas ajuste l'insuline en temps réel, comme un thermostat. Chez le diabétique, ce thermostat est cassé.",
+  "rationale": "Repères chiffrés à intérioriser : à jeun ~ 0,9 g/L est normal ; > 1,26 g/L = diabète (on verra le seuil officiel après) ; entre les deux = zone grise (prédiabète). Note : 1 g/L ≈ 5,5 mmol/L. La glycémie est donc un indicateur instantané : elle te dit où tu en es MAINTENANT, pas sur la durée.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

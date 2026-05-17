@@ -1,0 +1,18 @@
+{
+  "id": "diabete-t2-c1-l06-symptomes-cardinaux",
+  "kind": "lesson",
+  "prompt": "Quand le sucre s'accumule trop dans le sang, le corps réagit de façon très caractéristique. Trois signes classiques, qu'on appelle les SYMPTÔMES CARDINAUX du diabète :\n\n1. POLYURIE — uriner beaucoup, et souvent (y compris la nuit).\n   → Le rein, débordé par le sucre en excès, essaie de l'éliminer dans les urines. Le sucre 'tire' de l'eau avec lui.\n\n2. POLYDIPSIE — avoir tout le temps soif, boire en quantité.\n   → Conséquence directe : on perd de l'eau dans les urines, donc on se déshydrate, donc on a soif.\n\n3. AMAIGRISSEMENT involontaire — perdre du poids sans le vouloir, malgré un appétit conservé voire augmenté.\n   → Les cellules ne reçoivent plus de glucose (porte fermée par manque d'insuline ou résistance). Affamées, elles brûlent les graisses et les muscles à la place.\n\nMnémo : les '3 P' (polyurie, polydipsie, perte de poids).\n\nIMPORTANT : ces symptômes sont FRANCS dans le diabète de type 1. Dans le type 2, ils sont souvent DISCRETS, voire absents pendant des années. C'est pour ça qu'on peut diagnostiquer un T2 longtemps après son apparition, parfois quand les complications sont déjà là.",
+  "rationale": "Astuce clinique : devant un patient qui boit beaucoup et urine beaucoup, le réflexe est de DOSER LA GLYCÉMIE. Surtout chez un enfant ou un ado mince qui maigrit — c'est jusqu'à preuve du contraire un diabète de type 1, et il faut hospitaliser en urgence (risque d'acidocétose). Chez un adulte en surpoids qui se sent un peu fatigué et soif, c'est plus typiquement un T2 — moins urgent, mais à confirmer rapidement.",
+  "tags": {
+    "system": ["endocrinologie"],
+    "sdd": ["diabete-t2"],
+    "item_edn": [247],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "version": "2024"
+  }
+}

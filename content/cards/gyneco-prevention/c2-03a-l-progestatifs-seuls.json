@@ -1,0 +1,18 @@
+{
+  "id": "gyneco-prevention-c2-l03-progestatifs-seuls",
+  "kind": "lesson",
+  "prompt": "Les PROGESTATIFS SEULS contiennent un progestatif de synthèse, sans œstrogène. Différentes formes : pilule micro-dosée (à prendre tous les jours sans interruption), injection intramusculaire, implant sous-cutané, DIU au lévonorgestrel.\n\nMÉCANISMES (variables selon le dosage et la voie) :\n• Épaississement de la glaire cervicale (constant).\n• Amincissement de l'endomètre.\n• Blocage de l'ovulation : INCONSTANT pour les pilules micro-dosées (sauf désogestrel), CONSTANT pour l'implant et l'injection.\n\nINDICATIONS — surtout quand les œstrogènes sont contre-indiqués :\n• Tabagisme après 35 ans\n• Migraine avec aura\n• Antécédent de thrombose veineuse\n• Allaitement (les œstrogènes peuvent diminuer la lactation ; les progestatifs n'ont pas cet effet)\n• HTA non équilibrée\n• Période post-partum immédiate\n\nEFFETS INDÉSIRABLES principaux à connaître (source MSD) :\n• AMÉNORRHÉE (absence de règles) — pas un signe pathologique, mais peut inquiéter.\n• SAIGNEMENTS IRRÉGULIERS, spotting — surtout les premiers mois.\n• Prise de poids modeste.\n• Céphalées.\n• Changements d'humeur.\n\nIMPORTANT pour les pilules micro-dosées (sauf désogestrel) : la fenêtre d'oubli est très étroite (≈ 3h). Un retard de 4-12h peut suffire à perdre l'efficacité contraceptive sur la prise concernée.",
+  "rationale": "C'est la famille 'plan B' quand l'œstrogène est contre-indiqué — et c'est très souvent demandé en MG (post-partum, tabagisme tardif, ATCD de phlébite). Les patientes doivent être prévenues de l'irrégularité des saignements qui est NORMALE mais souvent vécue comme un échec — beaucoup arrêtent prématurément faute d'information.",
+  "tags": {
+    "system": ["gynecologie-urologie"],
+    "sdd": ["contraception"],
+    "item_edn": [35],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/gynecology-and-obstetrics/family-planning/overview-of-contraception",
+    "version": "2024"
+  }
+}

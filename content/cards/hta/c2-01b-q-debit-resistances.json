@@ -1,0 +1,25 @@
+{
+  "id": "hta-c2-q01-debit-resistances",
+  "kind": "qcm-vignette",
+  "prompt": "L'équation fondamentale de la pression artérielle est PA = Q × R. À quoi correspondent Q et R ?",
+  "choices": [
+    {"id": "a", "text": "Q = quantité de sang totale, R = rythme cardiaque", "correct": false},
+    {"id": "b", "text": "Q = débit cardiaque, R = résistances vasculaires périphériques", "correct": true},
+    {"id": "c", "text": "Q = qualité du sang, R = rigidité artérielle", "correct": false},
+    {"id": "d", "text": "Q = quotient respiratoire, R = retour veineux", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "PA = Q × R où Q est le débit cardiaque (L/min, soit fréquence cardiaque × volume d'éjection systolique) et R les résistances vasculaires périphériques (essentiellement le diamètre des artérioles). Cette équation explique TOUTE la pharmaco de l'HTA : on baisse soit Q, soit R, soit les deux.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

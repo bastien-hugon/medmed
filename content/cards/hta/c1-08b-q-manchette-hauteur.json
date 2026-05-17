@@ -1,0 +1,25 @@
+{
+  "id": "hta-c1-q08-manchette-hauteur",
+  "kind": "qcm-vignette",
+  "prompt": "Tu prends la PA d'un patient assis. Où doit être son bras pendant la mesure ?",
+  "choices": [
+    {"id": "a", "text": "Pendant le long du corps, bras tendu vers le bas", "correct": false},
+    {"id": "b", "text": "Posé sur une table, à la hauteur du cœur", "correct": true},
+    {"id": "c", "text": "Levé au-dessus de la tête pour favoriser le retour veineux", "correct": false},
+    {"id": "d", "text": "Peu importe, l'appareil corrige automatiquement", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "Bras posé, à hauteur du cœur. Si le bras pend, la colonne de sang ajoute une pression hydrostatique → PA surestimée. Si le bras est trop haut, sous-estimée. Aucun tensiomètre grand public ne corrige cette erreur de position : c'est à l'opérateur de la respecter.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

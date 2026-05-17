@@ -1,0 +1,25 @@
+{
+  "id": "asthenie-c1-q04b-confusion-faiblesse",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente de 38 ans consulte pour \"fatigue\". Elle précise : \"Quand je monte les escaliers, mes cuisses lâchent ; je dois m'arrêter. Mais je n'ai pas envie de dormir, j'ai juste plus de force.\"\n\nQuel terme décrit le MIEUX ce que la patiente ressent ?",
+  "choices": [
+    { "id": "a", "text": "Asthénie (fatigue vraie) — manque d'énergie pour démarrer une activité.", "correct": false },
+    { "id": "b", "text": "Faiblesse musculaire — manque de force des muscles à l'effort.", "correct": true },
+    { "id": "c", "text": "Somnolence — envie irrépressible de dormir.", "correct": false },
+    { "id": "d", "text": "Dyspnée d'effort — essoufflement à l'effort.", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "Le mot-clé est \"mes cuisses lâchent\" : c'est un déficit de force réelle des muscles, pas un manque d'énergie. La distinction est cruciale : la faiblesse musculaire oriente vers une cause neurologique ou musculaire (myasthénie, myopathie, neuropathie), alors que la vraie asthénie a un diagnostic différentiel beaucoup plus large (anémie, hypothyroïdie, dépression…).",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

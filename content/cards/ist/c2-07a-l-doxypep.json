@@ -1,0 +1,18 @@
+{
+  "id": "ist-c2-l07-doxypep",
+  "kind": "lesson",
+  "prompt": "DoxyPEP = doxycycline en prophylaxie post-exposition pour les IST BACTÉRIENNES (pas le VIH — la PEP VIH, c'est une trithérapie antirétrovirale, vue précédemment).\n\nPrincipe : 1 dose unique de DOXYCYCLINE 200 mg PO, à prendre dans les 72 h suivant un rapport non protégé.\n\nPopulation cible : HSH (Hommes ayant des rapports Sexuels avec des Hommes) et femmes trans, en présence d'un risque élevé d'IST bactériennes (antécédents récents d'IST, partenaires multiples).\n\nPreuves : 3 essais randomisés positifs chez les HSH ont montré une réduction nette de l'incidence de :\n• Chlamydia\n• Gonocoque (effet plus modeste, car résistance bactérienne)\n• Syphilis\n\nIMPORTANT : aucune efficacité démontrée chez les femmes cisgenres à ce jour. Donc PAS de DoxyPEP en routine chez les femmes hors contexte trans.\n\nNe protège PAS contre : VIH (→ rester sous préservatif ou PrEP), HPV, HSV, hépatites virales.",
+  "rationale": "DoxyPEP est une stratégie complémentaire, pas un substitut au préservatif. Réserves : risque de sélection de résistances (doxycycline ++) sur des bactéries banales (S. aureus, microbiote), surconsommation antibiotique. Recommandation CDC officielle depuis 2024 chez HSH ; en France, recommandée par l'ANRS depuis 2024 dans cette population. Bonne occasion d'illustrer 'prophylaxie ciblée selon données EBM' (Evidence-Based Medicine).",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

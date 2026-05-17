@@ -1,0 +1,18 @@
+{
+  "id": "hta-c2-l01-debit-resistances",
+  "kind": "lesson",
+  "prompt": "Maintenant qu'on sait que la PA est la pression dans les artères, posons l'équation fondamentale. Elle tient en une ligne :\n\nPA = Q × R\n\nOù :\n• Q = le DÉBIT CARDIAQUE — combien de litres de sang le cœur envoie par minute (environ 5 L/min au repos)\n• R = les RÉSISTANCES vasculaires PÉRIPHÉRIQUES — à quel point les petites artères (artérioles) sont serrées\n\nReprenons le tuyau d'arrosage :\n• Plus le robinet débite (Q grand) → plus la pression monte\n• Plus tu pinces le tuyau (R grand) → plus la pression monte aussi\n\nLe débit cardiaque Q lui-même dépend de DEUX choses :\n• La fréquence cardiaque (combien de battements/minute)\n• Le volume éjecté à chaque battement (~70 mL au repos)\n\nDONC pour faire monter la PA, le corps a 3 leviers : battre plus vite, éjecter plus à chaque battement, ou contracter les artérioles. TOUTES les causes d'HTA agissent via au moins un de ces 3 leviers. ET tous les antihypertenseurs (qu'on verra plus loin) agissent en bloquant un de ces 3 leviers.\n\nC'est l'équation à graver. Le reste, c'est de la mécanique autour.",
+  "rationale": "Mnémo : PA = Q × R, le 'P=QR' qu'on grave une fois pour toutes. Application : un bêtabloquant ralentit le cœur (baisse Q). Un inhibiteur calcique relâche les artérioles (baisse R). Un diurétique vide le réservoir (baisse Q via baisse du volume sanguin). Toute la pharmaco de l'HTA est lisible avec cette équation.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

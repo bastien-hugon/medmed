@@ -1,0 +1,18 @@
+{
+  "id": "hta-c1-l06-pourquoi-mesurer",
+  "kind": "lesson",
+  "prompt": "Pourquoi les médecins prennent la tension à TOUS leurs patients, même quand ils vont bien ?\n\nParce qu'une PA trop haute pendant des années abime silencieusement les artères, surtout dans 4 organes :\n\n• Le CERVEAU → AVC (Accident Vasculaire Cérébral). Une artère se bouche ou se rompt dans le cerveau.\n• Le CŒUR → infarctus, insuffisance cardiaque. Le cœur souffre de pomper trop fort trop longtemps.\n• Les REINS → insuffisance rénale chronique. Les petites artères des reins se sclérosent.\n• Les YEUX → atteinte de la rétine, qui peut mener à la perte de vue.\n\nL'HTA est appelée le 'tueur silencieux' : pas de douleur, pas de symptôme, mais des dégâts progressifs. C'est pourquoi on la dépiste systématiquement, et qu'on la traite même quand le patient se sent bien.",
+  "rationale": "Réduire la PA de 10 mmHg réduit le risque d'AVC d'environ 40% et celui d'infarctus de 25%. Ces chiffres expliquent pourquoi on prend ça au sérieux. Acronymes à retenir : AVC = Accident Vasculaire Cérébral, IDM = Infarctus Du Myocarde (= du cœur).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

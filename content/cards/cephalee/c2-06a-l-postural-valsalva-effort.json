@@ -1,0 +1,18 @@
+{
+  "id": "cephalee-c2-l06-postural-valsalva-effort",
+  "kind": "lesson",
+  "prompt": "Trois autres drapeaux rouges 'mécaniques' qu'il faut connaître, parce qu'ils orientent vers des causes anatomiques précises.\n\n1) CÉPHALÉE ORTHOSTATIQUE\nApparaît ou s'aggrave debout, soulagée par le décubitus.\n→ Évoque une hypotension du LIQUIDE CÉPHALORACHIDIEN (LCR). Causes :\n   • Brèche durale (fuite de LCR), classiquement après ponction lombaire récente, mais aussi spontanée\n   • Ouvre une exploration neurologique : IRM cérébrale avec injection (pachyméningite, descente du tronc cérébral).\n\n2) CÉPHALÉE DÉCLENCHÉE PAR TOUX / VALSALVA / DÉFÉCATION\nApparaît brutalement lors d'une augmentation de la pression intracrânienne par effort à glotte fermée.\n→ Évoque :\n   • Une masse intracrânienne (tumeur, surtout en fosse postérieure)\n   • Une malformation de Chiari (descente des amygdales cérébelleuses dans le trou occipital)\n   • Plus rarement, une 'céphalée primaire de la toux' (diagnostic d'élimination, après imagerie normale)\n\n3) CÉPHALÉE DÉCLENCHÉE PAR L'EFFORT PHYSIQUE\nCéphalée qui apparaît systématiquement à l'effort (course, sport intense, rapport sexuel).\n→ Diagnostics à éliminer :\n   • HSA (surtout au premier épisode et si 'coup de tonnerre')\n   • Dissection artérielle (carotide, vertébrale)\n   • Anévrysme intracrânien\n   • Masse intracrânienne\nLa 'céphalée primaire d'effort' (ou 'primaire d'activité sexuelle') est un diagnostic d'EXCLUSION, après imagerie normale.\n\nPoint commun : ces 3 mécanismes (posture / Valsalva / effort) sondent la pression et l'anatomie intracrânienne. Quand la céphalée est REPRODUCTIBLE par un geste, ce n'est presque jamais une migraine — il faut imager.",
+  "rationale": "À l'inverse, la migraine est aggravée par l'effort de routine MAIS pas déclenchée brutalement par un Valsalva isolé. La nuance entre 'aggravée' (migraine, banale) et 'déclenchée brutalement' (red flag) est cruciale et souvent perdue par les patients à l'interrogatoire — il faut creuser : 'la douleur ARRIVE quand vous toussez, ou elle EMPIRE si vous toussez pendant qu'elle est déjà là ?'",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

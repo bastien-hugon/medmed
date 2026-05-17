@@ -1,0 +1,25 @@
+{
+  "id": "cephalee-c2-q04b-coup-de-tonnerre",
+  "kind": "qcm-vignette",
+  "prompt": "Homme de 45 ans appelle son médecin : il y a 30 minutes, en soulevant un carton, il a ressenti 'comme un coup de marteau sur la nuque', douleur maximale en quelques secondes, persistante, sévère. Il est conscient, sans déficit. Conduite à tenir prioritaire ?",
+  "choices": [
+    { "id": "a", "text": "Paracétamol et réévaluation à 24h", "correct": false },
+    { "id": "b", "text": "Suspecter une migraine sévère et donner un triptan", "correct": false },
+    { "id": "c", "text": "Adresser en urgence pour scanner cérébral sans injection (suspicion d'hémorragie sous-arachnoïdienne)", "correct": true },
+    { "id": "d", "text": "Bilan biologique standard à faire le lendemain", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Tableau classique de céphalée en coup de tonnerre déclenchée par un effort (Valsalva) : intensité maximale en <5 minutes = drapeau rouge majeur. La conduite est l'imagerie en URGENCE pour éliminer une HSA, indépendamment de l'examen neurologique initial qui peut être normal au début. Un triptan ou des antalgiques sans imagerie serait une faute grave.",
+  "tags": {
+    "system": ["neurologie"],
+    "sdd": ["cephalee", "red-flag", "hsa"],
+    "item_edn": [100],
+    "cnge_family": ["urgences"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg150/chapter/Recommendations",
+    "version": "2012 updated 2024"
+  }
+}

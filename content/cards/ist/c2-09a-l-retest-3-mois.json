@@ -1,0 +1,18 @@
+{
+  "id": "ist-c2-l09-retest-3-mois",
+  "kind": "lesson",
+  "prompt": "Après traitement d'une chlamydia (hors grossesse), il faut DEUX choses distinctes :\n\n1) Pas de 'test de guérison' systématique. Sauf doute d'observance, symptômes persistants ou suspicion de réinfection, on NE refait PAS de NAAT chlamydia dans les semaines qui suivent. Pourquoi ? Parce que des fragments d'ADN bactérien NON VIABLES peuvent rester détectables jusqu'à ~4 semaines après traitement → faux positifs.\n\n2) RETEST À 3 MOIS pour TOUS les patients (hommes et femmes), indépendamment du statut du partenaire. Si pas faisable à 3 mois, à la prochaine visite < 12 mois.\n\nPourquoi 3 mois ? La grande majorité des infections détectées dans les mois suivants sont des RÉINFECTIONS (nouveau contact, partenaire non traité, nouveau partenaire), pas des échecs thérapeutiques. La doxycycline 7 j a une efficacité > 95 %.\n\nClé : 'réinfection' n'est pas 'échec'. Une 2ème chlamydia 4 mois après la 1ère = la doxy a marché, mais le patient s'est recontaminé. Renforce le message d'éducation (préservatif, partenaires).",
+  "rationale": "Cette nuance évite deux pièges : (1) sur-prescrire des NAAT précoces qui sortent faussement positifs et inquiètent ; (2) attribuer une réinfection à un 'échec de la doxy' alors que la molécule reste très efficace. Cas spécial grossesse : LÀ on fait un test of cure à 4 semaines (par NAAT) car enjeu transmission néonatale.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["aigues"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.cdc.gov/std/treatment-guidelines/chlamydia.htm",
+    "version": "2021"
+  }
+}

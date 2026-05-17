@@ -1,0 +1,18 @@
+{
+  "id": "ist-c1-l05-ist-virales-chroniques",
+  "kind": "lesson",
+  "prompt": "Certaines IST sont virales et restent à vie dans le corps. On ne les 'guérit' pas — on les contrôle.\n\n• HPV (Human Papillomavirus) — virus très fréquent, souvent éliminé spontanément. Certains types provoquent des verrues génitales (condylomes), d'autres des cancers (col utérin ++, anus, gorge). Vaccin disponible.\n\n• HSV (Herpès Simplex Virus) — provoque des poussées de petites vésicules douloureuses (génitales ou orales). Pas de guérison, mais antiviraux pour calmer les crises.\n\n• VIH — détruit progressivement l'immunité. Antirétroviraux à vie qui transforment la maladie en condition chronique gérable.\n\n• Hépatites B et C — virus qui attaquent le foie. Hépatite B : vaccin disponible. Hépatite C : pas de vaccin, mais traitement curatif moderne (antiviraux directs).\n\nClé : 'chronique' ne veut pas dire 'incontrôlable'. Avec un traitement bien pris, une personne VIH+ vit normalement, n'est plus contagieuse sexuellement, et a une espérance de vie quasi-normale.",
+  "rationale": "Cette catégorie est importante : elle explique pourquoi on insiste autant sur la PRÉVENTION (préservatif, vaccin HPV, vaccin HBV). Une fois infecté, c'est pour la vie — donc autant l'éviter au départ. C'est aussi pour ça que le 'I=I' (Indétectable = Intransmissible) pour le VIH est une révolution : un patient sous traitement efficace ne transmet plus.",
+  "tags": {
+    "system": ["infectieux", "gynecologie-urologie"],
+    "sdd": ["ist"],
+    "item_edn": [162],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/infectious-diseases/sexually-transmitted-infections-stis/overview-of-sexually-transmitted-infections",
+    "version": "2024"
+  }
+}

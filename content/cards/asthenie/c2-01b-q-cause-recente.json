@@ -1,0 +1,25 @@
+{
+  "id": "asthenie-c2-q01b-cause-recente",
+  "kind": "qcm-vignette",
+  "prompt": "Une patiente de 34 ans consulte pour une fatigue installée depuis 3 semaines. Pas d'antécédents notables. Pas de perte de poids, pas de fièvre. Pas de modification thérapeutique récente.\n\nParmi ces causes, laquelle est la PLUS probable à explorer en première intention dans une fatigue RÉCENTE ?",
+  "choices": [
+    { "id": "a", "text": "Syndrome de fatigue chronique (SFC).", "correct": false },
+    { "id": "b", "text": "Encéphalomyélite myalgique.", "correct": false },
+    { "id": "c", "text": "Anémie (notamment par carence martiale).", "correct": true },
+    { "id": "d", "text": "Fatigue post-virale chronique.", "correct": false }
+  ],
+  "expected": ["c"],
+  "rationale": "Devant une fatigue récente (< 1 mois), les trois pistes en priorité sont : iatrogène (médicament récemment ajouté), anémie, et stress/dépression débutante. Chez une femme de 34 ans, la carence martiale (règles abondantes, grossesse récente, régime restrictif) est une cause classique à dépister par une NFS et une ferritine. Le SFC et la fatigue post-virale supposent par définition une durée > 6 mois.",
+  "tags": {
+    "system": ["general"],
+    "sdd": ["asthenie"],
+    "item_edn": [246],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "other",
+    "url": "https://www.msdmanuals.com/professional/special-subjects/nonspecific-symptoms/fatigue",
+    "version": "2024"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hta-c2-l06-classes-antihypertenseurs",
+  "kind": "lesson",
+  "prompt": "Côté médicaments, il y a CINQ grandes familles à connaître. Quatre sont de PREMIÈRE INTENTION, la cinquième (les bêtabloquants) a un statut un peu à part.\n\nLes 4 classes de 1ère intention selon la HAS :\n\n1. DIURÉTIQUES THIAZIDIQUES\n   Action : font uriner plus → baisse du volume sanguin → ↓ Q.\n   Exemples (-thiazide, indapamide, hydrochlorothiazide).\n\n2. INHIBITEURS CALCIQUES (IC)\n   Action : bloquent l'entrée du calcium dans les cellules musculaires des artérioles → relâchement → ↓ R.\n   Exemples : amlodipine, nifédipine (suffixe en -dipine).\n\n3. IEC (Inhibiteurs de l'Enzyme de Conversion)\n   Action : bloquent la fabrication d'angiotensine II → ↓ R + ↓ aldostérone (↓ Q par le rein).\n   Exemples : énalapril, ramipril (suffixe en -pril).\n   Effet indésirable typique : toux sèche.\n\n4. ARA2 (Antagonistes des Récepteurs de l'Angiotensine 2)\n   Action : bloquent le récepteur de l'angiotensine II (au lieu de sa fabrication). Même effet final que les IEC, mais SANS la toux.\n   Exemples : losartan, valsartan, irbésartan (suffixe en -sartan).\n\n5. BÊTABLOQUANTS (BB)\n   Action : ralentissent le cœur et baissent la force de contraction → ↓ Q.\n   Exemples : bisoprolol, aténolol, propranolol (suffixe en -olol).\n   ATTENTION : ils sont MOINS efficaces que les autres classes pour PRÉVENIR l'AVC. La HAS ne les met donc PAS en 1ère intention chez l'hypertendu non compliqué — mais ils restent utiles si comorbidité associée (angor, insuffisance cardiaque, post-infarctus).\n\nLes 4 grandes familles à retenir comme 1ère intention : THIAZIDIQUE — IC — IEC — ARA2.",
+  "rationale": "L'astuce diagnostique : reconnais une classe par le SUFFIXE. -pril = IEC. -sartan = ARA2. -dipine = IC. -olol = bêtabloquant. Pour les thiazidiques c'est moins systématique (hydrochlorothiazide, indapamide). Lien avec C2-01 : on bloque soit Q (diurétiques, bêtabloquants) soit R (IC) soit les deux (IEC/ARA2).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

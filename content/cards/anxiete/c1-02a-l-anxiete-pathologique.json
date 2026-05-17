@@ -1,0 +1,18 @@
+{
+  "id": "anxiete-c1-l02-anxiete-pathologique",
+  "kind": "lesson",
+  "prompt": "Quand est-ce que l'anxiété devient un PROBLÈME médical ?\n\nTrois critères, à retenir comme un trépied :\n\n• DISPROPORTIONNÉE — la peur est bien plus grande que le danger réel (ton voisin a une grippe → tu es persuadé(e) d'attraper un cancer).\n\n• PERSISTANTE — ça ne passe pas après quelques heures ou jours. Ça dure des semaines, des mois.\n\n• ENVAHISSANTE — ça empêche de vivre normalement : sommeil pourri, concentration impossible, évitement des situations, retentissement au travail ou dans les relations.\n\nC'est le moment où le système d'alarme dont on parlait est devenu DÉTRAQUÉ : il sonne sans cesse, pour rien, et empêche de fonctionner. On parle alors de TROUBLE ANXIEUX.",
+  "rationale": "Le trépied disproportion/persistance/retentissement est le filtre clinique de base. Un patient qui dit 'je suis stressé' n'a pas forcément un trouble anxieux — il faut vérifier ces trois axes. Note : le retentissement fonctionnel est souvent ce qui décide d'agir, plus que l'intensité ressentie seule.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

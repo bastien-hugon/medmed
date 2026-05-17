@@ -1,0 +1,18 @@
+{
+  "id": "depression-c1-l07-depression-maladie-traitable",
+  "kind": "lesson",
+  "prompt": "Une idée à graver dans la tête, pour soi et pour ses patients : la DÉPRESSION EST UNE MALADIE TRAITABLE.\n\nCe n'est pas un défaut de caractère. Ce n'est pas \"de la fainéantise\". Ce n'est pas \"un manque de volonté\". Ce n'est pas une \"déprime passagère\" qu'il faudrait \"chasser en se secouant\".\n\nC'est une maladie du cerveau, comme l'asthme est une maladie du poumon ou le diabète une maladie du pancréas. Et comme l'asthme ou le diabète, elle se SOIGNE.\n\nDeux grandes familles de traitements, qui marchent toutes les deux (et souvent mieux ensemble) :\n• La PSYCHOTHÉRAPIE — apprendre à reconnaître et modifier les pensées et les comportements qui entretiennent la dépression.\n• Les MÉDICAMENTS ANTIDÉPRESSEURS — corriger le déséquilibre chimique dans le cerveau.\n\nLe pronostic est bon : 70-80 % des dépressions traitées guérissent ou s'améliorent franchement.\n\nLe vrai problème ? La moitié des dépressions ne sont jamais diagnostiquées, parce que :\n• Le patient n'ose pas en parler (\"je vais paraître faible\")\n• Le médecin n'ose pas creuser (\"ça va passer\")\n• L'entourage minimise (\"secoue-toi\")\n\nLe rôle du MG : reconnaître, nommer, dédramatiser, proposer un traitement.",
+  "rationale": "Cette carte est un \"point d'ancrage déstigmatisant\". À répéter aux patients : la dépression est aussi médicale que le diabète. Refuser de la traiter par crainte de la médicalisation, c'est comme refuser d'utiliser de l'insuline pour ne pas \"se rendre dépendant\". La déstigmatisation est aussi importante que la prescription. NICE et HAS insistent sur la psychoéducation comme pilier du traitement.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80],
+    "cnge_family": ["psychiatrie"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}

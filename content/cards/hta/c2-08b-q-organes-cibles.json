@@ -1,0 +1,25 @@
+{
+  "id": "hta-c2-q08-organes-cibles",
+  "kind": "qcm-vignette",
+  "prompt": "Parmi ces complications, laquelle N'EST PAS classiquement considérée comme une atteinte d'organe cible dans l'HTA ?",
+  "choices": [
+    {"id": "a", "text": "AVC ischémique ou hémorragique", "correct": false},
+    {"id": "b", "text": "Hypertrophie ventriculaire gauche", "correct": false},
+    {"id": "c", "text": "Néphroangiosclérose / insuffisance rénale chronique", "correct": false},
+    {"id": "d", "text": "Hépatite cytolytique aiguë", "correct": true}
+  ],
+  "expected": ["d"],
+  "rationale": "Les 4 organes cibles classiques de l'HTA : cerveau (AVC, démence), cœur (HVG, IC, coronaropathie), reins (néphroangiosclérose, IRC, protéinurie), yeux (rétinopathie). Le foie n'est PAS un organe cible de l'HTA. Une hépatite aiguë évoque autre chose (médicamenteuse, virale, etc.).",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

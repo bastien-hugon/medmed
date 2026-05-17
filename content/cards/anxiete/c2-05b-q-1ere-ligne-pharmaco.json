@@ -1,0 +1,25 @@
+{
+  "id": "anxiete-c2-q05-1ere-ligne-pharmaco",
+  "kind": "qcm-vignette",
+  "prompt": "Mme R., 45 ans, présente un TAG modéré (GAD-7 = 13) confirmé après bilan. Elle refuse la psychothérapie (pas le temps, pas le budget) et demande 'un médicament pour aller mieux'. Selon NICE, quelle molécule prescrire en 1ère intention ?",
+  "choices": [
+    { "id": "a", "text": "Alprazolam (benzodiazépine), à prendre au long cours", "correct": false },
+    { "id": "b", "text": "Sertraline (SSRI), à prendre au quotidien pendant plusieurs mois", "correct": true },
+    { "id": "c", "text": "Hydroxyzine (antihistaminique), à la demande pour les crises", "correct": false },
+    { "id": "d", "text": "Prégabaline en 1ère intention pour un effet rapide", "correct": false }
+  ],
+  "expected": ["b"],
+  "rationale": "NICE est explicite : SSRI en 1ère ligne pharmacologique du TAG, sertraline préférée (cost-effective). Les benzodiazépines comme l'alprazolam NE doivent PAS être prescrites au long cours pour un TAG (uniquement en court terme en crise — voir carte suivante). La prégabaline est réservée à la 3ème ligne (si SSRI et SNRI intolérés). L'hydroxyzine n'est pas recommandée par NICE en traitement de fond (parfois utilisée en France hors recommandation NICE).",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["anxiete"],
+    "item_edn": [64],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/cg113/chapter/Recommendations",
+    "version": "2011 partial updates"
+  }
+}

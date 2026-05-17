@@ -1,0 +1,18 @@
+{
+  "id": "hta-c2-l10-hta-resistante",
+  "kind": "lesson",
+  "prompt": "Que faire quand on a essayé 3 médicaments à pleine dose et que la PA ne se contrôle toujours pas ? On parle alors d'HTA RÉSISTANTE.\n\nDéfinition HAS : PA non contrôlée malgré les RHD + une TRITHÉRAPIE comportant :\n• Un bloqueur du SRAA (IEC ou ARA2)\n• Un inhibiteur calcique\n• Un diurétique thiazidique à dose optimale\n\nAvant de tout chambouler, on fait 4 vérifications obligatoires :\n\n1. OBSERVANCE : le patient prend-il VRAIMENT ses médicaments tous les jours ? (Cause n°1 de pseudo-résistance.)\n\n2. APPORT EN SEL : natriurèse des 24 h. Si > 200 mmol/j, le patient sale trop. Inutile d'ajouter un médicament tant que le sel n'est pas réduit.\n\n3. FACTEURS AGGRAVANTS : alcool excessif, AINS, corticoïdes, vasoconstricteurs nasaux, réglisse, cocaïne/cannabis, SAHOS (Syndrome d'Apnée du Sommeil), dépression non traitée.\n\n4. HTA SECONDAIRE : a-t-on bien éliminé une cause curable (hyperaldostéronisme primaire, sténose d'artère rénale, phéochromocytome, etc.) ? Avis spécialiste en général nécessaire.\n\nUne fois ces vérifications faites, et chez un patient < 80 ans sans IRC sévère (DFG ≥ 30), la HAS recommande d'AJOUTER un 4ème médicament : la SPIRONOLACTONE 12,5 à 50 mg/j.\n\nLa spironolactone est un anti-aldostérone (bloque le récepteur de l'aldostérone au niveau du rein → diurétique épargneur de potassium). Si elle est contre-indiquée (DFG < 30, hyperkaliémie), on utilise alors un bêtabloquant en 4e ligne.",
+  "rationale": "Mnémo des 4 vérifs avant de parler de résistance : 'OSER+S' = Observance, Sel, Facteurs aggravants, Secondaire. Surveillance sous spironolactone : kaliémie (risque hyperkaliémie+++, surtout associée à un IEC/ARA2) et créatinine. Effets indésirables sexuels possibles chez l'homme (gynécomastie). Diriger vers un spécialiste avant la 4e ligne si possible.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

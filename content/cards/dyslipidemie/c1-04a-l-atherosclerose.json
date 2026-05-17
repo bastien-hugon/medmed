@@ -1,0 +1,18 @@
+{
+  "id": "dyslipidemie-c1-l04-atherosclerose",
+  "kind": "lesson",
+  "prompt": "Reprenons l'image du tuyau d'arrosage de l'HTA — l'artère, c'est un tuyau dans lequel passe le sang.\n\nQuand il y a trop de LDL ('mauvais cholestérol') dans le sang pendant des années, voici ce qu'il se passe :\n\n1. Le LDL pénètre dans la paroi du tuyau (l'intérieur de l'artère).\n2. Le corps réagit comme s'il y avait un envahisseur — des globules blancs viennent, gobent le cholestérol, et s'accumulent.\n3. Petit à petit, ça forme un dépôt graisseux dans la paroi : une PLAQUE D'ATHÉROME (ou plaque d'athérosclérose).\n4. La paroi s'épaissit, durcit (sclérose = durcissement). Le tuyau perd sa souplesse et SE RÉTRÉCIT de l'intérieur.\n\nC'est ça, l'ATHÉROSCLÉROSE : un encrassement progressif des artères par des plaques de graisse + tissu durci.\n\nPourquoi c'est un problème ?\nUne artère rétrécie, c'est moins de sang qui passe pour irriguer les organes. Selon l'artère touchée :\n• Artères du cœur (coronaires) → angine de poitrine, infarctus.\n• Artères du cerveau (carotides) → AVC, AIT.\n• Artères des jambes → artériopathie, douleurs à la marche.\n\nL'athérosclérose se développe pendant des décennies, en SILENCE. Le patient ne sent rien — jusqu'au jour où une plaque se rompt (on verra ça après).",
+  "rationale": "Mot par mot : 'athéro' (du grec athera = bouillie, pâte) + 'sclérose' (durcissement). Donc 'plaque de bouillie qui durcit dans l'artère'. C'est LE substrat physiopathologique de toutes les maladies cardiovasculaires liées au cholestérol. Réduire le LDL ralentit (et parfois fait régresser) ces plaques — c'est tout l'intérêt des statines.",
+  "tags": {
+    "system": ["cardiovasculaire", "metabolisme"],
+    "sdd": ["dyslipidemie"],
+    "item_edn": [222],
+    "cnge_family": ["prevention"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng238/chapter/Recommendations",
+    "version": "2023"
+  }
+}

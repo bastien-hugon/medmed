@@ -1,0 +1,25 @@
+{
+  "id": "hta-c1-q12-hta-silencieuse",
+  "kind": "qcm-vignette",
+  "prompt": "Un patient de 55 ans en pleine forme te dit : 'Je n'ai jamais mal à la tête, je n'ai aucun symptôme, donc inutile de vérifier ma tension.' Que lui réponds-tu ?",
+  "choices": [
+    {"id": "a", "text": "Il a raison : pas de symptômes, pas besoin de dépistage", "correct": false},
+    {"id": "b", "text": "L'HTA est le plus souvent silencieuse — on peut être hypertendu sans rien ressentir, d'où l'intérêt du dépistage systématique", "correct": true},
+    {"id": "c", "text": "L'absence de maux de tête garantit une PA normale", "correct": false},
+    {"id": "d", "text": "Seuls les patients qui saignent du nez doivent être dépistés", "correct": false}
+  ],
+  "expected": ["b"],
+  "rationale": "L'HTA est asymptomatique dans la grande majorité des cas. C'est même son piège principal : elle abîme les organes en silence pendant des années avant de se révéler par une complication (AVC, infarctus, IRC). D'où le dépistage opportuniste à chaque consultation médicale de l'adulte recommandé par la HAS.",
+  "tags": {
+    "system": ["cardiovasculaire"],
+    "sdd": ["HTA"],
+    "item_edn": [224],
+    "cnge_family": ["fondations"]
+  },
+  "difficulty": 1,
+  "source": {
+    "kind": "HAS",
+    "url": "https://www.has-sante.fr/jcms/c_2059286/fr/prise-en-charge-de-l-hypertension-arterielle-de-l-adulte",
+    "version": "2016 - mise à jour 2024"
+  }
+}

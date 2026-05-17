@@ -1,0 +1,19 @@
+{
+  "id": "depression-c2-q08-duree-traitement",
+  "kind": "cloze",
+  "prompt": "Selon NICE 2022, un antidépresseur doit être poursuivi pendant au moins ___ mois APRÈS l'obtention de la rémission.",
+  "expected": ["6"],
+  "rationale": "6 mois POST-rémission, pas 6 mois au total. Cette phase \"de consolidation\" réduit drastiquement le risque de rechute précoce. La durée totale est donc typiquement 9-12 mois (3-6 mois pour atteindre la rémission + 6 mois post-rémission). Plus si épisodes récurrents ou facteurs de risque.",
+  "tags": {
+    "system": ["psychiatrie"],
+    "sdd": ["depression"],
+    "item_edn": [64, 80, 74],
+    "cnge_family": ["chroniques"]
+  },
+  "difficulty": 2,
+  "source": {
+    "kind": "NICE",
+    "url": "https://www.nice.org.uk/guidance/ng222/chapter/Recommendations",
+    "version": "2022"
+  }
+}
