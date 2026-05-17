@@ -78,6 +78,14 @@ export default async function DashboardPage() {
               Entraînement <span className="ml-1 text-zinc-400">({drillAvailable} dispo)</span>
             </Link>
           )}
+          {canDrill && (
+            <Link
+              href="/library"
+              className="inline-flex items-center justify-center rounded-xl border border-zinc-300 bg-white px-5 py-2.5 text-sm font-medium text-zinc-800 transition hover:border-zinc-500 hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-200 dark:hover:border-zinc-500 dark:hover:bg-zinc-900"
+            >
+              Bibliothèque
+            </Link>
+          )}
         </div>
         {!hasContent && (
           <p className="mt-3 text-xs text-zinc-500 dark:text-zinc-400">

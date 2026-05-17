@@ -58,6 +58,14 @@ export async function getNote(cardId: string): Promise<LessonNote | null> {
   };
 }
 
+// Index rapide des cartes ayant une note (pour le filtre "Notes seules" sans
+// charger le contenu complet de chaque note).
+export async function getNotesIndex(): Promise<Set<string>> {
+  const sql = db();
+  const rows = (await sql`SELECT card_id FROM lesson_notes`) as Array<{ card_id: string }>;
+  return new Set(rows.map((r) => r.card_id));
+}
+
 export async function saveNote(
   cardId: string,
   content: string,

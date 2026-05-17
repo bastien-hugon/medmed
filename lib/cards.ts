@@ -299,6 +299,86 @@ export async function pickSessionBatch(
   return capped.slice(0, target);
 }
 
+// ---------------- Library (mode lecture, indépendant des sessions FSRS) -----
+
+export type LibraryTopic = {
+  topic: string;
+  totalLessons: number;
+  introducedLessons: number;
+};
+
+// Liste les topics ayant ≥ 1 lesson introduite (= déjà vue en session).
+// Sert d'index pour la page /library.
+export async function getLibraryTopics(): Promise<LibraryTopic[]> {
+  const sql = db();
+  const rows = (await sql`
+    SELECT
+      (c.tags->'sdd'->>0) AS topic,
+      COUNT(*) FILTER (WHERE c.kind = 'lesson')::int AS total_lessons,
+      COUNT(*) FILTER (WHERE c.kind = 'lesson' AND f.card_id IS NOT NULL)::int AS introduced_lessons
+    FROM cards c
+    LEFT JOIN fsrs_state f ON f.card_id = c.id
+    WHERE c.status = 'active'
+    GROUP BY topic
+    HAVING COUNT(*) FILTER (WHERE c.kind = 'lesson' AND f.card_id IS NOT NULL) >= 1
+    ORDER BY topic
+  `) as Array<{ topic: string | null; total_lessons: number; introduced_lessons: number }>;
+  return rows
+    .filter((r) => r.topic !== null)
+    .map((r) => ({
+      topic: r.topic as string,
+      totalLessons: r.total_lessons,
+      introducedLessons: r.introduced_lessons,
+    }));
+}
+
+export type LibraryLessonRow = {
+  id: string;
+  prompt: string;
+  rationale: string;
+  source: Card["source"];
+  tags: Card["tags"];
+  difficulty: 1 | 2 | 3;
+  media: import("./schemas").Media[] | null;
+  introduced: boolean;
+};
+
+// Lessons d'un topic donné, avec le flag "introduced" pour griser les non-vues.
+export async function getLibraryLessons(topic: string): Promise<LibraryLessonRow[]> {
+  const sql = db();
+  return (await sql`
+    SELECT
+      c.id, c.prompt, c.rationale, c.source, c.tags, c.difficulty, c.media,
+      (f.card_id IS NOT NULL) AS introduced
+    FROM cards c
+    LEFT JOIN fsrs_state f ON f.card_id = c.id
+    WHERE c.status = 'active'
+      AND c.kind = 'lesson'
+      AND (c.tags->'sdd'->>0) = ${topic}
+    ORDER BY c.created_at ASC, c.id ASC
+  `) as unknown as LibraryLessonRow[];
+}
+
+// Lesson individuelle pour la page lecture. Renvoie null si la lesson n'existe
+// pas, n'est pas active, n'est pas une lesson, ou n'a jamais été introduite
+// (= gating par fsrs_state).
+export async function getLibraryLesson(cardId: string): Promise<LibraryLessonRow | null> {
+  const sql = db();
+  const rows = (await sql`
+    SELECT
+      c.id, c.prompt, c.rationale, c.source, c.tags, c.difficulty, c.media,
+      (f.card_id IS NOT NULL) AS introduced
+    FROM cards c
+    LEFT JOIN fsrs_state f ON f.card_id = c.id
+    WHERE c.id = ${cardId}
+      AND c.status = 'active'
+      AND c.kind = 'lesson'
+  `) as unknown as LibraryLessonRow[];
+  const r = rows[0];
+  if (!r || !r.introduced) return null;
+  return r;
+}
+
 export async function getFsrsState(cardId: string): Promise<unknown | null> {
   const sql = db();
   const rows = (await sql`SELECT state FROM fsrs_state WHERE card_id = ${cardId}`) as Array<{
