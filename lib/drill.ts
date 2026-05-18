@@ -2,32 +2,57 @@ import { randomUUID } from "node:crypto";
 import { db } from "./db";
 import type { CardRow } from "./cards";
 
-// Topic dérivé du tag sdd[0] côté DB (matche la query topicsAvailable).
+// Topic dérivé du tag sdd[0]. Le drill ne sert QUE les concepts déjà vus
+// (= concept_key avec au moins 1 carte introduite, lesson ou quiz).
+// Champs :
+//   - drilable : cartes non-lesson dont le concept a été touché → pool drill réel
+//   - introduced : cartes non-lesson déjà passées en fsrs_state (sous-ensemble)
+//   - total : cartes non-lesson totales du topic (info contextuelle)
 export type DrillTopic = {
   topic: string;
-  introduced: number; // nb de cartes non-lesson déjà introduites
+  drilable: number;
+  introduced: number;
+  total: number;
 };
 
-// Renvoie les topics ayant ≥ 1 carte non-lesson déjà introduite (= dans fsrs_state).
-// Sert au sélecteur de la page /drill.
 export async function getDrillTopics(): Promise<DrillTopic[]> {
   const sql = db();
   const rows = (await sql`
+    WITH seen_concepts AS (
+      SELECT DISTINCT c.concept_key
+      FROM cards c
+      JOIN fsrs_state f ON f.card_id = c.id
+      WHERE c.status = 'active' AND c.concept_key IS NOT NULL
+    )
     SELECT
       (c.tags->'sdd'->>0) AS topic,
-      COUNT(*)::int AS introduced
+      COUNT(*) FILTER (
+        WHERE c.kind != 'lesson'
+          AND c.concept_key IS NOT NULL
+          AND c.concept_key IN (SELECT concept_key FROM seen_concepts)
+      )::int AS drilable,
+      COUNT(f.card_id) FILTER (WHERE c.kind != 'lesson')::int AS introduced,
+      COUNT(*) FILTER (WHERE c.kind != 'lesson')::int AS total
     FROM cards c
-    JOIN fsrs_state f ON f.card_id = c.id
-    WHERE c.status = 'active' AND c.kind != 'lesson'
+    LEFT JOIN fsrs_state f ON f.card_id = c.id
+    WHERE c.status = 'active'
     GROUP BY topic
-    HAVING COUNT(*) > 0
+    HAVING COUNT(*) FILTER (
+      WHERE c.kind != 'lesson'
+        AND c.concept_key IS NOT NULL
+        AND c.concept_key IN (SELECT concept_key FROM seen_concepts)
+    ) > 0
     ORDER BY topic
-  `) as Array<{ topic: string; introduced: number }>;
+  `) as Array<{ topic: string; drilable: number; introduced: number; total: number }>;
   return rows.filter((r) => r.topic !== null);
 }
 
-// Pick aléatoire de N cartes parmi les topics sélectionnés, déjà introduites.
-// Exclut les lessons (le mode drill teste, ne lit pas).
+// Pick N cartes non-lesson au hasard parmi les CONCEPTS DÉJÀ VUS (= dont au moins
+// une carte est dans fsrs_state) pour les topics sélectionnés.
+// Une carte est "drilable" si son concept_key est dans le set des concepts vus —
+// pas besoin que la carte elle-même soit introduite, tant que son concept l'est.
+// Ça étend naturellement le pool (toutes les questions liées à un concept déjà
+// abordé deviennent dispo) sans déborder sur des concepts pas encore touchés.
 export async function pickDrillBatch(
   topics: string[],
   limit: number = 15,
@@ -35,11 +60,19 @@ export async function pickDrillBatch(
   if (topics.length === 0) return [];
   const sql = db();
   return (await sql`
+    WITH seen_concepts AS (
+      SELECT DISTINCT c.concept_key
+      FROM cards c
+      JOIN fsrs_state f ON f.card_id = c.id
+      WHERE c.status = 'active' AND c.concept_key IS NOT NULL
+    )
     SELECT c.*, f.due, f.last_reviewed
     FROM cards c
-    JOIN fsrs_state f ON f.card_id = c.id
+    LEFT JOIN fsrs_state f ON f.card_id = c.id
     WHERE c.status = 'active'
       AND c.kind != 'lesson'
+      AND c.concept_key IS NOT NULL
+      AND c.concept_key IN (SELECT concept_key FROM seen_concepts)
       AND (c.tags->'sdd'->>0) = ANY(${topics}::text[])
     ORDER BY random()
     LIMIT ${limit}

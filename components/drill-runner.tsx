@@ -140,7 +140,7 @@ function SelectPhase({
 
   const totalAvailable = topics
     .filter((t) => selected.has(t.topic))
-    .reduce((s, t) => s + t.introduced, 0);
+    .reduce((s, t) => s + t.drilable, 0);
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col gap-6 px-6 py-10">
@@ -150,8 +150,9 @@ function SelectPhase({
         </p>
         <h1 className="text-2xl font-semibold">Quels topics veux-tu drill ?</h1>
         <p className="text-sm text-zinc-500 dark:text-zinc-400">
-          On pioche {DRILL_LIMIT} questions au hasard parmi les cartes déjà introduites. Aucun
-          impact sur ton apprentissage (pas de mise à jour FSRS).
+          On pioche {DRILL_LIMIT} questions au hasard parmi les concepts que tu as déjà
+          abordés (lessons + quizzes vus). Aucun impact sur ton apprentissage (pas de mise
+          à jour FSRS).
         </p>
       </header>
 
@@ -178,7 +179,12 @@ function SelectPhase({
                 <span className="text-sm font-medium">{label}</span>
               </span>
               <span className="text-xs text-zinc-500 dark:text-zinc-400">
-                {t.introduced} question{t.introduced > 1 ? "s" : ""} dispo
+                {t.drilable} question{t.drilable > 1 ? "s" : ""} dispo
+                {t.drilable < t.total ? (
+                  <span className="ml-1 text-zinc-400">
+                    sur {t.total}
+                  </span>
+                ) : null}
               </span>
             </label>
           );

@@ -28,7 +28,7 @@ export default async function DashboardPage() {
 
   const hasContent = active > 0;
   const canDrill = drillTopics.length > 0;
-  const drillAvailable = drillTopics.reduce((s, t) => s + t.introduced, 0);
+  const drillAvailable = drillTopics.reduce((s, t) => s + t.drilable, 0);
   const introducedTopics = topicStates.filter((t) => t.totalIntroduced > 0);
   const accuracy =
     stats.cards_gradeable > 0

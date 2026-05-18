@@ -10,6 +10,7 @@
     "db:migrate": "tsx db/migrate.ts",
     "db:seed": "tsx db/seed.ts",
     "db:clear-cards": "tsx db/clear-cards.ts",
+    "db:backfill-concept-key": "tsx db/backfill-concept-key.ts",
     "cards:approve": "tsx db/approve.ts"
   },
   "dependencies": {
